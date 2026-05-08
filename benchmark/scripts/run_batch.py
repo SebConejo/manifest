@@ -444,8 +444,9 @@ def call_openai_responses(model, messages, max_tokens):
     try:
         resp = req.post(url, json=body, headers=headers, timeout=300)
         data = resp.json()
-        if "error" in data:
-            return {"error": data["error"].get("message", str(data["error"])) if isinstance(data["error"], dict) else str(data["error"])}
+        if data.get("error"):
+            err = data["error"]
+            return {"error": err.get("message", str(err)) if isinstance(err, dict) else str(err)}
         # Extract response text from Responses API format
         content = ""
         usage = {"prompt_tokens": 0, "completion_tokens": 0}
