@@ -2,12 +2,12 @@
   "model": "o3",
   "task": "code_generation",
   "case": 22,
-  "response": "balance = 0\n    for ch in brackets:\n        if ch == '<':\n            balance += 1\n        else:  # ch == '>'\n            balance -= 1\n            if balance < 0:\n                return False\n    return balance == 0",
+  "response": "balance = 0\n    for ch in brackets:\n        if ch == '<':\n            balance += 1\n        elif ch == '>':\n            balance -= 1\n            if balance < 0:     # a closing bracket without matching opening\n                return False\n    return balance == 0",
   "score": 5,
-  "cost": 0.001864,
+  "cost": 0.0014,
   "expected": "",
   "tokens": {
     "input": 124,
-    "output": 202
+    "output": 144
   }
 }

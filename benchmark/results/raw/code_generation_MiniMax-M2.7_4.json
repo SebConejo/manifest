@@ -2,12 +2,12 @@
   "model": "MiniMax-M2.7",
   "task": "code_generation",
   "case": 4,
-  "response": "if len(l) <= 1:\n        return True\n    increasing = decreasing = True\n    for i in range(1, len(l)):\n        if l[i] > l[i - 1]:\n            decreasing = False\n        elif l[i] < l[i - 1]:\n            increasing = False\n        if not increasing and not decreasing:\n            return False\n    return True",
-  "score": 5,
-  "cost": 0.0031064000000000005,
+  "response": "\"\"\"Return True is list elements are monotonically increasing or decreasing.\n    >>> monotonic([1, 2, 4, 20])\n    True\n    >>> monotonic([1, 20, 4, 10])\n    False\n    >>> monotonic([4, 1, 0, -10])\n    True\n    \"\"\"\n    if len(l) <= 1:\n        return True\n    direction = None\n    for i in range(len(l) - 1):\n        diff = l[i + 1] - l[i]\n        if diff == 0:\n            continue\n        if direction is None:\n            direction = 1 if diff > 0 else -1\n        elif diff * direction < 0:\n            return False\n    return True",
+  "score": 4,
+  "cost": 0.008492,
   "expected": "",
   "tokens": {
     "input": 128,
-    "output": 674
+    "output": 1898
   }
 }

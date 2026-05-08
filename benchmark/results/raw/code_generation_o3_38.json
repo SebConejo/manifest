@@ -2,12 +2,12 @@
   "model": "o3",
   "task": "code_generation",
   "case": 38,
-  "response": "largest_neg = None\n    smallest_pos = None\n\n    for num in lst:\n        if num < 0:\n            if (largest_neg is None) or (num > largest_neg):\n                largest_neg = num\n        elif num > 0:\n            if (smallest_pos is None) or (num < smallest_pos):\n                smallest_pos = num\n\n    return (largest_neg, smallest_pos)",
-  "score": 4,
-  "cost": 0.002186,
+  "response": "negatives = [x for x in lst if x < 0]\n    positives = [x for x in lst if x > 0]\n\n    largest_negative = max(negatives) if negatives else None\n    smallest_positive = min(positives) if positives else None\n\n    return (largest_negative, smallest_positive)",
+  "score": 5,
+  "cost": 0.002562,
   "expected": "",
   "tokens": {
     "input": 173,
-    "output": 230
+    "output": 277
   }
 }

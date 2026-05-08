@@ -2,12 +2,12 @@
   "model": "o3",
   "task": "code_generation",
   "case": 17,
-  "response": "import hashlib\n    if text == '':\n        return None\n    md5_hash = hashlib.md5(text.encode('utf-8')).hexdigest()\n    return md5_hash",
-  "score": 4,
-  "cost": 0.003206,
+  "response": "if text == '':\n        return None\n    import hashlib\n    return hashlib.md5(text.encode('utf-8')).hexdigest()",
+  "score": 5,
+  "cost": 0.001086,
   "expected": "",
   "tokens": {
     "input": 107,
-    "output": 374
+    "output": 109
   }
 }

@@ -4,10 +4,10 @@
   "case": 48,
   "response": "return text == text[::-1]",
   "score": 5,
-  "cost": 0.00023751,
+  "cost": 0.00025491,
   "expected": "",
   "tokens": {
     "input": 106,
-    "output": 110
+    "output": 120
   }
 }

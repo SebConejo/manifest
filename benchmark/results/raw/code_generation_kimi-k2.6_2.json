@@ -1,0 +1,13 @@
+{
+  "model": "kimi-k2.6",
+  "task": "code_generation",
+  "case": 2,
+  "response": "s = sorted(lst)\n    res = []\n    left, right = 0, len(s) - 1\n    while left <= right:\n        res.append(s[left])\n        if left != right:\n            res.append(s[right])\n        left += 1\n        right -= 1\n    return res",
+  "score": 4,
+  "cost": 0.005097600000000001,
+  "expected": "",
+  "tokens": {
+    "input": 156,
+    "output": 2085
+  }
+}

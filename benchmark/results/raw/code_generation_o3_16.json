@@ -1,0 +1,13 @@
+{
+  "model": "o3",
+  "task": "code_generation",
+  "case": 16,
+  "response": "n = len(grid)\n    # Find the position of value 1 (smallest possible start)\n    for i in range(n):\n        for j in range(n):\n            if grid[i][j] == 1:\n                x, y = i, j\n                break\n        else:\n            continue\n        break\n\n    path = [1]\n    if k == 1:\n        return path\n\n    dirs = [(-1, 0), (1, 0), (0, -1), (0, 1)]\n\n    for _ in range(k - 1):\n        min_val = float('inf')\n        nx = ny = None\n        for dx, dy in dirs:\n            tx, ty = x + dx, y + dy\n            if 0 <= tx < n and 0 <= ty < n:\n                v = grid[tx][ty]\n                if v < min_val:\n                    min_val = v\n                    nx, ny = tx, ty\n        x, y = nx, ny\n        path.append(min_val)\n\n    return path",
+  "score": 4,
+  "cost": 0.024798,
+  "expected": "",
+  "tokens": {
+    "input": 427,
+    "output": 2993
+  }
+}

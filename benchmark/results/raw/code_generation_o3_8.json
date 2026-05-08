@@ -2,7 +2,7 @@
   "model": "o3",
   "task": "code_generation",
   "case": 8,
-  "response": "return [x for x in values if isinstance(x, int) and not isinstance(x, bool)]",
+  "response": "return [v for v in values if isinstance(v, int) and not isinstance(v, bool)]",
   "score": 5,
   "cost": 0.002098,
   "expected": "",

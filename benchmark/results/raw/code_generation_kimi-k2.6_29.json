@@ -1,0 +1,13 @@
+{
+  "model": "kimi-k2.6",
+  "task": "code_generation",
+  "case": 29,
+  "response": "return sorted(nums, key=lambda x: sum(int(d) for d in str(abs(x))))",
+  "score": 4,
+  "cost": 0.0139746,
+  "expected": "",
+  "tokens": {
+    "input": 147,
+    "output": 5786
+  }
+}

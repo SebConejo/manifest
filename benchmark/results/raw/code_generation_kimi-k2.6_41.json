@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "code_generation",
   "case": 41,
-  "response": "res = l[:]\n    res[::3] = sorted(l[::3])\n    return res",
+  "response": "res = list(l)\nsorted_vals = sorted(res[i] for i in range(0, len(res), 3))\nfor i, val in zip(range(0, len(res), 3), sorted_vals):\n    res[i] = val\nreturn res",
   "score": 4,
-  "cost": 0.0042678,
+  "cost": 0.0027917999999999997,
   "expected": "",
   "tokens": {
     "input": 185,
-    "output": 1732
+    "output": 1117
   }
 }

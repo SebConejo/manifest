@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "code_generation",
   "case": 39,
-  "response": "if x == 0:\n    return \"0\"\ndigits = []\nwhile x > 0:\n    digits.append(str(x % base))\n    x //= base\nreturn ''.join(reversed(digits))",
+  "response": "if x == 0:\n        return \"0\"\n    digits = []\n    while x > 0:\n        digits.append(str(x % base))\n        x //= base\n    return ''.join(reversed(digits))",
   "score": 5,
-  "cost": 0.00050286,
+  "cost": 0.00059508,
   "expected": "",
   "tokens": {
     "input": 120,
-    "output": 259
+    "output": 312
   }
 }

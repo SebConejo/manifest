@@ -1,0 +1,13 @@
+{
+  "model": "deepseek/deepseek-v4-pro",
+  "task": "code_generation",
+  "case": 40,
+  "response": "a = abs(a)\n    low, high = 0, a\n    while low <= high:\n        mid = (low + high) // 2\n        cube = mid * mid * mid\n        if cube == a:\n            return True\n        elif cube < a:\n            low = mid + 1\n        else:\n            high = mid - 1\n    return False",
+  "score": 4,
+  "cost": 0.001718685,
+  "expected": "",
+  "tokens": {
+    "input": 139,
+    "output": 953
+  }
+}

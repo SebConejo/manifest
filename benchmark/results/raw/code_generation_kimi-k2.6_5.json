@@ -4,10 +4,10 @@
   "case": 5,
   "response": "return max(l)",
   "score": 5,
-  "cost": 0.00105,
+  "cost": 0.0007451999999999999,
   "expected": "",
   "tokens": {
     "input": 114,
-    "output": 409
+    "output": 282
   }
 }

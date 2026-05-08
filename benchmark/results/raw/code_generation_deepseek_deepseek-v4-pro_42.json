@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "code_generation",
   "case": 42,
-  "response": "```python\nif n > m:\n    return -1\ntotal = (n + m) * (m - n + 1) // 2\ncount = m - n + 1\navg = total / count\nrounded = round(avg)\nreturn bin(rounded)\n```",
+  "response": "if n > m:\n        return -1\n    total = (n + m) * (m - n + 1) // 2\n    count = m - n + 1\n    avg = total / count\n    rounded = round(avg)\n    return bin(rounded)",
   "score": 4,
-  "cost": 0.00105879,
+  "cost": 0.0012032100000000001,
   "expected": "",
   "tokens": {
     "input": 174,
-    "output": 565
+    "output": 648
   }
 }

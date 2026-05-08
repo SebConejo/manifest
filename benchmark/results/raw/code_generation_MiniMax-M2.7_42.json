@@ -1,0 +1,13 @@
+{
+  "model": "MiniMax-M2.7",
+  "task": "code_generation",
+  "case": 42,
+  "response": "if n > m:\n    return -1\nreturn bin(round((n + m) / 2))",
+  "score": 3,
+  "cost": 0.007355700000000001,
+  "expected": "",
+  "tokens": {
+    "input": 203,
+    "output": 1621
+  }
+}

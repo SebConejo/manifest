@@ -2,12 +2,12 @@
   "model": "MiniMax-M2.7",
   "task": "code_generation",
   "case": 36,
-  "response": "for i in range(n // 2, 0, -1):\n        if n % i == 0:\n            return i\n    return 0",
-  "score": 5,
-  "cost": 0.0033286000000000006,
+  "response": "if n <= 1:\n    return 0\nlimit = int(n**0.5)\nfor i in range(2, limit + 1):\n    if n % i == 0:\n        return n // i\nreturn 1",
+  "score": 3,
+  "cost": 0.0052085,
   "expected": "",
   "tokens": {
-    "input": 118,
-    "output": 727
+    "input": 115,
+    "output": 1155
   }
 }

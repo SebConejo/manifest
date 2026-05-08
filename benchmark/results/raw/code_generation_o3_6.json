@@ -2,12 +2,12 @@
   "model": "o3",
   "task": "code_generation",
   "case": 6,
-  "response": "counts = {}\n    for n in numbers:\n        counts[n] = counts.get(n, 0) + 1\n    return [n for n in numbers if counts[n] == 1]",
-  "score": 5,
-  "cost": 0.00327,
+  "response": "from collections import Counter\n    freq = Counter(numbers)\n    return [num for num in numbers if freq[num] == 1]",
+  "score": 4,
+  "cost": 0.003158,
   "expected": "",
   "tokens": {
     "input": 115,
-    "output": 380
+    "output": 366
   }
 }

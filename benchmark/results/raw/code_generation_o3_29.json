@@ -1,0 +1,13 @@
+{
+  "model": "o3",
+  "task": "code_generation",
+  "case": 29,
+  "response": "def digit_sum(n):\n        return sum(int(ch) for ch in str(abs(n)))\n    return sorted(nums, key=digit_sum)",
+  "score": 4,
+  "cost": 0.036508,
+  "expected": "",
+  "tokens": {
+    "input": 146,
+    "output": 4527
+  }
+}

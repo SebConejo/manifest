@@ -1,0 +1,13 @@
+{
+  "model": "kimi-k2.6",
+  "task": "code_generation",
+  "case": 44,
+  "response": "result = []\n    for ch in message:\n        ch = ch.swapcase()\n        if ch.lower() in 'aeiou':\n            ch = chr(ord(ch) + 2)\n        result.append(ch)\n    return ''.join(result)",
+  "score": 4,
+  "cost": 0.007463399999999999,
+  "expected": "",
+  "tokens": {
+    "input": 143,
+    "output": 3074
+  }
+}

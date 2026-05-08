@@ -2,12 +2,12 @@
   "model": "MiniMax-M2.7",
   "task": "code_generation",
   "case": 39,
-  "response": "if x == 0:\n    return \"0\"\ndigits = []\nwhile x:\n    digits.append(str(x % base))\n    x //= base\nreturn ''.join(reversed(digits))",
+  "response": "if base < 2 or base > 9:\n        raise ValueError(\"base must be between 2 and 9\")\n    if x == 0:\n        return '0'\n    negative = x < 0\n    if negative:\n        x = -x\n    digits = []\n    while x > 0:\n        digits.append(str(x % base))\n        x //= base\n    result = ''.join(reversed(digits))\n    return ('-' if negative else '') + result",
   "score": 5,
-  "cost": 0.0025058000000000003,
+  "cost": 0.0061314,
   "expected": "",
   "tokens": {
     "input": 154,
-    "output": 531
+    "output": 1355
   }
 }

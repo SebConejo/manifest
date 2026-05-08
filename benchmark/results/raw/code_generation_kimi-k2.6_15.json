@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "code_generation",
   "case": 15,
-  "response": "largest = -1\n    while n % 2 == 0:\n        largest =",
-  "score": 2,
-  "cost": 0.004857,
+  "response": "largest = -1\n    while n % 2 == 0:\n        largest = 2\n        n //= 2\n    i = 3\n    while i * i <= n:\n        while n % i == 0:\n            largest = i\n            n //= i\n        i += 2\n    if n > 1:\n        largest = n\n    return largest",
+  "score": 4,
+  "cost": 0.016141799999999998,
   "expected": "",
   "tokens": {
     "input": 95,
-    "output": 2000
+    "output": 6702
   }
 }

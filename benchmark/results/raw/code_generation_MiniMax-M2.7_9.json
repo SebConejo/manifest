@@ -2,12 +2,12 @@
   "model": "MiniMax-M2.7",
   "task": "code_generation",
   "case": 9,
-  "response": "total = 0\nfor num in lst:\n    if isinstance(num, int) and not isinstance(num, bool) and num >= 0 and num % 2 != 0:\n        total += num * num\nreturn total",
+  "response": "total = 0\nfor x in lst:\n    if type(x) is int and x >= 0 and x % 2 != 0:\n        total += x * x\nreturn total",
   "score": 4,
-  "cost": 0.0033132,
+  "cost": 0.0024827000000000004,
   "expected": "",
   "tokens": {
-    "input": 204,
-    "output": 702
+    "input": 201,
+    "output": 514
   }
 }

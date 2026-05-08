@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "code_generation",
   "case": 0,
-  "response": "return ''.join(strings)",
+  "response": "return \"\".join(strings)",
   "score": 5,
-  "cost": 0.0007421999999999999,
+  "cost": 0.0006102,
   "expected": "",
   "tokens": {
     "input": 89,
-    "output": 287
+    "output": 232
   }
 }

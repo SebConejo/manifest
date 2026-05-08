@@ -2,12 +2,12 @@
   "model": "o3",
   "task": "code_generation",
   "case": 10,
-  "response": "count = 0\n    for n in arr:\n        if n == 0:\n            digit_sum = 0\n        elif n > 0:\n            digit_sum = sum(int(ch) for ch in str(n))\n        else:\n            s = str(n)\n            first_digit = -int(s[1])  # digit after the minus sign\n            digit_sum = first_digit + sum(int(ch) for ch in s[2:])\n        if digit_sum > 0:\n            count += 1\n    return count",
+  "response": "count = 0\n    for n in arr:\n        digits = str(abs(n))\n        if n < 0:\n            total = -int(digits[0]) + sum(int(d) for d in digits[1:])\n        else:\n            total = sum(int(d) for d in digits)\n        if total > 0:\n            count += 1\n    return count",
   "score": 4,
-  "cost": 0.006446,
+  "cost": 0.00723,
   "expected": "",
   "tokens": {
     "input": 155,
-    "output": 767
+    "output": 865
   }
 }

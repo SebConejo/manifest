@@ -2,12 +2,12 @@
   "model": "MiniMax-M2.7",
   "task": "code_generation",
   "case": 10,
-  "response": "```python\n    count = 0\n    for num in arr:\n        s = str(num)\n        total = 0\n        if num < 0:\n            # First signed digit is negative, the rest are positive\n            total = -int(s[1])\n            for ch in s[2:]:\n                total += int(ch)\n        else:\n            for ch in s:\n                total += int(ch)\n        if total > 0:\n            count += 1\n    return count\n```",
+  "response": "count = 0\n    for n in arr:\n        if n == 0:\n            continue\n        s = str(n)\n        if n > 0:\n            digit_sum = sum(int(ch) for ch in s)\n        else:\n            digit_sum = -int(s[1]) + sum(int(ch) for ch in s[2:])\n        if digit_sum > 0:\n            count += 1\n    return count",
   "score": 4,
-  "cost": 0.005764,
+  "cost": 0.009697600000000002,
   "expected": "",
   "tokens": {
     "input": 192,
-    "output": 1262
+    "output": 2156
   }
 }

@@ -4,10 +4,10 @@
   "case": 35,
   "response": "return (a % 10) * (b % 10)",
   "score": 5,
-  "cost": 0.006002700000000001,
+  "cost": 0.0016060000000000002,
   "expected": "",
   "tokens": {
-    "input": 161,
-    "output": 1324
+    "input": 164,
+    "output": 324
   }
 }

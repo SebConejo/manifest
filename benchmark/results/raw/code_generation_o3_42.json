@@ -2,12 +2,12 @@
   "model": "o3",
   "task": "code_generation",
   "case": 42,
-  "response": "if n > m:\n        return -1\n    avg = (n + m) / 2\n    return bin(int(round(avg)))",
-  "score": 4,
-  "cost": 0.007382,
+  "response": "if n > m:\n        return -1\n    avg = (n + m) / 2  # Average of consecutive integers from n to m\n    rounded_val = int(round(avg))\n    return bin(rounded_val)",
+  "score": 3,
+  "cost": 0.009062,
   "expected": "",
   "tokens": {
     "input": 171,
-    "output": 880
+    "output": 1090
   }
 }

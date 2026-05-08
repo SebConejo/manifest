@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "code_generation",
   "case": 15,
-  "response": "largest = 1\n    i = 2\n    while i * i <= n:\n        if n % i == 0:\n            largest = i\n            while n % i == 0:\n                n //= i\n        i += 1\n    if n > 1:\n        largest = n\n    return largest",
+  "response": "factor = 2\n    last = 1\n    while factor * factor <= n:\n        while n % factor == 0:\n            n //= factor\n            last = factor\n        factor += 1\n    if n > 1:\n        last = n\n    return last",
   "score": 4,
-  "cost": 0.0017982900000000001,
+  "cost": 0.00203145,
   "expected": "",
   "tokens": {
     "input": 90,
-    "output": 1011
+    "output": 1145
   }
 }

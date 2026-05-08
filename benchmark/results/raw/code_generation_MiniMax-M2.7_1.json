@@ -2,12 +2,12 @@
   "model": "MiniMax-M2.7",
   "task": "code_generation",
   "case": 1,
-  "response": "result = []\n    for group in paren_string.split():\n        depth = 0\n        max_depth = 0\n        for ch in group:\n            if ch == '(':\n                depth += 1\n                if depth > max_depth:\n                    max_depth = depth\n            elif ch == ')':\n                depth -= 1\n        result.append(max_depth)\n    return result",
-  "score": 4,
-  "cost": 0.003366,
+  "response": "result = []\nfor group in paren_string.split():\n    if not group:\n        continue\n    depth = 0\n    max_depth = 0\n    for ch in group:\n        if ch == '(':\n            depth += 1\n            if depth > max_depth:\n                max_depth = depth\n        elif ch == ')':\n            depth -= 1\n    result.append(max_depth)\nreturn result",
+  "score": 5,
+  "cost": 0.0035992000000000003,
   "expected": "",
   "tokens": {
     "input": 176,
-    "output": 721
+    "output": 774
   }
 }

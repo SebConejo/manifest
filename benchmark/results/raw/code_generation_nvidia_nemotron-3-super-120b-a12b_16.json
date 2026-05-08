@@ -1,0 +1,13 @@
+{
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "task": "code_generation",
+  "case": 16,
+  "response": "We need to output only function body. No extra explanation. Ensure no extra text.",
+  "score": 0,
+  "cost": 4.104e-05,
+  "expected": "",
+  "tokens": {
+    "input": 438,
+    "output": 18
+  }
+}

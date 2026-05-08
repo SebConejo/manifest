@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "code_generation",
   "case": 23,
-  "response": "min_sum = curr_sum = nums[0]\n    for num in nums[1:]:\n        curr_sum = min(num, curr_sum + num)\n        min_sum = min(min_sum, curr_sum)\n    return min_sum",
-  "score": 5,
-  "cost": 0.004464,
+  "response": "min_sum = float('inf')\n    current_sum = 0\n    for num in nums:\n        current_sum = min(num, current_sum + num)\n        min_sum = min(min_sum, current_sum)\n    return min_sum",
+  "score": 4,
+  "cost": 0.0034032,
   "expected": "",
   "tokens": {
     "input": 120,
-    "output": 1830
+    "output": 1388
   }
 }

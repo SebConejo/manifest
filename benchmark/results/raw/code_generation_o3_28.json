@@ -2,12 +2,12 @@
   "model": "o3",
   "task": "code_generation",
   "case": 28,
-  "response": "res = []\n    for r, row in enumerate(lst):\n        for c, val in enumerate(row):\n            if val == x:\n                res.append((r, c))\n    res.sort(key=lambda t: (t[0], -t[1]))\n    return res",
-  "score": 5,
-  "cost": 0.002196,
+  "response": "coords = []\n    for r, row in enumerate(lst):\n        cols = [c for c, val in enumerate(row) if val == x]\n        for c in sorted(cols, reverse=True):\n            coords.append((r, c))\n    return coords",
+  "score": 4,
+  "cost": 0.006772,
   "expected": "",
   "tokens": {
     "input": 290,
-    "output": 202
+    "output": 774
   }
 }

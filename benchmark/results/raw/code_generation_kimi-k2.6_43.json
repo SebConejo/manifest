@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "code_generation",
   "case": 43,
-  "response": "result = []\n    for i, num in enumerate(numbers):\n        result.append(num)\n        if i < len(numbers) - 1:\n            result.append(delimeter)\n    return result",
+  "response": "if not numbers:\n        return []\n    result = [numbers[0]]\n    for num in numbers[1:]:\n        result.append(delimeter)\n        result.append(num)\n    return result",
   "score": 4,
-  "cost": 0.0041976,
+  "cost": 0.0048312,
   "expected": "",
   "tokens": {
     "input": 128,
-    "output": 1717
+    "output": 1981
   }
 }

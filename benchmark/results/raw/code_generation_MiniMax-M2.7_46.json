@@ -2,12 +2,12 @@
   "model": "MiniMax-M2.7",
   "task": "code_generation",
   "case": 46,
-  "response": "best_val = None\n    best_idx = None\n    for idx, val in enumerate(arr):\n        if val % 2 == 0:\n            if best_val is None or val < best_val:\n                best_val = val\n                best_idx = idx\n    if best_val is None:\n        return []\n    return [best_val, best_idx]",
+  "response": "smallest_even = None\n    smallest_index = None\n    for i, v in enumerate(arr):\n        if v % 2 == 0:\n            if smallest_even is None or v < smallest_even:\n                smallest_even = v\n                smallest_index = i\n    if smallest_even is not None:\n        return [smallest_even, smallest_index]\n    return []",
   "score": 4,
-  "cost": 0.0051458,
+  "cost": 0.0048598,
   "expected": "",
   "tokens": {
     "input": 354,
-    "output": 1081
+    "output": 1016
   }
 }

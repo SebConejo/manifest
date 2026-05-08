@@ -2,12 +2,12 @@
   "model": "o3",
   "task": "code_generation",
   "case": 44,
-  "response": "trans = str.maketrans('aeiouAEIOU', 'cgkqwCGKQW')\n    return message.translate(trans).swapcase()",
-  "score": 4,
-  "cost": 0.011448,
+  "response": "shifted = []\n    for ch in message:\n        if ch.lower() in 'aeiou':\n            if 'a' <= ch <= 'z':\n                new_char = chr(((ord(ch) - ord('a') + 2) % 26) + ord('a'))\n            elif 'A' <= ch <= 'Z':\n                new_char = chr(((ord(ch) - ord('A') + 2) % 26) + ord('A'))\n            else:\n                new_char = ch\n            shifted.append(new_char)\n        else:\n            shifted.append(ch)\n    return ''.join(shifted).swapcase()",
+  "score": 3,
+  "cost": 0.014784,
   "expected": "",
   "tokens": {
     "input": 140,
-    "output": 1396
+    "output": 1813
   }
 }

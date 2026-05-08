@@ -49930,3 +49930,252 @@ timestamp,task,case_idx,model,provider,input_price_per_m,output_price_per_m,inpu
 20260509_000034,code_explanation,45,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,106,284,0.000540,5,llm_judge,This code implements a **middleware pipeline** using the **Chain of Responsibility** pattern: it sto
 20260509_000034,code_explanation,46,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,174,250,0.000511,5,llm_judge,"This function implements the standard bottom-up fixup for red‑black tree insertion, resolving consec"
 20260509_000034,code_explanation,47,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,203,231,0.000490,5,llm_judge,This function implements Dijkstra's Shunting-yard algorithm to convert an infix arithmetic expressio
+20260509_000810,code_generation,0,kimi-k2.6,moonshot,0.6,2.4,89,232,0.000610,5,llm_judge,"return """".join(strings)"
+20260509_000810,code_generation,1,kimi-k2.6,moonshot,0.6,2.4,144,870,0.002174,4,llm_judge,result = []     for group in paren_string.split():         depth = 0         max_depth = 0         f
+20260509_000810,code_generation,2,kimi-k2.6,moonshot,0.6,2.4,156,2085,0.005098,4,llm_judge,"s = sorted(lst)     res = []     left, right = 0, len(s) - 1     while left <= right:         res.ap"
+20260509_000810,code_generation,3,kimi-k2.6,moonshot,0.6,2.4,140,1463,0.003595,4,llm_judge,"return [i * xs[i] for i in range(1, len(xs))]"
+20260509_000810,code_generation,4,kimi-k2.6,moonshot,0.6,2.4,119,1966,0.004790,5,llm_judge,increasing = decreasing = True     for i in range(len(l) - 1):         if l[i] > l[i + 1]:          
+20260509_000810,code_generation,5,kimi-k2.6,moonshot,0.6,2.4,114,282,0.000745,5,llm_judge,return max(l)
+20260509_000810,code_generation,6,kimi-k2.6,moonshot,0.6,2.4,119,1414,0.003465,4,llm_judge,seen = set()     duplicates = set()     for num in numbers:         if num in seen:             dupl
+20260509_000810,code_generation,7,kimi-k2.6,moonshot,0.6,2.4,128,785,0.001961,4,llm_judge,"result = 1     factorial = 1     for i in range(1, n + 1):         factorial *= i         result *= "
+20260509_000810,code_generation,8,kimi-k2.6,moonshot,0.6,2.4,123,1112,0.002743,5,llm_judge,"return [x for x in values if isinstance(x, int) and not isinstance(x, bool)]"
+20260509_000810,code_generation,9,kimi-k2.6,moonshot,0.6,2.4,169,2278,0.005569,4,llm_judge,"return sum(x ** 2 for x in lst if isinstance(x, int) and x > 0 and x % 2 == 1)"
+20260509_000810,code_generation,10,kimi-k2.6,moonshot,0.6,2.4,156,2909,0.007075,4,llm_judge,count = 0     for num in arr:         s = str(abs(num))         digit_sum = sum(int(c) for c in s)  
+20260509_000810,code_generation,11,kimi-k2.6,moonshot,0.6,2.4,143,1331,0.003280,4,llm_judge,"product = 1     for n in numbers:         product *= n     return sum(numbers), product"
+20260509_000810,code_generation,12,kimi-k2.6,moonshot,0.6,2.4,124,448,0.001150,5,llm_judge,return [s for s in strings if substring in s]
+20260509_000810,code_generation,13,kimi-k2.6,moonshot,0.6,2.4,75,356,0.000899,5,llm_judge,return len(string)
+20260509_000810,code_generation,14,kimi-k2.6,moonshot,0.6,2.4,85,1205,0.002943,4,llm_judge,"a, b = 0, 1     for _ in range(n):         a, b = b, a + b     return a"
+20260509_000810,code_generation,15,kimi-k2.6,moonshot,0.6,2.4,95,6702,0.016142,4,llm_judge,largest = -1     while n % 2 == 0:         largest = 2         n //= 2     i = 3     while i * i <= 
+20260509_000810,code_generation,17,kimi-k2.6,moonshot,0.6,2.4,108,1372,0.003358,5,llm_judge,if not text:         return None     import hashlib     return hashlib.md5(text.encode()).hexdigest(
+20260509_000810,code_generation,18,kimi-k2.6,moonshot,0.6,2.4,181,1045,0.002617,4,llm_judge,"def is_prime(n):         if n < 2:             return False         for i in range(2, int(n ** 0.5) "
+20260509_000810,code_generation,19,kimi-k2.6,moonshot,0.6,2.4,122,389,0.001007,3,llm_judge,"return """".join([chr(((ord(ch) - 5 - ord(""a"")) % 26) + ord(""a"")) for ch in s])"
+20260509_000810,code_generation,20,kimi-k2.6,moonshot,0.6,2.4,135,723,0.001816,5,llm_judge,"val_sym_pairs = [         (1000, 'm'), (900, 'cm'), (500, 'd'), (400, 'cd'),         (100, 'c'), (90"
+20260509_000810,code_generation,21,kimi-k2.6,moonshot,0.6,2.4,246,882,0.002264,5,llm_judge,"even_count = 0     odd_count = 0     for i in range(1, n + 1):         s = str(i)         if s == s["
+20260509_000810,code_generation,22,kimi-k2.6,moonshot,0.6,2.4,124,826,0.002057,5,llm_judge,"count = 0     for b in brackets:         if b == ""<"":             count += 1         else:          "
+20260509_000810,code_generation,23,kimi-k2.6,moonshot,0.6,2.4,120,1388,0.003403,4,llm_judge,"min_sum = float('inf')     current_sum = 0     for num in nums:         current_sum = min(num, curre"
+20260509_000810,code_generation,24,kimi-k2.6,moonshot,0.6,2.4,153,2003,0.004899,5,llm_judge,if a + b <= c or a + c <= b or b + c <= a:         return -1     s = (a + b + c) / 2     area = (s *
+20260509_000810,code_generation,25,kimi-k2.6,moonshot,0.6,2.4,147,942,0.002349,4,llm_judge,"paren_string = paren_string.replace(' ', '')     result = []     current = []     balance = 0       "
+20260509_000810,code_generation,26,kimi-k2.6,moonshot,0.6,2.4,198,4786,0.011605,5,llm_judge,"n = len(l)     for i in range(n):         for j in range(i + 1, n):             for k in range(j + 1"
+20260509_000810,code_generation,27,kimi-k2.6,moonshot,0.6,2.4,308,3196,0.007855,4,llm_judge,best_ext = extensions[0]     best_strength = sum(c.isupper() - c.islower() for c in best_ext)       
+20260509_000810,code_generation,28,kimi-k2.6,moonshot,0.6,2.4,291,1616,0.004053,5,llm_judge,"coords = [(i, j) for i, row in enumerate(lst) for j, v in enumerate(row) if v == x]     coords.sort("
+20260509_000810,code_generation,29,kimi-k2.6,moonshot,0.6,2.4,147,5786,0.013975,4,llm_judge,"return sorted(nums, key=lambda x: sum(int(d) for d in str(abs(x))))"
+20260509_000810,code_generation,30,kimi-k2.6,moonshot,0.6,2.4,129,2915,0.007073,3,llm_judge,def is_prime(num):         if num < 2:             return False         if num == 2 or num == 3:    
+20260509_000810,code_generation,31,kimi-k2.6,moonshot,0.6,2.4,219,1329,0.003321,4,llm_judge,"return sorted([s for s in lst if len(s) % 2 == 0], key=lambda x: (len(x), x))"
+20260509_000810,code_generation,32,kimi-k2.6,moonshot,0.6,2.4,162,1559,0.003839,4,llm_judge,return ' '.join(''.join(sorted(word)) for word in s.split(' '))
+20260509_000810,code_generation,33,kimi-k2.6,moonshot,0.6,2.4,140,551,0.001406,5,llm_judge,"sides = sorted([a, b, c])     return sides[0] ** 2 + sides[1] ** 2 == sides[2] ** 2"
+20260509_000810,code_generation,34,kimi-k2.6,moonshot,0.6,2.4,118,1122,0.002764,5,llm_judge,"if n < 2:         return y     for i in range(2, int(n**0.5) + 1):         if n % i == 0:           "
+20260509_000810,code_generation,35,kimi-k2.6,moonshot,0.6,2.4,130,538,0.001369,5,llm_judge,return (abs(a) % 10) * (abs(b) % 10)
+20260509_000810,code_generation,36,kimi-k2.6,moonshot,0.6,2.4,84,1641,0.003989,5,llm_judge,"for i in range(n // 2, 0, -1):         if n % i == 0:             return i"
+20260509_000810,code_generation,37,kimi-k2.6,moonshot,0.6,2.4,78,937,0.002296,5,llm_judge,return a * h / 2
+20260509_000810,code_generation,38,kimi-k2.6,moonshot,0.6,2.4,170,1379,0.003412,4,llm_judge,negatives = [x for x in lst if x < 0]     positives = [x for x in lst if x > 0]     return (max(nega
+20260509_000810,code_generation,39,kimi-k2.6,moonshot,0.6,2.4,123,1545,0.003782,5,llm_judge,if x == 0:         return '0'     res = []     while x:         res.append(str(x % base))         x 
+20260509_000810,code_generation,40,kimi-k2.6,moonshot,0.6,2.4,142,8192,0.019746,1,llm_judge,
+20260509_000810,code_generation,41,kimi-k2.6,moonshot,0.6,2.4,185,1117,0.002792,4,llm_judge,"res = list(l) sorted_vals = sorted(res[i] for i in range(0, len(res), 3)) for i, val in zip(range(0,"
+20260509_000810,code_generation,42,kimi-k2.6,moonshot,0.6,2.4,172,3082,0.007500,3,llm_judge,if n > m:         return -1     return bin(round((n + m) / 2))
+20260509_000810,code_generation,43,kimi-k2.6,moonshot,0.6,2.4,128,1981,0.004831,4,llm_judge,if not numbers:         return []     result = [numbers[0]]     for num in numbers[1:]:         resu
+20260509_000810,code_generation,44,kimi-k2.6,moonshot,0.6,2.4,143,3074,0.007463,4,llm_judge,result = []     for ch in message:         ch = ch.swapcase()         if ch.lower() in 'aeiou':     
+20260509_000810,code_generation,45,kimi-k2.6,moonshot,0.6,2.4,146,700,0.001768,5,llm_judge,return sorted(set(l1) & set(l2))
+20260509_000810,code_generation,46,kimi-k2.6,moonshot,0.6,2.4,344,2194,0.005472,4,llm_judge,"result = []     for i, num in enumerate(arr):         if num % 2 == 0:             if not result or "
+20260509_000810,code_generation,47,kimi-k2.6,moonshot,0.6,2.4,100,889,0.002194,5,llm_judge,"return ' '.join(map(str, range(n + 1)))"
+20260509_000810,code_generation,48,kimi-k2.6,moonshot,0.6,2.4,109,189,0.000519,5,llm_judge,return text == text[::-1]
+20260509_000810,code_generation,49,kimi-k2.6,moonshot,0.6,2.4,181,1816,0.004467,4,llm_judge,for i in range(len(string) + 1):         if is_palindrome(string[i:]):             return string + s
+20260509_000810,code_generation,0,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,92,100,0.000214,5,llm_judge,return ''.join(strings)
+20260509_000810,code_generation,1,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,145,416,0.000787,4,llm_judge,result = []     for group in paren_string.split():         depth = 0         max_depth = 0         f
+20260509_000810,code_generation,2,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,153,537,0.001001,4,llm_judge,"if not lst:         return []     lst.sort()     res = []     left, right = 0, len(lst) - 1     whil"
+20260509_000810,code_generation,3,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,138,1150,0.002061,4,llm_judge,"return [i * xs[i] for i in range(1, len(xs))]"
+20260509_000810,code_generation,4,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,115,545,0.000998,5,llm_judge,"return all(a <= b for a, b in zip(l, l[1:])) or all(a >= b for a, b in zip(l, l[1:]))"
+20260509_000810,code_generation,5,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,109,169,0.000341,5,llm_judge,return max(l)
+20260509_000810,code_generation,6,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,117,621,0.001131,5,llm_judge,"freq = {}     for num in numbers:         freq[num] = freq.get(num, 0) + 1     return [num for num i"
+20260509_000810,code_generation,7,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,124,255,0.000498,4,llm_judge,"```python     result = 1     fact = 1     for i in range(1, n + 1):         fact *= i         result"
+20260509_000810,code_generation,8,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,124,256,0.000499,5,llm_judge,return [x for x in values if type(x) is int]
+20260509_000810,code_generation,9,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,173,755,0.001389,4,llm_judge,return sum(x * x for x in lst if type(x) == int and x > 0 and x % 2 == 1)
+20260509_000810,code_generation,10,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,159,1007,0.001821,4,llm_judge,count = 0     for num in arr:         s = str(num)         if s[0] == '-':             digit_sum = -
+20260509_000810,code_generation,11,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,140,239,0.000477,4,llm_judge,```python     total_sum = 0     total_product = 1     for num in numbers:         total_sum += num  
+20260509_000810,code_generation,12,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,124,187,0.000379,5,llm_judge,return [s for s in strings if substring in s]
+20260509_000810,code_generation,13,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,0,0,0.000000,0,llm_judge,
+20260509_000810,code_generation,14,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,78,371,0.000679,4,llm_judge,"a, b = 0, 1     for _ in range(n):         a, b = b, a + b     return a"
+20260509_000810,code_generation,15,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,90,1145,0.002031,4,llm_judge,factor = 2     last = 1     while factor * factor <= n:         while n % factor == 0:             n
+20260509_000810,code_generation,16,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,0,0,0.000000,1,llm_judge,
+20260509_000810,code_generation,17,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,107,315,0.000595,5,llm_judge,"if text == """":     return None import hashlib return hashlib.md5(text.encode()).hexdigest()"
+20260509_000810,code_generation,18,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,179,517,0.000977,4,llm_judge,"def is_prime(n):         if n < 2:             return False         for i in range(2, int(n**0.5) + "
+20260509_000810,code_generation,19,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,124,201,0.000404,3,llm_judge,""""".join([chr(((ord(ch) - 5 - ord(""a"")) % 26) + ord(""a"")) for ch in s])"
+20260509_000810,code_generation,20,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,134,478,0.000890,5,llm_judge,"val = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1]     sym = ['m', 'cm', 'd', 'cd', 'c', '"
+20260509_000810,code_generation,21,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,238,312,0.000646,5,llm_judge,"count_even = 0     count_odd = 0     for i in range(1, n + 1):         s = str(i)         if s == s["
+20260509_000810,code_generation,22,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,124,383,0.000720,4,llm_judge,count = 0     for ch in brackets:         if ch == '<':             count += 1         else:        
+20260509_000810,code_generation,23,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,119,699,0.001268,5,llm_judge,"min_ending_here = nums[0]     min_so_far = nums[0]     for i in range(1, len(nums)):         min_end"
+20260509_000810,code_generation,24,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,150,446,0.000841,5,llm_judge,if a + b > c and a + c > b and b + c > a:     s = (a + b + c) / 2.0     area = (s * (s - a) * (s - b
+20260509_000810,code_generation,25,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,150,381,0.000728,4,llm_judge,"result = []     current_group = """"     balance = 0     for char in paren_string:         if char == "
+20260509_000810,code_generation,26,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,195,2043,0.003640,5,llm_judge,n = len(l)     if n < 3:         return False     l.sort()     for i in range(n - 2):         if i >
+20260509_000810,code_generation,27,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,304,525,0.001046,4,llm_judge,"best = max(extensions, key=lambda ext: sum(1 for c in ext if c.isupper()) - sum(1 for c in ext if c."
+20260509_000810,code_generation,28,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,289,438,0.000888,5,llm_judge,"```python     coordinates = []     for i, row in enumerate(lst):         for j, val in enumerate(row"
+20260509_000810,code_generation,29,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,144,8192,0.014317,0,llm_judge,
+20260509_000810,code_generation,30,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,121,1453,0.002581,3,llm_judge,``` def is_prime(x):     if x < 2:         return False     if x % 2 == 0:         return x == 2    
+20260509_000810,code_generation,31,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,217,464,0.000902,4,llm_judge,"return sorted([s for s in lst if len(s) % 2 == 0], key=lambda x: (len(x), x))"
+20260509_000810,code_generation,32,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,163,405,0.000776,4,llm_judge,return ' '.join(''.join(sorted(word)) for word in s.split(' '))
+20260509_000810,code_generation,33,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,142,597,0.001101,5,llm_judge,"```python     sides = sorted([a, b, c])     return sides[0]**2 + sides[1]**2 == sides[2]**2 ```"
+20260509_000810,code_generation,34,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,115,146,0.000304,5,llm_judge,"if n < 2:         return y     for i in range(2, int(n**0.5) + 1):         if n % i == 0:           "
+20260509_000810,code_generation,35,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,127,585,0.001073,5,llm_judge,return (a % 10) * (b % 10)
+20260509_000810,code_generation,36,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,159,1529,0.002730,5,llm_judge,"for i in range(n - 1, 0, -1):         if n % i == 0:             return i     return 1"
+20260509_000810,code_generation,37,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,153,482,0.000905,5,llm_judge,return a * h / 2
+20260509_000810,code_generation,38,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,175,566,0.001061,4,llm_judge,largest_negative = None     smallest_positive = None     for num in lst:         if num < 0:        
+20260509_000810,code_generation,39,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,120,312,0.000595,5,llm_judge,"if x == 0:         return ""0""     digits = []     while x > 0:         digits.append(str(x % base)) "
+20260509_000810,code_generation,40,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,139,953,0.001719,4,llm_judge,"a = abs(a)     low, high = 0, a     while low <= high:         mid = (low + high) // 2         cube "
+20260509_000810,code_generation,41,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,182,644,0.001200,5,llm_judge,"indices = range(0, len(l), 3)     sorted_vals = sorted(l[i] for i in indices)     res = list(l)     "
+20260509_000810,code_generation,42,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,174,648,0.001203,4,llm_judge,if n > m:         return -1     total = (n + m) * (m - n + 1) // 2     count = m - n + 1     avg = t
+20260509_000810,code_generation,43,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,125,381,0.000717,4,llm_judge,"result = []     for i, num in enumerate(numbers):         result.append(num)         if i < len(numb"
+20260509_000810,code_generation,44,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,138,1175,0.002105,3,llm_judge,result = []     for char in message:         if char.isalpha():             swapped = char.swapcase(
+20260509_000810,code_generation,45,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,143,128,0.000285,5,llm_judge,```python return sorted(set(l1) & set(l2)) ```
+20260509_000810,code_generation,46,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,341,486,0.000994,4,llm_judge,"best_val = None     best_idx = None     for i, val in enumerate(arr):         if val % 2 == 0:      "
+20260509_000810,code_generation,47,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,101,161,0.000324,5,llm_judge,return ' '.join(str(i) for i in range(n + 1))
+20260509_000810,code_generation,48,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,106,120,0.000255,5,llm_judge,return text == text[::-1]
+20260509_000810,code_generation,49,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,175,1236,0.002227,4,llm_judge,for i in range(len(string)):         if is_palindrome(string[i:]):             return string + strin
+20260509_000810,code_generation,0,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,89,7,0.000009,5,llm_judge,return ''.join(strings)
+20260509_000810,code_generation,1,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,158,18,0.000016,0,llm_judge,We need to output only the function body only the function body. No extra text.
+20260509_000810,code_generation,2,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,166,500,0.000060,0,llm_judge,
+20260509_000810,code_generation,3,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,152,13,0.000015,1,llm_judge,We need to output only function body. No extra explanation.
+20260509_000810,code_generation,4,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,131,13,0.000013,1,llm_judge,We need to output only function body. No extra text.
+20260509_000810,code_generation,5,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,114,24,0.000012,5,llm_judge,"if not l:         raise ValueError(""max_element() arg is an empty sequence"")     return max(l)"
+20260509_000810,code_generation,6,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,116,29,0.000013,4,llm_judge,from collections import Counter     counts = Counter(numbers)     return [num for num in numbers if 
+20260509_000810,code_generation,7,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,141,14,0.000014,1,llm_judge,We need to complete the function body only. No extra text.
+20260509_000810,code_generation,8,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,137,283,0.000038,5,llm_judge,return [x for x in values if type(x) is int]
+20260509_000810,code_generation,9,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,191,500,0.000062,0,llm_judge,
+20260509_000810,code_generation,10,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,175,26,0.000018,1,llm_judge,"Okay, the user wants only the function body only. No extra text."
+20260509_000810,code_generation,11,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,142,31,0.000016,4,llm_judge,"s = sum(numbers)     p = 1     for n in numbers:         p *= n     return (s, p)"
+20260509_000810,code_generation,12,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,138,348,0.000044,5,llm_judge,return [s for s in strings if substring in s]
+20260509_000810,code_generation,13,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,75,6,0.000007,5,llm_judge,return len(string)
+20260509_000810,code_generation,14,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,97,500,0.000054,0,llm_judge,
+20260509_000810,code_generation,15,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,95,81,0.000016,4,llm_judge,i = 2     last_factor = None     while i * i <= n:         if n % i == 0:             last_factor = 
+20260509_000810,code_generation,16,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,438,18,0.000041,0,llm_judge,We need to output only function body. No extra explanation. Ensure no extra text.
+20260509_000810,code_generation,17,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,108,28,0.000012,4,llm_judge,import hashlib     if not text:         return None     return hashlib.md5(text.encode('utf-8')).hex
+20260509_000810,code_generation,18,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,196,500,0.000063,1,llm_judge,words = sentence
+20260509_000810,code_generation,19,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,133,241,0.000034,3,llm_judge,"return """".join([chr(((ord(ch) - ord('a') - 5) % 26) + ord('a')) for ch in s])"
+20260509_000810,code_generation,20,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,154,500,0.000059,1,llm_judge,
+20260509_000810,code_generation,21,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,243,68,0.000028,5,llm_judge,"even = odd = 0     for i in range(1, n + 1):         s = str(i)         if s == s[::-1]:            "
+20260509_000810,code_generation,22,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,135,500,0.000057,0,llm_judge,
+20260509_000810,code_generation,23,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,120,69,0.000017,4,llm_judge,if not nums:         return 0     min_ending_here = min_so_far = nums[0]     for x in nums[1:]:     
+20260509_000810,code_generation,24,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,153,77,0.000021,5,llm_judge,if a + b <= c or a + c <= b or b + c <= a:         return -1     s = (a + b + c) / 2     area = (s *
+20260509_000810,code_generation,25,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,165,500,0.000060,0,llm_judge,
+20260509_000810,code_generation,26,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,207,500,0.000064,3,llm_judge,"n = len(l)     for i in range(n):         seen = set()         for j in range(i + 1, n"
+20260509_000810,code_generation,27,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,320,14,0.000030,1,llm_judge,Спасибо
+20260509_000810,code_generation,28,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,303,303,0.000055,5,llm_judge,"result = []     for i, row in enumerate(lst):         for j, val in enumerate(row):             if v"
+20260509_000810,code_generation,29,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,162,500,0.000060,0,llm_judge,
+20260509_000810,code_generation,30,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,141,500,0.000058,2,llm_judge,
+20260509_000810,code_generation,31,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,230,213,0.000040,0,llm_judge,We need to write the function body for sorted_list_sum(lst). The description: accept list of strings
+20260509_000810,code_generation,32,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,176,500,0.000061,0,llm_judge,
+20260509_000810,code_generation,33,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,140,31,0.000015,5,llm_judge,"sides = sorted([a, b, c])     return sides[0]**2 + sides[1]**2 == sides[2]**2"
+20260509_000810,code_generation,34,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,134,33,0.000015,1,llm_judge,We need to output only function body. No extra text. No explanation. Just the code after the functio
+20260509_000810,code_generation,35,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,130,20,0.000013,5,llm_judge,return (abs(a) % 10) * (abs(b) % 10)
+20260509_000810,code_generation,36,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,96,500,0.000054,1,llm_judge,
+20260509_000810,code_generation,37,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,78,44,0.000011,5,llm_judge,"""""""Given length of a side and high return area for a triangle.     >>> triangle_area(5, 3)     7.5  "
+20260509_000810,code_generation,38,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,184,500,0.000062,4,llm_judge,max_neg = None     min_pos = None     for num in lst:         if num < 0:             if max_neg is 
+20260509_000810,code_generation,39,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,138,500,0.000057,1,llm_judge,"{""track {""track"": ""Change numerical base of assistant  Change numerical base of input  Change numeri"
+20260509_000810,code_generation,40,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,168,500,0.000060,1,llm_judge,
+20260509_000810,code_generation,41,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,194,16,0.000019,0,llm_judge,We need to output only function body. No extra explanation. No explanation.
+20260509_000810,code_generation,42,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,192,13,0.000018,1,llm_judge,We need to output only function body. No extra text.
+20260509_000810,code_generation,43,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,141,339,0.000043,5,llm_judge,"if not numbers:         return []     result = []     for i, n in enumerate(numbers):         result"
+20260509_000810,code_generation,44,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,157,500,0.000059,4,llm_judge,"We need to write the function body only, after the signature. The function encode(message) returns e"
+20260509_000810,code_generation,45,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,146,13,0.000014,5,llm_judge,return sorted(set(l1) & set(l2))
+20260509_000810,code_generation,46,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,344,75,0.000038,4,llm_judge,"min_even = None     min_index = None     for i, val in enumerate(arr):         if val % 2 == 0:     "
+20260509_000810,code_generation,47,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,111,143,0.000023,5,llm_judge,return ' '.join(str(i) for i in range(n + 1))
+20260509_000810,code_generation,48,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,103,9,0.000010,5,llm_judge,return text == text[::-1]
+20260509_000810,code_generation,49,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,192,500,0.000062,5,llm_judge,
+20260509_000810,code_generation,0,MiniMax-M2.7,minimax,1.1,4.4,125,360,0.001722,5,llm_judge,return ''.join(strings)
+20260509_000810,code_generation,1,MiniMax-M2.7,minimax,1.1,4.4,176,774,0.003599,5,llm_judge,result = [] for group in paren_string.split():     if not group:         continue     depth = 0     
+20260509_000810,code_generation,2,MiniMax-M2.7,minimax,1.1,4.4,188,1663,0.007524,5,llm_judge,"sorted_lst = sorted(lst) result = [] left, right = 0, len(sorted_lst) - 1 while left <= right:     r"
+20260509_000810,code_generation,3,MiniMax-M2.7,minimax,1.1,4.4,171,666,0.003119,4,llm_judge,"return [i * xs[i] for i in range(1, len(xs))]"
+20260509_000810,code_generation,4,MiniMax-M2.7,minimax,1.1,4.4,128,1898,0.008492,4,llm_judge,"""""""Return True is list elements are monotonically increasing or decreasing.     >>> monotonic([1, 2,"
+20260509_000810,code_generation,5,MiniMax-M2.7,minimax,1.1,4.4,145,837,0.003842,5,llm_judge,"if not l:     raise ValueError(""The list is empty"") max_val = l[0] for x in l[1:]:     if x > max_va"
+20260509_000810,code_generation,6,MiniMax-M2.7,minimax,1.1,4.4,150,712,0.003298,5,llm_judge,"counts = {}     for num in numbers:         counts[num] = counts.get(num, 0) + 1     return [num for"
+20260509_000810,code_generation,7,MiniMax-M2.7,minimax,1.1,4.4,162,1248,0.005669,4,llm_judge,"result = 1 fact = 1 for i in range(1, n + 1):     fact *= i     result *= fact return result"
+20260509_000810,code_generation,8,MiniMax-M2.7,minimax,1.1,4.4,154,990,0.004525,5,llm_judge,"return [v for v in values if isinstance(v, int)]"
+20260509_000810,code_generation,9,MiniMax-M2.7,minimax,1.1,4.4,201,514,0.002483,4,llm_judge,total = 0 for x in lst:     if type(x) is int and x >= 0 and x % 2 != 0:         total += x * x retu
+20260509_000810,code_generation,10,MiniMax-M2.7,minimax,1.1,4.4,192,2156,0.009698,4,llm_judge,count = 0     for n in arr:         if n == 0:             continue         s = str(n)         if n 
+20260509_000810,code_generation,11,MiniMax-M2.7,minimax,1.1,4.4,174,290,0.001467,4,llm_judge,total = sum(numbers)     product = 1     for num in numbers:         product *= num     return (tota
+20260509_000810,code_generation,12,MiniMax-M2.7,minimax,1.1,4.4,157,366,0.001783,5,llm_judge,return [s for s in strings if substring in s]
+20260509_000810,code_generation,13,MiniMax-M2.7,minimax,1.1,4.4,107,613,0.002815,5,llm_judge,return len(string)
+20260509_000810,code_generation,14,MiniMax-M2.7,minimax,1.1,4.4,98,2145,0.009546,5,llm_judge,"if n < 1:     raise ValueError(""n must be a positive integer"") a, b = 0, 1 for _ in range(1, n):    "
+20260509_000810,code_generation,15,MiniMax-M2.7,minimax,1.1,4.4,109,3832,0.016981,5,llm_judge,largest = 0 while n % 2 == 0:     largest = 2     n //= 2 f = 3 while f * f <= n:     while n % f ==
+20260509_000810,code_generation,16,MiniMax-M2.7,minimax,1.1,4.4,457,4399,0.019858,4,llm_judge,"path = [] N = len(grid)  # locate the cell containing the smallest value, which is 1 for i in range("
+20260509_000810,code_generation,17,MiniMax-M2.7,minimax,1.1,4.4,122,589,0.002726,5,llm_judge,if not text:     return None import hashlib return hashlib.md5(text.encode('utf-8')).hexdigest()
+20260509_000810,code_generation,18,MiniMax-M2.7,minimax,1.1,4.4,213,828,0.003878,4,llm_judge,words = sentence.split()     def is_prime(n):         if n < 2:             return False         if 
+20260509_000810,code_generation,19,MiniMax-M2.7,minimax,1.1,4.4,154,512,0.002422,3,llm_judge,"return """".join([chr(((ord(ch) - 5 - ord(""a"")) % 26) + ord(""a"")) for ch in s])"
+20260509_000810,code_generation,20,MiniMax-M2.7,minimax,1.1,4.4,151,1132,0.005147,5,llm_judge,"# Mapping of integer values to lowercase Roman numerals     val_to_roman = [         (1000, 'm'),   "
+20260509_000810,code_generation,21,MiniMax-M2.7,minimax,1.1,4.4,276,1135,0.005298,5,llm_judge,"even = 0     odd = 0     for i in range(1, n + 1):         s = str(i)         if s == s[::-1]:      "
+20260509_000810,code_generation,22,MiniMax-M2.7,minimax,1.1,4.4,139,628,0.002916,4,llm_judge,count = 0     for ch in brackets:         if ch == '<':             count += 1         else:  # ch =
+20260509_000810,code_generation,23,MiniMax-M2.7,minimax,1.1,4.4,151,827,0.003805,5,llm_judge,"if not nums:         raise ValueError(""nums must be non-empty"")     min_ending_here = min_so_far = n"
+20260509_000810,code_generation,24,MiniMax-M2.7,minimax,1.1,4.4,184,750,0.003502,5,llm_judge,if a + b > c and a + c > b and b + c > a:     import math     s = (a + b + c) / 2     area = math.sq
+20260509_000810,code_generation,25,MiniMax-M2.7,minimax,1.1,4.4,180,3540,0.015774,4,llm_judge,"s = paren_string.replace(' ', '')     result = []     current = []     depth = 0     for ch in s:   "
+20260509_000810,code_generation,26,MiniMax-M2.7,minimax,1.1,4.4,205,2008,0.009061,5,llm_judge,n = len(l)     if n < 3:         return False     l.sort()     for i in range(n - 2):         if l[i
+20260509_000810,code_generation,27,MiniMax-M2.7,minimax,1.1,4.4,338,2471,0.011244,5,llm_judge,max_strength = -float('inf')     strongest_ext = None     for ext in extensions:         cap = sum(1
+20260509_000810,code_generation,28,MiniMax-M2.7,minimax,1.1,4.4,323,903,0.004328,4,llm_judge,"coords = [(r, c) for r, row in enumerate(lst) for c, val in enumerate(row) if val == x]     coords.s"
+20260509_000810,code_generation,29,MiniMax-M2.7,minimax,1.1,4.4,178,2829,0.012643,5,llm_judge,```python     def digit_sum(n):         n = abs(n)         total = 0         while n:             to
+20260509_000810,code_generation,30,MiniMax-M2.7,minimax,1.1,4.4,142,8192,0.036201,4,llm_judge,We need to write a function body that returns the n-th number that is both a Fibonacci number and a 
+20260509_000810,code_generation,31,MiniMax-M2.7,minimax,1.1,4.4,250,637,0.003078,4,llm_judge,# Filter strings with even length (odd lengths are removed)     even_len = [s for s in lst if len(s)
+20260509_000810,code_generation,32,MiniMax-M2.7,minimax,1.1,4.4,195,1884,0.008504,4,llm_judge,return ' '.join(''.join(sorted(token)) for token in s.split(' '))
+20260509_000810,code_generation,33,MiniMax-M2.7,minimax,1.1,4.4,157,777,0.003592,5,llm_judge,"sides = [a, b, c]     if any(s <= 0 for s in sides):         return False     x, y, z = sorted(sides"
+20260509_000810,code_generation,34,MiniMax-M2.7,minimax,1.1,4.4,149,1115,0.005070,5,llm_judge,"if n <= 1:     return y for i in range(2, int(n**0.5) + 1):     if n % i == 0:         return y retu"
+20260509_000810,code_generation,35,MiniMax-M2.7,minimax,1.1,4.4,164,324,0.001606,5,llm_judge,return (a % 10) * (b % 10)
+20260509_000810,code_generation,36,MiniMax-M2.7,minimax,1.1,4.4,115,1155,0.005208,3,llm_judge,"if n <= 1:     return 0 limit = int(n**0.5) for i in range(2, limit + 1):     if n % i == 0:        "
+20260509_000810,code_generation,37,MiniMax-M2.7,minimax,1.1,4.4,109,267,0.001295,5,llm_judge,return 0.5 * a * h
+20260509_000810,code_generation,38,MiniMax-M2.7,minimax,1.1,4.4,202,749,0.003518,5,llm_judge,largest_neg = None smallest_pos = None for num in lst:     if num < 0:         if largest_neg is Non
+20260509_000810,code_generation,39,MiniMax-M2.7,minimax,1.1,4.4,154,1355,0.006131,5,llm_judge,"if base < 2 or base > 9:         raise ValueError(""base must be between 2 and 9"")     if x == 0:    "
+20260509_000810,code_generation,40,MiniMax-M2.7,minimax,1.1,4.4,173,5340,0.023686,4,llm_judge,"if a == 0:         return True     x = abs(a)     n = int(round(x ** (1/3)))     for cand in (n-2, n"
+20260509_000810,code_generation,41,MiniMax-M2.7,minimax,1.1,4.4,216,2365,0.010644,4,llm_judge,indices = [i for i in range(len(l)) if i % 3 == 0]     sorted_vals = sorted(l[i] for i in indices)  
+20260509_000810,code_generation,42,MiniMax-M2.7,minimax,1.1,4.4,203,1621,0.007356,3,llm_judge,if n > m:     return -1 return bin(round((n + m) / 2))
+20260509_000810,code_generation,43,MiniMax-M2.7,minimax,1.1,4.4,159,620,0.002903,5,llm_judge,"if not numbers:     return [] result = [] for i, num in enumerate(numbers):     if i > 0:         re"
+20260509_000810,code_generation,44,MiniMax-M2.7,minimax,1.1,4.4,153,1812,0.008141,3,llm_judge,```python     result = []     vowels = 'aeiouAEIOU'          for char in message:         if char.is
+20260509_000810,code_generation,45,MiniMax-M2.7,minimax,1.1,4.4,177,643,0.003024,5,llm_judge,return sorted(set(l1) & set(l2))
+20260509_000810,code_generation,46,MiniMax-M2.7,minimax,1.1,4.4,354,1016,0.004860,4,llm_judge,"smallest_even = None     smallest_index = None     for i, v in enumerate(arr):         if v % 2 == 0"
+20260509_000810,code_generation,47,MiniMax-M2.7,minimax,1.1,4.4,131,527,0.002463,5,llm_judge,"```python if n < 0:     raise ValueError(""n must be non‑negative"") return "" "".join(str(i) for i in r"
+20260509_000810,code_generation,48,MiniMax-M2.7,minimax,1.1,4.4,141,239,0.001207,5,llm_judge,return text == text[::-1]
+20260509_000810,code_generation,49,MiniMax-M2.7,minimax,1.1,4.4,196,1937,0.008738,4,llm_judge,```python     n = len(string)     for i in range(n):         suffix = string[i:]         if suffix =
+20260509_000810,code_generation,0,o3,openai,2.0,8.0,88,88,0.000880,5,llm_judge,return ''.join(strings)
+20260509_000810,code_generation,1,o3,openai,2.0,8.0,141,496,0.004250,5,llm_judge,paren_string = paren_string.strip()     if not paren_string:         return []     depths = []     f
+20260509_000810,code_generation,2,o3,openai,2.0,8.0,155,350,0.003110,5,llm_judge,"if not lst:         return []     sorted_lst = sorted(lst)     i, j = 0, len(sorted_lst) - 1     res"
+20260509_000810,code_generation,3,o3,openai,2.0,8.0,138,305,0.002716,4,llm_judge,"if len(xs) < 2:         return []     return [i * xs[i] for i in range(1, len(xs))]"
+20260509_000810,code_generation,4,o3,openai,2.0,8.0,117,534,0.004506,5,llm_judge,if len(l) <= 2:         return True     increasing = all(l[i] <= l[i + 1] for i in range(len(l) - 1)
+20260509_000810,code_generation,5,o3,openai,2.0,8.0,113,259,0.002298,5,llm_judge,"if not l:     raise ValueError(""max_element() arg is an empty list"") max_val = l[0] for elem in l[1:"
+20260509_000810,code_generation,6,o3,openai,2.0,8.0,115,366,0.003158,4,llm_judge,from collections import Counter     freq = Counter(numbers)     return [num for num in numbers if fr
+20260509_000810,code_generation,7,o3,openai,2.0,8.0,126,469,0.004004,4,llm_judge,"if n < 0:         raise ValueError(""n must be non-negative"")     result = 1     current_fact = 1    "
+20260509_000810,code_generation,8,o3,openai,2.0,8.0,125,231,0.002098,5,llm_judge,"return [v for v in values if isinstance(v, int) and not isinstance(v, bool)]"
+20260509_000810,code_generation,9,o3,openai,2.0,8.0,168,571,0.004904,4,llm_judge,"total = sum(n * n for n in lst             if isinstance(n, int) and not isinstance(n, bool) and n >"
+20260509_000810,code_generation,10,o3,openai,2.0,8.0,155,865,0.007230,4,llm_judge,count = 0     for n in arr:         digits = str(abs(n))         if n < 0:             total = -int(
+20260509_000810,code_generation,11,o3,openai,2.0,8.0,141,111,0.001170,4,llm_judge,"total = 0 prod = 1 for n in numbers:     total += n     prod *= n return total, prod"
+20260509_000810,code_generation,12,o3,openai,2.0,8.0,124,159,0.001520,5,llm_judge,return [s for s in strings if substring in s]
+20260509_000810,code_generation,13,o3,openai,2.0,8.0,74,87,0.000844,5,llm_judge,return len(string)
+20260509_000810,code_generation,14,o3,openai,2.0,8.0,83,261,0.002254,5,llm_judge,"if n < 0:         raise ValueError(""n must be non-negative"")     a, b = 0, 1     for _ in range(n): "
+20260509_000810,code_generation,15,o3,openai,2.0,8.0,94,411,0.003476,4,llm_judge,largest = 1     # Remove all factors of 2     while n % 2 == 0:         largest = 2         n //= 2 
+20260509_000810,code_generation,16,o3,openai,2.0,8.0,427,2993,0.024798,4,llm_judge,n = len(grid)     # Find the position of value 1 (smallest possible start)     for i in range(n):   
+20260509_000810,code_generation,17,o3,openai,2.0,8.0,107,109,0.001086,5,llm_judge,if text == '':         return None     import hashlib     return hashlib.md5(text.encode('utf-8')).h
+20260509_000810,code_generation,18,o3,openai,2.0,8.0,178,393,0.003500,5,llm_judge,import math          def is_prime(n):         if n < 2:             return False         if n == 2: 
+20260509_000810,code_generation,19,o3,openai,2.0,8.0,121,433,0.003706,3,llm_judge,"return """".join(chr(((ord(ch) - 5 - ord(""a"")) % 26) + ord(""a"")) for ch in s)"
+20260509_000810,code_generation,20,o3,openai,2.0,8.0,136,321,0.002840,4,llm_judge,"roman_map = [         (1000, 'M'),         (900,  'CM'),         (500,  'D'),         (400,  'CD'), "
+20260509_000810,code_generation,21,o3,openai,2.0,8.0,241,287,0.002778,5,llm_judge,"even_count = 0     odd_count = 0     for i in range(1, n + 1):         s = str(i)         if s == s["
+20260509_000810,code_generation,22,o3,openai,2.0,8.0,124,144,0.001400,5,llm_judge,balance = 0     for ch in brackets:         if ch == '<':             balance += 1         elif ch =
+20260509_000810,code_generation,23,o3,openai,2.0,8.0,119,190,0.001758,5,llm_judge,"current_min = global_min = nums[0] for num in nums[1:]:     current_min = min(num, current_min + num"
+20260509_000810,code_generation,24,o3,openai,2.0,8.0,152,432,0.003760,5,llm_judge,"from math import sqrt          # Check for positive sides     if any(side <= 0 for side in (a, b, c)"
+20260509_000810,code_generation,25,o3,openai,2.0,8.0,146,376,0.003300,4,llm_judge,groups = []     current = []     depth = 0     for ch in paren_string:         if ch.isspace():     
+20260509_000810,code_generation,26,o3,openai,2.0,8.0,190,449,0.003972,5,llm_judge,"# If there are fewer than 3 elements, it's impossible to find a triple     if len(l) < 3:         re"
+20260509_000810,code_generation,27,o3,openai,2.0,8.0,303,616,0.005534,5,llm_judge,best_ext = None     max_strength = float('-inf')     for ext in extensions:         cap = sum(1 for 
+20260509_000810,code_generation,28,o3,openai,2.0,8.0,290,774,0.006772,4,llm_judge,"coords = []     for r, row in enumerate(lst):         cols = [c for c, val in enumerate(row) if val "
+20260509_000810,code_generation,29,o3,openai,2.0,8.0,146,4527,0.036508,4,llm_judge,"def digit_sum(n):         return sum(int(ch) for ch in str(abs(n)))     return sorted(nums, key=digi"
+20260509_000810,code_generation,30,o3,openai,2.0,8.0,127,779,0.006486,5,llm_judge,"if n <= 0:         raise ValueError(""n must be a positive integer"")      def is_prime(num: int) -> b"
+20260509_000810,code_generation,31,o3,openai,2.0,8.0,218,312,0.002932,4,llm_judge,"even_words = [word for word in lst if len(word) % 2 == 0]     return sorted(even_words, key=lambda w"
+20260509_000810,code_generation,32,o3,openai,2.0,8.0,159,910,0.007598,4,llm_judge,"import re     tokens = re.split(r'(\s+)', s)     result = []     for tok in tokens:         if tok a"
+20260509_000810,code_generation,33,o3,openai,2.0,8.0,139,335,0.002958,4,llm_judge,import math     # Ensure all sides are positive numbers     if a <= 0 or b <= 0 or c <= 0:         r
+20260509_000810,code_generation,34,o3,openai,2.0,8.0,117,290,0.002554,5,llm_judge,if n <= 1:         return y     if n == 2:         return x     if n % 2 == 0:         return y     
+20260509_000810,code_generation,35,o3,openai,2.0,8.0,129,229,0.002090,5,llm_judge,return (abs(a) % 10) * (abs(b) % 10)
+20260509_000810,code_generation,36,o3,openai,2.0,8.0,83,769,0.006318,3,llm_judge,"import math     # For n <= 2, the largest proper divisor is always 1     if n <= 2:         return 1"
+20260509_000810,code_generation,37,o3,openai,2.0,8.0,77,154,0.001386,5,llm_judge,return a * h / 2
+20260509_000810,code_generation,38,o3,openai,2.0,8.0,173,277,0.002562,5,llm_judge,negatives = [x for x in lst if x < 0]     positives = [x for x in lst if x > 0]      largest_negativ
+20260509_000810,code_generation,39,o3,openai,2.0,8.0,122,305,0.002684,5,llm_judge,"if base < 2 or base > 9:         raise ValueError(""base must be between 2 and 9 inclusive"")     if x"
+20260509_000810,code_generation,40,o3,openai,2.0,8.0,141,437,0.003778,4,llm_judge,if a == 0:         return True     b = round(abs(a) ** (1 / 3))     return b ** 3 == abs(a)
+20260509_000810,code_generation,41,o3,openai,2.0,8.0,184,335,0.003048,4,llm_judge,"sorted_vals = sorted(l[i] for i in range(0, len(l), 3))     result = l[:]                       # co"
+20260509_000810,code_generation,42,o3,openai,2.0,8.0,171,1090,0.009062,3,llm_judge,if n > m:         return -1     avg = (n + m) / 2  # Average of consecutive integers from n to m    
+20260509_000810,code_generation,43,o3,openai,2.0,8.0,129,135,0.001338,5,llm_judge,result = []     it = iter(numbers)     try:         first = next(it)     except StopIteration:      
+20260509_000810,code_generation,44,o3,openai,2.0,8.0,140,1813,0.014784,3,llm_judge,shifted = []     for ch in message:         if ch.lower() in 'aeiou':             if 'a' <= ch <= 'z
+20260509_000810,code_generation,45,o3,openai,2.0,8.0,145,221,0.002058,5,llm_judge,return sorted(set(l1) & set(l2))
+20260509_000810,code_generation,46,o3,openai,2.0,8.0,343,222,0.002462,4,llm_judge,"even_min = None     idx = -1     for i, val in enumerate(arr):         if val % 2 == 0:             "
+20260509_000810,code_generation,47,o3,openai,2.0,8.0,99,159,0.001470,5,llm_judge,"return ' '.join(map(str, range(n + 1)))"
+20260509_000810,code_generation,48,o3,openai,2.0,8.0,102,154,0.001436,5,llm_judge,return text == text[::-1]
+20260509_000810,code_generation,49,o3,openai,2.0,8.0,171,1312,0.010838,4,llm_judge,n = len(string)     for i in range(n):         # If the suffix starting at position i is a palindrom

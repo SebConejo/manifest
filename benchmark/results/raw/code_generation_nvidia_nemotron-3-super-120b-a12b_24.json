@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "code_generation",
   "case": 24,
-  "response": "import math\n    if a + b <= c or a + c <= b or b + c <= a:\n        return -1\n    s = (a + b + c) / 2\n    area = math.sqrt(s * (s - a) * (s - b) * (s - c))\n    return round(area, 2)",
-  "score": 4,
-  "cost": 5.166e-05,
+  "response": "if a + b <= c or a + c <= b or b + c <= a:\n        return -1\n    s = (a + b + c) / 2\n    area = (s * (s - a) * (s - b) * (s - c)) ** 0.5\n    return round(area, 2)",
+  "score": 5,
+  "cost": 2.07e-05,
   "expected": "",
   "tokens": {
-    "input": 166,
-    "output": 408
+    "input": 153,
+    "output": 77
   }
 }

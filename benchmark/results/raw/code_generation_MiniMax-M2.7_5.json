@@ -2,12 +2,12 @@
   "model": "MiniMax-M2.7",
   "task": "code_generation",
   "case": 5,
-  "response": "return max(l)",
+  "response": "if not l:\n    raise ValueError(\"The list is empty\")\nmax_val = l[0]\nfor x in l[1:]:\n    if x > max_val:\n        max_val = x\nreturn max_val",
   "score": 5,
-  "cost": 0.0016104000000000001,
+  "cost": 0.0038423000000000003,
   "expected": "",
   "tokens": {
-    "input": 128,
-    "output": 334
+    "input": 145,
+    "output": 837
   }
 }

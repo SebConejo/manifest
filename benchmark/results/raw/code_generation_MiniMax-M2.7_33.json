@@ -2,12 +2,12 @@
   "model": "MiniMax-M2.7",
   "task": "code_generation",
   "case": 33,
-  "response": "sides = sorted([a, b, c])\n    return sides[0] * sides[0] + sides[1] * sides[1] == sides[2] * sides[2]",
+  "response": "sides = [a, b, c]\n    if any(s <= 0 for s in sides):\n        return False\n    x, y, z = sorted(sides)\n    return x * x + y * y == z * z",
   "score": 5,
-  "cost": 0.0035079,
+  "cost": 0.0035915,
   "expected": "",
   "tokens": {
     "input": 157,
-    "output": 758
+    "output": 777
   }
 }

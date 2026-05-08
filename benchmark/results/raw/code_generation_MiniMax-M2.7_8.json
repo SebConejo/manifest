@@ -2,12 +2,12 @@
   "model": "MiniMax-M2.7",
   "task": "code_generation",
   "case": 8,
-  "response": "return [v for v in values if isinstance(v, int) and not isinstance(v, bool)]",
+  "response": "return [v for v in values if isinstance(v, int)]",
   "score": 5,
-  "cost": 0.0053438,
+  "cost": 0.0045254,
   "expected": "",
   "tokens": {
     "input": 154,
-    "output": 1176
+    "output": 990
   }
 }

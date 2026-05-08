@@ -1,0 +1,13 @@
+{
+  "model": "kimi-k2.6",
+  "task": "code_generation",
+  "case": 26,
+  "response": "n = len(l)\n    for i in range(n):\n        for j in range(i + 1, n):\n            for k in range(j + 1, n):\n                if l[i] + l[j] + l[k] == 0:\n                    return True\n    return False",
+  "score": 5,
+  "cost": 0.0116052,
+  "expected": "",
+  "tokens": {
+    "input": 198,
+    "output": 4786
+  }
+}

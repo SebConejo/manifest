@@ -3,11 +3,11 @@
   "task": "code_generation",
   "case": 23,
   "response": "min_ending_here = nums[0]\n    min_so_far = nums[0]\n    for i in range(1, len(nums)):\n        min_ending_here = min(nums[i], min_ending_here + nums[i])\n        min_so_far = min(min_so_far, min_ending_here)\n    return min_so_far",
-  "score": 4,
-  "cost": 0.000780825,
+  "score": 5,
+  "cost": 0.001268025,
   "expected": "",
   "tokens": {
     "input": 119,
-    "output": 419
+    "output": 699
   }
 }

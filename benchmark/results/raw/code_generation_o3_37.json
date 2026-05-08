@@ -2,12 +2,12 @@
   "model": "o3",
   "task": "code_generation",
   "case": 37,
-  "response": "return 0.5 * a * h",
+  "response": "return a * h / 2",
   "score": 5,
-  "cost": 0.00089,
+  "cost": 0.001386,
   "expected": "",
   "tokens": {
     "input": 77,
-    "output": 92
+    "output": 154
   }
 }

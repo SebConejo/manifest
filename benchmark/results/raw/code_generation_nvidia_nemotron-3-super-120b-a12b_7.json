@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "code_generation",
   "case": 7,
-  "response": "result = 1\n    fact = 1\n    for i in range(1, n + 1):\n        fact *= i\n        result *= fact\n    return result",
-  "score": 4,
-  "cost": 1.494e-05,
+  "response": "We need to complete the function body only. No extra text.",
+  "score": 1,
+  "cost": 1.3949999999999999e-05,
   "expected": "",
   "tokens": {
-    "input": 127,
-    "output": 39
+    "input": 141,
+    "output": 14
   }
 }

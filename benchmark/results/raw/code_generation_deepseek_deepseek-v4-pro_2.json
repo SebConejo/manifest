@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "code_generation",
   "case": 2,
-  "response": "if not lst:\n        return []\n    sorted_lst = sorted(lst)\n    result = []\n    left, right = 0, len(sorted_lst) - 1\n    while left <= right:\n        result.append(sorted_lst[left])\n        left += 1\n        if left <= right:\n            result.append(sorted_lst[right])\n            right -= 1\n    return result",
+  "response": "if not lst:\n        return []\n    lst.sort()\n    res = []\n    left, right = 0, len(lst) - 1\n    while left <= right:\n        res.append(lst[left])\n        left += 1\n        if left <= right:\n            res.append(lst[right])\n            right -= 1\n    return res",
   "score": 4,
-  "cost": 0.000778215,
+  "cost": 0.0010009349999999999,
   "expected": "",
   "tokens": {
     "input": 153,
-    "output": 409
+    "output": 537
   }
 }

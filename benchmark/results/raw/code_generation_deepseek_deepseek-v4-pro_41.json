@@ -1,0 +1,13 @@
+{
+  "model": "deepseek/deepseek-v4-pro",
+  "task": "code_generation",
+  "case": 41,
+  "response": "indices = range(0, len(l), 3)\n    sorted_vals = sorted(l[i] for i in indices)\n    res = list(l)\n    for i, val in zip(indices, sorted_vals):\n        res[i] = val\n    return res",
+  "score": 5,
+  "cost": 0.00119973,
+  "expected": "",
+  "tokens": {
+    "input": 182,
+    "output": 644
+  }
+}

@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "code_generation",
   "case": 38,
-  "response": "neg_max = None\n    pos_min = None\n    for x in lst:\n        if x < 0:\n            if neg_max is None or x > neg_max:\n                neg_max = x\n        elif x > 0:\n            if pos_min is None or x < pos_min:\n                pos_min = x\n    return (neg_max, pos_min)",
+  "response": "largest_negative = None\n    smallest_positive = None\n    for num in lst:\n        if num < 0:\n            if largest_negative is None or num > largest_negative:\n                largest_negative = num\n        elif num > 0:\n            if smallest_positive is None or num < smallest_positive:\n                smallest_positive = num\n    return (largest_negative, smallest_positive)",
   "score": 4,
-  "cost": 0.000744285,
+  "cost": 0.001060965,
   "expected": "",
   "tokens": {
     "input": 175,
-    "output": 384
+    "output": 566
   }
 }

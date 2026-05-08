@@ -2,12 +2,12 @@
   "model": "o3",
   "task": "code_generation",
   "case": 3,
-  "response": "if len(xs) <= 1:\n        return [0]\n    return [i * xs[i] for i in range(1, len(xs))]",
+  "response": "if len(xs) < 2:\n        return []\n    return [i * xs[i] for i in range(1, len(xs))]",
   "score": 4,
-  "cost": 0.002732,
+  "cost": 0.002716,
   "expected": "",
   "tokens": {
     "input": 138,
-    "output": 307
+    "output": 305
   }
 }

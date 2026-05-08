@@ -4,10 +4,10 @@
   "case": 45,
   "response": "return sorted(set(l1) & set(l2))",
   "score": 5,
-  "cost": 2.952e-05,
+  "cost": 1.4309999999999999e-05,
   "expected": "",
   "tokens": {
-    "input": 164,
-    "output": 164
+    "input": 146,
+    "output": 13
   }
 }

@@ -2,12 +2,12 @@
   "model": "MiniMax-M2.7",
   "task": "code_generation",
   "case": 31,
-  "response": "filtered = [s for s in lst if len(s) % 2 == 0]\nfiltered.sort(key=lambda x: (len(x), x))\nreturn filtered",
+  "response": "# Filter strings with even length (odd lengths are removed)\n    even_len = [s for s in lst if len(s) % 2 == 0]\n\n    # Sort by length ascending; for equal lengths sort alphabetically\n    even_len.sort(key=lambda x: (len(x), x))\n\n    return even_len",
   "score": 4,
-  "cost": 0.0039182,
+  "cost": 0.0030778000000000003,
   "expected": "",
   "tokens": {
     "input": 250,
-    "output": 828
+    "output": 637
   }
 }

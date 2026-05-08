@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "code_generation",
   "case": 3,
-  "response": "return [i * xs[i] for i in range(1, len(xs))]",
-  "score": 4,
-  "cost": 4.086e-05,
+  "response": "We need to output only function body. No extra explanation.",
+  "score": 1,
+  "cost": 1.485e-05,
   "expected": "",
   "tokens": {
     "input": 152,
-    "output": 302
+    "output": 13
   }
 }

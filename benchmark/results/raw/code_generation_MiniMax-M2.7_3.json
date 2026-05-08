@@ -3,11 +3,11 @@
   "task": "code_generation",
   "case": 3,
   "response": "return [i * xs[i] for i in range(1, len(xs))]",
-  "score": 3,
-  "cost": 0.0041646,
+  "score": 4,
+  "cost": 0.0031185,
   "expected": "",
   "tokens": {
-    "input": 154,
-    "output": 908
+    "input": 171,
+    "output": 666
   }
 }

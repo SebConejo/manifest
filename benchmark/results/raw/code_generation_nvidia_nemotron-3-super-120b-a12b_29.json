@@ -2,14 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "code_generation",
   "case": 29,
-  "response": "We need to implement function body only. The function signature is given: def order_by_points(nums):. We need to return sorted list according to sum of digits (absolute? The examples: Input [1, 11, -1, -11, -12] => output [-1, -11, 1, -12, 11].\n\nLet's compute sum of digits for each number, ignoring sign? Let's test: For 1: sum digits = 1. For 11: sum = 1+1=2. For -1: sum digits? Usually sum of digits of absolute value: 1. For -11: sum = 1+1=2. For -12: sum = 1+2=3.\n\nNow sorting ascending by sum: values with sum 1: 1 and -1. They have same sum, need to preserve original order (stable sort). Original list order: [1 (index0), 11 (1), -1 (2), -11 (3), -12 (4)]. So among sum=1: 1 (index0) then -1 (index2). So order: 1 then -1. But output shows [-1, -11, 1, -12, 11]. Wait that's different: they have -1 first, then -11, then 1, then -12, then 11. Let's compute sums again: maybe they consider sum of digits including sign? For negative numbers, maybe they treat the negative sign as subtracting? Let's test: For -1: sum of digits maybe -1? For -11: sum = -(1+1) = -2? For -12: sum = -(1+2) = -3? Then sorting ascending (more negative first) yields: -12 (-3), -11 (-2), -1 (-1), 1 (1), 11 (2). That would be [-12, -11, -1, 1, 11]. Not matching.\n\nMaybe they compute sum of digits of absolute value, but then sort ascending, but tie-breaking by original index? Let's compute sums: 1->1, 11->2, -1->1, -11->2, -12->3.",
-  "score": 1,
+  "response": "",
+  "score": 0,
   "cost": 5.9579999999999995e-05,
   "expected": "",
   "tokens": {
     "input": 162,
     "output": 500
-  },
-  "judge_rerun": true,
-  "judge_raw": "1"
+  }
 }

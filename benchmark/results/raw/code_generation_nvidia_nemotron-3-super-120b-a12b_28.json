@@ -4,10 +4,10 @@
   "case": 28,
   "response": "result = []\n    for i, row in enumerate(lst):\n        for j, val in enumerate(row):\n            if val == x:\n                result.append((i, j))\n    result.sort(key=lambda t: (t[0], -t[1]))\n    return result",
   "score": 5,
-  "cost": 3.132e-05,
+  "cost": 5.4539999999999996e-05,
   "expected": "",
   "tokens": {
-    "input": 291,
-    "output": 57
+    "input": 303,
+    "output": 303
   }
 }

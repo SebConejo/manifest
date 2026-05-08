@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "code_generation",
   "case": 22,
-  "response": "balance = 0\n    for ch in brackets:\n        if ch == '<':\n            balance += 1\n        else:  # ch == '>'\n            balance -= 1\n        if balance < 0:\n            return False\n    return balance == 0",
-  "score": 4,
-  "cost": 3.411e-05,
+  "response": "",
+  "score": 0,
+  "cost": 5.715e-05,
   "expected": "",
   "tokens": {
     "input": 135,
-    "output": 244
+    "output": 500
   }
 }

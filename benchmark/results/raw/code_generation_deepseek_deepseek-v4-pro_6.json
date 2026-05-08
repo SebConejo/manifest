@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "code_generation",
   "case": 6,
-  "response": "```python\n    from collections import Counter\n    counts = Counter(numbers)\n    return [num for num in numbers if counts[num] == 1]\n```",
+  "response": "freq = {}\n    for num in numbers:\n        freq[num] = freq.get(num, 0) + 1\n    return [num for num in numbers if freq[num] == 1]",
   "score": 5,
-  "cost": 0.000985275,
+  "cost": 0.0011314349999999999,
   "expected": "",
   "tokens": {
     "input": 117,
-    "output": 537
+    "output": 621
   }
 }

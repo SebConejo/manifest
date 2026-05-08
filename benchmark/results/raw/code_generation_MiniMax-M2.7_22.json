@@ -2,12 +2,12 @@
   "model": "MiniMax-M2.7",
   "task": "code_generation",
   "case": 22,
-  "response": "depth = 0\n    for ch in brackets:\n        if ch == '<':\n            depth += 1\n        elif ch == '>':\n            depth -= 1\n            if depth < 0:\n                return False\n    return depth == 0",
+  "response": "count = 0\n    for ch in brackets:\n        if ch == '<':\n            count += 1\n        else:  # ch == '>'\n            if count == 0:\n                return False\n            count -= 1\n    return count == 0",
   "score": 4,
-  "cost": 0.0028809,
+  "cost": 0.0029161000000000005,
   "expected": "",
   "tokens": {
     "input": 139,
-    "output": 620
+    "output": 628
   }
 }

@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "code_generation",
   "case": 6,
-  "response": "from collections import Counter\n    counts = Counter(numbers)\n    return [x for x in numbers if counts[x] == 1]",
+  "response": "from collections import Counter\n    counts = Counter(numbers)\n    return [num for num in numbers if counts[num] == 1]",
   "score": 4,
-  "cost": 4.517999999999999e-05,
+  "cost": 1.3049999999999999e-05,
   "expected": "",
   "tokens": {
-    "input": 130,
-    "output": 372
+    "input": 116,
+    "output": 29
   }
 }

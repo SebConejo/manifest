@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "code_generation",
   "case": 15,
-  "response": "i = 2\n    factor = 1\n    while i * i <= n",
-  "score": 2,
-  "cost": 5.517e-05,
+  "response": "i = 2\n    last_factor = None\n    while i * i <= n:\n        if n % i == 0:\n            last_factor = i\n            while n % i == 0:\n                n //= i\n        i += 1 if i == 2 else 2\n    if n > 1:\n        last_factor = n\n    return last_factor",
+  "score": 4,
+  "cost": 1.584e-05,
   "expected": "",
   "tokens": {
-    "input": 113,
-    "output": 500
+    "input": 95,
+    "output": 81
   }
 }

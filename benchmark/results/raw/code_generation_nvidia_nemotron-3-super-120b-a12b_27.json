@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "code_generation",
   "case": 27,
-  "response": "best_strength = float('-inf')\n    best_ext = None\n    for ext in extensions:\n        upper = sum(1 for c in ext if c.isupper())\n        lower = sum(1 for c in ext if c.islower())\n        strength = upper - lower\n        if strength > best_strength:\n            best_strength = strength\n            best_ext = ext\n    return f\"{class_name}.{best_ext}\"",
-  "score": 5,
-  "cost": 7.163999999999998e-05,
+  "response": "\u0421\u043f\u0430\u0441\u0438\u0431\u043e",
+  "score": 1,
+  "cost": 3.006e-05,
   "expected": "",
   "tokens": {
     "input": 320,
-    "output": 476
+    "output": 14
   }
 }

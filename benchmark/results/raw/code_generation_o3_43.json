@@ -2,12 +2,12 @@
   "model": "o3",
   "task": "code_generation",
   "case": 43,
-  "response": "if not numbers:\n    return []\nresult = []\nfor i, num in enumerate(numbers):\n    result.append(num)\n    if i != len(numbers) - 1:\n        result.append(delimeter)\nreturn result",
+  "response": "result = []\n    it = iter(numbers)\n    try:\n        first = next(it)\n    except StopIteration:\n        return result\n    result.append(first)\n    for num in it:\n        result.append(delimeter)\n        result.append(num)\n    return result",
   "score": 5,
-  "cost": 0.00125,
+  "cost": 0.001338,
   "expected": "",
   "tokens": {
     "input": 129,
-    "output": 124
+    "output": 135
   }
 }

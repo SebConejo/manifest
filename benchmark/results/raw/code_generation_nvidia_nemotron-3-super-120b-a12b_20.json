@@ -2,7 +2,7 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "code_generation",
   "case": 20,
-  "response": "We need to write the function body only (no def line). The function should convert integer to roman numeral (lowercase). Input range 1-1000 inclusive. Need to produce roman numeral in lowercase.\n\nStandard roman numerals: I=1, V=5, X=10, L=50, C=100, D=500, M=1000. For numbers up to 1000 inclusive, we need to handle M (1000). For 1000, roman numeral is 'm' (lowercase). For numbers like 900 = 'cm', 400='cd', etc.\n\nWe need to produce lowercase letters.\n\nImplementation: Use list of tuples mapping values to roman strings (uppercase) then convert to lowercase.\n\nPseudo:\n\ndef int_to_mini_roman(number):\n    vals = [\n        (1000, 'm'),\n        (900, 'cm'),\n        (500, 'd'),\n        (400, 'cd'),\n        (100, 'c'),\n        (90, 'xc'),\n        (50, 'l'),\n        (40, 'xl'),\n        (10, 'x'),\n        (9, 'ix'),\n        (5, 'v'),\n        (4, 'iv'),\n        (1, 'i')\n    ]\n    result = ''\n    for value, symbol in vals:\n        while number >= value:\n            result += symbol\n            number -= value\n    return result\n\nBut we need to output only the function body (the code after the signature). So we need to write the code inside the function, not including the def line.\n\nThus we need to produce something like:\n\n    vals = [(1000, 'm'), (900, 'cm'), (500, 'd'), (400, 'cd'), (100, 'c'), (90, 'xc'), (50, 'l'), (40, 'xl'), (10, 'x'), (9, 'ix'), (5, 'v'), (4, 'iv'), (1, 'i')]\n    res = ''\n    for v, s in vals:\n        while number >= v:\n            res += s\n            number -= v\n    return res\n\nMake sure indentation",
+  "response": "",
   "score": 1,
   "cost": 5.886e-05,
   "expected": "",

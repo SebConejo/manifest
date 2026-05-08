@@ -3,11 +3,11 @@
   "task": "code_generation",
   "case": 12,
   "response": "return [s for s in strings if substring in s]",
-  "score": 4,
-  "cost": 0.0018172000000000002,
+  "score": 5,
+  "cost": 0.0017831000000000001,
   "expected": "",
   "tokens": {
-    "input": 140,
-    "output": 378
+    "input": 157,
+    "output": 366
   }
 }

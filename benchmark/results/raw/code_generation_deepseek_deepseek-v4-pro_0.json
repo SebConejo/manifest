@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "code_generation",
   "case": 0,
-  "response": "return \"\".join(strings)",
+  "response": "return ''.join(strings)",
   "score": 5,
-  "cost": 0.00015834,
+  "cost": 0.00021402000000000001,
   "expected": "",
   "tokens": {
     "input": 92,
-    "output": 68
+    "output": 100
   }
 }

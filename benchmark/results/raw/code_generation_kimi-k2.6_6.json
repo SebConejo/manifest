@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "code_generation",
   "case": 6,
-  "response": "counts = {}\n    for num in numbers:\n        counts[num] = counts.get(num, 0) + 1\n    return [num for num in numbers if counts[num] == 1]",
-  "score": 5,
-  "cost": 0.0033978000000000003,
+  "response": "seen = set()\n    duplicates = set()\n    for num in numbers:\n        if num in seen:\n            duplicates.add(num)\n        seen.add(num)\n    return [num for num in numbers if num not in duplicates]",
+  "score": 4,
+  "cost": 0.003465,
   "expected": "",
   "tokens": {
     "input": 119,
-    "output": 1386
+    "output": 1414
   }
 }

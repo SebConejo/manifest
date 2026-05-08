@@ -2,12 +2,12 @@
   "model": "o3",
   "task": "code_generation",
   "case": 9,
-  "response": "return sum(\n        n * n\n        for n in lst\n        if type(n) is int and n >= 0 and n % 2 == 1\n    )",
+  "response": "total = sum(n * n for n in lst\n            if isinstance(n, int) and not isinstance(n, bool) and n > 0 and n % 2 == 1)\nreturn total",
   "score": 4,
-  "cost": 0.006928,
+  "cost": 0.004904,
   "expected": "",
   "tokens": {
     "input": 168,
-    "output": 824
+    "output": 571
   }
 }

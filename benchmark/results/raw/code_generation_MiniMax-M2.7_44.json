@@ -2,12 +2,12 @@
   "model": "MiniMax-M2.7",
   "task": "code_generation",
   "case": 44,
-  "response": "```python\n    result = ''\n    vowels = 'aeiouAEIOU'\n    for char in message:\n        if char.isalpha():\n            # Swap case first\n            char = char.swapcase()\n            # Then replace vowels with letter 2 ahead\n            if char in 'AEIOU':\n                char = chr((ord(char) - ord('A') + 2) % 26 + ord('A'))\n            elif char in 'aeiou':\n                char = chr((ord(char) - ord('a') + 2) % 26 + ord('a'))\n        result += char\n    return result\n```",
-  "score": 4,
-  "cost": 0.005958700000000001,
+  "response": "```python\n    result = []\n    vowels = 'aeiouAEIOU'\n    \n    for char in message:\n        if char.isalpha():\n            if char in vowels:\n                # Replace vowel with letter 2 ahead, then swap case\n                new_char = chr(ord(char.lower()) + 2)\n                new_char = new_char.swapcase()\n            else:\n                new_char = char.swapcase()\n        else:\n            new_char = char\n        result.append(new_char)\n    \n    return ''.join(result)\n```",
+  "score": 3,
+  "cost": 0.008141100000000002,
   "expected": "",
   "tokens": {
     "input": 153,
-    "output": 1316
+    "output": 1812
   }
 }
