@@ -1,6 +1,10 @@
 # Data Quality Check
 
 Date: 2026-05-07
+**⚠️ PARTIALLY SUPERSEDED** — This file predates rejudge phases 2-3 and the
+rebuild from raw JSON. Authoritative numbers are in STATE_RECONCILIATION.md.
+Key corrections: rows=50,351 (not 50,801), complete models=35 (not 37),
+spend=$99.29, zeros=744 (not 950+).
 
 ## 1. Total Rows and Coherence
 

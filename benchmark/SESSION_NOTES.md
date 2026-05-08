@@ -134,7 +134,7 @@ extra credits ($5-6) to finish. The most expensive model to benchmark per task.
 listed in --models when --skip-azure is active. Caused confusion when trying
 to complete gpt-5.1-chat and o4-mini.
 
-**Data collection is COMPLETE.** 49 models at 21/21, 50,949 rows, $98 spent.
+**Data collection is COMPLETE.** 35 models at 21/21 (≥40 valid cases), 14 partial, 8 Azure doublons. 50,351 valid rows, $99.29 spent. *(Previous count: 50,949 rows / 49 "complete" — included empty-response rows.)*
 
 ## What the next session should do first
 

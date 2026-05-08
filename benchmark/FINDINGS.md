@@ -1,7 +1,7 @@
 # TaskBench Findings
 
-Last updated: 2026-05-07
-Status: BENCHMARK COMPLETE. 49 models at 21/21 tasks. Data collection finished.
+Last updated: 2026-05-08
+Status: DATA COLLECTION + REJUDGE COMPLETE. Cleanup in progress.
 
 **Rule: every finding below must be revalidated against final data before
 publication. Findings marked [STABLE] survived multiple lots without changing.
@@ -9,13 +9,18 @@ Findings marked [PRELIMINARY] are based on partial data and may shift.**
 
 ## Data Snapshot
 
-- 50,949 unique data points
-- 49 models at 21/21 tasks (57 total, 8 Azure doublons at 2/21)
+- 50,351 valid data points (rebuilt from 50,490 raw JSON files, 139 empty-response rows excluded)
+- 35 models at 21/21 tasks with ≥40 valid cases each (57 total, 8 Azure doublons, 14 partial)
 - 9 API providers (Anthropic, OpenAI, Google, Mistral, MiniMax, Moonshot, BytePlus, OpenRouter, Azure)
 - 21 v2 tasks (50 cases each), 13 v1 tasks (5-10 cases, exploratory only)
-- $98 spent of $250 budget (39%)
-- Commit: 14d8bdc38 on branch taskbench-data
-- Data collection COMPLETE. Next: analysis and paper.
+- $99.29 spent of $250 budget (40%) — source: spend_tracker.json
+- 744 zeros remaining, all legitimate (729 exact-match + 15 LLM-judged)
+- 6,170 cases rejudged across 3 phases (4,648 + 620 + 902), 0 errors
+- 683 empty-response raw files remain across 86 task+model combos
+
+*Previous snapshot (2026-05-07): 50,949 rows, 49 models "at 21/21", $98 spent.
+Those numbers predated the rebuild from raw files (which excluded empties) and
+used a looser definition of "complete" that counted empty-response rows as data.*
 
 ---
 

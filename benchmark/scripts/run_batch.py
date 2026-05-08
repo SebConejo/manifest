@@ -48,6 +48,7 @@ REASONING_MODELS = {
     "Phi-4-reasoning", "qwen3-32b",
     "gpt-5.5", "gpt-5.5-pro", "o3", "gpt-5.4", "gpt-5.4-mini", "gpt-5.4-nano",
     "seed-2-0-pro-260328",
+    "deepseek/deepseek-v4-pro",
 }
 
 # Models that don't support temperature parameter
@@ -62,7 +63,7 @@ def strip_thinking(text):
 
 def effective_max_tokens(model_name, requested):
     if model_name in REASONING_MODELS:
-        return max(requested, 2000)
+        return max(requested, 8192)
     return requested
 
 
@@ -443,6 +444,8 @@ def call_openai_responses(model, messages, max_tokens):
     try:
         resp = req.post(url, json=body, headers=headers, timeout=300)
         data = resp.json()
+        if "error" in data:
+            return {"error": data["error"].get("message", str(data["error"])) if isinstance(data["error"], dict) else str(data["error"])}
         # Extract response text from Responses API format
         content = ""
         usage = {"prompt_tokens": 0, "completion_tokens": 0}
@@ -518,7 +521,7 @@ def call_moonshot(model, messages, max_tokens):
     import requests as req
     url = "https://api.moonshot.ai/v1/chat/completions"
     headers = {"Authorization": f"Bearer {os.environ['MOONSHOT_API_KEY']}", "Content-Type": "application/json"}
-    body = {"model": model, "messages": messages, "max_tokens": max(max_tokens, 2000)}
+    body = {"model": model, "messages": messages, "max_tokens": max_tokens}
     if model not in NO_TEMPERATURE_MODELS:
         body["temperature"] = 0
     resp = req.post(url, json=body, headers=headers, timeout=180)
@@ -530,7 +533,7 @@ def call_byteplus(model, messages, max_tokens):
     import requests as req
     url = "https://ark.ap-southeast.bytepluses.com/api/v3/chat/completions"
     headers = {"Authorization": f"Bearer {os.environ['BYTEPLUS_API_KEY']}", "Content-Type": "application/json"}
-    body = {"model": model, "messages": messages, "max_tokens": max(max_tokens, 2000)}
+    body = {"model": model, "messages": messages, "max_tokens": max_tokens}
     if model not in NO_TEMPERATURE_MODELS:
         body["temperature"] = 0
     try:

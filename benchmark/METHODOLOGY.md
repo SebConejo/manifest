@@ -498,8 +498,7 @@ Changes made during the benchmark execution:
    Code (coding specialist) via BytePlus ARK API at
    `ark.ap-southeast.bytepluses.com/api/v3`. OpenAI-compatible format. $500 free credits.
 
-9. **Final scale: 57 models (49 complete), 13 providers** (2026-05-07). Data collection
-   complete. 50,949 rows, $98 spent of $250 budget.
+9. **Final scale: 57 models (35 complete at ≥40 cases/task, 14 partial, 8 Azure doublons), 13 providers** (2026-05-08). 50,351 valid rows (rebuilt from raw JSON, empty-response rows excluded). $99.29 spent of $250 budget. *(Previous count 2026-05-07: 50,949 rows / 49 "complete" — included empty-response rows as data.)*
 
 ## 12. Decisions We Made and Why (FAQ)
 
