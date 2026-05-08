@@ -3,11 +3,13 @@
   "task": "sql_spider",
   "case": 30,
   "response": "```sql\nSELECT AVG(winner_rank) AS average_winner_rank\nFROM matches;\n```",
-  "score": 0,
+  "score": 5,
   "cost": 0.0001508,
   "expected": "",
   "tokens": {
     "input": 73,
     "output": 18
-  }
+  },
+  "judge_rerun": true,
+  "judge_raw": "5"
 }

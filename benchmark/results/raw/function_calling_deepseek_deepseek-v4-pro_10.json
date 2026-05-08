@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "function_calling",
   "case": 10,
-  "response": "",
-  "score": 0,
-  "cost": 0.000559845,
+  "response": "{\"name\": \"play_song\", \"arguments\": {\"title\": \"Bohemian Rhapsody\", \"artist\": \"Queen\"}}",
+  "score": 5,
+  "cost": 0.00041368499999999995,
   "expected": "",
   "tokens": {
     "input": 87,
-    "output": 300
+    "output": 216
   }
 }

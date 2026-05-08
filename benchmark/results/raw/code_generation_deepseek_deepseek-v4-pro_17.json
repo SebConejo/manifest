@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "code_generation",
   "case": 17,
-  "response": "",
-  "score": 0,
-  "cost": 0.000916545,
+  "response": "if text == \"\":\n    return None\nimport hashlib\nreturn hashlib.md5(text.encode()).hexdigest()",
+  "score": 5,
+  "cost": 0.000418905,
   "expected": "",
   "tokens": {
     "input": 107,
-    "output": 500
+    "output": 214
   }
 }

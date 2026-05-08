@@ -4,10 +4,10 @@
   "case": 18,
   "response": "{\"name\": \"check_domain\", \"arguments\": {\"domain\": \"coolstartup.com\"}}",
   "score": 5,
-  "cost": 0.00023620500000000002,
+  "cost": 0.000244905,
   "expected": "",
   "tokens": {
     "input": 91,
-    "output": 113
+    "output": 118
   }
 }

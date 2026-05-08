@@ -2,12 +2,12 @@
   "model": "gemini-2.5-pro",
   "task": "code_generation",
   "case": 44,
-  "response": "```python\n    swapped = message.swapcase()\n    vowels = \"aeiouAEIOU\"\n    replacements = \"cgikwCGIKW\"\n    translation_table = str.maketrans(vowels, replacements)\n    return swapped.translate(translation_table)\n```",
-  "score": 4,
-  "cost": 0.00084,
+  "response": "```python\n    swapped_message = message.swapcase()\n    vowels = \"aeiouAEIOU\"\n    encoded_vowels = \"cgikwCGIKW\"\n    translation_table = str.maketrans(vowels, encoded_vowels)\n    return swapped_message.translate(translation_table)\n```",
+  "score": 3,
+  "cost": 0.00093,
   "expected": "",
   "tokens": {
     "input": 152,
-    "output": 65
+    "output": 74
   }
 }

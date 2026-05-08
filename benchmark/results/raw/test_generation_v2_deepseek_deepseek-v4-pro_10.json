@@ -2,8 +2,8 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "test_generation_v2",
   "case": 10,
-  "response": "",
-  "score": 0,
+  "response": "```python\nimport pytest\n\n# Assuming the function is defined in a module named 'email_validator'\n# Replace with the actual import path as needed.\nfrom email_validator import is_valid_email\n\n\n# ---------------------------\n# Happy Path & Valid Emails\n# ---------------------------\n@pytest.mark.parametrize(\n    \"email\",\n    [\n        \"test@example.com\",\n        \"user.name+tag+sorting@example.com\",\n        \"user_name@example.co.uk\",\n        \"user-name@sub.domain.example.com\",\n        \"user%example@example.org\",\n        \"1234567890@example.com\",\n        \"email@domain-one.com\",\n        \"_______@domain.com\",\n        \"email@domain.name\",\n        \"firstname+lastname@domain.com\",\n    ],\n)\ndef test_valid_emails(email):\n    \"\"\"Verify that correctly formatted emails return True.\"\"\"\n    assert is_valid_email(email) is True\n\n\n# ---------------------------\n# Edge Cases (valid boundary)\n# ---------------------------\n@pytest.mark.parametrize(\n    \"email\",\n    [\n        \"a@b.co\",                     # minimal length valid\n        \"a@b.cd\",                     # TLD exactly 2 characters\n        \"user@domain.museum\",         # long TLD\n        \"first.last@domain.co.in\",    # multiple subdomains\n        \"email@123.123.123.123\",      # domain as IP-like (allowed by this regex)\n        \"email@[123.123",
+  "score": 4,
   "cost": 0.00178002,
   "expected": "",
   "tokens": {

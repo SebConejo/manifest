@@ -3,13 +3,11 @@
   "task": "rag_qa",
   "case": 46,
   "response": "Los Angeles Kings",
-  "score": 1,
-  "cost": 0.000173565,
+  "score": 5,
+  "cost": 0.000180525,
   "expected": "Los Angeles Kings",
   "tokens": {
     "input": 123,
-    "output": 69
-  },
-  "judge_rerun": true,
-  "judge_raw": "1"
+    "output": 73
+  }
 }

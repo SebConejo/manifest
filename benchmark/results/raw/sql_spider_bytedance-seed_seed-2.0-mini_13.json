@@ -3,11 +3,13 @@
   "task": "sql_spider",
   "case": 13,
   "response": "SELECT MAX(release_date) FROM transcripts;",
-  "score": 0,
+  "score": 5,
   "cost": 0.0003731,
   "expected": "",
   "tokens": {
     "input": 115,
     "output": 904
-  }
+  },
+  "judge_rerun": true,
+  "judge_raw": "5"
 }

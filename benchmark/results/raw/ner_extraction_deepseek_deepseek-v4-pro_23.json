@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "ner_extraction",
   "case": 23,
-  "response": "{\n  \"persons\": [\"Taylor Swift\"],\n  \"organizations\": [],\n  \"locations\": [\"Wembley Stadium\", \"London\"]\n}",
+  "response": "{\"persons\": [\"Taylor Swift\"], \"organizations\": [], \"locations\": [\"Wembley Stadium\", \"London\"]}",
   "score": 4,
-  "cost": 0.0006337949999999999,
+  "cost": 0.000292755,
   "expected": "",
   "tokens": {
     "input": 73,
-    "output": 346
+    "output": 150
   }
 }

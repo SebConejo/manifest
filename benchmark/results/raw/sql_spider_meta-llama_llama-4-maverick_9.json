@@ -3,11 +3,13 @@
   "task": "sql_spider",
   "case": 9,
   "response": "```sql\nSELECT country_name \nFROM countries \nWHERE country_id = (\n  SELECT country_id \n  FROM car_makers \n  GROUP BY country_id \n  ORDER BY COUNT(*) DESC \n  LIMIT 1\n)\n```",
-  "score": 0,
+  "score": 4,
   "cost": 3.96e-05,
   "expected": "",
   "tokens": {
     "input": 76,
     "output": 47
-  }
+  },
+  "judge_rerun": true,
+  "judge_raw": "4"
 }

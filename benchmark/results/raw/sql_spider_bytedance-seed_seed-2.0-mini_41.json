@@ -3,11 +3,13 @@
   "task": "sql_spider",
   "case": 41,
   "response": "SELECT SUM(population) FROM city WHERE District = 'Gelderland';",
-  "score": 0,
+  "score": 4,
   "cost": 9.510000000000001e-05,
   "expected": "",
   "tokens": {
     "input": 115,
     "output": 209
-  }
+  },
+  "judge_rerun": true,
+  "judge_raw": "4"
 }

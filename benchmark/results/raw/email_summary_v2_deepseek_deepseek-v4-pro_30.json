@@ -2,14 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "email_summary_v2",
   "case": 30,
-  "response": "Competitor X introduced AI auto-categorization at twice our price, but market response has been neutral and we maintain advantages in API and integrations.  \nThe key action item is to fast-track our own AI roadmap feature.",
+  "response": "Competitor X has launched AI features with auto-categorization at double our price, but market response has been neutral, and our advantage remains in better API and integrations. The recommendation is to fast-track our AI roadmap item.",
   "score": 5,
-  "cost": 0.00043282499999999996,
+  "cost": 0.00047458499999999997,
   "expected": "",
   "tokens": {
     "input": 91,
-    "output": 226
-  },
-  "judge_rerun": true,
-  "judge_raw": "5"
+    "output": 250
+  }
 }

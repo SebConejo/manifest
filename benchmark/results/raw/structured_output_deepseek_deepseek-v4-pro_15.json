@@ -2,14 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "structured_output",
   "case": 15,
-  "response": "{\"cpu_percent\": 78, \"memory\": {\"used_gb\": 12.4, \"total_gb\": 16}, \"disk\": {\"used_gb\": 234, \"total_gb\": 500}, \"uptime_days\": 45, \"active_connections\": 127, \"p99_latency_ms\": 145}",
+  "response": "{\n  \"cpu_percent\": 78,\n  \"memory\": {\n    \"used_gb\": 12.4,\n    \"total_gb\": 16\n  },\n  \"disk\": {\n    \"used_gb\": 234,\n    \"total_gb\": 500\n  },\n  \"uptime_days\": 45,\n  \"active_connections\": 127,\n  \"p99_latency_ms\": 145\n}",
   "score": 5,
-  "cost": 0.00066816,
+  "cost": 0.00088392,
   "expected": "",
   "tokens": {
     "input": 136,
-    "output": 350
-  },
-  "judge_rerun": true,
-  "judge_raw": "5"
+    "output": 474
+  }
 }

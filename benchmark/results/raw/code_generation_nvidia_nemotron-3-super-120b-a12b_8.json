@@ -2,14 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "code_generation",
   "case": 8,
-  "response": "return [x for x in values if isinstance(x, int)]",
-  "score": 4,
-  "cost": 1.242e-05,
+  "response": "return [x for x in values if type(x) is int]",
+  "score": 5,
+  "cost": 4.9139999999999994e-05,
   "expected": "",
   "tokens": {
-    "input": 123,
-    "output": 15
-  },
-  "judge_rerun": true,
-  "judge_raw": "4"
+    "input": 137,
+    "output": 409
+  }
 }

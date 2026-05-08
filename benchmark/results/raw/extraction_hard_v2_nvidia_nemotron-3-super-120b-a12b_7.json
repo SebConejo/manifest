@@ -2,8 +2,8 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "extraction_hard_v2",
   "case": 7,
-  "response": "",
-  "score": 2,
+  "response": "{\n  \"mls_number\": \"24-08847\",\n  \"property\": {\n    \"bedrooms\": 3,\n    \"bathrooms\": 2.5,\n    \"type\": \"Colonial\",\n    \"sqft\": 2400,\n    \"lot_acres\": 0.35,",
+  "score": 3,
   "cost": 9.999e-05,
   "expected": "",
   "tokens": {

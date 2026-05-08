@@ -2,14 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "code_generation",
   "case": 9,
-  "response": "```python\n    return sum(x * x for x in lst if isinstance(x, int) and not isinstance(x, bool) and x >= 0 and x %",
-  "score": 2,
-  "cost": 0.000945255,
+  "response": "```python\n    total = 0\n    for num in lst:\n        if isinstance(num, int) and not isinstance(num, bool) and num > 0 and num % 2 == 1:\n            total += num * num\n    return total\n```",
+  "score": 4,
+  "cost": 0.001049655,
   "expected": "",
   "tokens": {
     "input": 173,
-    "output": 500
-  },
-  "judge_rerun": true,
-  "judge_raw": "2"
+    "output": 560
+  }
 }

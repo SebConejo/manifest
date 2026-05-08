@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "sql_spider",
   "case": 19,
-  "response": "",
-  "score": 0,
-  "cost": 0.000554625,
+  "response": "```sql\nSELECT DISTINCT m.name\nFROM makers m\nJOIN cars c ON m.id = c.maker_id\nWHERE c.year = 1970;\n```",
+  "score": 5,
+  "cost": 0.000356265,
   "expected": "",
   "tokens": {
     "input": 75,
-    "output": 300
+    "output": 186
   }
 }

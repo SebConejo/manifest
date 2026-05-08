@@ -2,14 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "code_explanation",
   "case": 12,
-  "response": "This code performs a topological sort on a directed graph using depth-first search (DFS). It recursively visits each node, appending it to a stack only after all its neighbors have been explored, and then returns the reversed stack to produce a valid topological ordering.",
+  "response": "This code implements topological sorting of a directed acyclic graph using depth-first search. It recursively visits each unvisited node, processes all its neighbors first, appends the node to a stack in post-order, and finally returns the reversed stack to ensure every directed edge \\(u \\to v\\) has \\(u\\) before \\(v\\) in the ordering.",
   "score": 5,
-  "cost": 0.00044196,
+  "cost": 0.0005742000000000001,
   "expected": "",
   "tokens": {
     "input": 104,
-    "output": 228
-  },
-  "judge_rerun": true,
-  "judge_raw": "5"
+    "output": 304
+  }
 }

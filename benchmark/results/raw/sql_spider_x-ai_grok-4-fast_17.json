@@ -3,11 +3,13 @@
   "task": "sql_spider",
   "case": 17,
   "response": "```sql\nSELECT name\nFROM stadiums\nWHERE stadium_id NOT IN (\n    SELECT stadium_id\n    FROM concerts\n    WHERE YEAR(concert_date) = 2014\n);\n```",
-  "score": 0,
+  "score": 4,
   "cost": 0.0004672,
   "expected": "",
   "tokens": {
     "input": 228,
     "output": 527
-  }
+  },
+  "judge_rerun": true,
+  "judge_raw": "4"
 }

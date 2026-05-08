@@ -2,14 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "instruction_following",
   "case": 24,
-  "response": "- Two vehicles collided at the intersection of Elm Street and Maple Avenue on March 11, 2025, at approximately 3:15 PM, when a northbound sedan ran a red light and struck the driver\u2019s side of an eastbound SUV.\n- Weather was clear and the road was dry; the at-fault driver stated brake failure, but preliminary inspection found no mechanical defects, and a witness confirmed the light was red.\n- The sedan\u2019s driver sustained minor injuries and was transported to County General; the SUV driver was uninjured; both vehicles were towed with severe front-end and side damage, respectively.",
-  "score": 3,
-  "cost": 0.00038976,
+  "response": "- **Incident Details:** Date, time, and precise location of the collision, along with weather, road conditions, and visibility at the scene.\n- **Parties & Vehicles Involved:** Names, contact information, driver\u2019s license numbers, insurance details, and vehicle descriptions (make, model, year, license plate) for all drivers, plus any passengers or witnesses.\n- **Narrative & Diagram:** A factual, chronological account of events leading up to the crash, point of impact, damages sustained, injuries reported, and a sketch showing vehicle positions, traffic controls, and relevant landmarks.",
+  "score": 2,
+  "cost": 0.00036017999999999993,
   "expected": "",
   "tokens": {
     "input": 16,
-    "output": 220
-  },
-  "judge_rerun": true,
-  "judge_raw": "3"
+    "output": 203
+  }
 }

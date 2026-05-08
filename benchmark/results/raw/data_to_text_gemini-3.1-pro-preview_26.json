@@ -3,11 +3,13 @@
   "task": "data_to_text",
   "case": 26,
   "response": "This medium-difficulty Thai recipe for Pad Thai yields four servings and is quick to make, requiring just 15 minutes of prep time and 10 minutes of cooking. Each serving contains 380 calories and features a macronutrient profile of 22 grams of protein, 45 grams of carbohydrates, and 12 grams of fat.",
-  "score": 0,
+  "score": 5,
   "cost": 0.0013175,
   "expected": "",
   "tokens": {
     "input": 95,
     "output": 72
-  }
+  },
+  "judge_rerun": true,
+  "judge_raw": "5"
 }

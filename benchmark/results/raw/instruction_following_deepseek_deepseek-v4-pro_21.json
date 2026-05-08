@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "instruction_following",
   "case": 21,
-  "response": "",
-  "score": 0,
-  "cost": 0.000879135,
+  "response": "Start from the main entrance of Central Park, facing outward.\n\n- Turn left onto Maple Drive.\n- Turn right onto Oak Avenue.\n- Turn right onto Elm Street.\n- Turn left onto Library Lane.\n\nThe public library will be on your right.",
+  "score": 5,
+  "cost": 0.000753855,
   "expected": "",
   "tokens": {
     "input": 21,
-    "output": 500
+    "output": 428
   }
 }

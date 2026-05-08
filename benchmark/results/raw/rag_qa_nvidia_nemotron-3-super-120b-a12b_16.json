@@ -2,14 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "rag_qa",
   "case": 16,
-  "response": "The university owns approximately fifty percent more land in Allston than in Cambridge.",
-  "score": 4,
-  "cost": 2.8619999999999997e-05,
+  "response": "Approximately fifty percent more land.",
+  "score": 5,
+  "cost": 2.691e-05,
   "expected": "approximately fifty percent",
   "tokens": {
     "input": 227,
-    "output": 91
-  },
-  "judge_rerun": true,
-  "judge_raw": "4"
+    "output": 72
+  }
 }

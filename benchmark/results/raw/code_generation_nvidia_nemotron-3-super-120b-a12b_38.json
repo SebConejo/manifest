@@ -2,14 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "code_generation",
   "case": 38,
-  "response": "max_neg = None\n    min_pos = None\n    for x in lst:\n        if x < 0:\n            if max_neg is None or x > max_neg:\n                max_neg = x\n        elif x > 0:\n            if min_pos is None or x < min_pos:\n                min_pos = x\n    return (max_neg, min_pos)",
-  "score": 3,
-  "cost": 5.67e-05,
+  "response": "negatives = [x for x in lst if x < 0]\n    positives = [x for x in lst if x > 0]\n    a = max(negatives) if negatives else None\n    b = min(positives) if positives else None\n    return (a, b)",
+  "score": 5,
+  "cost": 5.319e-05,
   "expected": "",
   "tokens": {
     "input": 184,
-    "output": 446
-  },
-  "judge_rerun": true,
-  "judge_raw": "3"
+    "output": 407
+  }
 }

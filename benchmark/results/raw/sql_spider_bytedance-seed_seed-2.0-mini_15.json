@@ -3,11 +3,13 @@
   "task": "sql_spider",
   "case": 15,
   "response": "SELECT MIN(share) AS min_share, MAX(share) AS max_share FROM tv_series;",
-  "score": 0,
+  "score": 5,
   "cost": 0.0007494,
   "expected": "",
   "tokens": {
     "input": 114,
     "output": 1845
-  }
+  },
+  "judge_rerun": true,
+  "judge_raw": "5"
 }

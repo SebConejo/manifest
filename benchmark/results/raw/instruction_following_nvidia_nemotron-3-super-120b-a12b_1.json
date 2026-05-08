@@ -2,14 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "instruction_following",
   "case": 1,
-  "response": "A CPU executes instructions by performing arithmetic, logic, control, and input/output operations to process data.",
+  "response": "A CPU executes instructions by fetching, decoding, and performing arithmetic, logic, and control operations to process data and coordinate the activities of a computer\u2019s hardware components.",
   "score": 5,
-  "cost": 1.341e-05,
+  "cost": 1.0169999999999997e-05,
   "expected": "",
   "tokens": {
     "input": 27,
-    "output": 122
-  },
-  "judge_rerun": true,
-  "judge_raw": "5"
+    "output": 86
+  }
 }

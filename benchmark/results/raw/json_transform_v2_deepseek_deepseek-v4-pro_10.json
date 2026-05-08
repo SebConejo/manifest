@@ -2,14 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "json_transform_v2",
   "case": 10,
-  "response": "{\"items\": 4, \"subtotal\": 1136, \"discount_code\": \"SAVE20\", \"member_discount\": true, \"estimated_total\": 1136}",
+  "response": "{\"items\": 4, \"subtotal\": 1136, \"discount_code\": \"SAVE20\", \"member_discount\": true, \"estimated_total\": 908.8}",
   "score": 4,
-  "cost": 0.00081345,
+  "cost": 0.0007229700000000001,
   "expected": "",
   "tokens": {
     "input": 142,
-    "output": 432
-  },
-  "judge_rerun": true,
-  "judge_raw": "4"
+    "output": 380
+  }
 }

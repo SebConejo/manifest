@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "function_calling",
   "case": 25,
-  "response": "",
-  "score": 0,
-  "cost": 0.000573765,
+  "response": "{\"name\": \"schedule_meeting\", \"arguments\": {\"title\": \"Standup\", \"duration_minutes\": 30, \"time\": \"9am\", \"recurrence\": \"every weekday\", \"attendees\": [\"dev team\"]}}",
+  "score": 5,
+  "cost": 0.000533745,
   "expected": "",
   "tokens": {
     "input": 119,
-    "output": 300
+    "output": 277
   }
 }

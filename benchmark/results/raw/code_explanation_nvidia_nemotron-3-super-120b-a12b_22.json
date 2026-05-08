@@ -2,14 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "code_explanation",
   "case": 22,
-  "response": "The code implements an LRU (Least\u2011Recently\u2011Used) cache: it stores key\u2011value pairs in an `OrderedDict` that preserves insertion order, moves accessed or updated keys to the end (most\u2011recently used), and evicts the oldest entry (the front of the dict) when the size exceeds the given capacity. This gives O(1) average\u2011time `get` and `put` operations.",
+  "response": "The code implements an LRU (Least\u2011Recently\u2011Used) cache: it stores key\u2011value pairs in an `OrderedDict` that preserves insertion order, moves accessed or updated keys to the end to mark them as most\u2011recently used, and evicts the oldest entry (the first item) when the cache exceeds its capacity. This pattern gives O(1) average\u2011time `get` and `put` operations while maintaining the LRU eviction policy.",
   "score": 5,
-  "cost": 2.061e-05,
+  "cost": 2.1329999999999997e-05,
   "expected": "",
   "tokens": {
     "input": 142,
-    "output": 87
-  },
-  "judge_rerun": true,
-  "judge_raw": "5"
+    "output": 95
+  }
 }

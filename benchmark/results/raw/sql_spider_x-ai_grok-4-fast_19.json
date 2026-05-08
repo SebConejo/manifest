@@ -3,11 +3,13 @@
   "task": "sql_spider",
   "case": 19,
   "response": "```sql\nSELECT DISTINCT maker\nFROM cars\nWHERE year = 1970;\n```",
-  "score": 0,
+  "score": 5,
   "cost": 0.0004934,
   "expected": "",
   "tokens": {
     "input": 227,
     "output": 560
-  }
+  },
+  "judge_rerun": true,
+  "judge_raw": "5"
 }

@@ -2,7 +2,7 @@
   "model": "gemini-2.5-pro",
   "task": "code_generation",
   "case": 49,
-  "response": "for i in range(len(string)):\n        suffix = string[i:]\n        if is_palindrome(suffix):\n            prefix = string[:i]\n            return string + prefix[::-1]\n    return string",
+  "response": "for i in range(len(string)):\n        suffix = string[i:]\n        if suffix == suffix[::-1]:\n            prefix = string[:i]\n            return string + prefix[::-1]\n    return \"\"",
   "score": 4,
   "cost": 0.0006975,
   "expected": "",

@@ -2,14 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "rag_qa",
   "case": 2,
-  "response": "Taking physical control of another country or area.",
-  "score": 2,
-  "cost": 2.9069999999999998e-05,
+  "response": "We need to answer based only on provided context. The question: \"Colonialism often means a country doing what?\" The context says: \"Colonialism refers to the process of a country taking physical control of another.\" Also: \"Colonialism is when the imperial nation begins a conquest over an area and then eventually is able to rule over the areas the previous nation had controlled.\" Also: \"Colonialism's core meaning: answer. Must follow constraints: answer. Must be only the answer. Must be only the answer. Must be based on context. Provide answer to question: \"Colonialism often means a country doing what?\" Based on context: Colonialism is process of a country taking physical control of another, exploitation of assets, etc. So answer: taking physical control of another country/area, exploiting its resources, establishing rule, etc. Must be concise but answer the question. Provide only answer, no extra text. Probably a sentence.\n\nThus output: \"Colonial",
+  "score": 5,
+  "cost": 4.743e-05,
   "expected": "taking physical control of another",
   "tokens": {
-    "input": 313,
-    "output": 10
-  },
-  "judge_rerun": true,
-  "judge_raw": "2"
+    "input": 327,
+    "output": 200
+  }
 }

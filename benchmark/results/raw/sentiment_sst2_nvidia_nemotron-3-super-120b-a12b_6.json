@@ -2,7 +2,7 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "sentiment_sst2",
   "case": 6,
-  "response": "",
+  "response": "We need to classify sentiment of the given text: \"but this films lacks the passion required to sell",
   "score": 0,
   "cost": 7.2e-06,
   "expected": "negative",

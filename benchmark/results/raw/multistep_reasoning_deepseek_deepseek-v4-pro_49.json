@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "multistep_reasoning",
   "case": 49,
-  "response": "A",
+  "response": "A) The air stays cleaner.",
   "score": 5,
-  "cost": 0.000248385,
+  "cost": 0.00022576499999999998,
   "expected": "A",
   "tokens": {
     "input": 95,
-    "output": 119
+    "output": 106
   }
 }

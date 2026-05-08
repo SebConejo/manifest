@@ -3,11 +3,13 @@
   "task": "sql_spider",
   "case": 23,
   "response": "SELECT production_code, channel FROM tvshow WHERE genre = 'Cartoon' ORDER BY air_date DESC LIMIT 1;",
-  "score": 0,
+  "score": 4,
   "cost": 0.004017975,
   "expected": "",
   "tokens": {
     "input": 79,
     "output": 3071
-  }
+  },
+  "judge_rerun": true,
+  "judge_raw": "4"
 }

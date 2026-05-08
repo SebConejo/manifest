@@ -4,10 +4,10 @@
   "case": 19,
   "response": "{\"name\": \"run_tests\", \"arguments\": {\"module\": \"backend\", \"verbose\": true}}",
   "score": 5,
-  "cost": 0.000384105,
+  "cost": 0.000333645,
   "expected": "",
   "tokens": {
     "input": 95,
-    "output": 197
+    "output": 168
   }
 }

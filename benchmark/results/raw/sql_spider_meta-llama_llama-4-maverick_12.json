@@ -3,11 +3,13 @@
   "task": "sql_spider",
   "case": 12,
   "response": "```sql\nSELECT p.id, p.role, p.first_name \nFROM professionals p \nJOIN treatments t ON p.id = t.professional_id \nGROUP BY p.id, p.role, p.first_name \nHAVING COUNT(t.id) >= 2;\n```",
-  "score": 0,
+  "score": 4,
   "cost": 4.515e-05,
   "expected": "",
   "tokens": {
     "input": 85,
     "output": 54
-  }
+  },
+  "judge_rerun": true,
+  "judge_raw": "4"
 }

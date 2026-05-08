@@ -2,14 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "long_summarization",
   "case": 11,
-  "response": "The EU's GDPR, effective since 2018, fundamentally reshaped global data privacy by granting individuals rights like data access, erasure, and portability, while requiring explicit consent and mandating breach reporting within 72 hours. It imposes severe fines of up to 4% of global annual revenue or \u20ac20 million, with major penalties already levied against tech giants like Meta (\u20ac1.2 billion) and Amazon (\u20ac746 million). The regulation has inspired similar laws worldwide, such as California's CCPA and Brazil's LGPD, establishing data privacy as a fundamental right. Despite criticism over compliance burdens and inconsistent enforcement, GDPR remains the global standard for data protection.",
-  "score": 5,
-  "cost": 0.0008982750000000001,
+  "response": "The EU\u2019s GDPR, effective May 2018, mandates strict data protection rules for any organization handling EU residents' data, with fines up to 4% of global revenue or \u20ac20 million. Major tech firms have faced huge penalties, such as Meta's \u20ac1.2 billion fine for illegal data transfers, Amazon's \u20ac746 million for ad targeting, and Google's combined \u20ac200 million-plus fines. The regulation has inspired similar laws worldwide (like California\u2019s CCPA and Brazil\u2019s LGPD), though critics cite",
+  "score": 4,
+  "cost": 0.000654675,
   "expected": "",
   "tokens": {
     "input": 305,
-    "output": 440
-  },
-  "judge_rerun": true,
-  "judge_raw": "5"
+    "output": 300
+  }
 }

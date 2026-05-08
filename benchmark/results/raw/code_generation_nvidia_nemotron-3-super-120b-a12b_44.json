@@ -2,12 +2,14 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "code_generation",
   "case": 44,
-  "response": "",
-  "score": 0,
+  "response": "We need to implement encode(message) that swaps case of all letters, then replaces all vowels with the letter that appears 2 places ahead of that vowel in the English alphabet. Only letters (no spaces? Actually spaces are allowed; they remain unchanged? The examples show spaces remain spaces. So we treat non-letter characters unchanged (like spaces). The function should swap case first, then replace vowels (both uppercase and lowercase after swapping? Actually after swapping case, we need to replace vowels with letter that appears 2 places ahead of that vowel in the English alphabet. The vowel after swapping case: we need to consider the vowel's case? The replacement letter should be in same case? Let's examine examples.\n\nInput: 'test' -> output 'TGST'.\n\nLet's step: original message: 'test'. Swap case: 'TEST' (since all lower become upper). Now replace vowels with letter 2 places ahead. Vowels: A, E, I, O, U (both cases). In 'TEST', letters: T, E, S, T. Vowel: E. Two places ahead in alphabet: E -> G (since E+2 = G). So replace E with G. So we get 'TGST'. Output matches.\n\nNow test: 'This is a message' -> output 'tHKS KS C MGSSCGG'.\n\nLet's test step by step.\n\nOriginal: 'This is a message'.\n\nSwap case: 'tHIS IS A MESSAGE'.\n\nNow replace vowels with letter 2 ahead.\n\nLet's list characters:\n\nt H I S   I S   A   M E S S A G E\n\nIndices: 0 t (consonant), 1 H (consonant), 2 I (vowel), 3 S (consonant), space, 4 I (vowel), 5 S (consonant), space, 6 A (vowel), space, 7 M (consonant), 8 E (vowel), 9 S (consonant), 10 S (consonant), 11 A (vowel), 12 G (consonant), 13 E (vowel).\n\nNow replace each vowel with letter 2 ahead, preserving case? Let's see.\n\nVowel I (uppercase? Actually after swap case, we have 'tHIS IS A MESSAGE': The",
+  "score": 3,
   "cost": 5.913e-05,
   "expected": "",
   "tokens": {
     "input": 157,
     "output": 500
-  }
+  },
+  "judge_rerun": true,
+  "judge_raw": "3"
 }

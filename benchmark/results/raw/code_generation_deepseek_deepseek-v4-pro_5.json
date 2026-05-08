@@ -2,14 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "code_generation",
   "case": 5,
-  "response": "return max(l)",
-  "score": 2,
-  "cost": 0.00033277500000000005,
+  "response": "```python\n    return max(l)\n```",
+  "score": 5,
+  "cost": 0.000346695,
   "expected": "",
   "tokens": {
     "input": 109,
-    "output": 164
-  },
-  "judge_rerun": true,
-  "judge_raw": "2"
+    "output": 172
+  }
 }

@@ -4,12 +4,10 @@
   "case": 23,
   "response": "Mortgage banker",
   "score": 5,
-  "cost": 0.00026317499999999993,
+  "cost": 0.000217935,
   "expected": "the mortgage banker",
   "tokens": {
     "input": 197,
-    "output": 102
-  },
-  "judge_rerun": true,
-  "judge_raw": "5"
+    "output": 76
+  }
 }

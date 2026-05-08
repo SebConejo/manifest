@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "function_calling",
   "case": 14,
-  "response": "{\"name\": \"create_reminder\", \"arguments\": {\"message\": \"call the dentist\", \"time\": \"3pm\", \"date\": \"Wednesday\"}}",
+  "response": "{\n  \"name\": \"create_reminder\",\n  \"arguments\": {\n    \"message\": \"call the dentist\",\n    \"time\": \"3pm\",\n    \"date\": \"Wednesday\"\n  }\n}",
   "score": 4,
-  "cost": 0.00037453499999999995,
+  "cost": 0.000313635,
   "expected": "",
   "tokens": {
     "input": 93,
-    "output": 192
+    "output": 157
   }
 }

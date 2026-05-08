@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "instruction_following",
   "case": 4,
-  "response": "",
-  "score": 0,
-  "cost": 4.815e-05,
+  "response": "1. French: Bonjour le monde  \n2. Spanish: Hola mundo  \n3. German: Hallo Welt",
+  "score": 5,
+  "cost": 4.59e-06,
   "expected": "",
   "tokens": {
-    "input": 35,
-    "output": 500
+    "input": 26,
+    "output": 25
   }
 }

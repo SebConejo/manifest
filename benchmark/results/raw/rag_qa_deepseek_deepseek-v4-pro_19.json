@@ -3,13 +3,11 @@
   "task": "rag_qa",
   "case": 19,
   "response": "Advancements in communication.",
-  "score": 3,
-  "cost": 0.00017791499999999998,
+  "score": 5,
+  "cost": 0.000195315,
   "expected": "communication",
   "tokens": {
     "input": 153,
-    "output": 64
-  },
-  "judge_rerun": true,
-  "judge_raw": "3"
+    "output": 74
+  }
 }

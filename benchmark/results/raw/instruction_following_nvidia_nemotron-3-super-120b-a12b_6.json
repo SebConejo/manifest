@@ -2,14 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "instruction_following",
   "case": 6,
-  "response": "The ocean whispers softly.",
-  "score": 1,
-  "cost": 9.27e-06,
+  "response": "Ocean waves dance endlessly.",
+  "score": 5,
+  "cost": 1.1429999999999999e-05,
   "expected": "",
   "tokens": {
     "input": 26,
-    "output": 77
-  },
-  "judge_rerun": true,
-  "judge_raw": "1"
+    "output": 101
+  }
 }

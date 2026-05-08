@@ -2,8 +2,8 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "extraction_hard_v2",
   "case": 36,
-  "response": "",
-  "score": 2,
+  "response": "{\n  \"product\": \"TaskFlow Pro\",\n  \"price_per_user\": 29,\n  \"competitors\": [\n    {\n      \"name\": \"",
+  "score": 3,
   "cost": 9.828e-05,
   "expected": "",
   "tokens": {

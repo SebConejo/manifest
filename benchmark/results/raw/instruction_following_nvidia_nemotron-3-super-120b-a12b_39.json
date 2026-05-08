@@ -2,14 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "instruction_following",
   "case": 39,
-  "response": "**Q: What is a VPN and what does it primarily do?**  \nA: A VPN (Virtual Private Network) creates an encrypted, secure connection (\"tunnel\") between your device and a remote server operated by the VPN service, masking your real IP address and encrypting all internet traffic passing through it.\n\n**Q: How does a VPN protect my online activity?**  \nA: By routing your traffic through its encrypted tunnel, a VPN prevents third parties (like hackers on public Wi-Fi, your ISP, or network administrators) from seeing the websites you visit, the data you send/receive, or your actual location\u2014it appears as if your traffic originates from the VPN server\u2019s location instead.\n\n**Q: Why would someone use a VPN?**  \nA: Common uses include enhancing privacy on unsecured networks (e.g., coffee shop Wi-Fi), bypassing geographic content restrictions, securing remote access to work networks, and reducing tracking by advertisers or surveillance based on your IP address. (Note: A VPN does *not* make you completely anonymous online or protect against malware/phishing.)",
-  "score": 5,
-  "cost": 4.7340000000000004e-05,
+  "response": "**Q: What is a VPN and what does it primarily do?**  \nA: A VPN (Virtual Private Network) creates an encrypted, secure \"tunnel\" between your device and a VPN server. Its primary function is to encrypt all internet traffic traveling through this tunnel, hiding your online activities from third parties (like your ISP, hackers on public Wi-Fi, or network administrators) and masking your real IP address with the VPN server's IP.\n\n**Q: How does a VPN protect my privacy and security?**  \nA: By encrypting your data before it leaves your device, a VPN prevents eavesdroppers from reading your sensitive information (passwords, messages, browsing history). It also hides your true IP address and location from websites and online services, making it harder for them to track your physical location or build a detailed profile based on your IP.\n\n**Q: Why do people commonly use a VPN?**  \nA: Key uses include:  \n- Securing connections on",
+  "score": 4,
+  "cost": 4.77e-05,
   "expected": "",
   "tokens": {
     "input": 30,
-    "output": 496
-  },
-  "judge_rerun": true,
-  "judge_raw": "5"
+    "output": 500
+  }
 }

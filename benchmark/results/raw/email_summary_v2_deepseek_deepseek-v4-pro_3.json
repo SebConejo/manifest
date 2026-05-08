@@ -2,14 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "email_summary_v2",
   "case": 3,
-  "response": "March onboarding satisfaction",
-  "score": 1,
-  "cost": 0.00039541500000000004,
+  "response": "Lisa reported that the March onboarding cohort's satisfaction dropped to 7.2/10, with the buddy system rating highly but issues including benefits deadline confusion, delayed tools access, and missing culture handbooks. The priority action item is to fix the tools access process to meet the 1-day target.",
+  "score": 5,
+  "cost": 0.0005085150000000001,
   "expected": "",
   "tokens": {
     "input": 109,
-    "output": 200
-  },
-  "judge_rerun": true,
-  "judge_raw": "1"
+    "output": 265
+  }
 }

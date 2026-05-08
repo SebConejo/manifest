@@ -4,10 +4,10 @@
   "case": 5,
   "response": "C) Cells break down nutrients into usable forms.",
   "score": 5,
-  "cost": 0.000444135,
+  "cost": 0.000433695,
   "expected": "C",
   "tokens": {
     "input": 93,
-    "output": 232
+    "output": 226
   }
 }

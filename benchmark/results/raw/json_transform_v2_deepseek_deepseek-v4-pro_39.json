@@ -2,14 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "json_transform_v2",
   "case": 39,
-  "response": "{\n  \"summary\": {\n    \"total\": 5,\n    \"by_level\": {\n      \"ERROR\": 3,\n      \"WARN\": 1,\n      \"INFO\": 1\n    }\n  },\n  \"errors\": [\n    {\n      \"msg\": \"timeout\",\n      \"count\": 2,\n      \"first_seen\": \"10:00\"\n    },\n    {\n      \"msg\": \"disk full\",\n      \"count\": 1,\n      \"first_seen\": \"10:05\"\n    }\n  ]\n}",
+  "response": "{\"summary\": {\"total\": 5, \"by_level\": {\"ERROR\": 3, \"WARN\": 1, \"INFO\": 1}}, \"errors\": [{\"msg\": \"timeout\", \"count\": 2, \"first_seen\": \"10:00\"}, {\"msg\": \"disk full\", \"count\": 1, \"first_seen\": \"10:05\"}]}",
   "score": 5,
-  "cost": 0.0014294099999999999,
+  "cost": 0.00087609,
   "expected": "",
   "tokens": {
     "input": 198,
-    "output": 772
-  },
-  "judge_rerun": true,
-  "judge_raw": "5"
+    "output": 454
+  }
 }

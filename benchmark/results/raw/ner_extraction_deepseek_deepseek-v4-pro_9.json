@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "ner_extraction",
   "case": 9,
-  "response": "{\n  \"persons\": [],\n  \"organizations\": [\"World Health Organization\"],\n  \"locations\": [\"sub-Saharan Africa\", \"Geneva\"]\n}",
+  "response": "{\"persons\": [], \"organizations\": [\"World Health Organization\"], \"locations\": [\"sub-Saharan Africa\", \"Geneva\"]}",
   "score": 4,
-  "cost": 0.00026752499999999996,
+  "cost": 0.000232725,
   "expected": "",
   "tokens": {
     "input": 71,
-    "output": 136
+    "output": 116
   }
 }

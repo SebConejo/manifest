@@ -4,10 +4,10 @@
   "case": 1,
   "response": "C) blow up a beach ball or balloon",
   "score": 5,
-  "cost": 0.000414555,
+  "cost": 0.000327555,
   "expected": "C",
   "tokens": {
     "input": 101,
-    "output": 213
+    "output": 163
   }
 }

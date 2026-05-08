@@ -3,11 +3,13 @@
   "task": "reasoning_gsm8k",
   "case": 42,
   "response": "Total children = (7 rows/school \u00d7 5 schools) \u00d7 8 children/row = 280.\n\nANSWER: 280",
-  "score": 0,
+  "score": 5,
   "cost": 0.0001908,
   "expected": "280",
   "tokens": {
     "input": 242,
     "output": 178
-  }
+  },
+  "judge_rerun": true,
+  "judge_raw": "5"
 }

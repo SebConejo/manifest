@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "sql_spider",
   "case": 25,
-  "response": "SELECT s.title\nFROM shows AS s\nJOIN directors AS d ON s.director_id = d.id\nWHERE d.name = 'Ben Jones'\n  AND s.genre = 'Cartoon';",
-  "score": 5,
-  "cost": 2.7269999999999998e-05,
+  "response": "We need to produce a SQL query: List all cartoon directed by \"Ben Jones\". Database: tvshow. Likely tables: maybe \"shows\", \"cartoons\", \"directors\". We need to infer typical table and column names based on database name and question context.\n\nWe need to list all cartoon directed by \"Ben Jones\". So we need to select cartoon titles (or maybe names) where director = 'Ben Jones'.\n\nAssume a table \"cartoons\" with columns: id, title, director_name, genre, etc. Or maybe a join between cartoons and directors.\n\nGiven limited context, simplest: SELECT title FROM cartoons WHERE director = 'Ben Jones';\n\nBut need to ensure it's a cartoon. Could also filter by type = 'Cartoon' or genre = 'Animation'.\n\nBut question: \"List all cartoon directed by 'Ben Jones'.\" So we need to list all cartoons (maybe TV shows that are cartoons) directed by Ben Jones.\n\nThus query: SELECT name FROM tvshow WHERE director = 'Ben Jones' AND type = 'Cartoon';\n\nBut we don't know schema. We'll assume table \"shows\" with columns: title, director, genre. Or \"cartoons\" with columns: title, director.\n\nGiven typical naming: database tvshow, table \"shows\". Columns: id, title, director, genre, release_year, etc.\n\nThus: SELECT title FROM shows WHERE director = 'Ben Jones' AND",
+  "score": 3,
+  "cost": 3.393e-05,
   "expected": "",
   "tokens": {
     "input": 77,
-    "output": 226
+    "output": 300
   }
 }

@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "code_explanation",
   "case": 16,
-  "response": "The function limits how many of the supplied coroutines run at once by wrapping each coroutine in an inner async function that first acquires an `asyncio.Semaphore` set to `limit`; the semaphore allows only `limit` concurrent acquisitions, so at most `limit` coroutines execute simultaneously. It then runs all wrapped coroutines concurrently with `asyncio.gather`, awaiting their results once they all finish. This pattern is a classic semaphore\u2011based concurrency limiter for",
+  "response": "The function runs a collection of coroutines while ensuring that at most\u202f`limit` of them execute concurrently by wrapping each coroutine in an inner async function that acquires an `asyncio.Semaphore(limit)` before awaiting the coroutine. It then gathers all the wrapped coroutines with `asyncio.gather`, so the overall behavior is a concurrency\u2011limited version of `gather`.",
   "score": 5,
-  "cost": 2.691e-05,
+  "cost": 1.485e-05,
   "expected": "",
   "tokens": {
-    "input": 99,
-    "output": 200
+    "input": 87,
+    "output": 78
   }
 }

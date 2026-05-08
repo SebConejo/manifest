@@ -4,10 +4,10 @@
   "case": 38,
   "response": "{\"persons\": [\"Kamala Harris\"], \"organizations\": [\"General Motors\"], \"locations\": [\"Detroit\"]}",
   "score": 5,
-  "cost": 0.00030884999999999994,
+  "cost": 0.00024098999999999998,
   "expected": "",
   "tokens": {
     "input": 70,
-    "output": 160
+    "output": 121
   }
 }

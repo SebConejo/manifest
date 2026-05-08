@@ -2,14 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "data_to_text",
   "case": 36,
-  "response": "Flight AA 1234 from New York\u2019s JFK to Los Angeles departs at 8:30 AM and arrives at 11:45 AM, a 5-hour-15-minute journey aboard a Boeing 787. Economy seats on this route are priced at $289, and the flight has an 82% on-time record.",
+  "response": "Flight AA 1234 from New York's JFK to Los Angeles departs at 8:30 AM and arrives at 11:45 AM, a journey of 5 hours and 15 minutes aboard a Boeing 787. An economy class ticket costs $289, and this flight has an 82% on-time performance record.",
   "score": 5,
-  "cost": 0.00036801,
+  "cost": 0.00037322999999999995,
   "expected": "",
   "tokens": {
     "input": 94,
-    "output": 188
-  },
-  "judge_rerun": true,
-  "judge_raw": "5"
+    "output": 191
+  }
 }

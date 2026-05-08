@@ -2,14 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "instruction_following",
   "case": 18,
-  "response": "It begins with a young man from the Midwest, restless and seeking something larger than the narrow certainties of his hometown. He moves east to a glittering, cacophonous island just outside a great city, where the summer air hums with jazz and money and clandestine desires. Next door lives a mysterious figure who throws the most extravagant parties\u2014orchestras, champagne fountains, crowds of strangers who whisper rumors: he\u2019s a war hero, a bootlegger, a man who killed someone. No one truly knows him, and few ever see his face.\n\nAcross the bay, a green light pulses at the end of a dock, and it means everything to him. It\u2019s not just a light; it\u2019s a lost girl made of money and melody, a girl whose voice is full of promises she can\u2019t keep. She\u2019s married now to a brutal, old-money brute, a man whose casual cruelty is as vast as his inheritance. And so the dreamer, who has painstakingly reinvented himself from poverty into a shimmering illusion, reaches out toward that light, believing he can repeat the past,",
-  "score": 4,
-  "cost": 0.000876525,
+  "response": "It opens in the simmering heat of a Long Island summer, where new money mansions drip with jazz and champagne, and across the water, a single green light pulses at the end of a dock. The narrator, a bond salesman from the Midwest, arrives next door to a mysterious millionaire who throws extravagant parties for strangers, yet never shows his face. As the story peels back layers of illusion, it reveals a man who reinvented himself from nothing to win back a lost love married to old-money arrogance. The prose is lyrical, brimming with longing and disillusionment \u2014 a meditation on the American Dream, the corrupting sheen of wealth, and the quiet tragedy of watching someone reach desperately for a future that is already past. In the end, the pool shimmers red, the summer fades, and a single sentence echoes: \u201cSo we beat on, boats against the current, borne back ceaselessly into the past.\u201d",
+  "score": 5,
+  "cost": 0.000589425,
   "expected": "",
   "tokens": {
     "input": 15,
-    "output": 500
-  },
-  "judge_rerun": true,
-  "judge_raw": "4"
+    "output": 335
+  }
 }

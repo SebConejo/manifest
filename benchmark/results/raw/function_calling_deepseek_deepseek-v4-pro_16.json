@@ -4,10 +4,10 @@
   "case": 16,
   "response": "{\"name\": \"search_nearby\", \"arguments\": {\"category\": \"gas station\", \"open_now\": true}}",
   "score": 4,
-  "cost": 0.00037627499999999997,
+  "cost": 0.000598995,
   "expected": "",
   "tokens": {
     "input": 97,
-    "output": 192
+    "output": 320
   }
 }

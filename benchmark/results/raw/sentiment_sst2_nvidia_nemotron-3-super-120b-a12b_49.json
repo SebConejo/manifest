@@ -2,7 +2,7 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "sentiment_sst2",
   "case": 49,
-  "response": "We need to classify sentiment of the given text as either positive or negative. The text: \"thanks",
+  "response": "We need to classify sentiment as positive or negative. The text: \"thanks to scott 's",
   "score": 5,
   "cost": 9.539999999999998e-06,
   "expected": "positive",

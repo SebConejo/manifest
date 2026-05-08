@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "ner_extraction",
   "case": 49,
-  "response": "{\n  \"persons\": [\"Pope Francis\"],\n  \"organizations\": [],\n  \"locations\": [\"St. Peter Square\", \"Vatican\"]\n}",
+  "response": "{\"persons\": [\"Pope Francis\"], \"organizations\": [], \"locations\": [\"St. Peter Square\", \"Vatican\"]}",
   "score": 4,
-  "cost": 0.000344955,
+  "cost": 0.000466755,
   "expected": "",
   "tokens": {
     "input": 73,
-    "output": 180
+    "output": 250
   }
 }

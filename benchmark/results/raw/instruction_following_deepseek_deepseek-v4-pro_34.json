@@ -2,14 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "instruction_following",
   "case": 34,
-  "response": "A database index is a separate data structure that stores a sorted subset of a table\u2019s columns, enabling the database engine to locate rows much faster than scanning the entire table. It functions like a book\u2019s index, providing direct pointers to data rather than reading every page sequentially.",
-  "score": 5,
-  "cost": 0.00042456,
+  "response": "A database index is a specialized data structure that enables the database engine to rapidly locate and retrieve specific rows without scanning every row in a table. It functions much like a book's index, providing a quick lookup path to the data at the cost of additional storage and slightly slower write operations.",
+  "score": 4,
+  "cost": 0.00029927999999999997,
   "expected": "",
   "tokens": {
     "input": 16,
-    "output": 240
-  },
-  "judge_rerun": true,
-  "judge_raw": "5"
+    "output": 168
+  }
 }

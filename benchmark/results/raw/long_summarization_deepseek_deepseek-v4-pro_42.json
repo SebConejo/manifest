@@ -2,8 +2,8 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "long_summarization",
   "case": 42,
-  "response": "",
-  "score": 0,
+  "response": "The global food system faces immense strain from",
+  "score": 3,
   "cost": 0.00064815,
   "expected": "",
   "tokens": {

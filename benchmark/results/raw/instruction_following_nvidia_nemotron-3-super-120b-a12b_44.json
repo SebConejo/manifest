@@ -2,14 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "instruction_following",
   "case": 44,
-  "response": "Here's a list of ingredients for a basic, versatile green salad in checkbox format:\n\n- [ ] Lettuce base (e.g., romaine, iceberg, or mixed greens)\n- [ ] Tomatoes (cherry or regular, chopped)\n- [ ] Cucumber (sliced or diced)\n- [ ] Red onion (thinly sliced, optional for milder flavor)\n- [ ] Carrot (shredded or julienned)\n- [ ] Simple vinaigrette (olive oil, vinegar/lemon juice, salt, pepper) *or* your preferred dressing\n- [ ]",
-  "score": 4,
-  "cost": 4.7520000000000006e-05,
+  "response": "- [ ] Lettuce (e.g., romaine, iceberg, or mixed greens)  \n- [ ] Tomato (cherry or sliced)  \n- [ ] Cucumber (sliced)  \n- [ ] Carrot (shredded or thinly sliced)  \n- [ ] Red onion (thinly sliced)  \n- [ ] Bell pepper (any color, sliced)  \n- [ ] Olive oil  \n- [ ] Vinegar or lemon juice (for dressing)  \n- [ ] Salt  \n- [ ] Black pepper  \n- [ ] Optional: croutons, nuts, seeds, or cheese (e.g., feta, parmesan)",
+  "score": 5,
+  "cost": 1.377e-05,
   "expected": "",
   "tokens": {
-    "input": 28,
-    "output": 500
-  },
-  "judge_rerun": true,
-  "judge_raw": "4"
+    "input": 18,
+    "output": 135
+  }
 }

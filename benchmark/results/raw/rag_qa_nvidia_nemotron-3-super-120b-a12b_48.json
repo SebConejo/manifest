@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "rag_qa",
   "case": 48,
-  "response": "",
-  "score": 0,
-  "cost": 2.97e-05,
+  "response": "It is not known whether L is strictly contained in P or equal to P.",
+  "score": 5,
+  "cost": 2.808e-05,
   "expected": "strictly contained in P or equal to P",
   "tokens": {
     "input": 130,
-    "output": 200
+    "output": 182
   }
 }

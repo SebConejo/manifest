@@ -3,11 +3,13 @@
   "task": "sql_spider",
   "case": 34,
   "response": "```sql\nSELECT * \nFROM hiring_evaluations \nJOIN employees ON hiring_evaluations.employee_id = employees.id;\n```",
-  "score": 0,
+  "score": 5,
   "cost": 2.715e-05,
   "expected": "",
   "tokens": {
     "input": 73,
     "output": 27
-  }
+  },
+  "judge_rerun": true,
+  "judge_raw": "5"
 }

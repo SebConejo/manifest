@@ -3,11 +3,13 @@
   "task": "rag_qa",
   "case": 21,
   "response": "Anaerobic bacteria",
-  "score": 0,
+  "score": 1,
   "cost": 0.00052,
   "expected": "anaerobic bacteria",
   "tokens": {
     "input": 204,
     "output": 14
-  }
+  },
+  "judge_rerun": true,
+  "judge_raw": "1"
 }

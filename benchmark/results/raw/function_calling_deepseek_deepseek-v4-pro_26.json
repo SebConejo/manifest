@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "function_calling",
   "case": 26,
-  "response": "{\"name\": \"upload_file\", \"arguments\": {\"path\": \"report.pdf\", \"destination\": \"shared documents\"}}",
-  "score": 4,
-  "cost": 0.00033234000000000003,
+  "response": "{\"name\": \"upload_file\", \"arguments\": {\"path\": \"report.pdf\", \"destination\": \"shared documents folder\"}}",
+  "score": 5,
+  "cost": 0.00023838,
   "expected": "",
   "tokens": {
     "input": 84,
-    "output": 170
+    "output": 116
   }
 }

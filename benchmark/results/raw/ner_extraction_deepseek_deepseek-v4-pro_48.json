@@ -4,10 +4,10 @@
   "case": 48,
   "response": "{\n  \"persons\": [],\n  \"organizations\": [\"TSMC\", \"Department of Commerce\"],\n  \"locations\": [\"Phoenix\", \"Arizona\"]\n}",
   "score": 5,
-  "cost": 0.0005594100000000001,
+  "cost": 0.00033495,
   "expected": "",
   "tokens": {
     "input": 74,
-    "output": 303
+    "output": 174
   }
 }

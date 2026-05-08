@@ -2,7 +2,7 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "ner_extraction",
   "case": 14,
-  "response": "{\"persons\": [\"Jerome Powell\"], \"organizations\": [\"Federal Reserve\", \"Congress\"], \"locations\": [\"Washington DC\"]}",
+  "response": "{\n  \"persons\": [\"Jerome Powell\"],\n  \"organizations\": [\"Federal Reserve\", \"Congress\"],\n  \"locations\": [\"Washington DC\"]\n}",
   "score": 5,
   "cost": 0.00026796,
   "expected": "",

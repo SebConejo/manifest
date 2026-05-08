@@ -2,8 +2,8 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "sql_spider",
   "case": 15,
-  "response": "",
-  "score": 0,
+  "response": "SELECT MIN(share) AS min_share, MAX(share",
+  "score": 3,
   "cost": 0.00055071,
   "expected": "",
   "tokens": {

@@ -3,11 +3,13 @@
   "task": "reasoning_gsm8k",
   "case": 49,
   "response": "The three sisters are each 16 years old, so their total age is \\(3 \\times 16 = 48\\).\n\nOne brother is 12 years old, which is half the age of the older brother. Thus, the older brother is \\(12 \\times 2 = 24\\) years old.\n\nThe brothers' total age is \\(12 + 24 = 36\\).\n\nThe total age of all siblings is \\(48 + 36 = 84\\).\n\nANSWER: 84",
-  "score": 0,
+  "score": 5,
   "cost": 0.000274,
   "expected": "84",
   "tokens": {
     "input": 246,
     "output": 281
-  }
+  },
+  "judge_rerun": true,
+  "judge_raw": "5"
 }

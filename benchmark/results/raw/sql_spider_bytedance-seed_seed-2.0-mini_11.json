@@ -3,11 +3,13 @@
   "task": "sql_spider",
   "case": 11,
   "response": "SELECT name\nFROM country\nWHERE continent = 'Africa'\n  AND population IS NOT NULL\n  AND population < ALL (\n    SELECT population\n    FROM country\n    WHERE continent = 'Asia'\n      AND population IS NOT NULL\n  );",
-  "score": 0,
+  "score": 4,
   "cost": 0.0006946000000000002,
   "expected": "",
   "tokens": {
     "input": 122,
     "output": 1706
-  }
+  },
+  "judge_rerun": true,
+  "judge_raw": "4"
 }

@@ -3,11 +3,13 @@
   "task": "sql_spider",
   "case": 35,
   "response": "```sql\nSELECT T1.name \nFROM conductors AS T1 \nJOIN (\n  SELECT conductor_id, COUNT(*) as num_orchestras \n  FROM orchestra_conductors \n  GROUP BY conductor_id \n  ORDER BY num_orchestras DESC \n  LIMIT 1\n) AS T2 \nON T1.id = T2.conductor_id;\n```",
-  "score": 0,
+  "score": 4,
   "cost": 5.67e-05,
   "expected": "",
   "tokens": {
     "input": 78,
     "output": 75
-  }
+  },
+  "judge_rerun": true,
+  "judge_raw": "4"
 }

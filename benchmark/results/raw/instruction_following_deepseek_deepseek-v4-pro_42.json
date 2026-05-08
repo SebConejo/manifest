@@ -2,14 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "instruction_following",
   "case": 42,
-  "response": "The sky bruised from charcoal to a deep, churning violet as the thunderstorm shouldered its way across the horizon. A sudden, sharp crack of cool air swept through the open window, carrying the metallic tang of ozone mixed with the sweet, dusty perfume of rain hitting parched earth. Then came the sound\u2014a guttural, bone-rattling boom that rolled through the clouds and seemed to vibrate deep in your chest, followed by the frantic drumming of raindrops against the glass. In the electric stillness between flashes, I watched a jagged, silver-white vein of lightning fork across the sky, illuminating the world in a fleeting, stark brilliance before plunging it back into a deeper shadow.",
+  "response": "The sky bruised from charcoal to a deep, ominous violet as the thunderstorm rolled in. A sudden, cool gust lashed against my skin, carrying the sharp, metallic tang of ozone mixed with the damp earth scent of impending rain. Then came the sound\u2014a low, guttural growl that swelled into a deafening crack, splitting the air so close I felt the vibration thrum through the soles of my feet.",
   "score": 5,
-  "cost": 0.00036235499999999997,
+  "cost": 0.000268395,
   "expected": "",
   "tokens": {
     "input": 17,
-    "output": 204
-  },
-  "judge_rerun": true,
-  "judge_raw": "5"
+    "output": 150
+  }
 }

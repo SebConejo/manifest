@@ -2,14 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "instruction_following",
   "case": 32,
-  "response": "Nestled down a lantern-lit alley that smells faintly of rain and roasted corn, **The Gilded Alpaca** is the kind of place you stumble upon once and then spend the next three dinner parties pretending you discovered it. The concept is audaciously specific: a Peruvian-Japanese izakaya that worships at the altar of the potato. The walls are lined with hand-painted tiles of alpacas in samurai armor, and a massive, backlit mural of Machu Picchu merges seamlessly with a woodblock wave off Kanagawa. It shouldn\u2019t work, but it absolutely does.\n\nWe started with the *Nikkei Ceviche*, a shimmering pool of leche de tigre bright with yuzu and a whisper of rocoto heat, cradling cubes of sea bass so fresh they practically flinched. The real showstopper, however, was the *Lomo Saltado Maki*: a tight roll of soy-marinated beef tenderloin, caramelized red onion, and a crispy shoestring potato core that gave each bite a deeply satisfying crunch. It was a glorious, messy fusion that tasted like a late-night food market in Lima had a baby with a Tokyo sushi counter.\n\nThe service was warm and theatrically knowledgeable\u2014our server described the *Papa a la Huanca\u00edna* as \u201ca velvet blanket",
+  "response": "I recently dined at **The Glimmering Grotto**, a subterranean fantasy-themed restaurant tucked beneath the cobblestone streets of the old market quarter. From the moment you descend the candlelit spiral staircase, you\u2019re enveloped in a world of faux-stalactites, softly glowing bioluminescent orbs, and the gentle sound of a trickling indoor waterfall. It\u2019s undeniably theatrical, but somehow it never tips into tacky.\n\nThe menu is a playful fusion of foraged ingredients and molecular gastronomy, presented as \u201cearth, sea, and sky.\u201d I started with the **\u201cForest Floor\u201d** \u2014 a stunning dish of truffle-infused mushroom p\u00e2t\u00e9, edible moss (spinach powder and panko), and tiny meringue \u201cpebbles\u201d that dissolved on the tongue. It was earthy, rich, and surprisingly whimsical. For the main, I chose the **\u201cAbyssal Feast\u201d**: a perfectly seared piece of black cod on a bed of squid-ink risotto, surrounded by a foam that tasted of the sea and dotted with pearls of yuzu gel. The fish was buttery, the risotto al dente, and the citrus pearls cut through the richness beautifully.\n\nDessert was the real showstopper. The **\u201cCloud Nine\u201d** arrived under a glass cloche filled with vanilla-scented smoke. Beneath it lay a delicate honey-l",
   "score": 4,
-  "cost": 0.000879135,
+  "cost": 0.000880875,
   "expected": "",
   "tokens": {
     "input": 21,
-    "output": 500
-  },
-  "judge_rerun": true,
-  "judge_raw": "4"
+    "output": 501
+  }
 }

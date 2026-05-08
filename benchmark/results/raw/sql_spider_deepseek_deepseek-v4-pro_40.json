@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "sql_spider",
   "case": 40,
-  "response": "",
-  "score": 0,
-  "cost": 0.00055941,
+  "response": "```sql\nSELECT DISTINCT cm.makeid, cm.make_name\nFROM car_makes cm\nJOIN car_names cn ON cm.makeid = cn.makeid\nJOIN cars_data cd ON cn.id = cd.id\nWHERE cd.horsepower > (SELECT MIN(horsepower) FROM cars_data)\n  AND cd.cylinders <= 3;\n```",
+  "score": 5,
+  "cost": 0.00069687,
   "expected": "",
   "tokens": {
     "input": 86,
-    "output": 300
+    "output": 379
   }
 }

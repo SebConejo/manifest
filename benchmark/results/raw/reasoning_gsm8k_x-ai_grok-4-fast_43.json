@@ -3,11 +3,13 @@
   "task": "reasoning_gsm8k",
   "case": 43,
   "response": "Jeff is 10 years older than Martha.  \nMartha is 4 years younger than Mike.  \nMike is 24 years old.  \n\nMartha's age = 24 - 4 = 20 years old.  \nJeff's age = 20 + 10 = 30 years old.  \n\nANSWER: 30",
-  "score": 0,
+  "score": 5,
   "cost": 0.00020520000000000003,
   "expected": "30",
   "tokens": {
     "input": 234,
     "output": 198
-  }
+  },
+  "judge_rerun": true,
+  "judge_raw": "5"
 }

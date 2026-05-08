@@ -2,14 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "instruction_following",
   "case": 16,
-  "response": "In simple terms, gravity is the force that pulls objects with mass toward each other, like the Earth pulling us down, keeping planets in orbit, and causing things to fall. It arises because mass curves spacetime, and objects move along the straightest possible paths in that curved geometry. That is gravity.",
+  "response": "In simple terms, gravity is the natural force that pulls objects with mass toward each other; the more mass an object has, the stronger its pull, and this force keeps us grounded on Earth, governs the motion of planets around the Sun, and shapes the structure of the universe itself. That is gravity.",
   "score": 5,
-  "cost": 8.1e-06,
+  "cost": 2.6009999999999997e-05,
   "expected": "",
   "tokens": {
-    "input": 28,
-    "output": 62
-  },
-  "judge_rerun": true,
-  "judge_raw": "5"
+    "input": 37,
+    "output": 252
+  }
 }

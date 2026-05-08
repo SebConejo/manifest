@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "ner_extraction",
   "case": 26,
-  "response": "{\n  \"persons\": [],\n  \"organizations\": [\"Supreme Court\", \"ACLU\"],\n  \"locations\": [\"State of Texas\"]\n}",
+  "response": "{\"persons\": [], \"organizations\": [\"Supreme Court\", \"ACLU\"], \"locations\": [\"State of Texas\"]}",
   "score": 4,
-  "cost": 0.0006938249999999999,
+  "cost": 0.000580725,
   "expected": "",
   "tokens": {
     "input": 71,
-    "output": 381
+    "output": 316
   }
 }

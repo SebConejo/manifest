@@ -2,14 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "email_summary_v2",
   "case": 15,
-  "response": "Legal approved the updated terms with two modifications: adding",
-  "score": 2,
-  "cost": 0.00039063,
+  "response": "Legal has approved the updated terms with two required changes: adding an arbitration clause for the enterprise tier and revising data retention from 180 to 90 days. The final version will be prepared today, and these changes must be implemented before the EU launch on May 1.",
+  "score": 5,
+  "cost": 0.00041150999999999997,
   "expected": "",
   "tokens": {
     "input": 98,
-    "output": 200
-  },
-  "judge_rerun": true,
-  "judge_raw": "2"
+    "output": 212
+  }
 }

@@ -3,11 +3,13 @@
   "task": "sql_spider",
   "case": 34,
   "response": "SELECT * FROM hiring;",
-  "score": 0,
+  "score": 5,
   "cost": 0.000382,
   "expected": "",
   "tokens": {
     "input": 266,
     "output": 411
-  }
+  },
+  "judge_rerun": true,
+  "judge_raw": "5"
 }

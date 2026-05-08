@@ -3,11 +3,13 @@
   "task": "sql_spider",
   "case": 39,
   "response": "```sql\nSELECT c.name AS conductor, o.name AS orchestra\nFROM conductors c\nINNER JOIN orchestras o ON c.orchestra_id = o.orchestra_id;\n```",
-  "score": 0,
+  "score": 5,
   "cost": 0.0005788000000000001,
   "expected": "",
   "tokens": {
     "input": 226,
     "output": 667
-  }
+  },
+  "judge_rerun": true,
+  "judge_raw": "5"
 }

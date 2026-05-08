@@ -2,14 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "rag_qa",
   "case": 8,
-  "response": "36%",
+  "response": "Not found in context.",
   "score": 1,
-  "cost": 0.000175305,
+  "cost": 0.000439785,
   "expected": "36%",
   "tokens": {
     "input": 171,
-    "output": 58
-  },
-  "judge_rerun": true,
-  "judge_raw": "1"
+    "output": 210
+  }
 }

@@ -3,13 +3,11 @@
   "task": "rag_qa",
   "case": 32,
   "response": "The world's economy grew significantly on a global scale as a result of imperialism.",
-  "score": 3,
+  "score": 5,
   "cost": 2.1510000000000002e-05,
   "expected": "the world's economy",
   "tokens": {
     "input": 222,
     "output": 17
-  },
-  "judge_rerun": true,
-  "judge_raw": "3"
+  }
 }

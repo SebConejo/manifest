@@ -2,14 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "instruction_following",
   "case": 25,
-  "response": "Project Sync: Review Q3 Goals & Next Steps",
-  "score": 3,
-  "cost": 1.2059999999999998e-05,
+  "response": "Quarterly Strategy Meeting \u2013 Invitation & Agenda",
+  "score": 4,
+  "cost": 1.2960000000000001e-05,
   "expected": "",
   "tokens": {
     "input": 32,
-    "output": 102
-  },
-  "judge_rerun": true,
-  "judge_raw": "3"
+    "output": 112
+  }
 }

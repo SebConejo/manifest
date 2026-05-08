@@ -3,13 +3,11 @@
   "task": "structured_output",
   "case": 30,
   "response": "{\n  \"name\": \"Bitcoin\",\n  \"symbol\": \"BTC\",\n  \"price\": 43250.80,\n  \"change_24h_percent\": -1.2,\n  \"market_cap\": \"$847B\",\n  \"volume_24h\": \"$18.5B\",\n  \"circulating_supply\": \"19.6M BTC\"\n}",
-  "score": 4,
-  "cost": 0.0005489700000000001,
+  "score": 5,
+  "cost": 0.00056637,
   "expected": "",
   "tokens": {
     "input": 122,
-    "output": 285
-  },
-  "judge_rerun": true,
-  "judge_raw": "4"
+    "output": 295
+  }
 }

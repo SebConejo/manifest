@@ -2,14 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "code_generation",
   "case": 1,
-  "response": "result = []\n    for group in paren_string.split():\n        depth = 0\n        max_depth = 0\n        for ch in group:\n            if ch == '(':\n                depth += 1\n                if depth > max_depth:\n                    max_depth = depth\n            elif ch == ')':\n                depth -= 1\n        result.append(max_depth)\n    return result",
-  "score": 3,
-  "cost": 5.3009999999999996e-05,
+  "response": "result = []\n    for group in paren_string.split():\n        cur = 0\n        max_depth = 0\n        for ch in group:\n            if ch == '(':\n                cur += 1\n                if cur > max_depth:\n                    max_depth = cur\n            elif ch == ')':\n                cur -= 1\n        result.append(max_depth)",
+  "score": 4,
+  "cost": 5.922e-05,
   "expected": "",
   "tokens": {
     "input": 158,
-    "output": 431
-  },
-  "judge_rerun": true,
-  "judge_raw": "3"
+    "output": 500
+  }
 }

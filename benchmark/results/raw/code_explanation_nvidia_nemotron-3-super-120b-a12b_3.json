@@ -2,14 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "code_explanation",
   "case": 3,
-  "response": "The `compose` function builds",
-  "score": 2,
+  "response": "We need to explain code: compose takes functions and returns a function that applies them from right to left (or left to right depending). The reduce builds a composition: lambda f,g: lambda x: f(g(x)). Starting with first function? Actually reduce applies binary function cumulatively: given fns = [f1, f2, f3], reduce(lambda f,g: lambda x: f(g(x)), fns) yields ((f1 \u2218 f2) \u2218 f3) i.e., apply f3 then f2 then f1? Let's test: reduce with initial? No initial, so first two elements: f = f1, g = f2 => lambda x: f1(f2(x)). Then next iteration: f = that lambda, g = f3 => lambda x: (lambda y: f1(f2(y)))(f3(x)) => f1(f2(f3(x))). So composition order is right-to-left: the last",
+  "score": 4,
   "cost": 2.466e-05,
   "expected": "",
   "tokens": {
     "input": 74,
     "output": 200
-  },
-  "judge_rerun": true,
-  "judge_raw": "2"
+  }
 }

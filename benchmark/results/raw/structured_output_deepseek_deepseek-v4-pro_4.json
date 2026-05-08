@@ -2,14 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "structured_output",
   "case": 4,
-  "response": "{\n  \"error_code\": 503,\n  \"message\": \"Service Unavailable\",\n  \"timestamp\": \"2024-01-15T14:30:00Z\",\n  \"endpoint\": \"/api/v2/users\",\n  \"server\": \"prod-west-2\",\n  \"retry_after_seconds\": 30\n}",
+  "response": "{\"error_code\": 503, \"message\": \"Service Unavailable\", \"timestamp\": \"2024-01-15T14:30:00Z\", \"endpoint\": \"/api/v2/users\", \"server\": \"prod-west-2\", \"retry_after_seconds\": 30}",
   "score": 5,
-  "cost": 0.00048285,
+  "cost": 0.00053853,
   "expected": "",
   "tokens": {
     "input": 106,
-    "output": 251
-  },
-  "judge_rerun": true,
-  "judge_raw": "5"
+    "output": 283
+  }
 }

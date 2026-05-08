@@ -3,13 +3,11 @@
   "task": "rag_qa",
   "case": 47,
   "response": "Urarina",
-  "score": 1,
-  "cost": 0.000272745,
+  "score": 5,
+  "cost": 0.000255345,
   "expected": "Urarina",
   "tokens": {
     "input": 147,
-    "output": 120
-  },
-  "judge_rerun": true,
-  "judge_raw": "1"
+    "output": 110
+  }
 }

@@ -3,13 +3,11 @@
   "task": "rag_qa",
   "case": 45,
   "response": "The show globe",
-  "score": 1,
-  "cost": 0.00020097,
+  "score": 5,
+  "cost": 0.00019053,
   "expected": "The show globe",
   "tokens": {
     "input": 218,
-    "output": 61
-  },
-  "judge_rerun": true,
-  "judge_raw": "1"
+    "output": 55
+  }
 }

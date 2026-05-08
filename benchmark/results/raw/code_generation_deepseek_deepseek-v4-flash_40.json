@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-flash",
   "task": "code_generation",
   "case": 40,
-  "response": "if a < 0:\n    a = -a\n    return round(a ** (1/3)) ** 3 == a\nelse:\n    return round(a ** (1/3)) ** 3 == a",
-  "score": 3,
-  "cost": 4.522e-05,
+  "response": "return round(a ** (1/3)) ** 3 == a",
+  "score": 4,
+  "cost": 2.786e-05,
   "expected": "",
   "tokens": {
     "input": 139,
-    "output": 46
+    "output": 15
   }
 }

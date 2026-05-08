@@ -2,14 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "structured_output",
   "case": 3,
-  "response": "{\n  \"flight_number\": \"AA123\",\n  \"origin\": \"JFK\",\n  \"destination\": \"LAX\",\n  \"departure\": \"3:45pm\",\n  \"arrival\": \"6:30pm\",\n  \"date\": \"March 5\",\n  \"class\": \"Economy\",\n  \"stops\": 1,\n  \"stop_cities\": [\"Dallas\"]\n}",
+  "response": "{\"flight_number\": \"AA123\", \"origin\": \"JFK\", \"destination\": \"LAX\", \"departure\": \"3:45pm\", \"arrival\": \"6:30pm\", \"date\": \"March 5\", \"class\": \"Economy\", \"stops\": 1, \"stop_cities\": [\"Dallas\"]}",
   "score": 5,
-  "cost": 0.000773865,
+  "cost": 0.000704265,
   "expected": "",
   "tokens": {
     "input": 115,
-    "output": 416
-  },
-  "judge_rerun": true,
-  "judge_raw": "5"
+    "output": 376
+  }
 }

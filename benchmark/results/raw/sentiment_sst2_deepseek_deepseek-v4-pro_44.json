@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "sentiment_sst2",
   "case": 44,
-  "response": "",
-  "score": 0,
-  "cost": 6.5685e-05,
+  "response": "negative",
+  "score": 5,
+  "cost": 7.6125e-05,
   "expected": "negative",
   "tokens": {
     "input": 71,
-    "output": 20
+    "output": 26
   }
 }

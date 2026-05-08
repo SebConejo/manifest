@@ -2,14 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "code_review_v2",
   "case": 1,
-  "response": "The provided Express route handler has several critical issues\u2014primarily a severe security flaw and missing error handling. Below is a detailed breakdown.\n\n---\n\n### 1. **Security: Password hash exposed to clients**\n**What\u2019s wrong:**  \nThe `SELECT *` fetches all columns, including the `",
-  "score": 4,
+  "response": "The code snippet has several critical bugs and security vulnerabilities. Here\u2019s a detailed breakdown of what\u2019s wrong and how to fix each issue.\n\n---\n\n### 1. \ud83d\udea8 **Password Exposure (Security)**\n**Problem:**  \nThe response explicitly includes the password hash:\n```js\nres.json({ ...user.rows[0], password: user.rows[0].password });\n```\nEven without the explicit `password` property, `...user.rows[0",
+  "score": 5,
   "cost": 0.00143289,
   "expected": "",
   "tokens": {
     "input": 94,
     "output": 800
-  },
-  "judge_rerun": true,
-  "judge_raw": "4"
+  }
 }

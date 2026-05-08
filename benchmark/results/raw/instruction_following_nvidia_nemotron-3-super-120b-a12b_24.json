@@ -2,14 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "instruction_following",
   "case": 24,
-  "response": "- Date, time, and location of the collision, including weather and road conditions.  \n- Details of vehicles involved: make, model, license plate, driver information, and extent of damage.  \n- Summary of events, witness statements, and any citations or injuries reported.",
-  "score": 3,
-  "cost": 2.124e-05,
+  "response": "- Date, time, and location of the accident.  \n- Description of vehicles involved, damage, and injuries.  \n- Witness statements and police officer's findings.",
+  "score": 5,
+  "cost": 1.7009999999999998e-05,
   "expected": "",
   "tokens": {
     "input": 29,
-    "output": 207
-  },
-  "judge_rerun": true,
-  "judge_raw": "3"
+    "output": 160
+  }
 }

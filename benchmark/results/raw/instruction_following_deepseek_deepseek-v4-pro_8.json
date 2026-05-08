@@ -2,14 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "instruction_following",
   "case": 8,
-  "response": "Imagine a magic notebook that lots of friends share. When someone draws a picture or writes a story, it gets added to everyone\u2019s notebook at the same time, and once it's there, no one can ever erase or change it. That way, everybody always has the exact same pages and can trust what\u2019s written.",
+  "response": "Imagine a special notebook that everyone can see, and when you draw a picture in it, the drawing turns into a magic block that sticks to all the other blocks. Once a block is stuck, nobody can erase or change it, so everyone always knows exactly what happened.",
   "score": 5,
-  "cost": 0.00031798499999999996,
+  "cost": 0.000230985,
   "expected": "",
   "tokens": {
     "input": 19,
-    "output": 178
-  },
-  "judge_rerun": true,
-  "judge_raw": "5"
+    "output": 128
+  }
 }

@@ -2,14 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "instruction_following",
   "case": 25,
-  "response": "Meeting Invitation: Marketing Campaign Brainstorm",
-  "score": 3,
-  "cost": 0.001207125,
+  "response": "Invitation: Q4 Planning Session \u2013 Oct 10",
+  "score": 4,
+  "cost": 0.0006764249999999999,
   "expected": "",
   "tokens": {
     "input": 19,
-    "output": 689
-  },
-  "judge_rerun": true,
-  "judge_raw": "3"
+    "output": 384
+  }
 }

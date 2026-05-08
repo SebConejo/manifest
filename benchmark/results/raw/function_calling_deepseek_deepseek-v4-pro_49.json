@@ -4,10 +4,10 @@
   "case": 49,
   "response": "{\"name\": \"resize_instance\", \"arguments\": {\"instance_id\": \"app-server-1\", \"new_type\": \"t3.large\"}}",
   "score": 5,
-  "cost": 0.000332775,
+  "cost": 0.000308415,
   "expected": "",
   "tokens": {
     "input": 97,
-    "output": 167
+    "output": 153
   }
 }

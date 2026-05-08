@@ -2,8 +2,8 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "email_summary_v2",
   "case": 16,
-  "response": "",
-  "score": 0,
+  "response": "We need to summarize in exactly 2 sentences, capturing main point and any action items. The email: April campaign results: 45K impressions, 2.3K clicks (5.1% CTR), 187 signups (8.1% conversion). Cost: $12K. CAC: $64 per signup. Compared to March: CTR up 1.2pp, conversion down 0.8pp. Recommend A/B testing the landing page CTA. - Marketing\n\nMain point: April campaign performance metrics, showing increased CTR but decreased conversion, with cost and CAC. Action item: Recommend A/B testing landing page CTA.\n\nWe need exactly 2 sentences. Let's craft: \"The April marketing campaign generated 45K impressions, 2.3K clicks (5.1% CTR), and 187 signups (8.1% conversion) at a $12K cost",
+  "score": 4,
   "cost": 3.006e-05,
   "expected": "",
   "tokens": {

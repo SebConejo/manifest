@@ -2,14 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "code_explanation",
   "case": 31,
-  "response": "The function implements the A* search algorithm: it repeatedly extracts from a min\u2011heap the node with the lowest estimated total cost\u202f\\(f = g + h\\) (where\u202f\\(g\\) is the actual path cost so far and\u202f\\(h\\) is the heuristic), expands its neighbors, and returns the first path that reaches the goal, or\u202fNone if the goal is unreachable. The heap serves as the open set, while a `visited` set prevents re\u2011processing nodes.",
+  "response": "The function implements the A* search algorithm: it repeatedly extracts the node with the lowest\u202f\\(f = g + h\\)\u202festimate from a min\u2011heap (the\u202f`open_set`), expands its neighbors, and pushes them back with their updated\u202f\\(g\\)\u202f(cost so far) and\u202f\\(h\\)\u202f(heuristic) values, skipping already\u2011visited nodes, until the goal is reached and the corresponding path is returned (or\u202f`None`\u202fif no",
   "score": 5,
-  "cost": 2.4390000000000002e-05,
+  "cost": 3.4649999999999995e-05,
   "expected": "",
   "tokens": {
-    "input": 168,
-    "output": 103
-  },
-  "judge_rerun": true,
-  "judge_raw": "5"
+    "input": 185,
+    "output": 200
+  }
 }

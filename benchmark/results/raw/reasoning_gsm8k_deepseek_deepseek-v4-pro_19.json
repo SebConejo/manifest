@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "reasoning_gsm8k",
   "case": 19,
-  "response": "The Doubtfire sisters initially adopted 7 kittens. Their cat Patchy had thrice (three times) the number of adopted kittens, so 3 \u00d7 7 = 21 kittens. Their other cat Trixie had 12 kittens. The total number of kittens is the sum of the adopted kittens and the newborn kittens: 7 + 21 + 12 = 40.\n\nANSWER: 40",
-  "score": 0,
-  "cost": 0.0008243249999999999,
+  "response": "The Doubtfire sisters adopted 7 kittens. Patchy had thrice (three times) that number, so 3 \u00d7 7 = 21 kittens. Trixie had 12 kittens. The total number of kittens is the adopted ones plus the newborns: 7 + 21 + 12 = 40.\n\nANSWER: 40",
+  "score": 4,
+  "cost": 0.0006538049999999999,
   "expected": "40",
   "tokens": {
     "input": 119,
-    "output": 444
+    "output": 346
   }
 }

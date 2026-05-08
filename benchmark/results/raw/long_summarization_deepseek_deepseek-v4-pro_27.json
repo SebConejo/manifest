@@ -2,14 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "long_summarization",
   "case": 27,
-  "response": "The EU's GDPR, enacted in May 2018, reshaped global data privacy by requiring companies worldwide to obtain explicit consent,",
-  "score": 4,
+  "response": "The GDPR, effective May 2018, governs how any company processing EU residents' data must handle",
+  "score": 3,
   "cost": 0.000654675,
   "expected": "",
   "tokens": {
     "input": 305,
     "output": 300
-  },
-  "judge_rerun": true,
-  "judge_raw": "4"
+  }
 }

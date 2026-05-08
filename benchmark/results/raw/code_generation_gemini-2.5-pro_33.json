@@ -2,12 +2,12 @@
   "model": "gemini-2.5-pro",
   "task": "code_generation",
   "case": 33,
-  "response": "```python\n    sides = sorted([a, b, c])\n    return sides[0]**2 + sides[1]**2 == sides[2]**2\n```",
+  "response": "```python\n    sides = sorted([a, b, c])\n    if sides[0] <= 0:\n        return False\n    return sides[0]**2 + sides[1]**2 == sides[2]**2\n```",
   "score": 5,
-  "cost": 0.00057625,
+  "cost": 0.00072625,
   "expected": "",
   "tokens": {
     "input": 149,
-    "output": 39
+    "output": 54
   }
 }

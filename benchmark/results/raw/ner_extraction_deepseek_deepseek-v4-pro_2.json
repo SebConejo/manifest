@@ -2,7 +2,7 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "ner_extraction",
   "case": 2,
-  "response": "{\"persons\": [], \"organizations\": [\"Google DeepMind\", \"Nature\"], \"locations\": []}",
+  "response": "{\n  \"persons\": [],\n  \"organizations\": [\"Google DeepMind\", \"Nature\"],\n  \"locations\": []\n}",
   "score": 4,
   "cost": 0.00033190499999999996,
   "expected": "",

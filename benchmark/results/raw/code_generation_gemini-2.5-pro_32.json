@@ -3,7 +3,7 @@
   "task": "code_generation",
   "case": 32,
   "response": "```python\n    words = s.split(' ')\n    new_words = []\n    for word in words:\n        new_words.append(''.join(sorted(word)))\n    return ' '.join(new_words)\n```",
-  "score": 5,
+  "score": 4,
   "cost": 0.00074375,
   "expected": "",
   "tokens": {

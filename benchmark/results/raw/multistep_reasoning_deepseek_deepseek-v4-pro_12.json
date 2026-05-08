@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "multistep_reasoning",
   "case": 12,
-  "response": "A",
+  "response": "A) erosion of rocks",
   "score": 5,
-  "cost": 0.0002784,
+  "cost": 0.00047154,
   "expected": "A",
   "tokens": {
     "input": 76,
-    "output": 141
+    "output": 252
   }
 }

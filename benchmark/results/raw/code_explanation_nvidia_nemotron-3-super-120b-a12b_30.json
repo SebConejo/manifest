@@ -2,14 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "code_explanation",
   "case": 30,
-  "response": "This code implements a Bloom filter: it stores a fixed\u2011size bit array and, for each item, computes\u202f`num_hashes`\u202fdifferent hash values (by hashing the item\u2019s string representation concatenated with an index\u202f`i`\u202fand taking the result modulo the array size). The `add` method sets the bits at those positions to\u202f`True`, and the `__contains__` method reports an item as present only if **all** of its corresponding bits are set, giving the probabilistic set\u2011membership test characteristic of a Bloom filter.",
+  "response": "The code implements a Bloom filter: it stores a bit array of length\u202f`size` and, for each item, computes `num_hashes` independent hash values (by hashing the item concatenated with an index) to set or check bits. Adding an item sets all those bits to\u202f`True`; testing membership returns\u202f`True` only if every corresponding bit is set, giving a probabilistic set\u2011membership test with possible false positives but no false negatives.",
   "score": 5,
-  "cost": 2.457e-05,
+  "cost": 2.259e-05,
   "expected": "",
   "tokens": {
     "input": 155,
-    "output": 118
-  },
-  "judge_rerun": true,
-  "judge_raw": "5"
+    "output": 96
+  }
 }

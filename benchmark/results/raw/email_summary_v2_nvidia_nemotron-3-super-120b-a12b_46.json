@@ -2,8 +2,8 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "email_summary_v2",
   "case": 46,
-  "response": "",
-  "score": 0,
+  "response": "We need to summarize in exactly 2 sentences, capturing main point and any action items. The email: Critical SQL injection in /api/v2/auth/login (CVSS 9.8). Affects v3.2.0-v3.4.1. Fix: parameterize query in auth_controller.py:142. Patch ready for review. Recommend hotfix within 24h. - David\n\nSo main point: critical SQL injection vulnerability affecting certain versions, with a fix ready. Action items: review patch, apply hotfix within 24h.\n\nWe need exactly 2 sentences. Let's craft: \"A critical SQL injection vulnerability (CVSS 9.8) in the /api/v2/auth/login endpoint affects versions 3.2.0 through 3.4.1 and can be mitigated by parameterizing the query in auth_controller.py line 142.\" Second sentence: \"A patch is ready for review and should be",
+  "score": 4,
   "cost": 2.8170000000000003e-05,
   "expected": "",
   "tokens": {

@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "reasoning_gsm8k",
   "case": 42,
-  "response": "The problem states that children stand 8 in a row, there are 7 rows for each of 5 different schools. To find the total number of children, multiply the number of schools by the number of rows per school and the number of children per row: 5 \u00d7 7 \u00d7 8 = 280.\n\nANSWER: 280",
-  "score": 0,
-  "cost": 0.00035104499999999997,
+  "response": "To find the total number of children, first calculate the number of children from one school, then multiply by the number of schools.\n\nEach row has 8 children, and there are 7 rows per school.  \nChildren per school = 8 \u00d7 7 = 56.  \nThere are 5 different schools.  \nTotal children = 56 \u00d7 5 = 280.\n\nANSWER: 280",
+  "score": 5,
+  "cost": 0.000495465,
   "expected": "280",
   "tokens": {
     "input": 91,
-    "output": 179
+    "output": 262
   }
 }

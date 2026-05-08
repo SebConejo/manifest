@@ -4,10 +4,10 @@
   "case": 9,
   "response": "{\"name\": \"search_flights\", \"arguments\": {\"origin\": \"New York\", \"destination\": \"London\", \"date\": \"December 15th\", \"passengers\": 2}}",
   "score": 5,
-  "cost": 0.00030885,
+  "cost": 0.00043239000000000005,
   "expected": "",
   "tokens": {
     "input": 110,
-    "output": 150
+    "output": 221
   }
 }

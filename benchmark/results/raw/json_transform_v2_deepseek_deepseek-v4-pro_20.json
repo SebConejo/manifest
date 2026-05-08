@@ -2,14 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "json_transform_v2",
   "case": 20,
-  "response": "{\"departments\": {\"eng\": {\"headcount\": 2, \"avg_salary\": 115000, \"employees\": [\"Alice\", \"Bob\"]}, \"sales\": {\"headcount\": 2, \"avg_salary\": 100000, \"employees\": [\"Carol\", \"Dave\"]}}}",
-  "score": 5,
-  "cost": 0.000719055,
+  "response": "{\"departments",
+  "score": 1,
+  "cost": 0.0009348150000000001,
   "expected": "",
   "tokens": {
     "input": 149,
-    "output": 376
-  },
-  "judge_rerun": true,
-  "judge_raw": "5"
+    "output": 500
+  }
 }

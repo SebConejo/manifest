@@ -2,8 +2,8 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "long_summarization",
   "case": 0,
-  "response": "",
-  "score": 0,
+  "response": "The internet originated in the 1960s with US Defense-funded research, leading to ARPANET's first message in 1969 and the foundational TCP/IP protocols in 1983. Tim Berners-Lee's 1989 invention of the World Wide Web and the 1993 Mosaic browser opened the network to the public, fueling the dot-com boom",
+  "score": 4,
   "cost": 0.0006564149999999999,
   "expected": "",
   "tokens": {

@@ -2,8 +2,8 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "code_generation",
   "case": 15,
-  "response": "",
-  "score": 0,
+  "response": "i = 2\n    factor = 1\n    while i * i <= n",
+  "score": 2,
   "cost": 5.517e-05,
   "expected": "",
   "tokens": {

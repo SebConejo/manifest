@@ -3,11 +3,13 @@
   "task": "sql_spider",
   "case": 10,
   "response": "SELECT SUM(surface_area) FROM countries WHERE region = 'Caribbean';",
-  "score": 0,
+  "score": 5,
   "cost": 9.59e-05,
   "expected": "",
   "tokens": {
     "input": 119,
     "output": 210
-  }
+  },
+  "judge_rerun": true,
+  "judge_raw": "5"
 }

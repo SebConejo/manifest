@@ -3,11 +3,13 @@
   "task": "sql_spider",
   "case": 1,
   "response": "SELECT AVG(mpg) FROM cars WHERE cylinders = 4;",
-  "score": 0,
+  "score": 5,
   "cost": 0.0002258,
   "expected": "",
   "tokens": {
     "input": 273,
     "output": 214
-  }
+  },
+  "judge_rerun": true,
+  "judge_raw": "5"
 }

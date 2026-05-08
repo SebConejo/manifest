@@ -3,11 +3,13 @@
   "task": "sql_spider",
   "case": 24,
   "response": "SELECT Year FROM concert GROUP BY Year ORDER BY count(Year) DESC LIMIT 1",
-  "score": 0,
+  "score": 4,
   "cost": 0.002075125,
   "expected": "",
   "tokens": {
     "input": 77,
     "output": 1577
-  }
+  },
+  "judge_rerun": true,
+  "judge_raw": "4"
 }

@@ -2,14 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "code_explanation",
   "case": 41,
-  "response": "The function computes a CRC\u201132 checksum of the input byte sequence using the reflected polynomial\u202f0xEDB88320 (the standard IEEE\u202f802.3 CRC\u201132). It initializes the CRC to\u202f0xFFFFFFFF, XORs each incoming byte into the low\u2011order bits, then iterates over the 8 bits of that byte, shifting the CRC right and conditionally XOR\u2011ing the polynomial when the least\u2011significant bit is\u202f1; after all bytes are processed it returns the bitwise complement of the accumulated CRC.",
+  "response": "The function computes a CRC\u201132 checksum by initializing a 32\u2011bit register to all\u2011ones, then for each input byte it XORs the byte into the register and iterates over the 8 bits: if the least\u2011significant bit is set, the register is right\u2011shifted and XORed with the reversed CRC\u201132 polynomial\u202f0xEDB88320; otherwise it is just shifted. After all bytes are processed, the register is complemented (XOR\u202f0xFFFFFFFF) to yield the final CRC\u201132 value. This is the classic bit",
   "score": 5,
-  "cost": 2.8889999999999996e-05,
+  "cost": 2.997e-05,
   "expected": "",
   "tokens": {
     "input": 133,
-    "output": 188
-  },
-  "judge_rerun": true,
-  "judge_raw": "5"
+    "output": 200
+  }
 }

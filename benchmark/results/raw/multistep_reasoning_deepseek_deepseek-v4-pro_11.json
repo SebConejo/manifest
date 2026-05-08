@@ -4,10 +4,10 @@
   "case": 11,
   "response": "B) to capture sunlight",
   "score": 5,
-  "cost": 0.000264045,
+  "cost": 0.000251865,
   "expected": "B",
   "tokens": {
     "input": 79,
-    "output": 132
+    "output": 125
   }
 }

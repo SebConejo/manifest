@@ -4,10 +4,10 @@
   "case": 44,
   "response": "{\n  \"persons\": [],\n  \"organizations\": [],\n  \"locations\": [\"Puerto Rico\", \"Dominican Republic\"]\n}",
   "score": 4,
-  "cost": 0.00039889499999999997,
+  "cost": 0.000538095,
   "expected": "",
   "tokens": {
     "input": 69,
-    "output": 212
+    "output": 292
   }
 }

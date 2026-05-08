@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "sql_spider",
   "case": 20,
-  "response": "",
-  "score": 0,
-  "cost": 0.000553755,
+  "response": "```sql\nSELECT a.abbreviation, a.country\nFROM airlines a\nJOIN flights f ON a.abbreviation = f.airline_abbreviation\nGROUP BY a.abbreviation, a.country\nORDER BY COUNT(*) ASC\nLIMIT 1;\n```",
+  "score": 4,
+  "cost": 0.0018239550000000002,
   "expected": "",
   "tokens": {
     "input": 73,
-    "output": 300
+    "output": 1030
   }
 }

@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-flash",
   "task": "code_generation",
   "case": 14,
-  "response": "a, b = 1, 1\n    for _ in range(2, n):\n        a, b = b, a + b\n    return b",
-  "score": 3,
-  "cost": 0.00028644000000000006,
+  "response": "if n <= 0:\n    return 0\nelif n == 1:\n    return 1\nelse:\n    a, b = 0, 1\n    for _ in range(2, n + 1):\n        a, b = b, a + b\n    return b",
+  "score": 5,
+  "cost": 4.6200000000000005e-05,
   "expected": "",
   "tokens": {
     "input": 78,
-    "output": 492
+    "output": 63
   }
 }

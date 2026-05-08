@@ -2,8 +2,8 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "test_generation_v2",
   "case": 47,
-  "response": "",
-  "score": 0,
+  "response": "```python\n\"\"\"\nUnit tests for run_length_encode function using pytest.\n\"\"\"\nimport pytest\nfrom your_module import run_length",
+  "score": 1,
   "cost": 0.00179307,
   "expected": "",
   "tokens": {

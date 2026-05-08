@@ -9,7 +9,5 @@
   "tokens": {
     "input": 130,
     "output": 26
-  },
-  "judge_rerun": true,
-  "judge_raw": "5"
+  }
 }

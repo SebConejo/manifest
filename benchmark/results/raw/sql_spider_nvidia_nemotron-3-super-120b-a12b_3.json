@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "sql_spider",
   "case": 3,
-  "response": "",
-  "score": 1,
-  "cost": 3.456e-05,
+  "response": "SELECT Name\nFROM Country\nWHERE Continent = 'Africa'\n  AND Population < (\n    SELECT MIN(Population)\n    FROM Country\n    WHERE Continent = 'Asia'\n  );",
+  "score": 5,
+  "cost": 1.017e-05,
   "expected": "",
   "tokens": {
-    "input": 84,
-    "output": 300
+    "input": 75,
+    "output": 38
   }
 }

@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "email_summary_v2",
   "case": 17,
-  "response": "",
-  "score": 0,
-  "cost": 0.000391065,
+  "response": "Release v4.2 is being rolled back due to a data corruption bug in the new sync engine that impacted 23 accounts.  \nThe recovery plan involves restoring from a pre-release backup, re-running affected transactions, and notifying impacted customers, while a hotfix branch has been created.",
+  "score": 5,
+  "cost": 0.000488505,
   "expected": "",
   "tokens": {
     "input": 99,
-    "output": 200
+    "output": 256
   }
 }

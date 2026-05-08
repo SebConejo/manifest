@@ -4,10 +4,10 @@
   "case": 36,
   "response": "{\"persons\": [\"Warren Buffett\"], \"organizations\": [\"Bank of America\", \"SEC\"], \"locations\": []}",
   "score": 5,
-  "cost": 0.000227505,
+  "cost": 0.00023794499999999999,
   "expected": "",
   "tokens": {
     "input": 71,
-    "output": 113
+    "output": 119
   }
 }

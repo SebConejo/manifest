@@ -3,11 +3,13 @@
   "task": "rag_qa",
   "case": 3,
   "response": "Hassan al-Turabi",
-  "score": 0,
+  "score": 1,
   "cost": 0.00024625,
   "expected": "Hassan al-Turabi",
   "tokens": {
     "input": 149,
     "output": 6
-  }
+  },
+  "judge_rerun": true,
+  "judge_raw": "1"
 }

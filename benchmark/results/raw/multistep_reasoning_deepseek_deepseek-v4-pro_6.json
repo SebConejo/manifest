@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "multistep_reasoning",
   "case": 6,
-  "response": "C",
+  "response": "When a wooden log burns, it undergoes a chemical reaction (combustion) with oxygen. The wood is transformed into new substances like carbon dioxide, water vapor, and ash, while also releasing energy in the form of heat and light. This aligns with the law of conservation of mass\u2014matter is not destroyed or fully converted into energy but changes form.\n\nC) It changes into other types of matter and energy.",
   "score": 5,
-  "cost": 0.000382365,
+  "cost": 0.000572025,
   "expected": "C",
   "tokens": {
     "input": 87,
-    "output": 198
+    "output": 307
   }
 }

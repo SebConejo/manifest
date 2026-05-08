@@ -3,11 +3,13 @@
   "task": "sql_spider",
   "case": 6,
   "response": "```sql\nSELECT DISTINCT airline\nFROM flights\nWHERE destination_airport = 'AHD';\n```",
-  "score": 0,
+  "score": 5,
   "cost": 0.00028639999999999997,
   "expected": "",
   "tokens": {
     "input": 220,
     "output": 303
-  }
+  },
+  "judge_rerun": true,
+  "judge_raw": "5"
 }

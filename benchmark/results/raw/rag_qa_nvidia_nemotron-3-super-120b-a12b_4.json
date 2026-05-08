@@ -3,13 +3,11 @@
   "task": "rag_qa",
   "case": 4,
   "response": "North America",
-  "score": 1,
-  "cost": 2.7e-05,
+  "score": 2,
+  "cost": 2.7089999999999996e-05,
   "expected": "North America",
   "tokens": {
     "input": 167,
-    "output": 133
-  },
-  "judge_rerun": true,
-  "judge_raw": "1"
+    "output": 134
+  }
 }

@@ -2,8 +2,8 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "long_summarization",
   "case": 31,
-  "response": "",
-  "score": 0,
+  "response": "The EU's GDPR, effective May 2018, revolutionized global data protection by requiring explicit consent, granting rights like data erasure and portability, and mandating breach",
+  "score": 4,
   "cost": 0.000654675,
   "expected": "",
   "tokens": {

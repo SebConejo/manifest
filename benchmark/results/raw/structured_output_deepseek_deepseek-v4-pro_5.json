@@ -2,14 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "structured_output",
   "case": 5,
-  "response": "{\n  \"name\": \"Spaghetti Carbonara\",\n  \"servings\": 4,\n  \"prep_time_minutes\": 25,\n  \"",
-  "score": 2,
+  "response": "{\n  \"name\": \"Spaghetti Carbonara\",\n  \"servings\": 4,\n  \"prep_time_minutes\": 25,\n  \"ingredients\": [\n    {\"item\": \"spaghetti\", \"amount",
+  "score": 4,
   "cost": 0.00091698,
   "expected": "",
   "tokens": {
     "input": 108,
     "output": 500
-  },
-  "judge_rerun": true,
-  "judge_raw": "2"
+  }
 }

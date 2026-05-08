@@ -2,14 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "instruction_following",
   "case": 8,
-  "response": "Imagine you and your friends all have the exact same notebook where you draw pictures together. Whenever someone adds a new drawing, everyone checks it\u2019s fair and honest before copying it into their own notebook\u2014so nobody can secretly change an old picture or trick anyone, because everyone\u2019s notebook always matches! (2 sentences)",
+  "response": "Imagine you and your friends all have the same special notebook where you draw pictures together. If someone tries to change their drawing secretly, everyone else\u2019s notebook shows the real picture\u2014so no one can cheat! \ud83d\udd8d\ufe0f\u2728",
   "score": 5,
-  "cost": 4.086e-05,
+  "cost": 3.618e-05,
   "expected": "",
   "tokens": {
     "input": 32,
-    "output": 422
-  },
-  "judge_rerun": true,
-  "judge_raw": "5"
+    "output": 370
+  }
 }

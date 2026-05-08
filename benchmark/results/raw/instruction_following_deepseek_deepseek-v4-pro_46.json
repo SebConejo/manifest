@@ -2,14 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "instruction_following",
   "case": 46,
-  "response": "As my time here comes to a close, I want to say a heartfelt goodbye and thank you for making this such a memorable chapter. Working alongside such a talented and supportive team has been the highlight of my career, and I will truly miss our daily collaborations. I\u2019ve learned so much from each of you and will carry these lessons and fond memories into my next adventure. Please don\u2019t hesitate to stay in touch\u2014you can always reach me at [personal email] or on LinkedIn. Wishing you all continued success and hoping our paths cross again in the future.",
+  "response": "I\u2019m writing to share that my time here is coming to a close, and I\u2019ll be moving on to a new opportunity.  \nI\u2019m so grateful for the collaboration, support, and camaraderie you\u2019ve shown me during my journey here.  \nWorking alongside such talented and dedicated people has made every challenge feel surmountable and every success feel truly shared.  \nI have no doubt that you\u2019ll continue to achieve great things, and I\u2019ll be cheering you on from the sidelines.  \nPlease don\u2019t hesitate to connect with me on LinkedIn\u2014I\u2019d love to stay in touch and see where your paths lead.",
   "score": 5,
-  "cost": 0.00069948,
+  "cost": 0.00048894,
   "expected": "",
   "tokens": {
     "input": 16,
-    "output": 398
-  },
-  "judge_rerun": true,
-  "judge_raw": "5"
+    "output": 277
+  }
 }

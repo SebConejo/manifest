@@ -3,11 +3,11 @@
   "task": "sql_spider",
   "case": 43,
   "response": "SELECT COUNT(*) FROM cars WHERE cylinders > 6;",
-  "score": 0,
-  "cost": 0.00022881,
+  "score": 5,
+  "cost": 0.00023055000000000002,
   "expected": "",
   "tokens": {
     "input": 66,
-    "output": 115
+    "output": 116
   }
 }

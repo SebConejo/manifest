@@ -2,14 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "instruction_following",
   "case": 44,
-  "response": "- [ ] Lettuce (romaine, iceberg, or mixed greens)\n- [ ] Tomatoes (cherry or sliced)\n- [ ] Cucumber (sliced or diced)\n- [ ] Red onion (thinly sliced)\n- [ ] Carrots (shredded or sliced)\n- [ ] Bell peppers (sliced)\n- [ ] Olive oil\n- [ ] Vinegar (balsamic, red wine, or apple cider)\n- [ ] Salt\n- [ ] Black pepper",
+  "response": "Here are the ingredients for a basic green salad, presented in checkbox format:\n\n- [ ] Lettuce (romaine, iceberg, or mixed greens)\n- [ ] Tomatoes (cherry or sliced)\n- [ ] Cucumber (sliced or diced)\n- [ ] Red onion (thinly sliced)\n- [ ] Carrot (shredded or sliced)\n- [ ] Olive oil\n- [ ] Vinegar (red wine, balsamic, or apple cider)\n- [ ] Salt\n- [ ] Black pepper",
   "score": 5,
-  "cost": 0.00041238,
+  "cost": 0.00044021999999999996,
   "expected": "",
   "tokens": {
     "input": 16,
-    "output": 233
-  },
-  "judge_rerun": true,
-  "judge_raw": "5"
+    "output": 249
+  }
 }

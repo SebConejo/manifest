@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "multistep_reasoning",
   "case": 39,
-  "response": "D) an electron.",
+  "response": "D",
   "score": 5,
-  "cost": 0.00025839,
+  "cost": 0.00027753,
   "expected": "D",
   "tokens": {
     "input": 70,
-    "output": 131
+    "output": 142
   }
 }

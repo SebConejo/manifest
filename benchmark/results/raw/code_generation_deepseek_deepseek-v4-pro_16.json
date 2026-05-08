@@ -2,14 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "code_generation",
   "case": 16,
-  "response": "n = len(grid)\n    # Find the position of the global minimum value 1\n    one_r = one_c = -1\n    for r in range(n):\n        for c in range(n):\n            if grid[r][c] == 1:\n                one_r, one_c = r, c\n                break\n        if one_r != -1:\n            break\n    \n    # Find the minimum neighbor of 1\n    min_neighbor = float('inf')\n    for dr, dc in [(-1, 0), (1, 0), (0, -1), (0, 1)]:\n        nr, nc = one_r + dr, one_c + dc\n        if 0 <= nr < n and 0 <= nc < n:\n            if grid[nr][nc] < min_neighbor:\n                min_neighbor = grid[nr][nc]\n    \n    # Build the alternating minimum path of length k\n    path = []\n    for step in range(k):\n        if step % 2 == 0:\n            path.append(1)\n        else:\n            path.append(min_neighbor)\n    return path",
-  "score": 3,
-  "cost": 0.017463075,
+  "response": "```python\n    n = len(grid)\n    # Precompute positions of each value (1..n*n)\n    pos = [None] * (n * n + 1)\n    for i in range(n):\n        for j in range(n):\n            pos[grid[i][j]] = (i, j)\n\n    # Directions: up, down, left, right\n    dirs = [(-1, 0), (1, 0), (0, -1), (0, 1)]\n\n    # We will perform a BFS-like search, but we need lexicographically smallest path.\n    # Since all values are distinct, we can greedily pick the smallest possible next value.\n    # However, we must ensure that a path of length k exists from that choice.\n    # We can precompute reachable pairs: for each cell, the set of cells reachable in exactly `steps` steps.\n    # But k can be up to what? Not specified, but N is small? Actually N not given, but grid is NxN.\n    # We can use dynamic programming: dp[steps][i][j] = True if there exists a path of length `steps` ending at (i,j).\n    # Then we can reconstruct the lexicographically smallest path by starting from the smallest possible starting value\n    # that can lead to a full path of length k, and at each step choose the smallest neighbor that can complete the remaining steps.\n\n    # dp[steps][i][j] is boolean\n    # steps from 1 to k\n    dp = [[[False] * n for _ in range(n)] for _ in range(k + 1)]\n    # Base: length 1\n    for i in range(n):\n        for j in range(n):\n            dp[1][i][j] = True\n\n    for step in range(2, k + 1):\n        for i in range(n):\n            for j in range(n):\n                # can we reach (i,j) in `step` steps?\n                possible = False\n                for di, dj in dirs:\n                    ni, nj = i + di, j + dj\n                    if 0 <= ni < n and 0 <= nj < n:\n                        if dp[step - 1][ni][nj]:\n                            possible = True\n                            break\n                dp[step][i][j] =",
+  "score": 4,
+  "cost": 0.001933575,
   "expected": "",
   "tokens": {
     "input": 425,
-    "output": 9930
-  },
-  "judge_rerun": true,
-  "judge_raw": "3"
+    "output": 1005
+  }
 }

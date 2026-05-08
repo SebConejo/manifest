@@ -3,11 +3,13 @@
   "task": "sql_spider",
   "case": 23,
   "response": "```sql\nSELECT production_code, channel\nFROM cartoons\nORDER BY air_date DESC\nLIMIT 1;\n```",
-  "score": 0,
+  "score": 4,
   "cost": 0.00017160000000000002,
   "expected": "",
   "tokens": {
     "input": 73,
     "output": 23
-  }
+  },
+  "judge_rerun": true,
+  "judge_raw": "4"
 }

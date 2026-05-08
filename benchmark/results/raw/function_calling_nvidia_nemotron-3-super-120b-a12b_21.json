@@ -4,10 +4,10 @@
   "case": 21,
   "response": "{\"name\": \"deploy\", \"arguments\": {\"version\": \"2.3.1\", \"environment\": \"staging\"}}",
   "score": 5,
-  "cost": 1.377e-05,
+  "cost": 9.899999999999998e-06,
   "expected": "",
   "tokens": {
-    "input": 95,
-    "output": 58
+    "input": 83,
+    "output": 27
   }
 }

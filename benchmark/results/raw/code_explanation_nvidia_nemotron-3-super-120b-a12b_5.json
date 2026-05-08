@@ -2,14 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "code_explanation",
   "case": 5,
-  "response": "The code implements the classic **Singleton** design pattern by overriding `__new__` so that the first call creates an instance and stores it in the class variable `_instance`; subsequent calls return that same stored instance, ensuring only one object of the class is ever instantiated.",
+  "response": "The code implements the **Singleton design pattern** by overriding `__new__` to ensure that only one instance of the class is ever created: it stores the sole instance in the class attribute `_instance` and returns that existing instance on every subsequent call, creating a new one only if `_instance` is still `None`. This guarantees a single, globally shared object of type `Singleton`.",
   "score": 5,
-  "cost": 1.1789999999999999e-05,
+  "cost": 1.6919999999999997e-05,
   "expected": "",
   "tokens": {
-    "input": 76,
-    "output": 55
-  },
-  "judge_rerun": true,
-  "judge_raw": "5"
+    "input": 85,
+    "output": 103
+  }
 }

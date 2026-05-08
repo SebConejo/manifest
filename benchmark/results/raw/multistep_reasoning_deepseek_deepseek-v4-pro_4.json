@@ -4,10 +4,10 @@
   "case": 4,
   "response": "A) common forces",
   "score": 5,
-  "cost": 0.00022011,
+  "cost": 0.00023055000000000002,
   "expected": "A",
   "tokens": {
     "input": 66,
-    "output": 110
+    "output": 116
   }
 }

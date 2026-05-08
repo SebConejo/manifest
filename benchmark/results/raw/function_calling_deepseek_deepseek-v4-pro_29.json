@@ -4,10 +4,10 @@
   "case": 29,
   "response": "{\"name\": \"ocr_document\", \"arguments\": {\"path\": \"uploads/contract.pdf\"}}",
   "score": 5,
-  "cost": 0.00028362,
+  "cost": 0.00017574000000000002,
   "expected": "",
   "tokens": {
     "input": 88,
-    "output": 141
+    "output": 79
   }
 }

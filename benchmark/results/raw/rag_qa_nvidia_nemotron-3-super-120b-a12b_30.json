@@ -3,13 +3,11 @@
   "task": "rag_qa",
   "case": 30,
   "response": "Melbourne",
-  "score": 1,
-  "cost": 2.934e-05,
+  "score": 5,
+  "cost": 2.268e-05,
   "expected": "Melbourne",
   "tokens": {
-    "input": 269,
-    "output": 57
-  },
-  "judge_rerun": true,
-  "judge_raw": "1"
+    "input": 249,
+    "output": 3
+  }
 }

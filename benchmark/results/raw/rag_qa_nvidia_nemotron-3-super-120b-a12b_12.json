@@ -3,13 +3,11 @@
   "task": "rag_qa",
   "case": 12,
   "response": "J. F. D. Shrewsbury",
-  "score": 1,
-  "cost": 1.7999999999999997e-05,
+  "score": 5,
+  "cost": 2.52e-05,
   "expected": "British bacteriologist J. F. D. Shrewsbury",
   "tokens": {
-    "input": 189,
-    "output": 11
-  },
-  "judge_rerun": true,
-  "judge_raw": "1"
+    "input": 206,
+    "output": 74
+  }
 }

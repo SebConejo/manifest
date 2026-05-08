@@ -2,14 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "instruction_following",
   "case": 12,
-  "response": "Imagine you\u2019re at a restaurant. You look at the menu and decide what you want to eat. Instead of walking into the kitchen and cooking the meal yourself, you tell the waiter your order. The waiter takes your request to the kitchen, and after a while, brings back your prepared food.\n\nAn API is just like that waiter. It\u2019s a messenger that lets two separate things talk to each other. One side asks for something, the messenger delivers that request, and then brings back the result. You never need to know how the kitchen works\u2014only what you can order and what you\u2019ll get in return.",
+  "response": "An API is like a messenger that lets two different pieces of software talk to each other without needing to know how the other one works inside.\n\nImagine you\u2019re at a restaurant. You don\u2019t walk into the kitchen and cook your own meal. Instead, you tell the waiter what you want from the menu. The waiter takes your order to the kitchen, and then brings back your food. You never need to know how the kitchen is organized or how the chef prepares the dish \u2014 you just get what you asked for.\n\nAn API works the same way. One program (like a weather app on your phone) wants something from another program (like a big weather data service). The app \u201ctells\u201d the API what it needs (for example, \u201cgive me today\u2019s temperature for New York\u201d), and the API carries that request to the other system, then brings back the answer. The app doesn\u2019t have to understand the complicated inner workings of the weather service \u2014 it just uses the simple menu the API provides.\n\nSo, an API is basically a set of rules and a messenger that lets software ask for information or actions from other software in a predictable, easy way.",
   "score": 5,
-  "cost": 0.0007173149999999999,
+  "cost": 0.000863475,
   "expected": "",
   "tokens": {
     "input": 17,
-    "output": 408
-  },
-  "judge_rerun": true,
-  "judge_raw": "5"
+    "output": 492
+  }
 }

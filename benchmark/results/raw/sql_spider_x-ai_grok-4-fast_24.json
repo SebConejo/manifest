@@ -3,11 +3,13 @@
   "task": "sql_spider",
   "case": 24,
   "response": "```sql\nSELECT year\nFROM (\n  SELECT year, COUNT(*) AS concert_count\n  FROM concerts\n  GROUP BY year\n) AS subquery\nWHERE concert_count = (\n  SELECT MAX(concert_count)\n  FROM (\n    SELECT COUNT(*) AS concert_count\n    FROM concerts\n    GROUP BY year\n  ) AS max_subquery\n);\n```",
-  "score": 0,
+  "score": 4,
   "cost": 0.0009022,
   "expected": "",
   "tokens": {
     "input": 219,
     "output": 1073
-  }
+  },
+  "judge_rerun": true,
+  "judge_raw": "4"
 }

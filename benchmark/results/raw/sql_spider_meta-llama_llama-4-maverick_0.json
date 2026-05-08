@@ -3,11 +3,13 @@
   "task": "sql_spider",
   "case": 0,
   "response": "```sql\nSELECT money_rank \nFROM poker_player \nORDER BY height DESC \nLIMIT 1;\n```",
-  "score": 0,
+  "score": 3,
   "cost": 2.4149999999999997e-05,
   "expected": "",
   "tokens": {
     "input": 73,
     "output": 22
-  }
+  },
+  "judge_rerun": true,
+  "judge_raw": "3"
 }

@@ -2,14 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "test_generation_v2",
   "case": 6,
-  "response": "```python\nimport pytest\nfrom your_module import reverse_words  # replace with actual module name\n\n\nclass TestReverseWordsHappyPath:\n    \"\"\"Tests for typical usage of reverse_words.\"\"\"\n\n    @pytest.mark.parametrize(\n        \"input_str, expected\",\n        [\n            (\"hello world\", \"world hello\"),\n            (\"a b c\", \"c b a\"),\n            (\"one\", \"one\"),\n            (\"The quick brown fox\", \"fox brown quick The\"),\n            (\"123 456 789\", \"789 456 123\"),\n        ],\n    )\n    def test_basic_strings(self, input_str, expected):\n        \"\"\"Should reverse the order of words in simple strings.\"\"\"\n        assert reverse_words(input_str) == expected\n\n    @pytest.mark.parametrize(\n        \"input_str, expected\",\n        [\n            (\"  leading\", \"leading\"),\n            (\"trailing  \", \"trailing\"),\n            (\"  both  \", \"both\"),\n            (\"\\t\\ttab leading\", \"leading\"),\n            (\"tab trailing\\t\\t\", \"trailing\"),\n            (\"\\nnewline\\n\", \"newline\"),\n        ],\n    )\n    def test_whitespace_handling(self, input_str, expected):\n        \"\"\"Should ignore leading/trailing whitespace and treat any whitespace as delimiter.\"\"\"\n        assert reverse_words(input_str) == expected\n\n    @pytest.mark.parametrize(\n        \"input_str, expected\",\n        [\n            (\"hello    world\", \"world hello\"),  # multiple spaces\n            (\"hello\\tworld\", \"world hello\"),  # tab\n            (\"hello\\nworld\", \"world hello\"),  # newline\n            (\"hello \\t \\n world\", \"world hello\"),  # mixed whitespace\n        ],\n    )\n    def test_mixed_whitespace_separators(self, input_str, expected):\n        \"\"\"Should treat any combination of whitespace as a single separator.\"\"\"\n        assert reverse_words(input_str) == expected\n\n    @pytest.mark.parametrize(\n        \"input_str, expected",
+  "response": "```python\nimport pytest\n# Assuming the function is in a module named `example`; adjust import as needed.\nfrom example import reverse_words\n\n\n# ---------- Happy path tests ----------\n\ndef test_reverse_basic():\n    \"\"\"Words in a simple sentence are reversed.\"\"\"\n    assert reverse_words(\"hello world\") == \"world hello\"\n    assert reverse_words(\"one two three\") == \"three two one\"\n\n\ndef test_reverse_single_word():\n    \"\"\"Single word returns itself (stripped of surrounding whitespace).\"\"\"\n    assert reverse_words(\"hello\") == \"hello\"\n    assert reverse_words(\"  hello  \") == \"hello\"\n\n\n# ---------- Edge cases ----------\n\ndef test_reverse_empty_string():\n    \"\"\"An empty string returns an empty string.\"\"\"\n    assert reverse_words(\"\") == \"\"\n\n\ndef test_reverse_only_whitespace():\n    \"\"\"Strings containing only whitespace become empty.\"\"\"\n    assert reverse_words(\"     \") == \"\"\n    assert reverse_words(\"\\t\\t\\n\") == \"\"\n\n\ndef test_reverse_extra_whitespace():\n    \"\"\"Multiple spaces between words and leading/trailing spaces are normalized",
   "score": 4,
   "cost": 0.00176262,
   "expected": "",
   "tokens": {
     "input": 52,
     "output": 1000
-  },
-  "judge_rerun": true,
-  "judge_raw": "4"
+  }
 }

@@ -2,14 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "json_transform_v2",
   "case": 36,
-  "response": "{\"order_id\":\"ORD-001\",\"subtotal\":109.97,\"discount\":11.0,\"shipping\":5.99",
+  "response": "We need to compute subtotal = sum(qty * price) for items. Items: A1 qty2 price29.99 => 59.98. B2 qty1 price49.99 => 49.99. Subtotal = 109.97.\n\nDiscount_pct = 10% => discount = subtotal * 0.10 = 10.997. Probably round? Not specified. Keep as number maybe with two decimal? Could compute exact: 109.97 * 0.10 = 10.997. Might keep as 10.997.\n\nShipping = 5.99.\n\nTotal = subtotal - discount + shipping = 109.97 - 10.997 + 5.99 = 104.963? Let's compute: 109.97 - 10.997 = 98.973. +5.99 = 104.963.\n\nItem_count = sum of qty = 2+1=3.\n\nReturn JSON with fields: order_id string, subtotal number, discount number, shipping number, total number, item_count number.\n\nWe need to output only JSON. Probably keep numbers as floats with maybe two decimal? Not specified. Could round to two decimals typical for currency. Let's round subtotal to 2 decimals: 109.97 (already). Discount: 10.997 -> 11.00? If rounding to two decimals: 11.00. Total: 104.963 -> 104.96? Actually rounding: 104.96 (since .963 rounds to .96). But if we compute using rounded discount 11.00: subtotal 109.97 - discount 11.00 = 98.97 + shipping 5.99 = 104.96. That matches rounding total to two decimals.\n\nThus output: {\"order_id\":\"ORD-001\",\"subtotal\":109.97,\"discount\":11.0,\"shipping\":5.99,\"total",
   "score": 4,
   "cost": 5.931e-05,
   "expected": "",
   "tokens": {
     "input": 159,
     "output": 500
-  },
-  "judge_rerun": true,
-  "judge_raw": "4"
+  }
 }

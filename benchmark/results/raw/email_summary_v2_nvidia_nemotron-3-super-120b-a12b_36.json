@@ -2,8 +2,8 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "email_summary_v2",
   "case": 36,
-  "response": "",
-  "score": 0,
+  "response": "We need to summarize in exactly 2 sentences. Capture main point and any action items. So first sentence: P99 latency on /api/v2/search increased from 200ms to 800ms after Thursday's deploy due to new full-text search query not using the index. Second sentence: Action: add GIN index on content column, to be deployed tonight during maintenance window. Ensure exactly two sentences. No extra punctuation that could be considered sentence? We must ensure exactly two sentences, each ending with a period. No extra sentences. Let's craft.\n\nSentence 1: \"P99 latency on /api/v2/search rose from 200\u202fms to 800\u202fms after Thursday's deploy because the new full\u2011text search query is not using the index.\" Sentence 2: \"The fix is to add a GIN index on the content column, which will be deployed tonight during the maintenance window.\" That's two",
+  "score": 5,
   "cost": 2.799e-05,
   "expected": "",
   "tokens": {

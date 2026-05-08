@@ -2,14 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "email_summary_v2",
   "case": 33,
-  "response": "The Q1 employee engagement survey scored 7.8/10, above the industry average, with team collaboration rated highest and career growth clarity lowest. Proposed actions include implementing quarterly career conversations, an internal mobility program, and mentorship matching, with a town hall scheduled for Friday to discuss these results.",
+  "response": "The Q1 employee engagement survey scored 7.8/10, exceeding the industry average, with team collaboration ranking highest and career growth clarity lowest. The People Team proposes implementing quarterly career conversations, an internal mobility program, and mentorship matching, to be discussed at Friday's town hall.",
   "score": 5,
-  "cost": 0.0006050849999999999,
+  "cost": 0.000504165,
   "expected": "",
   "tokens": {
     "input": 111,
-    "output": 320
-  },
-  "judge_rerun": true,
-  "judge_raw": "5"
+    "output": 262
+  }
 }

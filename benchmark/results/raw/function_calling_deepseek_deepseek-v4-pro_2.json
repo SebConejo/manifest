@@ -4,10 +4,10 @@
   "case": 2,
   "response": "{\"name\": \"search_files\", \"arguments\": {\"directory\": \"src\", \"pattern\": \"*.py\", \"modified_within_days\": 7}}",
   "score": 5,
-  "cost": 0.00032625,
+  "cost": 0.00035757,
   "expected": "",
   "tokens": {
     "input": 98,
-    "output": 163
+    "output": 181
   }
 }

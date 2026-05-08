@@ -3,11 +3,13 @@
   "task": "reasoning_gsm8k",
   "case": 12,
   "response": "To solve this problem, let's break it down step by step:\n\n1. Jim spends 2 hours watching TV.\n2. Jim then reads for half as long as he watches TV. So, he reads for 2 / 2 = 1 hour.\n3. In one session, Jim spends 2 hours (TV) + 1 hour (reading) = 3 hours.\n4. Jim does this 3 times a week. So, in one week, Jim spends 3 hours * 3 = 9 hours.\n5. We need to find out how many hours Jim spends over 4 weeks. So, 9 hours/week * 4 weeks = 36 hours.\n\nThus, the total number of hours Jim spends on TV and reading in 4 weeks is 36.\n\nANSWER: 36",
-  "score": 0,
+  "score": 5,
   "cost": 0.000806,
   "expected": "36",
   "tokens": {
     "input": 91,
     "output": 171
-  }
+  },
+  "judge_rerun": true,
+  "judge_raw": "5"
 }

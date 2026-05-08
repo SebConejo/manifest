@@ -2,14 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "structured_output",
   "case": 34,
-  "response": "{\"student_id\": \"20240156\", \"course_code\": \"CS301\", \"course_name\": \"Algorithms\", \"score\": 87, \"max_score\": 100, \"grade\": \"A-\", \"semester\": \"Fall 2024\", \"instructor\": \"Prof. Williams\"}",
+  "response": "{\n  \"student_id\": \"20240156\",\n  \"course_code\": \"CS301\",\n  \"course_name\": \"Algorithms\",\n  \"score\": 87,\n  \"max_score\": 100,\n  \"grade\": \"A-\",\n  \"semester\": \"Fall 2024\",\n  \"instructor\": \"Prof. Williams\"\n}",
   "score": 5,
-  "cost": 0.0005568,
+  "cost": 0.00049068,
   "expected": "",
   "tokens": {
     "input": 112,
-    "output": 292
-  },
-  "judge_rerun": true,
-  "judge_raw": "5"
+    "output": 254
+  }
 }

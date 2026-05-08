@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "sql_spider",
   "case": 28,
-  "response": "```sql\nSELECT nationality \nFROM poker_player \nGROUP BY nationality \nHAVING COUNT(*) >= 2;\n```",
-  "score": 0,
-  "cost": 0.00037453499999999995,
+  "response": "```sql\nSELECT nationality\nFROM poker_player\nGROUP BY nationality\nHAVING COUNT(*) >= 2;\n```",
+  "score": 5,
+  "cost": 0.00027883499999999996,
   "expected": "",
   "tokens": {
     "input": 69,
-    "output": 198
+    "output": 143
   }
 }

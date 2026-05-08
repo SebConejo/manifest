@@ -2,14 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "code_explanation",
   "case": 42,
-  "response": "The class implements a bounded asynchronous FIFO queue: `put` waits (by storing a future in `_putters`) until there is space, then appends the item and wakes the first waiting getter; `get` waits (by storing a future in `_getters`) until an item is available, then removes and returns it, waking the first waiting putter if the queue has a size limit. This pattern uses two deques of `asyncio.Future` objects to coordinate producers and consumers without busy\u2011waiting.",
+  "response": "The `AsyncQueue` class implements a bounded, asynchronous FIFO queue: it stores items in a `collections.deque` and uses two additional deques (`_getters` and `_putters`) to hold `asyncio.Future` objects that represent coroutines waiting to `get` an item or `put` an item, respectively. When `put` finds the queue full, it creates a future, appends it to `_putters`, and awaits it; when an item is later taken, it resolves the oldest pending putter future (if any). Symmet",
   "score": 5,
-  "cost": 2.8529999999999996e-05,
+  "cost": 3.852e-05,
   "expected": "",
   "tokens": {
-    "input": 213,
-    "output": 104
-  },
-  "judge_rerun": true,
-  "judge_raw": "5"
+    "input": 228,
+    "output": 200
+  }
 }

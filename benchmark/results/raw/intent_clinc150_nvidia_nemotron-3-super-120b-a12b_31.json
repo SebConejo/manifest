@@ -2,7 +2,7 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "intent_clinc150",
   "case": 31,
-  "response": "",
+  "response": "We need to classify the user message: \"would you be able to freeze my bank account\". The",
   "score": 0,
   "cost": 5.319e-05,
   "expected": "freeze_account",

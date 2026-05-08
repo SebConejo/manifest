@@ -3,11 +3,13 @@
   "task": "extraction_hard_v2",
   "case": 23,
   "response": "{\n  \"severity\": \"critical\",\n  \"component\": \"checkout page\",\n  \"summary\": \"Checkout page is completely broken after payment submission\",\n  \"steps_to_reproduce\": [\n    \"Add items to cart\",\n    \"Navigate to checkout\",\n    \"Enter card information\",\n    \"Click pay button\"\n  ],\n  \"expected_behavior\": \"Payment processes successfully and user is redirected to confirmation page\",\n  \"actual_behavior\": \"Loading spinner appears for 30 seconds, followed by a blank white screen with no error message. Console logs a CORS error and 'undefined is not a function' in checkout.bundle.js:847.\",\n  \"environment\": {\n    \"os\": \"Windows 11\",\n    \"browser\": \"Chrome 121\"\n  }\n}",
-  "score": 0,
+  "score": 5,
   "cost": 0.0023025,
   "expected": "",
   "tokens": {
     "input": 174,
     "output": 2259
-  }
+  },
+  "judge_rerun": true,
+  "judge_raw": "5"
 }

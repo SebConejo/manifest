@@ -3,11 +3,13 @@
   "task": "sql_spider",
   "case": 18,
   "response": "```sql\nSELECT DISTINCT country\nFROM singers\nWHERE age > 40\nINTERSECT\nSELECT DISTINCT country\nFROM singers\nWHERE age < 30;\n```",
-  "score": 0,
+  "score": 2,
   "cost": 0.0002638,
   "expected": "",
   "tokens": {
     "input": 227,
     "output": 273
-  }
+  },
+  "judge_rerun": true,
+  "judge_raw": "2"
 }

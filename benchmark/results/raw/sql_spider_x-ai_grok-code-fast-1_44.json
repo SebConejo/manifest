@@ -3,11 +3,13 @@
   "task": "sql_spider",
   "case": 44,
   "response": "SELECT departure_airport\nFROM flights\nGROUP BY departure_airport\nORDER BY COUNT(*) ASC\nLIMIT 1;",
-  "score": 0,
+  "score": 4,
   "cost": 0.00047440000000000004,
   "expected": "",
   "tokens": {
     "input": 268,
     "output": 526
-  }
+  },
+  "judge_rerun": true,
+  "judge_raw": "4"
 }

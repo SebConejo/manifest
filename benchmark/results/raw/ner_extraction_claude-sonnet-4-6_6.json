@@ -3,11 +3,13 @@
   "task": "ner_extraction",
   "case": 6,
   "response": "```json\n{\n  \"persons\": [],\n  \"organizations\": [\"Amazon\"],\n  \"locations\": [\"Nashville\", \"Davidson County\"]\n}\n```",
-  "score": 0,
+  "score": 4,
   "cost": 0.000786,
   "expected": "",
   "tokens": {
     "input": 77,
     "output": 37
-  }
+  },
+  "judge_rerun": true,
+  "judge_raw": "4"
 }

@@ -2,8 +2,8 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "long_summarization",
   "case": 30,
-  "response": "",
-  "score": 0,
+  "response": "The global food system faces immense strain from a projected population of 9.7 billion by 2050, requiring a 60% increase in production, while climate change and agriculture itself\u2014responsible for roughly 25% of greenhouse gas emissions\u2014undercut crop yields. Critical resources are deteriorating, with water reserves like the Ogallala Aquifer depleting rapidly and 33% of arable land degraded by intensive farming, all compounded by one-third of all food being",
+  "score": 4,
   "cost": 0.00064815,
   "expected": "",
   "tokens": {

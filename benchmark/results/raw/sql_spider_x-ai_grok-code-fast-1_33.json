@@ -3,11 +3,13 @@
   "task": "sql_spider",
   "case": 33,
   "response": "SELECT title, rating\nFROM tv_series\nORDER BY rating DESC\nLIMIT 3;",
-  "score": 0,
+  "score": 5,
   "cost": 0.0006102000000000001,
   "expected": "",
   "tokens": {
     "input": 275,
     "output": 694
-  }
+  },
+  "judge_rerun": true,
+  "judge_raw": "5"
 }

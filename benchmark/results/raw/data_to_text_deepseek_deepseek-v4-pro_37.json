@@ -2,14 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "data_to_text",
   "case": 37,
-  "response": "Christopher Nolan's 2023 historical drama *Oppenheimer* runs for 180 minutes and was produced on a $",
-  "score": 2,
-  "cost": 0.000562455,
+  "response": "Christopher Nolan's 2023 historical drama *Oppenheimer*, with a three-hour runtime and a $100 million budget, became a critical and commercial triumph, earning $952 million at the box office. The film holds an 8.3 IMDb rating and a 93% Rotten Tomatoes score, and it won the Academy Award for Best Picture.",
+  "score": 5,
+  "cost": 0.000687735,
   "expected": "",
   "tokens": {
     "input": 93,
-    "output": 300
-  },
-  "judge_rerun": true,
-  "judge_raw": "2"
+    "output": 372
+  }
 }

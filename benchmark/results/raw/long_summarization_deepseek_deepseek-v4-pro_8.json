@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "long_summarization",
   "case": 8,
-  "response": "",
-  "score": 0,
-  "cost": 0.0,
+  "response": "The evolution of AI from Turing's theoretical question to today's transformer revolution has been marked by cycles of optimism and stagnation, including the AI winters of the 1970s and 1980",
+  "score": 4,
+  "cost": 0.00058377,
   "expected": "",
   "tokens": {
-    "input": 0,
-    "output": 0
+    "input": 142,
+    "output": 300
   }
 }

@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "code_generation",
   "case": 8,
-  "response": "",
-  "score": 0,
-  "cost": 0.0009583049999999999,
+  "response": "```python\nreturn [x for x in values if type(x) is int]\n```",
+  "score": 5,
+  "cost": 0.0006194400000000001,
   "expected": "",
   "tokens": {
-    "input": 203,
-    "output": 500
+    "input": 124,
+    "output": 325
   }
 }

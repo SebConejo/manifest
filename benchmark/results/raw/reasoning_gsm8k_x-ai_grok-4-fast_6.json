@@ -3,11 +3,13 @@
   "task": "reasoning_gsm8k",
   "case": 6,
   "response": "Ann is currently 9 years old.  \nHer brother is twice her age, so he is currently 2 \u00d7 9 = 18 years old.  \nIn 3 years, her brother will be 18 + 3 = 21 years old.  \n\nANSWER: 21",
-  "score": 0,
+  "score": 5,
   "cost": 0.00018480000000000002,
   "expected": "21",
   "tokens": {
     "input": 216,
     "output": 177
-  }
+  },
+  "judge_rerun": true,
+  "judge_raw": "5"
 }

@@ -3,11 +3,13 @@
   "task": "sql_spider",
   "case": 36,
   "response": "SELECT s.student_name\nFROM students s\nJOIN (\n    SELECT student_id, COUNT(*) AS like_count\n    FROM likes\n    GROUP BY student_id\n) AS like_counts ON s.student_id = like_counts.student_id\nWHERE like_counts.like_count = (\n    SELECT MAX(like_count)\n    FROM (\n        SELECT COUNT(*) AS like_count\n        FROM likes\n        GROUP BY student_id\n    ) AS subquery\n);",
-  "score": 0,
+  "score": 5,
   "cost": 0.000582,
   "expected": "",
   "tokens": {
     "input": 116,
     "output": 1426
-  }
+  },
+  "judge_rerun": true,
+  "judge_raw": "5"
 }

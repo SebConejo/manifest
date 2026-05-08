@@ -2,8 +2,8 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "email_summary_v2",
   "case": 19,
-  "response": "",
-  "score": 0,
+  "response": "We need to summarize in exactly 2 sentences, capturing main point and any action items. The email: Datadog contract expires June 30, current $180K/year, they offered 3-year at $155K/year (14% discount). Alternative: Grafana Cloud at $95K/year but requires 3 months migration. Finance needs a decision by May 15. So main point: need to decide between renewing Datadog at discounted rate or switching to Grafana Cloud with migration effort, decision due May 15. Action items: evaluate options, make decision by May 15, possibly initiate migration if choose Grafana. Two sentences.\n\nLet's craft: \"The Datadog contract expires June\u202f30, with a renewal offer of $155K/year for three years (a 14% discount) versus a lower\u2011cost Grafana Cloud option at $95K/",
+  "score": 4,
   "cost": 2.907e-05,
   "expected": "",
   "tokens": {

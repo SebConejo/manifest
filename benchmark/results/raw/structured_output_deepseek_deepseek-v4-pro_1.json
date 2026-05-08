@@ -2,14 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "structured_output",
   "case": 1,
-  "response": "{\n  \"title\": \"Q4 Planning\",\n  \"date\": \"Dec 15 2024\",\n  \"time\": \"2pm\",\n  \"attendees\": [\"Alice\", \"Bob\", \"Charlie\"],\n  \"room\": \"301B\"\n}",
+  "response": "{\"title\": \"Q4 Planning\", \"date\": \"Dec 15 2024\", \"time\": \"2pm\", \"attendees\": [\"Alice\", \"Bob\", \"Charlie\"], \"room\": \"301B\"}",
   "score": 5,
-  "cost": 0.0006873,
+  "cost": 0.000522,
   "expected": "",
   "tokens": {
     "input": 84,
-    "output": 374
-  },
-  "judge_rerun": true,
-  "judge_raw": "5"
+    "output": 279
+  }
 }

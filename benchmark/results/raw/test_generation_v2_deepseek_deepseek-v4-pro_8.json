@@ -2,14 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "test_generation_v2",
   "case": 8,
-  "response": "```python\nimport pytest\nfrom your_module import binary_search  # Replace with the actual module name\n\nclass TestBinarySearch:\n    # ---------- Happy Path ----------\n    def test_target_found_at_beginning(self):\n        assert binary_search([1, 2, 3, 4, 5], 1) == 0\n\n    def test_target_found_at_end(self):\n        assert binary_search([1, 2, 3, 4, 5], 5) == 4\n\n    def test_target_found_in_middle(self):\n        assert binary_search([10, 20, 30, 40, 50], 30) == 2\n\n    def test_target_not_found_smaller_than_all(self):\n        assert binary_search([10, 20, 30], 5) == -1\n\n    def test_target_not_found_larger_than_all(self):\n        assert binary_search([10, 20, 30], 99) == -1\n\n    def test_target_not_found_in_between(self):\n        assert binary_search([10, 20, 30], 25) == -1\n\n    # ---------- Edge Cases ----------\n    def test_empty",
-  "score": 3,
+  "response": "```python\nimport pytest\nfrom your_module import binary_search  # Replace with actual module name\n\n# Happy Path Tests\nclass TestBinarySearchHappyPath:\n    def test_target_found_in_middle(self):\n        arr = [1, 2, 3, 4, 5]\n        assert binary_search(arr, 3) == 2\n\n    def test_target_found_at_start(self):\n        arr = [1, 2, 3, 4, 5]\n        assert binary_search(arr, 1) == 0\n\n    def test_target_found_at_end(self):\n        arr = [1, 2, 3, 4, 5]\n        assert binary_search(arr, 5) == 4\n\n    def test_target_not_present(self):\n        arr = [1, 2, 3, 4, 5]\n        assert binary_search(arr, 6) == -1\n\n    def test_single_element_found(self):\n        arr = [42]\n        assert binary_search(arr, 42) == 0\n\n    def test_single_element_not_found(self):\n        arr = [42]\n        assert binary_search(arr, 7) == -1\n\n    def test_two_elements_found_first(self):\n        arr = [10, 20]\n        assert binary_search(arr, 10) == 0\n\n    def test_two_elements_found_second(self):\n        arr = [10, 20]\n        assert binary_search(arr, 20) == 1\n\n    def test_two_elements_not_found(self):\n        arr = [10, 20]\n        assert binary_search(arr, 15) == -1\n\n    def test_negative_numbers(self):\n        arr = [-5, -3, 0, 2, 4]\n        assert binary_search(arr, -3) == 1\n        assert binary_search(arr, -5) == 0\n        assert binary_search(arr, -1) == -1\n\n    def test_duplicates(self):\n        arr = [1, 2, 2, 2, 3]\n        # Should return one of the valid indices for 2\n        index = binary_search(arr, 2)\n        assert index in [1, 2, 3]\n\n    def test_large_list(self):\n        arr = list(range(10000))\n        assert binary_search(arr, 9999) == 9999\n        assert binary_search(arr, 5000) == 5000\n        assert binary_search(arr, 10000) == -1",
+  "score": 5,
   "cost": 0.00179307,
   "expected": "",
   "tokens": {
     "input": 122,
     "output": 1000
-  },
-  "judge_rerun": true,
-  "judge_raw": "3"
+  }
 }

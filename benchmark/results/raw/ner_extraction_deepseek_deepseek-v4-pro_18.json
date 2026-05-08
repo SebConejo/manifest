@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "ner_extraction",
   "case": 18,
-  "response": "{\"persons\": [\"Sarah Chen\"], \"organizations\": [\"MIT\", \"Science\"], \"locations\": []}",
+  "response": "{\n  \"persons\": [\"Sarah Chen\"],\n  \"organizations\": [\"MIT\", \"Science magazine\"],\n  \"locations\": []\n}",
   "score": 4,
-  "cost": 0.00043847999999999994,
+  "cost": 0.00038976,
   "expected": "",
   "tokens": {
     "input": 68,
-    "output": 235
+    "output": 207
   }
 }

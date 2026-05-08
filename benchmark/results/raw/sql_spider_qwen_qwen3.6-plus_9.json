@@ -3,11 +3,13 @@
   "task": "sql_spider",
   "case": 9,
   "response": "SELECT Country FROM car_makers GROUP BY Country ORDER BY count(Country) DESC LIMIT 1",
-  "score": 0,
+  "score": 4,
   "cost": 0.0027196,
   "expected": "",
   "tokens": {
     "input": 80,
     "output": 2072
-  }
+  },
+  "judge_rerun": true,
+  "judge_raw": "4"
 }

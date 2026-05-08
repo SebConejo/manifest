@@ -2,14 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "code_generation",
   "case": 25,
-  "response": "```python\n    groups = []\n    current_group = []\n    balance = 0\n    for char in paren_string:\n        if char == ' ':\n            continue\n        if char == '(':\n            balance += 1\n            current_group.append(char)\n        elif char == ')':\n            balance -= 1\n            current_group.append(char)\n            if balance == 0:\n                groups.append(''.join(current_group))\n                current_group = []\n    return groups\n```",
-  "score": 3,
-  "cost": 0.00072819,
+  "response": "```python\n    groups = []\n    current = []\n    balance = 0\n    for char in paren_string:\n        if char == ' ':\n            continue\n        if char == '(':\n            balance += 1\n            current.append(char)\n        elif char == ')':\n            balance -= 1\n            current.append(char)\n            if balance == 0:\n                groups.append(''.join(current))\n                current = []\n    return groups\n```",
+  "score": 4,
+  "cost": 0.00075951,
   "expected": "",
   "tokens": {
     "input": 150,
-    "output": 381
-  },
-  "judge_rerun": true,
-  "judge_raw": "3"
+    "output": 399
+  }
 }

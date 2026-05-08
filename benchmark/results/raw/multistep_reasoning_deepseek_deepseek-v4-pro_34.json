@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "multistep_reasoning",
   "case": 34,
-  "response": "",
+  "response": "C) homozygous recessive",
   "score": 0,
-  "cost": 0.000920025,
+  "cost": 0.001570785,
   "expected": "B",
   "tokens": {
     "input": 115,
-    "output": 500
+    "output": 874
   }
 }

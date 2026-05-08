@@ -3,11 +3,13 @@
   "task": "rag_qa",
   "case": 13,
   "response": "the Victorian Government",
-  "score": 0,
+  "score": 1,
   "cost": 4.0575000000000004e-05,
   "expected": "Victorian Government",
   "tokens": {
     "input": 237,
     "output": 76
-  }
+  },
+  "judge_rerun": true,
+  "judge_raw": "1"
 }

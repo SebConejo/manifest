@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "reasoning_gsm8k",
   "case": 22,
-  "response": "Rafaela received tips from 40 customers, each giving $20, so her total tips are 40 \u00d7 $20 = $800.  \nJulieta received 10% less than Rafaela, which is $800 \u2212 (0.10 \u00d7 $800) = $800 \u2212 $80 = $720.  \nTogether, they received $800 + $720 = $1520.\n\nANSWER: 1520",
-  "score": 0,
-  "cost": 0.0005124299999999999,
+  "response": "Rafaela received tips from 40 customers, each giving $20:  \n40 \u00d7 20 = $800.  \n\nJulieta received 10% less than Rafaela:  \n10% of $800 is $80, so Julieta received 800 \u2013 80 = $720.  \n\nTogether, they received:  \n800 + 720 = $1520.  \n\nANSWER: 1520",
+  "score": 4,
+  "cost": 0.0006011699999999999,
   "expected": "1520",
   "tokens": {
     "input": 90,
-    "output": 272
+    "output": 323
   }
 }

@@ -2,14 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "long_summarization",
   "case": 20,
-  "response": "The internet began as a U.S. Defense Department project called ARPANET, which sent its first message in 1969. Key milestones\u2014the TCP/IP protocols (1983), Tim Berners-Lee\u2019s World Wide Web (1989), and the Mosaic browser (1993)\u2014opened the network to the public, fueling the dot-com boom, the rise of social media, and mobile internet after the iPhone\u2019s 2007 launch. Today, it connects over 5 billion people and underpins nearly all commerce, communication, and entertainment.",
+  "response": "The internet originated in the 1960s with ARPANET, first demonstrated in 1969, and adopted the foundational TCP/IP protocols in 1983. Tim Berners-Lee created the World Wide Web in 1989, and the 1993 Mosaic browser brought it to the public, fueling the dot-com boom and subsequent 2001 crash that left survivors like Amazon and Google. The mid-2000s rise of social media and the 2007 iPhone launch made the internet mobile and ubiquitous, while cloud computing emerged as a major force. Today, it connects over 5 billion people and underpins nearly every facet of modern life.",
   "score": 5,
-  "cost": 0.0010566150000000001,
+  "cost": 0.000755595,
   "expected": "",
   "tokens": {
     "input": 309,
-    "output": 530
-  },
-  "judge_rerun": true,
-  "judge_raw": "5"
+    "output": 357
+  }
 }

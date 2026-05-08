@@ -3,11 +3,13 @@
   "task": "rag_qa",
   "case": 13,
   "response": "Victorian Government",
-  "score": 0,
+  "score": 1,
   "cost": 0.00061425,
   "expected": "Victorian Government",
   "tokens": {
     "input": 165,
     "output": 573
-  }
+  },
+  "judge_rerun": true,
+  "judge_raw": "1"
 }

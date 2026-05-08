@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "code_generation",
   "case": 2,
-  "response": "",
-  "score": 0,
-  "cost": 5.994e-05,
+  "response": "sorted_lst = sorted(lst)\n    result = []\n    i, j = 0, len(sorted_lst) - 1\n    while i <= j:\n        result.append(sorted_lst[i])\n        i += 1\n        if i <= j:\n            result.append(sorted_lst[j])\n            j -= 1\n    return result",
+  "score": 4,
+  "cost": 5.661e-05,
   "expected": "",
   "tokens": {
     "input": 166,
-    "output": 500
+    "output": 463
   }
 }

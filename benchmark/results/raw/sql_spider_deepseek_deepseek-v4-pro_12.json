@@ -2,8 +2,8 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "sql_spider",
   "case": 12,
-  "response": "",
-  "score": 0,
+  "response": "SELECT p.id, p.role, p.first_name\nFROM professionals p\nJOIN treatments t ON p.id = t.professional",
+  "score": 3,
   "cost": 0.000556365,
   "expected": "",
   "tokens": {

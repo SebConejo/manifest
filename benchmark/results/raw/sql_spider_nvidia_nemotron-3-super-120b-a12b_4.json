@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "sql_spider",
   "case": 4,
-  "response": "SELECT SUM(bonus) AS total_bonus FROM evaluation;",
+  "response": "SELECT SUM(bonus) AS total_bonus FROM evaluations;",
   "score": 5,
-  "cost": 7.38e-06,
+  "cost": 2.1689999999999997e-05,
   "expected": "",
   "tokens": {
-    "input": 70,
-    "output": 12
+    "input": 80,
+    "output": 161
   }
 }

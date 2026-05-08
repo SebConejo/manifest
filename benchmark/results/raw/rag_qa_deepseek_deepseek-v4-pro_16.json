@@ -3,13 +3,11 @@
   "task": "rag_qa",
   "case": 16,
   "response": "Approximately fifty percent more.",
-  "score": 4,
-  "cost": 0.00021140999999999998,
+  "score": 5,
+  "cost": 0.00019053,
   "expected": "approximately fifty percent",
   "tokens": {
     "input": 214,
-    "output": 68
-  },
-  "judge_rerun": true,
-  "judge_raw": "4"
+    "output": 56
+  }
 }

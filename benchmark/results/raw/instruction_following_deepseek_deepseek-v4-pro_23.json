@@ -2,14 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "instruction_following",
   "case": 23,
-  "response": "apple; banana; cherry; date; elderberry",
+  "response": "Apple; Banana; Cherry; Date; Elderberry",
   "score": 5,
-  "cost": 0.00016791000000000004,
+  "cost": 0.00018009,
   "expected": "",
   "tokens": {
     "input": 18,
-    "output": 92
-  },
-  "judge_rerun": true,
-  "judge_raw": "5"
+    "output": 99
+  }
 }

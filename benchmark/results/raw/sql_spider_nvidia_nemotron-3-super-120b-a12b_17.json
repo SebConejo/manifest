@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "sql_spider",
   "case": 17,
-  "response": "SELECT s.name\nFROM stadium s\nLEFT JOIN concert c\n  ON s.stadium_id = c.stadium_id\n  AND EXTRACT(YEAR FROM c.date) = 2014\nWHERE c.concert_id IS NULL;",
+  "response": "SELECT s.name\nFROM stadiums s\nLEFT JOIN concerts c\n  ON s.stadium_id = c.stadium_id\n  AND c.year = 2014\nWHERE c.concert_id IS NULL;",
   "score": 5,
-  "cost": 2.7089999999999996e-05,
+  "cost": 2.889e-05,
   "expected": "",
   "tokens": {
     "input": 90,
-    "output": 211
+    "output": 231
   }
 }

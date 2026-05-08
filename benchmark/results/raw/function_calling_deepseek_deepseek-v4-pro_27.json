@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "function_calling",
   "case": 27,
-  "response": "",
+  "response": "{\"name\": \"convert_currency\", \"arguments\": {\"amount\": 500.0, \"from_currency\": \"EUR\", \"to_currency\": \"JPY\"}}",
   "score": 5,
-  "cost": 0.0005676749999999999,
+  "cost": 0.00039715500000000006,
   "expected": "",
   "tokens": {
     "input": 105,
-    "output": 300
+    "output": 202
   }
 }

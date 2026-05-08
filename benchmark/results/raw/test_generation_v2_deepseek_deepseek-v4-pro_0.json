@@ -2,14 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "test_generation_v2",
   "case": 0,
-  "response": "```python",
-  "score": 1,
+  "response": "```python\nimport pytest\nfrom your_module import add  # Replace 'your_module' with the actual module name\n\n\nclass TestAddFunction:\n    \"\"\"Unit tests for the add function.\"\"\"\n\n    # ---------- Happy Path ----------\n    @pytest.mark.parametrize(\n        \"a, b, expected\",\n        [\n            (2, 3, 5),\n            (10, 20, 30),\n            (0, 5, 5),\n            (7, 0, 7),\n            (-3, 8, 5),\n            (100, -50, 50),\n        ],\n    )\n    def test_add_positive_and_negative_integers(self, a, b, expected):\n        \"\"\"Adding various valid integers should return the correct sum.\"\"\"\n        assert add(a, b) == expected\n\n    # ---------- Edge Cases ----------\n    @pytest.mark.parametrize(\n        \"a, b, expected\",\n        [\n            (0, 0, 0),                     # both zero\n            (-1, 1, 0),                    # inverse cancellation\n            (-5, -5, -10),                 # both negative\n            (10**6, 10**6, 2 * 10**6),     # large positive numbers\n            (-10**6, -10**6, -2 * 10**6),  # large negative numbers\n            (10**18, 1, 10**18 + 1),       # very large integer (arbitrary precision)\n        ],\n    )\n    def test_add_edge_cases(self, a, b, expected):\n        \"\"\"Edge cases including zero, negatives, and large integers.\"\"\"\n        assert add(a, b) == expected\n\n    # ---------- Error Cases ----------\n    @pytest.mark.parametrize(\n        \"a, b\",\n        [\n            (1, \"2\"),          # int + str\n            (\"1\", 2),          # str + int\n            (None, 1),         # None + int\n            (1, [1]),          # int + list\n            ({}, 1),           # dict + int\n        ],\n    )\n    def test_add_invalid_types_raises_type_error(self, a, b):\n        \"\"\"Passing incompatible types should raise a TypeError.\"\"\"\n        with pytest.raises",
+  "score": 4,
   "cost": 0.00176175,
   "expected": "",
   "tokens": {
     "input": 50,
     "output": 1000
-  },
-  "judge_rerun": true,
-  "judge_raw": "1"
+  }
 }

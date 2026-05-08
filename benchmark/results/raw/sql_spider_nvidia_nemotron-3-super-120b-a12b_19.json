@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "sql_spider",
   "case": 19,
-  "response": "SELECT DISTINCT m.name\nFROM makers m\nJOIN cars c ON m.id = c.maker_id\nWHERE c.year = 1970;",
+  "response": "SELECT DISTINCT m.name\nFROM makers m\nJOIN cars c ON m.maker_id = c.maker_id\nWHERE c.year = 1970;",
   "score": 5,
-  "cost": 9.719999999999998e-06,
+  "cost": 3.429e-05,
   "expected": "",
   "tokens": {
-    "input": 78,
-    "output": 30
+    "input": 89,
+    "output": 292
   }
 }

@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "code_generation",
   "case": 20,
-  "response": "",
-  "score": 0,
-  "cost": 0.0009282899999999999,
+  "response": "val = [\n        1000, 900, 500, 400,\n        100, 90, 50, 40,\n        10, 9, 5, 4,\n        1\n    ]\n    syms = [\n        \"m\", \"cm\", \"d\", \"cd\",\n        \"c\", \"xc\", \"l\", \"xl\",\n        \"x\", \"ix\", \"v\", \"iv\",\n        \"i\"\n    ]\n    roman = ''\n    for i in range(len(val)):\n        while number >= val[i]:\n            roman += syms[i]\n            number -= val[i]\n    return roman",
+  "score": 5,
+  "cost": 0.00116493,
   "expected": "",
   "tokens": {
     "input": 134,
-    "output": 500
+    "output": 636
   }
 }

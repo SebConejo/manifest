@@ -2,8 +2,8 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "email_summary_v2",
   "case": 9,
-  "response": "",
-  "score": 0,
+  "response": "The nightly ETL job failed at",
+  "score": 2,
   "cost": 2.745e-05,
   "expected": "",
   "tokens": {

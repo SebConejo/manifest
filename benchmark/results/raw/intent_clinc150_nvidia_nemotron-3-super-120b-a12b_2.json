@@ -2,7 +2,7 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "intent_clinc150",
   "case": 2,
-  "response": "",
+  "response": "We need to map the user message to one of the intents. The message: \"what is",
   "score": 0,
   "cost": 5.327999999999999e-05,
   "expected": "report_lost_card",

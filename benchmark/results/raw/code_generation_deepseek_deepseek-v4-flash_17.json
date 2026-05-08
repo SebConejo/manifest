@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-flash",
   "task": "code_generation",
   "case": 17,
-  "response": "if not text:\n        return None\n    import hashlib\n    return hashlib.md5(text.encode()).hexdigest()",
+  "response": "import hashlib\nif not text:\n    return None\nreturn hashlib.md5(text.encode()).hexdigest()",
   "score": 5,
-  "cost": 0.00025578,
+  "cost": 3.01e-05,
   "expected": "",
   "tokens": {
     "input": 107,
-    "output": 430
+    "output": 27
   }
 }

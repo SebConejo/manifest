@@ -2,14 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "code_generation",
   "case": 38,
-  "response": "neg = [x for x in lst if x < 0]\n    pos = [x for x in lst if x > 0]\n    return (max(neg) if neg else None, min(pos) if pos else None)",
+  "response": "neg_max = None\n    pos_min = None\n    for x in lst:\n        if x < 0:\n            if neg_max is None or x > neg_max:\n                neg_max = x\n        elif x > 0:\n            if pos_min is None or x < pos_min:\n                pos_min = x\n    return (neg_max, pos_min)",
   "score": 4,
-  "cost": 0.000599865,
+  "cost": 0.000744285,
   "expected": "",
   "tokens": {
     "input": 175,
-    "output": 301
-  },
-  "judge_rerun": true,
-  "judge_raw": "4"
+    "output": 384
+  }
 }

@@ -3,11 +3,13 @@
   "task": "sql_spider",
   "case": 6,
   "response": "SELECT DISTINCT airline FROM flights WHERE destination_airport = 'AHD';",
-  "score": 0,
+  "score": 5,
   "cost": 0.000224,
   "expected": "",
   "tokens": {
     "input": 268,
     "output": 213
-  }
+  },
+  "judge_rerun": true,
+  "judge_raw": "5"
 }

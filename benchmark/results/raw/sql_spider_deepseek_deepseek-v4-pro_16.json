@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "sql_spider",
   "case": 16,
-  "response": "```sql\nSELECT COUNT(DISTINCT country_code) FROM players;\n```",
+  "response": "```sql\nSELECT COUNT(DISTINCT country_code) AS distinct_country_codes\nFROM players;\n```",
   "score": 5,
-  "cost": 0.000221415,
+  "cost": 0.000280575,
   "expected": "",
   "tokens": {
     "input": 69,
-    "output": 110
+    "output": 144
   }
 }

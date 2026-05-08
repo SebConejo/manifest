@@ -3,11 +3,13 @@
   "task": "sql_spider",
   "case": 38,
   "response": "```sql\nSELECT c.Name, COUNT(cl.Language) AS num_languages\nFROM country c\nJOIN countrylanguages cl ON c.Code = cl.CountryCode\nGROUP BY c.Code, c.Name\nHAVING COUNT(cl.Language) > 2\nORDER BY num_languages DESC;\n```",
-  "score": 0,
+  "score": 4,
   "cost": 0.0007376,
   "expected": "",
   "tokens": {
     "input": 232,
     "output": 864
-  }
+  },
+  "judge_rerun": true,
+  "judge_raw": "4"
 }

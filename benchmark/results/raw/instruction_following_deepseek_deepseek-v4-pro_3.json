@@ -2,14 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "instruction_following",
   "case": 3,
-  "response": "FRANCE\nGERMANY\nITALY\nSPAIN\nUNITED KINGDOM",
-  "score": 1,
-  "cost": 0.000176175,
+  "response": "FRANCE, GERMANY, ITALY, SPAIN, POLAND",
+  "score": 5,
+  "cost": 0.00024534,
   "expected": "",
   "tokens": {
-    "input": 17,
-    "output": 97
-  },
-  "judge_rerun": true,
-  "judge_raw": "1"
+    "input": 96,
+    "output": 117
+  }
 }

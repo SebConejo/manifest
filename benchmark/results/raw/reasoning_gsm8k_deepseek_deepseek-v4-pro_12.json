@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "reasoning_gsm8k",
   "case": 12,
-  "response": "Jim spends 2 hours watching TV each time. He reads for half as long, which is 1 hour. So each session totals 3 hours. He does this 3 times a week, giving 9 hours per week. Over 4 weeks, the total is 36 hours.\n\nANSWER: 36",
-  "score": 0,
-  "cost": 0.000421515,
+  "response": "Each time Jim follows his routine, he watches TV for 2 hours and reads for half that time, which is 1 hour. That totals \\(2 + 1 = 3\\) hours per session. He does this 3 times a week, so per week he spends \\(3 \\times 3 = 9\\) hours. Over 4 weeks, the total time is \\(9 \\times 4 = 36\\) hours.\n\nANSWER: 36",
+  "score": 4,
+  "cost": 0.000491115,
   "expected": "36",
   "tokens": {
     "input": 85,
-    "output": 221
+    "output": 261
   }
 }

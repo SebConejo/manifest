@@ -3,11 +3,13 @@
   "task": "sql_spider",
   "case": 7,
   "response": "SELECT COUNT(*) FROM cars WHERE manufacture_year = 1980;",
-  "score": 0,
+  "score": 5,
   "cost": 0.0002542,
   "expected": "",
   "tokens": {
     "input": 118,
     "output": 606
-  }
+  },
+  "judge_rerun": true,
+  "judge_raw": "5"
 }

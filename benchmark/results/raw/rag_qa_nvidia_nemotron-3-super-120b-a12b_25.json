@@ -2,14 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "rag_qa",
   "case": 25,
-  "response": "infrastructure",
-  "score": 1,
-  "cost": 1.476e-05,
+  "response": "Infrastructure in Warsaw suffered considerably during its time as an Eastern Bloc economy.",
+  "score": 5,
+  "cost": 2.115e-05,
   "expected": "infrastructure",
   "tokens": {
-    "input": 161,
-    "output": 3
-  },
-  "judge_rerun": true,
-  "judge_raw": "1"
+    "input": 173,
+    "output": 62
+  }
 }

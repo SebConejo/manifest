@@ -3,11 +3,13 @@
   "task": "sql_spider",
   "case": 18,
   "response": "SELECT Country FROM singer WHERE Age > 40 INTERSECT SELECT Country FROM singer WHERE Age < 30",
-  "score": 0,
+  "score": 2,
   "cost": 0.001588275,
   "expected": "",
   "tokens": {
     "input": 87,
     "output": 1200
-  }
+  },
+  "judge_rerun": true,
+  "judge_raw": "2"
 }

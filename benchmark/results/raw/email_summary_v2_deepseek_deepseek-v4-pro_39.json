@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "email_summary_v2",
   "case": 39,
-  "response": "",
-  "score": 0,
-  "cost": 0.000389325,
+  "response": "The email announces that the year-end audit begins on January 15 and lists four pre-audit tasks to complete. A controller meeting next Tuesday will assign responsibilities for these items.",
+  "score": 5,
+  "cost": 0.00046066499999999997,
   "expected": "",
   "tokens": {
     "input": 95,
-    "output": 200
+    "output": 241
   }
 }

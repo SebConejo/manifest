@@ -2,14 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "instruction_following",
   "case": 27,
-  "response": "**Mammals**  \n- African elephant  \n- Bottlenose dolphin  \n- Red kangaroo  \n\n**Birds**  \n- Bald eagle  \n- Emperor penguin  \n- Scarlet macaw  \n\n**Fish**  \n- Great white shark  \n- Atlantic salmon  \n- Clownfish",
-  "score": 3,
-  "cost": 0.000213585,
+  "response": "**Mammals**\n- Elephant\n- Dolphin\n- Tiger\n\n**Birds**\n- Bald Eagle\n- Emperor Penguin\n- Atlantic Puffin\n\n**Fish**\n- Clownfish\n- Great White Shark\n- Atlantic Salmon",
+  "score": 4,
+  "cost": 0.000344085,
   "expected": "",
   "tokens": {
     "input": 23,
-    "output": 117
-  },
-  "judge_rerun": true,
-  "judge_raw": "3"
+    "output": 192
+  }
 }

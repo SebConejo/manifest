@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "ner_extraction",
   "case": 15,
-  "response": "{\n  \"persons\": [],\n  \"organizations\": [\"SpaceX\", \"Starlink\"],\n  \"locations\": [\"Cape Canaveral\"]\n}",
+  "response": "{\"persons\": [], \"organizations\": [\"SpaceX\"], \"locations\": [\"Cape Canaveral\"]}",
   "score": 4,
-  "cost": 0.000455445,
+  "cost": 0.000491985,
   "expected": "",
   "tokens": {
     "input": 75,
-    "output": 243
+    "output": 264
   }
 }

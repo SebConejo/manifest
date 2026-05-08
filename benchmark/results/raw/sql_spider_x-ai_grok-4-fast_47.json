@@ -3,11 +3,13 @@
   "task": "sql_spider",
   "case": 47,
   "response": "```sql\nSELECT type_code\nFROM Template_Type\nWHERE description = 'Book';\n```",
-  "score": 0,
+  "score": 5,
   "cost": 0.000294,
   "expected": "",
   "tokens": {
     "input": 226,
     "output": 311
-  }
+  },
+  "judge_rerun": true,
+  "judge_raw": "5"
 }

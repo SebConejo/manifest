@@ -2,14 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "code_explanation",
   "case": 35,
-  "response": "This code implements the **Knuth-Morris-Pratt (KMP) string matching algorithm**, which first builds a longest-prefix-suffix (LPS) array from the pattern and then uses it to efficiently find the first occurrence of the pattern in the text without backtracking the text pointer.",
+  "response": "This code implements the Knuth-Morris-Pratt (KMP) string matching algorithm: it first builds a longest proper prefix-suffix (LPS) array from the pattern, then uses that array to efficiently scan the text and return the starting index of the first occurrence of the pattern (or -1 if not found).",
   "score": 5,
-  "cost": 0.0005224349999999999,
+  "cost": 0.000510255,
   "expected": "",
   "tokens": {
     "input": 181,
-    "output": 255
-  },
-  "judge_rerun": true,
-  "judge_raw": "5"
+    "output": 248
+  }
 }

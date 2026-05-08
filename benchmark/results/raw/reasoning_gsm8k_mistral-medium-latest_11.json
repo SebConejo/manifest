@@ -3,11 +3,13 @@
   "task": "reasoning_gsm8k",
   "case": 11,
   "response": "Let's solve the problem step by step.\n\n1. **Total burritos ordered**: 600 burritos.\n2. **Number of students**: 50 students.\n3. **Burritos given to each student**: 10 burritos per student.\n4. **Burritos eaten by Mr. George**: 20 burritos.\n\nFirst, calculate the total number of burritos given to the students:\n\\[ 50 \\text{ students} \\times 10 \\text{ burritos per student} = 500 \\text{ burritos} \\]\n\nNext, add the burritos eaten by Mr. George:\n\\[ 500 \\text{ burritos} + 20 \\text{ burritos} = 520 \\text{ burritos} \\]\n\nNow, subtract the total burritos consumed from the total burritos ordered to find the leftover burritos:\n\\[ 600 \\text{ burritos} - 520 \\text{ burritos} = 80 \\text{ burritos} \\]\n\nANSWER: 80",
-  "score": 0,
+  "score": 5,
   "cost": 0.0004984,
   "expected": "80",
   "tokens": {
     "input": 106,
     "output": 228
-  }
+  },
+  "judge_rerun": true,
+  "judge_raw": "5"
 }

@@ -2,14 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "code_explanation",
   "case": 2,
-  "response": "The function implements the quicksort algorithm: it selects a pivot (the middle element), partitions the input list into elements less than, equal to, and greater than the pivot, then recursively sorts the left and right partitions and concatenates the results. This divide\u2011and\u2011conquer pattern yields a sorted list.",
-  "score": 4,
-  "cost": 1.611e-05,
+  "response": "The function implements the quicksort algorithm: it selects a pivot (the middle element), partitions the input list into three sub\u2011lists \u2014 elements less than, equal to, and greater than the pivot \u2014 recursively sorts the \u201cless\u201d and \u201cgreater\u201d sub\u2011lists, and then concatenates the sorted left part, the middle (pivot) part, and the sorted right part to produce a fully sorted list. This is a classic divide\u2011and\u2011conquer sorting pattern.",
+  "score": 5,
+  "cost": 1.9079999999999997e-05,
   "expected": "",
   "tokens": {
     "input": 116,
-    "output": 63
-  },
-  "judge_rerun": true,
-  "judge_raw": "4"
+    "output": 96
+  }
 }

@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-flash",
   "task": "code_generation",
   "case": 41,
-  "response": "result = l[:]\n    third_indices = [i for i in range(len(l)) if i % 3 == 0]\n    third_values = sorted([l[i] for i in third_indices])\n    for i, val in zip(third_indices, third_values):\n        result[i] = val\n    return result",
-  "score": 4,
-  "cost": 0.00031276000000000003,
+  "response": "# Extract values at indices divisible by 3\n    third_indices = [i for i in range(len(l)) if i % 3 == 0]\n    third_values = [l[i] for i in third_indices]\n    # Sort those values\n    third_values.sort()\n    # Build result list\n    result = l[:]\n    for i, val in zip(third_indices, third_values):\n        result[i] = val\n    return result",
+  "score": 5,
+  "cost": 8.036000000000001e-05,
   "expected": "",
   "tokens": {
     "input": 182,
-    "output": 513
+    "output": 98
   }
 }

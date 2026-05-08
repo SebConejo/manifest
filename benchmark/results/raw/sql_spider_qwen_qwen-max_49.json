@@ -3,11 +3,13 @@
   "task": "sql_spider",
   "case": 49,
   "response": "```sql\nSELECT hometown\nFROM teachers\nGROUP BY hometown\nHAVING COUNT(hometown) >= 2;\n```",
-  "score": 0,
+  "score": 4,
   "cost": 0.00017472,
   "expected": "",
   "tokens": {
     "input": 72,
     "output": 24
-  }
+  },
+  "judge_rerun": true,
+  "judge_raw": "4"
 }

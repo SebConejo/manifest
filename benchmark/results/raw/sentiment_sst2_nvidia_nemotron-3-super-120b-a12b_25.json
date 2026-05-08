@@ -2,7 +2,7 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "sentiment_sst2",
   "case": 25,
-  "response": "",
+  "response": "We need to classify sentiment of the text: \"it 's everything you do n't go to",
   "score": 0,
   "cost": 7.38e-06,
   "expected": "negative",

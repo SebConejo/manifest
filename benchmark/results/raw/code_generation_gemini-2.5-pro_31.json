@@ -3,7 +3,7 @@
   "task": "code_generation",
   "case": 31,
   "response": "```python\n    filtered_list = [s for s in lst if len(s) % 2 == 0]\n    return sorted(filtered_list, key=lambda s: (len(s), s))\n```",
-  "score": 4,
+  "score": 5,
   "cost": 0.00078125,
   "expected": "",
   "tokens": {

@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "json_transform_v2",
   "case": 14,
-  "response": "",
-  "score": 0,
-  "cost": 0.00093264,
+  "response": "{\"services\": [{\"name\": \"database\", \"host\": \"db.prod.internal\", \"port\": 5432}, {\"name\": \"cache\", \"host\": \"redis.prod.internal\", \"port\": 6379}], \"app_settings\": {\"debug\": false, \"log_level\": \"warn\", \"workers\": 4}}",
+  "score": 5,
+  "cost": 0.00074646,
   "expected": "",
   "tokens": {
     "input": 144,
-    "output": 500
+    "output": 393
   }
 }

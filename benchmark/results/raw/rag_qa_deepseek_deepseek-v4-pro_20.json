@@ -2,14 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "rag_qa",
   "case": 20,
-  "response": "They are funded in whole by charging their students tuition fees.",
-  "score": 4,
-  "cost": 0.00020575499999999998,
+  "response": "By charging their students tuition fees.",
+  "score": 5,
+  "cost": 0.000188355,
   "expected": "tuition",
   "tokens": {
     "input": 141,
-    "output": 83
-  },
-  "judge_rerun": true,
-  "judge_raw": "4"
+    "output": 73
+  }
 }

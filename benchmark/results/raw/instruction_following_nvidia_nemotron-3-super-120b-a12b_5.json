@@ -2,14 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "instruction_following",
   "case": 5,
-  "response": "The sun dips low, pouring liquid gold across the horizon that slowly bleeds into soft apricot and then a deepening lav",
-  "score": 4,
+  "response": "The sun, a molten coin sinking toward the horizon, bleeds its last light into the underside of high clouds, setting them alight with hues like tangerine gel\u00e9e and the faintest bruise of violet spilling into the deepening blue above. Below, the world softens: tree silhouettes sharpen against the glow, long shadows stretch and merge across the cooling earth, and the air, still holding the day\u2019s warmth, carries a quiet hush broken",
+  "score": 3,
   "cost": 4.7969999999999996e-05,
   "expected": "",
   "tokens": {
     "input": 33,
     "output": 500
-  },
-  "judge_rerun": true,
-  "judge_raw": "4"
+  }
 }

@@ -3,13 +3,11 @@
   "task": "code_generation",
   "case": 47,
   "response": "return ' '.join(str(i) for i in range(n + 1))",
-  "score": 4,
-  "cost": 0.000374535,
+  "score": 5,
+  "cost": 0.00036409500000000004,
   "expected": "",
   "tokens": {
     "input": 101,
-    "output": 190
-  },
-  "judge_rerun": true,
-  "judge_raw": "4"
+    "output": 184
+  }
 }

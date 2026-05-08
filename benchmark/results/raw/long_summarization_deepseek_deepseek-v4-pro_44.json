@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "long_summarization",
   "case": 44,
-  "response": "",
-  "score": 0,
-  "cost": 0.0006564149999999999,
+  "response": "The internet traces its origins to 1960s U.S. defense research, with ARPANET's first message sent in 1969, and it adopted TCP/IP in 1983 as the foundation for today's network. Tim Berners-Lee's 1989 invention of the World Wide Web and the 1993 Mosaic browser opened the web to the public, igniting the dot-com boom of the late 1990s and the 2001 crash, though survivors like Amazon and Google became historic giants. Social media in the mid-2000s, the iPhone-driven mobile internet after 2007, and cloud computing (with AWS launching in 2006) further expanded its reach. Now connecting over 5 billion people, the internet underpins virtually every facet of modern life, from commerce and communication to entertainment.",
+  "score": 5,
+  "cost": 0.001063575,
   "expected": "",
   "tokens": {
     "input": 309,
-    "output": 300
+    "output": 534
   }
 }

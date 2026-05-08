@@ -3,11 +3,13 @@
   "task": "sql_spider",
   "case": 6,
   "response": "SELECT T1.Airline FROM airline AS T1 JOIN flight AS T2 ON T1.Airline  =  T2.Airline WHERE T2.Arrival_Airport = 'AHD'",
-  "score": 0,
+  "score": 4,
   "cost": 0.00474305,
   "expected": "",
   "tokens": {
     "input": 78,
     "output": 3629
-  }
+  },
+  "judge_rerun": true,
+  "judge_raw": "4"
 }

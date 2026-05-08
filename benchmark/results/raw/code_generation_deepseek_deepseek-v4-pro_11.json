@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "code_generation",
   "case": 11,
-  "response": "",
-  "score": 0,
-  "cost": 0.0009309,
+  "response": "sum_val = sum(numbers)\nprod_val = 1\nfor n in numbers:\n    prod_val *= n\nreturn (sum_val, prod_val)",
+  "score": 5,
+  "cost": 0.00044196,
   "expected": "",
   "tokens": {
     "input": 140,
-    "output": 500
+    "output": 219
   }
 }
