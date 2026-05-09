@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "rag_qa",
   "case": 39,
-  "response": "circuit switching",
+  "response": "Circuit switching",
   "score": 5,
-  "cost": 0.00013789500000000002,
+  "cost": 6.6555e-05,
   "expected": "circuit switching",
   "tokens": {
     "input": 141,
-    "output": 44
+    "output": 3
   }
 }

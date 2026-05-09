@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "rag_qa",
   "case": 41,
-  "response": "500 men.",
+  "response": "500",
   "score": 5,
-  "cost": 0.00047279999999999995,
+  "cost": 0.0009983999999999998,
   "expected": "Contrec\u0153ur led 500 men south from Fort Venango on April 5, 1754",
   "tokens": {
     "input": 192,
-    "output": 149
+    "output": 368
   }
 }

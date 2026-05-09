@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "rag_qa",
   "case": 21,
-  "response": "Not found in context.",
+  "response": "Based on the context, oxygen is poisonous to the **anaerobic bacteria** that cause gas gangrene.",
   "score": 5,
-  "cost": 0.0023736,
+  "cost": 0.0009239999999999999,
   "expected": "anaerobic bacteria",
   "tokens": {
     "input": 208,
-    "output": 937
+    "output": 333
   }
 }

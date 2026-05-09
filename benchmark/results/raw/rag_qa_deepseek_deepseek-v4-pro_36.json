@@ -4,10 +4,10 @@
   "case": 36,
   "response": "Oxygen",
   "score": 5,
-  "cost": 0.00024186,
+  "cost": 0.00046458000000000003,
   "expected": "gaseous oxygen.",
   "tokens": {
     "input": 160,
-    "output": 99
+    "output": 227
   }
 }

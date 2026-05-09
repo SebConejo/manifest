@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "rag_qa",
   "case": 9,
-  "response": "The high end of the winter temperature range is the 70s.",
-  "score": 5,
-  "cost": 0.00032711999999999997,
+  "response": "70's",
+  "score": 4,
+  "cost": 0.00043151999999999996,
   "expected": "70",
   "tokens": {
     "input": 140,
-    "output": 153
+    "output": 213
   }
 }

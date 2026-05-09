@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "rag_qa",
   "case": 4,
-  "response": "Not found in context.",
+  "response": "Based on the provided context, private education in North America covers tertiary level institutions, unlike the UK and some Commonwealth countries where the term is generally restricted to primary and secondary levels. Thus, the region is North America.",
   "score": 5,
-  "cost": 0.00043065,
+  "cost": 0.0007908300000000001,
   "expected": "North America",
   "tokens": {
     "input": 150,
-    "output": 210
+    "output": 417
   }
 }

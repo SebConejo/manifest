@@ -1,0 +1,13 @@
+{
+  "model": "deepseek/deepseek-v4-pro",
+  "task": "rag_qa",
+  "case": 5,
+  "response": "Arnhem",
+  "score": 5,
+  "cost": 0.00053418,
+  "expected": "Arnhem",
+  "tokens": {
+    "input": 228,
+    "output": 250
+  }
+}

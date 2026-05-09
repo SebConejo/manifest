@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "rag_qa",
   "case": 34,
-  "response": "Infinitely many.",
-  "score": 2,
-  "cost": 0.000822,
+  "response": "Infinitely many prime numbers.",
+  "score": 5,
+  "cost": 0.0008076,
   "expected": "infinitely many prime numbers",
   "tokens": {
     "input": 246,
-    "output": 281
+    "output": 275
   }
 }

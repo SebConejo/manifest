@@ -4,10 +4,10 @@
   "case": 48,
   "response": "Not found in context.",
   "score": 5,
-  "cost": 0.0016956,
+  "cost": 0.0033948,
   "expected": "strictly contained in P or equal to P",
   "tokens": {
     "input": 122,
-    "output": 676
+    "output": 1384
   }
 }

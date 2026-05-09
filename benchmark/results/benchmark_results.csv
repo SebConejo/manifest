@@ -51943,3 +51943,103 @@ timestamp,task,case_idx,model,provider,input_price_per_m,output_price_per_m,inpu
 20260509_161039,ner_extraction,47,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,74,323,0.000594,5,llm_judge,"{   ""persons"": [""Alain Aspect""],   ""organizations"": [""Universite Paris-Saclay""],   ""locations"": [""St"
 20260509_161039,ner_extraction,48,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,74,173,0.000333,5,llm_judge,"{   ""persons"": [],   ""organizations"": [""TSMC"", ""Department of Commerce""],   ""locations"": [""Phoenix"","
 20260509_161039,ner_extraction,49,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,73,285,0.000528,4,llm_judge,"{""persons"": [""Pope Francis""], ""organizations"": [], ""locations"": [""St. Peter Square"", ""Vatican""]}"
+20260509_164045,rag_qa,0,kimi-k2.6,moonshot,0.6,2.4,239,408,0.001123,5,llm_judge,Lake Überlingen
+20260509_164045,rag_qa,1,kimi-k2.6,moonshot,0.6,2.4,271,128,0.000470,5,llm_judge,1665
+20260509_164045,rag_qa,2,kimi-k2.6,moonshot,0.6,2.4,318,851,0.002233,5,llm_judge,Taking physical control of another and exploiting its valuable assets and supplies.
+20260509_164045,rag_qa,3,kimi-k2.6,moonshot,0.6,2.4,153,124,0.000389,5,llm_judge,Hassan al-Turabi
+20260509_164045,rag_qa,4,kimi-k2.6,moonshot,0.6,2.4,154,1442,0.003553,5,llm_judge,Not found in context.
+20260509_164045,rag_qa,5,kimi-k2.6,moonshot,0.6,2.4,233,1552,0.003865,5,llm_judge,Not found in context.
+20260509_164045,rag_qa,6,kimi-k2.6,moonshot,0.6,2.4,402,107,0.000498,5,llm_judge,TFEU article 294.
+20260509_164045,rag_qa,7,kimi-k2.6,moonshot,0.6,2.4,163,465,0.001214,5,llm_judge,The mass of the system.
+20260509_164045,rag_qa,8,kimi-k2.6,moonshot,0.6,2.4,174,496,0.001295,5,llm_judge,36%
+20260509_164045,rag_qa,9,kimi-k2.6,moonshot,0.6,2.4,144,206,0.000581,5,llm_judge,"Based on the context, the high end of the temperature range in winter is the **70's** (or 70)."
+20260509_164045,rag_qa,10,kimi-k2.6,moonshot,0.6,2.4,427,456,0.001351,5,llm_judge,The Saxon Garden.
+20260509_164045,rag_qa,11,kimi-k2.6,moonshot,0.6,2.4,167,521,0.001351,5,llm_judge,Of the order of 1.1 × 10^11 metric tonnes of carbon.
+20260509_164045,rag_qa,12,kimi-k2.6,moonshot,0.6,2.4,193,238,0.000687,5,llm_judge,J. F. D. Shrewsbury (in 1970).
+20260509_164045,rag_qa,13,kimi-k2.6,moonshot,0.6,2.4,159,109,0.000357,5,llm_judge,The Victorian Government.
+20260509_164045,rag_qa,14,kimi-k2.6,moonshot,0.6,2.4,309,153,0.000553,5,llm_judge,In marine waters worldwide.
+20260509_164045,rag_qa,15,kimi-k2.6,moonshot,0.6,2.4,213,269,0.000773,5,llm_judge,Prussia.
+20260509_164045,rag_qa,16,kimi-k2.6,moonshot,0.6,2.4,217,83,0.000329,5,llm_judge,Approximately fifty percent more.
+20260509_164045,rag_qa,17,kimi-k2.6,moonshot,0.6,2.4,227,377,0.001041,5,llm_judge,"Tymnet was an international data communications network headquartered in San Jose, CA that utilized "
+20260509_164045,rag_qa,18,kimi-k2.6,moonshot,0.6,2.4,174,122,0.000397,5,llm_judge,Allan Bloom
+20260509_164045,rag_qa,19,kimi-k2.6,moonshot,0.6,2.4,156,137,0.000422,5,llm_judge,"Based on the context, Europe achieved advancements in **communication**."
+20260509_164045,rag_qa,20,kimi-k2.6,moonshot,0.6,2.4,156,152,0.000458,5,llm_judge,They are funded in whole by charging their students tuition fees.
+20260509_164045,rag_qa,21,kimi-k2.6,moonshot,0.6,2.4,208,333,0.000924,5,llm_judge,"Based on the context, oxygen is poisonous to the **anaerobic bacteria** that cause gas gangrene."
+20260509_164045,rag_qa,22,kimi-k2.6,moonshot,0.6,2.4,146,122,0.000380,5,llm_judge,The South African Schools Act of 1996.
+20260509_164045,rag_qa,23,kimi-k2.6,moonshot,0.6,2.4,197,109,0.000380,5,llm_judge,The mortgage banker
+20260509_164045,rag_qa,24,kimi-k2.6,moonshot,0.6,2.4,297,130,0.000490,5,llm_judge,"5,500,000 square kilometres"
+20260509_164045,rag_qa,25,kimi-k2.6,moonshot,0.6,2.4,163,188,0.000549,5,llm_judge,Infrastructure in Warsaw suffered considerably during its time as an Eastern Bloc economy.
+20260509_164045,rag_qa,26,kimi-k2.6,moonshot,0.6,2.4,207,124,0.000422,5,llm_judge,KMJ-TV.
+20260509_164045,rag_qa,27,kimi-k2.6,moonshot,0.6,2.4,271,183,0.000602,5,llm_judge,Newton's First Law of Motion (or Newton's First Law) directly connects inertia with the concept of r
+20260509_164045,rag_qa,28,kimi-k2.6,moonshot,0.6,2.4,213,503,0.001335,5,llm_judge,"Based on the context, Céloron handled affairs during the trip by burying lead plates engraved with t"
+20260509_164045,rag_qa,29,kimi-k2.6,moonshot,0.6,2.4,177,151,0.000469,5,llm_judge,Istanbul
+20260509_164045,rag_qa,30,kimi-k2.6,moonshot,0.6,2.4,248,111,0.000415,5,llm_judge,Melbourne
+20260509_164045,rag_qa,31,kimi-k2.6,moonshot,0.6,2.4,176,122,0.000398,5,llm_judge,Sharia
+20260509_164045,rag_qa,32,kimi-k2.6,moonshot,0.6,2.4,225,181,0.000569,5,llm_judge,The world's economy grew significantly and became much more interconnected.
+20260509_164045,rag_qa,33,kimi-k2.6,moonshot,0.6,2.4,271,496,0.001353,5,llm_judge,In response to American aid to Israel.
+20260509_164045,rag_qa,34,kimi-k2.6,moonshot,0.6,2.4,246,275,0.000808,5,llm_judge,Infinitely many prime numbers.
+20260509_164045,rag_qa,35,kimi-k2.6,moonshot,0.6,2.4,275,266,0.000803,5,llm_judge,"Members of the lobate genera Bathocyroe and Ocyropsis escape from danger by clapping their lobes, so"
+20260509_164045,rag_qa,36,kimi-k2.6,moonshot,0.6,2.4,166,356,0.000954,5,llm_judge,Oxygen (O2) / gaseous oxygen.
+20260509_164045,rag_qa,37,kimi-k2.6,moonshot,0.6,2.4,217,482,0.001287,5,llm_judge,On the northeast (border).
+20260509_164045,rag_qa,38,kimi-k2.6,moonshot,0.6,2.4,254,266,0.000791,5,llm_judge,The Charles River.
+20260509_164045,rag_qa,39,kimi-k2.6,moonshot,0.6,2.4,145,140,0.000423,5,llm_judge,circuit switching
+20260509_164045,rag_qa,40,kimi-k2.6,moonshot,0.6,2.4,173,443,0.001167,5,llm_judge,Full citizenship rights – “assimilation.”
+20260509_164045,rag_qa,41,kimi-k2.6,moonshot,0.6,2.4,192,368,0.000998,5,llm_judge,500
+20260509_164045,rag_qa,42,kimi-k2.6,moonshot,0.6,2.4,202,631,0.001636,1,llm_judge,Not found in context.
+20260509_164045,rag_qa,43,kimi-k2.6,moonshot,0.6,2.4,249,137,0.000478,5,llm_judge,Amazonia: Man and Culture in a Counterfeit Paradise
+20260509_164045,rag_qa,44,kimi-k2.6,moonshot,0.6,2.4,262,102,0.000402,5,llm_judge,The Ohio Company of Virginia.
+20260509_164045,rag_qa,45,kimi-k2.6,moonshot,0.6,2.4,223,288,0.000825,5,llm_judge,The show globe.
+20260509_164045,rag_qa,46,kimi-k2.6,moonshot,0.6,2.4,123,164,0.000467,5,llm_judge,Los Angeles Kings
+20260509_164045,rag_qa,47,kimi-k2.6,moonshot,0.6,2.4,154,204,0.000582,5,llm_judge,The Urarina.
+20260509_164045,rag_qa,48,kimi-k2.6,moonshot,0.6,2.4,122,1384,0.003395,5,llm_judge,Not found in context.
+20260509_164045,rag_qa,49,kimi-k2.6,moonshot,0.6,2.4,140,443,0.001147,4,llm_judge,patient care rounds drug product selection.
+20260509_164045,rag_qa,0,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,233,317,0.000653,5,llm_judge,Lake Überlingen
+20260509_164045,rag_qa,1,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,268,44,0.000193,5,llm_judge,1665
+20260509_164045,rag_qa,2,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,305,192,0.000467,5,llm_judge,Taking physical control of another country.
+20260509_164045,rag_qa,3,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,150,8,0.000079,5,llm_judge,Hassan al-Turabi
+20260509_164045,rag_qa,4,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,150,417,0.000791,5,llm_judge,"Based on the provided context, private education in North America covers tertiary level institutions"
+20260509_164045,rag_qa,5,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,228,250,0.000534,5,llm_judge,Arnhem
+20260509_164045,rag_qa,6,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,397,71,0.000296,5,llm_judge,TFEU article 294
+20260509_164045,rag_qa,7,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,159,102,0.000247,5,llm_judge,mass of the system
+20260509_164045,rag_qa,8,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,171,3,0.000080,5,llm_judge,36%
+20260509_164045,rag_qa,9,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,140,213,0.000432,4,llm_judge,70's
+20260509_164045,rag_qa,10,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,422,187,0.000509,5,llm_judge,The Saxon Garden
+20260509_164045,rag_qa,11,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,164,131,0.000299,5,llm_judge,1.1 × 10^11 metric tonnes of carbon
+20260509_164045,rag_qa,12,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,187,11,0.000100,5,llm_judge,J. F. D. Shrewsbury
+20260509_164045,rag_qa,13,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,155,58,0.000168,5,llm_judge,The Victorian Government.
+20260509_164045,rag_qa,14,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,300,46,0.000211,5,llm_judge,In marine waters worldwide.
+20260509_164045,rag_qa,15,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,209,63,0.000201,5,llm_judge,Prussia
+20260509_164045,rag_qa,16,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,214,58,0.000194,5,llm_judge,Approximately fifty percent more.
+20260509_164045,rag_qa,17,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,227,24,0.000141,5,llm_judge,"Tymnet was an international data communications network headquartered in San Jose, CA that utilized "
+20260509_164045,rag_qa,18,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,169,65,0.000187,5,llm_judge,Allan Bloom
+20260509_164045,rag_qa,19,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,153,74,0.000195,5,llm_judge,Advancements in communication.
+20260509_164045,rag_qa,20,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,141,74,0.000190,5,llm_judge,By charging their students tuition fees.
+20260509_164045,rag_qa,21,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,201,77,0.000221,5,llm_judge,Not found in context.
+20260509_164045,rag_qa,22,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,139,72,0.000186,5,llm_judge,The South African Schools Act of 1996
+20260509_164045,rag_qa,23,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,197,4,0.000093,5,llm_judge,Mortgage banker
+20260509_164045,rag_qa,24,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,286,152,0.000389,5,llm_judge,"5,500,000 square kilometres."
+20260509_164045,rag_qa,25,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,160,58,0.000171,5,llm_judge,Infrastructure
+20260509_164045,rag_qa,26,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,208,61,0.000197,5,llm_judge,KMJ-TV
+20260509_164045,rag_qa,27,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,262,7,0.000126,5,llm_judge,Newton's First Law of Motion
+20260509_164045,rag_qa,28,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,212,6,0.000103,5,llm_judge,Not found in context.
+20260509_164045,rag_qa,29,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,172,53,0.000167,5,llm_judge,Istanbul
+20260509_164045,rag_qa,30,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,246,63,0.000217,5,llm_judge,Melbourne
+20260509_164045,rag_qa,31,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,174,54,0.000170,5,llm_judge,Sharia
+20260509_164045,rag_qa,32,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,218,6,0.000105,5,llm_judge,The world's economy.
+20260509_164045,rag_qa,33,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,268,9,0.000132,5,llm_judge,In response to American aid to Israel.
+20260509_164045,rag_qa,34,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,243,225,0.000497,5,llm_judge,Infinitely many
+20260509_164045,rag_qa,35,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,267,79,0.000254,5,llm_judge,Clapping their lobes.
+20260509_164045,rag_qa,36,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,160,227,0.000465,5,llm_judge,Oxygen
+20260509_164045,rag_qa,37,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,211,159,0.000368,5,llm_judge,Northeast
+20260509_164045,rag_qa,38,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,249,62,0.000216,5,llm_judge,Charles River
+20260509_164045,rag_qa,39,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,141,3,0.000067,5,llm_judge,Circuit switching
+20260509_164045,rag_qa,40,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,167,731,0.001345,5,llm_judge,Full citizenship rights (assimilation).
+20260509_164045,rag_qa,41,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,182,132,0.000309,5,llm_judge,500
+20260509_164045,rag_qa,42,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,197,273,0.000561,1,llm_judge,Not found in context.
+20260509_164045,rag_qa,43,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,242,118,0.000311,5,llm_judge,The book is *Amazonia: Man and Culture in a Counterfeit Paradise*.
+20260509_164045,rag_qa,44,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,256,20,0.000146,5,llm_judge,The Ohio Company of Virginia was given land by the British government for development of the Ohio Co
+20260509_164045,rag_qa,45,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,218,120,0.000304,5,llm_judge,The show globe
+20260509_164045,rag_qa,46,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,123,70,0.000175,5,llm_judge,Los Angeles Kings
+20260509_164045,rag_qa,47,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,147,120,0.000273,5,llm_judge,Urarina
+20260509_164045,rag_qa,48,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,118,167,0.000342,5,llm_judge,Not found in context.
+20260509_164045,rag_qa,49,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,133,117,0.000261,5,llm_judge,patient care rounds drug product selection

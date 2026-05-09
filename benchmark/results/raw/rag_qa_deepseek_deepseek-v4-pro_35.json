@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "rag_qa",
   "case": 35,
-  "response": "Clapping their lobes, so that the jet of expelled water drives them backwards very quickly.",
+  "response": "Clapping their lobes.",
   "score": 5,
-  "cost": 0.00027448500000000004,
+  "cost": 0.000253605,
   "expected": "by clapping their lobes",
   "tokens": {
     "input": 267,
-    "output": 91
+    "output": 79
   }
 }

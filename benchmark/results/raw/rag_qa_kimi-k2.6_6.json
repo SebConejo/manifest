@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "rag_qa",
   "case": 6,
-  "response": "TFEU article 294",
+  "response": "TFEU article 294.",
   "score": 5,
-  "cost": 0.0005292000000000001,
+  "cost": 0.000498,
   "expected": "TFEU article 294",
   "tokens": {
     "input": 402,
-    "output": 120
+    "output": 107
   }
 }

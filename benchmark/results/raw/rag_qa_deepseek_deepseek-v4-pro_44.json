@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "rag_qa",
   "case": 44,
-  "response": "Ohio Company of Virginia",
+  "response": "The Ohio Company of Virginia was given land by the British government for development of the Ohio Country.",
   "score": 5,
-  "cost": 0.0002262,
+  "cost": 0.00014616,
   "expected": "Ohio Company of Virginia",
   "tokens": {
     "input": 256,
-    "output": 66
+    "output": 20
   }
 }

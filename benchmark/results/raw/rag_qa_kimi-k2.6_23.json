@@ -4,10 +4,10 @@
   "case": 23,
   "response": "The mortgage banker",
   "score": 5,
-  "cost": 0.000519,
+  "cost": 0.00037979999999999996,
   "expected": "the mortgage banker",
   "tokens": {
     "input": 197,
-    "output": 167
+    "output": 109
   }
 }

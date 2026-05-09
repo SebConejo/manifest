@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "rag_qa",
   "case": 28,
-  "response": "Whenever C\u00e9loron encountered British merchants or fur-traders, he informed them of the French claims on the territory and told them to leave.",
+  "response": "Not found in context.",
   "score": 5,
-  "cost": 0.00035496000000000003,
+  "cost": 0.00010266,
   "expected": "British merchants or fur-traders, C\u00e9loron informed them of the French claims on the territory and told them to leave.",
   "tokens": {
     "input": 212,
-    "output": 151
+    "output": 6
   }
 }

@@ -4,10 +4,10 @@
   "case": 37,
   "response": "Northeast",
   "score": 5,
-  "cost": 0.000246645,
+  "cost": 0.00036844500000000007,
   "expected": "northeast",
   "tokens": {
     "input": 211,
-    "output": 89
+    "output": 159
   }
 }

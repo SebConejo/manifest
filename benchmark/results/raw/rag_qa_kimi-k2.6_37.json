@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "rag_qa",
   "case": 37,
-  "response": "Based on the context, Korea bordered Kublai's territory on the **northeast**. The text states that \"Kublai secured the northeast border in 1259 by installing the hostage prince Wonjong as the ruler of Korea.\"",
+  "response": "On the northeast (border).",
   "score": 5,
-  "cost": 0.0027029999999999997,
+  "cost": 0.001287,
   "expected": "northeast",
   "tokens": {
     "input": 217,
-    "output": 1072
+    "output": 482
   }
 }

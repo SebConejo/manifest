@@ -4,10 +4,10 @@
   "case": 11,
   "response": "1.1 \u00d7 10^11 metric tonnes of carbon",
   "score": 5,
-  "cost": 0.00024708,
+  "cost": 0.00029927999999999997,
   "expected": "10% of the carbon stores",
   "tokens": {
     "input": 164,
-    "output": 101
+    "output": 131
   }
 }

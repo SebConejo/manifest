@@ -4,10 +4,10 @@
   "case": 33,
   "response": "In response to American aid to Israel.",
   "score": 5,
-  "cost": 0.0005154,
+  "cost": 0.0013529999999999998,
   "expected": "In response to American aid to Israel",
   "tokens": {
     "input": 271,
-    "output": 147
+    "output": 496
   }
 }

@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "rag_qa",
   "case": 14,
-  "response": "Marine waters worldwide.",
+  "response": "In marine waters worldwide.",
   "score": 5,
-  "cost": 0.00021575999999999998,
+  "cost": 0.00021054000000000003,
   "expected": "marine waters",
   "tokens": {
     "input": 300,
-    "output": 49
+    "output": 46
   }
 }

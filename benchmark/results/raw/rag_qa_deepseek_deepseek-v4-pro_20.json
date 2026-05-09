@@ -4,10 +4,10 @@
   "case": 20,
   "response": "By charging their students tuition fees.",
   "score": 5,
-  "cost": 0.000188355,
+  "cost": 0.000190095,
   "expected": "tuition",
   "tokens": {
     "input": 141,
-    "output": 73
+    "output": 74
   }
 }

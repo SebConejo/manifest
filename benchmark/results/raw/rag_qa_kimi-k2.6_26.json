@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "rag_qa",
   "case": 26,
-  "response": "KMJ-TV",
+  "response": "KMJ-TV.",
   "score": 5,
-  "cost": 0.000429,
+  "cost": 0.00042179999999999995,
   "expected": "KMJ-TV",
   "tokens": {
     "input": 207,
-    "output": 127
+    "output": 124
   }
 }

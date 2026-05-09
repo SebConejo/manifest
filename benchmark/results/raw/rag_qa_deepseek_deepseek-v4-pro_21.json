@@ -4,10 +4,10 @@
   "case": 21,
   "response": "Not found in context.",
   "score": 5,
-  "cost": 0.00020575499999999998,
+  "cost": 0.00022141499999999998,
   "expected": "anaerobic bacteria",
   "tokens": {
     "input": 201,
-    "output": 68
+    "output": 77
   }
 }

@@ -3,7 +3,7 @@
   "task": "rag_qa",
   "case": 1,
   "response": "1665",
-  "score": 1,
+  "score": 5,
   "cost": 0.0004698,
   "expected": "1665",
   "tokens": {

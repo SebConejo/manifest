@@ -4,10 +4,10 @@
   "case": 38,
   "response": "Charles River",
   "score": 5,
-  "cost": 0.00021445499999999998,
+  "cost": 0.000216195,
   "expected": "Charles River",
   "tokens": {
     "input": 249,
-    "output": 61
+    "output": 62
   }
 }

@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "rag_qa",
   "case": 7,
-  "response": "The mass of the system.",
+  "response": "mass of the system",
   "score": 5,
-  "cost": 0.000380625,
+  "cost": 0.000246645,
   "expected": "mass of the system",
   "tokens": {
     "input": 159,
-    "output": 179
+    "output": 102
   }
 }

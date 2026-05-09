@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "rag_qa",
   "case": 10,
-  "response": "The Saxon Garden was formally a royal garden.",
+  "response": "The Saxon Garden",
   "score": 5,
-  "cost": 0.00030711000000000003,
+  "cost": 0.00050895,
   "expected": "The Saxon Garden",
   "tokens": {
     "input": 422,
-    "output": 71
+    "output": 187
   }
 }

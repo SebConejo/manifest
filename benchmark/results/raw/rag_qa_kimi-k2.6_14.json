@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "rag_qa",
   "case": 14,
-  "response": "Ctenophora live in marine waters worldwide.",
+  "response": "In marine waters worldwide.",
   "score": 5,
-  "cost": 0.0005574,
+  "cost": 0.0005526,
   "expected": "marine waters",
   "tokens": {
     "input": 309,
-    "output": 155
+    "output": 153
   }
 }

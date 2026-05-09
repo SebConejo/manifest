@@ -4,10 +4,10 @@
   "case": 47,
   "response": "Urarina",
   "score": 5,
-  "cost": 0.000255345,
+  "cost": 0.000272745,
   "expected": "Urarina",
   "tokens": {
     "input": 147,
-    "output": 110
+    "output": 120
   }
 }

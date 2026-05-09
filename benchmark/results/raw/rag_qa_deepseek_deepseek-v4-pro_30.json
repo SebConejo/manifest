@@ -4,10 +4,10 @@
   "case": 30,
   "response": "Melbourne",
   "score": 5,
-  "cost": 0.00021141000000000004,
+  "cost": 0.00021663,
   "expected": "Melbourne",
   "tokens": {
     "input": 246,
-    "output": 60
+    "output": 63
   }
 }

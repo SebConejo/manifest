@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "rag_qa",
   "case": 9,
-  "response": "70",
-  "score": 1,
-  "cost": 0.0008232,
+  "response": "Based on the context, the high end of the temperature range in winter is the **70's** (or 70).",
+  "score": 5,
+  "cost": 0.0005807999999999999,
   "expected": "70",
   "tokens": {
     "input": 144,
-    "output": 307
+    "output": 206
   }
 }

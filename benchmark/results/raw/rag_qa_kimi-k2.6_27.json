@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "rag_qa",
   "case": 27,
-  "response": "Newton's First Law of Motion directly connects inertia with the concept of relative velocities.",
-  "score": 4,
-  "cost": 0.000693,
+  "response": "Newton's First Law of Motion (or Newton's First Law) directly connects inertia with the concept of relative velocities.",
+  "score": 5,
+  "cost": 0.0006018,
   "expected": "Newton's First",
   "tokens": {
     "input": 271,
-    "output": 221
+    "output": 183
   }
 }
