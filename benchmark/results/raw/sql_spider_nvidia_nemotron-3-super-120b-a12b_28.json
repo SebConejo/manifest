@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "sql_spider",
   "case": 28,
-  "response": "SELECT nationality\nFROM poker_player\nGROUP BY nationality\nHAVING COUNT(*) >= 2;",
+  "response": "SELECT nationality\nFROM players\nGROUP BY nationality\nHAVING COUNT(*) >= 2;",
   "score": 5,
-  "cost": 2.3579999999999998e-05,
+  "cost": 1.989e-05,
   "expected": "",
   "tokens": {
     "input": 81,
-    "output": 181
+    "output": 140
   }
 }

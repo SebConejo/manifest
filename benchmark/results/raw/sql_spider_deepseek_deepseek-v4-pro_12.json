@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "sql_spider",
   "case": 12,
-  "response": "SELECT p.id, p.role, p.first_name\nFROM professionals p\nJOIN treatments t ON p.id = t.professional",
-  "score": 3,
-  "cost": 0.000556365,
+  "response": "```sql\nSELECT p.id, p.role, p.first_name\nFROM professionals p\nJOIN treatments t ON p.id = t.professional_id\nGROUP BY p.id, p.role, p.first_name\nHAVING COUNT(t.id) >= 2;\n```",
+  "score": 5,
+  "cost": 0.0004954650000000001,
   "expected": "",
   "tokens": {
     "input": 79,
-    "output": 300
+    "output": 265
   }
 }

@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "sql_spider",
   "case": 22,
-  "response": "```sql\nSELECT section_name\nFROM sections\nORDER BY section_name DESC;\n```",
+  "response": "```sql\nSELECT name FROM sections ORDER BY name DESC;\n```",
   "score": 5,
-  "cost": 0.000622485,
+  "cost": 0.000204885,
   "expected": "",
   "tokens": {
     "input": 71,
-    "output": 340
+    "output": 100
   }
 }

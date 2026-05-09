@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "sql_spider",
   "case": 4,
-  "response": "SELECT SUM(bonus) FROM evaluations;",
+  "response": "```sql\nSELECT SUM(bonus) AS total_bonus\nFROM evaluations;\n```",
   "score": 5,
-  "cost": 0.0007596,
+  "cost": 0.0016668,
   "expected": "",
   "tokens": {
     "input": 70,
-    "output": 299
+    "output": 677
   }
 }

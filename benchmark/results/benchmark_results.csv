@@ -52443,3 +52443,201 @@ timestamp,task,case_idx,model,provider,input_price_per_m,output_price_per_m,inpu
 20260509_180202,sentiment_sst2,47,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,77,20,0.000009,0,exact,"We need to classify sentiment of given text: ""there seems to be no clear path as to where"
 20260509_180202,sentiment_sst2,48,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,85,20,0.000009,0,exact,
 20260509_180202,sentiment_sst2,49,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,86,20,0.000010,0,exact,
+20260509_181423,sql_spider,0,gpt-5.5-pro,openai_responses,5.0,20.0,71,2927,0.058895,4,llm_judge,SELECT pp.Money_Rank FROM poker_player AS pp JOIN people AS p ON pp.People_ID = p.People_ID WHERE p.
+20260509_181423,sql_spider,1,gpt-5.5-pro,openai_responses,5.0,20.0,77,245,0.005285,5,llm_judge,SELECT AVG(MPG) FROM cars_data WHERE Cylinders = 4;
+20260509_181423,sql_spider,2,gpt-5.5-pro,openai_responses,5.0,20.0,79,699,0.014375,4,llm_judge,"SELECT s.Name, s.Capacity FROM stadium AS s JOIN concert AS c ON s.Stadium_ID = c.Stadium_ID WHERE c"
+20260509_181423,sql_spider,3,gpt-5.5-pro,openai_responses,5.0,20.0,76,1983,0.040040,5,llm_judge,SELECT Name FROM country WHERE Continent = 'Africa'   AND Population < ALL (     SELECT Population  
+20260509_181423,sql_spider,4,gpt-5.5-pro,openai_responses,5.0,20.0,72,669,0.013740,5,llm_judge,SELECT SUM(Bonus) AS total_bonus FROM evaluation;
+20260509_181423,sql_spider,5,gpt-5.5-pro,openai_responses,5.0,20.0,71,1877,0.037895,5,llm_judge,SELECT a.AirportName FROM airports AS a WHERE NOT EXISTS (     SELECT 1     FROM flights AS f     WH
+20260509_181423,sql_spider,6,gpt-5.5-pro,openai_responses,5.0,20.0,72,481,0.009980,4,llm_judge,SELECT DISTINCT a.Airline FROM airlines AS a JOIN flights AS f ON a.uid = f.Airline WHERE f.DestAirp
+20260509_181423,sql_spider,7,gpt-5.5-pro,openai_responses,5.0,20.0,72,873,0.017820,4,llm_judge,"SELECT COUNT(*) FROM cars_data WHERE ""Year"" = 1980;"
+20260509_181423,sql_spider,8,gpt-5.5-pro,openai_responses,5.0,20.0,82,406,0.008530,5,llm_judge,SELECT COUNT(DISTINCT cl.Language) FROM country AS c JOIN countrylanguage AS cl   ON c.Code = cl.Cou
+20260509_181423,sql_spider,9,gpt-5.5-pro,openai_responses,5.0,20.0,74,1017,0.020710,4,llm_judge,SELECT c.CountryName FROM countries AS c JOIN car_makers AS cm ON c.CountryId = cm.Country GROUP BY 
+20260509_181423,sql_spider,10,gpt-5.5-pro,openai_responses,5.0,20.0,75,305,0.006475,5,llm_judge,SELECT SUM(SurfaceArea) AS total_surface_area FROM country WHERE Region = 'Caribbean';
+20260509_181423,sql_spider,11,gpt-5.5-pro,openai_responses,5.0,20.0,78,2241,0.045210,5,llm_judge,SELECT Name FROM country WHERE Continent = 'Africa'   AND Population < (     SELECT MIN(Population) 
+20260509_181423,sql_spider,12,gpt-5.5-pro,openai_responses,5.0,20.0,83,921,0.018835,5,llm_judge,"SELECT p.professional_id, p.role_code, p.first_name FROM Professionals AS p JOIN Treatments AS t   O"
+20260509_181423,sql_spider,13,gpt-5.5-pro,openai_responses,5.0,20.0,70,942,0.019190,5,llm_judge,SELECT MAX(transcript_date) AS last_transcript_release_date FROM transcripts;
+20260509_181423,sql_spider,15,gpt-5.5-pro,openai_responses,5.0,20.0,70,615,0.012650,5,llm_judge,"SELECT MIN(share), MAX(share) FROM tv_series;"
+20260509_181423,sql_spider,16,gpt-5.5-pro,openai_responses,5.0,20.0,73,449,0.009345,5,llm_judge,SELECT COUNT(DISTINCT country_code) FROM players;
+20260509_181423,sql_spider,17,gpt-5.5-pro,openai_responses,5.0,20.0,80,893,0.018260,5,llm_judge,SELECT s.Name FROM stadium AS s WHERE NOT EXISTS (   SELECT 1   FROM concert AS c   WHERE c.Stadium_
+20260509_181423,sql_spider,18,gpt-5.5-pro,openai_responses,5.0,20.0,79,473,0.009855,4,llm_judge,SELECT Country FROM singer WHERE Age > 40 INTERSECT SELECT Country FROM singer WHERE Age < 30;
+20260509_181423,sql_spider,20,gpt-5.5-pro,openai_responses,5.0,20.0,77,2877,0.057925,4,llm_judge,"SELECT a.Abbreviation, a.Country FROM airlines AS a JOIN flights AS f ON a.uid = f.Airline GROUP BY "
+20260509_181423,sql_spider,21,gpt-5.5-pro,openai_responses,5.0,20.0,70,591,0.012170,4,llm_judge,SELECT f.FlightNo FROM flights AS f JOIN airlines AS a ON f.Airline = a.uid WHERE a.Airline = 'Unite
+20260509_181423,sql_spider,22,gpt-5.5-pro,openai_responses,5.0,20.0,74,311,0.006590,5,llm_judge,SELECT section_name FROM Sections ORDER BY section_name DESC;
+20260509_181423,sql_spider,23,gpt-5.5-pro,openai_responses,5.0,20.0,73,2265,0.045665,4,llm_judge,"SELECT production_code, channel FROM cartoon WHERE original_air_date = (   SELECT MAX(original_air_d"
+20260509_181423,sql_spider,24,gpt-5.5-pro,openai_responses,5.0,20.0,71,2134,0.043035,4,llm_judge,SELECT Year FROM concert GROUP BY Year ORDER BY COUNT(*) DESC FETCH FIRST 1 ROW ONLY;
+20260509_181423,sql_spider,25,gpt-5.5-pro,openai_responses,5.0,20.0,69,1381,0.027965,5,llm_judge,SELECT title FROM cartoon WHERE directed_by = 'Ben Jones';
+20260509_181423,sql_spider,26,gpt-5.5-pro,openai_responses,5.0,20.0,79,604,0.012475,5,llm_judge,SELECT COUNT(*) FROM flights AS f JOIN airports AS src ON f.SourceAirport = src.AirportCode JOIN air
+20260509_181423,sql_spider,27,gpt-5.5-pro,openai_responses,5.0,20.0,73,428,0.008925,5,llm_judge,SELECT c.Name FROM country AS c JOIN countrylanguage AS cl ON c.Code = cl.CountryCode WHERE cl.Langu
+20260509_181423,sql_spider,28,gpt-5.5-pro,openai_responses,5.0,20.0,73,359,0.007545,5,llm_judge,SELECT Nationality FROM People GROUP BY Nationality HAVING COUNT(*) >= 2;
+20260509_181423,sql_spider,29,gpt-5.5-pro,openai_responses,5.0,20.0,71,320,0.006755,4,llm_judge,"SELECT COUNT(DISTINCT ""Language"") AS unique_languages FROM countrylanguage;"
+20260509_181423,sql_spider,30,gpt-5.5-pro,openai_responses,5.0,20.0,73,710,0.014565,4,llm_judge,SELECT AVG(winner_rank) FROM matches;
+20260509_181423,sql_spider,31,gpt-5.5-pro,openai_responses,5.0,20.0,76,730,0.014980,4,llm_judge,SELECT DISTINCT a.Airline FROM airlines AS a JOIN flights AS f ON a.uid = f.Airline WHERE f.SourceAi
+20260509_181423,sql_spider,32,gpt-5.5-pro,openai_responses,5.0,20.0,76,1528,0.030940,4,llm_judge,"SELECT p.first_name, AVG(r.ranking) AS average_ranking FROM players AS p LEFT JOIN rankings AS r   O"
+20260509_181423,sql_spider,33,gpt-5.5-pro,openai_responses,5.0,20.0,79,579,0.011975,4,llm_judge,"SELECT episode, rating FROM tv_series ORDER BY rating DESC FETCH FIRST 3 ROWS ONLY;"
+20260509_181423,sql_spider,34,gpt-5.5-pro,openai_responses,5.0,20.0,71,201,0.004375,3,llm_judge,SELECT * FROM hiring;
+20260509_181423,sql_spider,35,gpt-5.5-pro,openai_responses,5.0,20.0,75,601,0.012395,4,llm_judge,SELECT c.Name FROM conductor AS c JOIN orchestra AS o ON c.Conductor_ID = o.Conductor_ID GROUP BY c.
+20260509_181423,sql_spider,36,gpt-5.5-pro,openai_responses,5.0,20.0,72,7963,0.159620,5,llm_judge,"WITH like_counts AS (     SELECT h.ID, h.name, COUNT(l.student_id) AS num_likes     FROM Highschoole"
+20260509_181423,sql_spider,37,gpt-5.5-pro,openai_responses,5.0,20.0,76,406,0.008500,3,llm_judge,"SELECT Song_Name, Song_release_year FROM singer WHERE Age = (SELECT MIN(Age) FROM singer);"
+20260509_181423,sql_spider,38,gpt-5.5-pro,openai_responses,5.0,20.0,84,383,0.008080,5,llm_judge,"SELECT c.Name, COUNT(DISTINCT cl.Language) AS language_count FROM country AS c JOIN countrylanguage "
+20260509_181423,sql_spider,39,gpt-5.5-pro,openai_responses,5.0,20.0,80,941,0.019220,4,llm_judge,"SELECT c.Name, o.Orchestra FROM conductor AS c JOIN orchestra AS o   ON c.Conductor_ID = o.Conductor"
+20260509_181423,sql_spider,40,gpt-5.5-pro,openai_responses,5.0,20.0,90,598,0.012410,5,llm_judge,"SELECT cn.MakeId, cn.Make FROM car_names AS cn JOIN cars_data AS cd   ON cn.MakeId = cd.Id WHERE cd."
+20260509_181423,sql_spider,41,gpt-5.5-pro,openai_responses,5.0,20.0,70,1019,0.020730,3,llm_judge,SELECT SUM(Population) FROM city WHERE District = 'Gelderland';
+20260509_181423,sql_spider,42,gpt-5.5-pro,openai_responses,5.0,20.0,76,1255,0.025480,5,llm_judge,SELECT t.template_id FROM Templates AS t JOIN Ref_Template_Types AS r   ON t.template_type_code = r.
+20260509_181423,sql_spider,43,gpt-5.5-pro,openai_responses,5.0,20.0,70,220,0.004750,5,llm_judge,SELECT COUNT(*) FROM cars_data WHERE Cylinders > 6;
+20260509_181423,sql_spider,44,gpt-5.5-pro,openai_responses,5.0,20.0,72,3943,0.079220,4,llm_judge,SELECT SourceAirport FROM flights GROUP BY SourceAirport ORDER BY COUNT(*) ASC FETCH FIRST 1 ROW ONL
+20260509_181423,sql_spider,45,gpt-5.5-pro,openai_responses,5.0,20.0,78,774,0.015870,5,llm_judge,"SELECT p.first_name, tt.treatment_type_description FROM Professionals AS p JOIN Treatments AS t   ON"
+20260509_181423,sql_spider,46,gpt-5.5-pro,openai_responses,5.0,20.0,89,353,0.007505,3,llm_judge,"SELECT GovernmentForm, SUM(Population) AS total_population FROM country GROUP BY GovernmentForm HAVI"
+20260509_181423,sql_spider,47,gpt-5.5-pro,openai_responses,5.0,20.0,78,367,0.007730,5,llm_judge,SELECT template_type_code FROM Ref_Template_Types WHERE template_type_description = 'Book';
+20260509_181423,sql_spider,48,gpt-5.5-pro,openai_responses,5.0,20.0,76,957,0.019520,5,llm_judge,SELECT cn.Model FROM car_names AS cn JOIN cars_data AS cd ON cn.MakeId = cd.Id WHERE cd.Weight < (SE
+20260509_181423,sql_spider,49,gpt-5.5-pro,openai_responses,5.0,20.0,72,389,0.008140,5,llm_judge,SELECT Hometown FROM teacher GROUP BY Hometown HAVING COUNT(*) >= 2;
+20260509_181423,sql_spider,0,kimi-k2.6,moonshot,0.6,2.4,70,1440,0.003498,3,llm_judge,```sql SELECT money_rank FROM poker_player ORDER BY height DESC LIMIT 1 ```
+20260509_181423,sql_spider,1,kimi-k2.6,moonshot,0.6,2.4,76,534,0.001327,5,llm_judge,SELECT AVG(mpg) FROM cars WHERE cylinders = 4;
+20260509_181423,sql_spider,2,kimi-k2.6,moonshot,0.6,2.4,79,1601,0.003890,4,llm_judge,"```sql SELECT T1.name, T1.capacity FROM stadium AS T1 JOIN concert AS T2 ON T1.stadium_id = T2.stadi"
+20260509_181423,sql_spider,3,kimi-k2.6,moonshot,0.6,2.4,75,1572,0.003818,5,llm_judge,```sql SELECT Name FROM country WHERE Continent = 'Africa'   AND Population < (       SELECT MIN(Pop
+20260509_181423,sql_spider,4,kimi-k2.6,moonshot,0.6,2.4,70,677,0.001667,5,llm_judge,```sql SELECT SUM(bonus) AS total_bonus FROM evaluations; ```
+20260509_181423,sql_spider,5,kimi-k2.6,moonshot,0.6,2.4,70,3945,0.009510,5,llm_judge,```sql SELECT a.* FROM airport a WHERE NOT EXISTS (     SELECT 1     FROM flight f     WHERE f.depar
+20260509_181423,sql_spider,6,kimi-k2.6,moonshot,0.6,2.4,71,2791,0.006741,5,llm_judge,```sql SELECT DISTINCT a.name FROM airlines a JOIN flights f ON a.airline_id = f.airline_id WHERE f.
+20260509_181423,sql_spider,7,kimi-k2.6,moonshot,0.6,2.4,71,2451,0.005925,5,llm_judge,SELECT COUNT(*) FROM cars WHERE year = 1980;
+20260509_181423,sql_spider,8,kimi-k2.6,moonshot,0.6,2.4,81,1243,0.003032,5,llm_judge,SELECT COUNT(DISTINCT cl.Language) FROM country c JOIN countrylanguage cl ON c.Code = cl.CountryCode
+20260509_181423,sql_spider,9,kimi-k2.6,moonshot,0.6,2.4,73,1316,0.003202,4,llm_judge,SELECT c.CountryName FROM countries c JOIN car_makers m ON c.CountryId = m.Country GROUP BY c.Countr
+20260509_181423,sql_spider,10,kimi-k2.6,moonshot,0.6,2.4,74,402,0.001009,5,llm_judge,```sql SELECT SUM(SurfaceArea) FROM country WHERE Region = 'Caribbean'; ```
+20260509_181423,sql_spider,11,kimi-k2.6,moonshot,0.6,2.4,77,1369,0.003332,5,llm_judge,```sql SELECT Name FROM country WHERE Continent = 'Africa'   AND Population < (SELECT MIN(Population
+20260509_181423,sql_spider,12,kimi-k2.6,moonshot,0.6,2.4,82,1528,0.003716,5,llm_judge,"```sql SELECT p.id, p.role, p.first_name FROM professionals p INNER JOIN treatments t ON p.id = t.pr"
+20260509_181423,sql_spider,13,kimi-k2.6,moonshot,0.6,2.4,69,1099,0.002679,5,llm_judge,SELECT MAX(release_date) AS last_transcript_release_date FROM transcripts;
+20260509_181423,sql_spider,14,kimi-k2.6,moonshot,0.6,2.4,79,3403,0.008215,5,llm_judge,"SELECT m.id, m.full_name, COUNT(mo.id) AS num_models FROM makers m LEFT JOIN models mo ON m.id = mo."
+20260509_181423,sql_spider,15,kimi-k2.6,moonshot,0.6,2.4,69,1736,0.004208,5,llm_judge,"SELECT MIN(share) AS minimum_share, MAX(share) AS maximum_share FROM tv_series;"
+20260509_181423,sql_spider,16,kimi-k2.6,moonshot,0.6,2.4,72,251,0.000646,5,llm_judge,SELECT COUNT(DISTINCT country_code) FROM players;
+20260509_181423,sql_spider,17,kimi-k2.6,moonshot,0.6,2.4,79,1473,0.003583,5,llm_judge,SELECT name FROM stadium WHERE stadium_id NOT IN (SELECT stadium_id FROM concert WHERE year = 2014);
+20260509_181423,sql_spider,18,kimi-k2.6,moonshot,0.6,2.4,78,1542,0.003748,2,llm_judge,```sql SELECT country FROM singer WHERE age > 40 INTERSECT SELECT country FROM singer WHERE age < 30
+20260509_181423,sql_spider,19,kimi-k2.6,moonshot,0.6,2.4,78,3645,0.008795,5,llm_judge,```sql SELECT DISTINCT m.name FROM makers m JOIN cars c ON m.id = c.maker_id WHERE c.year = 1970; ``
+20260509_181423,sql_spider,20,kimi-k2.6,moonshot,0.6,2.4,76,3523,0.008501,4,llm_judge,"SELECT a.abbreviation, a.country FROM airlines a JOIN flights f ON a.airline_id = f.airline_id GROUP"
+20260509_181423,sql_spider,21,kimi-k2.6,moonshot,0.6,2.4,69,2189,0.005295,5,llm_judge,```sql SELECT f.flight_number FROM flights f JOIN airlines a ON f.airline_id = a.airline_id WHERE a.
+20260509_181423,sql_spider,22,kimi-k2.6,moonshot,0.6,2.4,73,2193,0.005307,5,llm_judge,SELECT section_name FROM sections ORDER BY section_name DESC;
+20260509_181423,sql_spider,23,kimi-k2.6,moonshot,0.6,2.4,72,1950,0.004723,5,llm_judge,"SELECT production_code, channel FROM tvshow WHERE genre = 'Cartoon' ORDER BY air_date DESC LIMIT 1;"
+20260509_181423,sql_spider,24,kimi-k2.6,moonshot,0.6,2.4,70,927,0.002267,4,llm_judge,SELECT Year FROM concert GROUP BY Year ORDER BY COUNT(*) DESC LIMIT 1;
+20260509_181423,sql_spider,25,kimi-k2.6,moonshot,0.6,2.4,68,4001,0.009643,5,llm_judge,```sql SELECT title FROM tvshow WHERE genre = 'Cartoon' AND director = 'Ben Jones'; ```
+20260509_181423,sql_spider,26,kimi-k2.6,moonshot,0.6,2.4,80,8192,0.019709,0,llm_judge,
+20260509_181423,sql_spider,27,kimi-k2.6,moonshot,0.6,2.4,72,1117,0.002724,5,llm_judge,```sql SELECT c.Name FROM country c JOIN countrylanguage cl1 ON c.Code = cl1.CountryCode JOIN countr
+20260509_181423,sql_spider,28,kimi-k2.6,moonshot,0.6,2.4,72,888,0.002174,5,llm_judge,```sql SELECT nationality FROM poker_player GROUP BY nationality HAVING COUNT(*) >= 2 ```
+20260509_181423,sql_spider,29,kimi-k2.6,moonshot,0.6,2.4,70,278,0.000709,5,llm_judge,SELECT COUNT(DISTINCT Language) FROM countrylanguage
+20260509_181423,sql_spider,30,kimi-k2.6,moonshot,0.6,2.4,72,558,0.001382,4,llm_judge,SELECT AVG(winner_rank) FROM matches;
+20260509_181423,sql_spider,31,kimi-k2.6,moonshot,0.6,2.4,75,4815,0.011601,5,llm_judge,SELECT DISTINCT a.airline_name FROM airlines a JOIN flights f ON a.airline_id = f.airline_id WHERE f
+20260509_181423,sql_spider,32,kimi-k2.6,moonshot,0.6,2.4,75,1333,0.003244,4,llm_judge,"SELECT p.first_name, AVG(r.ranking) AS average_ranking FROM players p LEFT JOIN rankings r ON p.play"
+20260509_181423,sql_spider,33,kimi-k2.6,moonshot,0.6,2.4,78,3172,0.007660,5,llm_judge,"SELECT episode_name, rating FROM episodes ORDER BY rating DESC LIMIT 3;"
+20260509_181423,sql_spider,34,kimi-k2.6,moonshot,0.6,2.4,69,967,0.002362,1,llm_judge,SELECT * FROM hiring;
+20260509_181423,sql_spider,35,kimi-k2.6,moonshot,0.6,2.4,74,3178,0.007672,5,llm_judge,SELECT c.name FROM conductor c JOIN performance p ON c.conductor_id = p.conductor_id GROUP BY c.cond
+20260509_181423,sql_spider,36,kimi-k2.6,moonshot,0.6,2.4,71,2897,0.006995,4,llm_judge,"```sql SELECT s.name FROM student s JOIN likes l ON s.id = l.liked_id GROUP BY s.id, s.name ORDER BY"
+20260509_181423,sql_spider,37,kimi-k2.6,moonshot,0.6,2.4,75,3559,0.008587,2,llm_judge,"SELECT song_name, song_release_year FROM singer ORDER BY age ASC LIMIT 1"
+20260509_181423,sql_spider,38,kimi-k2.6,moonshot,0.6,2.4,83,1030,0.002522,4,llm_judge,"```sql SELECT c.Name, COUNT(cl.Language) AS NumberOfLanguages FROM country c JOIN countrylanguage cl"
+20260509_181423,sql_spider,39,kimi-k2.6,moonshot,0.6,2.4,78,2688,0.006498,5,llm_judge,"SELECT DISTINCT c.conductor_name, o.orchestra_name FROM conductor c JOIN performance p ON c.conducto"
+20260509_181423,sql_spider,40,kimi-k2.6,moonshot,0.6,2.4,89,8192,0.019714,1,llm_judge,
+20260509_181423,sql_spider,41,kimi-k2.6,moonshot,0.6,2.4,70,1095,0.002670,3,llm_judge,SELECT SUM(Population) FROM city WHERE District = 'Gelderland';
+20260509_181423,sql_spider,42,kimi-k2.6,moonshot,0.6,2.4,76,2184,0.005287,5,llm_judge,SELECT id FROM templates WHERE description = 'Presentation';
+20260509_181423,sql_spider,43,kimi-k2.6,moonshot,0.6,2.4,69,550,0.001361,5,llm_judge,SELECT COUNT(*) FROM cars WHERE cylinders > 6;
+20260509_181423,sql_spider,44,kimi-k2.6,moonshot,0.6,2.4,71,3797,0.009155,4,llm_judge,```sql SELECT airport_code FROM (     SELECT origin AS airport_code FROM flights     UNION ALL     S
+20260509_181423,sql_spider,45,kimi-k2.6,moonshot,0.6,2.4,77,2025,0.004906,5,llm_judge,"SELECT p.first_name, t.description FROM professionals p JOIN treatments t ON p.professional_id = t.p"
+20260509_181423,sql_spider,46,kimi-k2.6,moonshot,0.6,2.4,88,738,0.001824,3,llm_judge,"SELECT GovernmentForm, SUM(Population) AS TotalPopulation FROM country GROUP BY GovernmentForm HAVIN"
+20260509_181423,sql_spider,47,kimi-k2.6,moonshot,0.6,2.4,78,726,0.001789,5,llm_judge,SELECT type_code FROM template_type WHERE description = 'Book';
+20260509_181423,sql_spider,48,kimi-k2.6,moonshot,0.6,2.4,75,834,0.002047,5,llm_judge,SELECT model FROM cars WHERE weight < (SELECT AVG(weight) FROM cars)
+20260509_181423,sql_spider,49,kimi-k2.6,moonshot,0.6,2.4,71,477,0.001187,5,llm_judge,SELECT hometown FROM teacher GROUP BY hometown HAVING COUNT(*) >= 2;
+20260509_181423,sql_spider,0,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,67,567,0.001016,4,llm_judge,"```sql WITH ranked_players AS (     SELECT          height,         RANK() OVER (ORDER BY money DESC"
+20260509_181423,sql_spider,1,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,73,121,0.000242,5,llm_judge,```sql SELECT AVG(mpg) AS average_mpg FROM cars WHERE cylinders = 4; ```
+20260509_181423,sql_spider,2,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,75,408,0.000743,4,llm_judge,"```sql SELECT s.name, s.capacity FROM stadium s JOIN concert c ON s.stadium_id = c.stadium_id WHERE "
+20260509_181423,sql_spider,3,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,72,204,0.000386,5,llm_judge,```sql SELECT name FROM country WHERE continent = 'Africa'   AND population < ALL (     SELECT popul
+20260509_181423,sql_spider,4,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,68,24,0.000071,2,llm_judge,```sql SELECT SUM(bonus) AS total_bonus FROM employee_hire_evaluation; ```
+20260509_181423,sql_spider,5,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,67,353,0.000643,5,llm_judge,```sql SELECT a.* FROM airports a WHERE NOT EXISTS (     SELECT 1 FROM flights f WHERE f.departure_a
+20260509_181423,sql_spider,6,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,68,284,0.000524,5,llm_judge,```sql SELECT DISTINCT airline FROM flights WHERE destination_airport = 'AHD'; ```
+20260509_181423,sql_spider,7,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,68,336,0.000614,5,llm_judge,SELECT COUNT(*) FROM cars WHERE year = 1980;
+20260509_181423,sql_spider,8,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,78,356,0.000653,5,llm_judge,```sql SELECT COUNT(DISTINCT cl.language)  FROM country c  JOIN countrylanguage cl ON c.code = cl.co
+20260509_181423,sql_spider,9,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,70,396,0.000719,4,llm_judge,SELECT c.CountryName FROM countries c JOIN car_makers cm ON cm.Country = c.CountryId GROUP BY c.Coun
+20260509_181423,sql_spider,10,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,71,238,0.000445,5,llm_judge,SELECT SUM(SurfaceArea) FROM country WHERE Region = 'Caribbean';
+20260509_181423,sql_spider,11,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,74,357,0.000653,5,llm_judge,SELECT name FROM country WHERE continent = 'Africa' AND population < ALL (     SELECT population    
+20260509_181423,sql_spider,12,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,79,265,0.000495,5,llm_judge,"```sql SELECT p.id, p.role, p.first_name FROM professionals p JOIN treatments t ON p.id = t.professi"
+20260509_181423,sql_spider,13,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,67,22,0.000067,5,llm_judge,```sql SELECT MAX(release_date) AS last_transcript_release_date FROM transcripts; ```
+20260509_181423,sql_spider,14,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,76,457,0.000828,5,llm_judge,"```sql SELECT m.full_name, m.id, COUNT(md.id) AS number FROM maker m LEFT JOIN model md ON m.id = md"
+20260509_181423,sql_spider,15,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,66,35,0.000090,5,llm_judge,"```sql SELECT MIN(share) AS min_share, MAX(share) AS max_share FROM tvshow WHERE type = 'TV series';"
+20260509_181423,sql_spider,16,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,69,121,0.000241,5,llm_judge,SELECT COUNT(DISTINCT country_code) FROM players;
+20260509_181423,sql_spider,17,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,76,439,0.000797,5,llm_judge,```sql SELECT s.name FROM stadium s WHERE NOT EXISTS (     SELECT 1     FROM concert c     WHERE c.s
+20260509_181423,sql_spider,18,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,75,539,0.000970,4,llm_judge,```sql SELECT country FROM singer GROUP BY country HAVING SUM(CASE WHEN age > 40 THEN 1 ELSE 0 END) 
+20260509_181423,sql_spider,19,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,75,220,0.000415,5,llm_judge,SELECT DISTINCT m.name FROM makers m JOIN cars c ON m.id = c.maker_id WHERE c.year = 1970;
+20260509_181423,sql_spider,20,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,73,471,0.000851,4,llm_judge,"```sql SELECT a.abbreviation, a.country FROM airlines a JOIN flights f ON a.id = f.airline_id GROUP "
+20260509_181423,sql_spider,21,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,66,324,0.000592,5,llm_judge,```sql SELECT f.flight_number FROM flights f JOIN airlines a ON f.airline_id = a.airline_id WHERE a.
+20260509_181423,sql_spider,22,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,71,100,0.000205,5,llm_judge,```sql SELECT name FROM sections ORDER BY name DESC; ```
+20260509_181423,sql_spider,23,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,69,853,0.001514,4,llm_judge,"```sql SELECT e.production_code, s.channel FROM tvshow s JOIN episode e ON s.id = e.show_id WHERE s."
+20260509_181423,sql_spider,24,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,67,539,0.000967,5,llm_judge,"```sql WITH year_concert_counts AS (     SELECT          EXTRACT(YEAR FROM date) AS year,         CO"
+20260509_181423,sql_spider,25,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,65,502,0.000902,4,llm_judge,```sql SELECT *  FROM tvshow  WHERE genre = 'Cartoon'    AND director = 'Ben Jones'; ```
+20260509_181423,sql_spider,26,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,76,442,0.000802,5,llm_judge,SELECT COUNT(*) FROM flights WHERE departure_city = 'Aberdeen' AND destination_city = 'Ashley';
+20260509_181423,sql_spider,27,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,69,333,0.000609,5,llm_judge,```sql SELECT c.name FROM country c JOIN countrylanguage cl ON c.code = cl.countrycode WHERE cl.lang
+20260509_181423,sql_spider,28,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,69,188,0.000357,5,llm_judge,```sql SELECT nationality FROM poker_player GROUP BY nationality HAVING COUNT(*) >= 2; ```
+20260509_181423,sql_spider,29,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,67,156,0.000301,5,llm_judge,```sql SELECT COUNT(DISTINCT language) FROM countrylanguage; ```
+20260509_181423,sql_spider,30,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,69,357,0.000651,5,llm_judge,```sql SELECT AVG(winner_rank) AS average_winner_rank FROM matches; ```
+20260509_181423,sql_spider,31,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,72,267,0.000496,5,llm_judge,```sql SELECT DISTINCT a.airline_name FROM airlines a JOIN flights f ON a.airline_id = f.airline_id 
+20260509_181423,sql_spider,32,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,72,460,0.000832,5,llm_judge,"```sql SELECT p.first_name, AVG(r.rank) AS average_ranking FROM players p LEFT JOIN rankings r ON p."
+20260509_181423,sql_spider,33,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,75,298,0.000551,5,llm_judge,"```sql SELECT title, rating FROM episodes ORDER BY rating DESC LIMIT 3; ```"
+20260509_181423,sql_spider,34,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,67,481,0.000866,5,llm_judge,SELECT * FROM hire;
+20260509_181423,sql_spider,35,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,71,407,0.000739,5,llm_judge,"```sql SELECT c.name FROM conductor c JOIN performance p ON c.id = p.conductor_id GROUP BY c.id, c.n"
+20260509_181423,sql_spider,36,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,68,1365,0.002405,4,llm_judge,"```sql SELECT s.name FROM Student s JOIN (     SELECT liked_id, COUNT(*) AS like_count     FROM Like"
+20260509_181423,sql_spider,37,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,72,613,0.001098,4,llm_judge,"```sql SELECT s.name, s.release_year FROM song s JOIN singer si ON s.singer_id = si.singer_id WHERE "
+20260509_181423,sql_spider,38,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,80,388,0.000710,4,llm_judge,"```sql SELECT c.Name, COUNT(cl.Language) AS num_languages FROM country c JOIN countrylanguage cl ON "
+20260509_181423,sql_spider,39,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,75,423,0.000769,5,llm_judge,"```sql SELECT DISTINCT conductor.name AS conductor_name, orchestra.name AS orchestra_name FROM condu"
+20260509_181423,sql_spider,40,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,86,581,0.001048,5,llm_judge,"```sql SELECT DISTINCT m.makeid, m.name FROM makes m JOIN cars c ON m.makeid = c.makeid WHERE c.hors"
+20260509_181423,sql_spider,41,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,67,18,0.000060,3,llm_judge,SELECT SUM(population) FROM city WHERE district = 'Gelderland';
+20260509_181423,sql_spider,42,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,73,221,0.000416,5,llm_judge,```sql SELECT id FROM Template WHERE description = 'Presentation'; ```
+20260509_181423,sql_spider,43,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,66,139,0.000271,5,llm_judge,```sql SELECT COUNT(*)  FROM cars  WHERE cylinders > 6; ```
+20260509_181423,sql_spider,44,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,68,903,0.001601,4,llm_judge,```sql SELECT a.code FROM airports a LEFT JOIN (     SELECT origin AS code FROM flights     UNION AL
+20260509_181423,sql_spider,45,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,74,303,0.000559,5,llm_judge,"```sql SELECT p.first_name, t.description FROM professionals p JOIN professional_treatments pt ON p."
+20260509_181423,sql_spider,46,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,85,363,0.000669,3,llm_judge,"```sql SELECT governmentform, SUM(population) AS total_population FROM country GROUP BY governmentfo"
+20260509_181423,sql_spider,47,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,75,231,0.000435,5,llm_judge,```sql SELECT TypeCode FROM TemplateType WHERE Description = 'Book'; ```
+20260509_181423,sql_spider,48,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,72,186,0.000355,5,llm_judge,```sql SELECT model FROM cars WHERE weight < (SELECT AVG(weight) FROM cars); ```
+20260509_181423,sql_spider,49,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,69,24,0.000072,5,llm_judge,```sql SELECT hometown FROM teachers GROUP BY hometown HAVING COUNT(*) >= 2; ```
+20260509_181423,sql_spider,0,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,80,221,0.000027,4,llm_judge,SELECT money_rank FROM poker_player.players WHERE height = (SELECT MAX(height) FROM poker_player.pla
+20260509_181423,sql_spider,1,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,86,300,0.000035,1,llm_judge,"We need to output only the SQL query? Wait the user wants just the JSON? No, the user wants just the"
+20260509_181423,sql_spider,2,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,89,300,0.000035,1,llm_judge,"We need to produce only the SQL query? No, the user asks: ""What is the user wants only the SQL query"
+20260509_181423,sql_spider,3,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,84,300,0.000035,1,llm_judge,
+20260509_181423,sql_spider,4,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,70,12,0.000007,5,llm_judge,SELECT SUM(bonus) AS total_bonus FROM evaluations;
+20260509_181423,sql_spider,5,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,79,163,0.000022,1,llm_judge,"We need to output only SQL query? Wait the instruction: ""Given the following database context, write"
+20260509_181423,sql_spider,6,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,80,300,0.000034,0,llm_judge,
+20260509_181423,sql_spider,7,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,82,161,0.000022,5,llm_judge,SELECT COUNT(*) FROM cars WHERE year = 1980;
+20260509_181423,sql_spider,8,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,92,300,0.000035,3,llm_judge,SELECT COUNT(DISTINCT cl.Language) AS
+20260509_181423,sql_spider,9,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,73,40,0.000010,5,llm_judge,"SELECT c.name FROM countries c JOIN car_makers m ON m.country_id = c.id GROUP BY c.id, c.name ORDER "
+20260509_181423,sql_spider,10,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,74,22,0.000009,5,llm_judge,SELECT SUM(SurfaceArea) AS total_surface_area FROM Country WHERE Region = 'Caribbean';
+20260509_181423,sql_spider,11,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,86,300,0.000035,4,llm_judge,"We need to write a SQL query: ""What are the African countries that have a population less than any c"
+20260509_181423,sql_spider,12,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,82,58,0.000013,5,llm_judge,"SELECT p.professional_id, p.role, p.first_name FROM professionals p JOIN treatments t ON p.professio"
+20260509_181423,sql_spider,13,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,79,300,0.000034,3,llm_judge,"We need to write a SQL query to answer: ""What is the last transcript release date?"" Database: studen"
+20260509_181423,sql_spider,14,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,88,300,0.000035,0,llm_judge,
+20260509_181423,sql_spider,15,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,69,21,0.000008,5,llm_judge,"SELECT MIN(share) AS min_share, MAX(share) AS max_share FROM tv_series;"
+20260509_181423,sql_spider,16,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,72,16,0.000008,5,llm_judge,SELECT COUNT(DISTINCT country_code) AS distinct_country_codes FROM players;
+20260509_181423,sql_spider,17,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,90,12,0.000009,1,llm_judge,We need to output only the JSON? No explanation.
+20260509_181423,sql_spider,18,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,89,293,0.000034,4,llm_judge,SELECT country FROM singers WHERE age > 40 INTERSECT SELECT country FROM singers WHERE age < 30;
+20260509_181423,sql_spider,19,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,89,170,0.000023,5,llm_judge,SELECT DISTINCT m.name FROM makers m JOIN cars c ON m.maker_id = c.maker_id WHERE c.year = 1970;
+20260509_181423,sql_spider,20,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,76,51,0.000011,4,llm_judge,"SELECT a.abbreviation, a.country FROM airlines a JOIN flights f ON a.airline_id = f.airline_id GROUP"
+20260509_181423,sql_spider,21,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,69,14,0.000007,5,llm_judge,SELECT flight_number FROM flights WHERE airline_name = 'United Airlines';
+20260509_181423,sql_spider,22,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,84,189,0.000025,5,llm_judge,SELECT name FROM sections ORDER BY name DESC;
+20260509_181423,sql_spider,23,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,81,285,0.000033,5,llm_judge,"SELECT production_code, channel FROM cartoons WHERE genre = 'cartoon' ORDER BY air_date DESC LIMIT 1"
+20260509_181423,sql_spider,24,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,70,21,0.000008,5,llm_judge,SELECT year FROM concerts GROUP BY year ORDER BY COUNT(*) DESC LIMIT 1;
+20260509_181423,sql_spider,25,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,77,47,0.000011,1,llm_judge,"We need to write a SQL query: List all cartoon directed by ""Ben Jones"". Database: tvshow. Likely tab"
+20260509_181423,sql_spider,26,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,88,300,0.000035,4,llm_judge,"We need to infer schema. Database flight_2 likely contains tables like flights, cities, maybe airpor"
+20260509_181423,sql_spider,27,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,81,300,0.000034,0,llm_judge,
+20260509_181423,sql_spider,28,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,81,140,0.000020,5,llm_judge,SELECT nationality FROM players GROUP BY nationality HAVING COUNT(*) >= 2;
+20260509_181423,sql_spider,29,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,79,110,0.000017,5,llm_judge,SELECT COUNT(DISTINCT Language) AS unique_languages FROM CountryLanguage;
+20260509_181423,sql_spider,30,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,81,300,0.000034,1,llm_judge,"We need to produce only SQL? No, the instruction: ""Return ONLY the SQL query is not needed. Provide "
+20260509_181423,sql_spider,31,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,84,300,0.000035,1,llm_judge,"We need to output only SQL? Wait the instruction: ""What are airlines that have some flight_2. Provid"
+20260509_181423,sql_spider,32,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,84,284,0.000033,5,llm_judge,"SELECT p.first_name, AVG(r.ranking) AS average_ranking FROM players p JOIN rankings r ON p.player_id"
+20260509_181423,sql_spider,33,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,87,254,0.000031,3,llm_judge,"SELECT episode_name, rating FROM tv_series ORDER BY rating DESC LIMIT 3;"
+20260509_181423,sql_spider,34,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,69,9,0.000007,1,llm_judge,SELECT * FROM employee_hire_evaluation;
+20260509_181423,sql_spider,35,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,83,300,0.000034,4,llm_judge,"SELECT c.name FROM conductors c JOIN conductor_orchestra co ON c.id = co.conductor_id GROUP BY c.id,"
+20260509_181423,sql_spider,36,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,71,40,0.000010,5,llm_judge,"SELECT s.name FROM students s JOIN likes l ON s.id = l.student_id GROUP BY s.id, s.name ORDER BY COU"
+20260509_181423,sql_spider,37,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,84,300,0.000035,2,llm_judge,"SELECT song.name, song.release_year FROM song JOIN singer ON song.singer_id = singer.s"
+20260509_181423,sql_spider,38,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,92,235,0.000029,4,llm_judge,"SELECT c.Name, COUNT(cl.Language) AS LanguageCount FROM Country c JOIN CountryLanguage cl ON c.Code "
+20260509_181423,sql_spider,39,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,87,259,0.000031,5,llm_judge,"SELECT c.name AS conductor_name,        o.name AS orchestra_name FROM conductors c JOIN conductor_or"
+20260509_181423,sql_spider,40,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,99,300,0.000036,1,llm_judge,
+20260509_181423,sql_spider,41,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,69,25,0.000008,4,llm_judge,SELECT SUM(Population) AS total_population FROM world_1.City WHERE District = 'Gelderland';
+20260509_181423,sql_spider,42,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,75,11,0.000008,5,llm_judge,SELECT id FROM Template WHERE description = 'Presentation';
+20260509_181423,sql_spider,43,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,69,12,0.000007,5,llm_judge,SELECT COUNT(*) FROM cars WHERE cylinders > 6;
+20260509_181423,sql_spider,44,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,80,300,0.000034,2,llm_judge,"We need to infer schema: database flight_2 likely contains tables like airports, flights. Typical co"
+20260509_181423,sql_spider,45,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,86,299,0.000035,5,llm_judge,"SELECT p.first_name, t.description FROM professionals AS p JOIN professional_treatments AS pt ON p.p"
+20260509_181423,sql_spider,46,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,88,34,0.000011,3,llm_judge,"SELECT GovernmentForm, SUM(Population) AS TotalPopulation FROM Country GROUP BY GovernmentForm HAVIN"
+20260509_181423,sql_spider,47,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,87,129,0.000019,5,llm_judge,SELECT TypeCode FROM TemplateType WHERE Description = 'Book';
+20260509_181423,sql_spider,48,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,84,300,0.000035,1,llm_judge,
+20260509_181423,sql_spider,49,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,71,19,0.000008,5,llm_judge,SELECT hometown FROM teachers GROUP BY hometown HAVING COUNT(*) >= 2;

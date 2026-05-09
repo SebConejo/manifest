@@ -2,12 +2,12 @@
   "model": "gpt-5.5-pro",
   "task": "sql_spider",
   "case": 15,
-  "response": "SELECT MIN(share) AS min_share, MAX(share) AS max_share\nFROM tv_series;",
+  "response": "SELECT MIN(share), MAX(share)\nFROM tv_series;",
   "score": 5,
-  "cost": 0.01937,
+  "cost": 0.01265,
   "expected": "",
   "tokens": {
     "input": 70,
-    "output": 951
+    "output": 615
   }
 }

@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "sql_spider",
   "case": 47,
-  "response": "SELECT TypeCode\nFROM TemplateType\nWHERE Description = 'Book';",
+  "response": "SELECT TypeCode FROM TemplateType WHERE Description = 'Book';",
   "score": 5,
-  "cost": 2.6189999999999998e-05,
+  "cost": 1.9439999999999997e-05,
   "expected": "",
   "tokens": {
     "input": 87,
-    "output": 204
+    "output": 129
   }
 }

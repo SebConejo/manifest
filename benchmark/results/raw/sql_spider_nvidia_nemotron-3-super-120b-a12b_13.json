@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "sql_spider",
   "case": 13,
-  "response": "SELECT MAX(release_date) AS last_transcript_release_date\nFROM transcript_release;",
-  "score": 5,
-  "cost": 2.6639999999999996e-05,
+  "response": "We need to write a SQL query to answer: \"What is the last transcript release date?\" Database: student_transcripts_tracking. Assume typical table and column names based on database name and question context.\n\nWe need to infer schema: likely a table like transcripts or transcript_releases, with columns like release_date, transcript_id, student_id, etc. The question: \"What is the last transcript release date?\" So we need to select the maximum release date.\n\nThus query: SELECT MAX(release_date) AS last_transcript_release_date FROM transcript_release; Or maybe table name: transcripts or transcript_releases. Since database name is student_transcripts_tracking, maybe table is transcript_releases. Could also be student_transcripts. But we need to assume typical table and column names based on database name and question context.\n\nGiven \"student_transcripts_tracking\" maybe there is a table \"transcript_tracking\" with columns: transcript_id, student_id, release_date, etc. The last transcript release date: max(release_date). So query: SELECT MAX(release_date) AS last_transcript_release_date FROM transcript_tracking;\n\nAlternatively could be table \"transcripts\" with column \"release_date\". But we need to produce a query.\n\nWe must return only the SQL query, no explanation.\n\nThus final answer: SELECT MAX(release_date) AS last_transcript_release_date FROM transcript_tracking;\n\nMake sure to use standard SQL. Use backticks? Not needed. Use double",
+  "score": 3,
+  "cost": 3.411e-05,
   "expected": "",
   "tokens": {
     "input": 79,
-    "output": 217
+    "output": 300
   }
 }

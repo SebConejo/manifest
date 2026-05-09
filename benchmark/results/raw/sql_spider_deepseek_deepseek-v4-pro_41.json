@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "sql_spider",
   "case": 41,
-  "response": "SELECT SUM(Population) FROM city WHERE District = 'Gelderland';",
+  "response": "SELECT SUM(population) FROM city WHERE district = 'Gelderland';",
   "score": 3,
-  "cost": 0.00045892499999999995,
+  "cost": 6.0465000000000005e-05,
   "expected": "",
   "tokens": {
     "input": 67,
-    "output": 247
+    "output": 18
   }
 }

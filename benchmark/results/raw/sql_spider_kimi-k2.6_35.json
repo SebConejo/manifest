@@ -1,0 +1,13 @@
+{
+  "model": "kimi-k2.6",
+  "task": "sql_spider",
+  "case": 35,
+  "response": "SELECT c.name\nFROM conductor c\nJOIN performance p ON c.conductor_id = p.conductor_id\nGROUP BY c.conductor_id, c.name\nORDER BY COUNT(DISTINCT p.orchestra_id) DESC\nLIMIT 1;",
+  "score": 5,
+  "cost": 0.0076716,
+  "expected": "",
+  "tokens": {
+    "input": 74,
+    "output": 3178
+  }
+}

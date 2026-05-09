@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "sql_spider",
   "case": 21,
-  "response": "SELECT flight_number\nFROM flights\nWHERE airline = 'United Airlines';",
+  "response": "SELECT flight_number FROM flights WHERE airline_name = 'United Airlines';",
   "score": 5,
-  "cost": 7.56e-06,
+  "cost": 7.47e-06,
   "expected": "",
   "tokens": {
     "input": 69,
-    "output": 15
+    "output": 14
   }
 }

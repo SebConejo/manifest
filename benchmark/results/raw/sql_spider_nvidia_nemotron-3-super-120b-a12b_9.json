@@ -2,8 +2,8 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "sql_spider",
   "case": 9,
-  "response": "SELECT c.name AS country_name\nFROM car_makers cm\nJOIN countries c ON cm.country_id = c.id\nGROUP BY c.name\nORDER BY COUNT(*) DESC\nLIMIT 1;",
-  "score": 4,
+  "response": "SELECT c.name\nFROM countries c\nJOIN car_makers m ON m.country_id = c.id\nGROUP BY c.id, c.name\nORDER BY COUNT(*) DESC\nLIMIT 1;",
+  "score": 5,
   "cost": 1.0169999999999997e-05,
   "expected": "",
   "tokens": {

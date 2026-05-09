@@ -1,0 +1,13 @@
+{
+  "model": "kimi-k2.6",
+  "task": "sql_spider",
+  "case": 31,
+  "response": "SELECT DISTINCT a.airline_name\nFROM airlines a\nJOIN flights f ON a.airline_id = f.airline_id\nWHERE f.origin = 'AHD';",
+  "score": 5,
+  "cost": 0.011601,
+  "expected": "",
+  "tokens": {
+    "input": 75,
+    "output": 4815
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "model": "kimi-k2.6",
+  "task": "sql_spider",
+  "case": 25,
+  "response": "```sql\nSELECT title FROM tvshow WHERE genre = 'Cartoon' AND director = 'Ben Jones';\n```",
+  "score": 5,
+  "cost": 0.0096432,
+  "expected": "",
+  "tokens": {
+    "input": 68,
+    "output": 4001
+  }
+}

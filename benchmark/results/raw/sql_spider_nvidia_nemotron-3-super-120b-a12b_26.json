@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "sql_spider",
   "case": 26,
-  "response": "SELECT COUNT(*) AS flight_count\nFROM flights\nWHERE departure_city = 'Aberdeen'\n  AND destination_city = 'Ashley';",
-  "score": 5,
-  "cost": 9.81e-06,
+  "response": "We need to infer schema. Database flight_2 likely contains tables like flights, cities, maybe airports. Typical columns: flight_id, departure_city_id, arrival_city_id, departure_time, etc. Or maybe tables: flights (id, origin_city, destination_city, ...). Or maybe there is a cities table with city_id, city_name. The question: \"How many flights depart from City 'Aberdeen' and have destination City 'Ashley'?\" So we need count of flights where origin city name = 'Aberdeen' and destination city name = 'Ashley'.\n\nAssume tables: flights (flight_id, departure_city_id, arrival_city_id) and cities (city_id, city_name). Or maybe flights have columns departure_city, destination_city as strings directly. But they said assume typical table and column names based on database name and question context. So we can guess: flights table with columns: departure_city, destination_city. Or maybe origin_city, dest_city.\n\nBetter to join: SELECT COUNT(*) FROM flights f JOIN cities c_origin ON f.departure_city_id = c_origin.city_id JOIN cities c_dest ON f.arrival_city_id = c_dest.city_id WHERE c_origin.city_name = 'Aberdeen' AND c_dest.city_name = 'Ashley';\n\nIf flights have direct city names: SELECT COUNT(*) FROM flights WHERE departure_city = 'Aberdeen' AND destination_city = 'Ashley';\n\nWe need to decide. Since they",
+  "score": 4,
+  "cost": 3.4920000000000004e-05,
   "expected": "",
   "tokens": {
-    "input": 80,
-    "output": 29
+    "input": 88,
+    "output": 300
   }
 }

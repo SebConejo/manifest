@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "sql_spider",
   "case": 42,
-  "response": "```sql\nSELECT id FROM templates WHERE description = 'Presentation';\n```",
+  "response": "```sql\nSELECT id FROM Template WHERE description = 'Presentation';\n```",
   "score": 5,
-  "cost": 0.000419775,
+  "cost": 0.000416295,
   "expected": "",
   "tokens": {
     "input": 73,
-    "output": 223
+    "output": 221
   }
 }

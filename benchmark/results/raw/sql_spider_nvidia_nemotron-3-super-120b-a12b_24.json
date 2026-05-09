@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "sql_spider",
   "case": 24,
-  "response": "SELECT EXTRACT(YEAR FROM concert_date) AS year\nFROM concerts\nGROUP BY year\nORDER BY COUNT(*) DESC\nLIMIT 1;",
-  "score": 4,
-  "cost": 2.772e-05,
+  "response": "SELECT year\nFROM concerts\nGROUP BY year\nORDER BY COUNT(*) DESC\nLIMIT 1;",
+  "score": 5,
+  "cost": 8.19e-06,
   "expected": "",
   "tokens": {
-    "input": 79,
-    "output": 229
+    "input": 70,
+    "output": 21
   }
 }

@@ -1,0 +1,13 @@
+{
+  "model": "deepseek/deepseek-v4-pro",
+  "task": "sql_spider",
+  "case": 14,
+  "response": "```sql\nSELECT m.full_name, m.id, COUNT(md.id) AS number\nFROM maker m\nLEFT JOIN model md ON m.id = md.maker_id\nGROUP BY m.id, m.full_name\nORDER BY m.id;\n```",
+  "score": 5,
+  "cost": 0.00082824,
+  "expected": "",
+  "tokens": {
+    "input": 76,
+    "output": 457
+  }
+}

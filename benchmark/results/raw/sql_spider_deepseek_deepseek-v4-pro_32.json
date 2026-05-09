@@ -1,0 +1,13 @@
+{
+  "model": "deepseek/deepseek-v4-pro",
+  "task": "sql_spider",
+  "case": 32,
+  "response": "```sql\nSELECT p.first_name, AVG(r.rank) AS average_ranking\nFROM players p\nLEFT JOIN rankings r ON p.player_id = r.player_id\nGROUP BY p.player_id, p.first_name\nORDER BY p.first_name;\n```",
+  "score": 5,
+  "cost": 0.00083172,
+  "expected": "",
+  "tokens": {
+    "input": 72,
+    "output": 460
+  }
+}

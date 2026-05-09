@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "sql_spider",
   "case": 42,
-  "response": "SELECT id FROM templates WHERE description = 'Presentation';",
+  "response": "SELECT id FROM Template WHERE description = 'Presentation';",
   "score": 5,
-  "cost": 2.007e-05,
+  "cost": 7.74e-06,
   "expected": "",
   "tokens": {
-    "input": 85,
-    "output": 138
+    "input": 75,
+    "output": 11
   }
 }

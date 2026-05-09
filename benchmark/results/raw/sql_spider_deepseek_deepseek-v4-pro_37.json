@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "sql_spider",
   "case": 37,
-  "response": "```sql\nSELECT s.Name AS SingerName, sg.Name AS SongName, sg.Release_Year AS ReleaseYear\nFROM singer s\nJOIN song sg ON s.Singer_ID = sg.Singer_ID\nWHERE s.Birth_Date = (SELECT MAX(Birth_Date) FROM singer);\n```",
+  "response": "```sql\nSELECT s.name, s.release_year\nFROM song s\nJOIN singer si ON s.singer_id = si.singer_id\nWHERE si.birth_date = (SELECT MAX(birth_date) FROM singer);\n```",
   "score": 4,
-  "cost": 0.00138504,
+  "cost": 0.0010979399999999997,
   "expected": "",
   "tokens": {
     "input": 72,
-    "output": 778
+    "output": 613
   }
 }

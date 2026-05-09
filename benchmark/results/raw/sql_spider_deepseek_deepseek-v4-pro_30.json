@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "sql_spider",
   "case": 30,
-  "response": "SELECT AVG(winner_rank) AS average_rank FROM matches;",
-  "score": 4,
-  "cost": 0.000324075,
+  "response": "```sql\nSELECT AVG(winner_rank) AS average_winner_rank\nFROM matches;\n```",
+  "score": 5,
+  "cost": 0.0006511949999999999,
   "expected": "",
   "tokens": {
     "input": 69,
-    "output": 169
+    "output": 357
   }
 }

@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "sql_spider",
   "case": 27,
-  "response": "SELECT country.Name\nFROM country\nJOIN countrylanguage ON country.Code = countrylanguage.CountryCode\nWHERE countrylanguage.Language IN ('English', 'French')\nGROUP BY country.Code, country.Name\nHAVING COUNT(DISTINCT countrylanguage.Language) = 2;",
+  "response": "```sql\nSELECT c.name\nFROM country c\nJOIN countrylanguage cl ON c.code = cl.countrycode\nWHERE cl.language IN ('English', 'French')\nGROUP BY c.code, c.name\nHAVING COUNT(DISTINCT cl.language) = 2;\n```",
   "score": 5,
-  "cost": 0.000548535,
+  "cost": 0.000609435,
   "expected": "",
   "tokens": {
     "input": 69,
-    "output": 298
+    "output": 333
   }
 }

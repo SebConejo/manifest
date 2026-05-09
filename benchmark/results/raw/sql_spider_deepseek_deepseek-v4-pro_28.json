@@ -4,10 +4,10 @@
   "case": 28,
   "response": "```sql\nSELECT nationality\nFROM poker_player\nGROUP BY nationality\nHAVING COUNT(*) >= 2;\n```",
   "score": 5,
-  "cost": 0.00027883499999999996,
+  "cost": 0.000357135,
   "expected": "",
   "tokens": {
     "input": 69,
-    "output": 143
+    "output": 188
   }
 }

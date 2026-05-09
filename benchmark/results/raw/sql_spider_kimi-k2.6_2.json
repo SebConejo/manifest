@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "sql_spider",
   "case": 2,
-  "response": "SELECT T1.name, T1.capacity FROM stadium AS T1 JOIN concert AS T2 ON T1.stadium_id = T2.stadium_id WHERE T2.year > 2013 GROUP BY T1.stadium_id, T1.name, T1.capacity ORDER BY COUNT(*) DESC LIMIT 1",
+  "response": "```sql\nSELECT T1.name, T1.capacity\nFROM stadium AS T1\nJOIN concert AS T2 ON T1.stadium_id = T2.stadium_id\nWHERE T2.year > 2013\nGROUP BY T1.stadium_id, T1.name, T1.capacity\nORDER BY COUNT(*) DESC\nLIMIT 1;\n```",
   "score": 4,
-  "cost": 0.001773,
+  "cost": 0.0038897999999999997,
   "expected": "",
   "tokens": {
     "input": 79,
-    "output": 719
+    "output": 1601
   }
 }

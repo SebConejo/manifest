@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "sql_spider",
   "case": 14,
-  "response": "SELECT m.maker_id,\n       m.maker_name,\n       COUNT(mo.model_id) AS model_count\nFROM makers m\nLEFT JOIN models mo ON m.maker_id = mo.maker_id\nGROUP BY m.maker_id, m.maker_name\nORDER BY m.maker_id;",
-  "score": 5,
-  "cost": 2.9789999999999998e-05,
+  "response": "",
+  "score": 0,
+  "cost": 3.4920000000000004e-05,
   "expected": "",
   "tokens": {
     "input": 88,
-    "output": 243
+    "output": 300
   }
 }

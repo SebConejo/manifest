@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "sql_spider",
   "case": 31,
-  "response": "```sql\nSELECT DISTINCT a.name\nFROM airlines a\nJOIN flights f ON a.id = f.airline",
-  "score": 4,
-  "cost": 0.00055332,
+  "response": "```sql\nSELECT DISTINCT a.airline_name\nFROM airlines a\nJOIN flights f ON a.airline_id = f.airline_id\nWHERE f.departure_airport = 'AHD';\n```",
+  "score": 5,
+  "cost": 0.0004959,
   "expected": "",
   "tokens": {
     "input": 72,
-    "output": 300
+    "output": 267
   }
 }

@@ -2,12 +2,12 @@
   "model": "gpt-5.5-pro",
   "task": "sql_spider",
   "case": 13,
-  "response": "SELECT MAX(transcript_date) AS last_transcript_release_date\nFROM Transcripts;",
+  "response": "SELECT MAX(transcript_date) AS last_transcript_release_date\nFROM transcripts;",
   "score": 5,
-  "cost": 0.01647,
+  "cost": 0.01919,
   "expected": "",
   "tokens": {
     "input": 70,
-    "output": 806
+    "output": 942
   }
 }

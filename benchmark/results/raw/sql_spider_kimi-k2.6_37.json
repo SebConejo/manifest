@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "sql_spider",
   "case": 37,
-  "response": "```sql\nSELECT song_name, song_release_year FROM singer WHERE age = (SELECT MIN(age) FROM singer)\n```",
+  "response": "SELECT song_name, song_release_year FROM singer ORDER BY age ASC LIMIT 1",
   "score": 2,
-  "cost": 0.0041922,
+  "cost": 0.0085866,
   "expected": "",
   "tokens": {
     "input": 75,
-    "output": 1728
+    "output": 3559
   }
 }

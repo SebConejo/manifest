@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "sql_spider",
   "case": 29,
-  "response": "SELECT COUNT(DISTINCT Language) AS unique_languages\nFROM CountryLanguage;",
+  "response": "SELECT COUNT(DISTINCT Language) AS unique_languages FROM CountryLanguage;",
   "score": 5,
-  "cost": 1.647e-05,
+  "cost": 1.7009999999999998e-05,
   "expected": "",
   "tokens": {
     "input": 79,
-    "output": 104
+    "output": 110
   }
 }

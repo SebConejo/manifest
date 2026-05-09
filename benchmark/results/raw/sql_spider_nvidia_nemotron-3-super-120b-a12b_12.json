@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "sql_spider",
   "case": 12,
-  "response": "SELECT p.id, p.role, p.first_name\nFROM professionals p\nJOIN treatments t ON p.id = t.professional_id\nGROUP BY p.id, p.role, p.first_name\nHAVING COUNT(*) >= 2;",
+  "response": "SELECT p.professional_id, p.role, p.first_name\nFROM professionals p\nJOIN treatments t ON p.professional_id = t.professional_id\nGROUP BY p.professional_id, p.role, p.first_name\nHAVING COUNT(t.treatment_id) >= 2;",
   "score": 5,
-  "cost": 2.4479999999999996e-05,
+  "cost": 1.26e-05,
   "expected": "",
   "tokens": {
-    "input": 91,
-    "output": 181
+    "input": 82,
+    "output": 58
   }
 }

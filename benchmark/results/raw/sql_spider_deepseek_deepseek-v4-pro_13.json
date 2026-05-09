@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "sql_spider",
   "case": 13,
-  "response": "SELECT MAX(release_date) AS last_release_date FROM transcripts;",
+  "response": "```sql\nSELECT MAX(release_date) AS last_transcript_release_date\nFROM transcripts;\n```",
   "score": 5,
-  "cost": 0.000431085,
+  "cost": 6.7425e-05,
   "expected": "",
   "tokens": {
     "input": 67,
-    "output": 231
+    "output": 22
   }
 }

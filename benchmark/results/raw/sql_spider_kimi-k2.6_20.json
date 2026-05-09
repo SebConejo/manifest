@@ -1,0 +1,13 @@
+{
+  "model": "kimi-k2.6",
+  "task": "sql_spider",
+  "case": 20,
+  "response": "SELECT a.abbreviation, a.country FROM airlines a JOIN flights f ON a.airline_id = f.airline_id GROUP BY a.airline_id, a.abbreviation, a.country ORDER BY COUNT(*) ASC LIMIT 1;",
+  "score": 4,
+  "cost": 0.0085008,
+  "expected": "",
+  "tokens": {
+    "input": 76,
+    "output": 3523
+  }
+}

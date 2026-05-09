@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "sql_spider",
   "case": 5,
-  "response": "SELECT a.*\nFROM airports a\nWHERE",
+  "response": "We need to output only SQL query? Wait the instruction: \"Given the following database context, write a SQL query to answer the question. Return ONLY the SQL query, no explanation.\" The question: Which airports do not have departing or arriving flights? So we need SQL query. Not the earlier part about airports? The database is flight_2. We need to assume typical tables: maybe airports, flights. We need to find airports with no departing or arriving flights. So output just the SQL? Wait they want SQL query? Wait we need SQL query? Actually we need to output only the SQL query? Actually we need to output only the SQL query? Actually we need to output JSON? No, just the SQL query? Actually we need to output only the SQL query? Actually we need to output:",
   "score": 1,
-  "cost": 3.411e-05,
+  "cost": 2.178e-05,
   "expected": "",
   "tokens": {
     "input": 79,
-    "output": 300
+    "output": 163
   }
 }

@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "sql_spider",
   "case": 3,
-  "response": "```sql\nSELECT name\nFROM country\nWHERE continent = 'Africa'\n  AND population < (SELECT MIN(population) FROM country WHERE continent = 'Asia');\n```",
+  "response": "```sql\nSELECT name\nFROM country\nWHERE continent = 'Africa'\n  AND population < ALL (\n    SELECT population\n    FROM country\n    WHERE continent = 'Asia'\n  );\n```",
   "score": 5,
-  "cost": 0.00040542000000000003,
+  "cost": 0.00038627999999999997,
   "expected": "",
   "tokens": {
     "input": 72,
-    "output": 215
+    "output": 204
   }
 }

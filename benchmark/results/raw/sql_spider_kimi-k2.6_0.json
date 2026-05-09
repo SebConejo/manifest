@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "sql_spider",
   "case": 0,
-  "response": "```sql\nSELECT money_rank \nFROM poker_player \nWHERE height = (SELECT MAX(height) FROM poker_player);\n```",
-  "score": 5,
-  "cost": 0.0013716,
+  "response": "```sql\nSELECT money_rank FROM poker_player ORDER BY height DESC LIMIT 1\n```",
+  "score": 3,
+  "cost": 0.003498,
   "expected": "",
   "tokens": {
     "input": 70,
-    "output": 554
+    "output": 1440
   }
 }

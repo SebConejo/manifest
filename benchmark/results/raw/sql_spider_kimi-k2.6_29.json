@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "sql_spider",
   "case": 29,
-  "response": "```sql\nSELECT COUNT(DISTINCT Language) FROM countrylanguage;\n```",
+  "response": "SELECT COUNT(DISTINCT Language) FROM countrylanguage",
   "score": 5,
-  "cost": 0.000738,
+  "cost": 0.0007091999999999999,
   "expected": "",
   "tokens": {
     "input": 70,
-    "output": 290
+    "output": 278
   }
 }

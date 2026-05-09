@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "sql_spider",
   "case": 47,
-  "response": "SELECT Template_Type_Code FROM Template_Type WHERE Template_Type_Description = 'Book'",
+  "response": "SELECT type_code FROM template_type WHERE description = 'Book';",
   "score": 5,
-  "cost": 0.001398,
+  "cost": 0.0017892,
   "expected": "",
   "tokens": {
     "input": 78,
-    "output": 563
+    "output": 726
   }
 }

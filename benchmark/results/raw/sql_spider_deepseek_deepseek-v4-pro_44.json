@@ -1,0 +1,13 @@
+{
+  "model": "deepseek/deepseek-v4-pro",
+  "task": "sql_spider",
+  "case": 44,
+  "response": "```sql\nSELECT a.code\nFROM airports a\nLEFT JOIN (\n    SELECT origin AS code FROM flights\n    UNION ALL\n    SELECT destination AS code FROM flights\n) f ON a.code = f.code\nGROUP BY a.code\nORDER BY COUNT(f.code) ASC\nLIMIT 1;\n```",
+  "score": 4,
+  "cost": 0.0016007999999999999,
+  "expected": "",
+  "tokens": {
+    "input": 68,
+    "output": 903
+  }
+}

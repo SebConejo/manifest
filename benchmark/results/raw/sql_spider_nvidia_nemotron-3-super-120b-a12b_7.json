@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "sql_spider",
   "case": 7,
-  "response": "SELECT COUNT(*) AS cars_made FROM cars WHERE year = 1980;",
+  "response": "SELECT COUNT(*) FROM cars WHERE year = 1980;",
   "score": 5,
-  "cost": 7.92e-06,
+  "cost": 2.1870000000000002e-05,
   "expected": "",
   "tokens": {
-    "input": 71,
-    "output": 17
+    "input": 82,
+    "output": 161
   }
 }

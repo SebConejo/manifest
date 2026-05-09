@@ -1,0 +1,13 @@
+{
+  "model": "gpt-5.5-pro",
+  "task": "sql_spider",
+  "case": 36,
+  "response": "WITH like_counts AS (\n    SELECT h.ID, h.name, COUNT(l.student_id) AS num_likes\n    FROM Highschooler AS h\n    LEFT JOIN Likes AS l ON h.ID = l.liked_id\n    GROUP BY h.ID, h.name\n)\nSELECT name\nFROM like_counts\nWHERE num_likes = (SELECT MAX(num_likes) FROM like_counts);",
+  "score": 5,
+  "cost": 0.15962,
+  "expected": "",
+  "tokens": {
+    "input": 72,
+    "output": 7963
+  }
+}

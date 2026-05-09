@@ -1,0 +1,13 @@
+{
+  "model": "kimi-k2.6",
+  "task": "sql_spider",
+  "case": 5,
+  "response": "```sql\nSELECT a.*\nFROM airport a\nWHERE NOT EXISTS (\n    SELECT 1\n    FROM flight f\n    WHERE f.departure_airport_id = a.airport_id\n       OR f.arrival_airport_id = a.airport_id\n);\n```",
+  "score": 5,
+  "cost": 0.00951,
+  "expected": "",
+  "tokens": {
+    "input": 70,
+    "output": 3945
+  }
+}

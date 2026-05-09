@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "sql_spider",
   "case": 36,
-  "response": "SELECT s.name\nFROM students s\nJOIN (\n    SELECT liked_id\n    FROM likes\n    GROUP BY liked_id\n    ORDER BY COUNT(*) DESC\n    LIMIT 1\n) l ON s.student_id = l.liked_id;",
-  "score": 3,
-  "cost": 2.808e-05,
+  "response": "SELECT s.name\nFROM students s\nJOIN likes l ON s.id = l.student_id\nGROUP BY s.id, s.name\nORDER BY COUNT(l.id) DESC\nLIMIT 1;",
+  "score": 5,
+  "cost": 9.99e-06,
   "expected": "",
   "tokens": {
-    "input": 80,
-    "output": 232
+    "input": 71,
+    "output": 40
   }
 }

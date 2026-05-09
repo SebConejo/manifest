@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "sql_spider",
   "case": 28,
-  "response": "SELECT nationality\nFROM poker_player\nGROUP BY nationality\nHAVING COUNT(*) >= 2;",
+  "response": "```sql\nSELECT nationality\nFROM poker_player\nGROUP BY nationality\nHAVING COUNT(*) >= 2\n```",
   "score": 5,
-  "cost": 0.000816,
+  "cost": 0.0021743999999999995,
   "expected": "",
   "tokens": {
     "input": 72,
-    "output": 322
+    "output": 888
   }
 }

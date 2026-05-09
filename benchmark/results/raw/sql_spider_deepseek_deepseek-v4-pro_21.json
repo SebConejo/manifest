@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "sql_spider",
   "case": 21,
-  "response": "```sql\nSELECT flight_number\nFROM flights\nWHERE airline = 'United Airlines';\n```",
+  "response": "```sql\nSELECT f.flight_number\nFROM flights f\nJOIN airlines a ON f.airline_id = a.airline_id\nWHERE a.airline_name = 'United Airlines';\n```",
   "score": 5,
-  "cost": 0.00029145,
+  "cost": 0.00059247,
   "expected": "",
   "tokens": {
     "input": 66,
-    "output": 151
+    "output": 324
   }
 }

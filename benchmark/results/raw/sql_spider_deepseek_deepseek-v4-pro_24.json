@@ -1,0 +1,13 @@
+{
+  "model": "deepseek/deepseek-v4-pro",
+  "task": "sql_spider",
+  "case": 24,
+  "response": "```sql\nWITH year_concert_counts AS (\n    SELECT \n        EXTRACT(YEAR FROM date) AS year,\n        COUNT(*) AS concert_count\n    FROM concert\n    GROUP BY EXTRACT(YEAR FROM date)\n)\nSELECT year\nFROM year_concert_counts\nWHERE concert_count = (SELECT MAX(concert_count) FROM year_concert_counts);\n```",
+  "score": 5,
+  "cost": 0.000967005,
+  "expected": "",
+  "tokens": {
+    "input": 67,
+    "output": 539
+  }
+}

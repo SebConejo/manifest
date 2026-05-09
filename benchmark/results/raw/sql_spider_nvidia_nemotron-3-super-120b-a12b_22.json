@@ -4,10 +4,10 @@
   "case": 22,
   "response": "SELECT name FROM sections ORDER BY name DESC;",
   "score": 5,
-  "cost": 2.367e-05,
+  "cost": 2.4569999999999997e-05,
   "expected": "",
   "tokens": {
     "input": 84,
-    "output": 179
+    "output": 189
   }
 }

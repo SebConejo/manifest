@@ -2,12 +2,12 @@
   "model": "gpt-5.5-pro",
   "task": "sql_spider",
   "case": 4,
-  "response": "SELECT SUM(bonus) AS total_bonus\nFROM evaluation;",
+  "response": "SELECT SUM(Bonus) AS total_bonus\nFROM evaluation;",
   "score": 5,
-  "cost": 0.01696,
+  "cost": 0.01374,
   "expected": "",
   "tokens": {
     "input": 72,
-    "output": 830
+    "output": 669
   }
 }

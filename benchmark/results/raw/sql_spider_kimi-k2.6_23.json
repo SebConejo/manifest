@@ -1,0 +1,13 @@
+{
+  "model": "kimi-k2.6",
+  "task": "sql_spider",
+  "case": 23,
+  "response": "SELECT production_code, channel FROM tvshow WHERE genre = 'Cartoon' ORDER BY air_date DESC LIMIT 1;",
+  "score": 5,
+  "cost": 0.0047231999999999994,
+  "expected": "",
+  "tokens": {
+    "input": 72,
+    "output": 1950
+  }
+}
