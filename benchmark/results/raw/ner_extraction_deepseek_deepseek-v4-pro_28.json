@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "ner_extraction",
   "case": 28,
-  "response": "{\"persons\": [], \"organizations\": [\"Johns Hopkins University\"], \"locations\": [\"Baltimore\"]}",
+  "response": "{\n  \"persons\": [],\n  \"organizations\": [\"Johns Hopkins University\"],\n  \"locations\": [\"Baltimore\"]\n}",
   "score": 4,
-  "cost": 0.00029623499999999994,
+  "cost": 0.00028753499999999995,
   "expected": "",
   "tokens": {
     "input": 69,
-    "output": 153
+    "output": 148
   }
 }

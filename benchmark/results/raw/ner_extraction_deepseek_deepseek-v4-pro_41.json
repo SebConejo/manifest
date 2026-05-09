@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "ner_extraction",
   "case": 41,
-  "response": "{\n  \"persons\": [\"LeBron James\"],\n  \"organizations\": [\"Los Angeles Lakers\"],\n  \"locations\": []\n}",
-  "score": 5,
-  "cost": 0.00050634,
+  "response": "{\"persons\": [\"LeBron James\"], \"organizations\": [\"Los Angeles Lakers\"], \"locations\": []}",
+  "score": 4,
+  "cost": 0.0005742000000000001,
   "expected": "",
   "tokens": {
     "input": 72,
-    "output": 273
+    "output": 312
   }
 }

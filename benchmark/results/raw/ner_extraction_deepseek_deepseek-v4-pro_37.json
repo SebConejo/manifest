@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "ner_extraction",
   "case": 37,
-  "response": "{\n  \"persons\": [],\n  \"organizations\": [\"University of Cambridge\", \"AstraZeneca\"],\n  \"locations\": [\"Oxford\"]\n}",
+  "response": "{\"persons\": [], \"organizations\": [\"University of Cambridge\", \"AstraZeneca\"], \"locations\": [\"Oxford\"]}",
   "score": 4,
-  "cost": 0.00035148000000000004,
+  "cost": 0.00030102,
   "expected": "",
   "tokens": {
     "input": 72,
-    "output": 184
+    "output": 155
   }
 }

@@ -4,10 +4,10 @@
   "case": 21,
   "response": "{\"persons\": [\"Picasso\", \"Monet\"], \"organizations\": [\"The Metropolitan Museum of Art\"], \"locations\": [\"New York\"]}",
   "score": 5,
-  "cost": 0.00030798,
+  "cost": 0.00024708,
   "expected": "",
   "tokens": {
     "input": 72,
-    "output": 159
+    "output": 124
   }
 }

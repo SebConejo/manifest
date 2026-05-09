@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "ner_extraction",
   "case": 21,
-  "response": "{\"persons\":[\"Picasso\",\"Monet\"],\"organizations\":[\"Metropolitan Museum of Art\"],\"locations\":[\"New York\"]}",
+  "response": "{\n  \"persons\": [\"Picasso\", \"Monet\"],\n  \"organizations\": [\"Metropolitan Museum of Art\"],\n  \"locations\": [\"New York\"]\n}",
   "score": 5,
-  "cost": 0.0025884000000000002,
+  "cost": 0.0021395999999999997,
   "expected": "",
   "tokens": {
     "input": 74,
-    "output": 1060
+    "output": 873
   }
 }

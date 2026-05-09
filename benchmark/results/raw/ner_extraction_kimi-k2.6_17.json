@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "ner_extraction",
   "case": 17,
-  "response": "```json\n{\n  \"persons\": [],\n  \"organizations\": [\n    \"Toyota\"\n  ],\n  \"locations\": [\n    \"Greensboro\",\n    \"North Carolina\"\n  ]\n}\n```",
+  "response": "{\"persons\": [], \"organizations\": [\"Toyota\"], \"locations\": [\"Greensboro\", \"North Carolina\"]}",
   "score": 5,
-  "cost": 0.00047339999999999996,
+  "cost": 0.001131,
   "expected": "",
   "tokens": {
     "input": 73,
-    "output": 179
+    "output": 453
   }
 }

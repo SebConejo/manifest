@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "ner_extraction",
   "case": 38,
-  "response": "{\"persons\": [\"Kamala Harris\"], \"organizations\": [\"General Motors\"], \"locations\": [\"Detroit\"]}",
+  "response": "```json\n{\n  \"persons\": [\"Kamala Harris\"],\n  \"organizations\": [\"General Motors\"],\n  \"locations\": [\"Detroit\"]\n}\n```",
   "score": 5,
-  "cost": 0.0016704,
+  "cost": 0.001056,
   "expected": "",
   "tokens": {
     "input": 72,
-    "output": 678
+    "output": 422
   }
 }

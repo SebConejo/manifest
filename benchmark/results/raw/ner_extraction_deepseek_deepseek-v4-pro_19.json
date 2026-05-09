@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "ner_extraction",
   "case": 19,
-  "response": "{\"persons\": [\"Thierry Breton\"], \"organizations\": [\"European Parliament\"], \"locations\": [\"Brussels\"]}",
+  "response": "{\n  \"persons\": [\"Thierry Breton\"],\n  \"organizations\": [\"European Parliament\"],\n  \"locations\": [\"Brussels\"]\n}",
   "score": 5,
-  "cost": 0.00049677,
+  "cost": 0.00023576999999999997,
   "expected": "",
   "tokens": {
     "input": 70,
-    "output": 268
+    "output": 118
   }
 }

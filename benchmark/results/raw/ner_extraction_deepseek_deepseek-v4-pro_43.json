@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "ner_extraction",
   "case": 43,
-  "response": "{\"persons\": [\"Satya Nadella\"], \"organizations\": [\"Microsoft\", \"OpenAI\"], \"locations\": []}",
+  "response": "```json\n{\n  \"persons\": [\"Satya Nadella\"],\n  \"organizations\": [\"Microsoft\", \"OpenAI\"],\n  \"locations\": []\n}\n```",
   "score": 5,
-  "cost": 0.000391065,
+  "cost": 9.0045e-05,
   "expected": "",
   "tokens": {
     "input": 71,
-    "output": 207
+    "output": 34
   }
 }

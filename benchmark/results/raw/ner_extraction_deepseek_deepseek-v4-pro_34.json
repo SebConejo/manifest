@@ -4,10 +4,10 @@
   "case": 34,
   "response": "{\"persons\": [\"Gordon Ramsay\"], \"organizations\": [\"Bellagio hotel\"], \"locations\": [\"Las Vegas\"]}",
   "score": 4,
-  "cost": 0.0005916000000000001,
+  "cost": 0.00054984,
   "expected": "",
   "tokens": {
     "input": 72,
-    "output": 322
+    "output": 298
   }
 }

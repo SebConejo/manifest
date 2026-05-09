@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "ner_extraction",
   "case": 22,
-  "response": "{\"persons\": [\"Jamie Dimon\"], \"organizations\": [\"JPMorgan Chase\", \"World Economic Forum\"], \"locations\": [\"Davos\", \"Switzerland\"]}",
+  "response": "{\n  \"persons\": [\"Jamie Dimon\"],\n  \"organizations\": [\"JPMorgan Chase\", \"World Economic Forum\"],\n  \"locations\": [\"Davos\", \"Switzerland\"]\n}",
   "score": 5,
-  "cost": 0.000337125,
+  "cost": 0.000103965,
   "expected": "",
   "tokens": {
     "input": 75,
-    "output": 175
+    "output": 41
   }
 }

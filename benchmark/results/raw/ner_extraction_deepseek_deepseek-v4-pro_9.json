@@ -4,10 +4,10 @@
   "case": 9,
   "response": "{\"persons\": [], \"organizations\": [\"World Health Organization\"], \"locations\": [\"sub-Saharan Africa\", \"Geneva\"]}",
   "score": 4,
-  "cost": 0.000232725,
+  "cost": 0.00025882499999999996,
   "expected": "",
   "tokens": {
     "input": 71,
-    "output": 116
+    "output": 131
   }
 }

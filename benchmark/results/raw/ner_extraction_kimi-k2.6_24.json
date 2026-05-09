@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "ner_extraction",
   "case": 24,
-  "response": "{\n  \"persons\": [],\n  \"organizations\": [\"Indian Space Research Organisation\"],\n  \"locations\": [\"Sriharikota\"]\n}",
+  "response": "{\n  \"persons\": [],\n  \"organizations\": [\n    \"Indian Space Research Organisation\"\n  ],\n  \"locations\": [\n    \"Sriharikota\"\n  ]\n}",
   "score": 4,
-  "cost": 0.0017874,
+  "cost": 0.0029922,
   "expected": "",
   "tokens": {
     "input": 75,
-    "output": 726
+    "output": 1228
   }
 }

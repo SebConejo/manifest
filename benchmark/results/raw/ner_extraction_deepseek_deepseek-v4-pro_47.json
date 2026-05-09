@@ -4,10 +4,10 @@
   "case": 47,
   "response": "{\n  \"persons\": [\"Alain Aspect\"],\n  \"organizations\": [\"Universite Paris-Saclay\"],\n  \"locations\": [\"Stockholm\"]\n}",
   "score": 5,
-  "cost": 0.0006081299999999999,
+  "cost": 0.0005942100000000001,
   "expected": "",
   "tokens": {
     "input": 74,
-    "output": 331
+    "output": 323
   }
 }

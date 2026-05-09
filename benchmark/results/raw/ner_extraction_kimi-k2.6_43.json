@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "ner_extraction",
   "case": 43,
-  "response": "```json\n{\n  \"persons\": [\"Satya Nadella\"],\n  \"organizations\": [\"Microsoft\", \"OpenAI\"],\n  \"locations\": []\n}\n```",
+  "response": "{\"persons\": [\"Satya Nadella\"], \"organizations\": [\"Microsoft\", \"OpenAI\"], \"locations\": []}",
   "score": 5,
-  "cost": 0.0016476000000000001,
+  "cost": 0.0014388,
   "expected": "",
   "tokens": {
     "input": 74,
-    "output": 668
+    "output": 581
   }
 }

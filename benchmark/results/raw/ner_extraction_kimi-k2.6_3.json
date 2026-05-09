@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "ner_extraction",
   "case": 3,
-  "response": "{\"persons\": [\"Maria Garcia\"], \"organizations\": [\"Microsoft\", \"ACM\"], \"locations\": [\"Seattle\"]}",
+  "response": "{\n  \"persons\": [\"Maria Garcia\"],\n  \"organizations\": [\"Microsoft\", \"ACM\"],\n  \"locations\": [\"Seattle\"]\n}",
   "score": 5,
-  "cost": 0.0012725999999999998,
+  "cost": 0.001107,
   "expected": "",
   "tokens": {
     "input": 73,
-    "output": 512
+    "output": 443
   }
 }

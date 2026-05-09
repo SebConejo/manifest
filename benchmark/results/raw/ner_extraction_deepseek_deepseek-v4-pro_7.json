@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "ner_extraction",
   "case": 7,
-  "response": "{\"persons\": [\"Lionel Messi\"], \"organizations\": [\"Inter Miami\", \"New York Red Bulls\"], \"locations\": [\"Chase Stadium\", \"Fort Lauderdale\"]}",
+  "response": "{\n  \"persons\": [\"Lionel Messi\"],\n  \"organizations\": [\"Inter Miami\", \"New York Red Bulls\"],\n  \"locations\": [\"Chase Stadium\", \"Fort Lauderdale\"]\n}",
   "score": 5,
-  "cost": 0.000378015,
+  "cost": 0.000238815,
   "expected": "",
   "tokens": {
     "input": 77,
-    "output": 198
+    "output": 118
   }
 }

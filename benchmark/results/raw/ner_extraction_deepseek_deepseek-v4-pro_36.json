@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "ner_extraction",
   "case": 36,
-  "response": "{\"persons\": [\"Warren Buffett\"], \"organizations\": [\"Bank of America\", \"SEC\"], \"locations\": []}",
+  "response": "{\n  \"persons\": [\"Warren Buffett\"],\n  \"organizations\": [\"Bank of America\", \"SEC\"],\n  \"locations\": []\n}",
   "score": 5,
-  "cost": 0.00023794499999999999,
+  "cost": 0.000281445,
   "expected": "",
   "tokens": {
     "input": 71,
-    "output": 119
+    "output": 144
   }
 }

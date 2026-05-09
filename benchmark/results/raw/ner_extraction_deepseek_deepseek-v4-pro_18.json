@@ -4,10 +4,10 @@
   "case": 18,
   "response": "{\n  \"persons\": [\"Sarah Chen\"],\n  \"organizations\": [\"MIT\", \"Science magazine\"],\n  \"locations\": []\n}",
   "score": 4,
-  "cost": 0.00038976,
+  "cost": 0.00043151999999999996,
   "expected": "",
   "tokens": {
     "input": 68,
-    "output": 207
+    "output": 231
   }
 }

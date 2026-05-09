@@ -4,10 +4,10 @@
   "case": 49,
   "response": "{\"persons\": [\"Pope Francis\"], \"organizations\": [], \"locations\": [\"St. Peter Square\", \"Vatican\"]}",
   "score": 4,
-  "cost": 0.000466755,
+  "cost": 0.0005276549999999999,
   "expected": "",
   "tokens": {
     "input": 73,
-    "output": 250
+    "output": 285
   }
 }

@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "ner_extraction",
   "case": 10,
-  "response": "{\n  \"persons\": [\"Jennifer Lopez\", \"Ben Affleck\"],\n  \"organizations\": [],\n  \"locations\": [\"Beverly Hills\"]\n}",
+  "response": "{\"persons\": [\"Jennifer Lopez\", \"Ben Affleck\"], \"organizations\": [], \"locations\": [\"Beverly Hills\"]}",
   "score": 5,
-  "cost": 0.00022924499999999996,
+  "cost": 0.000291885,
   "expected": "",
   "tokens": {
     "input": 71,
-    "output": 114
+    "output": 150
   }
 }

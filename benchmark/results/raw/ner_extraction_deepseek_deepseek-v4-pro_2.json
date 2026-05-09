@@ -4,10 +4,10 @@
   "case": 2,
   "response": "{\n  \"persons\": [],\n  \"organizations\": [\"Google DeepMind\", \"Nature\"],\n  \"locations\": []\n}",
   "score": 4,
-  "cost": 0.00033190499999999996,
+  "cost": 0.000319725,
   "expected": "",
   "tokens": {
     "input": 67,
-    "output": 174
+    "output": 167
   }
 }

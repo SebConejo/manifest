@@ -4,10 +4,10 @@
   "case": 13,
   "response": "{\"persons\": [], \"organizations\": [\"Oxford University\", \"Pfizer\"], \"locations\": []}",
   "score": 4,
-  "cost": 0.0019295999999999998,
+  "cost": 0.0020591999999999997,
   "expected": "",
   "tokens": {
     "input": 72,
-    "output": 786
+    "output": 840
   }
 }

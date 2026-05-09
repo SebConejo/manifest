@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "ner_extraction",
   "case": 44,
-  "response": "{\n  \"persons\": [],\n  \"organizations\": [],\n  \"locations\": [\"Puerto Rico\", \"Dominican Republic\"]\n}",
+  "response": "{\"persons\": [], \"organizations\": [], \"locations\": [\"Puerto Rico\", \"Dominican Republic\"]}",
   "score": 4,
-  "cost": 0.000538095,
+  "cost": 0.000381495,
   "expected": "",
   "tokens": {
     "input": 69,
-    "output": 292
+    "output": 202
   }
 }

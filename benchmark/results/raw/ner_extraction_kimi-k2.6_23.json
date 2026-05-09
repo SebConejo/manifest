@@ -4,10 +4,10 @@
   "case": 23,
   "response": "{\"persons\":[\"Taylor Swift\"],\"organizations\":[],\"locations\":[\"Wembley Stadium\",\"London\"]}",
   "score": 4,
-  "cost": 0.0022722,
+  "cost": 0.0040938,
   "expected": "",
   "tokens": {
     "input": 75,
-    "output": 928
+    "output": 1687
   }
 }

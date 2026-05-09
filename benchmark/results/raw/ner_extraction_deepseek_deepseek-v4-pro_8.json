@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "ner_extraction",
   "case": 8,
-  "response": "{\n  \"persons\": [\"Elon Musk\"],\n  \"organizations\": [\"Tesla\"],\n  \"locations\": [\"Fremont\", \"California\"]\n}",
+  "response": "{\"persons\": [\"Elon Musk\"], \"organizations\": [\"Tesla\"], \"locations\": [\"Fremont\", \"California\"]}",
   "score": 5,
-  "cost": 0.00025404,
+  "cost": 0.00039846,
   "expected": "",
   "tokens": {
     "input": 72,
-    "output": 128
+    "output": 211
   }
 }

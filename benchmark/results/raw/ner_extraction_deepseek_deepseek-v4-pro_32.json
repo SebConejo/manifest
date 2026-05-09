@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "ner_extraction",
   "case": 32,
-  "response": "{\"persons\": [\"Serena Williams\"], \"organizations\": [\"ESPY\"], \"locations\": [\"Los Angeles\"]}",
-  "score": 5,
-  "cost": 0.00029493,
+  "response": "{\"persons\": [\"Serena Williams\"], \"organizations\": [], \"locations\": [\"Los Angeles\"]}",
+  "score": 4,
+  "cost": 0.00045849,
   "expected": "",
   "tokens": {
     "input": 70,
-    "output": 152
+    "output": 246
   }
 }

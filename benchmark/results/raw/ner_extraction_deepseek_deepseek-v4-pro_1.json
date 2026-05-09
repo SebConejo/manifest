@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "ner_extraction",
   "case": 1,
-  "response": "{\"persons\": [\"Biden\", \"Macron\"], \"organizations\": [\"NATO\"], \"locations\": [\"White House\"]}",
+  "response": "{\n  \"persons\": [\"Biden\", \"Macron\"],\n  \"organizations\": [\"NATO\"],\n  \"locations\": [\"White House\"]\n}",
   "score": 5,
-  "cost": 0.00028275,
+  "cost": 0.00046022999999999995,
   "expected": "",
   "tokens": {
     "input": 70,
-    "output": 145
+    "output": 247
   }
 }

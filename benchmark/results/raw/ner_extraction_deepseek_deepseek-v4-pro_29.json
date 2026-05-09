@@ -1,0 +1,13 @@
+{
+  "model": "deepseek/deepseek-v4-pro",
+  "task": "ner_extraction",
+  "case": 29,
+  "response": "{\"persons\": [], \"organizations\": [\"Tokyo Stock Exchange\"], \"locations\": []}",
+  "score": 4,
+  "cost": 0.0009657,
+  "expected": "",
+  "tokens": {
+    "input": 72,
+    "output": 537
+  }
+}

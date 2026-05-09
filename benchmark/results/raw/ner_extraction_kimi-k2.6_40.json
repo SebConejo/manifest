@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "ner_extraction",
   "case": 40,
-  "response": "{\"persons\": [], \"organizations\": [\"Reserve Bank of Australia\", \"Goldman Sachs\"], \"locations\": []}",
+  "response": "```json\n{\n  \"persons\": [],\n  \"organizations\": [\n    \"Reserve Bank of Australia\",\n    \"Goldman Sachs\"\n  ],\n  \"locations\": []\n}\n```",
   "score": 4,
-  "cost": 0.0018767999999999999,
+  "cost": 0.0022823999999999995,
   "expected": "",
   "tokens": {
     "input": 72,
-    "output": 764
+    "output": 933
   }
 }

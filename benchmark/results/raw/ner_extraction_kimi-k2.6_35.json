@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "ner_extraction",
   "case": 35,
-  "response": "{\"persons\": [], \"organizations\": [\"European Space Agency\", \"NASA\"], \"locations\": [\"lunar south pole\"]}",
+  "response": "```json\n{\n  \"persons\": [],\n  \"organizations\": [\"European Space Agency\", \"NASA\"],\n  \"locations\": [\"lunar south pole\"]\n}\n```",
   "score": 4,
-  "cost": 0.0021228,
+  "cost": 0.0014604000000000002,
   "expected": "",
   "tokens": {
     "input": 74,
-    "output": 866
+    "output": 590
   }
 }

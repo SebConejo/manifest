@@ -4,10 +4,10 @@
   "case": 4,
   "response": "{\"persons\": [], \"organizations\": [\"Bank of England\", \"European Central Bank\"], \"locations\": [\"Frankfurt\"]}",
   "score": 4,
-  "cost": 0.0005592,
+  "cost": 0.0005376000000000001,
   "expected": "",
   "tokens": {
     "input": 72,
-    "output": 215
+    "output": 206
   }
 }

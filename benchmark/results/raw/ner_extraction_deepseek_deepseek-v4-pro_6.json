@@ -4,10 +4,10 @@
   "case": 6,
   "response": "{\"persons\": [], \"organizations\": [\"Amazon\"], \"locations\": [\"Nashville\", \"Davidson County\"]}",
   "score": 5,
-  "cost": 0.000253605,
+  "cost": 0.000227505,
   "expected": "",
   "tokens": {
     "input": 71,
-    "output": 128
+    "output": 113
   }
 }
