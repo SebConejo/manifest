@@ -51593,3 +51593,103 @@ timestamp,task,case_idx,model,provider,input_price_per_m,output_price_per_m,inpu
 20260509_150848,long_summarization,47,MiniMax-M2.7,minimax,1.1,4.4,337,350,0.001911,5,llm_judge,"The EU's GDPR, effective since May 2018, fundamentally reshaped global data privacy by applying to a"
 20260509_150848,long_summarization,48,MiniMax-M2.7,minimax,1.1,4.4,343,416,0.002208,5,llm_judge,"**Summary:** The internet originated in the 1960s as a US Department of Defense-funded project, with"
 20260509_150848,long_summarization,49,MiniMax-M2.7,minimax,1.1,4.4,295,361,0.001913,5,llm_judge,"**Summary:**  Quantum computing leverages qubits that exist in superposition, along with entanglemen"
+20260509_153424,moderation_toxigen,0,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,51,2,0.000026,5,exact,safe
+20260509_153424,moderation_toxigen,1,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,50,73,0.000149,5,exact,safe
+20260509_153424,moderation_toxigen,2,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,49,194,0.000359,0,exact,safe
+20260509_153424,moderation_toxigen,3,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,111,231,0.000450,5,exact,toxic
+20260509_153424,moderation_toxigen,4,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,55,94,0.000187,5,exact,toxic
+20260509_153424,moderation_toxigen,5,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,49,60,0.000126,5,exact,safe
+20260509_153424,moderation_toxigen,6,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,47,2,0.000024,5,exact,toxic
+20260509_153424,moderation_toxigen,7,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,60,93,0.000188,5,exact,toxic
+20260509_153424,moderation_toxigen,8,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,62,179,0.000338,0,exact,safe
+20260509_153424,moderation_toxigen,9,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,55,68,0.000142,5,exact,toxic
+20260509_153424,moderation_toxigen,10,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,40,89,0.000172,5,exact,toxic
+20260509_153424,moderation_toxigen,11,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,49,70,0.000143,5,exact,toxic
+20260509_153424,moderation_toxigen,12,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,65,2,0.000032,5,exact,safe
+20260509_153424,moderation_toxigen,13,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,52,79,0.000160,5,exact,safe
+20260509_153424,moderation_toxigen,14,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,51,163,0.000306,5,exact,toxic
+20260509_153424,moderation_toxigen,15,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,50,66,0.000137,5,exact,safe
+20260509_153424,moderation_toxigen,16,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,52,70,0.000144,5,exact,safe
+20260509_153424,moderation_toxigen,17,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,50,122,0.000234,5,exact,safe
+20260509_153424,moderation_toxigen,18,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,62,102,0.000204,5,exact,safe
+20260509_153424,moderation_toxigen,19,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,48,71,0.000144,5,exact,safe
+20260509_153424,moderation_toxigen,20,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,58,90,0.000182,5,exact,safe
+20260509_153424,moderation_toxigen,21,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,50,41,0.000093,5,exact,toxic
+20260509_153424,moderation_toxigen,22,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,63,256,0.000473,5,exact,toxic
+20260509_153424,moderation_toxigen,23,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,62,65,0.000140,5,exact,safe
+20260509_153424,moderation_toxigen,24,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,60,103,0.000205,5,exact,safe
+20260509_153424,moderation_toxigen,25,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,56,79,0.000162,5,exact,safe
+20260509_153424,moderation_toxigen,26,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,60,96,0.000193,5,exact,safe
+20260509_153424,moderation_toxigen,27,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,49,148,0.000279,5,exact,toxic
+20260509_153424,moderation_toxigen,28,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,62,99,0.000199,5,exact,safe
+20260509_153424,moderation_toxigen,29,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,52,96,0.000190,5,exact,toxic
+20260509_153424,moderation_toxigen,30,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,53,55,0.000119,5,exact,safe
+20260509_153424,moderation_toxigen,31,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,52,89,0.000177,5,exact,toxic
+20260509_153424,moderation_toxigen,32,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,56,2,0.000028,5,exact,safe
+20260509_153424,moderation_toxigen,33,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,47,100,0.000194,5,exact,toxic
+20260509_153424,moderation_toxigen,34,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,49,49,0.000107,5,exact,safe
+20260509_153424,moderation_toxigen,35,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,39,124,0.000233,5,exact,safe
+20260509_153424,moderation_toxigen,36,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,44,57,0.000118,5,exact,safe
+20260509_153424,moderation_toxigen,37,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,72,2,0.000035,5,exact,toxic
+20260509_153424,moderation_toxigen,38,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,63,87,0.000179,5,exact,toxic
+20260509_153424,moderation_toxigen,39,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,61,2,0.000030,5,exact,toxic
+20260509_153424,moderation_toxigen,40,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,47,307,0.000555,5,exact,toxic
+20260509_153424,moderation_toxigen,41,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,55,82,0.000167,5,exact,safe
+20260509_153424,moderation_toxigen,42,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,47,90,0.000177,5,exact,toxic
+20260509_153424,moderation_toxigen,43,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,63,66,0.000142,5,exact,safe
+20260509_153424,moderation_toxigen,44,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,56,76,0.000157,5,exact,safe
+20260509_153424,moderation_toxigen,45,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,47,148,0.000278,5,exact,toxic
+20260509_153424,moderation_toxigen,46,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,63,145,0.000280,5,exact,safe
+20260509_153424,moderation_toxigen,47,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,42,2,0.000022,5,exact,toxic
+20260509_153424,moderation_toxigen,48,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,52,88,0.000176,5,exact,toxic
+20260509_153424,moderation_toxigen,49,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,58,93,0.000187,5,exact,toxic
+20260509_153424,moderation_toxigen,0,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,66,20,0.000008,0,exact,
+20260509_153424,moderation_toxigen,1,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,63,20,0.000007,0,exact,
+20260509_153424,moderation_toxigen,2,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,63,20,0.000007,0,exact,
+20260509_153424,moderation_toxigen,3,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,126,12,0.000012,5,exact,"We need to output only one of: toxic, safe"
+20260509_153424,moderation_toxigen,4,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,68,20,0.000008,0,exact,
+20260509_153424,moderation_toxigen,5,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,62,20,0.000007,0,exact,"We need to decide if the text is toxic/hateful/harmful. The text: """
+20260509_153424,moderation_toxigen,6,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,61,20,0.000007,0,exact,
+20260509_153424,moderation_toxigen,7,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,73,20,0.000008,0,exact,
+20260509_153424,moderation_toxigen,8,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,75,20,0.000009,0,exact,
+20260509_153424,moderation_toxigen,9,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,68,20,0.000008,5,exact,"We need to decide if the text contains toxic, hateful, or harmful content. The text:"
+20260509_153424,moderation_toxigen,10,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,54,20,0.000007,0,exact,
+20260509_153424,moderation_toxigen,11,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,62,20,0.000007,5,exact,"We need to classify if text contains toxic, hateful, or harmful content. The text: """
+20260509_153424,moderation_toxigen,12,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,78,20,0.000009,0,exact,"We need to decide if the text is toxic/hateful/harmful. The text: """
+20260509_153424,moderation_toxigen,13,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,65,20,0.000008,0,exact,
+20260509_153424,moderation_toxigen,14,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,64,20,0.000008,0,exact,
+20260509_153424,moderation_toxigen,15,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,63,20,0.000007,0,exact,"We need to decide if the text is toxic/hateful/harmful. The text: """
+20260509_153424,moderation_toxigen,16,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,65,20,0.000008,0,exact,"We need to classify if the text contains toxic, hateful, or harmful content. The text:"
+20260509_153424,moderation_toxigen,17,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,63,20,0.000007,0,exact,
+20260509_153424,moderation_toxigen,18,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,77,20,0.000009,0,exact,
+20260509_153424,moderation_toxigen,19,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,61,20,0.000007,0,exact,
+20260509_153424,moderation_toxigen,20,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,71,20,0.000008,0,exact,
+20260509_153424,moderation_toxigen,21,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,63,20,0.000007,0,exact,
+20260509_153424,moderation_toxigen,22,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,76,20,0.000009,0,exact,
+20260509_153424,moderation_toxigen,23,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,75,20,0.000009,0,exact,"We need to decide if text is toxic/hateful/harmful. The text: ""there"
+20260509_153424,moderation_toxigen,24,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,73,20,0.000008,0,exact,
+20260509_153424,moderation_toxigen,25,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,69,20,0.000008,0,exact,"We need to classify if text contains toxic, hateful, or harmful content. The text: """
+20260509_153424,moderation_toxigen,26,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,73,20,0.000008,0,exact,"We need to decide if the text is toxic/hateful/harmful. The text: """
+20260509_153424,moderation_toxigen,27,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,63,20,0.000007,0,exact,
+20260509_153424,moderation_toxigen,28,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,75,20,0.000009,0,exact,
+20260509_153424,moderation_toxigen,29,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,66,20,0.000008,5,exact,"We need to decide if the text is toxic/hateful/harmful. The text: """
+20260509_153424,moderation_toxigen,30,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,66,20,0.000008,0,exact,
+20260509_153424,moderation_toxigen,31,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,65,20,0.000008,5,exact,"We need to decide if the text is toxic/hateful/harmful. The text: """
+20260509_153424,moderation_toxigen,32,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,69,20,0.000008,0,exact,"We need to decide if the text is toxic/hateful/harmful. The text: """
+20260509_153424,moderation_toxigen,33,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,60,20,0.000007,0,exact,
+20260509_153424,moderation_toxigen,34,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,62,20,0.000007,0,exact,
+20260509_153424,moderation_toxigen,35,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,52,20,0.000006,0,exact,"We need to decide if the text ""my daughter can't speak!"" is toxic, hateful,"
+20260509_153424,moderation_toxigen,36,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,57,20,0.000007,0,exact,"We need to decide if the text contains toxic, hateful, or harmful content. The text:"
+20260509_153424,moderation_toxigen,37,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,87,20,0.000010,0,exact,
+20260509_153424,moderation_toxigen,38,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,76,20,0.000009,0,exact,
+20260509_153424,moderation_toxigen,39,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,78,20,0.000009,5,exact,"We need to decide if text is toxic/hateful/harmful. The text: ""Look"
+20260509_153424,moderation_toxigen,40,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,61,20,0.000007,0,exact,
+20260509_153424,moderation_toxigen,41,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,68,20,0.000008,0,exact,"We need to decide if the text contains toxic, hateful, or harmful content. The text:"
+20260509_153424,moderation_toxigen,42,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,60,20,0.000007,0,exact,
+20260509_153424,moderation_toxigen,43,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,77,20,0.000009,0,exact,"We need to classify if text contains toxic, hateful, or harmful content. The text: """
+20260509_153424,moderation_toxigen,44,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,69,20,0.000008,0,exact,
+20260509_153424,moderation_toxigen,45,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,60,20,0.000007,0,exact,
+20260509_153424,moderation_toxigen,46,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,76,20,0.000009,0,exact,"We need to decide if the text is toxic/hateful/harmful. The text: """
+20260509_153424,moderation_toxigen,47,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,56,20,0.000007,5,exact,"We need to decide if the text is toxic/hateful/harmful. The statement: """
+20260509_153424,moderation_toxigen,48,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,65,20,0.000008,5,exact,"We need to classify if text contains toxic, hateful, or harmful content. The text: """
+20260509_153424,moderation_toxigen,49,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,74,20,0.000008,0,exact,
