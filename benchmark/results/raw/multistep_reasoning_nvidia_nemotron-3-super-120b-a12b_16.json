@@ -1,0 +1,13 @@
+{
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "task": "multistep_reasoning",
+  "case": 16,
+  "response": "The distinctive cracks and ridges on Europa\u2019s icy surface are caused by tidal stresses from Jupiter\u2019s gravity, which flex and fracture the ice shell\u2014a process analogous to plate tectonics on Earth. This ice tectonics creates the observed patterns, not volcanic eruptions, impact craters, or solar flares.\n\nB",
+  "score": 5,
+  "cost": 1.512e-05,
+  "expected": "C",
+  "tokens": {
+    "input": 101,
+    "output": 67
+  }
+}

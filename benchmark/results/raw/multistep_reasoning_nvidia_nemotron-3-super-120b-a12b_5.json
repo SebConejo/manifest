@@ -1,0 +1,13 @@
+{
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "task": "multistep_reasoning",
+  "case": 5,
+  "response": "",
+  "score": 0,
+  "cost": 5.4810000000000005e-05,
+  "expected": "C",
+  "tokens": {
+    "input": 109,
+    "output": 500
+  }
+}

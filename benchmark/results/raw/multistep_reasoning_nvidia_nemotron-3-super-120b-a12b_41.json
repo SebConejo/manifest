@@ -4,10 +4,10 @@
   "case": 41,
   "response": "A",
   "score": 5,
-  "cost": 4.545e-05,
+  "cost": 1.3319999999999998e-05,
   "expected": "A",
   "tokens": {
-    "input": 155,
-    "output": 350
+    "input": 146,
+    "output": 2
   }
 }

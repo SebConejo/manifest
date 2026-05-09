@@ -51693,3 +51693,153 @@ timestamp,task,case_idx,model,provider,input_price_per_m,output_price_per_m,inpu
 20260509_153424,moderation_toxigen,47,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,56,20,0.000007,5,exact,"We need to decide if the text is toxic/hateful/harmful. The statement: """
 20260509_153424,moderation_toxigen,48,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,65,20,0.000008,5,exact,"We need to classify if text contains toxic, hateful, or harmful content. The text: """
 20260509_153424,moderation_toxigen,49,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,74,20,0.000008,0,exact,
+20260509_154019,multistep_reasoning,0,gpt-5.5-pro,openai_responses,5.0,20.0,97,44,0.001365,5,exact,B
+20260509_154019,multistep_reasoning,1,gpt-5.5-pro,openai_responses,5.0,20.0,105,84,0.002205,5,exact,C
+20260509_154019,multistep_reasoning,2,gpt-5.5-pro,openai_responses,5.0,20.0,134,85,0.002370,5,exact,A
+20260509_154019,multistep_reasoning,3,gpt-5.5-pro,openai_responses,5.0,20.0,146,74,0.002210,5,exact,B
+20260509_154019,multistep_reasoning,4,gpt-5.5-pro,openai_responses,5.0,20.0,70,74,0.001830,5,exact,A
+20260509_154019,multistep_reasoning,5,gpt-5.5-pro,openai_responses,5.0,20.0,99,79,0.002075,5,exact,C
+20260509_154019,multistep_reasoning,6,gpt-5.5-pro,openai_responses,5.0,20.0,92,87,0.002200,5,exact,C
+20260509_154019,multistep_reasoning,7,gpt-5.5-pro,openai_responses,5.0,20.0,72,76,0.001880,5,exact,A
+20260509_154019,multistep_reasoning,8,gpt-5.5-pro,openai_responses,5.0,20.0,67,286,0.006055,5,exact,C
+20260509_154019,multistep_reasoning,9,gpt-5.5-pro,openai_responses,5.0,20.0,144,60,0.001920,5,exact,D
+20260509_154019,multistep_reasoning,10,gpt-5.5-pro,openai_responses,5.0,20.0,90,66,0.001770,5,exact,A
+20260509_154019,multistep_reasoning,11,gpt-5.5-pro,openai_responses,5.0,20.0,83,64,0.001695,5,exact,B
+20260509_154019,multistep_reasoning,12,gpt-5.5-pro,openai_responses,5.0,20.0,81,77,0.001945,5,exact,A
+20260509_154019,multistep_reasoning,13,gpt-5.5-pro,openai_responses,5.0,20.0,117,63,0.001845,5,exact,B
+20260509_154019,multistep_reasoning,14,gpt-5.5-pro,openai_responses,5.0,20.0,98,77,0.002030,5,exact,C
+20260509_154019,multistep_reasoning,15,gpt-5.5-pro,openai_responses,5.0,20.0,99,101,0.002515,5,exact,B
+20260509_154019,multistep_reasoning,16,gpt-5.5-pro,openai_responses,5.0,20.0,100,133,0.003160,0,exact,B
+20260509_154019,multistep_reasoning,17,gpt-5.5-pro,openai_responses,5.0,20.0,93,79,0.002045,5,exact,A
+20260509_154019,multistep_reasoning,18,gpt-5.5-pro,openai_responses,5.0,20.0,117,89,0.002365,5,exact,B
+20260509_154019,multistep_reasoning,19,gpt-5.5-pro,openai_responses,5.0,20.0,98,60,0.001690,5,exact,D
+20260509_154019,multistep_reasoning,20,gpt-5.5-pro,openai_responses,5.0,20.0,133,67,0.002005,5,exact,A
+20260509_154019,multistep_reasoning,21,gpt-5.5-pro,openai_responses,5.0,20.0,206,95,0.002930,5,exact,B
+20260509_154019,multistep_reasoning,22,gpt-5.5-pro,openai_responses,5.0,20.0,80,60,0.001600,5,exact,B
+20260509_154019,multistep_reasoning,23,gpt-5.5-pro,openai_responses,5.0,20.0,99,72,0.001935,5,exact,C
+20260509_154019,multistep_reasoning,24,gpt-5.5-pro,openai_responses,5.0,20.0,88,80,0.002040,5,exact,D
+20260509_154019,multistep_reasoning,25,gpt-5.5-pro,openai_responses,5.0,20.0,87,64,0.001715,5,exact,D
+20260509_154019,multistep_reasoning,26,gpt-5.5-pro,openai_responses,5.0,20.0,69,61,0.001565,5,exact,C
+20260509_154019,multistep_reasoning,27,gpt-5.5-pro,openai_responses,5.0,20.0,70,174,0.003830,0,exact,D
+20260509_154019,multistep_reasoning,28,gpt-5.5-pro,openai_responses,5.0,20.0,110,79,0.002130,5,exact,A
+20260509_154019,multistep_reasoning,29,gpt-5.5-pro,openai_responses,5.0,20.0,151,68,0.002115,5,exact,A
+20260509_154019,multistep_reasoning,30,gpt-5.5-pro,openai_responses,5.0,20.0,93,145,0.003365,0,exact,D
+20260509_154019,multistep_reasoning,31,gpt-5.5-pro,openai_responses,5.0,20.0,78,87,0.002130,5,exact,B
+20260509_154019,multistep_reasoning,32,gpt-5.5-pro,openai_responses,5.0,20.0,89,96,0.002365,5,exact,B
+20260509_154019,multistep_reasoning,33,gpt-5.5-pro,openai_responses,5.0,20.0,90,69,0.001830,5,exact,D
+20260509_154019,multistep_reasoning,34,gpt-5.5-pro,openai_responses,5.0,20.0,127,412,0.008875,0,exact,C
+20260509_154019,multistep_reasoning,35,gpt-5.5-pro,openai_responses,5.0,20.0,193,130,0.003565,5,exact,C
+20260509_154019,multistep_reasoning,36,gpt-5.5-pro,openai_responses,5.0,20.0,119,71,0.002015,5,exact,C
+20260509_154019,multistep_reasoning,37,gpt-5.5-pro,openai_responses,5.0,20.0,98,81,0.002110,5,exact,A
+20260509_154019,multistep_reasoning,38,gpt-5.5-pro,openai_responses,5.0,20.0,108,64,0.001820,5,exact,B
+20260509_154019,multistep_reasoning,39,gpt-5.5-pro,openai_responses,5.0,20.0,74,57,0.001510,5,exact,D
+20260509_154019,multistep_reasoning,40,gpt-5.5-pro,openai_responses,5.0,20.0,79,75,0.001895,5,exact,B
+20260509_154019,multistep_reasoning,41,gpt-5.5-pro,openai_responses,5.0,20.0,146,124,0.003210,5,exact,A
+20260509_154019,multistep_reasoning,42,gpt-5.5-pro,openai_responses,5.0,20.0,133,71,0.002085,5,exact,C
+20260509_154019,multistep_reasoning,43,gpt-5.5-pro,openai_responses,5.0,20.0,80,51,0.001420,5,exact,D
+20260509_154019,multistep_reasoning,44,gpt-5.5-pro,openai_responses,5.0,20.0,110,69,0.001930,5,exact,D
+20260509_154019,multistep_reasoning,45,gpt-5.5-pro,openai_responses,5.0,20.0,81,57,0.001545,5,exact,C
+20260509_154019,multistep_reasoning,46,gpt-5.5-pro,openai_responses,5.0,20.0,115,71,0.001995,5,exact,A
+20260509_154019,multistep_reasoning,47,gpt-5.5-pro,openai_responses,5.0,20.0,154,80,0.002370,5,exact,A
+20260509_154019,multistep_reasoning,48,gpt-5.5-pro,openai_responses,5.0,20.0,131,61,0.001875,5,exact,C
+20260509_154019,multistep_reasoning,49,gpt-5.5-pro,openai_responses,5.0,20.0,99,59,0.001675,5,exact,A
+20260509_154019,multistep_reasoning,0,kimi-k2.6,moonshot,0.6,2.4,96,149,0.000415,5,exact,B
+20260509_154019,multistep_reasoning,1,kimi-k2.6,moonshot,0.6,2.4,104,248,0.000658,5,exact,C
+20260509_154019,multistep_reasoning,2,kimi-k2.6,moonshot,0.6,2.4,133,292,0.000781,5,exact,A
+20260509_154019,multistep_reasoning,3,kimi-k2.6,moonshot,0.6,2.4,145,1398,0.003442,5,exact,"To determine the most uncontrollable factor, let’s evaluate each option in the context of the invest"
+20260509_154019,multistep_reasoning,4,kimi-k2.6,moonshot,0.6,2.4,69,159,0.000423,5,exact,A
+20260509_154019,multistep_reasoning,5,kimi-k2.6,moonshot,0.6,2.4,98,251,0.000661,5,exact,C
+20260509_154019,multistep_reasoning,6,kimi-k2.6,moonshot,0.6,2.4,92,405,0.001027,5,exact,C
+20260509_154019,multistep_reasoning,7,kimi-k2.6,moonshot,0.6,2.4,71,931,0.002277,5,exact,**Step-by-step reasoning:**  1. **Define exothermic reaction:** A chemical process that releases hea
+20260509_154019,multistep_reasoning,8,kimi-k2.6,moonshot,0.6,2.4,66,2338,0.005651,5,exact,"In many folktales and stories, a leopard introduces himself with a bold, rhythmic chant that emphasi"
+20260509_154019,multistep_reasoning,9,kimi-k2.6,moonshot,0.6,2.4,143,346,0.000916,5,exact,"Since both students have the same total mass and ascend the same height, the work done against gravi"
+20260509_154019,multistep_reasoning,10,kimi-k2.6,moonshot,0.6,2.4,90,405,0.001026,5,exact,A) Traits from two parents are combined. Sexual reproduction involves gametes from two different par
+20260509_154019,multistep_reasoning,11,kimi-k2.6,moonshot,0.6,2.4,82,291,0.000748,5,exact,B
+20260509_154019,multistep_reasoning,12,kimi-k2.6,moonshot,0.6,2.4,80,674,0.001666,5,exact,**Step-by-step reasoning:**  1.  **Define the terms:** The *hydrosphere* includes all of Earth's wat
+20260509_154019,multistep_reasoning,13,kimi-k2.6,moonshot,0.6,2.4,117,689,0.001724,5,exact,**Step 1:** Identify the goal. Jake and Molly need to compare their findings about which objects flo
+20260509_154019,multistep_reasoning,14,kimi-k2.6,moonshot,0.6,2.4,97,374,0.000956,5,exact,The validity of evidence depends on its reliability and consistency. Repeated trials allow for the v
+20260509_154019,multistep_reasoning,15,kimi-k2.6,moonshot,0.6,2.4,99,329,0.000849,5,exact,B
+20260509_154019,multistep_reasoning,16,kimi-k2.6,moonshot,0.6,2.4,102,288,0.000752,0,exact,B
+20260509_154019,multistep_reasoning,17,kimi-k2.6,moonshot,0.6,2.4,92,336,0.000862,5,exact,A
+20260509_154019,multistep_reasoning,18,kimi-k2.6,moonshot,0.6,2.4,116,499,0.001267,5,exact,**B**
+20260509_154019,multistep_reasoning,19,kimi-k2.6,moonshot,0.6,2.4,98,876,0.002161,5,exact,Step 1: Identify the physical reason planets orbit the Sun. Orbital motion is caused by gravitationa
+20260509_154019,multistep_reasoning,20,kimi-k2.6,moonshot,0.6,2.4,132,407,0.001056,5,exact,**Step 1:** Understand the definition of a trade-off: solving a problem or making an improvement whi
+20260509_154019,multistep_reasoning,21,kimi-k2.6,moonshot,0.6,2.4,205,898,0.002278,5,exact,**Step 1:** Identify the experimental conditions.   - Plants are native to Maryland (a temperate env
+20260509_154019,multistep_reasoning,22,kimi-k2.6,moonshot,0.6,2.4,80,494,0.001234,5,exact,Step 1: Ferns are vascular plants that reproduce via spores and require moisture for their sperm to 
+20260509_154019,multistep_reasoning,23,kimi-k2.6,moonshot,0.6,2.4,98,1579,0.003848,5,exact,Step 1: Identify the typical sequence of a scientific investigation. After choosing a question and d
+20260509_154019,multistep_reasoning,24,kimi-k2.6,moonshot,0.6,2.4,85,308,0.000790,5,exact,D
+20260509_154019,multistep_reasoning,25,kimi-k2.6,moonshot,0.6,2.4,86,962,0.002360,5,exact,Step 1: Recall the life cycle of a flowering plant like an apple tree. It generally follows this seq
+20260509_154019,multistep_reasoning,26,kimi-k2.6,moonshot,0.6,2.4,69,868,0.002125,5,exact,The question describes a phase change from liquid water to water vapor (a gas).   - Condensation is 
+20260509_154019,multistep_reasoning,27,kimi-k2.6,moonshot,0.6,2.4,69,1224,0.002979,5,exact,Step 1: Evaluate how much solar energy each substance absorbs. Snow has a very high albedo (reflects
+20260509_154019,multistep_reasoning,28,kimi-k2.6,moonshot,0.6,2.4,110,351,0.000908,5,exact,"A solution is a homogeneous mixture, meaning its composition is uniform throughout.   - **A)** corre"
+20260509_154019,multistep_reasoning,29,kimi-k2.6,moonshot,0.6,2.4,151,1689,0.004144,5,exact,A
+20260509_154019,multistep_reasoning,30,kimi-k2.6,moonshot,0.6,2.4,92,431,0.001090,0,exact,D
+20260509_154019,multistep_reasoning,31,kimi-k2.6,moonshot,0.6,2.4,78,791,0.001945,5,exact,B
+20260509_154019,multistep_reasoning,32,kimi-k2.6,moonshot,0.6,2.4,88,987,0.002422,5,exact,Step 1: Evaluate option A. Liquid water does not hold its own shape; it takes the shape of its conta
+20260509_154019,multistep_reasoning,33,kimi-k2.6,moonshot,0.6,2.4,89,549,0.001371,5,exact,D
+20260509_154019,multistep_reasoning,34,kimi-k2.6,moonshot,0.6,2.4,127,3311,0.008023,5,exact,Looking at the genotypes provided: - **AA** = unaffected - **AS** = carriers (unaffected but carry t
+20260509_154019,multistep_reasoning,35,kimi-k2.6,moonshot,0.6,2.4,192,879,0.002225,5,exact,C
+20260509_154019,multistep_reasoning,36,kimi-k2.6,moonshot,0.6,2.4,118,1487,0.003640,5,exact,C
+20260509_154019,multistep_reasoning,37,kimi-k2.6,moonshot,0.6,2.4,97,495,0.001246,5,exact,A) copper wire  **Step-by-step reasoning:**  1. **Requirement:** The material must be *easily bent i
+20260509_154019,multistep_reasoning,38,kimi-k2.6,moonshot,0.6,2.4,107,751,0.001867,5,exact,B
+20260509_154019,multistep_reasoning,39,kimi-k2.6,moonshot,0.6,2.4,73,1189,0.002897,5,exact,Step 1: Compare the masses of the particles involved.   - A proton has a mass of about 1 atomic mass
+20260509_154019,multistep_reasoning,40,kimi-k2.6,moonshot,0.6,2.4,79,229,0.000597,5,exact,B
+20260509_154019,multistep_reasoning,41,kimi-k2.6,moonshot,0.6,2.4,145,510,0.001311,5,exact,A
+20260509_154019,multistep_reasoning,42,kimi-k2.6,moonshot,0.6,2.4,131,310,0.000823,5,exact,C
+20260509_154019,multistep_reasoning,43,kimi-k2.6,moonshot,0.6,2.4,80,828,0.002035,5,exact,D
+20260509_154019,multistep_reasoning,44,kimi-k2.6,moonshot,0.6,2.4,109,626,0.001568,5,exact,"Step 1: Analyze what decreases survival. An adaptation that hinders growth, reproduction, or resourc"
+20260509_154019,multistep_reasoning,45,kimi-k2.6,moonshot,0.6,2.4,81,201,0.000531,5,exact,C
+20260509_154019,multistep_reasoning,46,kimi-k2.6,moonshot,0.6,2.4,116,1347,0.003302,5,exact,Step 1: Observe the water droplets on the outside of the beaker freeze. Freezing means the water is 
+20260509_154019,multistep_reasoning,47,kimi-k2.6,moonshot,0.6,2.4,153,434,0.001133,5,exact,A
+20260509_154019,multistep_reasoning,48,kimi-k2.6,moonshot,0.6,2.4,130,650,0.001638,5,exact,"To continue digging in the **same place**, the second scientist must be able to **find that exact sp"
+20260509_154019,multistep_reasoning,49,kimi-k2.6,moonshot,0.6,2.4,99,262,0.000688,5,exact,A
+20260509_154019,multistep_reasoning,0,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,105,271,0.000034,5,exact,B
+20260509_154019,multistep_reasoning,1,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,113,248,0.000032,5,exact,C
+20260509_154019,multistep_reasoning,2,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,145,353,0.000045,5,exact,A
+20260509_154019,multistep_reasoning,3,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,155,324,0.000043,5,exact,B
+20260509_154019,multistep_reasoning,4,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,78,16,0.000008,5,exact,We need to answer with just the letter. So final answer: B)
+20260509_154019,multistep_reasoning,5,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,109,500,0.000055,0,exact,
+20260509_154019,multistep_reasoning,6,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,92,2,0.000008,5,exact,C
+20260509_154019,multistep_reasoning,7,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,81,500,0.000052,0,exact,
+20260509_154019,multistep_reasoning,8,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,75,500,0.000052,0,exact,
+20260509_154019,multistep_reasoning,9,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,149,500,0.000058,0,exact,
+20260509_154019,multistep_reasoning,10,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,89,2,0.000008,5,exact,A
+20260509_154019,multistep_reasoning,11,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,91,163,0.000023,5,exact,B
+20260509_154019,multistep_reasoning,12,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,82,2,0.000008,5,exact,A
+20260509_154019,multistep_reasoning,13,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,116,2,0.000011,5,exact,B
+20260509_154019,multistep_reasoning,14,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,97,2,0.000009,5,exact,C
+20260509_154019,multistep_reasoning,15,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,106,273,0.000034,5,exact,B
+20260509_154019,multistep_reasoning,16,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,101,67,0.000015,5,exact,The distinctive cracks and ridges on Europa’s icy surface are caused by tidal stresses from Jupiter’
+20260509_154019,multistep_reasoning,17,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,102,281,0.000034,0,exact,
+20260509_154019,multistep_reasoning,18,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,124,500,0.000056,0,exact,
+20260509_154019,multistep_reasoning,19,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,98,57,0.000014,5,exact,"The planets orbit the Sun due to the Sun's gravitational pull, which is the dominant gravitational f"
+20260509_154019,multistep_reasoning,20,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,142,398,0.000049,5,exact,A
+20260509_154019,multistep_reasoning,21,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,217,500,0.000065,5,exact,We need to answer a multiple-choice question. The scenario: scientist investigated how well plants n
+20260509_154019,multistep_reasoning,22,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,90,177,0.000024,5,exact,B
+20260509_154019,multistep_reasoning,23,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,98,2,0.000009,5,exact,C
+20260509_154019,multistep_reasoning,24,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,98,19,0.000011,5,exact,"We need to the instruction: ""Answer the user wants only the letter format: D)"
+20260509_154019,multistep_reasoning,25,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,96,22,0.000011,5,exact,We need to answer with only the letter. No extra text. Provide only the letter. Answer: D
+20260509_154019,multistep_reasoning,26,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,70,2,0.000006,5,exact,C
+20260509_154019,multistep_reasoning,27,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,78,500,0.000052,5,exact,"We need to answer a multiple-choice question: ""Which substance will retain the largest amount of ene"
+20260509_154019,multistep_reasoning,28,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,109,2,0.000010,5,exact,A
+20260509_154019,multistep_reasoning,29,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,159,207,0.000033,5,exact,A) A) A) ... We'll output just the letter. Let's output only letter. We'll output just the letter. L
+20260509_154019,multistep_reasoning,30,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,92,2,0.000008,0,exact,D
+20260509_154019,multistep_reasoning,31,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,87,10,0.000009,0,exact,We need to answer with only the letter.
+20260509_154019,multistep_reasoning,32,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,99,500,0.000054,5,exact,"We need to answer a multiple-choice question: ""Which statement best describes a property of water?"" "
+20260509_154019,multistep_reasoning,33,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,89,2,0.000008,5,exact,D
+20260509_154019,multistep_reasoning,34,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,128,71,0.000018,0,exact,"We need to answer the user request: ""Sickle cell anemia? No, just output only the letter. The user w"
+20260509_154019,multistep_reasoning,35,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,201,500,0.000063,0,exact,
+20260509_154019,multistep_reasoning,36,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,136,30,0.000015,5,exact,"We need to answer the multiple-choice question. Think step by step by step, answer only the letter o"
+20260509_154019,multistep_reasoning,37,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,97,2,0.000009,5,exact,A
+20260509_154019,multistep_reasoning,38,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,107,2,0.000010,5,exact,B
+20260509_154019,multistep_reasoning,39,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,82,31,0.000010,5,exact,"We need to answer the multiple-choice question. Think step by step by step, we need to respond with "
+20260509_154019,multistep_reasoning,40,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,89,22,0.000010,5,exact,We need to answer with only the letter. No extra text. Ensure only letter. So answer: B
+20260509_154019,multistep_reasoning,41,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,146,2,0.000013,5,exact,A
+20260509_154019,multistep_reasoning,42,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,133,2,0.000012,5,exact,C
+20260509_154019,multistep_reasoning,43,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,87,21,0.000010,5,exact,We need to answer multiple-choice? Actually we need to output only the letter. No extra text.
+20260509_154019,multistep_reasoning,44,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,118,39,0.000014,5,exact,"We need to answer the multiple-choice question. Think step by step by step, we need to output only t"
+20260509_154019,multistep_reasoning,45,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,90,34,0.000011,5,exact,"We need to answer the multiple-choice question. Think step by step by step, we need to output only t"
+20260509_154019,multistep_reasoning,46,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,123,23,0.000013,5,exact,"We need to answer the question: ""Two chemicals react in beaker water droplets freeze. Answer: A)"
+20260509_154019,multistep_reasoning,47,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,153,2,0.000014,5,exact,A
+20260509_154019,multistep_reasoning,48,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,139,94,0.000021,5,exact,We need to answer a multiple-choice question. The scenario: A scientist was digging for dinosaur bon
+20260509_154019,multistep_reasoning,49,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,98,2,0.000009,5,exact,A
