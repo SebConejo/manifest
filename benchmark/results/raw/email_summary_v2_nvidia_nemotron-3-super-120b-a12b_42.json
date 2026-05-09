@@ -2,7 +2,7 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "email_summary_v2",
   "case": 42,
-  "response": "We need to produce exactly 2 sentences summarizing email, capturing main point and any action items. The email: Hosted 15 enterprise customers yesterday. Key feedback: need better bulk import (8/15), SSO blocker for 5 accounts, love new analytics dashboard. Surprise: 3 customers interested in internal tool as standalone product. Follow-up report attached. - Sales\n\nMain point: workshop recap with feedback and interest. Action items: likely need to address bulk import and SSO, maybe follow up on interest in internal tool, and review attached report.\n\nWe need exactly 2 sentences. Let's craft: Sentence 1: Summarize main point: The workshop with 15 enterprise customers highlighted strong approval of the new analytics dashboard, identified bulk import improvements and SSO as blockers, and revealed interest in the internal tool as a standalone product. Sentence 2: Action items: The team should prioritize bulk import enhancements and SSO",
+  "response": "",
   "score": 4,
   "cost": 2.898e-05,
   "expected": "",

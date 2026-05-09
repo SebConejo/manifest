@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "email_summary_v2",
   "case": 11,
-  "response": "The SOC 2 Type II audit",
-  "score": 1,
-  "cost": 0.000389325,
+  "response": "The SOC 2 Type II audit is complete with no critical findings, but three observations were noted. Remediate the insufficient access review frequency, untested incident response plan, and incomplete vendor risk assessments within 30 days.",
+  "score": 5,
+  "cost": 0.000518085,
   "expected": "",
   "tokens": {
     "input": 95,
-    "output": 200
+    "output": 274
   }
 }

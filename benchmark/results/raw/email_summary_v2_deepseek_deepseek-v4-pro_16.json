@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "email_summary_v2",
   "case": 16,
-  "response": "The April marketing campaign achieved 45K impressions and 187 signups at a $64 cost per acquisition, with a higher click-through rate but lower conversion rate compared to March. The team recommends A/B testing the landing page call-to-action.",
+  "response": "The April marketing campaign delivered 45K impressions, a 5.1% CTR (up 1.2pp from March), and 187 signups at a $64 CAC, though the conversion rate declined 0.8pp to 8.1%. We recommend A/B testing the landing page CTA to improve conversion.",
   "score": 5,
-  "cost": 0.00049155,
+  "cost": 0.0006203100000000001,
   "expected": "",
   "tokens": {
     "input": 114,
-    "output": 254
+    "output": 328
   }
 }

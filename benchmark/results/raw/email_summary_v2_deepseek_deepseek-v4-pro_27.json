@@ -1,0 +1,13 @@
+{
+  "model": "deepseek/deepseek-v4-pro",
+  "task": "email_summary_v2",
+  "case": 27,
+  "response": "The sprint retrospective highlighted the successful on-time shipment of the auth redesign and strong cross-team collaboration, while noting excessive context switching and standups exceeding the 15-minute target.  \nAction items include limiting work in progress to two items per developer and implementing timeboxed standups with a parking lot.",
+  "score": 5,
+  "cost": 0.00049851,
+  "expected": "",
+  "tokens": {
+    "input": 102,
+    "output": 261
+  }
+}

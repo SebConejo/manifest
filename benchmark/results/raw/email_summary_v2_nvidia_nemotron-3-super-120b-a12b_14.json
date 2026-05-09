@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "email_summary_v2",
   "case": 14,
-  "response": "We need to summarize in exactly 2 sentences, capturing main point and any action items. The email: AWS bill up 40% MoM due to new ML training jobs using p4d instances ($32/hr). Estimated monthly impact $45K. Options: spot instances (70% savings, interruption risk) or reserved instances (30% savings, commitment). Need decision by Friday. So summary: The AWS bill increased 40% month-over-month, driven by new ML training jobs on p4d instances costing about $45K extra per month. To address this, decide by Friday whether to switch to spot instances for ~70% savings (with interruption risk) or reserved instances for ~30% savings (with commitment). That's two sentences. Ensure exactly two sentences. No extra punctuation that could be considered sentence? We must ensure exactly two sentences, ending with periods. Let's craft: \"The AWS bill rose",
-  "score": 4,
-  "cost": 2.916e-05,
+  "response": "The AWS bill rose 40% month\u2011over\u2011month due to new ML training jobs on p4d instances, adding roughly $45K in monthly costs. DevOps proposes either using spot instances for ~70% savings (with interruption risk) or reserved instances for ~30% savings (with a commitment) and asks for a decision by Friday.",
+  "score": 5,
+  "cost": 2.7629999999999998e-05,
   "expected": "",
   "tokens": {
     "input": 124,
-    "output": 200
+    "output": 183
   }
 }

@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "email_summary_v2",
   "case": 19,
-  "response": "The Datadog contract is up for renewal at a reduced rate of $155K/year, but switching to Grafana Cloud would save $60K/year despite a 3-month migration. IT Procurement needs a decision by May 15.",
+  "response": "The Datadog contract expires June 30, with a renewal offer of $155K/year versus a Grafana Cloud alternative at $95K/year that requires a 3-month migration.  \nFinance needs a decision by May 15.",
   "score": 5,
-  "cost": 0.00048197999999999996,
+  "cost": 0.00051156,
   "expected": "",
   "tokens": {
     "input": 96,
-    "output": 253
+    "output": 270
   }
 }

@@ -1,0 +1,13 @@
+{
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "task": "email_summary_v2",
+  "case": 2,
+  "response": "A critical SQL injection vulnerability (CVSS\u202f9",
+  "score": 4,
+  "cost": 2.8170000000000003e-05,
+  "expected": "",
+  "tokens": {
+    "input": 113,
+    "output": 200
+  }
+}

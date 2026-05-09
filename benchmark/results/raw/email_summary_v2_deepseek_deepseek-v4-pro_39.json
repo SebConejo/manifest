@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "email_summary_v2",
   "case": 39,
-  "response": "The email announces that the year-end audit begins on January 15 and lists four pre-audit tasks to complete. A controller meeting next Tuesday will assign responsibilities for these items.",
+  "response": "The year-end audit begins on January 15, with a pre-audit checklist requiring finalization of Q4 revenue recognition, reconciliation of all bank accounts, verification of stock option records, and preparation of related-party transaction disclosures. A controller meeting next Tuesday will assign responsibilities for these tasks.",
   "score": 5,
-  "cost": 0.00046066499999999997,
+  "cost": 0.000537225,
   "expected": "",
   "tokens": {
     "input": 95,
-    "output": 241
+    "output": 285
   }
 }

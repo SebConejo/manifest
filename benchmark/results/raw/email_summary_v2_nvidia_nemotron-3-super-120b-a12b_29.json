@@ -1,0 +1,13 @@
+{
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "task": "email_summary_v2",
+  "case": 29,
+  "response": "We need to summarize in exactly 2 sentences. Capture main point and any action items. The email: crash rate spiked to 2.3% (threshold 0.5%) since yesterday's release. Primary crash: null pointer in notification handler on Android 12+. Fix merged to main, emergency release request submitted to Play Store. iOS unaffected. - Mobile Team\n\nMain point: crash rate spike due to null pointer in Android 12+ notification handler. Action items: fix merged, emergency release request submitted; iOS unaffected (no action). So two sentences: first sentence summarizing issue, second sentence summarizing actions and status.\n\nLet's craft: \"The crash rate rose to 2.3% after yesterday's release, exceeding the 0.5% threshold due to a null pointer exception in the notification handler on Android 12+ devices.\" \"A fix has been merged to main and an emergency release request has been submitted to the Play Store,",
+  "score": 5,
+  "cost": 2.772e-05,
+  "expected": "",
+  "tokens": {
+    "input": 108,
+    "output": 200
+  }
+}

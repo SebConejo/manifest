@@ -1,0 +1,13 @@
+{
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "task": "email_summary_v2",
+  "case": 13,
+  "response": "We need to summarize email in exactly 2 sentences, capturing main point and any action items. Email: Q1 stats: NPS 62 up from 58, support CSAT 4.3/5, churn rate 1.2% down from 1.8%. Top feature requests: SSO, custom dashboards, API rate limit increase. 3 enterprise expansions in pipeline totaling $800K. - CS Team.\n\nMain point: Q1 performance improved, feature requests, pipeline expansions. Action items: likely need to address top feature requests (SSO, custom dashboards, API rate limit increase) and pursue enterprise expansions. So two sentences: first summarizing stats and pipeline; second stating action items: prioritize feature requests and follow up on expansions.\n\nMake sure exactly 2 sentences. No extra punctuation that could be considered sentence? Use periods. Ensure no extra sentences. Let's craft:\n\n\"Q1 results show improved NPS (",
+  "score": 3,
+  "cost": 2.9789999999999998e-05,
+  "expected": "",
+  "tokens": {
+    "input": 131,
+    "output": 200
+  }
+}

@@ -2,7 +2,7 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "email_summary_v2",
   "case": 27,
-  "response": "The sprint retrospective highlighted that the auth redesign was shipped on time with strong cross\u2011team collaboration, but identified too many context switches and overly long standups as areas for improvement. The agreed actions are to limit each developer\u2019s work\u2011in\u2011progress to two items and to implement timebox",
+  "response": "The team successfully shipped the auth redesign on schedule and praised cross\u2011team collaboration, but identified excessive context switching and overly long stand\u2011ups as areas for improvement. Action items include limiting work\u2011in\u2011progress to two items per developer and implementing time\u2011boxed stand\u2011ups with a parking lot for off",
   "score": 5,
   "cost": 2.871e-05,
   "expected": "",

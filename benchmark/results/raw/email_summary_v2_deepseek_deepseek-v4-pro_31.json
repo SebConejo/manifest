@@ -1,0 +1,13 @@
+{
+  "model": "deepseek/deepseek-v4-pro",
+  "task": "email_summary_v2",
+  "case": 31,
+  "response": "The email proposes a new 'Starter' pricing tier at $29/month to reduce churn among the 40% of users who leave due to price, offering 5 users, 10K API calls, and email support. Stakeholders should review the projected $180K ARR recovery from recapturing 15% of price-churned users and consider approving this tier.",
+  "score": 5,
+  "cost": 0.000916545,
+  "expected": "",
+  "tokens": {
+    "input": 107,
+    "output": 500
+  }
+}

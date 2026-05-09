@@ -1,0 +1,13 @@
+{
+  "model": "deepseek/deepseek-v4-pro",
+  "task": "email_summary_v2",
+  "case": 6,
+  "response": "Acme Corp, a $450K ARR customer, is threatening to churn due to unresolved API latency issues and a five-day support gap. A dedicated engineer has been assigned, and an executive sponsor is needed for a call this week.",
+  "score": 5,
+  "cost": 0.000130935,
+  "expected": "",
+  "tokens": {
+    "input": 101,
+    "output": 50
+  }
+}

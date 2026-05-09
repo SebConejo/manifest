@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "email_summary_v2",
   "case": 20,
-  "response": "A disk space alert on prod\u2011db\u201101 at 2\u202fAM triggered an automated cleanup",
-  "score": 3,
-  "cost": 2.7810000000000003e-05,
+  "response": "We need to output exactly 2 sentences. Need exactly 2 sentences. Capture the main point and any action items. No customer impact. No action items. No customer impact. - On-Call",
+  "score": 1,
+  "cost": 1.35e-05,
   "expected": "",
   "tokens": {
     "input": 109,
-    "output": 200
+    "output": 41
   }
 }

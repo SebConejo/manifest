@@ -1,0 +1,13 @@
+{
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "task": "email_summary_v2",
+  "case": 10,
+  "response": "The Q1 board deck draft indicates the company exceeded its revenue target at 127% and achieved an NRR of 115%, though CAC increased by 22%. Please provide your product roadmap section by Wednesday to prepare for the",
+  "score": 4,
+  "cost": 2.7269999999999998e-05,
+  "expected": "",
+  "tokens": {
+    "input": 103,
+    "output": 200
+  }
+}

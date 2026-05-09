@@ -1,0 +1,13 @@
+{
+  "model": "deepseek/deepseek-v4-pro",
+  "task": "email_summary_v2",
+  "case": 35,
+  "response": "The content moderation policy is being updated to require labeling of AI-generated images, prohibit deepfakes, and mandate disclosure for AI-assisted text.  \nEnforcement of these new rules begins June 1, and training materials are currently being prepared.",
+  "score": 5,
+  "cost": 0.000603345,
+  "expected": "",
+  "tokens": {
+    "input": 95,
+    "output": 323
+  }
+}

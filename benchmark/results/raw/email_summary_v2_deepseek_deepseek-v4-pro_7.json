@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "email_summary_v2",
   "case": 7,
-  "response": "The office relocation to 500 Market Street is scheduled for June 7-8, with IT setup occurring June 4-6. Each team must designate a move coordinator by Friday.",
-  "score": 4,
-  "cost": 0.00045936,
+  "response": "The new office at 500 Market St will be ready June 1, with IT network setup June 4\u20136 and the move scheduled for June 7\u20138 using professional movers. Each team must designate a move coordinator by Friday.",
+  "score": 5,
+  "cost": 0.00050634,
   "expected": "",
   "tokens": {
     "input": 88,
-    "output": 242
+    "output": 269
   }
 }

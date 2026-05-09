@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "email_summary_v2",
   "case": 26,
-  "response": "A GDPR data export request from user ID 45892 requires compiling all personal data across services, processing purposes documentation, a third-party data sharing log, and analytics data by the May 25 deadline.  \nThe Privacy Team must ensure these materials are gathered and delivered within the 30-day legal timeframe.",
+  "response": "The Privacy Team received a GDPR data export request from user ID 45892, due by May 25, requiring all personal data, processing purposes documentation, a third-party sharing log, and analytics data per Legal.  \nAction is needed to compile and provide these requested items within the 30-day deadline.",
   "score": 5,
-  "cost": 0.00045283499999999996,
+  "cost": 0.00015007499999999998,
   "expected": "",
   "tokens": {
     "input": 97,
-    "output": 236
+    "output": 62
   }
 }

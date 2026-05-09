@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "email_summary_v2",
   "case": 43,
-  "response": "An open source license audit found two issues among 234 scanned packages: a charting library with an incompatible AGPL license and a package with no license. The recommendation is to replace the charting library with Apache-licensed Chart.js and remove both problematic packages before the next release.",
+  "response": "The open source license audit of 234 packages identified two issues: a charting library under the incompatible AGPL license and a package with no license.  \nThe recommendation is to replace the charting library with Apache-licensed Chart.js and remove both problematic packages before the next release.",
   "score": 5,
-  "cost": 0.00049938,
+  "cost": 0.00049416,
   "expected": "",
   "tokens": {
     "input": 104,
-    "output": 261
+    "output": 258
   }
 }

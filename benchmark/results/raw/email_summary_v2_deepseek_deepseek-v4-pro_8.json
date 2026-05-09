@@ -1,0 +1,13 @@
+{
+  "model": "deepseek/deepseek-v4-pro",
+  "task": "email_summary_v2",
+  "case": 8,
+  "response": "The annual performance review cycle begins May 1 with key deadlines including self-reviews due May 15, and this year introduces a new competency framework. Managers must attend a training session on April 30, and all employees should complete their self-reviews by the May 15 deadline.",
+  "score": 4,
+  "cost": 0.000572025,
+  "expected": "",
+  "tokens": {
+    "input": 87,
+    "output": 307
+  }
+}

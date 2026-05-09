@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "email_summary_v2",
   "case": 42,
-  "response": "Yesterday's workshop with 15 enterprise customers revealed that bulk import improvements and SSO are critical needs, while the new analytics dashboard was well-received. Review the attached follow-up report and note that 3 customers expressed interest in the internal tool as a standalone product.",
+  "response": "The workshop with 15 enterprise customers revealed that better bulk import and SSO support are critical needs, while the new analytics dashboard was praised, and three customers unexpectedly expressed interest in the internal tool as a standalone product. Please review the attached follow-up report for detailed actions to address this feedback.",
   "score": 5,
-  "cost": 0.00049503,
+  "cost": 0.0011318699999999999,
   "expected": "",
   "tokens": {
     "input": 106,
-    "output": 258
+    "output": 624
   }
 }

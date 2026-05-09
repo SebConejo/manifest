@@ -1,0 +1,13 @@
+{
+  "model": "deepseek/deepseek-v4-pro",
+  "task": "email_summary_v2",
+  "case": 13,
+  "response": "Q1 customer success metrics improved with NPS rising to 62, support CSAT at 4.3/5, and churn dropping to 1.2%, while the top feature requests requiring action are SSO, custom dashboards, and API rate limit increases.  \nAdditionally, three enterprise expansions totaling $800K are in the pipeline.",
+  "score": 5,
+  "cost": 0.0011144699999999998,
+  "expected": "",
+  "tokens": {
+    "input": 114,
+    "output": 612
+  }
+}

@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "email_summary_v2",
   "case": 22,
-  "response": "The international expansion plan outlines a Japan launch timeline from May to August with a $200,000 budget covering legal setup, localization, and a local hire.  \nCEO approval is needed to proceed with the plan.",
+  "response": "The email outlines the international expansion plan for Japan, including a staged timeline from May to August and a $200,000 budget. CEO approval is required to proceed.",
   "score": 5,
-  "cost": 0.00045762,
+  "cost": 0.0006990449999999999,
   "expected": "",
   "tokens": {
-    "input": 92,
-    "output": 240
+    "input": 171,
+    "output": 359
   }
 }

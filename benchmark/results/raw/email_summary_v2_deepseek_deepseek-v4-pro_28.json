@@ -1,0 +1,13 @@
+{
+  "model": "deepseek/deepseek-v4-pro",
+  "task": "email_summary_v2",
+  "case": 28,
+  "response": "The annual disaster recovery test missed its 4-hour RTO target by over 2 hours due to a slower-than-expected database restore. The SRE team recommends increasing backup frequency and pre-provisioning a standby database before the next test in October.",
+  "score": 5,
+  "cost": 0.00013572,
+  "expected": "",
+  "tokens": {
+    "input": 104,
+    "output": 52
+  }
+}

@@ -2,8 +2,8 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "email_summary_v2",
   "case": 24,
-  "response": "Design System v3 is ready for adoption, featuring new dark\u2011mode color tokens, a 4\u202fpx base spacing scale, and updated Button and Modal components, with a migration tool provided. The Design Team recommends a team\u2011by\u2011team rollout beginning with the",
-  "score": 5,
+  "response": "We need to summarize in exactly 2 sentences, capturing main point and any action items. The email: DS v3 ready for adoption, changes listed, migration tool available, recommend team-by-team rollout starting with Settings page. So two sentences: first sentence: DS v3 is ready, includes new color tokens for dark mode, revised spacing scale (4px base), updated Button and Modal components, and a migration tool is available. Second sentence: The Design Team recommends a team-by-team rollout, beginning with the Settings page. Ensure exactly two sentences. No extra punctuation that could be considered sentence? We must ensure exactly two sentences, ending with periods. Let's craft: \"Design System v3 is now ready for adoption, featuring new dark\u2011mode color tokens, a revised 4px\u2011base spacing scale, updated Button and Modal components, and an available migration tool.\" That's sentence 1. Sentence 2: \"The Design Team advises a team\u2011by",
+  "score": 4,
   "cost": 2.664e-05,
   "expected": "",
   "tokens": {

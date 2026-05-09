@@ -1,0 +1,13 @@
+{
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "task": "email_summary_v2",
+  "case": 8,
+  "response": "We need to summarize email in exactly 2 sentences. Need exactly 2 sentences.",
+  "score": 1,
+  "cost": 1.1069999999999999e-05,
+  "expected": "",
+  "tokens": {
+    "input": 105,
+    "output": 18
+  }
+}

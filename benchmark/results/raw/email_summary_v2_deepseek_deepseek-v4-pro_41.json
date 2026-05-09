@@ -1,0 +1,13 @@
+{
+  "model": "deepseek/deepseek-v4-pro",
+  "task": "email_summary_v2",
+  "case": 41,
+  "response": "Network Ops recommends upgrading from 1Gbps to 10Gbps links for a one-time cost of $45K plus $2K/month, since current links are at 78% peak capacity and growth projections will force a revisit within six months. The alternative is a $15K traffic shaping and CDN optimization solution, and a decision is needed.",
+  "score": 5,
+  "cost": 0.001160145,
+  "expected": "",
+  "tokens": {
+    "input": 107,
+    "output": 640
+  }
+}
