@@ -2,12 +2,12 @@
   "model": "MiniMax-M2.7",
   "task": "reasoning_gsm8k",
   "case": 31,
-  "response": "**Step\u2011by\u2011step solution**\n\n1. Let the number of boys be \\(B\\).  \n   The problem tells us there are **30 boys**, so  \n   \\[\n   B = 30.\n   \\]\n\n2. The number of girls is \u201c3 times as many as the number of boys\u201d.  \n   \\[\n   G = 3B = 3 \\times 30 = 90.\n   \\]\n\n3. The number of nongendered children is \u201c\\( \\frac{1}{10} \\) as many as the number of boys\u201d.  \n   \\[\n   N = \\frac{1}{10}B = \\frac{1}{10}\\times 30 = 3.\n   \\]\n\n4. Total children \\(T\\) is the sum of boys, girls, and nongendered children:  \n   \\[\n   T = B + G + N = 30 + 90 + 3 = 123.\n   \\]\n\n**Answer**\n\nANSWER: 123",
-  "score": 4,
-  "cost": 0.0032516000000000003,
+  "response": "**Step\u2011by\u2011step reasoning**\n\n1. Let the number of boys be \\(B\\).\n   - We are told the classroom has \\(30\\) boys, so \\(B = 30\\).\n\n2. The number of girls is \u201c3 times as many as they do boys\u201d.\n   - Girls \\(= 3 \\times B = 3 \\times 30 = 90\\).\n\n3. The number of non\u2011gendered children is \u201c\\(1/10\\) as many as they do boys\u201d.\n   - Non\u2011gendered children \\(= \\frac{1}{10} \\times B = \\frac{1}{10} \\times 30 = 3\\).\n\n4. Total children = boys + girls + non\u2011gendered children  \n   \\[\n   \\text{Total} = B + (\\text{girls}) + (\\text{non\u2011gendered}) = 30 + 90 + 3 = 123.\n   \\]\n\n**Final answer**\n\nANSWER: 123",
+  "score": 2,
+  "cost": 0.0027907,
   "expected": "123",
   "tokens": {
-    "input": 104,
-    "output": 713
+    "input": 121,
+    "output": 604
   }
 }

@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "reasoning_gsm8k",
   "case": 12,
-  "response": "Each time Jim follows his routine, he watches TV for 2 hours and reads for half that time, which is 1 hour. That totals \\(2 + 1 = 3\\) hours per session. He does this 3 times a week, so per week he spends \\(3 \\times 3 = 9\\) hours. Over 4 weeks, the total time is \\(9 \\times 4 = 36\\) hours.\n\nANSWER: 36",
+  "response": "Let\u2019s break it down step by step.  \n\n**Step 1: Time spent per day**  \n- Watching TV: 2 hours  \n- Reading: half of 2 hours = 1 hour  \n- Total per day: 2 + 1 = 3 hours  \n\n**Step 2: Time spent per week**  \n- He does this 3 times a week: 3 \u00d7 3 = 9 hours per week  \n\n**Step 3: Time spent in 4 weeks**  \n- 9 hours \u00d7 4 weeks = 36 hours  \n\nANSWER: 36",
   "score": 4,
-  "cost": 0.000491115,
+  "cost": 0.000249255,
   "expected": "36",
   "tokens": {
     "input": 85,
-    "output": 261
+    "output": 122
   }
 }

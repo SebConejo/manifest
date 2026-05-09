@@ -1,0 +1,13 @@
+{
+  "model": "gpt-5.5-pro",
+  "task": "reasoning_gsm8k",
+  "case": 23,
+  "response": "The original cost per balloon was:\n\n\\[\n900 \\div 20 = 45\n\\]\n\nAfter the price increase, each balloon cost:\n\n\\[\n45 + 20 = 65\n\\]\n\nFor 170 balloons, Bentley paid:\n\n\\[\n170 \\times 65 = 11050\n\\]\n\nANSWER: 11050",
+  "score": 5,
+  "cost": 0.00441,
+  "expected": "11050",
+  "tokens": {
+    "input": 98,
+    "output": 196
+  }
+}

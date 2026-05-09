@@ -52043,3 +52043,253 @@ timestamp,task,case_idx,model,provider,input_price_per_m,output_price_per_m,inpu
 20260509_164045,rag_qa,47,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,147,120,0.000273,5,llm_judge,Urarina
 20260509_164045,rag_qa,48,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,118,167,0.000342,5,llm_judge,Not found in context.
 20260509_164045,rag_qa,49,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,133,117,0.000261,5,llm_judge,patient care rounds drug product selection
+20260509_165406,reasoning_gsm8k,0,gpt-5.5-pro,openai_responses,5.0,20.0,95,154,0.003555,3,llm_judge,Alexandra raises $430.  Kim raises $320 more than Alexandra:  430 + 320 = 750  Sarah raises $300.  M
+20260509_165406,reasoning_gsm8k,1,gpt-5.5-pro,openai_responses,5.0,20.0,95,167,0.003815,5,llm_judge,Kalinda adds 4 pieces per minute.  Her mom adds half as many:  4 ÷ 2 = 2 pieces per minute  Together
+20260509_165406,reasoning_gsm8k,2,gpt-5.5-pro,openai_responses,5.0,20.0,90,153,0.003510,5,llm_judge,"From 1 PM to 4 PM is 3 hours.  At 10 miles per hour, Tom travels:  10 × 3 = 30 miles  On the way bac"
+20260509_165406,reasoning_gsm8k,3,gpt-5.5-pro,openai_responses,5.0,20.0,90,180,0.004050,3,llm_judge,James’s sons are 12 years old and 4 years younger than 12:  12 - 4 = 8  Total candles needed:  12 + 
+20260509_165406,reasoning_gsm8k,4,gpt-5.5-pro,openai_responses,5.0,20.0,102,191,0.004330,5,llm_judge,Mariah used \( \frac{1}{4} \) of a skein.  Her grandma used \( \frac{1}{2} \) of a skein.  Together 
+20260509_165406,reasoning_gsm8k,5,gpt-5.5-pro,openai_responses,5.0,20.0,117,144,0.003465,5,llm_judge,Katelyn first saw 50 fairies.  Half as many as 50 is:  50 ÷ 2 = 25  So 25 more fairies joined them: 
+20260509_165406,reasoning_gsm8k,6,gpt-5.5-pro,openai_responses,5.0,20.0,68,113,0.002600,5,llm_judge,Ann is 9 years old.  Her brother is twice her age:  2 × 9 = 18  So her brother is 18 years old now. 
+20260509_165406,reasoning_gsm8k,7,gpt-5.5-pro,openai_responses,5.0,20.0,75,311,0.006595,4,llm_judge,Half a dozen plates = 6 plates.  Total cost of plates = 6 × 6000 = 36000.  Twenty dozen cups cost $1
+20260509_165406,reasoning_gsm8k,8,gpt-5.5-pro,openai_responses,5.0,20.0,82,104,0.002490,5,llm_judge,Last year there were 50 students.  A 20% increase means:  20% of 50 = 0.20 × 50 = 10  So this year’s
+20260509_165406,reasoning_gsm8k,9,gpt-5.5-pro,openai_responses,5.0,20.0,83,139,0.003195,4,llm_judge,Bo has 40 crabs.  Monic has 4 fewer than Bo: 40 - 4 = 36  Rani has 10 more than Monic: 36 + 10 = 46 
+20260509_165406,reasoning_gsm8k,10,gpt-5.5-pro,openai_responses,5.0,20.0,201,198,0.004965,5,llm_judge,Low setting removes 1 liter per day.  Medium setting removes twice as much:  2 liters per day  High 
+20260509_165406,reasoning_gsm8k,11,gpt-5.5-pro,openai_responses,5.0,20.0,102,210,0.004710,5,llm_judge,Total burritos ordered: 600  Burritos given to students:   50 × 10 = 500  Burritos eaten by Mr. Geor
+20260509_165406,reasoning_gsm8k,12,gpt-5.5-pro,openai_responses,5.0,20.0,89,224,0.004925,5,llm_judge,Jim watches TV for 2 hours.  He reads for half as long:  2 ÷ 2 = 1 hour  Total time each time:  2 + 
+20260509_165406,reasoning_gsm8k,13,gpt-5.5-pro,openai_responses,5.0,20.0,98,188,0.004250,5,llm_judge,"Janet pays:  - Material: $500   - Jeweler: $800    Subtotal:   $500 + $800 = $1,300  Insurance is 10"
+20260509_165406,reasoning_gsm8k,14,gpt-5.5-pro,openai_responses,5.0,20.0,78,199,0.004370,5,llm_judge,Each duck needs 3.5 pounds per week.  For 10 ducks: 3.5 × 10 = 35 pounds per week  There are 7 days 
+20260509_165406,reasoning_gsm8k,15,gpt-5.5-pro,openai_responses,5.0,20.0,84,137,0.003160,5,llm_judge,Joey’s new score is 214 + 26 = 240.  Marcy’s new score is 225 + 10 = 235.  Joey is winning by 240 - 
+20260509_165406,reasoning_gsm8k,16,gpt-5.5-pro,openai_responses,5.0,20.0,86,130,0.003030,5,llm_judge,"Sarah spent $300 total, and each book cost $15.  Number of books Sarah bought:  $300 ÷ $15 = 20 book"
+20260509_165406,reasoning_gsm8k,17,gpt-5.5-pro,openai_responses,5.0,20.0,76,121,0.002800,5,llm_judge,Ted buys 3 books at $16 each:  3 × 16 = 48  Ted buys 3 pencils at $6 each:  3 × 6 = 18  Total spent:
+20260509_165406,reasoning_gsm8k,18,gpt-5.5-pro,openai_responses,5.0,20.0,84,145,0.003320,5,llm_judge,Eve originally had 20 pomelos.  She was left with \( \frac{1}{4} \) of them:  \[ \frac{1}{4} \times 
+20260509_165406,reasoning_gsm8k,19,gpt-5.5-pro,openai_responses,5.0,20.0,123,183,0.004275,4,llm_judge,They adopted 7 kittens.  Patchy had thrice that number:  \(3 \times 7 = 21\)  Trixie had 12 kittens.
+20260509_165406,reasoning_gsm8k,20,gpt-5.5-pro,openai_responses,5.0,20.0,74,136,0.003090,5,llm_judge,"Each fish needs $1 of food per day.  Jen has 3 fish, so she spends:  3 × $1 = $3 per day  May has 31"
+20260509_165406,reasoning_gsm8k,21,gpt-5.5-pro,openai_responses,5.0,20.0,127,224,0.005115,5,llm_judge,"Elliott’s goal is 10,000 steps.  He finished half of them walking to and from school:  10,000 ÷ 2 = "
+20260509_165406,reasoning_gsm8k,22,gpt-5.5-pro,openai_responses,5.0,20.0,94,216,0.004790,5,llm_judge,Rafaela received:  \(40 \times 20 = 800\)  So Rafaela received $800 in tips.  Julieta received 10% l
+20260509_165406,reasoning_gsm8k,23,gpt-5.5-pro,openai_responses,5.0,20.0,98,196,0.004410,5,llm_judge,"The original cost per balloon was:  \[ 900 \div 20 = 45 \]  After the price increase, each balloon c"
+20260509_165406,reasoning_gsm8k,24,gpt-5.5-pro,openai_responses,5.0,20.0,122,169,0.003990,5,llm_judge,Each student sold an average of 10 lollipops.  Total lollipops sold: 30 × 10 = 300  Profit per lolli
+20260509_165406,reasoning_gsm8k,25,gpt-5.5-pro,openai_responses,5.0,20.0,103,155,0.003615,5,llm_judge,"John’s house is worth $250,000.  He gets a loan worth 40% of that:  $250,000 × 0.40 = $100,000  He u"
+20260509_165406,reasoning_gsm8k,26,gpt-5.5-pro,openai_responses,5.0,20.0,104,118,0.002880,5,llm_judge,Mitchell made \(21 \times 4 = 84\) dollars.  Liam made \(63\) dollars.  The difference is:  \[ 84 - 
+20260509_165406,reasoning_gsm8k,27,gpt-5.5-pro,openai_responses,5.0,20.0,99,340,0.007295,5,llm_judge,Let \(x\) be the number of vacuum cleaners Melanie started with.  - She sold \(\frac{1}{3}x\) at the
+20260509_165406,reasoning_gsm8k,28,gpt-5.5-pro,openai_responses,5.0,20.0,110,194,0.004430,5,llm_judge,Let \(x\) be the number of people who got on the bus at the terminal.  After the first stop:   \(x +
+20260509_165406,reasoning_gsm8k,29,gpt-5.5-pro,openai_responses,5.0,20.0,106,131,0.003150,4,llm_judge,"Red cars = 12   Green cars = 12 - 2 = 10   Blue cars = 3 × 10 = 30    Total red, green, and blue car"
+20260509_165406,reasoning_gsm8k,30,gpt-5.5-pro,openai_responses,5.0,20.0,146,357,0.007870,4,llm_judge,Adam: 50 points  Betty collected 30% more than Adam:   50 + 30% of 50 = 50 + 15 = 65  Tom has 30 poi
+20260509_165406,reasoning_gsm8k,31,gpt-5.5-pro,openai_responses,5.0,20.0,90,123,0.002910,1,llm_judge,Boys: 30  Girls: \(3 \times 30 = 90\)  Nongendered children: \(\frac{1}{10} \times 30 = 3\)  Total c
+20260509_165406,reasoning_gsm8k,32,gpt-5.5-pro,openai_responses,5.0,20.0,76,176,0.003900,5,llm_judge,Convert the length to feet:  3 yards = 3 × 3 = 9 feet  Use area = length × width:  360 = 9 × width  
+20260509_165406,reasoning_gsm8k,33,gpt-5.5-pro,openai_responses,5.0,20.0,86,288,0.006190,5,llm_judge,Five lollipops cost:  \(5 \times \$0.40 = \$2.00\)  So the four candies cost:  \(\$3.20 - \$2.00 = \
+20260509_165406,reasoning_gsm8k,34,gpt-5.5-pro,openai_responses,5.0,20.0,106,340,0.007330,4,llm_judge,Tickets cost: $20.25  Food cost: $20.25 - $4.50 = $15.75  Rides cost: 2 × $33 = $66  Total cost: $20
+20260509_165406,reasoning_gsm8k,35,gpt-5.5-pro,openai_responses,5.0,20.0,119,146,0.003515,5,llm_judge,Peaches: \(6 \times 2 = 12\)  Plums: \(8 \times 1 = 8\)  Apricots: \(6 \times 3 = 18\)  Total spent:
+20260509_165406,reasoning_gsm8k,36,gpt-5.5-pro,openai_responses,5.0,20.0,115,246,0.005495,5,llm_judge,Elaine initially had 20 cards.  First month:   \(3 \times 20 = 60\) cards  Second month:   \(60 - 20
+20260509_165406,reasoning_gsm8k,37,gpt-5.5-pro,openai_responses,5.0,20.0,97,170,0.003885,5,llm_judge,Candidate A got 20% of 100 votes:  20 votes  Candidate B got 50% more than candidate A:  20 + 50% of
+20260509_165406,reasoning_gsm8k,38,gpt-5.5-pro,openai_responses,5.0,20.0,73,151,0.003385,5,llm_judge,Gerald and Julia divided $100 in the ratio \(3:2\).  Total parts: \(3+2=5\)  Gerald’s share: \(\frac
+20260509_165406,reasoning_gsm8k,39,gpt-5.5-pro,openai_responses,5.0,20.0,107,222,0.004975,5,llm_judge,Madeline ate 6 grapes.  Her brother used 5 times as many grapes:  5 × 6 = 30 grapes  Their mother ma
+20260509_165406,reasoning_gsm8k,40,gpt-5.5-pro,openai_responses,5.0,20.0,100,284,0.006180,5,llm_judge,"April has 30 days, so each half has 15 days.  Let the amount Elvis saves each day in the first half "
+20260509_165406,reasoning_gsm8k,41,gpt-5.5-pro,openai_responses,5.0,20.0,74,158,0.003530,5,llm_judge,"Let Harald’s sales be \(H\).  Marilyn sold 10 times as many copies, so she sold \(10H\).  Together t"
+20260509_165406,reasoning_gsm8k,42,gpt-5.5-pro,openai_responses,5.0,20.0,94,130,0.003070,5,llm_judge,Each school has:  8 children per row × 7 rows = 56 children  For 5 schools:  56 × 5 = 280 children  
+20260509_165406,reasoning_gsm8k,43,gpt-5.5-pro,openai_responses,5.0,20.0,86,113,0.002690,5,llm_judge,Mike is 24 years old.  Martha is 4 years younger than Mike:  24 - 4 = 20  Jeff is 10 years older tha
+20260509_165406,reasoning_gsm8k,44,gpt-5.5-pro,openai_responses,5.0,20.0,89,1144,0.023325,2,llm_judge,40 new cows divided among 20 stalls gives:  40 ÷ 20 = 2 new cows per stall  Each stall that had 20 c
+20260509_165406,reasoning_gsm8k,45,gpt-5.5-pro,openai_responses,5.0,20.0,101,141,0.003325,5,llm_judge,Each car needs 4 wheels:  57 × 4 = 228 wheels  Each motorcycle needs 2 wheels:  73 × 2 = 146 wheels 
+20260509_165406,reasoning_gsm8k,46,gpt-5.5-pro,openai_responses,5.0,20.0,113,288,0.006325,4,llm_judge,Anakin caught:  10 + 6 + 3 = 19  Locsin caught:  - Starfish: 10 - 5 = 5 - Sea horses: 6 - 3 = 3 - Cl
+20260509_165406,reasoning_gsm8k,47,gpt-5.5-pro,openai_responses,5.0,20.0,116,266,0.005900,5,llm_judge,"Nik has 200 crayons.  Each box holds 8 crayons, so the number of boxes is:  200 ÷ 8 = 25 boxes  Each"
+20260509_165406,reasoning_gsm8k,48,gpt-5.5-pro,openai_responses,5.0,20.0,102,148,0.003470,5,llm_judge,Jamaal starts with an 8-pound weight.  A 50% increase of 8 pounds is:  8 × 0.50 = 4  So the increase
+20260509_165406,reasoning_gsm8k,49,gpt-5.5-pro,openai_responses,5.0,20.0,98,212,0.004730,4,llm_judge,"There are 3 sisters, each 16 years old:  3 × 16 = 48  One brother is 12 years old. Since 12 is half "
+20260509_165406,reasoning_gsm8k,0,kimi-k2.6,moonshot,0.6,2.4,95,460,0.001161,5,llm_judge,Here is the step-by-step solution:  1. **Find Alexandra's amount:**      Alexandra raised **$430**. 
+20260509_165406,reasoning_gsm8k,1,kimi-k2.6,moonshot,0.6,2.4,95,273,0.000712,5,llm_judge,"First, find Kalinda's rate: 4 pieces per minute.  Next, find her mom's rate: half of Kalinda's rate,"
+20260509_165406,reasoning_gsm8k,2,kimi-k2.6,moonshot,0.6,2.4,90,429,0.001084,5,llm_judge,"Step 1: Find the duration of the outbound trip.   Tom sails from 1 PM to 4 PM, which is 3 hours.  St"
+20260509_165406,reasoning_gsm8k,3,kimi-k2.6,moonshot,0.6,2.4,90,626,0.001556,5,llm_judge,"Step 1: Find the age of the second son.   The first son is 12, and the second is 4 years younger:   "
+20260509_165406,reasoning_gsm8k,4,kimi-k2.6,moonshot,0.6,2.4,102,344,0.000887,5,llm_judge,"To find the total yards of yarn used, first add the fractions of a skein that Mariah and her grandma"
+20260509_165406,reasoning_gsm8k,5,kimi-k2.6,moonshot,0.6,2.4,117,333,0.000869,5,llm_judge,Step 1: Identify the initial number of fairies. Katelyn initially saw 50 fairies.  Step 2: Calculate
+20260509_165406,reasoning_gsm8k,6,kimi-k2.6,moonshot,0.6,2.4,68,225,0.000581,5,llm_judge,Step 1: Find the brother's current age.   Since Ann is 9 years old and her brother is twice her age:
+20260509_165406,reasoning_gsm8k,7,kimi-k2.6,moonshot,0.6,2.4,75,1577,0.003830,5,llm_judge,"Step 1: Find the total cost of half a dozen plates.   Half a dozen = 6 plates.   6 × $6000 = $36,000"
+20260509_165406,reasoning_gsm8k,8,kimi-k2.6,moonshot,0.6,2.4,82,298,0.000764,5,llm_judge,Step 1: Identify last year's enrollment. Last year there were 50 students.  Step 2: Calculate the in
+20260509_165406,reasoning_gsm8k,9,kimi-k2.6,moonshot,0.6,2.4,83,369,0.000935,5,llm_judge,"Step 1: Find Monic’s number of crabs.   Monic has 4 fewer crabs than Bo.   Bo has 40 crabs, so Monic"
+20260509_165406,reasoning_gsm8k,10,kimi-k2.6,moonshot,0.6,2.4,203,413,0.001113,5,llm_judge,Step 1: Determine the water removal rate for each setting. - Low setting: 1 liter per day. - Medium 
+20260509_165406,reasoning_gsm8k,11,kimi-k2.6,moonshot,0.6,2.4,102,460,0.001165,5,llm_judge,Step 1: Find the total number of burritos given to the students.   50 students × 10 burritos each = 
+20260509_165406,reasoning_gsm8k,12,kimi-k2.6,moonshot,0.6,2.4,89,372,0.000946,4,llm_judge,Jim spends 2 hours watching TV each session.  He reads for half as long as he watches TV: - Reading 
+20260509_165406,reasoning_gsm8k,13,kimi-k2.6,moonshot,0.6,2.4,98,283,0.000738,5,llm_judge,Step 1: Find the cost of the material and construction.   Material = $500   Construction = $800   Su
+20260509_165406,reasoning_gsm8k,14,kimi-k2.6,moonshot,0.6,2.4,79,317,0.000808,5,llm_judge,Step 1: Calculate the total weekly insect consumption for all ten ducks. Each duck eats 3.5 pounds p
+20260509_165406,reasoning_gsm8k,15,kimi-k2.6,moonshot,0.6,2.4,85,341,0.000869,5,llm_judge,Step 1: Find Joey’s new score.   214 + 26 = 240 points.  Step 2: Find Marcy’s new score.   225 + 10 
+20260509_165406,reasoning_gsm8k,16,kimi-k2.6,moonshot,0.6,2.4,86,361,0.000918,5,llm_judge,Step 1: Find the total number of books Sarah bought.   Divide the total amount spent by the cost of 
+20260509_165406,reasoning_gsm8k,17,kimi-k2.6,moonshot,0.6,2.4,76,572,0.001418,5,llm_judge,Step 1: Calculate the total cost of the books. Ted buys 3 books at $16 each. 3 × $16 = $48  Step 2: 
+20260509_165406,reasoning_gsm8k,18,kimi-k2.6,moonshot,0.6,2.4,88,370,0.000941,5,llm_judge,Eve originally had 20 pomelos.  She is left with 1/4 of her original amount: 20 × 1/4 = 5 pomelos re
+20260509_165406,reasoning_gsm8k,19,kimi-k2.6,moonshot,0.6,2.4,123,430,0.001106,5,llm_judge,Step 1: The sisters adopted 7 kittens.  Step 2: Patchy had thrice the number of adopted kittens.   3
+20260509_165406,reasoning_gsm8k,20,kimi-k2.6,moonshot,0.6,2.4,74,295,0.000752,5,llm_judge,"First, find the total daily cost for all the fish.   3 fish × $1 per fish per day = $3 per day.  Nex"
+20260509_165406,reasoning_gsm8k,21,kimi-k2.6,moonshot,0.6,2.4,127,982,0.002433,5,llm_judge,"Elliott’s daily goal is 10,000 steps.  1. He completed half of his daily steps on his walks to and f"
+20260509_165406,reasoning_gsm8k,22,kimi-k2.6,moonshot,0.6,2.4,94,354,0.000906,4,llm_judge,Step 1: Calculate Rafaela's total tips. Rafaela received a $20 tip from each of 40 customers. $20 × 
+20260509_165406,reasoning_gsm8k,23,kimi-k2.6,moonshot,0.6,2.4,98,633,0.001578,5,llm_judge,Step 1: Find the original cost per balloon.   \[ \frac{900}{20} = 45 \] The original cost was \\(45 
+20260509_165406,reasoning_gsm8k,24,kimi-k2.6,moonshot,0.6,2.4,118,377,0.000976,5,llm_judge,"First, find the total number of lollipops sold.   There are 30 students and each student sold an ave"
+20260509_165406,reasoning_gsm8k,25,kimi-k2.6,moonshot,0.6,2.4,103,818,0.002025,5,llm_judge,"Step 1: Find the total loan amount.   The house is worth $250,000 and the loan is 40% of that value:"
+20260509_165406,reasoning_gsm8k,26,kimi-k2.6,moonshot,0.6,2.4,104,233,0.000622,5,llm_judge,"First, calculate how much Mitchell made:  - Mitchell sold 21 lemonades at $4 each. - 21 × 4 = 84 dol"
+20260509_165406,reasoning_gsm8k,27,kimi-k2.6,moonshot,0.6,2.4,99,612,0.001528,5,llm_judge,Let \( x \) be the number of vacuum cleaners Melanie started with.  1. **Green house:** She sold \(\
+20260509_165406,reasoning_gsm8k,28,kimi-k2.6,moonshot,0.6,2.4,110,428,0.001093,5,llm_judge,Let $x$ be the number of people who got on the bus at the terminal.  1. **At the terminal:** There a
+20260509_165406,reasoning_gsm8k,29,kimi-k2.6,moonshot,0.6,2.4,106,331,0.000858,5,llm_judge,Step 1: Find the number of green cars.   The rink has 2 fewer green cars than red cars.   12 red car
+20260509_165406,reasoning_gsm8k,30,kimi-k2.6,moonshot,0.6,2.4,147,2474,0.006026,5,llm_judge,**Step 1:** Find Betty’s points.   Betty collected 30% more than Adam.   30% of 50 = 0.30 × 50 = 15.
+20260509_165406,reasoning_gsm8k,31,kimi-k2.6,moonshot,0.6,2.4,91,532,0.001331,1,llm_judge,Step 1: Identify the number of boys.   The problem states there are 30 boys.  Step 2: Calculate the 
+20260509_165406,reasoning_gsm8k,32,kimi-k2.6,moonshot,0.6,2.4,76,495,0.001234,4,llm_judge,"**Step 1:** Convert the length from yards to feet.   Since 1 yard = 3 feet,   3 yards = \(3 \times 3"
+20260509_165406,reasoning_gsm8k,33,kimi-k2.6,moonshot,0.6,2.4,84,2089,0.005064,5,llm_judge,**Step 1:** Find the total cost of the 5 lollipops.   5 lollipops × $0.40 = $2.00  **Step 2:** Find 
+20260509_165406,reasoning_gsm8k,34,kimi-k2.6,moonshot,0.6,2.4,106,542,0.001364,5,llm_judge,Step 1: Find the total cost of the tickets.   The tickets cost $20.25 total.  Step 2: Find the total
+20260509_165406,reasoning_gsm8k,35,kimi-k2.6,moonshot,0.6,2.4,117,349,0.000908,5,llm_judge,"First, calculate the cost for each type of fruit:  - **Peaches:** 6 pounds × $2.00 per pound = $12.0"
+20260509_165406,reasoning_gsm8k,36,kimi-k2.6,moonshot,0.6,2.4,115,633,0.001588,5,llm_judge,Step 1: Identify the initial number of cards.   Elaine starts with 20 cards.  Step 2: Calculate the 
+20260509_165406,reasoning_gsm8k,37,kimi-k2.6,moonshot,0.6,2.4,97,618,0.001541,5,llm_judge,Step 1: Find the number of votes candidate A received. 20% of 100 voters = 0.20 × 100 = 20 votes.  S
+20260509_165406,reasoning_gsm8k,38,kimi-k2.6,moonshot,0.6,2.4,73,291,0.000742,5,llm_judge,"The total amount of money is $100, and it is divided in the ratio 3:2.  **Step 1:** Find the total n"
+20260509_165406,reasoning_gsm8k,39,kimi-k2.6,moonshot,0.6,2.4,107,516,0.001303,5,llm_judge,Step 1: Find how many grapes Madeline ate.   Madeline ate **6 grapes**.  Step 2: Find how many grape
+20260509_165406,reasoning_gsm8k,40,kimi-k2.6,moonshot,0.6,2.4,100,785,0.001944,5,llm_judge,"April has 30 days, so each half of the month consists of 15 days.  Let \( x \) be the amount Elvis s"
+20260509_165406,reasoning_gsm8k,41,kimi-k2.6,moonshot,0.6,2.4,76,374,0.000943,5,llm_judge,"Let \( H \) be the number of copies Harald sold.  1. Marilyn sold 10 times as many copies as Harald,"
+20260509_165406,reasoning_gsm8k,42,kimi-k2.6,moonshot,0.6,2.4,94,642,0.001597,5,llm_judge,Each school has its children arranged in rows.  **Step 1:** Find the number of children in one schoo
+20260509_165406,reasoning_gsm8k,43,kimi-k2.6,moonshot,0.6,2.4,86,424,0.001069,5,llm_judge,"Given that Mike is 24 years old.  Martha is 4 years younger than Mike, so Martha's age is: 24 - 4 = "
+20260509_165406,reasoning_gsm8k,44,kimi-k2.6,moonshot,0.6,2.4,89,5580,0.013445,4,llm_judge,Step 1: Determine how many cows are already in the stalls.   10 stalls × 20 cows each = 200 cows.  S
+20260509_165406,reasoning_gsm8k,45,kimi-k2.6,moonshot,0.6,2.4,101,449,0.001138,5,llm_judge,"Step 1: Calculate the number of wheels needed for the cars.   Henry has 57 cars, and each car needs "
+20260509_165406,reasoning_gsm8k,46,kimi-k2.6,moonshot,0.6,2.4,115,2566,0.006227,5,llm_judge,Here is the step-by-step solution:  **Step 1:** Find how many creatures Anakin caught in total.   An
+20260509_165406,reasoning_gsm8k,47,kimi-k2.6,moonshot,0.6,2.4,119,526,0.001334,5,llm_judge,Step 1: Find the number of boxes needed. Nik has 200 crayons and puts 8 crayons in each box. 200 ÷ 8
+20260509_165406,reasoning_gsm8k,48,kimi-k2.6,moonshot,0.6,2.4,102,322,0.000834,5,llm_judge,"Jamaal starts with an 8-pound weight.  First, find the 50% increase: - 50% of 8 pounds = 0.50 × 8 = "
+20260509_165406,reasoning_gsm8k,49,kimi-k2.6,moonshot,0.6,2.4,98,586,0.001465,5,llm_judge,"**Step 1:** Find the total age of the sisters.   There are 3 sisters, each aged 16.   \(3 \times 16 "
+20260509_165406,reasoning_gsm8k,0,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,91,302,0.000565,3,llm_judge,"The total amount raised is the sum of the amounts raised by Kim, Alexandra, Maryam, and Sarah.   Ale"
+20260509_165406,reasoning_gsm8k,1,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,91,249,0.000473,5,llm_judge,"Kalinda places 4 pieces per minute, and her mom places half of that, which is 2 pieces per minute. T"
+20260509_165406,reasoning_gsm8k,2,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,86,251,0.000474,5,llm_judge,"Tom sails from 1 PM to 4 PM, which is a duration of 3 hours. At a speed of 10 miles per hour, the di"
+20260509_165406,reasoning_gsm8k,3,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,86,187,0.000363,5,llm_judge,Let’s go step by step.    1. **Ages of the sons**      - One son is 12 years old.      - The other i
+20260509_165406,reasoning_gsm8k,4,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,99,274,0.000520,5,llm_judge,"Mariah used 1/4 of a skein and her grandma used 1/2 of a skein. Together, they used 1/4 + 1/2 = 1/4 "
+20260509_165406,reasoning_gsm8k,5,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,113,286,0.000547,5,llm_judge,"Katelyn initially saw 50 fairies. One of her friends saw half as many fairies as Katelyn saw, which "
+20260509_165406,reasoning_gsm8k,6,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,64,146,0.000282,5,llm_judge,"Ann is currently 9 years old. Her brother is twice her age, so he is 2 × 9 = 18 years old now. In 3 "
+20260509_165406,reasoning_gsm8k,7,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,71,440,0.000796,5,llm_judge,"Twenty dozen cups equal 240 cups. Half a dozen plates equal 6 plates, and at $6000 each their total "
+20260509_165406,reasoning_gsm8k,8,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,78,154,0.000302,5,llm_judge,Last year's enrollment: 50 students.   A 20% increase means the number of additional students is \(0
+20260509_165406,reasoning_gsm8k,9,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,75,242,0.000454,5,llm_judge,"Rani has ten more crabs than Monic, and Monic has 4 fewer crabs than Bo. Given Bo has 40 crabs, we c"
+20260509_165406,reasoning_gsm8k,10,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,197,383,0.000752,5,llm_judge,"The low setting removes 1 liter per day. The medium setting removes twice that, so 2 liters per day."
+20260509_165406,reasoning_gsm8k,11,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,98,151,0.000305,5,llm_judge,Let’s go step by step.    **Step 1: Total burritos ordered**   George ordered **600 burritos**.    *
+20260509_165406,reasoning_gsm8k,12,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,85,122,0.000249,4,llm_judge,Let’s break it down step by step.    **Step 1: Time spent per day**   - Watching TV: 2 hours   - Rea
+20260509_165406,reasoning_gsm8k,13,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,94,235,0.000450,5,llm_judge,"Janet's total payment is the sum of the material cost, the jeweler's fee, and the insurance cost.  M"
+20260509_165406,reasoning_gsm8k,14,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,75,210,0.000398,5,llm_judge,"Each duck needs 3.5 pounds of insects per week. Since there are 7 days in a week, the daily need per"
+20260509_165406,reasoning_gsm8k,15,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,79,206,0.000393,5,llm_judge,"Joey's initial points: 214   Joey scores 26 points, so his new total is 214 + 26 = 240.   Marcy's in"
+20260509_165406,reasoning_gsm8k,16,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,82,211,0.000403,4,llm_judge,"Sarah spent $300 on books, with each book costing $15. To find the total number of books she bought,"
+20260509_165406,reasoning_gsm8k,17,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,72,176,0.000338,5,llm_judge,"Ted buys 3 books at $16 each, so the cost for books is 3 × 16 = $48. He buys 3 pencils at $6 each, s"
+20260509_165406,reasoning_gsm8k,18,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,80,211,0.000402,5,llm_judge,"Eve originally had 20 pomelos. After giving some away, she has 1/4 of the original amount left.   1/"
+20260509_165406,reasoning_gsm8k,19,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,119,444,0.000824,5,llm_judge,The Doubtfire sisters initially have 7 adopted kittens. Patchy has thrice (three times) the number o
+20260509_165406,reasoning_gsm8k,20,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,70,184,0.000351,5,llm_judge,"Jen has 3 fish, and each fish requires $1 worth of food per day. So, the daily cost for all fish is "
+20260509_165406,reasoning_gsm8k,21,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,123,392,0.000736,5,llm_judge,"Elliott's goal is 10,000 steps. He completed half of his steps walking to and from school, which is "
+20260509_165406,reasoning_gsm8k,22,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,90,270,0.000509,5,llm_judge,"Rafaela received tips from 40 customers, each giving $20, so her total tips are 40 × $20 = $800. Jul"
+20260509_165406,reasoning_gsm8k,23,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,94,265,0.000502,5,llm_judge,"The original cost per balloon is $900 ÷ 20 = $45. After the price increase of $20, the new cost per "
+20260509_165406,reasoning_gsm8k,24,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,118,296,0.000566,5,llm_judge,"The class has 30 students, and each student sold an average of 10 lollipops, so the total number of "
+20260509_165406,reasoning_gsm8k,25,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,98,284,0.000537,5,llm_judge,"John's house is worth $250,000. He gets a loan for 40% of the house's value.  Loan amount = 0.40 × $"
+20260509_165406,reasoning_gsm8k,26,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,102,201,0.000394,5,llm_judge,"Mitchell sold 21 lemonades at $4 each, so he made 21 × 4 = $84. Liam made $63. The difference is 84 "
+20260509_165406,reasoning_gsm8k,27,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,95,622,0.001124,5,llm_judge,Melanie started with 18 vacuum cleaners.  **Step-by-step reasoning:** 1. Let the initial number of v
+20260509_165406,reasoning_gsm8k,28,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,106,287,0.000545,5,llm_judge,"Let \( x \) be the number of people who got on the bus at the terminal.  - After the first stop, 5 m"
+20260509_165406,reasoning_gsm8k,29,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,105,244,0.000470,5,llm_judge,Red cars: 12   Green cars: 12 - 2 = 10   Blue cars: 3 × 10 = 30   Total so far: 12 + 10 + 30 = 52   
+20260509_165406,reasoning_gsm8k,30,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,142,2752,0.004850,4,llm_judge,Adam has 50 points.   Betty collected 30% more than Adam: 50 + (0.30 × 50) = 50 + 15 = 65 points.   
+20260509_165406,reasoning_gsm8k,31,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,86,155,0.000307,2,llm_judge,Let’s go step by step.    **Step 1: Identify the number of boys.**   The problem says there are 30 b
+20260509_165406,reasoning_gsm8k,32,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,73,277,0.000514,4,llm_judge,"The area of the bedroom is 360 square feet. The length is given as 3 yards. First, convert the lengt"
+20260509_165406,reasoning_gsm8k,33,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,86,444,0.000810,5,llm_judge,"Manolo bought 5 lollipops and 4 candies for $3.20. Each lollipop costs $0.40. First, find the cost o"
+20260509_165406,reasoning_gsm8k,34,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,102,6639,0.011596,4,llm_judge,"The problem states that three friends spent $20.25 on 3 tickets to the fair, which is the total cost"
+20260509_165406,reasoning_gsm8k,35,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,113,281,0.000538,5,llm_judge,Winston's spending is calculated by multiplying the weight of each fruit by its price per pound and 
+20260509_165406,reasoning_gsm8k,36,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,113,477,0.000879,5,llm_judge,"Elaine started with 20 cards. In the first month, she collected 3 times that initial amount: 3 × 20 "
+20260509_165406,reasoning_gsm8k,37,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,93,268,0.000507,5,llm_judge,"Candidate A received 20% of the 100 votes, which is 20 votes. Candidate B received 50% more than can"
+20260509_165406,reasoning_gsm8k,38,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,69,206,0.000388,5,llm_judge,Gerald and Julia divided $100 in the ratio 3:2. The total parts are 3 + 2 = 5. Gerald's share is (3/
+20260509_165406,reasoning_gsm8k,39,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,103,322,0.000605,5,llm_judge,"Madeline ate 6 grapes. Her brother used 5 times as many grapes as Madeline, so he used 5 × 6 = 30 gr"
+20260509_165406,reasoning_gsm8k,40,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,96,398,0.000734,5,llm_judge,"Elvis's monthly saving target is $1125. April has 30 days, so we can divide it into two halves of 15"
+20260509_165406,reasoning_gsm8k,41,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,72,121,0.000242,2,llm_judge,"Harald sold 8,000 copies.  ANSWER: 8000"
+20260509_165406,reasoning_gsm8k,42,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,91,333,0.000619,5,llm_judge,The problem describes children performing mass drills. They stand 8 in a row. There are 7 rows for e
+20260509_165406,reasoning_gsm8k,43,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,82,222,0.000422,5,llm_judge,Jeff is 10 years older than Martha. Martha is 4 years younger than Mike. Mike is 24 years old.   Fir
+20260509_165406,reasoning_gsm8k,44,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,92,1539,0.002718,0,llm_judge,
+20260509_165406,reasoning_gsm8k,45,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,97,235,0.000451,5,llm_judge,"Henry needs 57 cars and 73 motorcycles. Each car uses 4 wheels, and each motorcycle uses 2 wheels.  "
+20260509_165406,reasoning_gsm8k,46,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,109,155,0.000317,5,llm_judge,Let’s break this down step by step.    **Anakin’s catch:**   - Starfish: 10   - Sea horses: 6   - Cl
+20260509_165406,reasoning_gsm8k,47,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,115,362,0.000680,5,llm_judge,The total weight of the crayons is 200 ounces (200 crayons × 1 ounce each). The crayons are separate
+20260509_165406,reasoning_gsm8k,48,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,98,236,0.000453,5,llm_judge,"Jamaal starts with an 8-pound weight. Increasing by 50% means adding half of 8 pounds, which is 4 po"
+20260509_165406,reasoning_gsm8k,49,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,94,285,0.000537,5,llm_judge,"The family has 3 sisters who are all 16 years old, so their combined age is \(3 \times 16 = 48\). Th"
+20260509_165406,reasoning_gsm8k,0,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,96,7,0.000009,2,llm_judge,ANSWER: 2180
+20260509_165406,reasoning_gsm8k,1,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,108,83,0.000017,1,llm_judge,ANSWER: 1
+20260509_165406,reasoning_gsm8k,2,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,102,40,0.000013,1,llm_judge,ANSWER: 1
+20260509_165406,reasoning_gsm8k,3,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,102,302,0.000036,2,llm_judge,James needs candles for his sons aged 12 and 8 (since the second son is 4 years younger than the 12‑
+20260509_165406,reasoning_gsm8k,4,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,103,6,0.000010,2,llm_judge,ANSWER: 273
+20260509_165406,reasoning_gsm8k,5,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,118,6,0.000011,3,llm_judge,ANSWER: 45
+20260509_165406,reasoning_gsm8k,6,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,79,84,0.000015,1,llm_judge,ANSWER: 21
+20260509_165406,reasoning_gsm8k,7,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,90,587,0.000061,1,llm_judge,ANSWER: 145
+20260509_165406,reasoning_gsm8k,8,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,83,6,0.000008,2,llm_judge,ANSWER: 60
+20260509_165406,reasoning_gsm8k,9,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,95,121,0.000019,2,llm_judge,ANSWER: 122
+20260509_165406,reasoning_gsm8k,10,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,216,151,0.000033,3,llm_judge,ANSWER: 29
+20260509_165406,reasoning_gsm8k,11,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,103,6,0.000010,2,llm_judge,ANSWER: 80
+20260509_165406,reasoning_gsm8k,12,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,90,6,0.000009,1,llm_judge,ANSWER: 36
+20260509_165406,reasoning_gsm8k,13,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,99,7,0.000010,1,llm_judge,ANSWER: 1430
+20260509_165406,reasoning_gsm8k,14,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,91,96,0.000017,1,llm_judge,ANSWER: 5
+20260509_165406,reasoning_gsm8k,15,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,85,6,0.000008,1,llm_judge,ANSWER: 5
+20260509_165406,reasoning_gsm8k,16,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,100,94,0.000017,1,llm_judge,ANSWER: 5
+20260509_165406,reasoning_gsm8k,17,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,77,6,0.000007,2,llm_judge,ANSWER: 66
+20260509_165406,reasoning_gsm8k,18,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,89,6,0.000009,2,llm_judge,ANSWER: 15
+20260509_165406,reasoning_gsm8k,19,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,124,6,0.000012,1,llm_judge,ANSWER: 40
+20260509_165406,reasoning_gsm8k,20,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,75,6,0.000007,1,llm_judge,ANSWER: 93
+20260509_165406,reasoning_gsm8k,21,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,145,432,0.000052,1,llm_judge,ANSWER: 2000
+20260509_165406,reasoning_gsm8k,22,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,110,200,0.000028,2,llm_judge,ANSWER: 1520
+20260509_165406,reasoning_gsm8k,23,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,117,279,0.000036,1,llm_judge,ANSWER: 11050
+20260509_165406,reasoning_gsm8k,24,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,135,276,0.000037,2,llm_judge,ANSWER: 90
+20260509_165406,reasoning_gsm8k,25,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,122,277,0.000036,1,llm_judge,ANSWER: 40000
+20260509_165406,reasoning_gsm8k,26,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,119,116,0.000021,1,llm_judge,ANSWER: 21
+20260509_165406,reasoning_gsm8k,27,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,100,6,0.000010,4,llm_judge,ANSWER: 18
+20260509_165406,reasoning_gsm8k,28,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,122,291,0.000037,4,llm_judge,ANSWER: 14
+20260509_165406,reasoning_gsm8k,29,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,120,151,0.000024,2,llm_judge,ANSWER: 23
+20260509_165406,reasoning_gsm8k,30,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,162,800,0.000087,4,llm_judge,"We need to parse the problem: ""Students in class 3B are collecting school points for behavior. If th"
+20260509_165406,reasoning_gsm8k,31,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,104,161,0.000024,1,llm_judge,ANSWER: 123
+20260509_165406,reasoning_gsm8k,32,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,78,6,0.000008,1,llm_judge,ANSWER: 98
+20260509_165406,reasoning_gsm8k,33,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,105,293,0.000036,2,llm_judge,ANSWER: 7.00
+20260509_165406,reasoning_gsm8k,34,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,121,404,0.000047,1,llm_judge,ANSWER: 34
+20260509_165406,reasoning_gsm8k,35,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,136,92,0.000021,2,llm_judge,ANSWER: 38
+20260509_165406,reasoning_gsm8k,36,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,128,800,0.000084,4,llm_judge,"We need to parse the problem: Elaine initially had 20 Pokemon cards. After a month, she collected th"
+20260509_165406,reasoning_gsm8k,37,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,98,6,0.000009,1,llm_judge,ANSWER: 50
+20260509_165406,reasoning_gsm8k,38,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,74,6,0.000007,1,llm_judge,ANSWER: 50
+20260509_165406,reasoning_gsm8k,39,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,119,209,0.000030,1,llm_judge,ANSWER: 84
+20260509_165406,reasoning_gsm8k,40,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,101,6,0.000010,1,llm_judge,ANSWER: 50
+20260509_165406,reasoning_gsm8k,41,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,89,95,0.000017,2,llm_judge,ANSWER: 8000
+20260509_165406,reasoning_gsm8k,42,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,96,6,0.000009,5,llm_judge,ANSWER: 280
+20260509_165406,reasoning_gsm8k,43,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,87,6,0.000008,2,llm_judge,ANSWER: 30
+20260509_165406,reasoning_gsm8k,44,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,106,800,0.000082,2,llm_judge,"We need to parse the problem: ""Ten stalls have 20 cows each. Mr. Sylas buys 40 cows and divides them"
+20260509_165406,reasoning_gsm8k,45,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,117,163,0.000025,1,llm_judge,ANSWER: 276
+20260509_165406,reasoning_gsm8k,46,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,127,800,0.000083,4,llm_judge,"We need to parse the problem: Anakin caught 10 starfish, 6 sea horses, and 3 clownfish. Locsin caugh"
+20260509_165406,reasoning_gsm8k,47,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,120,6,0.000011,2,llm_judge,ANSWER: 25
+20260509_165406,reasoning_gsm8k,48,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,103,6,0.000010,2,llm_judge,ANSWER: 10
+20260509_165406,reasoning_gsm8k,49,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,111,202,0.000028,2,llm_judge,ANSWER: 84
+20260509_165406,reasoning_gsm8k,0,MiniMax-M2.7,minimax,1.1,4.4,126,357,0.001709,4,llm_judge,Kim raises $320 more than Alexandra: \[ \text{Kim}=430+320=750. \]  Maryam raises $400 more than Sar
+20260509_165406,reasoning_gsm8k,1,MiniMax-M2.7,minimax,1.1,4.4,126,527,0.002457,5,llm_judge,**Step 1: Determine each person's rate.**   - Kalinda’s rate: \(4\) pieces per minute.   - Mom’s rat
+20260509_165406,reasoning_gsm8k,2,MiniMax-M2.7,minimax,1.1,4.4,124,585,0.002710,5,llm_judge,"Tom sails from 1 PM to 4 PM, a duration of    \[ 4\text{ PM} - 1\text{ PM}=3\text{ hours}. \]  At a "
+20260509_165406,reasoning_gsm8k,3,MiniMax-M2.7,minimax,1.1,4.4,104,915,0.004140,5,llm_judge,"To determine how many candles James needs, we first find the ages of his two sons:  - The older son "
+20260509_165406,reasoning_gsm8k,4,MiniMax-M2.7,minimax,1.1,4.4,116,397,0.001874,5,llm_judge,**Step‑by‑step reasoning**  1. **Add the fractions of a skein used**      - Mariah used \( \frac14\)
+20260509_165406,reasoning_gsm8k,5,MiniMax-M2.7,minimax,1.1,4.4,143,1197,0.005424,5,llm_judge,**Step‑by‑step reasoning**  1. **Initial observation** – Katelyn sees      \[    50\ \text{ fairies.
+20260509_165406,reasoning_gsm8k,6,MiniMax-M2.7,minimax,1.1,4.4,99,298,0.001420,5,llm_judge,**Step‑by‑step reasoning**  1. Ann’s current age = 9 years.   2. Her brother’s current age is twice 
+20260509_165406,reasoning_gsm8k,7,MiniMax-M2.7,minimax,1.1,4.4,106,891,0.004037,5,llm_judge,**Step‑by‑step solution**  1. **Convert dozens to individual items**      - Twenty dozen cups = \(20
+20260509_165406,reasoning_gsm8k,8,MiniMax-M2.7,minimax,1.1,4.4,114,321,0.001538,5,llm_judge,**Step‑by‑step reasoning**  1. **Identify the base number**:      Last year there were 50 students. 
+20260509_165406,reasoning_gsm8k,9,MiniMax-M2.7,minimax,1.1,4.4,110,535,0.002475,5,llm_judge,Let    - \(B\) be the number of crabs Bo has.   - \(M\) be the number of crabs Monic has.   - \(R\) 
+20260509_165406,reasoning_gsm8k,10,MiniMax-M2.7,minimax,1.1,4.4,215,284,0.001486,5,llm_judge,The low setting removes \(1\) L per day.  - Low for 3 days: \(3 \times 1 = 3\) L   - Medium removes 
+20260509_165406,reasoning_gsm8k,11,MiniMax-M2.7,minimax,1.1,4.4,133,402,0.001915,5,llm_judge,**Step‑by‑step reasoning**  1. Total burritos ordered: \(600\).  2. Burritos given to students:    \
+20260509_165406,reasoning_gsm8k,12,MiniMax-M2.7,minimax,1.1,4.4,120,572,0.002649,5,llm_judge,**Step‑by‑step reasoning**  1. **TV time per occurrence**      Jim watches TV for \(2\) hours.  2. *
+20260509_165406,reasoning_gsm8k,13,MiniMax-M2.7,minimax,1.1,4.4,132,657,0.003036,5,llm_judge,**Step‑by‑step solution**  1. **Cost of material:** $500   2. **Cost of jeweler:** $800       *Total
+20260509_165406,reasoning_gsm8k,14,MiniMax-M2.7,minimax,1.1,4.4,110,444,0.002075,5,llm_judge,**Step‑by‑step reasoning**  1. **Weekly requirement per duck:**      Each duck must eat \(3.5\) poun
+20260509_165406,reasoning_gsm8k,15,MiniMax-M2.7,minimax,1.1,4.4,99,356,0.001675,5,llm_judge,Joey’s points after his turn: \(214 + 26 = 240\)  Marcy’s points after her turn: \(225 + 10 = 235\) 
+20260509_165406,reasoning_gsm8k,16,MiniMax-M2.7,minimax,1.1,4.4,117,281,0.001365,5,llm_judge,**Step‑by‑step solution**  1. **Total amount spent:** \$300.   2. **Price per book:** \$15.    3. **
+20260509_165406,reasoning_gsm8k,17,MiniMax-M2.7,minimax,1.1,4.4,110,415,0.001947,5,llm_judge,**Step‑by‑step solution**  1. **Cost of the books**      - Ted buys 3 books.      - Each book costs 
+20260509_165406,reasoning_gsm8k,18,MiniMax-M2.7,minimax,1.1,4.4,98,306,0.001454,5,llm_judge,**Step 1: Determine the amount left after giving away pomelos.**   Eve originally had 20 pomelos. Af
+20260509_165406,reasoning_gsm8k,19,MiniMax-M2.7,minimax,1.1,4.4,151,760,0.003510,5,llm_judge,The adopted kittens: 7   Patchy’s kittens = thrice the adopted kittens = 3 × 7 = 21   Trixie’s kitte
+20260509_165406,reasoning_gsm8k,20,MiniMax-M2.7,minimax,1.1,4.4,88,295,0.001395,5,llm_judge,Step‑by‑step reasoning:  1. **Number of fish**: Jen has 3 fish.   2. **Food cost per fish per day**:
+20260509_165406,reasoning_gsm8k,21,MiniMax-M2.7,minimax,1.1,4.4,158,1119,0.005097,5,llm_judge,Elliott’s daily goal is 10 000 steps.    - Half of his steps come from walking to and from school: \
+20260509_165406,reasoning_gsm8k,22,MiniMax-M2.7,minimax,1.1,4.4,108,542,0.002504,2,llm_judge,**Step‑by‑step reasoning**  1. **Find Rafaela’s total tips**      - Each of the 40 customers gave he
+20260509_165406,reasoning_gsm8k,23,MiniMax-M2.7,minimax,1.1,4.4,112,523,0.002424,5,llm_judge,**Step‑by‑step solution**  1. **Find the original cost per balloon.**      The total cost for 20 bal
+20260509_165406,reasoning_gsm8k,24,MiniMax-M2.7,minimax,1.1,4.4,152,544,0.002561,5,llm_judge,"**Step‑by‑step solution**  1. **Number of lollipops sold**      - Each of the 30 students sold, on a"
+20260509_165406,reasoning_gsm8k,25,MiniMax-M2.7,minimax,1.1,4.4,134,482,0.002268,5,llm_judge,"First, determine the size of the loan:  - House value = $250,000   - Loan = 40% of $250,000   \[ \te"
+20260509_165406,reasoning_gsm8k,26,MiniMax-M2.7,minimax,1.1,4.4,135,259,0.001288,5,llm_judge,**Step‑by‑step reasoning**  1. **Mitchell’s sales**      - He sold 21 lemonades.      - Each lemonad
+20260509_165406,reasoning_gsm8k,27,MiniMax-M2.7,minimax,1.1,4.4,113,969,0.004388,5,llm_judge,**Step‑by‑step solution**  Let the number of vacuum cleaners Melanie started with be \(x\).  1. **Gr
+20260509_165406,reasoning_gsm8k,28,MiniMax-M2.7,minimax,1.1,4.4,141,576,0.002690,5,llm_judge,**Step‑by‑step reasoning**  1. Let \(x\) be the number of people who boarded the bus at the terminal
+20260509_165406,reasoning_gsm8k,29,MiniMax-M2.7,minimax,1.1,4.4,140,916,0.004184,5,llm_judge,**Step‑by‑step solution**  1. **Red cars:** Given directly      \[    R = 12    \]  2. **Green cars:
+20260509_165406,reasoning_gsm8k,30,MiniMax-M2.7,minimax,1.1,4.4,160,1217,0.005531,4,llm_judge,**Step 1: Determine Betty’s points**   Betty collected 30 % more than Adam.   Adam’s points = 50.   
+20260509_165406,reasoning_gsm8k,31,MiniMax-M2.7,minimax,1.1,4.4,121,604,0.002791,2,llm_judge,**Step‑by‑step reasoning**  1. Let the number of boys be \(B\).    - We are told the classroom has \
+20260509_165406,reasoning_gsm8k,32,MiniMax-M2.7,minimax,1.1,4.4,107,456,0.002124,4,llm_judge,"**Step 1: Convert the length to feet**   1 yard = 3 feet, so   \(3\text{ yards} = 3 \times 3 = 9\) f"
+20260509_165406,reasoning_gsm8k,33,MiniMax-M2.7,minimax,1.1,4.4,115,433,0.002032,5,llm_judge,"First, determine the cost of the candies.  - Cost of 5 lollipops: \(5 \times \$0.40 = \$2.00\). - To"
+20260509_165406,reasoning_gsm8k,34,MiniMax-M2.7,minimax,1.1,4.4,140,2932,0.013055,4,llm_judge,**Step‑by‑step solution**  1. **Cost of the tickets**      The three tickets together cost \(\$20.25
+20260509_165406,reasoning_gsm8k,35,MiniMax-M2.7,minimax,1.1,4.4,151,384,0.001856,5,llm_judge,"To find the total amount Winston spent, calculate the cost of each type of fruit and then add them t"
+20260509_165406,reasoning_gsm8k,36,MiniMax-M2.7,minimax,1.1,4.4,146,564,0.002642,5,llm_judge,"First, determine how many cards she collected each month.  - Initial cards: 20   - First month: she "
+20260509_165406,reasoning_gsm8k,37,MiniMax-M2.7,minimax,1.1,4.4,128,427,0.002020,5,llm_judge,**Step‑by‑step reasoning**  1. **Total number of voters:** 100.   2. **Candidate A’s votes:**      \
+20260509_165406,reasoning_gsm8k,38,MiniMax-M2.7,minimax,1.1,4.4,87,349,0.001631,5,llm_judge,**Step‑by‑step solution**  1. The total ratio of the parts is \(3+2 = 5\).  2. Gerald’s share = \(\f
+20260509_165406,reasoning_gsm8k,39,MiniMax-M2.7,minimax,1.1,4.4,136,1238,0.005597,5,llm_judge,**Step‑by‑step solution**  1. **Grapes eaten by Madeline**      The problem tells us Madeline ate \(
+20260509_165406,reasoning_gsm8k,40,MiniMax-M2.7,minimax,1.1,4.4,114,586,0.002704,5,llm_judge,"Elvis saves \(x\) dollars each day in the first half (15 days) and twice as much, \(2x\), each day i"
+20260509_165406,reasoning_gsm8k,41,MiniMax-M2.7,minimax,1.1,4.4,105,289,0.001387,5,llm_judge,Let \(H\) represent the number of copies Harald sold.  Marilyn sold 10 times as many copies as Haral
+20260509_165406,reasoning_gsm8k,42,MiniMax-M2.7,minimax,1.1,4.4,125,514,0.002399,5,llm_judge,The drill formation is described as follows:  - Each row has **8 children**.   - There are **7 rows*
+20260509_165406,reasoning_gsm8k,43,MiniMax-M2.7,minimax,1.1,4.4,120,523,0.002433,5,llm_judge,"Step 1: Find Martha’s age.   Martha is 4 years younger than Mike, and Mike is 24.   \( \text{Martha}"
+20260509_165406,reasoning_gsm8k,44,MiniMax-M2.7,minimax,1.1,4.4,103,3919,0.017357,5,llm_judge,"**Step‑by‑step reasoning**  1. The problem mentions “twenty stalls”, so there are 20 stalls in total"
+20260509_165406,reasoning_gsm8k,45,MiniMax-M2.7,minimax,1.1,4.4,135,502,0.002357,5,llm_judge,**Step‑by‑step solution**  1. **Wheels needed for the cars**      - Each car needs 4 wheels.      - 
+20260509_165406,reasoning_gsm8k,46,MiniMax-M2.7,minimax,1.1,4.4,124,498,0.002328,5,llm_judge,**Step 1: Identify Anakin’s catches**   - Starfish: 10   - Sea horses: 6   - Clownfish: 3    **Step 
+20260509_165406,reasoning_gsm8k,47,MiniMax-M2.7,minimax,1.1,4.4,146,533,0.002506,5,llm_judge,**Step‑by‑step reasoning**  1. **Number of crayons per group**      Nik groups the crayons into grou
+20260509_165406,reasoning_gsm8k,48,MiniMax-M2.7,minimax,1.1,4.4,133,407,0.001937,5,llm_judge,Jamaal originally lifts an 8‑lb weight.  1. Increase by 50 %   \(8\text{ lb} \times 1.5 = 12\text{ l
+20260509_165406,reasoning_gsm8k,49,MiniMax-M2.7,minimax,1.1,4.4,132,503,0.002358,5,llm_judge,"**Step‑by‑step solution**  1. **Sisters' ages**      - There are 3 sisters, each 16 years old.      "

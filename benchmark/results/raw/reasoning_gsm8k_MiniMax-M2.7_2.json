@@ -2,12 +2,12 @@
   "model": "MiniMax-M2.7",
   "task": "reasoning_gsm8k",
   "case": 2,
-  "response": "Tom travels for 3\u202fhours (from 1\u202fPM to 4\u202fPM) at 10\u202fmph, covering a distance of  \n\\(10\\text{ mph} \\times 3\\text{ h} = 30\\)\u202fmiles.  \n\nReturning at 6\u202fmph, the time needed is  \n\\(\\frac{30\\text{ miles}}{6\\text{ mph}} = 5\\)\u202fhours.\n\nANSWER: 5",
+  "response": "Tom sails from 1\u202fPM to 4\u202fPM, a duration of  \n\n\\[\n4\\text{ PM} - 1\\text{ PM}=3\\text{ hours}.\n\\]\n\nAt a speed of \\(10\\)\u202fmph, the distance he covers is  \n\n\\[\n\\text{distance}= \\text{speed}\\times\\text{time}=10\\ \\text{mph}\\times 3\\ \\text{h}=30\\ \\text{miles}.\n\\]\n\nHe then returns the same distance at \\(6\\)\u202fmph. The time required is  \n\n\\[\n\\text{time}= \\frac{\\text{distance}}{\\text{speed}}=\\frac{30\\ \\text{miles}}{6\\ \\text{mph}}=5\\ \\text{hours}.\n\\]\n\nThus, it takes him **5 hours** to get back.\n\nANSWER: 5",
   "score": 5,
-  "cost": 0.0022088000000000003,
+  "cost": 0.0027104,
   "expected": "5",
   "tokens": {
-    "input": 104,
-    "output": 476
+    "input": 124,
+    "output": 585
   }
 }

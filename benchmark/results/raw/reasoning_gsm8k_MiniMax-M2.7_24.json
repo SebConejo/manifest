@@ -2,12 +2,12 @@
   "model": "MiniMax-M2.7",
   "task": "reasoning_gsm8k",
   "case": 24,
-  "response": "**Step\u2011by\u2011step solution**\n\n1. **Determine the total number of lollipops sold.**  \n   - There are 30 students.  \n   - On average each student sells 10 lollipops.  \n   - Total lollipops sold = \\(30 \\times 10 = 300\\).\n\n2. **Find the profit per lollipop.**  \n   - Selling price = \\$0.8 per lollipop.  \n   - Purchase (cost) price = \\$0.5 per lollipop.  \n   - Profit per lollipop = \\(0.8 - 0.5 = \\$0.3\\).\n\n3. **Calculate the total profit.**  \n   - Total profit = profit per lollipop \\(\\times\\) total lollipops sold.  \n   - Total profit = \\(0.3 \\times 300 = \\$90\\).\n\n**Answer**\n\nANSWER: 90",
+  "response": "**Step\u2011by\u2011step solution**\n\n1. **Number of lollipops sold**  \n   - Each of the 30 students sold, on average, 10 lollipops.  \n   - Total lollipops sold = \\(30 \\times 10 = 300\\).\n\n2. **Revenue (money received from sales)**  \n   - Selling price per lollipop = \\$0.8.  \n   - Total revenue = \\(300 \\times 0.8 = \\$240\\).\n\n3. **Cost of the lollipops**  \n   - Purchase price per lollipop = \\$0.5.  \n   - Total cost = \\(300 \\times 0.5 = \\$150\\).\n\n4. **Profit (money raised)**  \n   - Profit per lollipop = selling price \u2013 purchase price = \\$0.8 \u2013 \\$0.5 = \\$0.3.  \n   - Total profit = \\(300 \\times 0.3 = \\$90\\).\n\nHence, the class raised **\\$90** in profit.\n\n**Answer**\n\nANSWER: 90",
   "score": 5,
-  "cost": 0.0026719,
+  "cost": 0.0025608000000000002,
   "expected": "90",
   "tokens": {
-    "input": 149,
-    "output": 570
+    "input": 152,
+    "output": 544
   }
 }

@@ -2,12 +2,12 @@
   "model": "MiniMax-M2.7",
   "task": "reasoning_gsm8k",
   "case": 40,
-  "response": "**Step\u2011by\u2011step solution**\n\n1. **Identify the number of days in each half**  \n   April has 30 days.  \n   - First half = 30\u202f\u00f7\u202f2 = **15 days**  \n   - Second half = the remaining **15 days**\n\n2. **Let the daily saving in the first half be \\(x\\) dollars.**  \n   Then the daily saving in the second half is twice that amount: **\\(2x\\) dollars**.\n\n3. **Write the equation for the total monthly savings.**  \n\n\\[\n\\underbrace{15x}_{\\text{first half}} \\;+\\; \\underbrace{15(2x)}_{\\text{second half}} \\;=\\; 1125\n\\]\n\n4. **Simplify and solve for \\(x\\).**  \n\n\\[\n15x + 30x = 45x = 1125\n\\]\n\n\\[\nx = \\frac{1125}{45} = 25\n\\]\n\n5. **Find the daily saving in the second half.**  \n\n\\[\n2x = 2 \\times 25 = 50\n\\]\n\n**Answer**\n\nANSWER: 50",
+  "response": "Elvis saves \\(x\\) dollars each day in the first half (15 days) and twice as much, \\(2x\\), each day in the second half (also 15 days).  \n\nTotal saving for the month:  \n\\[\n15x + 15(2x) = 1125 \\\\\n15x + 30x = 1125 \\\\\n45x = 1125 \\\\\nx = \\frac{1125}{45}=25\n\\]\n\nThus each day in the second half he must save \\(2x = 2 \\times 25 = 50\\) dollars.\n\n**Answer:**  \nANSWER: 50",
   "score": 5,
-  "cost": 0.0032945,
+  "cost": 0.0027038,
   "expected": "50",
   "tokens": {
-    "input": 131,
-    "output": 716
+    "input": 114,
+    "output": 586
   }
 }

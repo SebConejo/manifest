@@ -2,12 +2,12 @@
   "model": "gpt-5.5-pro",
   "task": "reasoning_gsm8k",
   "case": 19,
-  "response": "They adopted 7 kittens.\n\nPatchy had thrice that number:\n\n3 \u00d7 7 = 21 kittens\n\nTrixie had 12 kittens.\n\nTotal kittens:\n\n7 + 21 + 12 = 40\n\nANSWER: 40",
+  "response": "They adopted 7 kittens.\n\nPatchy had thrice that number:\n\n\\(3 \\times 7 = 21\\)\n\nTrixie had 12 kittens.\n\nTotal kittens:\n\n\\(7 + 21 + 12 = 40\\)\n\nANSWER: 40",
   "score": 4,
-  "cost": 0.004375,
+  "cost": 0.004275,
   "expected": "40",
   "tokens": {
     "input": 123,
-    "output": 188
+    "output": 183
   }
 }

@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "reasoning_gsm8k",
   "case": 17,
-  "response": "Ted buys 3 books at $16 each, so he spends 3 \u00d7 16 = $48 on books. He buys 3 pencils at $6 each, spending 3 \u00d7 6 = $18 on pencils. The total spent is $48 + $18 = $66.\n\nANSWER: 66",
+  "response": "Ted buys 3 books at $16 each, so the cost for books is 3 \u00d7 16 = $48. He buys 3 pencils at $6 each, so the cost for pencils is 3 \u00d7 6 = $18. The total amount spent is $48 + $18 = $66.\n\nANSWER: 66",
   "score": 5,
-  "cost": 0.00042281999999999997,
+  "cost": 0.00033756,
   "expected": "66",
   "tokens": {
     "input": 72,
-    "output": 225
+    "output": 176
   }
 }

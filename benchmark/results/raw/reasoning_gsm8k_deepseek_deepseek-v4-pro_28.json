@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "reasoning_gsm8k",
   "case": 28,
-  "response": "Let the number of people who got on the bus at the terminal be \\( x \\).\n\nAt the first bus stop, 5 more people got on, so the total becomes \\( x + 5 \\).\n\nAt the second bus stop, 7 people got off and 8 people got on. The total becomes:\n\\[\n(x + 5) - 7 + 8 = x + 6\n\\]\n\nWe are told that there were 20 people heading to the third stop, so:\n\\[\nx + 6 = 20\n\\]\n\\[\nx = 14\n\\]\n\nANSWER: 14",
+  "response": "Let \\( x \\) be the number of people who got on the bus at the terminal.\n\n- After the first stop, 5 more people get on: total = \\( x + 5 \\).\n- At the second stop, 7 people get off and 8 get on: total = \\( (x + 5) - 7 + 8 = x + 6 \\).\n\nWe are told there are 20 people heading to the third stop, so:\n\\[ x + 6 = 20 \\]\n\\[ x = 14 \\]\n\nANSWER: 14",
   "score": 5,
-  "cost": 0.00056115,
+  "cost": 0.00054549,
   "expected": "14",
   "tokens": {
     "input": 106,
-    "output": 296
+    "output": 287
   }
 }

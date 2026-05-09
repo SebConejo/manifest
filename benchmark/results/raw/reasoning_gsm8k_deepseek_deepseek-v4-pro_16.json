@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "reasoning_gsm8k",
   "case": 16,
-  "response": "Sarah spent $300 on books, with each book costing $15. To find the total number of books, divide the total spent by the cost per book: 300 \u00f7 15 = 20 books. She then gave an equal number of books to her 4 kids, so each child received 20 \u00f7 4 = 5 books.\n\nANSWER: 5",
+  "response": "Sarah spent $300 on books, with each book costing $15. To find the total number of books she bought, divide the total amount spent by the cost per book: 300 \u00f7 15 = 20 books. She then distributed these books equally among her 4 children, so each child received 20 \u00f7 4 = 5 books.\n\nANSWER: 5",
   "score": 4,
-  "cost": 0.00041325,
+  "cost": 0.00040281000000000003,
   "expected": "5",
   "tokens": {
     "input": 82,
-    "output": 217
+    "output": 211
   }
 }

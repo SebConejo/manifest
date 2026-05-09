@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "reasoning_gsm8k",
   "case": 41,
-  "response": "Let \\(x\\) be the number of copies Harald sold.\n\nSince Marilyn sold 10 times as many copies as Harald, Marilyn sold \\(10x\\) copies.\n\nTogether they sold:\n\\[\nx + 10x = 11x\n\\]\n\nWe are told the combined total is 88,000:\n\\[\n11x = 88{,}000\n\\]\n\nDivide both sides by 11:\n\\[\nx = \\frac{88{,}000}{11} = 8{,}000\n\\]\n\nTherefore, Harald sold 8,000 copies.\n\nANSWER: 8000",
+  "response": "Let \\( H \\) be the number of copies Harald sold.\n\n1. Marilyn sold 10 times as many copies as Harald, so Marilyn sold \\( 10H \\) copies.\n2. Together they sold 88,000 copies:\n   \\[\n   H + 10H = 88{,}000\n   \\]\n3. Combine like terms:\n   \\[\n   11H = 88{,}000\n   \\]\n4. Divide both sides by 11:\n   \\[\n   H = \\frac{88{,}000}{11} = 8{,}000\n   \\]\n\nHarald sold 8,000 copies.\n\nANSWER: 8000",
   "score": 5,
-  "cost": 0.0013968,
+  "cost": 0.0009432,
   "expected": "8000",
   "tokens": {
     "input": 76,
-    "output": 563
+    "output": 374
   }
 }

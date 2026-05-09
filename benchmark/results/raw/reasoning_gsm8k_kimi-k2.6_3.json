@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "reasoning_gsm8k",
   "case": 3,
-  "response": "1. Find the age of the younger son:  \n   \\(12 - 4 = 8\\) years old.\n\n2. Determine the total number of candles needed (one candle per year for each son):  \n   \\(12 + 8 = 20\\) candles.\n\n3. Calculate how many packs of 5 candles are needed:  \n   \\(20 \\div 5 = 4\\) packs.\n\n4. Compute the total cost:  \n   \\(4 \\times 3 = 12\\) dollars.\n\nANSWER: 12",
-  "score": 2,
-  "cost": 0.0011052,
+  "response": "Step 1: Find the age of the second son.  \nThe first son is 12, and the second is 4 years younger:  \n\\(12 - 4 = 8\\) years old.\n\nStep 2: Determine the total number of candles needed (one candle for each year of age).  \nFirst son: 12 candles  \nSecond son: 8 candles  \nTotal candles: \\(12 + 8 = 20\\) candles.\n\nStep 3: Find how many packs of candles James must buy.  \nEach pack contains 5 candles:  \n\\(20 \\div 5 = 4\\) packs.\n\nStep 4: Calculate the total cost.  \nEach pack costs $3:  \n\\(4 \\times \\$3 = \\$12\\).\n\nANSWER: 12",
+  "score": 5,
+  "cost": 0.0015563999999999999,
   "expected": "12",
   "tokens": {
     "input": 90,
-    "output": 438
+    "output": 626
   }
 }

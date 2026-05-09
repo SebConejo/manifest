@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "reasoning_gsm8k",
   "case": 18,
-  "response": "Eve originally had 20 pomelos. After giving some away, she has 1/4 of the original amount left.  \n1/4 of 20 is 5 pomelos.  \nThe number she gave away is the original amount minus what she has left: 20 - 5 = 15.\n\nANSWER: 15",
+  "response": "Eve originally had 20 pomelos. After giving some away, she has 1/4 of the original amount left.  \n1/4 of 20 is 5.  \nThe number of pomelos given away is 20 - 5 = 15.\n\nANSWER: 15",
   "score": 5,
-  "cost": 0.0004176,
+  "cost": 0.00040194,
   "expected": "15",
   "tokens": {
     "input": 80,
-    "output": 220
+    "output": 211
   }
 }

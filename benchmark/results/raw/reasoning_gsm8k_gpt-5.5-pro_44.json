@@ -1,0 +1,13 @@
+{
+  "model": "gpt-5.5-pro",
+  "task": "reasoning_gsm8k",
+  "case": 44,
+  "response": "40 new cows divided among 20 stalls gives:\n\n40 \u00f7 20 = 2 new cows per stall\n\nEach stall that had 20 cows now has:\n\n20 + 2 = 22 cows\n\nSo 8 stalls have:\n\n8 \u00d7 22 = 176 cows\n\nANSWER: 176",
+  "score": 2,
+  "cost": 0.023325,
+  "expected": "192",
+  "tokens": {
+    "input": 89,
+    "output": 1144
+  }
+}

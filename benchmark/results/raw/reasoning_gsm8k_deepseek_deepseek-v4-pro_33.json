@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "reasoning_gsm8k",
   "case": 33,
-  "response": "To find the cost of 10 lollipops and 10 candies, we first determine the price of one candy.\n\n1. **Find the total cost of the lollipops:**  \n   Each lollipop costs $0.40, and Manolo bought 5.  \n   Cost of 5 lollipops: \\( 5 \\times 0.40 = 2.00 \\)\n\n2. **Find the total cost of the candies:**  \n   The total cost for 5 lollipops and 4 candies is $3.20.  \n   Cost of 4 candies: \\( 3.20 - 2.00 = 1.20 \\)\n\n3. **Find the cost of one candy:**  \n   Cost per candy: \\( 1.20 \\div 4 = 0.30 \\)\n\n4. **Find the cost of 10 lollipops and 10 candies:**  \n   Cost of 10 lollipops: \\( 10 \\times 0.40 = 4.00 \\)  \n   Cost of 10 candies: \\( 10 \\times 0.30 = 3.00 \\)  \n   Total cost: \\( 4.00 + 3.00 = 7.00 \\)\n\nANSWER: 7",
+  "response": "Manolo bought 5 lollipops and 4 candies for $3.20. Each lollipop costs $0.40.\nFirst, find the cost of one candy:\n5 lollipops cost 5 \u00d7 $0.40 = $2.00.\nSo, 4 candies cost $3.20 \u2212 $2.00 = $1.20.\nOne candy costs $1.20 \u00f7 4 = $0.30.\nNow, 10 lollipops cost 10 \u00d7 $0.40 = $4.00, and 10 candies cost 10 \u00d7 $0.30 = $3.00.\nTotal cost = $4.00 + $3.00 = $7.00.\n\nANSWER: 7",
   "score": 5,
-  "cost": 0.0009404699999999999,
+  "cost": 0.0008099699999999999,
   "expected": "7",
   "tokens": {
     "input": 86,
-    "output": 519
+    "output": 444
   }
 }

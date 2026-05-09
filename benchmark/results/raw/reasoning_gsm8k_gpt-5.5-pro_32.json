@@ -1,0 +1,13 @@
+{
+  "model": "gpt-5.5-pro",
+  "task": "reasoning_gsm8k",
+  "case": 32,
+  "response": "Convert the length to feet:\n\n3 yards = 3 \u00d7 3 = 9 feet\n\nUse area = length \u00d7 width:\n\n360 = 9 \u00d7 width\n\nwidth = 360 \u00f7 9 = 40 feet\n\nNow find the perimeter:\n\nPerimeter = 2(length + width)  \nPerimeter = 2(9 + 40) = 2 \u00d7 49 = 98 feet\n\nANSWER: 98",
+  "score": 5,
+  "cost": 0.0039,
+  "expected": "98",
+  "tokens": {
+    "input": 76,
+    "output": 176
+  }
+}

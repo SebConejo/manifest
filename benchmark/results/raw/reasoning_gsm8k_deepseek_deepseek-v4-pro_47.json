@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "reasoning_gsm8k",
   "case": 47,
-  "response": "Nik has 200 crayons, each weighing 1 ounce, so the crayons weigh 200 ounces total. He separates them into groups of 8, which requires 200 \u00f7 8 = 25 boxes. Each box weighs 8 ounces, so the boxes weigh 25 \u00d7 8 = 200 ounces total. The combined weight is 200 + 200 = 400 ounces. Since there are 16 ounces in a pound, the total weight in pounds is 400 \u00f7 16 = 25.\n\nANSWER: 25",
+  "response": "The total weight of the crayons is 200 ounces (200 crayons \u00d7 1 ounce each). The crayons are separated into groups of 8, so there are 200 \u00f7 8 = 25 boxes. Each box weighs 8 ounces, so the total weight of the boxes is 25 \u00d7 8 = 200 ounces. The combined weight is 200 + 200 = 400 ounces. Since there are 16 ounces in a pound, the total weight in pounds is 400 \u00f7 16 = 25.\n\nANSWER: 25",
   "score": 5,
-  "cost": 0.000770385,
+  "cost": 0.000679905,
   "expected": "25",
   "tokens": {
     "input": 115,
-    "output": 414
+    "output": 362
   }
 }

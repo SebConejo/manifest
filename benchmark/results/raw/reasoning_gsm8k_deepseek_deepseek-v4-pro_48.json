@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "reasoning_gsm8k",
   "case": 48,
-  "response": "Jamaal starts with an 8-pound weight. He increases it by 50%, which is 0.5 \u00d7 8 = 4 pounds, making the new weight 8 + 4 = 12 pounds. Since that is too heavy, he uses a weight 2 pounds lighter, so 12 \u2212 2 = 10 pounds.\n\nANSWER: 10",
+  "response": "Jamaal starts with an 8-pound weight. Increasing by 50% means adding half of 8 pounds, which is 4 pounds, so the new weight is 8 + 4 = 12 pounds. Since that is too heavy, he uses a weight 2 pounds lighter, which is 12 - 2 = 10 pounds.\n\nANSWER: 10",
   "score": 5,
-  "cost": 0.00045501,
+  "cost": 0.00045327,
   "expected": "10",
   "tokens": {
     "input": 98,
-    "output": 237
+    "output": 236
   }
 }

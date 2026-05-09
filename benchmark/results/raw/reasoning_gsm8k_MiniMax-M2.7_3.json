@@ -2,12 +2,12 @@
   "model": "MiniMax-M2.7",
   "task": "reasoning_gsm8k",
   "case": 3,
-  "response": "The two sons are 12\u202fyears old and 4\u202fyears younger, i.e., \\(12-4=8\\) years old.  \nJames needs a number of candles equal to each son\u2019s age, so he needs \\(12+8=20\\) candles.\n\nCandles are sold in packs of 5 for $3.  \nNumber of packs required: \\(\\frac{20}{5}=4\\) packs.  \n\nTotal cost: \\(4 \\times \\$3 = \\$12\\).\n\nANSWER: 12",
+  "response": "To determine how many candles James needs, we first find the ages of his two sons:\n\n- The older son is 12 years old.\n- The younger son is 4 years younger, so his age is \\(12 - 4 = 8\\) years.\n\nA birthday cake typically gets one candle for each year of age, so James needs:\n\n- 12 candles for the older son.\n- 8 candles for the younger son.\n\nTotal candles required:\n\\[\n12 + 8 = 20 \\text{ candles}.\n\\]\n\nCandles are sold in packs of 5 for \\$3 each. The number of packs needed is:\n\\[\n\\frac{20}{5} = 4 \\text{ packs}.\n\\]\n\nThe total cost is:\n\\[\n4 \\times \\$3 = \\$12.\n\\]\n\nThus, James spends \\$12 on candles.\n\nANSWER: 12",
   "score": 5,
-  "cost": 0.0020988,
+  "cost": 0.004140400000000001,
   "expected": "12",
   "tokens": {
     "input": 104,
-    "output": 451
+    "output": 915
   }
 }

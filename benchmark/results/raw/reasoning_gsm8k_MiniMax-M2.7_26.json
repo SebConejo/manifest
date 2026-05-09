@@ -2,12 +2,12 @@
   "model": "MiniMax-M2.7",
   "task": "reasoning_gsm8k",
   "case": 26,
-  "response": "**Step\u2011by\u2011step reasoning**\n\n1. **Find Mitchell\u2019s earnings**  \n   Mitchell sold 21 lemonades at \\$4 each.  \n   \\[\n   \\text{Mitchell\u2019s revenue}=21 \\times 4 = \\$84\n   \\]\n\n2. **Compare with Liam\u2019s earnings**  \n   Liam made \\$63 that weekend.\n\n3. **Compute the difference**  \n   \\[\n   \\text{Difference}= \\$84 - \\$63 = \\$21\n   \\]\n\n**Answer**\n\nANSWER: 21",
+  "response": "**Step\u2011by\u2011step reasoning**\n\n1. **Mitchell\u2019s sales**  \n   - He sold 21 lemonades.  \n   - Each lemonade was sold for \\$4.  \n   - Revenue = number of lemonades \u00d7 price per lemonade  \n   - Revenue = \\(21 \\times 4 = \\$84\\).\n\n2. **Liam\u2019s earnings**  \n   - Liam reported he made \\$63.\n\n3. **Difference in earnings**  \n   - Subtract Liam\u2019s amount from Mitchell\u2019s amount:  \n   - Difference = \\(84 - 63 = \\$21\\).\n\n4. **Conclusion**  \n   - Mitchell made \\$21 more than Liam.\n\n**Final answer**\n\nANSWER: 21",
   "score": 5,
-  "cost": 0.0013365,
+  "cost": 0.0012881000000000001,
   "expected": "21",
   "tokens": {
     "input": 135,
-    "output": 270
+    "output": 259
   }
 }

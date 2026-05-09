@@ -2,12 +2,12 @@
   "model": "gpt-5.5-pro",
   "task": "reasoning_gsm8k",
   "case": 2,
-  "response": "From 1 PM to 4 PM is 3 hours.\n\nDistance traveled out:\n10 mph \u00d7 3 hours = 30 miles\n\nTime to travel back:\n30 miles \u00f7 6 mph = 5 hours\n\nANSWER: 5",
+  "response": "From 1 PM to 4 PM is 3 hours.\n\nAt 10 miles per hour, Tom travels:\n\n10 \u00d7 3 = 30 miles\n\nOn the way back, he travels 30 miles at 6 miles per hour:\n\n30 \u00f7 6 = 5 hours\n\nANSWER: 5",
   "score": 5,
-  "cost": 0.00365,
+  "cost": 0.00351,
   "expected": "5",
   "tokens": {
     "input": 90,
-    "output": 160
+    "output": 153
   }
 }

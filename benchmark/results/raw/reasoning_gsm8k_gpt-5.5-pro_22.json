@@ -1,0 +1,13 @@
+{
+  "model": "gpt-5.5-pro",
+  "task": "reasoning_gsm8k",
+  "case": 22,
+  "response": "Rafaela received:\n\n\\(40 \\times 20 = 800\\)\n\nSo Rafaela received $800 in tips.\n\nJulieta received 10% less than Rafaela, so she received 90% of $800:\n\n\\(0.90 \\times 800 = 720\\)\n\nTogether, they received:\n\n\\(800 + 720 = 1520\\)\n\nANSWER: 1520",
+  "score": 5,
+  "cost": 0.00479,
+  "expected": "1520",
+  "tokens": {
+    "input": 94,
+    "output": 216
+  }
+}

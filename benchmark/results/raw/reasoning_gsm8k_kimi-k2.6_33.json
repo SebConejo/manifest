@@ -1,0 +1,13 @@
+{
+  "model": "kimi-k2.6",
+  "task": "reasoning_gsm8k",
+  "case": 33,
+  "response": "**Step 1:** Find the total cost of the 5 lollipops.  \n5 lollipops \u00d7 $0.40 = $2.00\n\n**Step 2:** Find the total cost of the 4 candies.  \nThe whole purchase cost $3.20, so the candies cost:  \n$3.20 \u2212 $2.00 = $1.20\n\n**Step 3:** Find the cost of one candy.  \n$1.20 \u00f7 4 = $0.30\n\n**Step 4:** Calculate the cost of 10 lollipops.  \n10 \u00d7 $0.40 = $4.00\n\n**Step 5:** Calculate the cost of 10 candies.  \n10 \u00d7 $0.30 = $3.00\n\n**Step 6:** Add the costs together.  \n$4.00 + $3.00 = $7.00\n\nANSWER: 7.00",
+  "score": 5,
+  "cost": 0.005063999999999999,
+  "expected": "7",
+  "tokens": {
+    "input": 84,
+    "output": 2089
+  }
+}

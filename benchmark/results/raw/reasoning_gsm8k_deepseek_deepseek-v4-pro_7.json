@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "reasoning_gsm8k",
   "case": 7,
-  "response": "The total cost of half a dozen (6) plates at $6000 each is \\(6 \\times 6000 = \\$36000\\).  \nTwenty dozen cups is \\(20 \\times 12 = 240\\) cups.  \nThe cost of 240 cups is $1200 less than $36000, so \\(36000 - 1200 = 34800\\).  \nTherefore, the cost of each cup is \\(34800 \\div 240 = 145\\).\n\nANSWER: 145",
+  "response": "Twenty dozen cups equal 240 cups. Half a dozen plates equal 6 plates, and at $6000 each their total cost is $36,000. The cost of the cups is $1200 less than the plates, so 240 cups cost $36,000 - $1200 = $34,800. Therefore, the cost of each cup is $34,800 \u00f7 240 = $145.\n\nANSWER: 145",
   "score": 5,
-  "cost": 0.0007599449999999999,
+  "cost": 0.000796485,
   "expected": "145",
   "tokens": {
     "input": 71,
-    "output": 419
+    "output": 440
   }
 }

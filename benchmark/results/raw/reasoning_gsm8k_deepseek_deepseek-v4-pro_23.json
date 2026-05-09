@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "reasoning_gsm8k",
   "case": 23,
-  "response": "The initial cost to fill 20 helium balloons is $900.  \nCost per balloon before the increase = $900 \u00f7 20 = $45.  \nAfter the price increase of $20, the new cost per balloon = $45 + $20 = $65.  \nBentley fills 170 balloons at the new price.  \nTotal cost = 170 \u00d7 $65 = $11,050.  \n\nANSWER: 11050",
+  "response": "The original cost per balloon is $900 \u00f7 20 = $45. After the price increase of $20, the new cost per balloon is $45 + $20 = $65. Bentley fills 170 balloons, so the total cost is 170 \u00d7 $65 = $11,050.\n\nANSWER: 11050",
   "score": 5,
-  "cost": 0.0005333100000000001,
+  "cost": 0.00050199,
   "expected": "11050",
   "tokens": {
     "input": 94,
-    "output": 283
+    "output": 265
   }
 }

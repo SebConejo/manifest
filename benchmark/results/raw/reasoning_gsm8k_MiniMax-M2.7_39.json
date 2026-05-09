@@ -2,12 +2,12 @@
   "model": "MiniMax-M2.7",
   "task": "reasoning_gsm8k",
   "case": 39,
-  "response": "**Step\u2011by\u2011step reasoning**\n\n1. **Madeline\u2019s grapes**  \n   - She ate \\(6\\) grapes.\n\n2. **Brother\u2019s grapes**  \n   - He used \u201c5 times as many grapes as Madeline.\u201d  \n   - So he used \\(5 \\times 6 = 30\\) grapes.\n\n3. **Mother\u2019s grapes**  \n   - She made \\(4\\) pies, each needing \\(12\\) grapes.  \n   - Total used for pies: \\(4 \\times 12 = 48\\) grapes.\n\n4. **Total grapes at the beginning**  \n   - Add all the grapes that were eaten or used:  \n     \\[\n     6 \\;(\\text{Madeline}) + 30 \\;(\\text{Brother}) + 48 \\;(\\text{Mother}) = 84.\n     \\]\n\nThus, there were **84** grapes at the start.\n\nANSWER: 84",
+  "response": "**Step\u2011by\u2011step solution**\n\n1. **Grapes eaten by Madeline**  \n   The problem tells us Madeline ate \\(6\\) grapes.\n\n2. **Grapes used by her brother**  \n   \u201c5 times as many grapes **than** Madeline\u201d means the brother used  \n   \\[\n   5 \\times 6 = 30 \\text{ grapes}.\n   \\]\n\n3. **Grapes used by their mother**  \n   The mother made \\(4\\) pies, and each pie requires \\(12\\) grapes.  \n   So the mother used  \n   \\[\n   4 \\times 12 = 48 \\text{ grapes}.\n   \\]\n\n4. **Total grapes used**  \n   Add up all the grapes that were taken from the original supply:  \n\n   \\[\n   \\text{Madeline\u2019s eaten grapes} + \\text{Brother\u2019s grapes} + \\text{Mother\u2019s grapes}\n   = 6 + 30 + 48 = 84.\n   \\]\n\n5. **Initial number of grapes**  \n   Since the mother used the *remaining* grapes for the pies, the amount we just summed is exactly the initial amount of grapes.  \n\n   Hence, there were **84 grapes** at the beginning.\n\n---\n\nANSWER: 84",
   "score": 5,
-  "cost": 0.003933600000000001,
+  "cost": 0.005596800000000001,
   "expected": "84",
   "tokens": {
     "input": 136,
-    "output": 860
+    "output": 1238
   }
 }

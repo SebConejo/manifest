@@ -1,0 +1,13 @@
+{
+  "model": "gpt-5.5-pro",
+  "task": "reasoning_gsm8k",
+  "case": 46,
+  "response": "Anakin caught:\n\n10 + 6 + 3 = 19\n\nLocsin caught:\n\n- Starfish: 10 - 5 = 5\n- Sea horses: 6 - 3 = 3\n- Clownfish: 3 + 2 = 5\n\nSo Locsin caught:\n\n5 + 3 + 5 = 13\n\nTogether, they caught:\n\n19 + 13 = 32\n\nANSWER: 32",
+  "score": 4,
+  "cost": 0.006325,
+  "expected": "32",
+  "tokens": {
+    "input": 113,
+    "output": 288
+  }
+}

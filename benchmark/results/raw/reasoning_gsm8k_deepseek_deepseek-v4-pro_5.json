@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "reasoning_gsm8k",
   "case": 5,
-  "response": "The problem describes changes in the number of fairies over time.\n\nInitially, Katelyn saw 50 fairies.\nAfter twenty minutes, her friend saw half as many fairies as Katelyn saw (50 \u00f7 2 = 25) come from the east and join the group, so the total becomes 50 + 25 = 75.\nTen minutes later, 30 fairies flew away, leaving 75 - 30 = 45 fairies.\n\nANSWER: 45",
+  "response": "Katelyn initially saw 50 fairies. One of her friends saw half as many fairies as Katelyn saw, which is 50 / 2 = 25 fairies, join the group. The total then became 50 + 25 = 75 fairies. Later, 30 fairies flew away, leaving 75 - 30 = 45 fairies. \n\nANSWER: 45",
   "score": 5,
-  "cost": 0.0006738149999999999,
+  "cost": 0.000546795,
   "expected": "45",
   "tokens": {
     "input": 113,
-    "output": 359
+    "output": 286
   }
 }

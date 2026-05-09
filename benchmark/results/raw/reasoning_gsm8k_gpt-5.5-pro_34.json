@@ -1,0 +1,13 @@
+{
+  "model": "gpt-5.5-pro",
+  "task": "reasoning_gsm8k",
+  "case": 34,
+  "response": "Tickets cost: $20.25\n\nFood cost: $20.25 - $4.50 = $15.75\n\nRides cost: 2 \u00d7 $33 = $66\n\nTotal cost: $20.25 + $15.75 + $66 = $102\n\nSplit evenly among 3 friends: $102 \u00f7 3 = $34\n\nANSWER: 34",
+  "score": 4,
+  "cost": 0.00733,
+  "expected": "34",
+  "tokens": {
+    "input": 106,
+    "output": 340
+  }
+}

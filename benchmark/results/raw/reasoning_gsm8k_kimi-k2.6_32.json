@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "reasoning_gsm8k",
   "case": 32,
-  "response": "First, convert the length from yards to feet.  \nSince 1 yard = 3 feet,  \n3 yards = 3 \u00d7 3 = 9 feet.\n\nNext, use the area formula for a rectangle to find the width.  \nArea = length \u00d7 width  \n360 = 9 \u00d7 width  \nwidth = 360 \u00f7 9 = 40 feet.\n\nNow calculate the perimeter.  \nPerimeter = 2 \u00d7 (length + width)  \nPerimeter = 2 \u00d7 (9 + 40)  \nPerimeter = 2 \u00d7 49 = 98 feet.\n\nANSWER: 98",
-  "score": 5,
-  "cost": 0.0006792,
+  "response": "**Step 1:** Convert the length from yards to feet.  \nSince 1 yard = 3 feet,  \n3 yards = \\(3 \\times 3 = 9\\) feet.\n\n**Step 2:** Find the width using the area formula.  \n\\[\n\\text{Area} = \\text{length} \\times \\text{width}\n\\]\n\\[\n360 = 9 \\times \\text{width}\n\\]\n\\[\n\\text{width} = \\frac{360}{9} = 40 \\text{ feet}\n\\]\n\n**Step 3:** Calculate the perimeter.  \n\\[\n\\text{Perimeter} = 2 \\times (\\text{length} + \\text{width})\n\\]\n\\[\n\\text{Perimeter} = 2 \\times (9 + 40) = 2 \\times 49 = 98 \\text{ feet}\n\\]\n\nANSWER: 98",
+  "score": 4,
+  "cost": 0.0012335999999999998,
   "expected": "98",
   "tokens": {
     "input": 76,
-    "output": 264
+    "output": 495
   }
 }

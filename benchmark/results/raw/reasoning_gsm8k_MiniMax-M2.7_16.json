@@ -2,12 +2,12 @@
   "model": "MiniMax-M2.7",
   "task": "reasoning_gsm8k",
   "case": 16,
-  "response": "**Step\u2011by\u2011step solution**\n\n1. **Find the total number of books bought.**  \n   - Total spent = $300.  \n   - Cost per book = $15.  \n   - Number of books = Total spent \u00f7 Cost per book = \\( \\frac{300}{15} = 20 \\) books.\n\n2. **Divide the books equally among the 4 kids.**  \n   - Number of kids = 4.  \n   - Books per child = Total books \u00f7 Number of kids = \\( \\frac{20}{4} = 5 \\).\n\nThus, each child receives **5 books**.\n\nANSWER: 5",
+  "response": "**Step\u2011by\u2011step solution**\n\n1. **Total amount spent:** \\$300.  \n2. **Price per book:** \\$15.  \n\n3. **Number of books bought:**  \n\\[\n\\text{Number of books} = \\frac{\\text{Total spent}}{\\text{Price per book}} = \\frac{300}{15} = 20 \\text{ books}.\n\\]\n\n4. **Number of kids:** 4 children receive an equal share.  \n\n5. **Books per child:**  \n\\[\n\\text{Books per child} = \\frac{\\text{Total books}}{\\text{Number of kids}} = \\frac{20}{4} = 5.\n\\]\n\nThus each child gets **5 books**.\n\n**Final answer**\n\nANSWER: 5",
   "score": 5,
-  "cost": 0.0015763,
+  "cost": 0.0013651000000000002,
   "expected": "5",
   "tokens": {
     "input": 117,
-    "output": 329
+    "output": 281
   }
 }

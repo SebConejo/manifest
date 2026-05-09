@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "reasoning_gsm8k",
   "case": 1,
-  "response": "Kalinda places 4 pieces per minute. Her mom places half as many, so 2 pieces per minute. Together, they place 4 + 2 = 6 pieces per minute. The puzzle has 360 pieces. The time in minutes is 360 \u00f7 6 = 60 minutes. Converting to hours: 60 minutes = 1 hour.\n\nANSWER: 1",
+  "response": "Kalinda places 4 pieces per minute, and her mom places half of that, which is 2 pieces per minute. Together, they place 4 + 2 = 6 pieces per minute. The puzzle has 360 pieces, so the time required is 360 \u00f7 6 = 60 minutes. Since there are 60 minutes in an hour, it will take them 1 hour.\n\nANSWER: 1",
   "score": 5,
-  "cost": 0.00045892499999999995,
+  "cost": 0.00047284499999999995,
   "expected": "1",
   "tokens": {
     "input": 91,
-    "output": 241
+    "output": 249
   }
 }

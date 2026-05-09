@@ -2,14 +2,12 @@
   "model": "gpt-5.5-pro",
   "task": "reasoning_gsm8k",
   "case": 26,
-  "response": "Mitchell made \\(21 \\times 4 = 84\\) dollars.\n\nLiam made \\(63\\) dollars.\n\nThe difference is \\(84 - 63 = 21\\) dollars.\n\nANSWER: 21",
+  "response": "Mitchell made \\(21 \\times 4 = 84\\) dollars.\n\nLiam made \\(63\\) dollars.\n\nThe difference is:\n\n\\[\n84 - 63 = 21\n\\]\n\nANSWER: 21",
   "score": 5,
-  "cost": 0.0029,
+  "cost": 0.00288,
   "expected": "21",
   "tokens": {
     "input": 104,
-    "output": 119
-  },
-  "judge_rerun": true,
-  "judge_raw": "5"
+    "output": 118
+  }
 }

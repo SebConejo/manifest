@@ -1,0 +1,13 @@
+{
+  "model": "gpt-5.5-pro",
+  "task": "reasoning_gsm8k",
+  "case": 48,
+  "response": "Jamaal starts with an 8-pound weight.\n\nA 50% increase of 8 pounds is:\n\n8 \u00d7 0.50 = 4\n\nSo the increased weight is:\n\n8 + 4 = 12\n\nHe then uses a weight 2 pounds lighter:\n\n12 - 2 = 10\n\nANSWER: 10",
+  "score": 5,
+  "cost": 0.00347,
+  "expected": "10",
+  "tokens": {
+    "input": 102,
+    "output": 148
+  }
+}

@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "reasoning_gsm8k",
   "case": 49,
-  "response": "The family has 2 brothers and 3 sisters. All 3 sisters are 16 years old, so their total age is 3 \u00d7 16 = 48. One brother is 12 years old, and this is half the age of the older brother, so the older brother is 12 \u00d7 2 = 24 years old. The total age of the brothers is 12 + 24 = 36. Adding the sisters' total age gives 48 + 36 = 84.\n\nANSWER: 84",
+  "response": "The family has 3 sisters who are all 16 years old, so their combined age is \\(3 \\times 16 = 48\\). There are 2 brothers. One brother is 12 years old, and his age is half the age of the older brother, meaning the older brother is \\(12 \\times 2 = 24\\) years old. The combined age of the brothers is \\(12 + 24 = 36\\). The total age of all siblings is \\(48 + 36 = 84\\).\n\nANSWER: 84",
   "score": 5,
-  "cost": 0.00052287,
+  "cost": 0.00053679,
   "expected": "84",
   "tokens": {
     "input": 94,
-    "output": 277
+    "output": 285
   }
 }

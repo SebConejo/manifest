@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "reasoning_gsm8k",
   "case": 16,
-  "response": "Step 1: Calculate the total number of books Sarah bought.\n$$\\frac{300}{15} = 20 \\text{ books}$$\n\nStep 2: Divide the total number of books equally among her 4 kids.\n$$\\frac{20}{4} = 5 \\text{ books per child}$$\n\nANSWER: 5",
+  "response": "Step 1: Find the total number of books Sarah bought.  \nDivide the total amount spent by the cost of each book:  \n$300 \u00f7 $15 = 20 books.\n\nStep 2: Divide the total books equally among her 4 kids.  \n20 books \u00f7 4 kids = 5 books per child.\n\nSo each child received 5 books.\n\nANSWER: 5",
   "score": 5,
-  "cost": 0.0006492000000000001,
+  "cost": 0.000918,
   "expected": "5",
   "tokens": {
     "input": 86,
-    "output": 249
+    "output": 361
   }
 }

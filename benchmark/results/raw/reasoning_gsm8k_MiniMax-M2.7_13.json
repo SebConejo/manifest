@@ -2,12 +2,12 @@
   "model": "MiniMax-M2.7",
   "task": "reasoning_gsm8k",
   "case": 13,
-  "response": "First, list the known amounts:\n\n- Cost of the material: \\$500  \n- Cost of the jeweler\u2019s work: \\$800  \n\nThe insurance premium is 10\u202f% of the construction (jeweler) cost, because the phrase \u201c10\u202f% of that\u201d refers to the last amount mentioned, the \\$800.\n\n\\[\n\\text{Insurance cost} = 0.10 \\times 800 = \\$80\n\\]\n\nNow add the three expenses:\n\n\\[\n\\text{Total amount paid} = 500 + 800 + 80 = 1{,}380\n\\]\n\nSo Janet paid a total of **\\$1,380**.\n\nANSWER: 1380",
+  "response": "**Step\u2011by\u2011step solution**\n\n1. **Cost of material:**\u202f$500  \n2. **Cost of jeweler:**\u202f$800  \n\n   *Total cost before insurance*  \n   \\[\n   500 + 800 = 1300\\text{ dollars}\n   \\]\n\n3. **Insurance cost:**\u202f10\u202f% of the total so far  \n\n   \\[\n   0.10 \\times 1300 = 130\\text{ dollars}\n   \\]\n\n4. **Total amount paid**  \n\n   \\[\n   1300 + 130 = 1430\\text{ dollars}\n   \\]\n\n---\n\nANSWER: 1430",
   "score": 5,
-  "cost": 0.0046508,
+  "cost": 0.003036,
   "expected": "1430",
   "tokens": {
-    "input": 112,
-    "output": 1029
+    "input": 132,
+    "output": 657
   }
 }

@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "reasoning_gsm8k",
   "case": 8,
-  "response": "Last year, there were 50 students. A 20% increase means the number of students grew by 20% of 50.  \n20% of 50 = (20/100) \u00d7 50 = 10.  \nThis year's enrollment = 50 + 10 = 60.\n\nANSWER: 60",
+  "response": "Last year's enrollment: 50 students.  \nA 20% increase means the number of additional students is \\(0.20 \\times 50 = 10\\).  \nTotal this year: \\(50 + 10 = 60\\).\n\nANSWER: 60",
   "score": 5,
-  "cost": 0.00040629,
+  "cost": 0.00030188999999999997,
   "expected": "60",
   "tokens": {
     "input": 78,
-    "output": 214
+    "output": 154
   }
 }

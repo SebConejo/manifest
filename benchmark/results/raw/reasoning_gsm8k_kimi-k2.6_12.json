@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "reasoning_gsm8k",
   "case": 12,
-  "response": "First, find how long Jim reads each time. Since he reads for half as long as he watches TV, and he watches TV for 2 hours:\n\n- Reading time per session = 2 hours \u00f7 2 = 1 hour\n\nNext, find the total time for one session of TV and reading:\n\n- Total per session = 2 hours (TV) + 1 hour (reading) = 3 hours\n\nHe does this 3 times a week, so the weekly total is:\n\n- Weekly total = 3 hours \u00d7 3 = 9 hours\n\nOver 4 weeks:\n\n- Total for 4 weeks = 9 hours \u00d7 4 = 36 hours\n\nANSWER: 36",
-  "score": 2,
-  "cost": 0.0010662,
+  "response": "Jim spends 2 hours watching TV each session.\n\nHe reads for half as long as he watches TV:\n- Reading time = 2 / 2 = 1 hour\n\nTotal time per session (TV + reading):\n- 2 + 1 = 3 hours\n\nHe does this 3 times a week:\n- Weekly total = 3 \u00d7 3 = 9 hours\n\nOver 4 weeks:\n- 9 \u00d7 4 = 36 hours\n\nANSWER: 36",
+  "score": 4,
+  "cost": 0.0009461999999999999,
   "expected": "36",
   "tokens": {
     "input": 89,
-    "output": 422
+    "output": 372
   }
 }

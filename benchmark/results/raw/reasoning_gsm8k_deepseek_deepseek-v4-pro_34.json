@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "reasoning_gsm8k",
   "case": 34,
-  "response": "The total cost of tickets is $20.25.  \nThe cost of food is $20.25 - $4.50 = $15.75.  \nThe cost of rides is 2 \u00d7 $33 = $66.  \nTotal cost = $20.25 + $15.75 + $66 = $102.00.  \nSplit evenly among 3 friends: $102.00 \u00f7 3 = $34.00.\n\nANSWER: 34",
+  "response": "The problem states that three friends spent $20.25 on 3 tickets to the fair, which is the total cost for the tickets. They spent $4.50 less on food than on the tickets, so the total food cost is $20.25 - $4.50 = $15.75. They also went on 2 different rides, and each ride cost $33. This means the total cost for the rides is 2 \u00d7 $33 = $66.00. \n\nThe overall total spent is $20.25 + $15.75 + $66.00 = $102.00. Since they split all costs evenly among the three friends, each person paid $102.00 \u00f7 3 = $34.00.\n\nANSWER: 34",
   "score": 4,
-  "cost": 0.00086739,
+  "cost": 0.01159623,
   "expected": "34",
   "tokens": {
     "input": 102,
-    "output": 473
+    "output": 6639
   }
 }

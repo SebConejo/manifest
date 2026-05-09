@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "reasoning_gsm8k",
   "case": 36,
-  "response": "Elaine started with 20 cards. In the first month, she collected 3 times that initial amount: 3 \u00d7 20 = 60 cards. In the second month, she collected 20 fewer than the first month: 60 \u2212 20 = 40 cards. In the third month, she collected twice the combined total of the first two months: 2 \u00d7 (60 + 40) = 200 cards. Adding all cards together: 20 + 60 + 40 + 200 = 320.\n\nANSWER: 320",
+  "response": "Elaine started with 20 cards. In the first month, she collected 3 times that initial amount: 3 \u00d7 20 = 60 cards. In the second month, she collected 20 fewer than the first month: 60 \u2212 20 = 40 cards. In the third month, she collected twice the combined total of the first and second months: 2 \u00d7 (60 + 40) = 200 cards. Adding everything together: 20 + 60 + 40 + 200 = 320 cards.\n\nANSWER: 320",
   "score": 5,
-  "cost": 0.000950475,
+  "cost": 0.000879135,
   "expected": "320",
   "tokens": {
     "input": 113,
-    "output": 518
+    "output": 477
   }
 }

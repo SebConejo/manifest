@@ -2,12 +2,12 @@
   "model": "MiniMax-M2.7",
   "task": "reasoning_gsm8k",
   "case": 20,
-  "response": "**Step 1: Determine the daily cost for all three fish.**  \nEach fish needs $1 of food per day, and there are 3 fish.  \nDaily cost = 3\u202f\u00d7\u202f$1 = **$3**.\n\n**Step 2: Find how many days are in May.**  \nMay has **31 days**.\n\n**Step 3: Multiply the daily cost by the number of days.**  \nTotal cost = $3\u202f\u00d7\u202f31 = **$93**.\n\n**Final answer:**  \nANSWER: 93",
+  "response": "Step\u2011by\u2011step reasoning:\n\n1. **Number of fish**: Jen has 3 fish.  \n2. **Food cost per fish per day**: Each fish needs $1 worth of food, so per day the total cost for the fish is  \n   \\(3 \\times \\$1 = \\$3\\).  \n3. **Number of days in May**: May has 31 days.  \n4. **Total cost for the month**: Multiply the daily cost by the number of days:  \n   \\(\\$3 \\times 31 = \\$93\\).\n\nTherefore, Jen spends **$93** on fish food in May.\n\nANSWER: 93",
   "score": 5,
-  "cost": 0.0011572,
+  "cost": 0.0013947999999999999,
   "expected": "93",
   "tokens": {
     "input": 88,
-    "output": 241
+    "output": 295
   }
 }

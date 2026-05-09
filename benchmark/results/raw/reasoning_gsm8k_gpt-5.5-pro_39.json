@@ -1,0 +1,13 @@
+{
+  "model": "gpt-5.5-pro",
+  "task": "reasoning_gsm8k",
+  "case": 39,
+  "response": "Madeline ate 6 grapes.\n\nHer brother used 5 times as many grapes:\n\n5 \u00d7 6 = 30 grapes\n\nTheir mother made 4 pies, using 12 grapes per pie:\n\n4 \u00d7 12 = 48 grapes\n\nTotal grapes at the beginning:\n\n6 + 30 + 48 = 84\n\nANSWER: 84",
+  "score": 5,
+  "cost": 0.004975,
+  "expected": "84",
+  "tokens": {
+    "input": 107,
+    "output": 222
+  }
+}

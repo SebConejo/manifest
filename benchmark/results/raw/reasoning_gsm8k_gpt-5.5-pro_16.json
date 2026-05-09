@@ -2,12 +2,12 @@
   "model": "gpt-5.5-pro",
   "task": "reasoning_gsm8k",
   "case": 16,
-  "response": "Sarah bought:\n\n\\(300 \\div 15 = 20\\) books\n\nShe gave them equally to 4 kids:\n\n\\(20 \\div 4 = 5\\)\n\nANSWER: 5",
+  "response": "Sarah spent $300 total, and each book cost $15.\n\nNumber of books Sarah bought:\n\n$300 \u00f7 $15 = 20 books\n\nShe gave the books equally to her 4 kids:\n\n20 \u00f7 4 = 5\n\nEach child got 5 books.\n\nANSWER: 5",
   "score": 5,
-  "cost": 0.00253,
+  "cost": 0.00303,
   "expected": "5",
   "tokens": {
     "input": 86,
-    "output": 105
+    "output": 130
   }
 }

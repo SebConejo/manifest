@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "reasoning_gsm8k",
   "case": 49,
-  "response": "Step 1: Find the total age of the sisters.  \nThere are 3 sisters and each is 16 years old.  \n3 \u00d7 16 = 48  \n\nStep 2: Find the ages of the two brothers.  \nOne brother is 12 years old.  \nThis age is half the age of the older brother, so the older brother is 12 \u00d7 2 = 24 years old.  \nTotal age of the brothers = 12 + 24 = 36  \n\nStep 3: Add the ages of all siblings together.  \nTotal age = 48 + 36 = 84  \n\nANSWER: 84",
+  "response": "**Step 1:** Find the total age of the sisters.  \nThere are 3 sisters, each aged 16.  \n\\(3 \\times 16 = 48\\)\n\n**Step 2:** Find the age of the older brother.  \nOne brother is 12, and this is half the older brother\u2019s age.  \n\\(12 \\times 2 = 24\\)\n\n**Step 3:** Find the total age of the brothers.  \n\\(12 + 24 = 36\\)\n\n**Step 4:** Find the total age of all siblings.  \n\\(48 + 36 = 84\\)\n\nANSWER: 84",
   "score": 5,
-  "cost": 0.0011603999999999998,
+  "cost": 0.0014651999999999998,
   "expected": "84",
   "tokens": {
     "input": 98,
-    "output": 459
+    "output": 586
   }
 }

@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "reasoning_gsm8k",
   "case": 40,
-  "response": "Elvis's monthly saving target is $1125. April has 30 days, so we can consider the first half as the first 15 days and the second half as the last 15 days. Let \\( x \\) be the amount he saves daily in the first half. Then he saves \\( 2x \\) daily in the second half. His total savings for the month is \\( 15x + 15(2x) = 45x \\). Setting this equal to the target gives \\( 45x = 1125 \\), so \\( x = 25 \\). Therefore, the daily saving in the second half is \\( 2x = 50 \\).\n\nANSWER: 50",
+  "response": "Elvis's monthly saving target is $1125. April has 30 days, so we can divide it into two halves of 15 days each.\n\nLet the daily saving in the first half be \\( x \\) dollars. He saves twice as much daily in the second half, so his daily saving in the second half is \\( 2x \\) dollars.\n\nTotal savings for the month:\nFirst half: \\( 15 \\times x = 15x \\)\nSecond half: \\( 15 \\times 2x = 30x \\)\nTotal: \\( 15x + 30x = 45x \\)\n\nSet this equal to the target:\n\\( 45x = 1125 \\)\n\\( x = \\frac{1125}{45} = 25 \\)\n\nDaily saving in the second half is \\( 2x = 2 \\times 25 = 50 \\).\n\nANSWER: 50",
   "score": 5,
-  "cost": 0.0007742999999999999,
+  "cost": 0.00073428,
   "expected": "50",
   "tokens": {
     "input": 96,
-    "output": 421
+    "output": 398
   }
 }

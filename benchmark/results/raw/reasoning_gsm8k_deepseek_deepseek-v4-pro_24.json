@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "reasoning_gsm8k",
   "case": 24,
-  "response": "The total number of lollipops sold by all students is 30 students \u00d7 10 lollipops/student = 300 lollipops. The profit per lollipop is $0.8 \u2212 $0.5 = $0.3. The total profit raised is 300 \u00d7 $0.3 = $90.\n\nANSWER: 90",
+  "response": "The class has 30 students, and each student sold an average of 10 lollipops, so the total number of lollipops sold is:\n30 \u00d7 10 = 300 lollipops.\n\nEach lollipop was bought for $0.5 and sold for $0.8, so the profit per lollipop is:\n$0.8 - $0.5 = $0.3.\n\nThe total profit raised is:\n300 \u00d7 $0.3 = $90.\n\nANSWER: 90",
   "score": 5,
-  "cost": 0.00039237,
+  "cost": 0.00056637,
   "expected": "90",
   "tokens": {
     "input": 118,
-    "output": 196
+    "output": 296
   }
 }

@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "reasoning_gsm8k",
   "case": 29,
-  "response": "We need to solve the problem. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We are in a loop. We",
-  "score": 1,
-  "cost": 8.28e-05,
+  "response": "ANSWER: 23",
+  "score": 2,
+  "cost": 2.4390000000000002e-05,
   "expected": "23",
   "tokens": {
     "input": 120,
-    "output": 800
+    "output": 151
   }
 }

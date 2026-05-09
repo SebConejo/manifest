@@ -1,0 +1,13 @@
+{
+  "model": "kimi-k2.6",
+  "task": "reasoning_gsm8k",
+  "case": 44,
+  "response": "Step 1: Determine how many cows are already in the stalls.  \n10 stalls \u00d7 20 cows each = 200 cows.\n\nStep 2: Determine how many of the new cows go into each stall.  \nMr. Sylas buys 40 cows and divides them equally among the 10 stalls.  \n40 \u00f7 10 = 4 new cows per stall.\n\nStep 3: Find the new total number of cows in each stall.  \n20 original cows + 4 new cows = 24 cows per stall.\n\nStep 4: Calculate the total number of cows in 8 stalls.  \n24 cows/stall \u00d7 8 stalls = 192 cows.\n\nANSWER: 192",
+  "score": 4,
+  "cost": 0.0134454,
+  "expected": "192",
+  "tokens": {
+    "input": 89,
+    "output": 5580
+  }
+}

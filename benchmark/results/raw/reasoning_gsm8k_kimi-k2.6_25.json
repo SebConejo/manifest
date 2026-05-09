@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "reasoning_gsm8k",
   "case": 25,
-  "response": "First, find the total amount of the loan John receives:\n\n\\[\n\\text{Loan} = 40\\% \\times \\$250{,}000 = 0.40 \\times 250{,}000 = \\$100{,}000\n\\]\n\nNext, calculate how much he uses to pay off his debts:\n\n\\[\n\\text{Debt payment} = 60\\% \\times \\$100{,}000 = 0.60 \\times 100{,}000 = \\$60{,}000\n\\]\n\nFinally, subtract the debt payment from the loan to find the leftover money:\n\n\\[\n\\text{Leftover} = \\$100{,}000 - \\$60{,}000 = \\$40{,}000\n\\]\n\nANSWER: 40000",
+  "response": "Step 1: Find the total loan amount.  \nThe house is worth $250,000 and the loan is 40% of that value:  \n0.40 \u00d7 250,000 = 100,000.  \nSo John receives $100,000.\n\nStep 2: Find how much he spends to pay off debts.  \nHe uses 60% of the loan for debts:  \n0.60 \u00d7 100,000 = 60,000.\n\nStep 3: Subtract the debt payment from the loan to find the leftover.  \n100,000 \u2212 60,000 = 40,000.\n\nAlternatively, since he used 60%, he has 40% of the loan left:  \n0.40 \u00d7 100,000 = 40,000.\n\nANSWER: 40000",
   "score": 5,
-  "cost": 0.0016001999999999998,
+  "cost": 0.002025,
   "expected": "40,000",
   "tokens": {
     "input": 103,
-    "output": 641
+    "output": 818
   }
 }

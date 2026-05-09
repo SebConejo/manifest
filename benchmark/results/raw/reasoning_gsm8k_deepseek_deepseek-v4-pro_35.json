@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "reasoning_gsm8k",
   "case": 35,
-  "response": "Peaches cost $2.00 \u00d7 6 = $12.00.  \nPlums cost $1.00 \u00d7 8 = $8.00.  \nApricots cost $3.00 \u00d7 6 = $18.00.  \nTotal spent: $12.00 + $8.00 + $18.00 = $38.00.\n\nANSWER: 38",
+  "response": "Winston's spending is calculated by multiplying the weight of each fruit by its price per pound and summing the results. Peaches: 6 \u00d7 $2.00 = $12.00. Plums: 8 \u00d7 $1.00 = $8.00. Apricots: 6 \u00d7 $3.00 = $18.00. Total spent = $12.00 + $8.00 + $18.00 = $38.00.\n\nANSWER: 38",
   "score": 5,
-  "cost": 0.000517215,
+  "cost": 0.000538095,
   "expected": "38",
   "tokens": {
     "input": 113,
-    "output": 269
+    "output": 281
   }
 }
