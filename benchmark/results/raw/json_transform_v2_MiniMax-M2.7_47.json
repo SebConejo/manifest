@@ -2,12 +2,12 @@
   "model": "MiniMax-M2.7",
   "task": "json_transform_v2",
   "case": 47,
-  "response": "{\"admins\":[\"Alice\",\"Charlie\"],\"users\":[\"Bob\"],\"inactive_count\":1}",
-  "score": 5,
-  "cost": 0.0040799,
+  "response": "{\"admins\":[\"Alice\",\"Charlie\"],\"users\":[\"Alice\",\"Bob\",\"Charlie\"],\"inactive_count\":1}",
+  "score": 4,
+  "cost": 0.0020031000000000003,
   "expected": "",
   "tokens": {
     "input": 161,
-    "output": 887
+    "output": 415
   }
 }

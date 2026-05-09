@@ -2,12 +2,12 @@
   "model": "MiniMax-M2.7",
   "task": "json_transform_v2",
   "case": 29,
-  "response": "{\"services\": [{\"name\": \"database\", \"host\": \"db.prod.internal\", \"port\": 5432}, {\"name\": \"cache\", \"host\": \"redis.prod.internal\", \"port\": 6379}], \"app_settings\": {\"debug\": false, \"log_level\": \"warn\", \"workers\": 4}}",
+  "response": "{\n  \"services\": [\n    {\"name\": \"database\", \"host\": \"db.prod.internal\", \"port\": 5432},\n    {\"name\": \"cache\", \"host\": \"redis.prod.internal\", \"port\": 6379}\n  ],\n  \"app_settings\": {\n    \"debug\": false,\n    \"log_level\": \"warn\",\n    \"workers\": 4\n  }\n}",
   "score": 5,
-  "cost": 0.0027775,
+  "cost": 0.0017534000000000002,
   "expected": "",
   "tokens": {
-    "input": 157,
-    "output": 592
+    "input": 174,
+    "output": 355
   }
 }

@@ -4,10 +4,10 @@
   "case": 19,
   "response": "{\"event_type\": \"signup\", \"date\": \"2024-03-15\", \"time\": \"14:30\", \"user_id\": \"u_123\", \"attribution\": {\"source\": \"google_ads\", \"platform\": \"mobile\"}}",
   "score": 4,
-  "cost": 0.0012378,
+  "cost": 0.0009737999999999999,
   "expected": "",
   "tokens": {
     "input": 135,
-    "output": 482
+    "output": 372
   }
 }

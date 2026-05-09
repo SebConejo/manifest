@@ -2,12 +2,12 @@
   "model": "MiniMax-M2.7",
   "task": "json_transform_v2",
   "case": 42,
-  "response": "{\"total_duration_min\": 15.416666666666666, \"track_count\": 4, \"artists\": {\"Band X\": 2, \"Band Y\": 1, \"Band Z\": 1}, \"longest_track\": \"Song C\"}",
-  "score": 4,
-  "cost": 0.0062084,
+  "response": "{\n  \"total_duration_min\": 15.416666666666666,\n  \"track_count\": 4,\n  \"artists\": {\n    \"Band X\": 2,\n    \"Band Y\": 1,\n    \"Band Z\": 1\n  },\n  \"longest_track\": \"Song C\"\n}",
+  "score": 5,
+  "cost": 0.0034496,
   "expected": "",
   "tokens": {
-    "input": 168,
-    "output": 1369
+    "input": 188,
+    "output": 737
   }
 }

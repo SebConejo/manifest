@@ -4,10 +4,10 @@
   "case": 32,
   "response": "{\"admins\": [\"Alice\", \"Charlie\"], \"users\": [\"Bob\"], \"inactive_count\": 1}",
   "score": 5,
-  "cost": 0.0006873,
+  "cost": 0.00125454,
   "expected": "",
   "tokens": {
     "input": 128,
-    "output": 363
+    "output": 689
   }
 }

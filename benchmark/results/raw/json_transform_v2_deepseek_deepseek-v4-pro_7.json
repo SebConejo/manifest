@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "json_transform_v2",
   "case": 7,
-  "response": "{\n  \"company\": \"Acme Corp\",\n  \"age_years\": 10,\n  \"size\": \"medium\",\n  \"total_funding\": 25000000,\n  \"latest_round\": {\n    \"series\": \"B\",\n    \"amount\": 20000000\n  }\n}",
+  "response": "{\"company\": \"Acme Corp\", \"age_years\": 10, \"size\": \"medium\", \"total_funding\": 25000000, \"latest_round\": {\"series\": \"B\", \"amount\": 20000000}}",
   "score": 4,
-  "cost": 0.001295865,
+  "cost": 0.001367205,
   "expected": "",
   "tokens": {
     "input": 151,
-    "output": 707
+    "output": 748
   }
 }

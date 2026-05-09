@@ -1,0 +1,13 @@
+{
+  "model": "MiniMax-M2.7",
+  "task": "json_transform_v2",
+  "case": 27,
+  "response": "{\n  \"total_duration_min\": 15.4166666666667,\n  \"track_count\": 4,\n  \"artists\": {\n    \"Band X\": 2,\n    \"Band Y\": 1,\n    \"Band Z\": 1\n  },\n  \"longest_track\": \"Song C\"\n}",
+  "score": 5,
+  "cost": 0.0036212,
+  "expected": "",
+  "tokens": {
+    "input": 188,
+    "output": 776
+  }
+}

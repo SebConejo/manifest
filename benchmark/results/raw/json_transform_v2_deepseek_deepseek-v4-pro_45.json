@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "json_transform_v2",
   "case": 45,
-  "response": "{\"full_name\": \"Jane Doe\", \"contact\": {\"email\": \"jane.doe@email.com\", \"phone\": \"+1-555-0123\"}, \"metadata\": {\"age\": 32}}",
+  "response": "{\"full_name\":\"Jane Doe\",\"contact\":{\"email\":\"jane.doe@email.com\",\"phone\":\"+1-555-0123\"},\"metadata\":{\"age\":32}}",
   "score": 5,
-  "cost": 0.00036105,
+  "cost": 0.00047937,
   "expected": "",
   "tokens": {
     "input": 106,
-    "output": 181
+    "output": 249
   }
 }

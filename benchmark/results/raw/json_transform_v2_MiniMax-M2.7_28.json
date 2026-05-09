@@ -2,12 +2,12 @@
   "model": "MiniMax-M2.7",
   "task": "json_transform_v2",
   "case": 28,
-  "response": "{\"total_credits\":8000,\"total_debits\":4500,\"net\":3500,\"transaction_count\":5}",
+  "response": "{\"total_credits\": 8000, \"total_debits\": 4500, \"net\": 3500, \"transaction_count\": 5}",
   "score": 5,
-  "cost": 0.0021824,
+  "cost": 0.0020768,
   "expected": "",
   "tokens": {
     "input": 164,
-    "output": 455
+    "output": 431
   }
 }

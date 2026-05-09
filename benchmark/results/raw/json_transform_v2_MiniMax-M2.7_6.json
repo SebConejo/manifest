@@ -3,11 +3,11 @@
   "task": "json_transform_v2",
   "case": 6,
   "response": "{\"order_id\": \"ORD-001\", \"subtotal\": 109.97, \"discount\": 10.997, \"shipping\": 5.99, \"total\": 104.963, \"item_count\": 3}",
-  "score": 3,
-  "cost": 0.0034606000000000003,
+  "score": 4,
+  "cost": 0.0025850000000000005,
   "expected": "",
   "tokens": {
     "input": 154,
-    "output": 748
+    "output": 549
   }
 }

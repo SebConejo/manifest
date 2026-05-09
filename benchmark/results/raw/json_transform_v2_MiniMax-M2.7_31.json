@@ -2,12 +2,12 @@
   "model": "MiniMax-M2.7",
   "task": "json_transform_v2",
   "case": 31,
-  "response": "{\"by_date\": {\"2024-01-15\": {\"total\": 165.50, \"categories\": {\"food\": 120.50, \"transport\": 45.00}}, \"2024-01-16\": {\"total\": 230.00, \"categories\": {\"food\": 200.00, \"transport\": 30.00}}}}",
+  "response": "{\n  \"by_date\": {\n    \"2024-01-15\": {\n      \"total\": 165.5,\n      \"categories\": {\n        \"food\": 120.5,\n        \"transport\": 45.0\n      }\n    },\n    \"2024-01-16\": {\n      \"total\": 230.0,\n      \"categories\": {\n        \"food\": 200.0,\n        \"transport\": 30.0\n      }\n    }\n  }\n}",
   "score": 4,
-  "cost": 0.0016269000000000001,
+  "cost": 0.002882,
   "expected": "",
   "tokens": {
-    "input": 175,
-    "output": 326
+    "input": 192,
+    "output": 607
   }
 }
