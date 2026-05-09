@@ -52293,3 +52293,153 @@ timestamp,task,case_idx,model,provider,input_price_per_m,output_price_per_m,inpu
 20260509_165406,reasoning_gsm8k,47,MiniMax-M2.7,minimax,1.1,4.4,146,533,0.002506,5,llm_judge,**Step‑by‑step reasoning**  1. **Number of crayons per group**      Nik groups the crayons into grou
 20260509_165406,reasoning_gsm8k,48,MiniMax-M2.7,minimax,1.1,4.4,133,407,0.001937,5,llm_judge,Jamaal originally lifts an 8‑lb weight.  1. Increase by 50 %   \(8\text{ lb} \times 1.5 = 12\text{ l
 20260509_165406,reasoning_gsm8k,49,MiniMax-M2.7,minimax,1.1,4.4,132,503,0.002358,5,llm_judge,"**Step‑by‑step solution**  1. **Sisters' ages**      - There are 3 sisters, each 16 years old.      "
+20260509_180202,sentiment_sst2,0,gpt-5.5-pro,openai_responses,5.0,20.0,68,37,0.001080,5,exact,positive
+20260509_180202,sentiment_sst2,1,gpt-5.5-pro,openai_responses,5.0,20.0,69,30,0.000945,5,exact,positive
+20260509_180202,sentiment_sst2,2,gpt-5.5-pro,openai_responses,5.0,20.0,55,21,0.000695,5,exact,negative
+20260509_180202,sentiment_sst2,3,gpt-5.5-pro,openai_responses,5.0,20.0,59,32,0.000935,5,exact,positive
+20260509_180202,sentiment_sst2,4,gpt-5.5-pro,openai_responses,5.0,20.0,53,47,0.001205,5,exact,negative
+20260509_180202,sentiment_sst2,5,gpt-5.5-pro,openai_responses,5.0,20.0,55,73,0.001735,5,exact,negative
+20260509_180202,sentiment_sst2,6,gpt-5.5-pro,openai_responses,5.0,20.0,51,43,0.001115,5,exact,negative
+20260509_180202,sentiment_sst2,7,gpt-5.5-pro,openai_responses,5.0,20.0,58,70,0.001690,5,exact,positive
+20260509_180202,sentiment_sst2,8,gpt-5.5-pro,openai_responses,5.0,20.0,64,30,0.000920,5,exact,negative
+20260509_180202,sentiment_sst2,9,gpt-5.5-pro,openai_responses,5.0,20.0,72,28,0.000920,5,exact,negative
+20260509_180202,sentiment_sst2,10,gpt-5.5-pro,openai_responses,5.0,20.0,57,26,0.000805,5,exact,negative
+20260509_180202,sentiment_sst2,11,gpt-5.5-pro,openai_responses,5.0,20.0,50,39,0.001030,5,exact,negative
+20260509_180202,sentiment_sst2,12,gpt-5.5-pro,openai_responses,5.0,20.0,65,40,0.001125,5,exact,positive
+20260509_180202,sentiment_sst2,13,gpt-5.5-pro,openai_responses,5.0,20.0,46,193,0.004090,0,exact,negative
+20260509_180202,sentiment_sst2,14,gpt-5.5-pro,openai_responses,5.0,20.0,63,42,0.001155,5,exact,positive
+20260509_180202,sentiment_sst2,15,gpt-5.5-pro,openai_responses,5.0,20.0,53,36,0.000985,5,exact,negative
+20260509_180202,sentiment_sst2,16,gpt-5.5-pro,openai_responses,5.0,20.0,52,25,0.000760,5,exact,negative
+20260509_180202,sentiment_sst2,17,gpt-5.5-pro,openai_responses,5.0,20.0,60,26,0.000820,5,exact,positive
+20260509_180202,sentiment_sst2,18,gpt-5.5-pro,openai_responses,5.0,20.0,74,71,0.001790,5,exact,positive
+20260509_180202,sentiment_sst2,19,gpt-5.5-pro,openai_responses,5.0,20.0,53,50,0.001265,5,exact,positive
+20260509_180202,sentiment_sst2,20,gpt-5.5-pro,openai_responses,5.0,20.0,68,29,0.000920,5,exact,negative
+20260509_180202,sentiment_sst2,21,gpt-5.5-pro,openai_responses,5.0,20.0,75,30,0.000975,5,exact,positive
+20260509_180202,sentiment_sst2,22,gpt-5.5-pro,openai_responses,5.0,20.0,62,40,0.001110,5,exact,positive
+20260509_180202,sentiment_sst2,23,gpt-5.5-pro,openai_responses,5.0,20.0,83,93,0.002275,5,exact,negative
+20260509_180202,sentiment_sst2,24,gpt-5.5-pro,openai_responses,5.0,20.0,44,78,0.001780,5,exact,positive
+20260509_180202,sentiment_sst2,25,gpt-5.5-pro,openai_responses,5.0,20.0,52,40,0.001060,5,exact,negative
+20260509_180202,sentiment_sst2,26,gpt-5.5-pro,openai_responses,5.0,20.0,71,40,0.001155,5,exact,positive
+20260509_180202,sentiment_sst2,27,gpt-5.5-pro,openai_responses,5.0,20.0,72,31,0.000980,5,exact,negative
+20260509_180202,sentiment_sst2,28,gpt-5.5-pro,openai_responses,5.0,20.0,68,37,0.001080,5,exact,negative
+20260509_180202,sentiment_sst2,29,gpt-5.5-pro,openai_responses,5.0,20.0,75,28,0.000935,5,exact,negative
+20260509_180202,sentiment_sst2,30,gpt-5.5-pro,openai_responses,5.0,20.0,72,64,0.001640,5,exact,negative
+20260509_180202,sentiment_sst2,31,gpt-5.5-pro,openai_responses,5.0,20.0,49,44,0.001125,5,exact,negative
+20260509_180202,sentiment_sst2,32,gpt-5.5-pro,openai_responses,5.0,20.0,63,43,0.001175,5,exact,positive
+20260509_180202,sentiment_sst2,33,gpt-5.5-pro,openai_responses,5.0,20.0,57,25,0.000785,5,exact,negative
+20260509_180202,sentiment_sst2,34,gpt-5.5-pro,openai_responses,5.0,20.0,67,35,0.001035,5,exact,positive
+20260509_180202,sentiment_sst2,35,gpt-5.5-pro,openai_responses,5.0,20.0,61,63,0.001565,5,exact,positive
+20260509_180202,sentiment_sst2,36,gpt-5.5-pro,openai_responses,5.0,20.0,45,36,0.000945,5,exact,negative
+20260509_180202,sentiment_sst2,37,gpt-5.5-pro,openai_responses,5.0,20.0,66,49,0.001310,5,exact,positive
+20260509_180202,sentiment_sst2,38,gpt-5.5-pro,openai_responses,5.0,20.0,60,57,0.001440,5,exact,positive
+20260509_180202,sentiment_sst2,39,gpt-5.5-pro,openai_responses,5.0,20.0,51,44,0.001135,5,exact,negative
+20260509_180202,sentiment_sst2,40,gpt-5.5-pro,openai_responses,5.0,20.0,67,35,0.001035,5,exact,positive
+20260509_180202,sentiment_sst2,41,gpt-5.5-pro,openai_responses,5.0,20.0,71,76,0.001875,5,exact,positive
+20260509_180202,sentiment_sst2,42,gpt-5.5-pro,openai_responses,5.0,20.0,56,50,0.001280,5,exact,positive
+20260509_180202,sentiment_sst2,43,gpt-5.5-pro,openai_responses,5.0,20.0,54,57,0.001410,5,exact,negative
+20260509_180202,sentiment_sst2,44,gpt-5.5-pro,openai_responses,5.0,20.0,74,29,0.000950,5,exact,negative
+20260509_180202,sentiment_sst2,45,gpt-5.5-pro,openai_responses,5.0,20.0,65,60,0.001525,5,exact,positive
+20260509_180202,sentiment_sst2,46,gpt-5.5-pro,openai_responses,5.0,20.0,67,48,0.001295,5,exact,positive
+20260509_180202,sentiment_sst2,47,gpt-5.5-pro,openai_responses,5.0,20.0,68,29,0.000920,5,exact,negative
+20260509_180202,sentiment_sst2,48,gpt-5.5-pro,openai_responses,5.0,20.0,75,48,0.001335,5,exact,negative
+20260509_180202,sentiment_sst2,49,gpt-5.5-pro,openai_responses,5.0,20.0,74,35,0.001070,5,exact,positive
+20260509_180202,sentiment_sst2,0,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,64,66,0.000143,5,exact,positive
+20260509_180202,sentiment_sst2,1,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,67,2,0.000033,5,exact,positive
+20260509_180202,sentiment_sst2,2,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,51,61,0.000128,5,exact,negative
+20260509_180202,sentiment_sst2,3,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,55,79,0.000161,5,exact,positive
+20260509_180202,sentiment_sst2,4,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,49,83,0.000166,5,exact,negative
+20260509_180202,sentiment_sst2,5,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,52,123,0.000237,5,exact,negative
+20260509_180202,sentiment_sst2,6,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,47,56,0.000118,5,exact,negative
+20260509_180202,sentiment_sst2,7,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,55,88,0.000177,5,exact,positive
+20260509_180202,sentiment_sst2,8,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,61,56,0.000124,5,exact,negative
+20260509_180202,sentiment_sst2,9,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,68,50,0.000117,5,exact,negative
+20260509_180202,sentiment_sst2,10,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,53,54,0.000117,5,exact,negative
+20260509_180202,sentiment_sst2,11,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,47,62,0.000128,5,exact,negative
+20260509_180202,sentiment_sst2,12,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,61,82,0.000169,5,exact,positive
+20260509_180202,sentiment_sst2,13,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,43,2,0.000022,5,exact,positive
+20260509_180202,sentiment_sst2,14,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,60,2,0.000030,5,exact,positive
+20260509_180202,sentiment_sst2,15,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,49,49,0.000107,5,exact,negative
+20260509_180202,sentiment_sst2,16,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,48,48,0.000104,5,exact,negative
+20260509_180202,sentiment_sst2,17,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,56,2,0.000028,5,exact,positive
+20260509_180202,sentiment_sst2,18,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,71,92,0.000191,5,exact,positive
+20260509_180202,sentiment_sst2,19,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,49,83,0.000166,5,exact,positive
+20260509_180202,sentiment_sst2,20,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,65,102,0.000206,5,exact,negative
+20260509_180202,sentiment_sst2,21,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,71,81,0.000172,5,exact,positive
+20260509_180202,sentiment_sst2,22,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,59,69,0.000146,5,exact,positive
+20260509_180202,sentiment_sst2,23,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,80,122,0.000247,5,exact,negative
+20260509_180202,sentiment_sst2,24,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,40,89,0.000172,5,exact,positive
+20260509_180202,sentiment_sst2,25,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,49,84,0.000167,5,exact,negative
+20260509_180202,sentiment_sst2,26,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,67,81,0.000170,5,exact,positive
+20260509_180202,sentiment_sst2,27,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,70,73,0.000157,5,exact,negative
+20260509_180202,sentiment_sst2,28,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,64,116,0.000230,5,exact,negative
+20260509_180202,sentiment_sst2,29,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,72,102,0.000209,5,exact,negative
+20260509_180202,sentiment_sst2,30,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,68,2,0.000033,5,exact,negative
+20260509_180202,sentiment_sst2,31,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,45,64,0.000131,5,exact,negative
+20260509_180202,sentiment_sst2,32,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,59,66,0.000141,5,exact,positive
+20260509_180202,sentiment_sst2,33,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,54,75,0.000154,5,exact,negative
+20260509_180202,sentiment_sst2,34,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,63,79,0.000165,5,exact,positive
+20260509_180202,sentiment_sst2,35,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,56,106,0.000209,5,exact,positive
+20260509_180202,sentiment_sst2,36,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,41,50,0.000105,5,exact,negative
+20260509_180202,sentiment_sst2,37,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,62,84,0.000173,5,exact,positive
+20260509_180202,sentiment_sst2,38,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,57,104,0.000206,5,exact,positive
+20260509_180202,sentiment_sst2,39,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,48,75,0.000151,5,exact,negative
+20260509_180202,sentiment_sst2,40,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,63,77,0.000161,5,exact,positive
+20260509_180202,sentiment_sst2,41,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,67,99,0.000201,5,exact,positive
+20260509_180202,sentiment_sst2,42,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,53,85,0.000171,5,exact,positive
+20260509_180202,sentiment_sst2,43,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,50,83,0.000166,5,exact,negative
+20260509_180202,sentiment_sst2,44,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,71,62,0.000139,5,exact,negative
+20260509_180202,sentiment_sst2,45,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,61,75,0.000157,5,exact,positive
+20260509_180202,sentiment_sst2,46,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,64,128,0.000251,5,exact,positive
+20260509_180202,sentiment_sst2,47,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,64,2,0.000031,5,exact,negative
+20260509_180202,sentiment_sst2,48,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,71,104,0.000212,5,exact,negative
+20260509_180202,sentiment_sst2,49,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,70,81,0.000171,5,exact,positive
+20260509_180202,sentiment_sst2,0,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,79,20,0.000009,0,exact,We need to output only the sentiment label? Actually we need to respond with only the sentiment labe
+20260509_180202,sentiment_sst2,1,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,80,20,0.000009,0,exact,
+20260509_180202,sentiment_sst2,2,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,64,20,0.000008,0,exact,
+20260509_180202,sentiment_sst2,3,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,68,20,0.000008,0,exact,"We need to classify sentiment: The text: ""it 's great escapist fun that recreates"
+20260509_180202,sentiment_sst2,4,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,64,20,0.000008,0,exact,We need to output only the label We need to respond with only sentiment? No text provided.
+20260509_180202,sentiment_sst2,5,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,66,20,0.000008,0,exact,
+20260509_180202,sentiment_sst2,6,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,60,20,0.000007,0,exact,"We need to output only sentiment label? Actually the instruction: ""Classify the sentiment of the fol"
+20260509_180202,sentiment_sst2,7,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,67,20,0.000008,0,exact,"We need to classify sentiment? No further instructions: ""Classify the sentiment of the following tex"
+20260509_180202,sentiment_sst2,8,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,74,20,0.000008,0,exact,
+20260509_180202,sentiment_sst2,9,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,81,20,0.000009,0,exact,"We need to classify sentiment of the given text. The text: ""you really have to wonder how"
+20260509_180202,sentiment_sst2,10,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,66,20,0.000008,0,exact,"We need to classify sentiment: The text: ""this is a shameless sham , calculated to cash"
+20260509_180202,sentiment_sst2,11,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,61,20,0.000007,0,exact,
+20260509_180202,sentiment_sst2,12,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,74,20,0.000008,0,exact,
+20260509_180202,sentiment_sst2,13,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,56,20,0.000007,0,exact,
+20260509_180202,sentiment_sst2,14,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,75,13,0.000008,0,exact,We need to output only the label. No extra text.
+20260509_180202,sentiment_sst2,15,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,62,20,0.000007,0,exact,
+20260509_180202,sentiment_sst2,16,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,61,20,0.000007,0,exact,
+20260509_180202,sentiment_sst2,17,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,69,20,0.000008,0,exact,
+20260509_180202,sentiment_sst2,18,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,84,20,0.000009,0,exact,
+20260509_180202,sentiment_sst2,19,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,62,20,0.000007,0,exact,
+20260509_180202,sentiment_sst2,20,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,80,20,0.000009,0,exact,
+20260509_180202,sentiment_sst2,21,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,86,20,0.000010,0,exact,
+20260509_180202,sentiment_sst2,22,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,78,20,0.000009,0,exact,
+20260509_180202,sentiment_sst2,23,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,94,20,0.000010,5,exact,"We need to classify sentiment of the given text as positive or negative. The text: ""the so"
+20260509_180202,sentiment_sst2,24,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,53,20,0.000007,0,exact,
+20260509_180202,sentiment_sst2,25,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,62,20,0.000007,0,exact,
+20260509_180202,sentiment_sst2,26,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,82,20,0.000009,5,exact,"We need to classify sentiment as positive or negative. The text: ""what 's surprising about full"
+20260509_180202,sentiment_sst2,27,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,82,20,0.000009,5,exact,negative
+20260509_180202,sentiment_sst2,28,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,79,20,0.000009,0,exact,"We need to classify sentiment: The text: ""uncommonly stylish but equally silly ... the"
+20260509_180202,sentiment_sst2,29,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,76,2,0.000007,5,exact,negative
+20260509_180202,sentiment_sst2,30,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,82,20,0.000009,0,exact,
+20260509_180202,sentiment_sst2,31,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,58,20,0.000007,0,exact,
+20260509_180202,sentiment_sst2,32,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,73,20,0.000008,0,exact,
+20260509_180202,sentiment_sst2,33,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,66,20,0.000008,0,exact,"We need to classify sentiment of the given text: ""instead of hiding pinocchio from critics , mir"
+20260509_180202,sentiment_sst2,34,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,76,20,0.000009,5,exact,"We need to output either ""positive"" or ""negative"". The text: ""it just may inspire"
+20260509_180202,sentiment_sst2,35,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,70,20,0.000008,0,exact,"We need to classify sentiment of the given text: ""jaglom ... put ( s ) the"
+20260509_180202,sentiment_sst2,36,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,55,20,0.000007,0,exact,
+20260509_180202,sentiment_sst2,37,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,76,20,0.000009,0,exact,
+20260509_180202,sentiment_sst2,38,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,71,20,0.000008,0,exact,We need to classify sentiment? Actually we need to respond with only the label. No extra text.
+20260509_180202,sentiment_sst2,39,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,61,20,0.000007,0,exact,
+20260509_180202,sentiment_sst2,40,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,76,20,0.000009,0,exact,
+20260509_180202,sentiment_sst2,41,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,81,20,0.000009,5,exact,"We need to classify sentiment as positive or negative. The text: ""that dogged good will of"
+20260509_180202,sentiment_sst2,42,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,66,20,0.000008,0,exact,
+20260509_180202,sentiment_sst2,43,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,63,20,0.000007,0,exact,
+20260509_180202,sentiment_sst2,44,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,85,20,0.000009,0,exact,
+20260509_180202,sentiment_sst2,45,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,74,20,0.000008,5,exact,"We need to classify sentiment as positive or negative. The text: ""it 's an offbeat"
+20260509_180202,sentiment_sst2,46,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,79,20,0.000009,0,exact,
+20260509_180202,sentiment_sst2,47,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,77,20,0.000009,0,exact,"We need to classify sentiment of given text: ""there seems to be no clear path as to where"
+20260509_180202,sentiment_sst2,48,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,85,20,0.000009,0,exact,
+20260509_180202,sentiment_sst2,49,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,86,20,0.000010,0,exact,

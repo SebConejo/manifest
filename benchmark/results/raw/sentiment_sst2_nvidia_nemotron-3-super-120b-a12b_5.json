@@ -2,7 +2,7 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "sentiment_sst2",
   "case": 5,
-  "response": "We need to classify sentiment of given text: \"outer-space buffs might love this film , but",
+  "response": "",
   "score": 0,
   "cost": 7.739999999999999e-06,
   "expected": "negative",

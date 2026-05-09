@@ -2,8 +2,8 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "sentiment_sst2",
   "case": 7,
-  "response": "We need to classify sentiment as positive or negative. The text: \"it 's a scattershot",
-  "score": 5,
+  "response": "We need to classify sentiment? No further instructions: \"Classify the sentiment of the following text as",
+  "score": 0,
   "cost": 7.83e-06,
   "expected": "positive",
   "tokens": {

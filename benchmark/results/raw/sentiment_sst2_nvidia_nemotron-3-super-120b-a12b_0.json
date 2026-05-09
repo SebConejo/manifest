@@ -2,8 +2,8 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "sentiment_sst2",
   "case": 0,
-  "response": "We need to classify sentiment of the given text as exactly one of: positive, negative. The text",
-  "score": 5,
+  "response": "We need to output only the sentiment label? Actually we need to respond with only the sentiment label,",
+  "score": 0,
   "cost": 8.91e-06,
   "expected": "positive",
   "tokens": {

@@ -2,8 +2,8 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "sentiment_sst2",
   "case": 26,
-  "response": "We need to classify sentiment. The text: \"what 's surprising about full frontal is that despite",
-  "score": 0,
+  "response": "We need to classify sentiment as positive or negative. The text: \"what 's surprising about full",
+  "score": 5,
   "cost": 9.18e-06,
   "expected": "positive",
   "tokens": {
