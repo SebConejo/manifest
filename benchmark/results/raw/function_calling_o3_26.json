@@ -2,12 +2,12 @@
   "model": "o3",
   "task": "function_calling",
   "case": 26,
-  "response": "{\"name\": \"upload_file\", \"arguments\": {\"path\": \"report.pdf\", \"destination\": \"shared documents folder\"}}",
+  "response": "{\"name\": \"upload_file\", \"arguments\": {\"path\": \"report.pdf\", \"destination\": \"shared documents\"}}",
   "score": 4,
-  "cost": 0.001538,
+  "cost": 0.00153,
   "expected": "",
   "tokens": {
     "input": 85,
-    "output": 171
+    "output": 170
   }
 }

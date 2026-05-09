@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "function_calling",
   "case": 1,
-  "response": "{\"name\": \"get_weather\", \"arguments\": {\"city\": \"Paris\", \"units\": \"celsius\"}}",
-  "score": 5,
-  "cost": 1.9439999999999997e-05,
+  "response": "{\"name\": \"get_weather\", \"arguments\": {\"city\": \"Paris\"}}",
+  "score": 4,
+  "cost": 9.99e-06,
   "expected": "",
   "tokens": {
-    "input": 107,
-    "output": 109
+    "input": 94,
+    "output": 17
   }
 }

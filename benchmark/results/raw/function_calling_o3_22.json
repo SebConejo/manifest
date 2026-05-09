@@ -2,12 +2,12 @@
   "model": "o3",
   "task": "function_calling",
   "case": 22,
-  "response": "{\"name\": \"create_database\", \"arguments\": {\"name\": \"analytics_prod\", \"engine\": \"postgresql\"}}",
+  "response": "{\"name\": \"create_database\", \"arguments\": {\"name\": \"analytics_prod\"}}",
   "score": 5,
-  "cost": 0.001534,
+  "cost": 0.000966,
   "expected": "",
   "tokens": {
     "input": 87,
-    "output": 170
+    "output": 99
   }
 }

@@ -2,12 +2,12 @@
   "model": "o3",
   "task": "function_calling",
   "case": 45,
-  "response": "{\"name\": \"grant_access\", \"arguments\": {\"user\": \"bob\", \"resource\": \"analytics database\", \"permission\": \"read\"}}",
+  "response": "{\"name\":\"grant_access\",\"arguments\":{\"user\":\"bob\",\"resource\":\"analytics database\",\"permission\":\"read\"}}",
   "score": 5,
-  "cost": 0.001066,
+  "cost": 0.001002,
   "expected": "",
   "tokens": {
     "input": 89,
-    "output": 111
+    "output": 103
   }
 }

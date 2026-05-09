@@ -2,12 +2,12 @@
   "model": "o3",
   "task": "function_calling",
   "case": 29,
-  "response": "{\"name\": \"ocr_document\", \"arguments\": {\"path\": \"uploads/contract.pdf\"}}",
+  "response": "{\"name\": \"ocr_document\", \"arguments\": {\"path\": \"uploads contract.pdf\"}}",
   "score": 5,
-  "cost": 0.001488,
+  "cost": 0.001992,
   "expected": "",
   "tokens": {
     "input": 84,
-    "output": 165
+    "output": 228
   }
 }

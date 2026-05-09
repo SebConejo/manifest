@@ -4,10 +4,10 @@
   "case": 31,
   "response": "{\"name\": \"archive_emails\", \"arguments\": {\"folder\": \"inbox\", \"older_than_days\": 180}}",
   "score": 5,
-  "cost": 0.00061074,
+  "cost": 0.00044718,
   "expected": "",
   "tokens": {
     "input": 100,
-    "output": 326
+    "output": 232
   }
 }

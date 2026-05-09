@@ -4,10 +4,10 @@
   "case": 28,
   "response": "{\"name\": \"block_ip\", \"arguments\": {\"ip\": \"192.168.1.100\"}}",
   "score": 4,
-  "cost": 0.00033408000000000005,
+  "cost": 0.00046284,
   "expected": "",
   "tokens": {
     "input": 88,
-    "output": 170
+    "output": 244
   }
 }

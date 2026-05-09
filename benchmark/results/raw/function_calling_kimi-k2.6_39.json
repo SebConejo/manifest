@@ -4,10 +4,10 @@
   "case": 39,
   "response": "{\"name\": \"export_table\", \"arguments\": {\"table\": \"users\", \"format\": \"csv\"}}",
   "score": 5,
-  "cost": 0.0010343999999999998,
+  "cost": 0.0015936,
   "expected": "",
   "tokens": {
     "input": 96,
-    "output": 407
+    "output": 640
   }
 }

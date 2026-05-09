@@ -1,0 +1,13 @@
+{
+  "model": "o3",
+  "task": "function_calling",
+  "case": 48,
+  "response": "{\"name\": \"git_tag\", \"arguments\": {\"name\": \"v3.0.0\", \"message\": \"Release v3.0.0\"}}",
+  "score": 4,
+  "cost": 0.00778,
+  "expected": "",
+  "tokens": {
+    "input": 102,
+    "output": 947
+  }
+}

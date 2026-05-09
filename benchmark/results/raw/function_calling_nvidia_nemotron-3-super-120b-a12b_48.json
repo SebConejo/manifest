@@ -1,0 +1,13 @@
+{
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "task": "function_calling",
+  "case": 48,
+  "response": "We need to generate a function call sequence? The user request: \"Tag the current release as v3.0.0 and push the tag to origin\". So we need to call git_tag with name \"v3.0.0\" (message optional). Then git_push with remote \"origin\", tags: true (maybe branch not needed). The instructions: \"Return ONLY valid JSON in this format: {\"name: \"function_name\", \"arguments\": {}",
+  "score": 1,
+  "cost": 1.863e-05,
+  "expected": "",
+  "tokens": {
+    "input": 113,
+    "output": 94
+  }
+}

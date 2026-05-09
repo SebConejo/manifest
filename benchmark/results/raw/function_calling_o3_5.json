@@ -2,12 +2,12 @@
   "model": "o3",
   "task": "function_calling",
   "case": 5,
-  "response": "{\"name\":\"book_restaurant\",\"arguments\":{\"name\":\"Italian place on Main Street\",\"party_size\":4,\"date\":\"this Saturday\",\"time\":\"19:00\"}}",
+  "response": "{\"name\": \"book_restaurant\", \"arguments\": {\"name\": \"Italian restaurant on Main Street\", \"party_size\": 4, \"date\": \"this Saturday\", \"time\": \"7:00 PM\"}}",
   "score": 4,
-  "cost": 0.002162,
+  "cost": 0.003786,
   "expected": "",
   "tokens": {
     "input": 109,
-    "output": 243
+    "output": 446
   }
 }

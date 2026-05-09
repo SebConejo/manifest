@@ -4,10 +4,10 @@
   "case": 32,
   "response": "{\"name\": \"run_security_scan\", \"arguments\": {\"target\": \"10.0.0.1\"}}",
   "score": 5,
-  "cost": 0.00053331,
+  "cost": 0.0006237899999999999,
   "expected": "",
   "tokens": {
     "input": 102,
-    "output": 281
+    "output": 333
   }
 }

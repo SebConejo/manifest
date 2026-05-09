@@ -4,10 +4,10 @@
   "case": 35,
   "response": "{\"name\": \"get_order\", \"arguments\": {\"order_id\": \"12345\"}}",
   "score": 3,
-  "cost": 0.000299715,
+  "cost": 0.000353655,
   "expected": "",
   "tokens": {
     "input": 89,
-    "output": 150
+    "output": 181
   }
 }

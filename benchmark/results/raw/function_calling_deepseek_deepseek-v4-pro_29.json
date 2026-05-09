@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "function_calling",
   "case": 29,
-  "response": "{\"name\": \"ocr_document\", \"arguments\": {\"path\": \"uploads/contract.pdf\"}}",
+  "response": "{\"name\": \"ocr_document\", \"arguments\": {\"path\": \"uploads contract.pdf\"}}",
   "score": 5,
-  "cost": 0.00017574000000000002,
+  "cost": 0.00038453999999999995,
   "expected": "",
   "tokens": {
     "input": 88,
-    "output": 79
+    "output": 199
   }
 }

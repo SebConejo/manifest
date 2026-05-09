@@ -4,10 +4,10 @@
   "case": 22,
   "response": "{\"name\": \"create_database\", \"arguments\": {\"name\": \"analytics_prod\", \"engine\": \"postgresql\"}}",
   "score": 5,
-  "cost": 0.0009858,
+  "cost": 0.000873,
   "expected": "",
   "tokens": {
     "input": 87,
-    "output": 389
+    "output": 342
   }
 }

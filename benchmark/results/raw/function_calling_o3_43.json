@@ -3,11 +3,11 @@
   "task": "function_calling",
   "case": 43,
   "response": "{\"name\": \"git_revert\", \"arguments\": {\"commit\": \"develop\"}}",
-  "score": 2,
-  "cost": 0.002518,
+  "score": 1,
+  "cost": 0.001494,
   "expected": "",
   "tokens": {
     "input": 95,
-    "output": 291
+    "output": 163
   }
 }

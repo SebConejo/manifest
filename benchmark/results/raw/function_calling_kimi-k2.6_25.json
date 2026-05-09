@@ -4,10 +4,10 @@
   "case": 25,
   "response": "{\"name\": \"schedule_meeting\", \"arguments\": {\"title\": \"standup meeting\", \"duration_minutes\": 30, \"time\": \"9am\", \"recurrence\": \"every weekday\", \"attendees\": [\"dev team\"]}}",
   "score": 5,
-  "cost": 0.0013788,
+  "cost": 0.0013884,
   "expected": "",
   "tokens": {
     "input": 118,
-    "output": 545
+    "output": 549
   }
 }

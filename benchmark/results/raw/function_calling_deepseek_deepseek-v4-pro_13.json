@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "function_calling",
   "case": 13,
-  "response": "```json\n{\"name\": \"control_light\", \"arguments\": {\"room\": \"living room\", \"action\": \"off\"}}\n```",
+  "response": "{\"name\": \"control_light\", \"arguments\": {\"room\": \"living room\", \"action\": \"off\"}}",
   "score": 4,
-  "cost": 0.00062466,
+  "cost": 8.874000000000001e-05,
   "expected": "",
   "tokens": {
     "input": 100,
-    "output": 334
+    "output": 26
   }
 }

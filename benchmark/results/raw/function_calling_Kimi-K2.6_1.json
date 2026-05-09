@@ -4,10 +4,10 @@
   "case": 1,
   "response": "{\"name\": \"get_weather\", \"arguments\": {\"city\": \"Paris\"}}",
   "score": 4,
-  "cost": 0.00042239999999999997,
+  "cost": 0.000456,
   "expected": "",
   "tokens": {
     "input": 96,
-    "output": 152
+    "output": 166
   }
 }

@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "function_calling",
   "case": 5,
-  "response": "{\"name\": \"book",
-  "score": 1,
-  "cost": 3.789e-05,
+  "response": "{\"name\": \"book_restaurant\", \"arguments\": {\"name\": \"Italian place on Main Street\", \"party_size\": 4, \"date\": \"this Saturday\", \"time\": \"7pm\"}}",
+  "score": 4,
+  "cost": 1.368e-05,
   "expected": "",
   "tokens": {
-    "input": 121,
-    "output": 300
+    "input": 109,
+    "output": 43
   }
 }
