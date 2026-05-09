@@ -2,7 +2,7 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "intent_clinc150",
   "case": 44,
-  "response": "We need to classify the user message: \"i want to change to a new allstate insurance plan",
+  "response": "",
   "score": 0,
   "cost": 5.337e-05,
   "expected": "insurance_change",

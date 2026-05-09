@@ -4,10 +4,10 @@
   "case": 46,
   "response": "calculator",
   "score": 5,
-  "cost": 0.0007325999999999999,
+  "cost": 0.0007758,
   "expected": "calculator",
   "tokens": {
     "input": 521,
-    "output": 175
+    "output": 193
   }
 }

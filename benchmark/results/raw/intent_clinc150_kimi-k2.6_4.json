@@ -4,10 +4,10 @@
   "case": 4,
   "response": "uber",
   "score": 5,
-  "cost": 0.0020231999999999997,
+  "cost": 0.0007128,
   "expected": "uber",
   "tokens": {
     "input": 524,
-    "output": 712
+    "output": 166
   }
 }

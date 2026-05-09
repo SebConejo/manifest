@@ -2,7 +2,7 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "intent_clinc150",
   "case": 16,
-  "response": "We need to classify the user message: \"i am in need of new checks i'm completely out",
+  "response": "We need to output only the intent label\nWe need to respond with only the intent label only the",
   "score": 0,
   "cost": 5.3549999999999994e-05,
   "expected": "order_checks",

@@ -4,10 +4,10 @@
   "case": 38,
   "response": "oil_change_when",
   "score": 5,
-  "cost": 0.002013,
+  "cost": 0.0026106,
   "expected": "oil_change_when",
   "tokens": {
     "input": 519,
-    "output": 709
+    "output": 958
   }
 }

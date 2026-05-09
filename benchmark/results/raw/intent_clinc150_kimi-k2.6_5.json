@@ -4,10 +4,10 @@
   "case": 5,
   "response": "restaurant_suggestion",
   "score": 5,
-  "cost": 0.0007764,
+  "cost": 0.0008267999999999999,
   "expected": "restaurant_suggestion",
   "tokens": {
     "input": 522,
-    "output": 193
+    "output": 214
   }
 }

@@ -1,0 +1,13 @@
+{
+  "model": "deepseek/deepseek-v4-pro",
+  "task": "intent_clinc150",
+  "case": 32,
+  "response": "shopping_list",
+  "score": 5,
+  "cost": 0.00045065999999999997,
+  "expected": "shopping_list",
+  "tokens": {
+    "input": 572,
+    "output": 116
+  }
+}

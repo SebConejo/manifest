@@ -4,10 +4,10 @@
   "case": 31,
   "response": "freeze_account",
   "score": 5,
-  "cost": 0.0006263999999999999,
+  "cost": 0.000732,
   "expected": "freeze_account",
   "tokens": {
     "input": 520,
-    "output": 131
+    "output": 175
   }
 }

@@ -4,10 +4,10 @@
   "case": 47,
   "response": "cook_time",
   "score": 5,
-  "cost": 0.0009882,
+  "cost": 0.0007794,
   "expected": "cook_time",
   "tokens": {
     "input": 523,
-    "output": 281
+    "output": 194
   }
 }

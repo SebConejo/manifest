@@ -4,10 +4,10 @@
   "case": 36,
   "response": "insurance",
   "score": 5,
-  "cost": 0.0020802,
+  "cost": 0.0007122000000000001,
   "expected": "insurance",
   "tokens": {
     "input": 519,
-    "output": 737
+    "output": 167
   }
 }

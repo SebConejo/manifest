@@ -4,10 +4,10 @@
   "case": 26,
   "response": "change_volume",
   "score": 5,
-  "cost": 0.0007817999999999999,
+  "cost": 0.0011201999999999998,
   "expected": "change_volume",
   "tokens": {
     "input": 515,
-    "output": 197
+    "output": 338
   }
 }

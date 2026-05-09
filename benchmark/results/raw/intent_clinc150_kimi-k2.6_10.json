@@ -4,10 +4,10 @@
   "case": 10,
   "response": "pto_request",
   "score": 5,
-  "cost": 0.0008262,
+  "cost": 0.0008837999999999999,
   "expected": "pto_request",
   "tokens": {
     "input": 517,
-    "output": 215
+    "output": 239
   }
 }

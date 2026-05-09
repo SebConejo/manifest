@@ -1,0 +1,13 @@
+{
+  "model": "deepseek/deepseek-v4-pro",
+  "task": "intent_clinc150",
+  "case": 18,
+  "response": "current_location",
+  "score": 5,
+  "cost": 0.00034408500000000005,
+  "expected": "current_location",
+  "tokens": {
+    "input": 567,
+    "output": 56
+  }
+}

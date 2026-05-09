@@ -2,8 +2,8 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "intent_clinc150",
   "case": 37,
-  "response": "We need to classify the message: \"find out when my next upcoming payday will be\". The",
-  "score": 5,
+  "response": "We need to classify the user message into exactly one intent from the list. The message: \"find",
+  "score": 0,
   "cost": 5.327999999999999e-05,
   "expected": "payday",
   "tokens": {

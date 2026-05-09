@@ -1,0 +1,13 @@
+{
+  "model": "deepseek/deepseek-v4-pro",
+  "task": "intent_clinc150",
+  "case": 49,
+  "response": "international_visa",
+  "score": 5,
+  "cost": 0.00038976,
+  "expected": "international_visa",
+  "tokens": {
+    "input": 572,
+    "output": 81
+  }
+}

@@ -4,10 +4,10 @@
   "case": 7,
   "response": "change_ai_name",
   "score": 5,
-  "cost": 0.0007608,
+  "cost": 0.0007224,
   "expected": "change_ai_name",
   "tokens": {
     "input": 520,
-    "output": 187
+    "output": 171
   }
 }

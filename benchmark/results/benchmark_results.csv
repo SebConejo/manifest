@@ -51151,3 +51151,153 @@ timestamp,task,case_idx,model,provider,input_price_per_m,output_price_per_m,inpu
 20260509_110353,instruction_following,47,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,28,500,0.000048,1,llm_judge,"Okay, the user wants me to describe what makes a good password using numbered steps. This seems like"
 20260509_110353,instruction_following,48,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,27,128,0.000014,5,llm_judge,"Romeo Montague and Juliet Capulet, members of feuding families in Verona, fall instantly in love at "
 20260509_110353,instruction_following,49,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,26,54,0.000007,5,llm_judge,"**Formal:** Good day, how may I assist you today?   **Casual:** Hey there! What's up?   **Humorous:*"
+20260509_115521,intent_clinc150,0,kimi-k2.6,moonshot,0.6,2.4,522,766,0.002152,5,exact,rollover_401k
+20260509_115521,intent_clinc150,1,kimi-k2.6,moonshot,0.6,2.4,520,154,0.000682,5,exact,find_phone
+20260509_115521,intent_clinc150,2,kimi-k2.6,moonshot,0.6,2.4,521,189,0.000766,5,exact,report_lost_card
+20260509_115521,intent_clinc150,3,kimi-k2.6,moonshot,0.6,2.4,517,600,0.001750,5,exact,schedule_maintenance
+20260509_115521,intent_clinc150,4,kimi-k2.6,moonshot,0.6,2.4,524,166,0.000713,5,exact,uber
+20260509_115521,intent_clinc150,5,kimi-k2.6,moonshot,0.6,2.4,522,214,0.000827,5,exact,restaurant_suggestion
+20260509_115521,intent_clinc150,6,kimi-k2.6,moonshot,0.6,2.4,523,218,0.000837,5,exact,confirm_reservation
+20260509_115521,intent_clinc150,7,kimi-k2.6,moonshot,0.6,2.4,520,171,0.000722,5,exact,change_ai_name
+20260509_115521,intent_clinc150,8,kimi-k2.6,moonshot,0.6,2.4,515,1028,0.002776,0,exact,no
+20260509_115521,intent_clinc150,9,kimi-k2.6,moonshot,0.6,2.4,519,724,0.002049,5,exact,weather
+20260509_115521,intent_clinc150,10,kimi-k2.6,moonshot,0.6,2.4,517,239,0.000884,5,exact,pto_request
+20260509_115521,intent_clinc150,11,kimi-k2.6,moonshot,0.6,2.4,519,232,0.000868,5,exact,travel_alert
+20260509_115521,intent_clinc150,12,kimi-k2.6,moonshot,0.6,2.4,518,200,0.000791,5,exact,oil_change_how
+20260509_115521,intent_clinc150,13,kimi-k2.6,moonshot,0.6,2.4,517,147,0.000663,5,exact,nutrition_info
+20260509_115521,intent_clinc150,14,kimi-k2.6,moonshot,0.6,2.4,516,177,0.000734,5,exact,date
+20260509_115521,intent_clinc150,15,kimi-k2.6,moonshot,0.6,2.4,521,169,0.000718,5,exact,share_location
+20260509_115521,intent_clinc150,16,kimi-k2.6,moonshot,0.6,2.4,523,158,0.000693,5,exact,order_checks
+20260509_115521,intent_clinc150,17,kimi-k2.6,moonshot,0.6,2.4,518,1727,0.004456,0,exact,todo_list
+20260509_115521,intent_clinc150,18,kimi-k2.6,moonshot,0.6,2.4,516,187,0.000758,5,exact,current_location
+20260509_115521,intent_clinc150,19,kimi-k2.6,moonshot,0.6,2.4,516,226,0.000852,5,exact,calendar
+20260509_115521,intent_clinc150,20,kimi-k2.6,moonshot,0.6,2.4,522,271,0.000964,5,exact,vaccines
+20260509_115521,intent_clinc150,21,kimi-k2.6,moonshot,0.6,2.4,517,592,0.001731,0,exact,recipe
+20260509_115521,intent_clinc150,22,kimi-k2.6,moonshot,0.6,2.4,522,734,0.002075,5,exact,transfer
+20260509_115521,intent_clinc150,23,kimi-k2.6,moonshot,0.6,2.4,520,280,0.000984,5,exact,account_blocked
+20260509_115521,intent_clinc150,24,kimi-k2.6,moonshot,0.6,2.4,525,252,0.000920,5,exact,report_fraud
+20260509_115521,intent_clinc150,25,kimi-k2.6,moonshot,0.6,2.4,518,180,0.000743,5,exact,shopping_list_update
+20260509_115521,intent_clinc150,26,kimi-k2.6,moonshot,0.6,2.4,515,338,0.001120,5,exact,change_volume
+20260509_115521,intent_clinc150,27,kimi-k2.6,moonshot,0.6,2.4,526,160,0.000700,5,exact,apr
+20260509_115521,intent_clinc150,28,kimi-k2.6,moonshot,0.6,2.4,515,106,0.000563,5,exact,repeat
+20260509_115521,intent_clinc150,29,kimi-k2.6,moonshot,0.6,2.4,516,195,0.000778,5,exact,recipe
+20260509_115521,intent_clinc150,30,kimi-k2.6,moonshot,0.6,2.4,517,239,0.000884,5,exact,where_are_you_from
+20260509_115521,intent_clinc150,31,kimi-k2.6,moonshot,0.6,2.4,520,175,0.000732,5,exact,freeze_account
+20260509_115521,intent_clinc150,32,kimi-k2.6,moonshot,0.6,2.4,521,524,0.001570,5,exact,shopping_list
+20260509_115521,intent_clinc150,33,kimi-k2.6,moonshot,0.6,2.4,522,721,0.002044,5,exact,direct_deposit
+20260509_115521,intent_clinc150,34,kimi-k2.6,moonshot,0.6,2.4,528,315,0.001073,5,exact,replacement_card_duration
+20260509_115521,intent_clinc150,35,kimi-k2.6,moonshot,0.6,2.4,522,153,0.000680,5,exact,change_language
+20260509_115521,intent_clinc150,36,kimi-k2.6,moonshot,0.6,2.4,519,167,0.000712,5,exact,insurance
+20260509_115521,intent_clinc150,37,kimi-k2.6,moonshot,0.6,2.4,520,190,0.000768,5,exact,payday
+20260509_115521,intent_clinc150,38,kimi-k2.6,moonshot,0.6,2.4,519,958,0.002611,5,exact,oil_change_when
+20260509_115521,intent_clinc150,39,kimi-k2.6,moonshot,0.6,2.4,518,195,0.000779,5,exact,how_old_are_you
+20260509_115521,intent_clinc150,40,kimi-k2.6,moonshot,0.6,2.4,518,161,0.000697,5,exact,mpg
+20260509_115521,intent_clinc150,41,kimi-k2.6,moonshot,0.6,2.4,516,158,0.000689,5,exact,bill_due
+20260509_115521,intent_clinc150,42,kimi-k2.6,moonshot,0.6,2.4,515,152,0.000674,5,exact,next_song
+20260509_115521,intent_clinc150,43,kimi-k2.6,moonshot,0.6,2.4,527,236,0.000883,5,exact,book_flight
+20260509_115521,intent_clinc150,44,kimi-k2.6,moonshot,0.6,2.4,522,155,0.000685,5,exact,insurance_change
+20260509_115521,intent_clinc150,45,kimi-k2.6,moonshot,0.6,2.4,520,647,0.001865,5,exact,accept_reservations
+20260509_115521,intent_clinc150,46,kimi-k2.6,moonshot,0.6,2.4,521,193,0.000776,5,exact,calculator
+20260509_115521,intent_clinc150,47,kimi-k2.6,moonshot,0.6,2.4,523,194,0.000779,5,exact,cook_time
+20260509_115521,intent_clinc150,48,kimi-k2.6,moonshot,0.6,2.4,520,816,0.002270,5,exact,application_status
+20260509_115521,intent_clinc150,49,kimi-k2.6,moonshot,0.6,2.4,520,196,0.000782,5,exact,international_visa
+20260509_115521,intent_clinc150,0,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,573,6,0.000260,5,exact,rollover_401k
+20260509_115521,intent_clinc150,1,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,572,77,0.000383,5,exact,find_phone
+20260509_115521,intent_clinc150,2,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,572,148,0.000506,5,exact,report_lost_card
+20260509_115521,intent_clinc150,3,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,568,156,0.000519,5,exact,schedule_maintenance
+20260509_115521,intent_clinc150,4,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,575,62,0.000358,5,exact,uber
+20260509_115521,intent_clinc150,5,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,573,122,0.000462,5,exact,restaurant_suggestion
+20260509_115521,intent_clinc150,6,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,574,77,0.000384,5,exact,confirm_reservation
+20260509_115521,intent_clinc150,7,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,571,80,0.000388,5,exact,change_ai_name
+20260509_115521,intent_clinc150,8,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,566,159,0.000523,0,exact,no
+20260509_115521,intent_clinc150,9,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,570,53,0.000340,5,exact,weather
+20260509_115521,intent_clinc150,10,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,568,69,0.000367,5,exact,pto_request
+20260509_115521,intent_clinc150,11,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,570,102,0.000425,5,exact,travel_alert
+20260509_115521,intent_clinc150,12,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,569,91,0.000406,5,exact,oil_change_how
+20260509_115521,intent_clinc150,13,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,568,81,0.000388,5,exact,nutrition_info
+20260509_115521,intent_clinc150,14,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,567,46,0.000327,5,exact,date
+20260509_115521,intent_clinc150,15,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,572,139,0.000491,5,exact,share_location
+20260509_115521,intent_clinc150,16,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,575,77,0.000384,5,exact,order_checks
+20260509_115521,intent_clinc150,17,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,569,405,0.000952,0,exact,todo_list
+20260509_115521,intent_clinc150,18,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,567,56,0.000344,5,exact,current_location
+20260509_115521,intent_clinc150,19,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,567,86,0.000396,5,exact,calendar
+20260509_115521,intent_clinc150,20,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,573,82,0.000392,5,exact,vaccines
+20260509_115521,intent_clinc150,21,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,568,478,0.001079,0,exact,recipe
+20260509_115521,intent_clinc150,22,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,573,60,0.000354,5,exact,transfer
+20260509_115521,intent_clinc150,23,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,571,175,0.000553,5,exact,account_blocked
+20260509_115521,intent_clinc150,24,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,577,72,0.000376,5,exact,report_fraud
+20260509_115521,intent_clinc150,25,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,569,126,0.000467,5,exact,shopping_list_update
+20260509_115521,intent_clinc150,26,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,566,243,0.000669,0,exact,whisper_mode
+20260509_115521,intent_clinc150,27,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,578,69,0.000371,5,exact,apr
+20260509_115521,intent_clinc150,28,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,566,55,0.000342,5,exact,repeat
+20260509_115521,intent_clinc150,29,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,567,62,0.000355,5,exact,recipe
+20260509_115521,intent_clinc150,30,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,568,102,0.000425,5,exact,where_are_you_from
+20260509_115521,intent_clinc150,31,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,571,80,0.000388,5,exact,freeze_account
+20260509_115521,intent_clinc150,32,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,572,116,0.000451,5,exact,shopping_list
+20260509_115521,intent_clinc150,33,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,573,69,0.000369,5,exact,direct_deposit
+20260509_115521,intent_clinc150,34,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,579,108,0.000440,5,exact,replacement_card_duration
+20260509_115521,intent_clinc150,35,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,574,67,0.000366,5,exact,change_language
+20260509_115521,intent_clinc150,36,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,570,137,0.000486,5,exact,insurance
+20260509_115521,intent_clinc150,37,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,572,75,0.000379,5,exact,payday
+20260509_115521,intent_clinc150,38,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,570,227,0.000643,5,exact,oil_change_when
+20260509_115521,intent_clinc150,39,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,569,64,0.000359,5,exact,how_old_are_you
+20260509_115521,intent_clinc150,40,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,570,49,0.000333,5,exact,mpg
+20260509_115521,intent_clinc150,41,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,567,147,0.000502,5,exact,bill_due
+20260509_115521,intent_clinc150,42,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,566,151,0.000509,5,exact,next_song
+20260509_115521,intent_clinc150,43,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,580,157,0.000525,5,exact,book_flight
+20260509_115521,intent_clinc150,44,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,573,73,0.000376,5,exact,insurance_change
+20260509_115521,intent_clinc150,45,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,572,301,0.000773,5,exact,accept_reservations
+20260509_115521,intent_clinc150,46,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,572,56,0.000346,5,exact,calculator
+20260509_115521,intent_clinc150,47,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,574,99,0.000422,5,exact,cook_time
+20260509_115521,intent_clinc150,48,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,571,68,0.000367,5,exact,application_status
+20260509_115521,intent_clinc150,49,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,572,81,0.000390,5,exact,international_visa
+20260509_115521,intent_clinc150,0,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,575,20,0.000054,0,exact,
+20260509_115521,intent_clinc150,1,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,572,20,0.000053,0,exact,"We need to classify the user message into exactly one intent from the list. The message: ""can"
+20260509_115521,intent_clinc150,2,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,572,20,0.000053,0,exact,"We need to map the user message to one of the intents. The message: ""what is"
+20260509_115521,intent_clinc150,3,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,568,20,0.000053,0,exact,
+20260509_115521,intent_clinc150,4,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,577,20,0.000054,0,exact,
+20260509_115521,intent_clinc150,5,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,573,20,0.000053,0,exact,"We need to classify the user message into exactly one intent from the list. The message: ""what"
+20260509_115521,intent_clinc150,6,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,575,20,0.000054,0,exact,"We need to classify the user message into exactly one intent from the list.  Message: ""i'll"
+20260509_115521,intent_clinc150,7,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,571,20,0.000053,0,exact,
+20260509_115521,intent_clinc150,8,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,566,20,0.000053,0,exact,"We need to classify the message ""i am not sure"" into one of the intents. The"
+20260509_115521,intent_clinc150,9,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,570,20,0.000053,0,exact,
+20260509_115521,intent_clinc150,10,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,568,20,0.000053,0,exact,
+20260509_115521,intent_clinc150,11,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,569,7,0.000052,0,exact,We need to output JSON?
+20260509_115521,intent_clinc150,12,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,569,20,0.000053,0,exact,
+20260509_115521,intent_clinc150,13,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,570,20,0.000053,0,exact,
+20260509_115521,intent_clinc150,14,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,567,20,0.000053,0,exact,
+20260509_115521,intent_clinc150,15,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,572,20,0.000053,0,exact,
+20260509_115521,intent_clinc150,16,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,575,20,0.000054,0,exact,We need to output only the intent label We need to respond with only the intent label only the
+20260509_115521,intent_clinc150,17,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,569,9,0.000052,0,exact,We need to output only intent label.
+20260509_115521,intent_clinc150,18,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,567,20,0.000053,0,exact,
+20260509_115521,intent_clinc150,19,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,567,9,0.000052,0,exact,We need to output only intent label.
+20260509_115521,intent_clinc150,20,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,573,20,0.000053,0,exact,
+20260509_115521,intent_clinc150,21,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,568,20,0.000053,0,exact,"We need to classify the message: ""can i substitute butter for oil"" is a neutral statement;"
+20260509_115521,intent_clinc150,22,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,573,20,0.000053,0,exact,
+20260509_115521,intent_clinc150,23,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,571,20,0.000053,0,exact,
+20260509_115521,intent_clinc150,24,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,577,20,0.000054,0,exact,"We need to classify the user message into exactly one intent from the list. The message: ""my"
+20260509_115521,intent_clinc150,25,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,569,20,0.000053,0,exact,
+20260509_115521,intent_clinc150,26,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,567,20,0.000053,0,exact,
+20260509_115521,intent_clinc150,27,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,578,20,0.000054,5,exact,"We need to classify the user message: ""i need to know what the current apr is for my"
+20260509_115521,intent_clinc150,28,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,566,20,0.000053,0,exact,
+20260509_115521,intent_clinc150,29,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,567,20,0.000053,0,exact,"We need to classify the user message ""how do you make pasta"" into one of the intents"
+20260509_115521,intent_clinc150,30,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,568,20,0.000053,0,exact,"We need to map the user message to one of the intents. The message: ""what area"
+20260509_115521,intent_clinc150,31,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,571,20,0.000053,0,exact,"We need to classify the user message into exactly one intent from the list. The message: ""would"
+20260509_115521,intent_clinc150,32,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,572,20,0.000053,0,exact,
+20260509_115521,intent_clinc150,33,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,573,20,0.000053,0,exact,
+20260509_115521,intent_clinc150,34,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,579,20,0.000054,0,exact,"We need to classify the user message into exactly one intent from the list.  Message: ""what is"
+20260509_115521,intent_clinc150,35,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,574,20,0.000053,0,exact,"We need to classify the user message into exactly one intent from the list. The message: ""can"
+20260509_115521,intent_clinc150,36,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,571,20,0.000053,0,exact,"We need to classify the user message into exactly one intent from the list. The message: ""t"
+20260509_115521,intent_clinc150,37,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,572,20,0.000053,0,exact,"We need to classify the user message into exactly one intent from the list. The message: ""find"
+20260509_115521,intent_clinc150,38,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,570,20,0.000053,0,exact,
+20260509_115521,intent_clinc150,39,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,569,20,0.000053,0,exact,
+20260509_115521,intent_clinc150,40,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,570,20,0.000053,0,exact,
+20260509_115521,intent_clinc150,41,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,567,20,0.000053,0,exact,
+20260509_115521,intent_clinc150,42,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,566,20,0.000053,0,exact,
+20260509_115521,intent_clinc150,43,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,581,20,0.000054,0,exact,
+20260509_115521,intent_clinc150,44,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,573,20,0.000053,0,exact,
+20260509_115521,intent_clinc150,45,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,572,20,0.000053,0,exact,
+20260509_115521,intent_clinc150,46,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,576,20,0.000054,0,exact,
+20260509_115521,intent_clinc150,47,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,575,20,0.000054,0,exact,"We need to classify the user message into exactly one intent from the list. The message: ""t"
+20260509_115521,intent_clinc150,48,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,571,20,0.000053,0,exact,
+20260509_115521,intent_clinc150,49,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,572,20,0.000053,0,exact,

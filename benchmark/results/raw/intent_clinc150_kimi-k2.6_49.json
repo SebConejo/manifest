@@ -4,10 +4,10 @@
   "case": 49,
   "response": "international_visa",
   "score": 5,
-  "cost": 0.0007992,
+  "cost": 0.0007823999999999999,
   "expected": "international_visa",
   "tokens": {
     "input": 520,
-    "output": 203
+    "output": 196
   }
 }

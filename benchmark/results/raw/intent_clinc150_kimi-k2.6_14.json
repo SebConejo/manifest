@@ -4,10 +4,10 @@
   "case": 14,
   "response": "date",
   "score": 5,
-  "cost": 0.0020808000000000003,
+  "cost": 0.0007344,
   "expected": "date",
   "tokens": {
     "input": 516,
-    "output": 738
+    "output": 177
   }
 }

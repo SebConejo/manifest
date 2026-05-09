@@ -2,7 +2,7 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "intent_clinc150",
   "case": 38,
-  "response": "We need to classify the user message: \"what are the manufacturers guidance on oil changes\". This is",
+  "response": "",
   "score": 0,
   "cost": 5.3099999999999996e-05,
   "expected": "oil_change_when",

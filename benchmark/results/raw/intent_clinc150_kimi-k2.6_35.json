@@ -4,10 +4,10 @@
   "case": 35,
   "response": "change_language",
   "score": 5,
-  "cost": 0.000642,
+  "cost": 0.0006804,
   "expected": "change_language",
   "tokens": {
     "input": 522,
-    "output": 137
+    "output": 153
   }
 }
