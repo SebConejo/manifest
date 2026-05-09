@@ -2,12 +2,12 @@
   "model": "MiniMax-M2.7",
   "task": "long_summarization",
   "case": 16,
-  "response": "The internet evolved from a 1960s US Department of Defense project (ARPANET) to a global network now serving over 5 billion people. Key developments include the 1983 adoption of TCP/IP protocols, Tim Berners-Lee's invention of the World Wide Web in 1989, and the 1993 launch of the Mosaic browser that made it accessible to ordinary users. The dot-com boom of the late 1990s led to a 2001 crash, but survivors like Amazon and Google became major companies, while mobile internet after the 2007 iPhone launch and cloud computing (AWS in 2006) further transformed the web.",
+  "response": "The internet originated in the 1960s as a US Department of Defense-funded project, with ARPANET demonstrating the first network message in 1969. Key developments include the TCP/IP transition in 1983, Tim Berners-Lee's invention of the World Wide Web in 1989, and the Mosaic browser launch in 1993 which made the web accessible to ordinary users. The platform experienced massive growth through the dot-com boom and subsequent crash in 2001, the rise of social media in the mid-2000s, and the mobile internet revolution sparked by the iPhone in 2007. Today, over 5 billion people are connected, and the internet underpins virtually every aspect of modern life, from commerce to communication to entertainment.",
   "score": 5,
-  "cost": 0.003369300000000001,
+  "cost": 0.0029513,
   "expected": "",
   "tokens": {
     "input": 343,
-    "output": 680
+    "output": 585
   }
 }

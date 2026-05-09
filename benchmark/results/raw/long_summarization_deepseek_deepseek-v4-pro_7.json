@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "long_summarization",
   "case": 7,
-  "response": "The 2020s have seen a transformative expansion in space exploration driven by both government programs and private enterprise. SpaceX is developing its massive Starship vehicle, while NASA's Artemis program aims to return humans to the Moon, and the James Webb Space Telescope is revolutionizing astronomy with its discoveries. Meanwhile, China is building its own space station and pursuing lunar ambitions, India has achieved successful Moon missions with Chandrayaan, and companies like Starlink and OneWeb are deploying vast satellite internet constellations. This new era also includes the rise of space tourism from Blue Origin and Virgin Galactic, alongside growing challenges such as the limitations of the outdated Outer Space Treaty, the increasing threat of space debris, and long-term prospects like asteroid mining.",
+  "response": "The text outlines the multifaceted landscape of space exploration in the 2020s, spanning both scientific discovery and commercial enterprise. Key developments include SpaceX's Starship, NASA's Artemis lunar return, the James Webb Space Telescope's findings, China's space station and lunar goals, and India's Chandrayaan missions, alongside the rise of satellite internet constellations, space tourism, and asteroid mining prospects. It also highlights challenges such as the limitations of the Outer Space Treaty and the growing problem of space debris. No specific numbers are provided in the text.",
   "score": 5,
-  "cost": 0.00083694,
+  "cost": 0.0009604799999999999,
   "expected": "",
   "tokens": {
     "input": 128,
-    "output": 449
+    "output": 520
   }
 }

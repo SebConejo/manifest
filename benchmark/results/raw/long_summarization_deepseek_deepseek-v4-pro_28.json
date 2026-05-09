@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "long_summarization",
   "case": 28,
-  "response": "The internet began as a U.S. Defense Department project, with ARPANET sending its first message in 1969 and later adopting the TCP/IP protocol in 1983 to form the modern network's backbone. Key milestones\u2014Tim Berners-Lee's creation of the World Wide Web in 1989, the first accessible browser in 1993, the dot-com boom and 2001 crash, the mid-2000s rise of social media, the 2007 smartphone revolution, and the 2006 launch of cloud computing\u2014drove its transformation into a universal platform. Despite early busts, survivors like Amazon and Google became some of history's most valuable companies, while the web grew to connect over 5 billion people today and underpin virtually every facet of modern life.",
+  "response": "The internet traces its roots to 1960s US Defense-funded research, with the ARPANET sending its first message in 1969 and adopting the foundational TCP/IP protocols in 1983. Tim Berners-Lee invented the World Wide Web in 1989, and the 1993 Mosaic browser popularized it, fueling the dot-com boom and subsequent 2001 crash, from which survivors like Amazon and Google became some of history's most valuable companies. The mid-2000s rise of social media, the 2007 iPhone-driven mobile internet explosion, and cloud computing have since made the web ubiquitous, connecting over 5 billion people today and underpinning nearly every aspect of modern life.",
   "score": 5,
-  "cost": 0.000894795,
+  "cost": 0.001234095,
   "expected": "",
   "tokens": {
     "input": 309,
-    "output": 437
+    "output": 632
   }
 }

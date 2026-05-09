@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "long_summarization",
   "case": 34,
-  "response": "The global food system is under severe strain",
-  "score": 3,
-  "cost": 0.00064815,
+  "response": "The global food system faces severe strain from a projected population of 9.7 billion by 2050, requiring a 60% rise in food production, while climate change and agriculture's own 25% share of greenhouse gas emissions worsen the situation. Key resources are dwindling, with 33% of arable land degraded and aquifers like the Ogallala being depleted, and roughly one-third of all food is lost or wasted. Proposed solutions range from precision agriculture and alternative proteins to regenerative practices and policy reforms. The central challenge is scaling these innovations to meet demand without making food unaffordable for the world's poorest populations.",
+  "score": 5,
+  "cost": 0.0007699499999999999,
   "expected": "",
   "tokens": {
     "input": 290,
-    "output": 300
+    "output": 370
   }
 }

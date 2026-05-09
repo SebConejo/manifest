@@ -1,0 +1,13 @@
+{
+  "model": "deepseek/deepseek-v4-pro",
+  "task": "long_summarization",
+  "case": 14,
+  "response": "The global food system faces a severe crisis, needing a 60% production increase to feed 9.7 billion people by 2050 while climate change, water scarcity, and soil degradation\u2014which has already reduced the productivity of 33% of arable land\u2014undermine yields. Agriculture itself generates roughly 25% of greenhouse gas emissions, and about one-third of all food is lost or wasted. Potential solutions include precision agriculture, alternative proteins, drought-resistant crops, and regenerative practices, but the central challenge is scaling these innovations while keeping food affordable for the world's poorest populations.",
+  "score": 5,
+  "cost": 0.0007473299999999999,
+  "expected": "",
+  "tokens": {
+    "input": 290,
+    "output": 357
+  }
+}

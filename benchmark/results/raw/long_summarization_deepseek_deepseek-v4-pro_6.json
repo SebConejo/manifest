@@ -1,0 +1,13 @@
+{
+  "model": "deepseek/deepseek-v4-pro",
+  "task": "long_summarization",
+  "case": 6,
+  "response": "Before the pandemic, less than 5% of workers were fully remote, but the 2020 lockdowns triggered a forced, large-scale shift enabled by tools like Zoom and Slack. Research, including studies by Stanford's Nick Bloom, revealed mixed productivity results, fueling a return-to-office backlash and the widespread adoption of hybrid models. This transformation has had far-reaching consequences, including depressed commercial real estate, geographic arbitrage as workers move to lower-cost areas, and challenges for company culture and junior employee development, while also giving rise to digital nomad visas.",
+  "score": 5,
+  "cost": 0.000857385,
+  "expected": "",
+  "tokens": {
+    "input": 139,
+    "output": 458
+  }
+}

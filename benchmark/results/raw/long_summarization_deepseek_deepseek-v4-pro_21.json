@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "long_summarization",
   "case": 21,
-  "response": "Quantum computing harnesses superposition, entanglement, and interference in qubits to potentially achieve exponential speedups over classical computers, as underscored by Google's 2019 claim of quantum supremacy\u2014performing a calculation in 200 seconds that would take a classical supercomputer an estimated 10,000 years. Practical progress is hampered by extremely fragile qubits that require near-absolute-zero cooling and high error rates that demand extensive error correction, with current machines housing 100\u20131,000 qubits when useful applications may require millions. Despite these hurdles, the technology holds significant promise for drug discovery, materials science, cryptography, and optimization, and companies are already testing quantum algorithms for financial modeling and logistics.",
+  "response": "Quantum computing harnesses qubits that exploit superposition, entanglement, and interference to achieve exponential speedups over classical bits, with Google\u2019s 2019 quantum supremacy demonstration solving a task in 200 seconds that would take a supercomputer 10,000 years. However, qubits are extremely fragile and must be cooled near absolute zero, while high error rates require many physical qubits for each logical one, so today\u2019s machines of 100\u20131,000 qubits fall far short of the millions likely needed for practical applications. Despite this, the technology offers breakthroughs in drug discovery, cryptography, and optimization, and companies like IBM, Google, IonQ, and Rigetti are pursuing hardware platforms such as superconducting circuits and trapped ions.",
   "score": 5,
-  "cost": 0.0016699649999999998,
+  "cost": 0.001055745,
   "expected": "",
   "tokens": {
     "input": 267,
-    "output": 893
+    "output": 540
   }
 }

@@ -2,12 +2,12 @@
   "model": "MiniMax-M2.7",
   "task": "long_summarization",
   "case": 2,
-  "response": "The global food system faces unprecedented pressure as the world population is projected to reach 9.7 billion by 2050, requiring a 60% increase in production while climate change, water scarcity, and soil degradation already threaten yields. Agriculture contributes roughly 25% of greenhouse gas emissions, with major aquifers like the Ogallala being depleted faster than they recharge, and 33% of the world's arable land has lost productivity due to intensive farming. Food waste compounds the problem, with roughly one-third of all food lost or wasted between farm and consumer. Solutions such as precision agriculture, vertical farming, alternative proteins, and regenerative practices show promise, but scaling these innovations while ensuring affordability for the world's poorest remains the central challenge.",
+  "response": "**Summary:**\nThe global food system faces mounting pressures as the world population is projected to reach 9.7 billion by 2050, requiring a 60% increase in food production while climate change, water scarcity, and soil degradation already threaten agricultural output\u201433% of arable land has reduced productivity, and the Ogallala Aquifer is being depleted faster than it recharges. Agriculture contributes roughly 25% of greenhouse gas emissions through deforestation, livestock, and fertilizers, while approximately one-third of all food produced is lost or wasted. Various technological and agricultural innovations such as precision agriculture, vertical farming, alternative proteins, drought-resistant crops, and regenerative farming practices offer potential solutions, though policy changes around subsidies, trade, and carbon pricing will also be needed. The core challenge remains scaling these solutions while ensuring food remains affordable and accessible to the world's poorest populations.",
   "score": 5,
-  "cost": 0.0017820000000000002,
+  "cost": 0.0019448000000000002,
   "expected": "",
   "tokens": {
     "input": 304,
-    "output": 329
+    "output": 366
   }
 }

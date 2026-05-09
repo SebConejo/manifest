@@ -2,12 +2,12 @@
   "model": "MiniMax-M2.7",
   "task": "long_summarization",
   "case": 48,
-  "response": "**Summary:**\n\nThe internet originated in the 1960s as a US Department of Defense-funded project, evolving from ARPANET in 1969 to a global network built on TCP/IP protocols by 1983. Tim Berners-Lee's invention of the World Wide Web in 1989 and the release of the Mosaic browser in 1993 democratized access to the internet, leading to explosive growth during the dot-com boom of the late 1990s. While many dot-com companies failed in the 2001 crash, companies like Amazon and Google survived and thrived, and the subsequent rise of social media, smartphones (including the iPhone in 2007), and cloud computing further transformed how people use the internet. Today, over 5 billion people are connected online, making the internet integral to virtually every aspect of modern life.",
-  "score": 4,
-  "cost": 0.0020845,
+  "response": "**Summary:** The internet originated in the 1960s as a US Department of Defense-funded project, with ARPANET first demonstrated in 1969; the 1983 transition to TCP/IP protocols established the modern foundation, while Tim Berners-Lee's 1989 invention of the World Wide Web and the 1993 release of the Mosaic browser made it accessible to ordinary users. The late 1990s dot-com boom saw massive investment followed by the 2001 crash, though companies like Amazon and Google survived to become hugely valuable. The mid-2000s rise of social media platforms like Facebook, Twitter, and YouTube, combined with the 2007 iPhone launch enabling mobile internet, transformed global communication, while AWS's 2006 cloud computing launch further expanded capabilities. Today, the internet connects over 5 billion people and underpins virtually every aspect of modern life.",
+  "score": 5,
+  "cost": 0.0022077000000000004,
   "expected": "",
   "tokens": {
     "input": 343,
-    "output": 388
+    "output": 416
   }
 }

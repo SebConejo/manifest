@@ -2,12 +2,12 @@
   "model": "MiniMax-M2.7",
   "task": "long_summarization",
   "case": 49,
-  "response": "**Summary:**\n\nQuantum computing uses qubits in superposition (0 and 1 simultaneously), combined with entanglement and interference, to solve certain problems exponentially faster than classical computers. Major companies and startups including IBM, Google, IonQ, and Rigetti are developing quantum hardware using various approaches like superconducting circuits and trapped ions; Google claimed quantum supremacy in 2019 by completing a calculation in 200 seconds that would take classical supercomputers 10,000 years. However, practical applications face significant hurdles including qubit fragility requiring near absolute zero temperatures, high error rates necessitating extensive error correction, and the gap between current machines (100-1,000 qubits) and the millions needed for useful applications. Despite these challenges, quantum computing shows promise for drug discovery, materials science, cryptography, optimization, and financial/logistics applications.",
+  "response": "**Summary:**\n\nQuantum computing leverages qubits that exist in superposition, along with entanglement and interference, enabling exponential speedups over classical computers for certain problems. Major companies like IBM, Google, and startups such as IonQ and Rigetti are developing quantum hardware using various approaches, with Google claiming quantum supremacy in 2019 after performing a calculation in 200 seconds that would take classical supercomputers 10,000 years. However, significant challenges remain\u2014qubits require near absolute zero cooling, error rates are high, and while current machines have 100-1,000 qubits, millions may be needed for practical applications. Despite these obstacles, quantum computing shows promise for drug discovery, materials science, cryptography, and optimization problems, with companies already experimenting with quantum algorithms for financial modeling and logistics.",
   "score": 5,
-  "cost": 0.0028941000000000006,
+  "cost": 0.0019129000000000001,
   "expected": "",
   "tokens": {
     "input": 295,
-    "output": 584
+    "output": 361
   }
 }

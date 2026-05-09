@@ -1,0 +1,13 @@
+{
+  "model": "deepseek/deepseek-v4-pro",
+  "task": "long_summarization",
+  "case": 39,
+  "response": "The EU's GDPR, effective May 2018, applies to any organization processing EU residents' data and grants rights such as access, erasure, and data portability, while requiring breach notification within 72 hours and imposing fines up to 4% of global annual revenue or \u20ac20 million\u2014leading to penalties like \u20ac1.2 billion for Meta and \u20ac746 million for Amazon. It has inspired similar laws worldwide, including California's CCPA and Brazil's LGPD, but faces criticism for compliance burdens on small businesses and inconsistent enforcement. Ultimately, GDPR established data privacy as a fundamental right and set the global benchmark for data protection legislation.",
+  "score": 5,
+  "cost": 0.001074015,
+  "expected": "",
+  "tokens": {
+    "input": 305,
+    "output": 541
+  }
+}

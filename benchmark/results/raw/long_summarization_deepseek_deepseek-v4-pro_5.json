@@ -1,0 +1,13 @@
+{
+  "model": "deepseek/deepseek-v4-pro",
+  "task": "long_summarization",
+  "case": 5,
+  "response": "Alexander Fleming's 1928 discovery of penicillin revolutionized medicine, making surgeries and infection treatments far safer, and sparked a golden age of antibiotic discovery through the 1950s\u201360s. However, the pipeline of new drugs dried up due to low financial returns, while widespread agricultural use and overuse in humans drove the emergence of resistant pathogens like MRSA. This escalating antimicrobial resistance crisis is now spurring research into next-generation solutions, including phage therapy, CRISPR technologies, and AI-powered drug discovery.",
+  "score": 5,
+  "cost": 0.000880875,
+  "expected": "",
+  "tokens": {
+    "input": 129,
+    "output": 474
+  }
+}

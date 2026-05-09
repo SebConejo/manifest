@@ -2,12 +2,12 @@
   "model": "MiniMax-M2.7",
   "task": "long_summarization",
   "case": 15,
-  "response": "The EU's GDPR, effective since May 2018, transformed how organizations handle personal data by applying to any company processing EU residents' data worldwide. Key provisions include the right to access and erasure, data portability, explicit consent requirements, mandatory breach reporting within 72 hours, and fines reaching up to 4% of global annual revenue or 20 million euros, whichever is greater. Major tech companies have faced substantial penalties, including Meta's 1.2 billion euro fine in 2023, Amazon's 746 million euro fine, and Google's combined fines exceeding 200 million euros. While GDPR has inspired similar legislation globally and established data privacy as a fundamental right, critics argue it disproportionately burdens small businesses, with enforcement remaining inconsistent across member states.",
+  "response": "**Summary:**\n\nThe EU's GDPR, effective since May 2018, applies to any organization handling data of EU residents and established core rights including data access, erasure, portability, and consent requirements. Organizations must report data breaches within 72 hours, appoint Data Protection Officers for large-scale processing, and face fines up to 4% of global annual revenue or 20 million euros\u2014enforced against major tech companies with Meta fined 1.2 billion euros, Amazon 746 million euros, and Google over 200 million euros. The regulation has influenced similar laws worldwide such as California's CCPA, Brazil's LGPD, and India's Digital Personal Data Protection Act. While critics argue GDPR creates compliance burdens and inconsistent enforcement, it has established data privacy as a fundamental right and set the global standard for data protection legislation.",
   "score": 5,
-  "cost": 0.0021571000000000003,
+  "cost": 0.0019195000000000002,
   "expected": "",
   "tokens": {
     "input": 317,
-    "output": 411
+    "output": 357
   }
 }

@@ -2,12 +2,12 @@
   "model": "MiniMax-M2.7",
   "task": "long_summarization",
   "case": 29,
-  "response": "**Summary:**\n\nQuantum computing differs from classical computing by using qubits that can exist in multiple states simultaneously through superposition, combined with entanglement and interference, enabling certain calculations to be solved exponentially faster. Major tech companies like IBM and Google, along with startups such as IonQ and Rigetti, are developing quantum hardware using various approaches including superconducting circuits and trapped ions, with Google claiming quantum supremacy in 2019 by completing in 200 seconds what would take classical supercomputers 10,000 years. However, significant challenges remain\u2014qubits are extremely fragile and require near absolute zero temperatures, error rates are high, and while current machines have 100-1,000 qubits, millions may be needed for practical applications. Despite these obstacles, quantum computing shows promise for fields like drug discovery, materials science, cryptography, and optimization, with companies already experimenting with quantum algorithms for financial modeling and logistics.",
+  "response": "**Summary:**\nQuantum computing differs fundamentally from classical computing by using qubits that leverage superposition, entanglement, and interference to potentially solve certain problems exponentially faster. Major companies like IBM and Google, along with startups like IonQ and Rigetti, are developing quantum hardware using various technologies such as superconducting circuits and trapped ions, with Google claiming quantum supremacy in 2019 after performing a calculation in 200 seconds that would take classical supercomputers 10,000 years. However, significant challenges remain\u2014including the need to cool qubits to near absolute zero, high error rates requiring extensive error correction, and the gap between current machines with 100-1,000 qubits and the millions likely needed for practical applications. Despite these hurdles, quantum computing shows promise for fields like drug discovery, materials science, cryptography, and optimization, with companies already experimenting with quantum algorithms for financial modeling and logistics.",
   "score": 5,
-  "cost": 0.0019745,
+  "cost": 0.0019701000000000002,
   "expected": "",
   "tokens": {
     "input": 295,
-    "output": 375
+    "output": 374
   }
 }

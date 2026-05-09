@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "long_summarization",
   "case": 8,
-  "response": "The evolution of AI from Turing's theoretical question to today's transformer revolution has been marked by cycles of optimism and stagnation, including the AI winters of the 1970s and 1980",
-  "score": 4,
-  "cost": 0.00058377,
+  "response": "AI's evolution from Turing's foundational question to today's transformer revolution has been shaped by cycles of boom and bust, including the AI winters of the 1970s and 1980s. The field revived in the 2010s through deep learning, and the 2017 transformer paper catalyzed a scaling race among OpenAI, Google, Anthropic, and Meta, fueling large language models like GPT. This progress has ignited debates over open versus closed source models, raised safety concerns around alignment, misuse, and job displacement, and spurred regulatory efforts such as the EU AI Act and US executive orders, with significant economic implications for knowledge work already emerging.",
+  "score": 5,
+  "cost": 0.00114579,
   "expected": "",
   "tokens": {
     "input": 142,
-    "output": 300
+    "output": 623
   }
 }

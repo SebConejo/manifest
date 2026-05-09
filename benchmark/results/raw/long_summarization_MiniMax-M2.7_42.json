@@ -2,12 +2,12 @@
   "model": "MiniMax-M2.7",
   "task": "long_summarization",
   "case": 42,
-  "response": "Summary: The global food system faces unprecedented pressure from population growth (projected 9.7 billion by 2050, requiring 60% more production), climate change impacts, and resource depletion. Agriculture contributes roughly 25% of greenhouse gas emissions while water scarcity threatens major farming regions like the Ogallala Aquifer, and 33% of arable land has been degraded. Compounding these issues, approximately one-third of all food produced is lost or wasted. Solutions like AI-driven precision agriculture, vertical farming, alternative proteins, and policy reforms are being explored, though scaling these innovations while maintaining affordability for the world's poorest remains a significant challenge.",
-  "score": 4,
-  "cost": 0.0013156,
+  "response": "The global food system faces unprecedented pressure from population growth projected to reach 9.7 billion by 2050, requiring a 60% increase in production. Climate change, agriculture's 25% contribution to greenhouse gas emissions, water scarcity depleting critical aquifers like the Ogallala, and soil degradation affecting 33% of arable land compound the challenge, while roughly one-third of all food is lost to waste. Solutions under development include precision agriculture using AI, vertical farming, alternative proteins, drought-resistant crops, and regenerative farming practices, alongside policy reforms to subsidies and carbon pricing. The critical challenge lies in scaling these innovations while ensuring food remains affordable and accessible to vulnerable populations.",
+  "score": 5,
+  "cost": 0.0016104000000000001,
   "expected": "",
   "tokens": {
-    "input": 304,
-    "output": 223
+    "input": 324,
+    "output": 285
   }
 }

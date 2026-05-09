@@ -2,12 +2,12 @@
   "model": "MiniMax-M2.7",
   "task": "long_summarization",
   "case": 46,
-  "response": "The global food system faces unprecedented pressure as the world population is projected to reach 9.7 billion by 2050, requiring a 60% increase in food production while climate change, water scarcity, and soil degradation already threaten yields\u2014the Ogallala Aquifer and other critical water sources are being depleted, and 33% of arable land has lost productivity due to intensive farming. Agriculture contributes roughly 25% of greenhouse gas emissions, and approximately one-third of all food produced is lost or wasted between farm and fork. Various technological and agricultural solutions are being explored, including precision agriculture, vertical farming, alternative proteins, drought-resistant crops, and regenerative farming practices, alongside policy changes to subsidies and carbon pricing. The challenge lies in scaling these solutions while ensuring food remains affordable and accessible to the world's most vulnerable populations.",
+  "response": "The global food system faces unprecedented pressure from a growing population projected to reach 9.7 billion by 2050, requiring a 60% increase in food production. This challenge is compounded by climate change reducing crop yields, agriculture contributing roughly 25% of greenhouse gas emissions, water scarcity depleting critical aquifers like the Ogallala, and soil degradation affecting 33% of the world's arable land, while approximately one-third of all food produced is wasted. Various technological and agricultural innovations are being explored, including precision agriculture, vertical farming, alternative proteins, and regenerative farming practices, alongside policy changes. The critical challenge lies in implementing these solutions at scale while ensuring food remains affordable and accessible for the world's poorest populations.",
   "score": 5,
-  "cost": 0.0018612000000000004,
+  "cost": 0.0025619,
   "expected": "",
   "tokens": {
-    "input": 304,
-    "output": 347
+    "input": 321,
+    "output": 502
   }
 }

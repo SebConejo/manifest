@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "long_summarization",
   "case": 31,
-  "response": "The EU's GDPR, effective May 2018, revolutionized global data protection by requiring explicit consent, granting rights like data erasure and portability, and mandating breach",
-  "score": 4,
-  "cost": 0.000654675,
+  "response": "The EU's General Data Protection Regulation (GDPR), effective May 2018, applies globally to any company processing the data of EU residents and enforces strict rules like explicit consent, 72-hour breach notification, and fines up to 4% of global annual revenue or \u20ac20 million. It has led to landmark penalties\u2014including \u20ac1.2 billion against Meta, \u20ac746 million against Amazon, and over \u20ac200 million in total for Google\u2014and inspired similar laws such as California's CCPA and Brazil's LGPD. Despite criticism over compliance burdens on small businesses, user frustration with cookie banners, and inconsistent enforcement across member states, GDPR has established data privacy as a fundamental right and the global benchmark for data protection.",
+  "score": 5,
+  "cost": 0.001602975,
   "expected": "",
   "tokens": {
     "input": 305,
-    "output": 300
+    "output": 845
   }
 }

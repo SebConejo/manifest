@@ -1,0 +1,13 @@
+{
+  "model": "deepseek/deepseek-v4-pro",
+  "task": "long_summarization",
+  "case": 19,
+  "response": "The EU's GDPR, effective May 2018, imposes strict data protection rules globally, including rights like erasure and portability, mandatory breach reporting within 72 hours, and fines up to 4% of global revenue or \u20ac20 million\u2014whichever is higher. Major penalties include a \u20ac1.2 billion fine against Meta in 2023, and hundreds of millions more for Amazon and Google. The regulation has inspired similar laws worldwide, such as California's CCPA and Brazil's LGPD. Despite criticism over compliance burdens and inconsistent enforcement, GDPR established data privacy as a fundamental right and set the global standard for data protection.",
+  "score": 5,
+  "cost": 0.0007416749999999999,
+  "expected": "",
+  "tokens": {
+    "input": 305,
+    "output": 350
+  }
+}

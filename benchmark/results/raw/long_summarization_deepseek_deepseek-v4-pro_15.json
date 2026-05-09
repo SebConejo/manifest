@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "long_summarization",
   "case": 15,
-  "response": "The EU\u2019s GDPR, effective since May 2018, applies globally to any organization handling EU residents\u2019 data and grants rights like data access, erasure, and",
-  "score": 4,
-  "cost": 0.000654675,
+  "response": "The EU's General Data Protection Regulation (GDPR), effective May 2018, imposes strict rules on any entity processing EU residents' data worldwide, granting rights like data access, erasure, and portability, and mandating breach notifications within 72 hours, with fines reaching 4% of global revenue or \u20ac20 million. Major penalties include a \u20ac1.2 billion fine against Meta for unlawful data transfers, \u20ac746 million against Amazon, and over \u20ac200 million against Google. Despite inspiring similar laws globally\u2014such as California's CCPA and Brazil's LGPD\u2014the regulation faces criticism for disproportionate compliance burdens on small businesses and inconsistent enforcement. Ultimately, GDPR cemented data privacy as a fundamental right and set the international standard for data protection.",
+  "score": 5,
+  "cost": 0.0012514949999999998,
   "expected": "",
   "tokens": {
     "input": 305,
-    "output": 300
+    "output": 643
   }
 }

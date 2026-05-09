@@ -2,12 +2,12 @@
   "model": "MiniMax-M2.7",
   "task": "long_summarization",
   "case": 23,
-  "response": "**Summary:**\n\nThe EU's General Data Protection Regulation (GDPR), effective since May 2018, transformed global data privacy by requiring any organization handling EU residents' data to implement strict consent-based practices, appoint Data Protection Officers for large-scale processing, and report breaches within 72 hours, with penalties reaching up to 4% of global annual revenue or 20 million euros. Major tech companies have faced substantial fines\u2014including Meta's record 1.2 billion euro penalty in 2023 and Amazon's 746 million euro fine\u2014prompting many to strengthen compliance measures. GDPR has inspired similar legislation worldwide, such as California's CCPA, Brazil's LGPD, and India's Digital Personal Data Protection Act, establishing it as the global benchmark for data protection. Despite criticism that compliance burdens disproportionately harm small businesses and that enforcement remains inconsistent across member states, GDPR cemented data privacy as a fundamental right in the digital age.",
+  "response": "The EU's General Data Protection Regulation (GDPR), implemented in May 2018, fundamentally reshaped global data privacy by applying to any organization processing EU residents' data, with key provisions including the right to access, right to erasure, data portability, and mandatory consent requirements. Organizations must appoint Data Protection Officers for large-scale processing and report data breaches within 72 hours, with violations incurring fines up to 4% of global annual revenue or 20 million euros\u2014resulting in major penalties like Meta's 1.2 billion euro fine in 2023 and Amazon's 746 million euro fine. GDPR has inspired similar legislation worldwide, including California's CCPA, Brazil's LGPD, and India's Digital Personal Data Protection Act, establishing data privacy as a fundamental right and setting the global standard. Despite criticism that compliance burdens disproportionately affect small businesses and that inconsistent enforcement and ubiquitous cookie consent banners frustrate users, GDPR remains the benchmark for data protection legislation.",
   "score": 5,
-  "cost": 0.0022286,
+  "cost": 0.0020339,
   "expected": "",
   "tokens": {
-    "input": 334,
-    "output": 423
+    "input": 317,
+    "output": 383
   }
 }

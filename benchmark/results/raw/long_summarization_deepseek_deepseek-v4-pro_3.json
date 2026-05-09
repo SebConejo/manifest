@@ -1,0 +1,13 @@
+{
+  "model": "deepseek/deepseek-v4-pro",
+  "task": "long_summarization",
+  "case": 3,
+  "response": "The EU's GDPR, effective May 2018, imposes strict data-handling rules on any company processing EU residents' data, with fines reaching 4% of global revenue or \u20ac20 million\u2014whichever is higher\u2014as seen in Meta's \u20ac1.2 billion penalty. It mandates breach reporting within 72 hours, explicit consent, and rights like access and erasure, sparking global imitators such as California's CCPA and Brazil's LGPD. Critics highlight burdens on small businesses and inconsistent enforcement, but the regulation established data privacy as a fundamental right and set the worldwide benchmark.",
+  "score": 5,
+  "cost": 0.001044435,
+  "expected": "",
+  "tokens": {
+    "input": 305,
+    "output": 524
+  }
+}

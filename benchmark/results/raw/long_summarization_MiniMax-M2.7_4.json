@@ -2,12 +2,12 @@
   "model": "MiniMax-M2.7",
   "task": "long_summarization",
   "case": 4,
-  "response": "Electric vehicles have evolved from early experiments in the 1830s to a major industry disruption led by Tesla, with legacy automakers like Ford, GM, and VW now racing to transition their fleets. The sector faces significant technical challenges including battery technology limitations, range anxiety, extended charging times, and concerns about grid capacity, alongside environmental debates surrounding lithium and cobalt mining. Government incentives, China's dominance as both the world's largest EV market and manufacturer, and the potential of solid-state batteries represent critical factors shaping the industry's future.",
-  "score": 4,
-  "cost": 0.0012903,
+  "response": "Electric vehicles trace their roots to 1830s experiments, but Tesla\u2019s market entry in the 2010s sparked a rapid industry shift toward electrification. Key obstacles remain\u2014battery cost and energy density, the need for a widespread fast\u2011charging network, grid capacity, and the environmental impact of mining lithium and cobalt\u2014though solid\u2011state batteries promise higher performance. Legacy automakers such as Ford, GM, and Volkswagen are investing billions to retool their fleets, while China dominates both as the world\u2019s largest EV market and a leading manufacturer. Overcoming range anxiety, reducing charging times, and securing coordinated government incentives are essential to achieving mass adoption.",
+  "score": 5,
+  "cost": 0.0035255000000000004,
   "expected": "",
   "tokens": {
-    "input": 145,
-    "output": 257
+    "input": 165,
+    "output": 760
   }
 }

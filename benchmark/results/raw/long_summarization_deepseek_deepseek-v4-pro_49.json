@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "long_summarization",
   "case": 49,
-  "response": "Quantum computing harnesses qubits that can exist in superposition and become entangled, enabling exponential speedups over classical computers for specific problems, with firms like IBM, Google, IonQ, and Rigetti exploring superconducting, trapped-ion, photonic, and topological approaches. In 2019, Google claimed \"quantum supremacy\" by completing a task in 200 seconds that would take a classical supercomputer 10,000 years, but today's machines house only 100\u20131,000 fragile qubits that require near-absolute-zero cooling and suffer high error rates, demanding heavy error correction. Experts estimate millions of qubits may be needed for practical applications, yet the technology holds strong promise for drug discovery, materials science, cryptography, and optimization, and companies are already testing quantum algorithms in finance and logistics.",
+  "response": "Quantum computing harnesses qubits that can sit in superposition and become entangled, enabling it to solve certain problems exponentially faster than classical computers. In 2019, Google claimed quantum supremacy by completing a calculation in 200 seconds that would take a classical supercomputer 10,000 years. However, today's machines hold only 100\u20131000 fragile qubits that must be cooled near absolute zero, suffer high error rates, and require extensive error correction, meaning millions of qubits may be needed for practical use. Even so, the technology holds great promise for fields like drug discovery, materials science, cryptography, and optimization.",
   "score": 5,
-  "cost": 0.0014437649999999998,
+  "cost": 0.0010522650000000001,
   "expected": "",
   "tokens": {
     "input": 267,
-    "output": 763
+    "output": 538
   }
 }

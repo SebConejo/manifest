@@ -2,12 +2,12 @@
   "model": "MiniMax-M2.7",
   "task": "long_summarization",
   "case": 30,
-  "response": "The global food system faces unprecedented pressure as the world population is projected to reach 9.7 billion by 2050, requiring a 60% increase in food production. Climate change and resource depletion compound this challenge\u2014agriculture contributes roughly 25% of greenhouse gas emissions, critical aquifers like the Ogallala are being rapidly depleted, soil degradation affects 33% of arable land, and one-third of all food is lost to waste. Innovations such as AI-driven precision agriculture, vertical farming, alternative proteins, and regenerative farming practices offer potential solutions, though scaling these will require policy changes around subsidies, trade, and carbon pricing. The core challenge is implementing these solutions at scale while ensuring food remains affordable and accessible for the world's poorest populations.",
+  "response": "**Summary:** The global food system faces mounting pressure from a projected population of 9.7 billion by 2050, requiring a 60% increase in food production while climate change simultaneously reduces crop yields. Agriculture contributes roughly 25% of greenhouse gas emissions and is depleting critical resources\u201433% of arable land is degraded, and aquifers like the Ogallala are being drained faster than they recharge. Additionally, one-third of all food produced is lost or wasted. While solutions like AI-driven precision agriculture, vertical farming, alternative proteins, and regenerative practices offer promise, scaling these innovations while keeping food affordable remains the central challenge.",
   "score": 5,
-  "cost": 0.0027764,
+  "cost": 0.0020768,
   "expected": "",
   "tokens": {
-    "input": 304,
-    "output": 555
+    "input": 324,
+    "output": 391
   }
 }

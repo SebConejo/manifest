@@ -2,12 +2,12 @@
   "model": "MiniMax-M2.7",
   "task": "long_summarization",
   "case": 7,
-  "response": "**Summary:**\n\nThe 2020s represent a transformative era for space exploration, marked by increased collaboration and competition among government agencies and private companies. Key developments include SpaceX's Starship and NASA's Artemis program aiming to return humans to the Moon, the James Webb Space Telescope's groundbreaking discoveries, and ambitious programs from China and India. Simultaneously, commercial ventures such as Starlink's satellite constellation, space tourism initiatives by Blue Origin and Virgin Galactic, and emerging prospects for asteroid mining are reshaping the industry's economic landscape. However, challenges persist, including the Outer Space Treaty's limitations in addressing modern issues and the growing problem of space debris threatening orbital infrastructure.",
-  "score": 4,
-  "cost": 0.0016808,
+  "response": "**Summary:**\nThe 2020s represent a pivotal decade for space exploration, marked by both unprecedented technological advancements and emerging governance challenges. Major developments include SpaceX's Starship development, NASA's Artemis program aimed at returning humans to the Moon, and China's ambitious space station and lunar goals, while India's Chandrayaan missions continue to expand scientific understanding of the Moon. Commercial space activities have surged with satellite internet constellations like Starlink and OneWeb, space tourism ventures by Blue Origin and Virgin Galactic, and growing interest in asteroid mining. However, critical issues have emerged, including the limitations of the Outer Space Treaty in addressing modern space governance and the pressing problem of orbital space debris, which threaten sustainable space operations.",
+  "score": 5,
+  "cost": 0.0017589,
   "expected": "",
   "tokens": {
-    "input": 160,
-    "output": 342
+    "input": 143,
+    "output": 364
   }
 }

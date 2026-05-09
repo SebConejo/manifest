@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "long_summarization",
   "case": 2,
-  "response": "The global food system is under immense strain, needing a 60% production increase for a projected 9.7 billion people by 2050, while climate change lowers crop yields and agriculture itself emits roughly 25% of greenhouse gases. Compounding pressures include water depletion in key aquifers, soil degradation on 33% of arable land, and the loss of about one-third of all food produced. A range of solutions\u2014such as precision agriculture, alternative proteins, and regenerative practices\u2014exist to mitigate these challenges. The central argument is that implementing these solutions at scale, while keeping food affordable for the world\u2019s poorest, is the crucial hurdle.",
+  "response": "The global food system faces severe strain from a projected population of 9.7 billion by 2050, requiring a 60% rise in food production, while climate change and agriculture's own 25% share of greenhouse gas emissions worsen the challenge. Key resources are dwindling, with a third of arable land degraded and a third of all food lost or wasted. Proposed solutions range from precision agriculture and alternative proteins to regenerative farming and policy reforms. The central argument is that scaling these innovations is critical, yet must be done in a way that keeps food affordable and accessible for the world's poorest.",
   "score": 5,
-  "cost": 0.0016521300000000001,
+  "cost": 0.00077865,
   "expected": "",
   "tokens": {
     "input": 290,
-    "output": 877
+    "output": 375
   }
 }

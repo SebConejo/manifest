@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "long_summarization",
   "case": 25,
-  "response": "Quantum computing relies on qubits that exploit superposition, entanglement, and interference to achieve exponential speedups over classical machines for certain problems. In 2019, Google claimed quantum supremacy by performing a calculation in 200 seconds that would take a classical supercomputer roughly 10,000 years. Current quantum processors hold 100\u20131,000 qubits, but the extreme fragility of qubits, the need for near-absolute-zero cooling, and high error rates mean that millions of physical qubits may be required for fault-tolerant, practical applications. Despite these hurdles, companies like IBM, Google, and IonQ are advancing hardware for potential breakthroughs in drug discovery, materials science, cryptography, and optimization.",
+  "response": "Quantum computing harnesses qubits that, through superposition, entanglement, and interference, can solve certain problems exponentially faster than classical computers. In 2019, Google claimed quantum supremacy by completing a calculation in 200 seconds that would take a classical supercomputer 10,000 years. Current devices house only 100\u20131,000 qubits and face steep hurdles, such as extreme cooling requirements, high error rates, and the need for millions of physical qubits to form reliable logical qubits via error correction. Despite this, the technology holds transformative potential for drug discovery, materials science, cryptography, and optimization, with early experiments already underway in finance and logistics.",
   "score": 5,
-  "cost": 0.001078365,
+  "cost": 0.000834765,
   "expected": "",
   "tokens": {
     "input": 267,
-    "output": 553
+    "output": 413
   }
 }

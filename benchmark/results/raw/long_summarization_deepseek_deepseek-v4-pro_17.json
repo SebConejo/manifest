@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "long_summarization",
   "case": 17,
-  "response": "Quantum computing exploits qubits that can hold superpositions of 0 and 1, and uses entanglement and interference to achieve exponential speedups over classical computers for certain tasks. In 2019, Google claimed quantum supremacy by performing a calculation in 200 seconds that would reportedly take a classical supercomputer 10,000 years, while companies like IBM, IonQ, and Rigetti pursue diverse hardware platforms such as superconducting circuits and trapped ions. Current machines have 100\u20131000 qubits, but qubits are fragile, must be cooled to near absolute zero, and require massive error correction, meaning millions of physical qubits could be needed for useful applications. Despite these obstacles, quantum computing is expected to advance drug discovery, materials science, cryptography, and optimization, with early experiments underway in financial modeling and logistics.",
+  "response": "Quantum computing harnesses qubits that exploit superposition, entanglement, and interference to solve certain problems exponentially faster than classical computers, with major players like IBM, Google, IonQ, and Rigetti pursuing different hardware designs. In 2019, Google claimed quantum supremacy by completing a calculation in 200 seconds that would take a classical supercomputer an estimated 10,000 years. However, practical machines face steep challenges: qubits are extremely fragile, require cooling to near absolute zero, suffer from high error rates, and current devices (100\u20131,000 qubits) fall far short of the millions of error-corrected qubits needed for useful applications. Despite this, the technology shows strong potential in drug discovery, materials science, cryptography, and optimization, with companies already testing quantum algorithms for finance and logistics.",
   "score": 5,
-  "cost": 0.001184505,
+  "cost": 0.001297605,
   "expected": "",
   "tokens": {
     "input": 267,
-    "output": 614
+    "output": 679
   }
 }
