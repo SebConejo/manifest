@@ -2,7 +2,7 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "extraction_hard_v2",
   "case": 32,
-  "response": "{\n  \"tracking_number\": \"1Z999AA10123456784\",\n  \"carrier\": \"UPS Ground\",\n  \"service\": \"Ground\",",
+  "response": "{\n  \"tracking_number\": \"1Z999AA10123456784\",",
   "score": 3,
   "cost": 0.00010224,
   "expected": "",

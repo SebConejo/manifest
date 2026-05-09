@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "extraction_hard_v2",
   "case": 30,
-  "response": "{\n  \"incident_id\": \"SI-2024-0089\",\n  \"detected\": \"2024-03-15 02:14 UTC\",\n  \"severity\": \"P1 Critical\",\n  \"status\": \"Contained\",\n  \"attack_vector\": {\n    \"",
+  "response": "We need to extract fields.\n\nincident_id: from \"SECURITY INCIDENT #SI-2024-0089\" => \"SI-2024-0089\"\n\ndetected: \"2024-03-15 02:14 UTC\" (maybe keep as string). Should we include timezone? Keep as given.\n\nseverity: \"P1 Critical\" => maybe just \"P1 Critical\". The schema expects string.\n\nstatus: \"Contained\"\n\nattack_vector: compromised_account: \"svc-analytics@corp.local\". vulnerability: \"CVE-2024-1234\"\n\nimpact: records_exposed: number: 12847 (note comma? Actually need JSON.",
   "score": 3,
-  "cost": 0.00010242,
+  "cost": 4.527e-05,
   "expected": "",
   "tokens": {
     "input": 338,
-    "output": 800
+    "output": 165
   }
 }

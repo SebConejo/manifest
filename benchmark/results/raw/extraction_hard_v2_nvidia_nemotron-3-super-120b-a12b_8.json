@@ -2,8 +2,8 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "extraction_hard_v2",
   "case": 8,
-  "response": "{",
-  "score": 5,
+  "response": "{\n  \"date\": \"2024-03-12\",\n  \"time\": \"16:45\",\n  \"location\": \"I-95 NB at Exit 42, Stamford CT\",\n  \"weather\": {\n    \"condition\": \"Light rain\",\n    \"temperature_f\": 48\n  },\n  \"vehicles\": [\n    {\n      \"year\": 2022,\n      \"make\": \"Tesla\",\n      \"model\": \"Model 3\",\n      \"plate\": \"AXR-4521",
+  "score": 4,
   "cost": 9.981000000000001e-05,
   "expected": "",
   "tokens": {

@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "extraction_hard_v2",
   "case": 3,
-  "response": "{\n  \"severity\": \"critical\",\n  \"component\": \"checkout\",\n  \"summary\": \"Checkout page shows spinner then white screen after payment, with CORS error and undefined function error.\",\n  \"steps_to_reproduce\": [\n    \"Add items to cart\",\n    \"Navigate to checkout page\",\n    \"Enter card information\",\n    \"Click Pay button\",\n    \"Observe spinner for ~30 seconds then white screen\"\n  ],\n  \"expected_behavior\": \"Payment should process successfully and show order confirmation page.\",\n  \"actual_behavior\": \"Spinner appears for ~30 seconds then white screen; no error message displayed; console shows CORS error and undefined is not a function.\",\n  \"environment\": {\n    \"os\": \"Windows 11\",\n    \"browser\": \"Chrome 121\"\n  }\n}",
+  "response": "{\n  \"severity\": \"critical\",\n  \"component\": \"checkout page\",\n  \"summary\": \"Checkout page fails with spinner then white screen after payment attempt, showing CORS error and undefined is not a function.\",\n  \"steps_to_reproduce\": [\n    \"Add items to cart\",\n    \"Navigate to checkout page\",\n    \"Enter card information\",\n    \"Click Pay button\"\n  ],\n  \"expected_behavior\": \"Payment processes successfully and user is redirected to order confirmation page.\",\n  \"actual_behavior\": \"Spinner shows for ~30 seconds then white screen appears; no error message displayed; console shows CORS error and undefined is not a function.\",\n  \"environment\": {\n    \"os\": \"Windows 11\",\n    \"browser\": \"Chrome 121\"\n  }\n}",
   "score": 5,
-  "cost": 2.925e-05,
+  "cost": 6.444e-05,
   "expected": "",
   "tokens": {
-    "input": 163,
-    "output": 162
+    "input": 186,
+    "output": 530
   }
 }

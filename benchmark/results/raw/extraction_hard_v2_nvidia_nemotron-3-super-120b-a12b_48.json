@@ -1,0 +1,13 @@
+{
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "task": "extraction_hard_v2",
+  "case": 48,
+  "response": "We need to output JSON only JSON. No extra text. We need to output JSON only. No explanation.",
+  "score": 2,
+  "cost": 2.988e-05,
+  "expected": "",
+  "tokens": {
+    "input": 309,
+    "output": 23
+  }
+}

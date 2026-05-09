@@ -1,0 +1,13 @@
+{
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "task": "extraction_hard_v2",
+  "case": 22,
+  "response": "We need to extract meeting title, date, attendees, decisions, action_items.\n\nText: \"Product sync - April 10 2026\"\n\nSo meeting_title: \"Product sync\". Date: \"2026-04-10\". Attendees: list of names: Jamie (PM), Priya (eng lead), Marcus (design), Lin (data). Probably just names without roles: [\"Jamie\",\"Priya\",\"Marcus\",\"Lin\"].\n\nDecisions: sentences after \"Decided to ...\" and \"Agreed to allocate ...\". Let's parse:\n\n\"Decided to push the recommendation engine to Q3 since data pipeline won't be ready until June.\" That's a decision.\n\n\"Agreed to allocate 20% of sprint capacity to tech debt.\" That's another decision.\n\nPotentially also \"Lin needs analytics dashboard before May board meeting.\" That's maybe an action item? Actually it's a need, but could be decision? It says \"Lin needs analytics dashboard before May board meeting.\" Might be an action item: owner Lin, task \"prepare analytics dashboard\", deadline before May board meeting (maybe date?). But we have other action items: \"Marcus will have onboarding mockups by April 18.\" and \"Jamie will send updated roadmap by Monday.\" Also \"Lin needs analytics dashboard before May board meeting.\" Could be action item.\n\nThus action_items list:\n\n- owner: Marcus, task: \"have onboarding mockups\", deadline: \"2026-04-18\" (April 18 2026). Format YYYY-MM-DD.\n\n- owner: Jamie, task: \"send updated roadmap\", deadline: \"by Monday\". Need to convert to date relative to meeting date April 10 2026. April 10 2026 is a Friday? Let's check: 2026-04-10 day of week? Quick mental: 2024-02-29 was Thursday (leap). 2025-03-01? Not sure. Better to compute: Known: 2026-01-01 is Thursday? Actually 2026-01-01: 2025-01-01 was Wednesday (2025 not leap). 2025-01-01 Wednesday, 2025-12-31 is Wednesday? 2025 not leap, so 365 days => 52 weeks +1 day, so 2026-01-01 is Thursday. Then add days to April 10: Jan 31 days, Feb 28 (2026 not leap), Mar 31, Apr 10 => total days Jan31+Feb28+Mar31+Apr10 = 31+28+31+10=100 days. Starting from Jan1 as day 1? Actually Jan1 is day 0 offset? Let's compute offset: Jan1 to Apr10 exclusive? Simpler: Jan1 + (31-1) days = Feb1? Let's just compute day of week: Jan1 Thursday. Add 99 days (since Jan1 to Apr10 inclusive? Actually Jan1 to Apr10 is 99 days later? Let's compute: Jan has 31 days, so Jan31 is 30 days after Jan1. Feb28 adds 28 => 58 after Jan1. Mar31 adds 31 => 89 after Jan1. Apr10 adds 10 => 99 after Jan1. So Apr10 is Thursday +",
+  "score": 3,
+  "cost": 8.937e-05,
+  "expected": "",
+  "tokens": {
+    "input": 193,
+    "output": 800
+  }
+}
