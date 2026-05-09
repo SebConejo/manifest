@@ -50179,3 +50179,233 @@ timestamp,task,case_idx,model,provider,input_price_per_m,output_price_per_m,inpu
 20260509_000810,code_generation,47,o3,openai,2.0,8.0,99,159,0.001470,5,llm_judge,"return ' '.join(map(str, range(n + 1)))"
 20260509_000810,code_generation,48,o3,openai,2.0,8.0,102,154,0.001436,5,llm_judge,return text == text[::-1]
 20260509_000810,code_generation,49,o3,openai,2.0,8.0,171,1312,0.010838,4,llm_judge,n = len(string)     for i in range(n):         # If the suffix starting at position i is a palindrom
+20260509_012929,code_review_v2,0,gpt-5.5-pro,openai_responses,5.0,20.0,98,2904,0.058570,5,llm_judge,Key issues:  | Issue | What’s wrong | How to fix | |---|---|---| | SQL injection | User input is int
+20260509_012929,code_review_v2,2,gpt-5.5-pro,openai_responses,5.0,20.0,94,7853,0.157530,5,llm_judge,"This is not safe for real money movement. The biggest issues are validation, atomicity, and concurre"
+20260509_012929,code_review_v2,3,gpt-5.5-pro,openai_responses,5.0,20.0,107,11813,0.236795,5,llm_judge,This is high-risk code because it handles payment card data. Main issues:  ### Problems and fixes  1
+20260509_012929,code_review_v2,4,gpt-5.5-pro,openai_responses,5.0,20.0,79,9192,0.184235,5,llm_judge,This is unsafe if `filename` is user-controlled.  ### Problems  1. **Path traversal**    ```python  
+20260509_012929,code_review_v2,5,gpt-5.5-pro,openai_responses,5.0,20.0,67,6840,0.137135,4,llm_judge,The code only handles the happy path:  ```python def process_items(items):     for item in items:   
+20260509_012929,code_review_v2,6,gpt-5.5-pro,openai_responses,5.0,20.0,88,3607,0.072580,5,llm_judge,"The SQL uses parameter placeholders, so basic SQL injection is mitigated. The main problems are acce"
+20260509_012929,code_review_v2,7,gpt-5.5-pro,openai_responses,5.0,20.0,66,2072,0.041770,5,llm_judge,"Main issue: this looks like a security token generator, but it uses Python’s `random` module, which "
+20260509_012929,code_review_v2,8,gpt-5.5-pro,openai_responses,5.0,20.0,73,6736,0.135085,5,llm_judge,This handler is unsafe for a real webhook endpoint. Main problems:  ### Issues and fixes  1. **`req.
+20260509_012929,code_review_v2,9,gpt-5.5-pro,openai_responses,5.0,20.0,92,5251,0.105480,5,llm_judge,"The function is a cache-aside read, but it has several correctness and security problems.  ### Issue"
+20260509_012929,code_review_v2,11,gpt-5.5-pro,openai_responses,5.0,20.0,102,6580,0.132110,5,llm_judge,Major issues:  ### 1. SQL injection  This is the most serious bug:  ```python db.execute(f'DELETE FR
+20260509_012929,code_review_v2,12,gpt-5.5-pro,openai_responses,5.0,20.0,82,1708,0.034570,5,llm_judge,Key issues:  ### 1. SQL injection vulnerability  ```python return self.db.query(f'SELECT * FROM user
+20260509_012929,code_review_v2,13,gpt-5.5-pro,openai_responses,5.0,20.0,61,2616,0.052625,5,llm_judge,The main problem is that this is an unsafe DOM sink:  ```js function renderHTML(userInput) {   docum
+20260509_012929,code_review_v2,14,gpt-5.5-pro,openai_responses,5.0,20.0,55,2936,0.058995,5,llm_judge,The main problem is that `yaml.load()` is unsafe and also version-dependent.  ```python def parse_co
+20260509_012929,code_review_v2,16,gpt-5.5-pro,openai_responses,5.0,20.0,58,2805,0.056390,5,llm_judge,This should **not** be used for password storage.  ```python def encrypt_password(password):     imp
+20260509_012929,code_review_v2,18,gpt-5.5-pro,openai_responses,5.0,20.0,86,9894,0.198310,5,llm_judge,"The `with` block is good because it closes the file, but this is not safe or robust enough for appli"
+20260509_012929,code_review_v2,19,gpt-5.5-pro,openai_responses,5.0,20.0,111,9753,0.195615,5,llm_judge,Key issues:  1. **Do not trust `localStorage` for prices**    - Users can edit it: `localStorage.set
+20260509_012929,code_review_v2,20,gpt-5.5-pro,openai_responses,5.0,20.0,75,4360,0.087575,5,llm_judge,"Key issues:  1. **Unexpected exceptions / inconsistent errors**    ```python    int(""abc"")   # raise"
+20260509_012929,code_review_v2,21,gpt-5.5-pro,openai_responses,5.0,20.0,63,6659,0.133495,5,llm_judge,"The code is syntactically fine, but it is unsafe as a general-purpose model loader.  ```python impor"
+20260509_012929,code_review_v2,23,gpt-5.5-pro,openai_responses,5.0,20.0,87,2737,0.055175,5,llm_judge,"The middleware is **not safe for admin authorization** as written.  ```js function checkAdmin(req, r"
+20260509_012929,code_review_v2,25,gpt-5.5-pro,openai_responses,5.0,20.0,67,3292,0.066175,5,llm_judge,"There are no syntax bugs here, but there are serious security/configuration problems.  ## Issues  ##"
+20260509_012929,code_review_v2,26,gpt-5.5-pro,openai_responses,5.0,20.0,65,4903,0.098385,5,llm_judge,"Assuming this is a Flask/Werkzeug-style upload object, the main issue is that the code trusts `file."
+20260509_012929,code_review_v2,27,gpt-5.5-pro,openai_responses,5.0,20.0,78,6303,0.126450,5,llm_judge,"Assuming this is Node’s `jsonwebtoken` package, the code works for the simplest case, but it has sev"
+20260509_012929,code_review_v2,29,gpt-5.5-pro,openai_responses,5.0,20.0,86,7854,0.157510,5,llm_judge,The code has a **critical SQL injection vulnerability** and a few correctness/performance issues.  #
+20260509_012929,code_review_v2,30,gpt-5.5-pro,openai_responses,5.0,20.0,101,8521,0.170925,5,llm_judge,"This only works for a very narrow case: synchronous, single-threaded, single-process, positional-arg"
+20260509_012929,code_review_v2,31,gpt-5.5-pro,openai_responses,5.0,20.0,53,7637,0.153005,5,llm_judge,"This is not a reliable general-purpose `deepClone`. It is a JSON serialization round-trip, so it onl"
+20260509_012929,code_review_v2,32,gpt-5.5-pro,openai_responses,5.0,20.0,49,3329,0.066825,4,llm_judge,"The function is very small, but there are still several issues depending on how it is used:  ```pyth"
+20260509_012929,code_review_v2,33,gpt-5.5-pro,openai_responses,5.0,20.0,82,7242,0.145250,5,llm_judge,"Good: the query uses a bound parameter (`$1`), so this is not directly vulnerable to SQL injection t"
+20260509_012929,code_review_v2,34,gpt-5.5-pro,openai_responses,5.0,20.0,53,5757,0.115405,5,llm_judge,"This function is unsafe for password verification:  ```python def compare_passwords(stored, provided"
+20260509_012929,code_review_v2,35,gpt-5.5-pro,openai_responses,5.0,20.0,98,7930,0.159090,5,llm_judge,The class is currently more of a “background infinite loop starter” than a safe file watcher. Main i
+20260509_012929,code_review_v2,36,gpt-5.5-pro,openai_responses,5.0,20.0,86,1829,0.037010,4,llm_judge,"Issues in the code:  ```python def calculate_discount(price, code):     discounts = {'SAVE10': 0.10,"
+20260509_012929,code_review_v2,37,gpt-5.5-pro,openai_responses,5.0,20.0,106,12624,0.253010,5,llm_judge,The handler is not safe/complete as a password-reset implementation.  ### Specific issues and fixes 
+20260509_012929,code_review_v2,38,gpt-5.5-pro,openai_responses,5.0,20.0,55,3346,0.067195,5,llm_judge,"Current behavior:  ```python def merge_dicts(a, b):     a.update(b)     return a ```  This performs "
+20260509_012929,code_review_v2,39,gpt-5.5-pro,openai_responses,5.0,20.0,56,2551,0.051300,5,llm_judge,"Assuming this is building a SQL string in a web request handler, the main problem is that `request.p"
+20260509_012929,code_review_v2,40,gpt-5.5-pro,openai_responses,5.0,20.0,68,3325,0.066840,5,llm_judge,"The code works only for the simplest case, but it has several reliability and security problems:  ``"
+20260509_012929,code_review_v2,43,gpt-5.5-pro,openai_responses,5.0,20.0,63,9872,0.197755,5,llm_judge,### Issues in the original code  ```js async function getUser(id) {   const response = await fetch(`
+20260509_012929,code_review_v2,46,gpt-5.5-pro,openai_responses,5.0,20.0,50,4409,0.088430,4,llm_judge,The function only prepends a dollar sign; it does not really format currency.  ```python def format_
+20260509_012929,code_review_v2,47,gpt-5.5-pro,openai_responses,5.0,20.0,87,5153,0.103495,5,llm_judge,The main bug is that the endpoint reports healthy even when the DB check fails:  ```js .catch(() => 
+20260509_012929,code_review_v2,48,gpt-5.5-pro,openai_responses,5.0,20.0,68,9348,0.187300,5,llm_judge,"This function is a fragile payload decoder, not a safe JWT parser/validator.  ```python def parse_jw"
+20260509_012929,code_review_v2,0,kimi-k2.6,moonshot,0.6,2.4,98,3889,0.009392,5,llm_judge,This code contains **critical security vulnerabilities** and **functional bugs**. Below is a detaile
+20260509_012929,code_review_v2,1,kimi-k2.6,moonshot,0.6,2.4,95,3156,0.007631,5,llm_judge,"Here is a review of the code, ordered by severity.  ### 1. Critical Security Issue: Password / Hash "
+20260509_012929,code_review_v2,2,kimi-k2.6,moonshot,0.6,2.4,92,2561,0.006202,4,llm_judge,"Here is a detailed review of the code, categorized by severity.  ## Critical Bugs  ### 1. Silent Fai"
+20260509_012929,code_review_v2,3,kimi-k2.6,moonshot,0.6,2.4,105,3002,0.007268,5,llm_judge,"Here's a detailed review of the code, organized by severity:  ## 🔴 Critical Security Issues  ### 1. "
+20260509_012929,code_review_v2,4,kimi-k2.6,moonshot,0.6,2.4,77,4020,0.009694,5,llm_judge,"Here is a review of the code, ordered by severity.  ## Critical Security Issues  ### 1. Path Travers"
+20260509_012929,code_review_v2,5,kimi-k2.6,moonshot,0.6,2.4,65,3141,0.007577,5,llm_judge,"Here is a detailed review of the code, categorized by severity.  ## Critical Bugs  ### 1. No Error H"
+20260509_012929,code_review_v2,6,kimi-k2.6,moonshot,0.6,2.4,86,3091,0.007470,5,llm_judge,This code has **critical security vulnerabilities** and several bugs. Here is a detailed breakdown: 
+20260509_012929,code_review_v2,7,kimi-k2.6,moonshot,0.6,2.4,64,1572,0.003811,5,llm_judge,Here is a review of the code.  ### Critical Issues  #### 1. Insecure Randomness (Security Vulnerabil
+20260509_012929,code_review_v2,9,kimi-k2.6,moonshot,0.6,2.4,91,3884,0.009376,5,llm_judge,"Here is a detailed review of the code, categorized by severity.  ---  ### 1. Critical Bugs  #### A. "
+20260509_012929,code_review_v2,10,kimi-k2.6,moonshot,0.6,2.4,80,3740,0.009024,4,llm_judge,"Here's a detailed review of the code, categorized by severity.  ---  ### 🐛 Critical Bugs  #### 1. **"
+20260509_012929,code_review_v2,11,kimi-k2.6,moonshot,0.6,2.4,100,3162,0.007649,5,llm_judge,"Here is a detailed review of the code, categorized by severity.  ---  ### 🔴 Critical Security & Corr"
+20260509_012929,code_review_v2,12,kimi-k2.6,moonshot,0.6,2.4,80,2743,0.006631,5,llm_judge,"Here is a detailed review of the code, organized by severity.  ## 🔴 Critical Issues  ### 1. SQL Inje"
+20260509_012929,code_review_v2,13,kimi-k2.6,moonshot,0.6,2.4,59,2312,0.005584,5,llm_judge,"Here is a review of the code with specific bugs, security vulnerabilities, and recommended fixes.  -"
+20260509_012929,code_review_v2,14,kimi-k2.6,moonshot,0.6,2.4,53,2359,0.005693,5,llm_judge,Here is a detailed review of the code.  ## 1. Critical Security Issue: Arbitrary Code Execution (RCE
+20260509_012929,code_review_v2,16,kimi-k2.6,moonshot,0.6,2.4,58,2689,0.006488,5,llm_judge,This code has **severe security vulnerabilities** and should **never be used for password storage**.
+20260509_012929,code_review_v2,17,kimi-k2.6,moonshot,0.6,2.4,57,3008,0.007253,5,llm_judge,Here is a security review of those two lines.  ### Summary Both lines contain **high-severity securi
+20260509_012929,code_review_v2,19,kimi-k2.6,moonshot,0.6,2.4,109,4081,0.009860,5,llm_judge,Here is a detailed review of the code.  ## Critical Bugs  ### 1. `fetch()` does not throw on HTTP er
+20260509_012929,code_review_v2,21,kimi-k2.6,moonshot,0.6,2.4,61,2795,0.006745,5,llm_judge,"Here is a detailed review of the code, ordered by severity.  ---  ### 1. Critical Security Issue: Ar"
+20260509_012929,code_review_v2,22,kimi-k2.6,moonshot,0.6,2.4,107,4203,0.010151,5,llm_judge,"Here is a detailed review of the code, categorized by severity.  ## 🔴 Critical Security Issue: SMTP "
+20260509_012929,code_review_v2,23,kimi-k2.6,moonshot,0.6,2.4,85,2020,0.004899,5,llm_judge,"Here is a review of the code, ordered by severity.  ## 🔴 Critical Security Issue: Client-Controlled "
+20260509_012929,code_review_v2,24,kimi-k2.6,moonshot,0.6,2.4,67,4530,0.010912,5,llm_judge,"This function has several critical bugs, security vulnerabilities, and reliability issues. Below is "
+20260509_012929,code_review_v2,25,kimi-k2.6,moonshot,0.6,2.4,66,1869,0.004525,5,llm_judge,This code represents a **critical security anti-pattern** (hardcoded secrets) mixed with poor config
+20260509_012929,code_review_v2,26,kimi-k2.6,moonshot,0.6,2.4,64,1846,0.004469,5,llm_judge,This code has **critical security vulnerabilities** and several reliability issues. Here is a detail
+20260509_012929,code_review_v2,27,kimi-k2.6,moonshot,0.6,2.4,77,3270,0.007894,5,llm_judge,"Here is a detailed review of the code, assuming the standard Node.js **`jsonwebtoken`** library.  ##"
+20260509_012929,code_review_v2,29,kimi-k2.6,moonshot,0.6,2.4,84,2726,0.006593,4,llm_judge,"Here is a review of the code, ordered by severity.  ---  ### 1. Critical: SQL Injection **What is wr"
+20260509_012929,code_review_v2,31,kimi-k2.6,moonshot,0.6,2.4,51,4203,0.010118,5,llm_judge,This implementation of `deepClone` is concise but **dangerously unreliable** for production use. It 
+20260509_012929,code_review_v2,32,kimi-k2.6,moonshot,0.6,2.4,47,2645,0.006376,4,llm_judge,"Here is a review of the code, from critical bugs to security concerns and general improvements.  ###"
+20260509_012929,code_review_v2,33,kimi-k2.6,moonshot,0.6,2.4,80,3616,0.008726,5,llm_judge,"Here is a detailed review of the code, categorized by severity.  ### 🔴 Critical Issues  **1. N+1 Que"
+20260509_012929,code_review_v2,34,kimi-k2.6,moonshot,0.6,2.4,51,2518,0.006074,5,llm_judge,This code has **critical security flaws** despite appearing correct functionally. Here is a detailed
+20260509_012929,code_review_v2,35,kimi-k2.6,moonshot,0.6,2.4,96,4769,0.011503,5,llm_judge,"Here is a detailed review of the code, categorized by severity.  ## Critical Bugs  ### 1. Missing Im"
+20260509_012929,code_review_v2,36,kimi-k2.6,moonshot,0.6,2.4,84,2965,0.007166,5,llm_judge,"Here is a detailed review of the code, categorized by severity.  ---  ### 1. Critical Bug: Unhandled"
+20260509_012929,code_review_v2,37,kimi-k2.6,moonshot,0.6,2.4,105,4610,0.011127,4,llm_judge,"Here is a detailed review of the code, ordered by severity.  ### 🔴 Critical Issues  **1. Cryptograph"
+20260509_012929,code_review_v2,38,kimi-k2.6,moonshot,0.6,2.4,53,2206,0.005326,5,llm_judge,"Here is a review of the code, from critical bugs to security concerns, with concrete fixes.  ### 1. "
+20260509_012929,code_review_v2,39,kimi-k2.6,moonshot,0.6,2.4,54,2774,0.006690,4,llm_judge,This code has a **critical SQL injection vulnerability** and several bugs/anti-patterns. Here is a d
+20260509_012929,code_review_v2,40,kimi-k2.6,moonshot,0.6,2.4,66,3068,0.007403,4,llm_judge,"Here is a detailed review of the code, categorized by severity and type.  ## 1. Bugs & Reliability I"
+20260509_012929,code_review_v2,42,kimi-k2.6,moonshot,0.6,2.4,79,4966,0.011966,5,llm_judge,"Here is a detailed review of the code, organized by severity.  ## Critical Issues  ### 1. Undefined "
+20260509_012929,code_review_v2,43,kimi-k2.6,moonshot,0.6,2.4,61,4673,0.011252,5,llm_judge,"Here is a detailed review of the code, categorized by severity.  ### 1. Bugs  | Issue | Explanation "
+20260509_012929,code_review_v2,44,kimi-k2.6,moonshot,0.6,2.4,93,6258,0.015075,4,llm_judge,Here is a detailed review of the code.  ### Summary of Critical Issues The function has **three crit
+20260509_012929,code_review_v2,45,kimi-k2.6,moonshot,0.6,2.4,77,3413,0.008237,5,llm_judge,Here is a detailed review of the provided Singleton implementation.  ## Critical Bugs  ### 1. Broken
+20260509_012929,code_review_v2,46,kimi-k2.6,moonshot,0.6,2.4,48,3388,0.008160,4,llm_judge,Here is a detailed review of the code.  ## Bugs  | Issue | Example of Bad Output | Why It’s Wrong | 
+20260509_012929,code_review_v2,47,kimi-k2.6,moonshot,0.6,2.4,85,4290,0.010347,5,llm_judge,"Here is a detailed review of the code, ordered by severity.  ---  ### 1. Critical Bug: False-Positiv"
+20260509_012929,code_review_v2,48,kimi-k2.6,moonshot,0.6,2.4,67,5092,0.012261,4,llm_judge,"Here is a review of the code with specific bugs, security issues, and a corrected implementation.  #"
+20260509_012929,code_review_v2,0,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,95,1977,0.003481,5,llm_judge,The provided `login` function contains critical security vulnerabilities and several design flaws. B
+20260509_012929,code_review_v2,1,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,94,1717,0.003028,4,llm_judge,"The code has several critical issues related to error handling, data exposure, and robustness. Below"
+20260509_012929,code_review_v2,2,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,97,1346,0.002384,4,llm_judge,"This code has several critical issues related to concurrency, error handling, and logic. Here's a de"
+20260509_012929,code_review_v2,3,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,103,2497,0.004390,5,llm_judge,"The provided `processPayment` function contains several critical security flaws, bugs, and design we"
+20260509_012929,code_review_v2,4,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,75,2036,0.003575,5,llm_judge,**Security Issues**  1. **Path Traversal (Directory Traversal)**    - **What’s wrong:** The user-sup
+20260509_012929,code_review_v2,5,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,62,2143,0.003756,4,llm_judge,"The code snippet is minimal, but several important concerns become apparent when considering product"
+20260509_012929,code_review_v2,6,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,83,2228,0.003913,5,llm_judge,The provided code has several critical bugs and security vulnerabilities. Below is a breakdown of th
+20260509_012929,code_review_v2,7,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,61,1509,0.002652,5,llm_judge,The primary issue with this token generation function is its use of a **cryptographically insecure r
+20260509_012929,code_review_v2,8,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,68,1971,0.003459,5,llm_judge,The code snippet has several issues ranging from a likely parsing bug to significant security gaps. 
+20260509_012929,code_review_v2,9,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,91,3198,0.005604,5,llm_judge,"The provided function implements a typical cache-aside pattern but contains several bugs, security c"
+20260509_012929,code_review_v2,10,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,79,2452,0.004301,4,llm_judge,"The provided `fetchAll` function has several issues related to error handling, security, performance"
+20260509_012929,code_review_v2,11,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,95,1398,0.002474,5,llm_judge,**Critical Security Flaw: SQL Injection**   The `user_id` parameter is directly interpolated into SQ
+20260509_012929,code_review_v2,12,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,76,2397,0.004204,4,llm_judge,"The provided code contains critical security vulnerabilities, bugs, and poor design practices. Below"
+20260509_012929,code_review_v2,13,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,53,990,0.001746,5,llm_judge,### Security Issues  - **Cross-Site Scripting (XSS) vulnerability**     Setting `innerHTML` directly
+20260509_012929,code_review_v2,14,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,52,1172,0.002062,5,llm_judge,"The provided code has several issues related to security, style, and robustness. Below is a breakdow"
+20260509_012929,code_review_v2,15,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,82,3143,0.005504,5,llm_judge,The provided function has several issues ranging from poor exception handling to potential security 
+20260509_012929,code_review_v2,16,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,137,2203,0.003893,5,llm_judge,### 1. Bugs & Code Issues  - **Misleading function name**     The function is called `encrypt_passwo
+20260509_012929,code_review_v2,17,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,55,941,0.001661,4,llm_judge,I'll review these two middleware configurations and identify the issues:  ## 1. CORS Configuration  
+20260509_012929,code_review_v2,18,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,82,2735,0.004795,5,llm_judge,"The provided function has several bugs, security vulnerabilities, and design flaws. Below is a detai"
+20260509_012929,code_review_v2,19,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,108,2971,0.005217,4,llm_judge,"The provided function has several bugs, security concerns, and areas for improvement. Below is a det"
+20260509_012929,code_review_v2,20,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,71,1190,0.002101,5,llm_judge,This code has several issues that should be addressed:  ## Bugs and Issues  ### 1. **No Input Valida
+20260509_012929,code_review_v2,21,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,58,1543,0.002710,4,llm_judge,**Security Issues**  1. **Arbitrary Code Execution (Critical)**    - **What’s wrong**: `pickle.load`
+20260509_012929,code_review_v2,22,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,107,2157,0.003800,5,llm_judge,"The provided code has several bugs, security vulnerabilities, and areas for improvement. Below is a "
+20260509_012929,code_review_v2,23,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,82,551,0.000994,5,llm_judge,This code has several significant issues:  ## Critical Security Issues  ### 1. **No Authentication**
+20260509_012929,code_review_v2,24,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,65,1884,0.003306,4,llm_judge,"The provided code snippet has several bugs, security vulnerabilities, and areas for improvement. Bel"
+20260509_012929,code_review_v2,25,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,64,1896,0.003327,5,llm_judge,"The provided code has serious security and design flaws, even though it’s syntactically correct. Bel"
+20260509_012929,code_review_v2,26,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,63,2230,0.003908,4,llm_judge,The provided code snippet has several critical security vulnerabilities and reliability issues. Belo
+20260509_012929,code_review_v2,27,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,76,2288,0.004014,4,llm_judge,"The provided `authenticate` function is a JWT verification utility, but it has several subtle proble"
+20260509_012929,code_review_v2,28,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,79,1674,0.002947,4,llm_judge,The provided code has several issues ranging from missing imports to serious security vulnerabilitie
+20260509_012929,code_review_v2,29,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,82,1381,0.002439,5,llm_judge,"The code contains critical security and correctness issues. Below is a detailed breakdown, followed "
+20260509_012929,code_review_v2,30,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,96,1972,0.003473,5,llm_judge,"The provided `rate_limit` decorator has several bugs, design flaws, and potential security concerns."
+20260509_012929,code_review_v2,31,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,49,1066,0.001876,4,llm_judge,## Code Review: `deepClone` Function  ### Issues Found  #### 1. **Data Loss Bug - Unsupported Types*
+20260509_012929,code_review_v2,32,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,45,1781,0.003119,4,llm_judge,The provided function has several issues ranging from a missing import to poor error handling and po
+20260509_012929,code_review_v2,33,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,78,1914,0.003364,5,llm_judge,"The code has several issues related to performance, correctness, and robustness. Here’s a specific b"
+20260509_012929,code_review_v2,34,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,48,691,0.001223,5,llm_judge,"This code implements a simple password comparison, but it has several critical security issues and p"
+20260509_012929,code_review_v2,35,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,97,2862,0.005022,5,llm_judge,"The provided code snippet contains several bugs, potential security risks, and design flaws. Below i"
+20260509_012929,code_review_v2,36,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,86,1451,0.002562,5,llm_judge,**Bugs** 1. **Unhandled missing discount code**      - `discounts[code]` raises a `KeyError` if `cod
+20260509_012929,code_review_v2,37,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,103,2669,0.004689,5,llm_judge,The provided password reset endpoint has several critical bugs and security flaws. Below is a detail
+20260509_012929,code_review_v2,38,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,50,869,0.001534,5,llm_judge,This code has several issues that should be addressed:  ## 1. **Side Effect - Mutates Original Dicti
+20260509_012929,code_review_v2,39,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,52,1658,0.002908,5,llm_judge,The provided code is a classic example of an **extremely dangerous SQL injection vulnerability**. Be
+20260509_012929,code_review_v2,40,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,65,1673,0.002939,5,llm_judge,**Bugs** 1. **Missing import** – `threading` is not imported. This will raise a `NameError` at runti
+20260509_012929,code_review_v2,41,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,66,1937,0.003399,5,llm_judge,**Bugs**  1. **Incorrect character class due to improper escaping**      The string `'^https?:\/\/[^
+20260509_012929,code_review_v2,42,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,79,1231,0.002176,5,llm_judge,"This code snippet has several issues related to error handling, security, and functionality. Here's "
+20260509_012929,code_review_v2,43,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,58,2231,0.003907,5,llm_judge,"The provided function has several issues related to error handling, security, and robustness. Below "
+20260509_012929,code_review_v2,44,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,98,4563,0.007982,4,llm_judge,"The function has several bugs, security vulnerabilities, and areas for improvement. Below is a break"
+20260509_012929,code_review_v2,45,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,74,2013,0.003535,4,llm_judge,"**Bugs**  1. **Not thread-safe**      If multiple threads call `Singleton()` simultaneously, they ca"
+20260509_012929,code_review_v2,46,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,48,1900,0.003327,5,llm_judge,"**Bugs**  1. **No decimal formatting**      *What’s wrong*: `format_currency(10)` → `$10`, `format_c"
+20260509_012929,code_review_v2,47,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,83,1098,0.001947,5,llm_judge,"The provided health check endpoint has a critical flaw: it **always returns a success response**, ev"
+20260509_012929,code_review_v2,48,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,66,2065,0.003622,5,llm_judge,**Bugs**  1. **Missing `import json`**      The function uses `json.loads` but never imports the `js
+20260509_012929,code_review_v2,49,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,73,1976,0.003470,4,llm_judge,"The provided `withTimeout` function has a few issues that can lead to unexpected behavior, resource "
+20260509_012929,code_review_v2,0,MiniMax-M2.7,minimax,1.1,4.4,112,1126,0.005078,5,llm_judge,# Code Review: Critical Security Issues Found  ## 🚨 Critical Security Issues  ### 1. SQL Injection V
+20260509_012929,code_review_v2,1,MiniMax-M2.7,minimax,1.1,4.4,109,1258,0.005655,5,llm_judge,# Code Review: User Endpoint  ## Issues Identified  ### 🔴 Critical Security Issue: Password Exposure
+20260509_012929,code_review_v2,2,MiniMax-M2.7,minimax,1.1,4.4,107,1486,0.006656,4,llm_judge,# Code Review: `transfer_money` Function  ## Bugs  ### 1. Always Returns `True` (Logic Error) ```pyt
+20260509_012929,code_review_v2,3,MiniMax-M2.7,minimax,1.1,4.4,136,1570,0.007058,5,llm_judge,# Code Review: Payment Processing Function  ## Critical Security Issues  ### 1. **Card Number Logged
+20260509_012929,code_review_v2,4,MiniMax-M2.7,minimax,1.1,4.4,91,1131,0.005077,5,llm_judge,# Code Review: `get_user_file` Function  ## Critical Issues  ### 1. **Path Traversal Vulnerability (
+20260509_012929,code_review_v2,5,MiniMax-M2.7,minimax,1.1,4.4,96,1029,0.004633,5,llm_judge,# Code Review: `process_items()` Function  ## Critical Issues  ### 1. **No Error Handling** If `expe
+20260509_012929,code_review_v2,6,MiniMax-M2.7,minimax,1.1,4.4,117,1273,0.005730,5,llm_judge,# Code Review: `updateUser` Function  ## Issues Found  ### 1. **Critical: Missing `await`** (Bug) Th
+20260509_012929,code_review_v2,7,MiniMax-M2.7,minimax,1.1,4.4,96,1391,0.006226,5,llm_judge,# Code Review: `generate_token()`  ## Critical Issues  ### 1. **CRITICAL: Cryptographically Insecure
+20260509_012929,code_review_v2,8,MiniMax-M2.7,minimax,1.1,4.4,102,1627,0.007271,5,llm_judge,# Code Review: Webhook Endpoint  ## Overview This appears to be an Express.js webhook handler. While
+20260509_012929,code_review_v2,9,MiniMax-M2.7,minimax,1.1,4.4,122,1810,0.008098,4,llm_judge,# Code Review: `cache_user` Function  ## 1. Bugs  ### 1.1 Caching None for Non-Existent Users **Prob
+20260509_012929,code_review_v2,10,MiniMax-M2.7,minimax,1.1,4.4,94,967,0.004358,5,llm_judge,# Code Review: `fetchAll` Function  ## Issues Identified  ### 1. **No Error Handling (Critical)** If
+20260509_012929,code_review_v2,11,MiniMax-M2.7,minimax,1.1,4.4,131,1134,0.005134,5,llm_judge,# Code Review: `delete_account` Function  ## Critical Security Issues  ### 1. **SQL Injection Vulner
+20260509_012929,code_review_v2,12,MiniMax-M2.7,minimax,1.1,4.4,110,1739,0.007773,5,llm_judge,# Code Review: UserService  ## Critical Issues  ### 1. **SQL Injection Vulnerability (CRITICAL)** Th
+20260509_012929,code_review_v2,13,MiniMax-M2.7,minimax,1.1,4.4,90,1078,0.004842,5,llm_judge,The provided code is vulnerable to **Cross-Site Scripting (XSS)** because it directly inserts user i
+20260509_012929,code_review_v2,14,MiniMax-M2.7,minimax,1.1,4.4,67,839,0.003765,5,llm_judge,# Code Review: `parse_config` Function  ## Issues Identified  ### 🔴 Critical Security Issue: Unsafe 
+20260509_012929,code_review_v2,15,MiniMax-M2.7,minimax,1.1,4.4,96,1173,0.005267,5,llm_judge,# Code Review: `retry_request` Function  ## Issues Identified  ### 1. **Missing Import** ```python #
+20260509_012929,code_review_v2,16,MiniMax-M2.7,minimax,1.1,4.4,72,1103,0.004932,5,llm_judge,# Code Review: `encrypt_password` Function  ## Critical Security Issues  ### 1. **MD5 is Cryptograph
+20260509_012929,code_review_v2,17,MiniMax-M2.7,minimax,1.1,4.4,90,3307,0.014650,5,llm_judge,**Short answer**  ```js // ❌  Current code – insecure and easy to overload app.use(cors({ origin: '*
+20260509_012929,code_review_v2,18,MiniMax-M2.7,minimax,1.1,4.4,115,1151,0.005191,5,llm_judge,# Code Review: `log_action` Function  ## Bugs  ### 1. No Error Handling The function will crash if t
+20260509_012929,code_review_v2,19,MiniMax-M2.7,minimax,1.1,4.4,140,1357,0.006125,4,llm_judge,# Code Review: `getPrice` Function  ## Bugs  ### 1. No HTTP Error Handling ```javascript const res =
+20260509_012929,code_review_v2,20,MiniMax-M2.7,minimax,1.1,4.4,106,1160,0.005221,5,llm_judge,# Code Review: `validate_age` Function  ## Issues Identified  ### 1. **Unhandled `ValueError` from `
+20260509_012929,code_review_v2,21,MiniMax-M2.7,minimax,1.1,4.4,75,1016,0.004553,5,llm_judge,# Code Review: `load_model` Function  ## Critical Security Issues  ### 1. **Unsafe Deserialization v
+20260509_012929,code_review_v2,22,MiniMax-M2.7,minimax,1.1,4.4,139,1778,0.007976,5,llm_judge,"# Code Review: Email Sending Function  ## Summary This function has several bugs, security vulnerabi"
+20260509_012929,code_review_v2,23,MiniMax-M2.7,minimax,1.1,4.4,116,5577,0.024666,5,llm_judge,"Below is a line‑by‑line analysis of the `checkAdmin` middleware, followed by a concrete list of the "
+20260509_012929,code_review_v2,24,MiniMax-M2.7,minimax,1.1,4.4,98,1933,0.008613,5,llm_judge,# Code Review: `download_file` Function  ## Bugs  ### 1. No Exception Handling ```python # The code 
+20260509_012929,code_review_v2,25,MiniMax-M2.7,minimax,1.1,4.4,80,802,0.003617,5,llm_judge,# Security Review: Critical Issues Found  ## Critical Security Issues  ### 1. Hardcoded Credentials 
+20260509_012929,code_review_v2,26,MiniMax-M2.7,minimax,1.1,4.4,95,1294,0.005798,5,llm_judge,# Code Review: File Upload Handler  ## Issues Identified  ### 🔴 Critical Security Issues  | Issue | 
+20260509_012929,code_review_v2,27,MiniMax-M2.7,minimax,1.1,4.4,108,1607,0.007190,5,llm_judge,# Code Review: JWT Authentication Function  ## Overview This function verifies a JWT token and retur
+20260509_012929,code_review_v2,28,MiniMax-M2.7,minimax,1.1,4.4,112,1068,0.004822,4,llm_judge,# Code Review: `create_temp_file` Function  ## Issues Found  ### 1. Missing Imports (Bug) The functi
+20260509_012929,code_review_v2,29,MiniMax-M2.7,minimax,1.1,4.4,118,1811,0.008098,5,llm_judge,# Code Review: API Search Endpoint  ## Critical Issues  ### 1. **SQL Injection Vulnerability** (CRIT
+20260509_012929,code_review_v2,30,MiniMax-M2.7,minimax,1.1,4.4,113,1120,0.005052,4,llm_judge,# Code Review: Rate Limit Decorator  ## Bugs  ### 1. Missing Import The code uses `time.time()` but 
+20260509_012929,code_review_v2,31,MiniMax-M2.7,minimax,1.1,4.4,82,1474,0.006576,5,llm_judge,"# Code Review: `deepClone` Function  ## Summary This implementation works for simple, plain data str"
+20260509_012929,code_review_v2,32,MiniMax-M2.7,minimax,1.1,4.4,61,684,0.003077,5,llm_judge,# Code Review: `get_env` Function  ## Issues Identified  ### 1. **Missing Import** (Bug) `os` is use
+20260509_012929,code_review_v2,33,MiniMax-M2.7,minimax,1.1,4.4,111,1242,0.005587,5,llm_judge,# Code Review: `batchDelete` Function  ## Bugs  ### 1. **Not Actually Batching** This performs N dat
+20260509_012929,code_review_v2,34,MiniMax-M2.7,minimax,1.1,4.4,82,1028,0.004613,5,llm_judge,# Code Review: `compare_passwords`  ## Overview This function compares a stored password with a prov
+20260509_012929,code_review_v2,35,MiniMax-M2.7,minimax,1.1,4.4,110,1186,0.005339,5,llm_judge,# Code Review: FileWatcher Class  ## Issues Found  ### 🔴 Critical Bugs  **1. Infinite Loop with No E
+20260509_012929,code_review_v2,36,MiniMax-M2.7,minimax,1.1,4.4,117,1506,0.006755,5,llm_judge,# Code Review: `calculate_discount`  ## Bugs  ### 1. **KeyError on Invalid Code** ```python discount
+20260509_012929,code_review_v2,37,MiniMax-M2.7,minimax,1.1,4.4,137,1957,0.008762,5,llm_judge,# Code Review: Password Reset Endpoint  ## Critical Issues  ### 1. **Insecure Token Generation (CRIT
+20260509_012929,code_review_v2,38,MiniMax-M2.7,minimax,1.1,4.4,67,663,0.002991,5,llm_judge,# Code Review: `merge_dicts`  ## Issues Identified  ### 1. **Unexpected Mutation of Input (Semantic 
+20260509_012929,code_review_v2,39,MiniMax-M2.7,minimax,1.1,4.4,68,1104,0.004932,5,llm_judge,# Code Review: SQL Injection Vulnerability  ## Critical Security Issue: SQL Injection  The code is *
+20260509_012929,code_review_v2,40,MiniMax-M2.7,minimax,1.1,4.4,81,1681,0.007486,5,llm_judge,# Code Review: `background_task` Function  ## Issues Identified  ### 1. **Missing Import Statement**
+20260509_012929,code_review_v2,41,MiniMax-M2.7,minimax,1.1,4.4,100,1510,0.006754,4,llm_judge,# Code Review: URL Validation Function  ## Overview  The function attempts to validate URLs using a 
+20260509_012929,code_review_v2,42,MiniMax-M2.7,minimax,1.1,4.4,111,1514,0.006784,5,llm_judge,# Code Review: `upload_to_s3` Function  ## Bugs  ### 1. Undefined Variable `s3` The `s3` client is r
+20260509_012929,code_review_v2,43,MiniMax-M2.7,minimax,1.1,4.4,92,1463,0.006538,4,llm_judge,# Code Review: `getUser` Function  ## Summary This function makes a basic fetch request to retrieve 
+20260509_012929,code_review_v2,44,MiniMax-M2.7,minimax,1.1,4.4,126,1421,0.006391,5,llm_judge,# Code Review: `cleanup_old_files` Function  ## Bugs  ### 1. Missing Imports ```python # The code us
+20260509_012929,code_review_v2,45,MiniMax-M2.7,minimax,1.1,4.4,108,1531,0.006855,4,llm_judge,# Code Review: Singleton Implementation  ## Code Analyzed  ```python class Singleton:     _instance 
+20260509_012929,code_review_v2,46,MiniMax-M2.7,minimax,1.1,4.4,62,1306,0.005815,4,llm_judge,# Code Review: `format_currency` Function  ## Bugs  ### 1. **No Type Validation** ```python # Proble
+20260509_012929,code_review_v2,47,MiniMax-M2.7,minimax,1.1,4.4,99,926,0.004183,5,llm_judge,# Code Review: Health Check Endpoint  ## Issues Found  ### 1. **Critical Bug: False Positive Health 
+20260509_012929,code_review_v2,48,MiniMax-M2.7,minimax,1.1,4.4,98,1387,0.006211,5,llm_judge,# Code Review: JWT Parsing Function  ## Bugs & Issues Found  ### 1. **Critical Security Issue: No Si
+20260509_012929,code_review_v2,49,MiniMax-M2.7,minimax,1.1,4.4,107,1310,0.005882,4,llm_judge,# Code Review: `withTimeout` Function  ## Issues Identified  ### 1. **Memory Leak (Bug)** The `setTi
+20260509_012929,code_review_v2,0,o3,openai,2.0,8.0,96,1778,0.014416,5,llm_judge,Problems found ==============  1. SQL-injection vulnerability      The query string is built with an
+20260509_012929,code_review_v2,1,o3,openai,2.0,8.0,95,1406,0.011438,5,llm_judge,Problems found  1. Information leakage      • You explicitly return the password field (`password: u
+20260509_012929,code_review_v2,2,o3,openai,2.0,8.0,92,1724,0.013976,4,llm_judge,Problems found ==============  Functional bugs ---------------  1. Always returns True      • Even w
+20260509_012929,code_review_v2,3,o3,openai,2.0,8.0,105,1932,0.015666,5,llm_judge,Issues found ============  1. Sensitive data is written to the console      • The full primary-accou
+20260509_012929,code_review_v2,4,o3,openai,2.0,8.0,77,1696,0.013722,5,llm_judge,Problems in the current code =============================  1.  Directory-traversal vulnerability   
+20260509_012929,code_review_v2,5,o3,openai,2.0,8.0,65,1852,0.014946,5,llm_judge,"Problems found ==============  1. Missing input validation      • items can be None, a generator tha"
+20260509_012929,code_review_v2,6,o3,openai,2.0,8.0,86,1689,0.013684,5,llm_judge,Problems in the current implementation    1. Race / logic bug – the query is never awaited      • db
+20260509_012929,code_review_v2,7,o3,openai,2.0,8.0,64,1223,0.009912,5,llm_judge,"Problems  1. Non-secure RNG      • The function relies on the standard random module, whose underlyi"
+20260509_012929,code_review_v2,8,o3,openai,2.0,8.0,71,1561,0.012630,5,llm_judge,Problems in the current code ----------------------------- 1. Un-necessary / dangerous JSON.parse   
+20260509_012929,code_review_v2,9,o3,openai,2.0,8.0,90,1557,0.012636,5,llm_judge,"Problems found  1. Type mismatch / decoding      • redis-py 3.x/4.x returns bytes, but json.loads ex"
+20260509_012929,code_review_v2,10,o3,openai,2.0,8.0,80,1729,0.013992,5,llm_judge,Findings ========  1. Blocking / performance      • The requests are executed **sequentially** (`for
+20260509_012929,code_review_v2,11,o3,openai,2.0,8.0,100,1715,0.013920,5,llm_judge,Bugs / security vulnerabilities  1. SQL-injection      The SQL string is built with an f-string that
+20260509_012929,code_review_v2,12,o3,openai,2.0,8.0,80,1486,0.012048,4,llm_judge,Problems ======== 1. SQL-injection vulnerability      The query string is built with an f-string:   
+20260509_012929,code_review_v2,13,o3,openai,2.0,8.0,59,1269,0.010270,5,llm_judge,Problems found ==============  1. Cross-Site Scripting (XSS) vulnerability      • Whatever the calle
+20260509_012929,code_review_v2,14,o3,openai,2.0,8.0,53,1075,0.008706,5,llm_judge,Issues  1. Remote-code-execution vulnerability      • yaml.load() with no Loader argument will happi
+20260509_012929,code_review_v2,15,o3,openai,2.0,8.0,82,1714,0.013876,5,llm_judge,Problems found ==============  1. Missing imports      • `requests` and `time` are used but never im
+20260509_012929,code_review_v2,16,o3,openai,2.0,8.0,56,1522,0.012288,5,llm_judge,Problems found ==============  1. Cryptographically unsafe algorithm      • MD5 is obsolete.  It is 
+20260509_012929,code_review_v2,17,o3,openai,2.0,8.0,56,1880,0.015152,5,llm_judge,Problems found ==============  1. CORS is open to the entire Internet      app.use(cors({ origin: '*
+20260509_012929,code_review_v2,18,o3,openai,2.0,8.0,84,1947,0.015744,5,llm_judge,"Code under review    ``` def log_action(user, action, details):     log_entry = f'{user} performed {"
+20260509_012929,code_review_v2,19,o3,openai,2.0,8.0,109,1938,0.015722,5,llm_judge,Problem 1 – Missing error handling   • What is wrong: If the network request fails or the server ret
+20260509_012929,code_review_v2,20,o3,openai,2.0,8.0,73,1808,0.014610,5,llm_judge,Problems in the current implementation --------------------------------------- 1. Un-handled casting
+20260509_012929,code_review_v2,21,o3,openai,2.0,8.0,61,1122,0.009098,5,llm_judge,"Problems  1. Remote-code-execution vulnerability      • pickle is not a data format, it is a stream "
+20260509_012929,code_review_v2,22,o3,openai,2.0,8.0,103,2466,0.019934,5,llm_judge,Problems found ==============  1. Missing import      smtplib is used but never imported. The functi
+20260509_012929,code_review_v2,23,o3,openai,2.0,8.0,85,1533,0.012434,5,llm_judge,Problems found ==============  1. “Security-by-header” (critical)      • Anybody that can reach the 
+20260509_012929,code_review_v2,24,o3,openai,2.0,8.0,67,1881,0.015182,4,llm_judge,Problems found ==============  Functional bugs   1. Missing import. The function uses the `requests`
+20260509_012929,code_review_v2,25,o3,openai,2.0,8.0,65,1237,0.010026,5,llm_judge,Code Review   -----------    ``` class Config:     API_KEY = 'sk-prod-abc123xyz'     DB_PASSWORD = '
+20260509_012929,code_review_v2,26,o3,openai,2.0,8.0,63,1782,0.014382,5,llm_judge,Problems ======== 1. Path-traversal / arbitrary write      `file.filename` comes directly from the H
+20260509_012929,code_review_v2,27,o3,openai,2.0,8.0,76,1560,0.012632,4,llm_judge,Problems ========  1. Mis-used async      • The function is marked async but the body is completely 
+20260509_012929,code_review_v2,28,o3,openai,2.0,8.0,81,1165,0.009482,5,llm_judge,Problems found ==============  1. Missing imports      The function relies on os and json but never 
+20260509_012929,code_review_v2,29,o3,openai,2.0,8.0,84,1531,0.012416,5,llm_judge,Problems found ==============  1. SQL injection (critical)      • The user-supplied string q is conc
+20260509_012929,code_review_v2,30,o3,openai,2.0,8.0,99,1261,0.010286,5,llm_judge,Problems found   ---------------   1. Missing imports      • `time` is used but never imported.   2.
+20260509_012929,code_review_v2,31,o3,openai,2.0,8.0,51,1360,0.010982,5,llm_judge,"Issues  1. Loss of data types      • Functions, undefined, Symbol, BigInt, class instances, Maps, Se"
+20260509_012929,code_review_v2,32,o3,openai,2.0,8.0,47,1037,0.008390,5,llm_judge,Problems  1. Missing import – The function uses os but never imports it.   2. Un-handled KeyError – 
+20260509_012929,code_review_v2,33,o3,openai,2.0,8.0,80,1769,0.014312,5,llm_judge,Problems observed ───────────────── 1. Wrong result is returned      • The function says `deleted: i
+20260509_012929,code_review_v2,34,o3,openai,2.0,8.0,51,1611,0.012990,5,llm_judge,Problems ======== 1.  Plain-text password handling       • The function assumes that the value in st
+20260509_012929,code_review_v2,35,o3,openai,2.0,8.0,96,2106,0.017040,4,llm_judge,Problems found ==============  Functional / logical bugs   1. Missing imports ‑ the code uses `threa
+20260509_012929,code_review_v2,36,o3,openai,2.0,8.0,84,1499,0.012160,4,llm_judge,Issues found ============  1. KeyError on unknown codes      discounts[code] raises a KeyError if th
+20260509_012929,code_review_v2,37,o3,openai,2.0,8.0,104,1794,0.014560,5,llm_judge,Problems ======== 1. No input validation      – `req.body.email` is used without checking that it is
+20260509_012929,code_review_v2,38,o3,openai,2.0,8.0,53,1318,0.010650,5,llm_judge,Problems  1. In-place mutation      • `dict.update()` mutates the first argument.      • Callers tha
+20260509_012929,code_review_v2,39,o3,openai,2.0,8.0,54,1798,0.014492,5,llm_judge,Problems  1. SQL-injection bug      request.params.id is copied straight into the query string.     
+20260509_012929,code_review_v2,40,o3,openai,2.0,8.0,66,1325,0.010732,5,llm_judge,Problems found ==============  1. Missing imports / undefined symbols      • threading is never impo
+20260509_012929,code_review_v2,41,o3,openai,2.0,8.0,68,1378,0.011160,5,llm_judge,"Problems  1. Very weak validation      • `[^\s]+` means “anything except a white-space”, so the func"
+20260509_012929,code_review_v2,42,o3,openai,2.0,8.0,79,2039,0.016470,4,llm_judge,Issues found  1. Missing dependency / bad scoping      • The code relies on a variable called s3 tha
+20260509_012929,code_review_v2,43,o3,openai,2.0,8.0,61,1867,0.015058,5,llm_judge,"Problems found ==============  1. No error handling      • Network failures (offline, DNS, CORS, etc"
+20260509_012929,code_review_v2,44,o3,openai,2.0,8.0,93,1892,0.015322,5,llm_judge,Problems found ==============  1. Missing imports      ‑ The function uses os and time without impor
+20260509_012929,code_review_v2,45,o3,openai,2.0,8.0,77,1738,0.014058,5,llm_judge,"Below is a point-by-point review of the class, the problems it contains, why they matter, and concre"
+20260509_012929,code_review_v2,46,o3,openai,2.0,8.0,48,1308,0.010560,5,llm_judge,"Problems found ==============  1. Wrong numeric formatting      • 12   → ""$12"" (no decimals)      • "
+20260509_012929,code_review_v2,47,o3,openai,2.0,8.0,85,1376,0.011178,5,llm_judge,Problems found  1. Logical bug – success and failure are treated the same      • The catch-block ret
+20260509_012929,code_review_v2,48,o3,openai,2.0,8.0,66,1907,0.015388,5,llm_judge,Problems found ==============  Functional/logic bugs --------------------- 1. `json` is used but nev
+20260509_012929,code_review_v2,49,o3,openai,2.0,8.0,76,1553,0.012576,5,llm_judge,"Problems found ==============  1. Unnecessary async keyword      • The body never uses await, so the"

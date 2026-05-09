@@ -1,0 +1,13 @@
+{
+  "model": "o3",
+  "task": "code_review_v2",
+  "case": 41,
+  "response": "Problems\n\n1. Very weak validation  \n   \u2022 `[^\\s]+` means \u201canything except a white-space\u201d, so the function will accept  \n     http://\u2620/<script>alert(1)</script> or http:// as \u201cvalid\u201d.  \n   \u2022 International\u2010Domain-Name, IPv6, port, path, query, and fragment rules are\n     not checked.  \n   \u2022 Upper-case schemes (HTTP://) will be rejected.  \n\n2. Possible security issues if the result is used for access control, open\n   redirects, XSS filtering, etc.; an attacker can craft a string that passes\n   the test but is not a legal URL or points somewhere you did not intend.\n\n3. Wrong tool for the job  \n   A custom regex is error-prone; JavaScript already has URL parsing support\n   (WHATWG URL in all modern browsers and Node \u2265 10).\n\n4. Performance / style  \n   \u2022 The RegExp object is rebuilt on every call instead of being cached.  \n   \u2022 No type check: non-string input will throw.  \n   \u2022 Unnecessary use of the RegExp constructor\u2014`/\u2026/` literal is clearer.\n\nFix\n\nUse the built-in URL constructor and verify the parts you care about:\n\n```javascript\n// One-time compiled helper (can be placed in a util module)\nexport function isValidHttpUrl(value) {\n  if (typeof value !== 'string') return false;\n\n  try {\n    const url = new URL(value);\n    // Accept only http or https\n    return url.protocol === 'http:' || url.protocol === 'https:';\n  } catch {\n    return false;          // URL constructor threw => not a valid URL\n  }\n}\n```\n\nIf you really must use a regex, at least tighten it up and keep it outside\nthe function:\n\n```javascript\nconst HTTP_URL_RE = /^(https?):\\/\\/([a-z0-9-]+(\\.[a-z0-9-]+)+|localhost)(:\\d{1,5})?(\\/[^\\s]*)?$/i;\n\nfunction isValidURL(str) {\n  return typeof str === 'string' && HTTP_URL_RE.test(str);\n}\n```\n\nAdditional recommendations\n\n\u2022 Document exactly what \u201cvalid\u201d means (schema only? host? path?).  \n\u2022 Reject dangerous schemes (`javascript:`, `data:`, etc.) explicitly if the URL\n  is later embedded in HTML.  \n\u2022 Add unit tests that cover edge cases: punycode, IPv6, port numbers, spaces,\n  etc.",
+  "score": 5,
+  "cost": 0.01116,
+  "expected": "",
+  "tokens": {
+    "input": 68,
+    "output": 1378
+  }
+}
