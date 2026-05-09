@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "instruction_following",
   "case": 1,
-  "response": "A CPU fetches, decodes, and executes instructions from programs, performing calculations and coordinating data flow to control the computer's operations.",
-  "score": 2,
-  "cost": 0.00018705000000000002,
+  "response": "The CPU, or central processing unit, fetches, decodes, and executes instructions from programs, performing arithmetic and logical operations to process data and coordinate the activities of all other hardware components in a computer.",
+  "score": 1,
+  "cost": 0.00071775,
   "expected": "",
   "tokens": {
     "input": 14,
-    "output": 104
+    "output": 409
   }
 }

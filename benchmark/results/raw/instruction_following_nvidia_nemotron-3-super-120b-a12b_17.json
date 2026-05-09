@@ -2,7 +2,7 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "instruction_following",
   "case": 17,
-  "response": "Here is a balanced overview of 3 key pros and 3 key cons of remote work, presented in a clear table format:\n\n| **Pros of Remote Work**          | **Cons of Remote Work**          |\n| :------------------------------- | :------------------------------- |\n| **1. Increased Flexibility & Work-Life Balance**<br>Employees gain control over their schedules and environment, reducing commute time and allowing better integration of personal responsibilities (e.g., childcare, appointments). | **1. Communication & Collaboration Challenges**<br>Spontaneous interactions decrease; reliance on async tools can slow decision-making, cause misunderstandings, and hinder complex brainstorming",
+  "response": "Here is a concise table summarizing 3 key pros and 3 cons of remote work:\n\n| **Pros of Remote Work**          | **Cons of Remote Work**          |\n| :------------------------------- | :------------------------------- |\n| **Increased Flexibility & Autonomy**<br>(Control over schedule, environment, and location; eliminates commute time) | **Communication & Collaboration Challenges**<br>(Harder spontaneous interaction, reliance",
   "score": 4,
   "cost": 4.788e-05,
   "expected": "",

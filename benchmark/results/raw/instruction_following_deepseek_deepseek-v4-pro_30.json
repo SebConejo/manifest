@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "instruction_following",
   "case": 30,
-  "response": "Golden crust, molten mozzarella, tangy tomato sauce, crispy pepperoni, savory sausage, earthy mushrooms, sweet bell peppers, black olives, aromatic basil, red pepper flakes, gooey cheese pull, perfect slice, round perfection, hot oven-fresh aroma, satisfying crunch, rich flavor, classic comfort food.",
+  "response": "Crisp golden crust, rich tangy tomato sauce, molten mozzarella cheese, savory pepperoni slices, aromatic fresh basil, spicy red pepper flakes, glossy olive oil drizzle.",
   "score": 5,
-  "cost": 0.00037062,
+  "cost": 0.00031146,
   "expected": "",
   "tokens": {
     "input": 16,
-    "output": 209
+    "output": 175
   }
 }

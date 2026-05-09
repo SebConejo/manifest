@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "instruction_following",
   "case": 29,
-  "response": "DNA is the molecule that carries the hereditary instructions for building and maintaining an organism, encoded in a sequence of chemical bases. Its iconic double-helix structure allows it to be accurately copied and passed from one generation to the next.",
-  "score": 2,
-  "cost": 0.00016791000000000004,
+  "response": "DNA (deoxyribonucleic acid) is the molecule that carries the genetic instructions for the development, function, growth, and reproduction of all known organisms. It is structured as a double helix, with sequences of four chemical bases (adenine, thymine, cytosine, and guanine) encoding the information needed to build and maintain an organism.",
+  "score": 1,
+  "cost": 0.00039411,
   "expected": "",
   "tokens": {
     "input": 18,
-    "output": 92
+    "output": 222
   }
 }

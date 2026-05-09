@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "instruction_following",
   "case": 7,
-  "response": "Beat 2 eggs with a pinch of salt and pepper. Heat 1 tsp butter in a non\u2011stick pan over medium heat. Pour eggs, stir gently until soft curds form, about 2 minutes. Serve immediately.",
+  "response": "Crack 2 eggs into a bowl, whisk with pinch of salt and pepper. Heat butter in non\u2011stick pan over medium, pour eggs, stir gently until soft curds form, about 2 minutes. Serve warm.",
   "score": 5,
-  "cost": 3.2579999999999996e-05,
+  "cost": 6.299999999999999e-06,
   "expected": "",
   "tokens": {
-    "input": 33,
-    "output": 329
+    "input": 23,
+    "output": 47
   }
 }

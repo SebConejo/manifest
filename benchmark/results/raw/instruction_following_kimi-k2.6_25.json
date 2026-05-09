@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "instruction_following",
   "case": 25,
-  "response": "Meeting Invitation: [Topic] - [Date] at [Time]",
-  "score": 4,
-  "cost": 0.0022835999999999998,
+  "response": "Here are a few options under 10 words:\n\n**Meeting Invitation: [Topic] \u2013 [Date] at [Time]**  \n**Invitation: [Topic] Discussion on [Date]**  \n**Let's Meet: [Topic] \u2013 [Date/Time]**  \n**Meeting Request: [Topic] | [Date]**  \n\nSimply fill in your specific topic, date, and time.",
+  "score": 5,
+  "cost": 0.000702,
   "expected": "",
   "tokens": {
     "input": 22,
-    "output": 946
+    "output": 287
   }
 }

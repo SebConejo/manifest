@@ -2,7 +2,7 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "instruction_following",
   "case": 39,
-  "response": "**Q: What is a VPN and what does it primarily do?**  \nA: A VPN (Virtual Private Network) creates an encrypted, secure \"tunnel\" between your device and a VPN server. Its primary function is to encrypt all internet traffic traveling through this tunnel, hiding your online activities from third parties (like your ISP, hackers on public Wi-Fi, or network administrators) and masking your real IP address with the VPN server's IP.\n\n**Q: How does a VPN protect my privacy and security?**  \nA: By encrypting your data before it leaves your device, a VPN prevents eavesdroppers from reading your sensitive information (passwords, messages, browsing history). It also hides your true IP address and location from websites and online services, making it harder for them to track your physical location or build a detailed profile based on your IP.\n\n**Q: Why do people commonly use a VPN?**  \nA: Key uses include:  \n- Securing connections on",
+  "response": "**Q: What is the primary purpose of a VPN?**  \nA: A VPN (Virtual Private Network) creates a secure, encrypted connection (\"tunnel\") between your device and a remote server operated by the VPN service. This protects your internet traffic from being intercepted or monitored by third parties like hackers, ISPs, or governments on untrusted networks (e.g., public Wi-Fi).\n\n**Q: How does a VPN protect my data?**  \nA: It encrypts all data sent between your device and the VPN server. Even",
   "score": 4,
   "cost": 4.77e-05,
   "expected": "",

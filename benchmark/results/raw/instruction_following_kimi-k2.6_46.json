@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "instruction_following",
   "case": 46,
-  "response": "As I prepare to move on to my next chapter, I wanted to take a moment to express my sincere gratitude for the support, collaboration, and friendship you've all shown me during my time here. Working alongside such a talented and dedicated team has been one of the most rewarding experiences of my career, and I will truly miss our daily interactions and shared successes. I am deeply grateful for the opportunities to learn and grow here, and I hope our paths cross again in the future, whether professionally or personally. Please keep in touch\u2014I would love to hear how everyone continues to thrive and succeed. Thank you again for everything, and I wish you all the very best in your future endeavors.",
-  "score": 5,
-  "cost": 0.0009138,
+  "response": "Dear Team,\n\nAs I prepare to move on to my next chapter, I wanted to take a moment to say goodbye and thank you for the incredible support and camaraderie you've shown me over the years. Working alongside such talented and kind individuals has been the highlight of my time here, and I will truly miss our daily collaborations and conversations. I am grateful for everything I have learned from each of you and for the memories we have shared together. Please keep in touch\u2014I would love to hear how you're all doing, and you can reach me at my personal email. I wish you all continued success and happiness in your careers and beyond.\n\nBest,  \n[Your Name]",
+  "score": 3,
+  "cost": 0.0035681999999999997,
   "expected": "",
   "tokens": {
     "input": 19,
-    "output": 376
+    "output": 1482
   }
 }

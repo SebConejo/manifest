@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "instruction_following",
   "case": 22,
-  "response": "Dogs are widely known as loyal companions who bring joy to millions of households around the world. The loyal nature of these animals makes them excellent pets for families with children of all ages. Whether guarding the home or cuddling on the couch, a loyal dog always stays by your side through every season of life. Even in difficult circumstances, a loyal canine friend will never abandon the people they love and trust. Scientists believe that the loyal behavior of dogs stems from thousands of years of domestication alongside humans. No matter the breed or size, every loyal dog has the capacity to form deep, lasting bonds with its owners.",
-  "score": 4,
-  "cost": 0.0007985999999999999,
+  "response": "Dogs have earned their reputation as loyal companions through thousands of years of history by our side. A loyal dog will greet its owner with boundless enthusiasm every single day, no matter how long they have been apart. These loyal animals form deep emotional bonds with their families, often sensing moods and offering comfort during difficult times. Even when faced with danger, a loyal dog will bravely protect the people it loves without hesitation. Scientists believe that loyal dogs evolved alongside humans because of their unique ability to cooperate and communicate with us. Whether working as service animals or simply curling up at our feet, loyal dogs enrich our lives in countless meaningful ways. There is truly nothing quite like the devotion of a loyal dog who considers you its entire world.",
+  "score": 5,
+  "cost": 0.0015953999999999999,
   "expected": "",
   "tokens": {
     "input": 23,
-    "output": 327
+    "output": 659
   }
 }

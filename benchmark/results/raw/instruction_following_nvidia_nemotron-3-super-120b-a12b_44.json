@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "instruction_following",
   "case": 44,
-  "response": "- [ ] Lettuce (e.g., romaine, iceberg, or mixed greens)  \n- [ ] Tomato (cherry or sliced)  \n- [ ] Cucumber (sliced)  \n- [ ] Carrot (shredded or thinly sliced)  \n- [ ] Red onion (thinly sliced)  \n- [ ] Bell pepper (any color, sliced)  \n- [ ] Olive oil  \n- [ ] Vinegar or lemon juice (for dressing)  \n- [ ] Salt  \n- [ ] Black pepper  \n- [ ] Optional: croutons, nuts, seeds, or cheese (e.g., feta, parmesan)",
+  "response": "- [ ] Lettuce (or mixed greens)  \n- [ ] Tomato  \n- [ ] Cucumber  \n- [ ] Carrot (shredded or sliced)  \n- [ ] Red onion (thinly sliced)  \n- [ ] Olive oil  \n- [ ] Vinegar (e.g., balsamic or red wine)  \n- [ ] Salt  \n- [ ] Black pepper  \n- [ ] Optional: croutons, nuts, cheese, or protein (e.g., grilled chicken, chickpeas)",
   "score": 5,
-  "cost": 1.377e-05,
+  "cost": 1.1339999999999998e-05,
   "expected": "",
   "tokens": {
     "input": 18,
-    "output": 135
+    "output": 108
   }
 }

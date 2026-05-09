@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "instruction_following",
   "case": 14,
-  "response": "Stay hydrated in style with our sleek, BPA\u2011free stainless\u2011steel water bottle, featuring double\u2011wall vacuum insulation that keeps drinks cold for 24\u202fhours or hot for 12\u202fhours. Its leak\u2011proof lid, easy\u2011carry handle, and wide mouth make refilling, cleaning, and sipping effortless wherever your day takes you.",
-  "score": 5,
-  "cost": 1.3949999999999999e-05,
+  "response": "Stay hydrated in style with our sleek, BPA\u2011free stainless\u2011steel water bottle, featuring double\u2011wall vacuum insulation that keeps drinks cold for 24\u202fhours or hot for 12. The leak\u2011proof lid and ergonomic grip make it perfect for workouts, commutes, or outdoor adventures, while the wide mouth allows easy filling and cleaning. Choose from vibrant colors to match your personality and make every sip a refreshing statement.",
+  "score": 4,
+  "cost": 9.810000000000001e-06,
   "expected": "",
   "tokens": {
-    "input": 30,
-    "output": 125
+    "input": 21,
+    "output": 88
   }
 }

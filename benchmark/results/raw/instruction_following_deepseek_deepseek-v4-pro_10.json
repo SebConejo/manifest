@@ -1,0 +1,13 @@
+{
+  "model": "deepseek/deepseek-v4-pro",
+  "task": "instruction_following",
+  "case": 10,
+  "response": "There once was a programmer Dave,  \nWhose software would often misbehave.  \nHe\u2019d hammer the keys,  \nAnd pray on his knees,  \n\u201cPlease, oh please, just hit Save!\u201d",
+  "score": 5,
+  "cost": 0.01052613,
+  "expected": "",
+  "tokens": {
+    "input": 14,
+    "output": 6046
+  }
+}

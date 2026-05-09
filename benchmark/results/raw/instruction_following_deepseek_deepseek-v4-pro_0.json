@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "instruction_following",
   "case": 0,
-  "response": "- Improves cardiovascular health and reduces the risk of heart disease  \n- Boosts mental health by reducing symptoms of anxiety and depression  \n- Helps with weight management by increasing metabolism and burning calories",
+  "response": "- Improves cardiovascular health and reduces the risk of chronic diseases\n- Boosts mental health by reducing symptoms of anxiety and depression\n- Enhances muscle strength and endurance, supporting overall physical function",
   "score": 5,
-  "cost": 0.00018966,
+  "cost": 0.00020358,
   "expected": "",
   "tokens": {
     "input": 16,
-    "output": 105
+    "output": 113
   }
 }

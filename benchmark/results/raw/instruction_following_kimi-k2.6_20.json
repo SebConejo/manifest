@@ -1,0 +1,13 @@
+{
+  "model": "kimi-k2.6",
+  "task": "instruction_following",
+  "case": 20,
+  "response": "Photosynthesis: sunshine powers plants. Special pigments, photosystems seize solar photons. Sugars, starches synthesized. Such substances provide sustenance, support survival, stimulate proliferation. Species prosper. Photosynthesis preserves planetary systems.",
+  "score": 5,
+  "cost": 0.0079764,
+  "expected": "",
+  "tokens": {
+    "input": 22,
+    "output": 3318
+  }
+}

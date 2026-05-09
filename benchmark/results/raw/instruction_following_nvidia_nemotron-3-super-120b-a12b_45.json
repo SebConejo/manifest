@@ -2,8 +2,8 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "instruction_following",
   "case": 45,
-  "response": "**TCP vs. UDP \u2013 Overview**\n\nTransmission Control Protocol (TCP) and User Datagram Protocol (UDP) are the two core transport\u2011layer protocols in the Internet Protocol Suite. TCP provides reliable, ordered, and error\u2011checked delivery of a stream of bytes, making it suitable for applications where data integrity is critical (e.g., web browsing, email, file transfer). UDP, by contrast, is a lightweight, connectionless protocol that sends datagrams without guaranteeing delivery, ordering, or error recovery; it is favored for real\u2011time or loss\u2011tolerant applications such as video streaming, online gaming, and VoIP.\n\n**Comparison Table**\n\n| Feature | TCP | UDP |\n|---|---|---|\n| **Connection Model** | Connection\u2011oriented (handshake: SYN\u2011SYN/ACK\u2011ACK) | Connectionless (no handshake) |\n| **Reliability** | Reliable: acknowledgments, retransmissions, checksums | Unreliable: no ACK/retransmission; best\u2011effort |\n| **Ordering** |",
-  "score": 5,
+  "response": "",
+  "score": 1,
   "cost": 4.743e-05,
   "expected": "",
   "tokens": {

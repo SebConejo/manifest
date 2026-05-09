@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "instruction_following",
   "case": 5,
-  "response": "The sun slipped beneath the horizon's edge, suffusing the cloudscape from below with molten gold and amber. Streaks of tangerine and saffron unfurled across the broadening sky, dissolving upward into violet and indigo washes. The last light gilded the western-facing slopes, stretching their shadows long and slender across the cooling earth. High cirrus threads caught the fading radiance, glowing like filaments of heated copper against the deepening teal overhead. A hush settled over the landscape as the day exhaled its final warmth, leaving behind a soft, metallic afterglow that slowly tarnished into twilight. Crickets hesitated in the grass, awaiting the full permission of darkness, while the first stars pierced the dimming canopy\u2014silent witnesses to the day's retreat.",
+  "response": "The sun dips low, spreading amber and saffron across the underbelly of the clouds. Gilded edges melt into violet and deep plum, while the western sky blazes with tangerine light that softens to peach, then lavender. Molten gold spills over the water, turning each wave into liquid bronze. Near the rim of the world, coral hues deepen to rose and magenta before surrendering to indigo overhead, where the first stars prick through. The air cools; shadows lengthen into sharp silhouettes. Everything pauses in the hush between day and night\u2014the last honeyed light lingering like a held breath before darkness unfolds.",
   "score": 5,
-  "cost": 0.0038382,
+  "cost": 0.0016806,
   "expected": "",
   "tokens": {
     "input": 21,
-    "output": 1594
+    "output": 695
   }
 }

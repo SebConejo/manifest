@@ -2,7 +2,7 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "instruction_following",
   "case": 19,
-  "response": "We need to produce a tweet about AI, under 280 characters. No other constraints. Should be concise. Let's craft something like: \"AI is reshaping how we work, create, and solve problems \u2014 from art to medicine. Embrace the future responsibly. #AI #Innovation\". Count characters.\n\nLet's count: \"AI is reshaping how we work, create, and solve problems \u2014 from art to medicine. Embrace the future responsibly. #AI #Innovation\"\n\nCount characters including spaces.\n\nI'll count: \nA(1)I(2) space3 i4 s5 space6 r7 e8 s9 h10 a11 p12 i13 n14 g15 space16 h17 o18 w19 space20 w21 o22 r23 k24 ,25 space26 c27 r28 e29 a30 t31 e32 ,33 space34 a35 n36 d37 space38 s39 o40 l41 v42 e43 space44 p45 r46 o47 b48 l49 e50 m51 s52 \u2014 53 f54 r55 o56 m57 space58 a59 r60 t61 space62 t63 o64 space65 m66 e67 d68 i69 c70 i71 n72 e73 .74 space75 E76 m77 b78 r79 a80 c81 e82 space83 t84 h85 e86 space87 f88 u89 t90 u91 r92 e93 space94 r95 e96 s97 p98 o99 n100 s101 i102 b103 l104 y105 .106 space107 #108 A109 I110 space111 #112 I113 n114 n115 o116 v117 a118 t119 i120 o121 n12",
+  "response": "",
   "score": 1,
   "cost": 4.77e-05,
   "expected": "",

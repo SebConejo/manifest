@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "instruction_following",
   "case": 35,
-  "response": "The old lighthouse keeper woke to find the sea had turned silver overnight. He descended the spiral stairs, boots echoing against stone, and unbolted the heavy oak door. A vessel unlike any ship sat upon the shimmering water, its sails made of woven starlight. The keeper approached the shore, heart hammering a rhythm of fear and wonder. A figure emerged, extending a hand that glowed with the warmth of forgotten summers. He took it, and the lighthouse went dark for the first time in eighty years.",
+  "response": "The old lighthouse keeper climbed the spiral stairs for the last time, his arthritis protesting every step. Through the salt-crusted glass, he watched the storm swallow the horizon whole, waves rising like angry fists. When the generator sputtered and died, he struck a match with trembling hands and lit the backup oil lamp by memory alone. The beam cut through the darkness, sweeping across the heaving black water in its ancient rhythm. A distant horn answered\u2014a cargo ship, blind and searching\u2014adjusting its course by his solitary light. He sank into the worn wooden chair, knowing the automation crew would arrive at dawn, but tonight the coast was still his to save.",
   "score": 5,
-  "cost": 0.0009846,
+  "cost": 0.001035,
   "expected": "",
   "tokens": {
     "input": 17,
-    "output": 406
+    "output": 427
   }
 }

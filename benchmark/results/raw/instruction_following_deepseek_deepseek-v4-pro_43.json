@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "instruction_following",
   "case": 43,
-  "response": "Did you know that a day on Venus is longer than a year on Venus? Venus rotates so slowly on its axis that one full spin takes about 243 Earth days, while it only takes about 225 Earth days to orbit the Sun.",
+  "response": "Did you know that the footprints left by Apollo astronauts on the Moon will likely remain there for millions of years because the Moon has no atmosphere, wind, or rain to erode them?",
   "score": 5,
-  "cost": 0.000299715,
+  "cost": 0.000510255,
   "expected": "",
   "tokens": {
     "input": 21,
-    "output": 167
+    "output": 288
   }
 }

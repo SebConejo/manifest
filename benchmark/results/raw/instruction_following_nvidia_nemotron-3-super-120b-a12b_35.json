@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "instruction_following",
   "case": 35,
-  "response": "When the old lighthouse flickered back to life after a century of silence, the townsfolk gathered on the cliffs, hearts pounding with curiosity. Inside, they discovered a weathered journal belonging to the keeper, its pages filled with sketches of constellations that no longer matched the night sky. As they traced the lines, a soft hum rose from the lantern room, and the glass began to shimmer like liquid silver. The hum grew into a melody, and each note seemed to pull a memory from the sea \u2014 ships lost, lovers reunited, storms quelled. Realizing the lighthouse was not just a beacon but a conduit for forgotten stories, they vowed to protect its light and the tales it carried. From that",
-  "score": 4,
-  "cost": 4.7340000000000004e-05,
+  "response": "When the old lighthouse keeper retired, the sea whispered a promise to the cliffs.  \nHe left behind a rusted key and a notebook filled with sketches of constellations that never appeared on any map.  \nOn the first night after his departure, a storm rolled in, and the lantern flickered despite the absence of oil.  \nFrom the beam's trembling glow, a figure emerged \u2014 clad in salt\u2011stained wool, eyes like polished sea\u2011glass.  \nShe spoke in tides, telling him that the keeper's duty was not to light the shore but to listen to its stories.  \nWith a grateful nod, he took the key, unlocked the hidden chamber beneath the tower, and found the lighthouse's true heart beating in rhythm with the ocean.",
+  "score": 5,
+  "cost": 4.7069999999999995e-05,
   "expected": "",
   "tokens": {
     "input": 26,
-    "output": 500
+    "output": 497
   }
 }

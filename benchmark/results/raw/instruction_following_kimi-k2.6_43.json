@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "instruction_following",
   "case": 43,
-  "response": "Did you know that a single day on Venus is longer than its entire year? The planet takes about 243 Earth days to rotate once on its axis but only about 225 Earth days to complete one orbit around the Sun.",
+  "response": "Did you know that a single day on Venus is longer than its entire year? It takes Venus about 243 Earth days to complete one full rotation on its axis, but only 225 Earth days to orbit the Sun. Plus, it spins in the opposite direction of most planets, so the Sun rises in the west and sets in the east!",
   "score": 5,
-  "cost": 0.001392,
+  "cost": 0.001812,
   "expected": "",
   "tokens": {
     "input": 24,
-    "output": 574
+    "output": 749
   }
 }

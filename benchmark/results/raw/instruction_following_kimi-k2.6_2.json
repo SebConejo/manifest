@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "instruction_following",
   "case": 2,
-  "response": "Fingers strike the keys,\nLogic blooms in silent rows,\nScreen glows with new dawn.",
+  "response": "Coffee turns to code  \nDebugging through the midnight  \nCompiling my dreams",
   "score": 5,
-  "cost": 0.0037356,
+  "cost": 0.006034799999999999,
   "expected": "",
   "tokens": {
     "input": 14,
-    "output": 1553
+    "output": 2511
   }
 }

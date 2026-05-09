@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "instruction_following",
   "case": 1,
-  "response": "The CPU (Central Processing Unit) is the electronic brain of a computer that fetches instructions from memory, decodes them, and executes arithmetic, logical, and control operations to process data and coordinate all other hardware components.",
-  "score": 1,
-  "cost": 0.000603,
+  "response": "A central processing unit (CPU) executes program instructions by performing arithmetic, logic, and control operations to process data and coordinate all other computer hardware.",
+  "score": 5,
+  "cost": 0.0011022,
   "expected": "",
   "tokens": {
     "input": 17,
-    "output": 247
+    "output": 455
   }
 }

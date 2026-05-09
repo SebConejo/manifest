@@ -4,10 +4,10 @@
   "case": 38,
   "response": "Invalid username or password. Please try again.",
   "score": 5,
-  "cost": 0.00035496,
+  "cost": 0.00022967999999999998,
   "expected": "",
   "tokens": {
     "input": 20,
-    "output": 199
+    "output": 127
   }
 }

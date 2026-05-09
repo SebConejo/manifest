@@ -1,0 +1,13 @@
+{
+  "model": "kimi-k2.6",
+  "task": "instruction_following",
+  "case": 18,
+  "response": "It unfolds in a jungle settlement so remote that its founders once regarded a block of ice as the eighth wonder of the world. For generations, a single family presides over the town, locked in a spell of repeating names and circular fates: the Aurelianos and the Jos\u00e9 Arcadios doomed to reenact the solitude, ambition, and doomed love of their forebears until the bloodline grows confused with its own reflection.\n\nHere, the miraculous is treated as domestic routine. Ghosts linger in the parlor for decades, conversing with the living; a woman of impossible beauty ascends bodily toward heaven while folding bedsheets; and a trail of blood travels across cobblestones like a sentient river, navigating corners and climbing stairs to deliver news of death to a mother. Yet wonder curdles into tragedy. An insomnia plague erases memory until residents must label chairs and cows with their functions just to survive. Later, a foreign banana company arrives with promises of progress, only to leave behind a massacre that the outside world insists never happened.\n\nThe prose moves with the swollen, relentless rhythm of a flood season\u2014years passing in a sentence, then a single afternoon dilated across pages. By the end, the last living descendant deciphers a manuscript written in prophecies and ancient languages, and realizes, as the walls of reality finally crumble, that every joy, betrayal, and butterfly in the story was already inscribed before it began, and that the town\u2019s entire existence is being annihilated by a wind that erases memory itself.",
+  "score": 5,
+  "cost": 0.00483,
+  "expected": "",
+  "tokens": {
+    "input": 18,
+    "output": 2008
+  }
+}

@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "instruction_following",
   "case": 12,
-  "response": "An API is like a messenger that lets two different pieces of software talk to each other without needing to know how the other one works inside.\n\nImagine you\u2019re at a restaurant. You don\u2019t walk into the kitchen and cook your own meal. Instead, you tell the waiter what you want from the menu. The waiter takes your order to the kitchen, and then brings back your food. You never need to know how the kitchen is organized or how the chef prepares the dish \u2014 you just get what you asked for.\n\nAn API works the same way. One program (like a weather app on your phone) wants something from another program (like a big weather data service). The app \u201ctells\u201d the API what it needs (for example, \u201cgive me today\u2019s temperature for New York\u201d), and the API carries that request to the other system, then brings back the answer. The app doesn\u2019t have to understand the complicated inner workings of the weather service \u2014 it just uses the simple menu the API provides.\n\nSo, an API is basically a set of rules and a messenger that lets software ask for information or actions from other software in a predictable, easy way.",
+  "response": "Imagine you\u2019re sitting at a restaurant. You look at the menu and decide what you\u2019d like to eat, but you can\u2019t just walk into the kitchen and tell the chef yourself. Instead, a waiter comes to your table. You give the waiter your order, they take it to the kitchen, and then they bring the finished dish back to you.\n\nIn the world of apps and websites, an **API** is basically just that waiter. It\u2019s a messenger that lets one app ask another for something it needs\u2014like asking a weather app to send back today\u2019s forecast, or asking a maps app to show a location. The two apps don\u2019t need to know how the other one works inside (just like you don\u2019t need to know the kitchen\u2019s recipes). The API carries the request, delivers the answer, and keeps everything running smoothly without making a mess.",
   "score": 5,
-  "cost": 0.000863475,
+  "cost": 0.001242795,
   "expected": "",
   "tokens": {
     "input": 17,
-    "output": 492
+    "output": 710
   }
 }

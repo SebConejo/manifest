@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "instruction_following",
   "case": 18,
-  "response": "It opens in the simmering heat of a Long Island summer, where new money mansions drip with jazz and champagne, and across the water, a single green light pulses at the end of a dock. The narrator, a bond salesman from the Midwest, arrives next door to a mysterious millionaire who throws extravagant parties for strangers, yet never shows his face. As the story peels back layers of illusion, it reveals a man who reinvented himself from nothing to win back a lost love married to old-money arrogance. The prose is lyrical, brimming with longing and disillusionment \u2014 a meditation on the American Dream, the corrupting sheen of wealth, and the quiet tragedy of watching someone reach desperately for a future that is already past. In the end, the pool shimmers red, the summer fades, and a single sentence echoes: \u201cSo we beat on, boats against the current, borne back ceaselessly into the past.\u201d",
+  "response": "It\u2019s a story told through the eyes of a child, set in a sleepy Southern town where the heat hangs heavy and the social lines are drawn in generations-old ink. The narrator\u2019s father, a lawyer of quiet integrity, takes on a case that exposes the town\u2019s deepest prejudices\u2014defending a Black man falsely accused of a crime against a white woman. The trial becomes a lens through which innocence confronts injustice, and the child learns that courage isn\u2019t a man with a gun, but someone who fights a losing battle because it\u2019s the right thing to do. Woven through it all is the mystery of a reclusive neighbor, a figure of local legend who becomes a symbol of empathy\u2014the idea that you never really understand a person until you climb into their skin and walk around in it. The book is tender, fierce, and heartbreakingly human, a portrait of moral awakening in a world that often punishes goodness.",
   "score": 5,
-  "cost": 0.000589425,
+  "cost": 0.000552885,
   "expected": "",
   "tokens": {
     "input": 15,
-    "output": 335
+    "output": 314
   }
 }

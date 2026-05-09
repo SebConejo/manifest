@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "instruction_following",
   "case": 36,
-  "response": "- Java\n- C++\n- Rust\n- Go",
+  "response": "1. Java  \n2. C++  \n3. Rust  \n4. Go",
   "score": 5,
-  "cost": 0.000285795,
+  "cost": 0.000170955,
   "expected": "",
   "tokens": {
     "input": 17,
-    "output": 160
+    "output": 94
   }
 }

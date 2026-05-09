@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "instruction_following",
   "case": 28,
-  "response": "Your only limit is the story you keep telling yourself. Rewrite it.",
+  "response": "Your only limit is the one you set in your own mind.",
   "score": 3,
-  "cost": 0.00026621999999999995,
+  "cost": 0.00056376,
   "expected": "",
   "tokens": {
     "input": 20,
-    "output": 148
+    "output": 319
   }
 }

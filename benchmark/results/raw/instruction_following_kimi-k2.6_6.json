@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "instruction_following",
   "case": 6,
-  "response": "The ocean sparkles endlessly.",
+  "response": "The ocean stretches endlessly.",
   "score": 2,
-  "cost": 0.0032502,
+  "cost": 0.0009174,
   "expected": "",
   "tokens": {
     "input": 17,
-    "output": 1350
+    "output": 378
   }
 }

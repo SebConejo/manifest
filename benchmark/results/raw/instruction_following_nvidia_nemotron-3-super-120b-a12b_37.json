@@ -2,7 +2,7 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "instruction_following",
   "case": 37,
-  "response": "Chocolate tastes like **velvet melted into sunlight**\u2014rich and deep as shadowed forest soil, yet suddenly bright with a caramelized sweetness that lingers like honey on warm stone. It\u2019s not just sweet; it\u2019s a slow unfurling of earthy cocoa notes (dark, almost smoky) cradled by creamy sugar, with a whisper of vanilla or fruit hiding in the background, like a secret shared between old friends. The first touch on the tongue is firm, almost austere\u2014then it surrenders, coating everything in a smooth, resonant hum that feels less like eating and more like being wrapped in a quiet, profound comfort",
+  "response": "The taste of rich, high-quality chocolate is like **sitting beside a crackling campfire on a crisp autumn evening**.  \n\nFirst, the sweetness greets you like the initial burst of warmth from the flames\u2014immediate, inviting, and softly comforting, like honeyed marshmallows toasting just shy of burning. Then, as you settle deeper, the cocoa reveals its true character: deep, earthy, and slightly smoky, reminiscent of the glowing embers beneath the fire,",
   "score": 5,
   "cost": 4.77e-05,
   "expected": "",

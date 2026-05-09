@@ -1,0 +1,13 @@
+{
+  "model": "kimi-k2.6",
+  "task": "instruction_following",
+  "case": 30,
+  "response": "Golden crust. Gooey mozzarella. Thick tomato sauce. Spicy pepperoni rounds. Fresh basil. Warm dough. Circular flatbread. Savory aroma. Salty cheese. Brown bubbles. Red rounds. Green flecks. Olive oil sheen. Rustic beauty. Italian masterpiece. Comfort food. Chewy texture. Dark spots. Yeasty perfume. Crispy edges. Soft center. Hot slice. Oregano dust. Garlic notes. Wooden board. Ceramic plate. Stringy strands. Tangy brightness. Midnight craving. Pure joy.",
+  "score": 5,
+  "cost": 0.0062358000000000005,
+  "expected": "",
+  "tokens": {
+    "input": 21,
+    "output": 2593
+  }
+}

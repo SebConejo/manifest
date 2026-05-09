@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "instruction_following",
   "case": 21,
-  "response": "Start from the main entrance of Central Park, facing outward.\n\n- Turn left onto Maple Drive.\n- Turn right onto Oak Avenue.\n- Turn right onto Elm Street.\n- Turn left onto Library Lane.\n\nThe public library will be on your right.",
+  "response": "Start at the park\u2019s main entrance.  \nTurn right and follow the path until you reach the sidewalk along the street.  \nTurn right again and walk straight for two blocks.  \nTurn left at the next intersection.  \nContinue straight, and you\u2019ll see the library on your left just after the crosswalk.",
   "score": 5,
-  "cost": 0.000753855,
+  "cost": 0.000313635,
   "expected": "",
   "tokens": {
     "input": 21,
-    "output": 428
+    "output": 175
   }
 }

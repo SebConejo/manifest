@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "instruction_following",
   "case": 10,
-  "response": "There once was a coder named Dave,  \nWhose code was both clever and brave.  \nHe\u2019d debug through the night,  \nFix bugs left and right,  \nThen sleep while his scripts softly rave.",
-  "score": 5,
-  "cost": 1.1429999999999999e-05,
+  "response": "We need to output exactly as final answer is: Write a limerick? Actually we need to respond with a limerick? Actually we need to output JSON? No, just output the limerick? Actually we need to output: Write a limerick? Actually we need to output exactly that. No extra text.",
+  "score": 1,
+  "cost": 8.550000000000001e-06,
   "expected": "",
   "tokens": {
     "input": 27,
-    "output": 100
+    "output": 68
   }
 }

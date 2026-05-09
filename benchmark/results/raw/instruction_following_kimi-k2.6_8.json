@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "instruction_following",
   "case": 8,
-  "response": "Imagine a chain of magic boxes where each box holds a list of who shared their toys or snacks. Once a box is snapped onto the chain, nobody can open it to change the names inside, so everyone always agrees on what really happened.",
+  "response": "Imagine you and your friends all have the same special notebook. Every time someone trades a toy, you each write it down on a new page and clip it to a chain of old pages. Because everyone has the same locked book, nobody can erase it or tell a fib about what happened.",
   "score": 5,
-  "cost": 0.0028572,
+  "cost": 0.0020268,
   "expected": "",
   "tokens": {
     "input": 22,
-    "output": 1185
+    "output": 839
   }
 }

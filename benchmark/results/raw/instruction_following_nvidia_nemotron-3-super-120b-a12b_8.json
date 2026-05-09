@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "instruction_following",
   "case": 8,
-  "response": "Imagine you and your friends all have the same special notebook where you draw pictures together. If someone tries to change their drawing secretly, everyone else\u2019s notebook shows the real picture\u2014so no one can cheat! \ud83d\udd8d\ufe0f\u2728",
-  "score": 5,
-  "cost": 3.618e-05,
+  "response": "Okay, the user wants me to explain blockchain to a 5-year-old in just 2-3 sentences. That's a fun challenge.",
+  "score": 1,
+  "cost": 5.58e-06,
   "expected": "",
   "tokens": {
     "input": 32,
-    "output": 370
+    "output": 30
   }
 }

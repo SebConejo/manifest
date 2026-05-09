@@ -51001,3 +51001,153 @@ timestamp,task,case_idx,model,provider,input_price_per_m,output_price_per_m,inpu
 20260509_102244,function_calling,47,o3,openai,2.0,8.0,89,182,0.001634,5,llm_judge,"{""name"": ""create_cron"", ""arguments"": {""schedule"": ""0 0 * * *"", ""command"": ""cleanup_script"", ""name"": "
 20260509_102244,function_calling,48,o3,openai,2.0,8.0,102,947,0.007780,4,llm_judge,"{""name"": ""git_tag"", ""arguments"": {""name"": ""v3.0.0"", ""message"": ""Release v3.0.0""}}"
 20260509_102244,function_calling,49,o3,openai,2.0,8.0,92,111,0.001072,5,llm_judge,"{""name"": ""resize_instance"", ""arguments"": {""instance_id"": ""app-server-1"", ""new_type"": ""t3.large""}}"
+20260509_110353,instruction_following,0,kimi-k2.6,moonshot,0.6,2.4,19,182,0.000448,5,llm_judge,• Improves cardiovascular health and reduces the risk of heart disease.   • Boosts mental health by 
+20260509_110353,instruction_following,1,kimi-k2.6,moonshot,0.6,2.4,17,455,0.001102,5,llm_judge,"A central processing unit (CPU) executes program instructions by performing arithmetic, logic, and c"
+20260509_110353,instruction_following,2,kimi-k2.6,moonshot,0.6,2.4,14,2511,0.006035,5,llm_judge,Coffee turns to code   Debugging through the midnight   Compiling my dreams
+20260509_110353,instruction_following,3,kimi-k2.6,moonshot,0.6,2.4,20,221,0.000542,5,llm_judge,FRANCE GERMANY ITALY SPAIN POLAND
+20260509_110353,instruction_following,4,kimi-k2.6,moonshot,0.6,2.4,26,153,0.000383,5,llm_judge,1. French: Bonjour le monde 2. Spanish: Hola mundo 3. German: Hallo Welt
+20260509_110353,instruction_following,5,kimi-k2.6,moonshot,0.6,2.4,21,695,0.001681,5,llm_judge,"The sun dips low, spreading amber and saffron across the underbelly of the clouds. Gilded edges melt"
+20260509_110353,instruction_following,6,kimi-k2.6,moonshot,0.6,2.4,17,378,0.000917,2,llm_judge,The ocean stretches endlessly.
+20260509_110353,instruction_following,7,kimi-k2.6,moonshot,0.6,2.4,23,969,0.002339,4,llm_judge,"Crack 4 eggs into a bowl. Whisk with salt, pepper, and a splash of milk. Melt butter in a nonstick p"
+20260509_110353,instruction_following,8,kimi-k2.6,moonshot,0.6,2.4,22,839,0.002027,5,llm_judge,"Imagine you and your friends all have the same special notebook. Every time someone trades a toy, yo"
+20260509_110353,instruction_following,9,kimi-k2.6,moonshot,0.6,2.4,23,116,0.000292,5,llm_judge,April June September November
+20260509_110353,instruction_following,10,kimi-k2.6,moonshot,0.6,2.4,18,1020,0.002459,5,llm_judge,"There once was a programmer named Dave, Who thought himself terribly brave, He pushed straight to ma"
+20260509_110353,instruction_following,11,kimi-k2.6,moonshot,0.6,2.4,15,838,0.002020,5,llm_judge,Are you exploring the boundaries of how I can communicate? Would you prefer these questions to addre
+20260509_110353,instruction_following,12,kimi-k2.6,moonshot,0.6,2.4,20,1172,0.002825,5,llm_judge,"Imagine you go to a restaurant. You don’t walk into the kitchen and cook your own food. Instead, you"
+20260509_110353,instruction_following,13,kimi-k2.6,moonshot,0.6,2.4,18,190,0.000467,5,llm_judge,The 7 colors of the rainbow in order are:  1. Red 2. Orange 3. Yellow 4. Green 5. Blue 6. Indigo 7. 
+20260509_110353,instruction_following,14,kimi-k2.6,moonshot,0.6,2.4,21,320,0.000781,3,llm_judge,Keep your drinks ice-cold for 24 hours or steaming hot for 12 with this double-wall vacuum insulated
+20260509_110353,instruction_following,15,kimi-k2.6,moonshot,0.6,2.4,19,167,0.000412,5,llm_judge,Here are 4 words that rhyme with **cat**:  1. **Bat** 2. **Hat** 3. **Mat** 4. **Rat**
+20260509_110353,instruction_following,16,kimi-k2.6,moonshot,0.6,2.4,27,464,0.001130,5,llm_judge,"In simple terms, gravity is the invisible force that pulls objects toward each other. It is what kee"
+20260509_110353,instruction_following,17,kimi-k2.6,moonshot,0.6,2.4,23,480,0.001166,5,llm_judge,| Pros | Cons | |------|------| | **Increased flexibility** – Employees can often set their own sche
+20260509_110353,instruction_following,18,kimi-k2.6,moonshot,0.6,2.4,18,2008,0.004830,5,llm_judge,It unfolds in a jungle settlement so remote that its founders once regarded a block of ice as the ei
+20260509_110353,instruction_following,19,kimi-k2.6,moonshot,0.6,2.4,19,840,0.002027,5,llm_judge,AI won't replace you. But someone using AI might.   The most valuable skill isn't knowing all the an
+20260509_110353,instruction_following,20,kimi-k2.6,moonshot,0.6,2.4,22,3318,0.007976,5,llm_judge,"Photosynthesis: sunshine powers plants. Special pigments, photosystems seize solar photons. Sugars, "
+20260509_110353,instruction_following,21,kimi-k2.6,moonshot,0.6,2.4,24,644,0.001560,4,llm_judge,Here is a generic route using **only** left and right turns (since you did not specify which park an
+20260509_110353,instruction_following,22,kimi-k2.6,moonshot,0.6,2.4,23,659,0.001595,5,llm_judge,Dogs have earned their reputation as loyal companions through thousands of years of history by our s
+20260509_110353,instruction_following,23,kimi-k2.6,moonshot,0.6,2.4,21,184,0.000454,5,llm_judge,Apple; Banana; Cherry; Date; Elderberry
+20260509_110353,instruction_following,24,kimi-k2.6,moonshot,0.6,2.4,19,806,0.001946,1,llm_judge,"- On March 15, 2024, at approximately 2:30 PM, a silver 2020 Honda Accord driven by John Smith colli"
+20260509_110353,instruction_following,25,kimi-k2.6,moonshot,0.6,2.4,22,287,0.000702,5,llm_judge,Here are a few options under 10 words:  **Meeting Invitation: [Topic] – [Date] at [Time]**   **Invit
+20260509_110353,instruction_following,26,kimi-k2.6,moonshot,0.6,2.4,18,946,0.002281,5,llm_judge,"The water cycle, also known as the hydrologic cycle, is the continuous movement of water on, above, "
+20260509_110353,instruction_following,27,kimi-k2.6,moonshot,0.6,2.4,26,298,0.000731,4,llm_judge,**Mammals** - Elephant - Blue Whale - Kangaroo  **Birds** - Eagle - Penguin - Hummingbird  **Fish** 
+20260509_110353,instruction_following,28,kimi-k2.6,moonshot,0.6,2.4,23,2457,0.005911,4,llm_judge,The mountain ahead is never greater than the strength within you.
+20260509_110353,instruction_following,29,kimi-k2.6,moonshot,0.6,2.4,21,479,0.001162,2,llm_judge,DNA (deoxyribonucleic acid) is a molecule that stores the genetic instructions used for the developm
+20260509_110353,instruction_following,30,kimi-k2.6,moonshot,0.6,2.4,21,2593,0.006236,5,llm_judge,Golden crust. Gooey mozzarella. Thick tomato sauce. Spicy pepperoni rounds. Fresh basil. Warm dough.
+20260509_110353,instruction_following,31,kimi-k2.6,moonshot,0.6,2.4,18,473,0.001146,5,llm_judge,"2, 3, 5, 7, 11, 13, 17, 19, 23, 29"
+20260509_110353,instruction_following,32,kimi-k2.6,moonshot,0.6,2.4,24,764,0.001848,4,llm_judge,**The Clockwork Kitchen** ⭐⭐⭐⭐ (4/5)  Tucked away in a converted Victorian boiler house on the edge 
+20260509_110353,instruction_following,33,kimi-k2.6,moonshot,0.6,2.4,27,451,0.001099,5,llm_judge,"1. The Moon is tidally locked to Earth, meaning the same side always faces our planet, so we never s"
+20260509_110353,instruction_following,34,kimi-k2.6,moonshot,0.6,2.4,19,337,0.000820,2,llm_judge,A database index is a data structure that improves the speed of data retrieval by allowing the datab
+20260509_110353,instruction_following,35,kimi-k2.6,moonshot,0.6,2.4,17,427,0.001035,5,llm_judge,"The old lighthouse keeper climbed the spiral stairs for the last time, his arthritis protesting ever"
+20260509_110353,instruction_following,36,kimi-k2.6,moonshot,0.6,2.4,21,207,0.000509,5,llm_judge,Here are 4 programming languages:  1. **Java** 2. **C++** 3. **Rust** 4. **Go**
+20260509_110353,instruction_following,37,kimi-k2.6,moonshot,0.6,2.4,20,530,0.001284,5,llm_judge,"Tasting chocolate is like listening to a cello played in a candlelit room—deep, resonant notes of bi"
+20260509_110353,instruction_following,38,kimi-k2.6,moonshot,0.6,2.4,23,214,0.000527,5,llm_judge,Invalid username or password. Please try again.
+20260509_110353,instruction_following,39,kimi-k2.6,moonshot,0.6,2.4,20,1130,0.002724,4,llm_judge,**Q: What is a VPN?**   **A:** VPN stands for Virtual Private Network. It is a service that creates 
+20260509_110353,instruction_following,40,kimi-k2.6,moonshot,0.6,2.4,21,463,0.001124,5,llm_judge,Here are five capital cities from five different continents:  1. **Tokyo** – Japan (Asia) 2. **Cairo
+20260509_110353,instruction_following,41,kimi-k2.6,moonshot,0.6,2.4,21,2133,0.005132,5,llm_judge,"Here is a complete function with a **Google-style** docstring:  ```python def sort_items(items, key="
+20260509_110353,instruction_following,42,kimi-k2.6,moonshot,0.6,2.4,20,656,0.001586,5,llm_judge,"The storm arrives on a wall of bruise-purple clouds, swallowing the afternoon sun in a single greedy"
+20260509_110353,instruction_following,43,kimi-k2.6,moonshot,0.6,2.4,24,749,0.001812,5,llm_judge,Did you know that a single day on Venus is longer than its entire year? It takes Venus about 243 Ear
+20260509_110353,instruction_following,44,kimi-k2.6,moonshot,0.6,2.4,19,162,0.000400,5,llm_judge,"- [ ] Mixed greens or lettuce (romaine, iceberg, or spinach) - [ ] Cherry tomatoes or sliced tomato "
+20260509_110353,instruction_following,45,kimi-k2.6,moonshot,0.6,2.4,17,941,0.002269,5,llm_judge,TCP (Transmission Control Protocol) and UDP (User Datagram Protocol) are both core transport layer p
+20260509_110353,instruction_following,46,kimi-k2.6,moonshot,0.6,2.4,19,1482,0.003568,3,llm_judge,"Dear Team,  As I prepare to move on to my next chapter, I wanted to take a moment to say goodbye and"
+20260509_110353,instruction_following,47,kimi-k2.6,moonshot,0.6,2.4,18,882,0.002128,5,llm_judge,1. **Make it long.** Aim for at least 12–16 characters. Length is the single most important factor i
+20260509_110353,instruction_following,48,kimi-k2.6,moonshot,0.6,2.4,26,637,0.001544,5,llm_judge,"Romeo and Juliet, heirs to the feuding Montague and Capulet families, fall instantly in love at a ma"
+20260509_110353,instruction_following,49,kimi-k2.6,moonshot,0.6,2.4,26,255,0.000628,5,llm_judge,"**Formal:**   Good day. Welcome to our service. I am your virtual assistant, and I am here to help. "
+20260509_110353,instruction_following,0,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,16,113,0.000204,5,llm_judge,- Improves cardiovascular health and reduces the risk of chronic diseases - Boosts mental health by 
+20260509_110353,instruction_following,1,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,14,409,0.000718,1,llm_judge,"The CPU, or central processing unit, fetches, decodes, and executes instructions from programs, perf"
+20260509_110353,instruction_following,2,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,11,208,0.000367,5,llm_judge,"Code flows like a stream,   Bugs hide in the silent depths—   Logic brings them light."
+20260509_110353,instruction_following,3,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,17,97,0.000176,5,llm_judge,GERMANY FRANCE ITALY SPAIN POLAND
+20260509_110353,instruction_following,4,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,23,136,0.000247,5,llm_judge,1. French: Bonjour le monde   2. Spanish: Hola mundo   3. German: Hallo Welt
+20260509_110353,instruction_following,5,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,19,458,0.000805,5,llm_judge,"The day’s last light spills across the horizon like molten amber, bleeding into seams of tangerine a"
+20260509_110353,instruction_following,6,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,14,105,0.000189,2,llm_judge,Waves whisper ancient secrets.
+20260509_110353,instruction_following,7,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,20,63,0.000118,3,llm_judge,Whisk 2 eggs with a pinch of salt. Melt butter in a non-stick pan over medium-low heat. Pour in eggs
+20260509_110353,instruction_following,8,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,19,156,0.000280,5,llm_judge,"Imagine a special notebook that lots of friends share. Every time someone draws a new picture, it ge"
+20260509_110353,instruction_following,9,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,20,71,0.000132,5,llm_judge,"April, June, September, November"
+20260509_110353,instruction_following,10,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,14,6046,0.010526,5,llm_judge,"There once was a programmer Dave,   Whose software would often misbehave.   He’d hammer the keys,   "
+20260509_110353,instruction_following,11,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,12,268,0.000472,5,llm_judge,Is this how you'd like me to begin?   Are you testing my ability to follow instructions?   What kind
+20260509_110353,instruction_following,12,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,17,710,0.001243,5,llm_judge,"Imagine you’re sitting at a restaurant. You look at the menu and decide what you’d like to eat, but "
+20260509_110353,instruction_following,13,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,15,109,0.000196,5,llm_judge,The seven colors of the rainbow in order are:  1. Red   2. Orange   3. Yellow   4. Green   5. Blue  
+20260509_110353,instruction_following,14,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,18,152,0.000272,2,llm_judge,"Stay hydrated in style with our sleek, double-walled stainless steel water bottle that keeps drinks "
+20260509_110353,instruction_following,15,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,14,121,0.000217,5,llm_judge,"Here are four words that rhyme with ""cat"":  1. **Hat** 2. **Bat** 3. **Rat** 4. **Mat**"
+20260509_110353,instruction_following,16,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,24,177,0.000318,5,llm_judge,"In simple terms, gravity is the invisible force that pulls objects with mass toward each other. The "
+20260509_110353,instruction_following,17,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,20,259,0.000459,5,llm_judge,| **Pros** | **Cons** | |-----------|----------| | **Flexibility & Autonomy** – Employees can often 
+20260509_110353,instruction_following,18,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,15,314,0.000553,5,llm_judge,"It’s a story told through the eyes of a child, set in a sleepy Southern town where the heat hangs he"
+20260509_110353,instruction_following,19,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,16,2442,0.004256,5,llm_judge,"AI is like a toddler with a PhD: brilliant at some things, clueless about others. Handle with care. "
+20260509_110353,instruction_following,20,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,18,48,0.000091,5,llm_judge,"Sunlight strikes plant's small structures. Plant pulls soil's special solution, sips sky's spare par"
+20260509_110353,instruction_following,21,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,21,175,0.000314,5,llm_judge,Start at the park’s main entrance.   Turn right and follow the path until you reach the sidewalk alo
+20260509_110353,instruction_following,22,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,20,449,0.000790,4,llm_judge,Dogs are renowned as loyal companions that form deep bonds with their families. A loyal dog will fai
+20260509_110353,instruction_following,23,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,18,109,0.000197,5,llm_judge,apple;banana;cherry;date;elderberry
+20260509_110353,instruction_following,24,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,16,251,0.000444,2,llm_judge,"- **Date, Time, and Location:** The collision occurred on March 15, 2025, at approximately 3:45 PM a"
+20260509_110353,instruction_following,25,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,19,321,0.000567,4,llm_judge,Meeting Invitation: Let’s connect and align
+20260509_110353,instruction_following,26,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,15,663,0.001160,4,llm_judge,"The water cycle, also known as the hydrologic cycle, is the continuous movement of water on, above, "
+20260509_110353,instruction_following,27,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,23,115,0.000210,4,llm_judge,### Mammals - Elephant - Dolphin - Kangaroo  ### Birds - Eagle - Penguin - Hummingbird  ### Fish - S
+20260509_110353,instruction_following,28,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,20,319,0.000564,3,llm_judge,Your only limit is the one you set in your own mind.
+20260509_110353,instruction_following,29,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,18,222,0.000394,1,llm_judge,DNA (deoxyribonucleic acid) is the molecule that carries the genetic instructions for the developmen
+20260509_110353,instruction_following,30,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,16,175,0.000311,5,llm_judge,"Crisp golden crust, rich tangy tomato sauce, molten mozzarella cheese, savory pepperoni slices, arom"
+20260509_110353,instruction_following,31,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,15,110,0.000198,5,llm_judge,"2, 3, 5, 7, 11, 13, 17, 19, 23, 29"
+20260509_110353,instruction_following,32,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,21,1090,0.001906,5,llm_judge,"**The Gilded Acorn**   *Nestled in the heart of Eldergrove, a candlelit hideaway where the forest me"
+20260509_110353,instruction_following,33,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,24,161,0.000291,5,llm_judge,"1. The Moon is Earth's only natural satellite and is about one-quarter the diameter of Earth, making"
+20260509_110353,instruction_following,34,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,16,146,0.000261,2,llm_judge,A database index is a specialized data structure that enables the database engine to rapidly locate 
+20260509_110353,instruction_following,35,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,14,244,0.000431,5,llm_judge,"The old lighthouse keeper had not spoken a word in forty years, his silence a tribute to the wife wh"
+20260509_110353,instruction_following,36,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,17,94,0.000171,5,llm_judge,1. Java   2. C++   3. Rust   4. Go
+20260509_110353,instruction_following,37,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,17,132,0.000237,5,llm_judge,"Chocolate tastes like a velvet night wrapped around a secret—dark and smooth at first, then slowly u"
+20260509_110353,instruction_following,38,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,20,127,0.000230,5,llm_judge,Invalid username or password. Please try again.
+20260509_110353,instruction_following,39,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,17,827,0.001446,5,llm_judge,"**Q: What is a VPN?**   **A:** A VPN, or Virtual Private Network, is a service that creates a secure"
+20260509_110353,instruction_following,40,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,18,355,0.000626,5,llm_judge,"Here are five capital cities, each from a different continent:  1. **Cairo** – Africa (Egypt)   2. *"
+20260509_110353,instruction_following,41,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,18,970,0.001696,5,llm_judge,"```python def sort(iterable, key=None, reverse=False):     """"""     Sorts the elements of an iterable"
+20260509_110353,instruction_following,42,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,17,270,0.000477,5,llm_judge,"The sky bruised swiftly, a deep charcoal smothering the last pale glow of afternoon. A sudden, sharp"
+20260509_110353,instruction_following,43,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,21,288,0.000510,5,llm_judge,Did you know that the footprints left by Apollo astronauts on the Moon will likely remain there for 
+20260509_110353,instruction_following,44,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,16,342,0.000602,5,llm_judge,"- [ ] Lettuce (romaine, iceberg, or mixed greens) - [ ] Tomatoes (cherry or sliced) - [ ] Cucumber ("
+20260509_110353,instruction_following,45,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,14,823,0.001438,4,llm_judge,TCP (Transmission Control Protocol) and UDP (User Datagram Protocol) are the two most common transpo
+20260509_110353,instruction_following,46,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,16,649,0.001136,5,llm_judge,"Dear colleagues,  It is with mixed emotions that I write to let you know my last day will be [date]."
+20260509_110353,instruction_following,47,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,15,524,0.000918,5,llm_judge,A strong password is your first line of defense against unauthorized access. Follow these key steps 
+20260509_110353,instruction_following,48,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,23,230,0.000410,5,llm_judge,"In Verona, young Romeo Montague and Juliet Capulet fall in love despite their families' bitter feud."
+20260509_110353,instruction_following,49,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,22,174,0.000312,5,llm_judge,"Here are three chatbot greetings, each with a different tone:  **Formal**   ""Good day. I am your vir"
+20260509_110353,instruction_following,0,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,19,42,0.000005,5,llm_judge,"- Improves cardiovascular health and reduces risk of heart disease   - Enhances muscle strength, fle"
+20260509_110353,instruction_following,1,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,18,30,0.000004,2,llm_judge,"The CPU (central processing unit) executes program instructions by performing arithmetic, logic, and"
+20260509_110353,instruction_following,2,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,23,378,0.000036,5,llm_judge,Lines of code whisper   Logic dances in the night   Bugs fade at sunrise
+20260509_110353,instruction_following,3,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,20,17,0.000003,5,llm_judge,"FRANCE, GERMANY, ITALY, SPAIN, POLAND"
+20260509_110353,instruction_following,4,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,35,500,0.000048,1,llm_judge,
+20260509_110353,instruction_following,5,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,33,500,0.000048,5,llm_judge,"The sun dips below the horizon, not vanishing but *transforming*. Its light, no longer a direct beam"
+20260509_110353,instruction_following,6,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,17,7,0.000002,2,llm_judge,Waves whisper secrets endlessly.
+20260509_110353,instruction_following,7,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,23,47,0.000006,5,llm_judge,"Crack 2 eggs into a bowl, whisk with pinch of salt and pepper. Heat butter in non‑stick pan over med"
+20260509_110353,instruction_following,8,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,32,30,0.000006,1,llm_judge,"Okay, the user wants me to explain blockchain to a 5-year-old in just 2-3 sentences. That's a fun ch"
+20260509_110353,instruction_following,9,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,23,8,0.000003,5,llm_judge,April June September November
+20260509_110353,instruction_following,10,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,27,68,0.000009,1,llm_judge,We need to output exactly as final answer is: Write a limerick? Actually we need to respond with a l
+20260509_110353,instruction_following,11,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,25,423,0.000040,5,llm_judge,"Вы хотите, чтобы я задал уточняющие вопросы по вашему запросу? Какой именно ответ вы ожидаете от мен"
+20260509_110353,instruction_following,12,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,31,500,0.000048,1,llm_judge,
+20260509_110353,instruction_following,13,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,18,15,0.000003,5,llm_judge,"red, orange, yellow, green, blue, indigo, violet"
+20260509_110353,instruction_following,14,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,21,88,0.000010,4,llm_judge,"Stay hydrated in style with our sleek, BPA‑free stainless‑steel water bottle, featuring double‑wall "
+20260509_110353,instruction_following,15,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,28,339,0.000033,5,llm_judge,"Here are 4 perfect rhyming words for 'cat' (all sharing the ""-at"" ending sound):  1. **Hat**   2. **"
+20260509_110353,instruction_following,16,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,28,67,0.000009,5,llm_judge,"In simple terms, gravity is the force that pulls objects with mass toward each other, like the Earth"
+20260509_110353,instruction_following,17,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,32,500,0.000048,4,llm_judge,Here is a concise table summarizing 3 key pros and 3 cons of remote work:  | **Pros of Remote Work**
+20260509_110353,instruction_following,18,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,28,500,0.000048,1,llm_judge,
+20260509_110353,instruction_following,19,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,30,500,0.000048,1,llm_judge,
+20260509_110353,instruction_following,20,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,31,68,0.000009,1,llm_judge,We need to explain photosynthesis using only words that start with S or P. So each word must start w
+20260509_110353,instruction_following,21,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,33,21,0.000005,1,llm_judge,"Okay, the user: ""Give me directions from a library. Use only left and right turns."
+20260509_110353,instruction_following,22,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,23,88,0.000010,5,llm_judge,Dogs are known for being loyal friends who stand by their owners through thick and thin. Their loyal
+20260509_110353,instruction_following,23,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,21,11,0.000003,5,llm_judge,Apple; Banana; Cherry; Date; Elderberry
+20260509_110353,instruction_following,24,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,29,214,0.000022,5,llm_judge,"- Date, time, and location of the collision, including weather and road conditions.   - Details of v"
+20260509_110353,instruction_following,25,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,22,11,0.000003,3,llm_judge,Project Sync: Aligning Goals for Q4 Launch
+20260509_110353,instruction_following,26,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,28,500,0.000048,5,llm_judge,"The water cycle, also known as the hydrologic cycle, describes the continuous movement of water on, "
+20260509_110353,instruction_following,27,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,35,500,0.000048,4,llm_judge,Mammals   - Human   - Dog   - Blue Whale    Birds   - Bald Eagle   - Emperor Penguin   - Ruby-throat
+20260509_110353,instruction_following,28,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,34,115,0.000013,4,llm_judge,Believe in your journey; every step forward turns dreams into reality.
+20260509_110353,instruction_following,29,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,31,117,0.000013,1,llm_judge,DNA (deoxyribonucleic acid) is a double‑helix molecule that carries the genetic instructions used in
+20260509_110353,instruction_following,30,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,20,19,0.000004,5,llm_judge,Cheesy savory round thin‑crust pepperoni mozzarella tomato basil aromatic hot delicious pizza
+20260509_110353,instruction_following,31,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,18,20,0.000003,5,llm_judge,"2,3,5,7,11,13,17,19,23,29"
+20260509_110353,instruction_following,32,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,33,500,0.000048,4,llm_judge,## Sakura & Sol: Where Cherry Blossoms Meet the Andean Sun (A Review)  Tucked down a lantern-lit all
+20260509_110353,instruction_following,33,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,36,500,0.000048,5,llm_judge,"1. The Moon is tidally locked to Earth, meaning it rotates on its axis in the same time it takes to "
+20260509_110353,instruction_following,34,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,29,301,0.000030,4,llm_judge,A database index is a data structure that improves the speed of data retrieval operations on a table
+20260509_110353,instruction_following,35,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,26,497,0.000047,5,llm_judge,"When the old lighthouse keeper retired, the sea whispered a promise to the cliffs.   He left behind "
+20260509_110353,instruction_following,36,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,20,21,0.000004,5,llm_judge,1. Java   2. C++   3. Ruby   4. Go (Golang)
+20260509_110353,instruction_following,37,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,30,500,0.000048,5,llm_judge,"The taste of rich, high-quality chocolate is like **sitting beside a crackling campfire on a crisp a"
+20260509_110353,instruction_following,38,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,23,14,0.000003,3,llm_judge,Invalid username or password. Please try again or reset your password.
+20260509_110353,instruction_following,39,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,30,500,0.000048,4,llm_judge,"**Q: What is the primary purpose of a VPN?**   A: A VPN (Virtual Private Network) creates a secure, "
+20260509_110353,instruction_following,40,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,30,500,0.000048,1,llm_judge,
+20260509_110353,instruction_following,41,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,30,500,0.000048,4,llm_judge,"```python def sort_list(seq, key=None, reverse=False):     """"""Sort a sequence.      Args:         se"
+20260509_110353,instruction_following,42,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,30,500,0.000048,1,llm_judge,
+20260509_110353,instruction_following,43,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,24,37,0.000005,5,llm_judge,Did you know that a day on Venus (the time it takes to complete one full rotation) is longer than a 
+20260509_110353,instruction_following,44,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,18,108,0.000011,5,llm_judge,- [ ] Lettuce (or mixed greens)   - [ ] Tomato   - [ ] Cucumber   - [ ] Carrot (shredded or sliced) 
+20260509_110353,instruction_following,45,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,27,500,0.000047,1,llm_judge,
+20260509_110353,instruction_following,46,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,29,500,0.000048,1,llm_judge,
+20260509_110353,instruction_following,47,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,28,500,0.000048,1,llm_judge,"Okay, the user wants me to describe what makes a good password using numbered steps. This seems like"
+20260509_110353,instruction_following,48,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,27,128,0.000014,5,llm_judge,"Romeo Montague and Juliet Capulet, members of feuding families in Verona, fall instantly in love at "
+20260509_110353,instruction_following,49,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,26,54,0.000007,5,llm_judge,"**Formal:** Good day, how may I assist you today?   **Casual:** Hey there! What's up?   **Humorous:*"

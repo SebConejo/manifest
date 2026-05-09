@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "instruction_following",
   "case": 42,
-  "response": "The sky bruised from charcoal to a deep, ominous violet as the thunderstorm rolled in. A sudden, cool gust lashed against my skin, carrying the sharp, metallic tang of ozone mixed with the damp earth scent of impending rain. Then came the sound\u2014a low, guttural growl that swelled into a deafening crack, splitting the air so close I felt the vibration thrum through the soles of my feet.",
+  "response": "The sky bruised swiftly, a deep charcoal smothering the last pale glow of afternoon. A sudden, sharp gust pushed through the trees, carrying the cool, metallic tang of ozone and the dusty scent of rain hitting parched soil\u2014a promise of wet earth. Then came the first fat drops, heavy as coins, exploding against windows and skin, turning the world into a drum. In the distance, thunder began as a low, tectonic grumble, a sound felt in the chest before it cracked overhead with a splintering roar, while white veins of lightning flared brilliantly, bleaching the landscape into stark, momentary negatives. The air thickened with the smell of damp stone and the faint, sweet whisper of crushed grass, everything drenched and electric.",
   "score": 5,
-  "cost": 0.000268395,
+  "cost": 0.000477195,
   "expected": "",
   "tokens": {
     "input": 17,
-    "output": 150
+    "output": 270
   }
 }

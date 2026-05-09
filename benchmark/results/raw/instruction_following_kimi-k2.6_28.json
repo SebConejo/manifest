@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "instruction_following",
   "case": 28,
-  "response": "The courage to begin again is the spark that ignites every dream.",
+  "response": "The mountain ahead is never greater than the strength within you.",
   "score": 4,
-  "cost": 0.0031362000000000004,
+  "cost": 0.0059106,
   "expected": "",
   "tokens": {
     "input": 23,
-    "output": 1301
+    "output": 2457
   }
 }

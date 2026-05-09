@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "instruction_following",
   "case": 2,
-  "response": "Lines of code compile  \nDebugging night turns to dawn  \nSilent loops run free",
+  "response": "Lines of code whisper  \nLogic dances in the night  \nBugs fade at sunrise",
   "score": 5,
-  "cost": 1.863e-05,
+  "cost": 3.6089999999999995e-05,
   "expected": "",
   "tokens": {
     "input": 23,
-    "output": 184
+    "output": 378
   }
 }

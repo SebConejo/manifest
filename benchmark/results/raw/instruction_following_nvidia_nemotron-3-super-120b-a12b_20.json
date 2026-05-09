@@ -1,0 +1,13 @@
+{
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "task": "instruction_following",
+  "case": 20,
+  "response": "We need to explain photosynthesis using only words that start with S or P. So each word must start with either S or P. Must convey explanation. Need to be careful: only words that start with S or P. So we cannot use any other letters at start. Words like \"the\", \"and\", \"\u0421\u043f\u0430\u0441\u0438\u0431\u043e\"]",
+  "score": 1,
+  "cost": 8.91e-06,
+  "expected": "",
+  "tokens": {
+    "input": 31,
+    "output": 68
+  }
+}

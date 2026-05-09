@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "instruction_following",
   "case": 37,
-  "response": "Chocolate is a velvet symphony in the mouth\u2014an opening chord of deep, earthy shadow that resolves into creamy warmth, each bite melting like a dark sun dissolving into honeyed twilight, leaving a richness that lingers long after the final note has faded.",
+  "response": "Tasting chocolate is like listening to a cello played in a candlelit room\u2014deep, resonant notes of bitterness that vibrate through the chest, gradually swelling into a warm, honeyed melody that lingers long after the last sound has faded.",
   "score": 5,
-  "cost": 0.0026496,
+  "cost": 0.001284,
   "expected": "",
   "tokens": {
     "input": 20,
-    "output": 1099
+    "output": 530
   }
 }

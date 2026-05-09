@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "instruction_following",
   "case": 9,
-  "response": "April, June, September, November",
+  "response": "April\nJune\nSeptember\nNovember",
   "score": 5,
-  "cost": 1.044e-05,
+  "cost": 2.79e-06,
   "expected": "",
   "tokens": {
-    "input": 33,
-    "output": 83
+    "input": 23,
+    "output": 8
   }
 }

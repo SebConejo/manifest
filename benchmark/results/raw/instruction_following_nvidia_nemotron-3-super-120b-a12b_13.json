@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "instruction_following",
   "case": 13,
-  "response": "Red, Orange, Yellow, Green, Blue, Indigo, Violet  \n\n*(This sequence follows the traditional ROYGBIV acronym, representing the seven colors of the visible spectrum as defined by Isaac Newton in order of decreasing wavelength.)*",
+  "response": "red, orange, yellow, green, blue, indigo, violet",
   "score": 5,
-  "cost": 3.573e-05,
+  "cost": 2.97e-06,
   "expected": "",
   "tokens": {
-    "input": 27,
-    "output": 370
+    "input": 18,
+    "output": 15
   }
 }

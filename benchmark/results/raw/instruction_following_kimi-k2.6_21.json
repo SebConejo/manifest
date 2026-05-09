@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "instruction_following",
   "case": 21,
-  "response": "From the park\u2019s main exit:\n\n- Turn right onto Elm Street.\n- At the first intersection, turn left onto Birch Lane.\n- At the next corner, turn right onto Cedar Drive.\n- At the traffic light, turn left onto Spruce Way.\n- Turn right onto Library Road.\n- Turn left into the library entrance.",
-  "score": 5,
-  "cost": 0.0014927999999999999,
+  "response": "Here is a generic route using **only** left and right turns (since you did not specify which park and library):\n\n1. From the park\u2019s main exit, **turn right** onto Park Road.  \n2. At the first intersection, **turn left** onto Oak Street.  \n3. At the next corner, **turn right** onto 3rd Avenue.  \n4. At the stop sign, **turn left** onto Maple Drive.  \n5. At the following intersection, **turn right** onto Library Way.  \n6. At the library entrance, **turn left** into the parking lot.  \n\nYou have arrived.",
+  "score": 4,
+  "cost": 0.00156,
   "expected": "",
   "tokens": {
     "input": 24,
-    "output": 616
+    "output": 644
   }
 }

@@ -1,0 +1,13 @@
+{
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "task": "instruction_following",
+  "case": 30,
+  "response": "Cheesy savory round thin\u2011crust pepperoni mozzarella tomato basil aromatic hot delicious pizza",
+  "score": 5,
+  "cost": 3.51e-06,
+  "expected": "",
+  "tokens": {
+    "input": 20,
+    "output": 19
+  }
+}

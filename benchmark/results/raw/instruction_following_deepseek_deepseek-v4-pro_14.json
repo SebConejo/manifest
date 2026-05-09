@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "instruction_following",
   "case": 14,
-  "response": "Crafted from premium stainless steel with double-wall vacuum insulation, this bottle keeps your beverages icy cold for up to 24 hours and piping hot for 12. The leak-proof flip-top lid and wide mouth make sipping and cleaning effortless, while the sweat-free finish fits comfortably in your hand and most cup holders. Whether you\u2019re at the gym or on the trail, it\u2019s the perfect zero-waste companion to keep you hydrated all day long.",
-  "score": 3,
-  "cost": 0.00083259,
+  "response": "Stay hydrated in style with our sleek, double-walled stainless steel water bottle that keeps drinks icy cold for 24 hours or piping hot for 12. Its leakproof, vacuum-insulated design fits most cup holders and features a wide mouth for easy filling and cleaning. Crafted from durable, BPA-free materials, this bottle is your perfect eco-friendly companion for the gym, office, or trail.",
+  "score": 2,
+  "cost": 0.00027231,
   "expected": "",
   "tokens": {
     "input": 18,
-    "output": 474
+    "output": 152
   }
 }

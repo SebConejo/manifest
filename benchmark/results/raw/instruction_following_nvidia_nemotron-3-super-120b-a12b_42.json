@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "instruction_following",
   "case": 42,
-  "response": "A thunderstorm rolls in like a restless beast, its presence announced by a low, rumbling growl that vibrates through the ground and into your chest. The sky darkens to a bruised\u2011purple, and jagged bolts of lightning flash like white\u2011hot knives, briefly illuminating the world in stark, electric contrast. As the rain begins, it hammers the roof and pavement with a relentless, staccato patter that turns the air cool and slick, carrying the sharp, clean scent of ozone mixed with the earthy perfume of wet soil. Each thunderclap cracks overhead, a booming percussion that makes you feel the storm\u2019s power both heard and felt, while the occasional gust whips leaves and loose paper into a frantic dance, reminding you that the storm is as much a tactile experience as it is visual and auditory.",
-  "score": 5,
-  "cost": 2.052e-05,
+  "response": "",
+  "score": 1,
+  "cost": 4.77e-05,
   "expected": "",
   "tokens": {
     "input": 30,
-    "output": 198
+    "output": 500
   }
 }

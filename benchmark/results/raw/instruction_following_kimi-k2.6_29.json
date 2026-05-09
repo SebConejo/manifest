@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "instruction_following",
   "case": 29,
-  "response": "DNA, or deoxyribonucleic acid, is a molecule that carries the genetic instructions governing the development, functioning, and reproduction of all known living organisms. Composed of two strands twisted into a double helix, it uses sequences of four chemical bases to store biological information that is passed from parents to offspring and used to build proteins.",
-  "score": 1,
-  "cost": 0.0012917999999999998,
+  "response": "DNA (deoxyribonucleic acid) is a molecule that stores the genetic instructions used for the development, functioning, and reproduction of all living organisms. It consists of two long chains of nucleotides twisted into a double helix, with sequences of four chemical bases encoding hereditary information.",
+  "score": 2,
+  "cost": 0.0011621999999999997,
   "expected": "",
   "tokens": {
     "input": 21,
-    "output": 533
+    "output": 479
   }
 }

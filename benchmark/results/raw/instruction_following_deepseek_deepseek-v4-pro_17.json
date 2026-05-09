@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "instruction_following",
   "case": 17,
-  "response": "| Pros | Cons |\n|------|------|\n| Greater flexibility in schedule and work-life balance | Blurred boundaries between work and personal life, risking burnout |\n| No commuting saves time and money | Increased social isolation and less face-to-face collaboration |\n| Access to a wider, global talent pool for employers | Distractions at home and reliance on stable internet access |",
+  "response": "| **Pros** | **Cons** |\n|-----------|----------|\n| **Flexibility & Autonomy** \u2013 Employees can often set their own schedules, leading to better work-life balance and increased job satisfaction. | **Isolation & Loneliness** \u2013 Lack of in-person interaction can lead to feelings of disconnection from colleagues and the company culture. |\n| **No Commute** \u2013 Saves time and money, reduces stress, and lowers environmental impact. | **Blurred Boundaries** \u2013 It can be harder to \u201cswitch off\u201d from work, leading to longer hours and potential burnout. |\n| **Increased Productivity** \u2013 Many workers experience fewer office distractions and can create a personalized, focused work environment. | **Communication Challenges** \u2013 Reliance on digital tools can cause misunderstandings, delays, and a loss of spontaneous collaboration. |",
   "score": 5,
-  "cost": 0.00024011999999999997,
+  "cost": 0.00045936,
   "expected": "",
   "tokens": {
     "input": 20,
-    "output": 133
+    "output": 259
   }
 }

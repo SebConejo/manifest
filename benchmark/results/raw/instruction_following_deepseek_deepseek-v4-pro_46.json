@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "instruction_following",
   "case": 46,
-  "response": "I\u2019m writing to share that my time here is coming to a close, and I\u2019ll be moving on to a new opportunity.  \nI\u2019m so grateful for the collaboration, support, and camaraderie you\u2019ve shown me during my journey here.  \nWorking alongside such talented and dedicated people has made every challenge feel surmountable and every success feel truly shared.  \nI have no doubt that you\u2019ll continue to achieve great things, and I\u2019ll be cheering you on from the sidelines.  \nPlease don\u2019t hesitate to connect with me on LinkedIn\u2014I\u2019d love to stay in touch and see where your paths lead.",
+  "response": "Dear colleagues,\n\nIt is with mixed emotions that I write to let you know my last day will be [date]. Working alongside such a talented and supportive group has been a true privilege, and I am deeply grateful for the collaboration and laughter we\u2019ve shared. I\u2019ll always remember the way we rallied together during [project/challenge] as a highlight of my time here. While I\u2019m excited for my next chapter, I will genuinely miss each of you and hope we can stay in touch on LinkedIn. I wish you all continued success and happiness, and I\u2019m cheering you on from afar.",
   "score": 5,
-  "cost": 0.00048894,
+  "cost": 0.00113622,
   "expected": "",
   "tokens": {
     "input": 16,
-    "output": 277
+    "output": 649
   }
 }

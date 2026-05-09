@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "instruction_following",
   "case": 3,
-  "response": "FRANCE, GERMANY, ITALY, SPAIN, POLAND",
+  "response": "GERMANY\nFRANCE\nITALY\nSPAIN\nPOLAND",
   "score": 5,
-  "cost": 0.00024534,
+  "cost": 0.000176175,
   "expected": "",
   "tokens": {
-    "input": 96,
-    "output": 117
+    "input": 17,
+    "output": 97
   }
 }

@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "instruction_following",
   "case": 0,
-  "response": "* **Improved cardiovascular health** \u2013 Regular exercise strengthens the heart, improves circulation, and lowers blood pressure.\n* **Enhanced mental well-being** \u2013 Physical activity reduces stress, anxiety, and depression while boosting mood through endorphin release.\n* **Increased strength and endurance** \u2013 Exercise builds muscle mass, improves bone density, and enhances overall physical stamina.",
+  "response": "\u2022 Improves cardiovascular health and reduces the risk of heart disease.  \n\u2022 Boosts mental health by reducing stress, anxiety, and depression symptoms.  \n\u2022 Strengthens muscles and bones, improving overall physical function and mobility.",
   "score": 5,
-  "cost": 0.00045539999999999996,
+  "cost": 0.0004482,
   "expected": "",
   "tokens": {
     "input": 19,
-    "output": 185
+    "output": 182
   }
 }

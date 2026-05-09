@@ -4,10 +4,10 @@
   "case": 40,
   "response": "Here are five capital cities, each from a different continent:\n\n1. **Cairo** \u2013 Africa (Egypt)  \n2. **Tokyo** \u2013 Asia (Japan)  \n3. **Paris** \u2013 Europe (France)  \n4. **Washington, D.C.** \u2013 North America (United States)  \n5. **Bras\u00edlia** \u2013 South America (Brazil)",
   "score": 5,
-  "cost": 0.0007073100000000001,
+  "cost": 0.0006255300000000001,
   "expected": "",
   "tokens": {
     "input": 18,
-    "output": 402
+    "output": 355
   }
 }

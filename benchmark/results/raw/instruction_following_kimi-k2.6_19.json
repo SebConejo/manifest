@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "instruction_following",
   "case": 19,
-  "response": "We taught computers to think like us. Now we're learning to think with them. \n\nThe real plot twist? Human curiosity + machine speed beats either alone. \ud83e\udd16\u26a1\ufe0f",
+  "response": "AI won't replace you. But someone using AI might. \n\nThe most valuable skill isn't knowing all the answers\u2014it's asking better questions than the machine. \ud83e\udde0\ud83e\udd16",
   "score": 5,
-  "cost": 0.0029081999999999997,
+  "cost": 0.0020274,
   "expected": "",
   "tokens": {
     "input": 19,
-    "output": 1207
+    "output": 840
   }
 }

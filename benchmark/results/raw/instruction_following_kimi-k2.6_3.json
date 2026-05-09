@@ -4,10 +4,10 @@
   "case": 3,
   "response": "FRANCE\nGERMANY\nITALY\nSPAIN\nPOLAND",
   "score": 5,
-  "cost": 0.0005807999999999999,
+  "cost": 0.0005424,
   "expected": "",
   "tokens": {
     "input": 20,
-    "output": 237
+    "output": 221
   }
 }

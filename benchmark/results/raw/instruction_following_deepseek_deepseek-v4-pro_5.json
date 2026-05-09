@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "instruction_following",
   "case": 5,
-  "response": "The sky unraveled in layers of tangerine and molten gold, as if the day had poured its last warmth into a slow, honeyed exhale. Near the horizon, a seam of amber bled into lavender, then deepened to a bruised plum where the first stars dared to blink. Clouds drifted like embers, their edges gilded with copper light, while the sun\u2014a drowsy, yolk-heavy orb\u2014sank until it was just a sliver of liquid citrus melting into the darkening seam between earth and sky. The air cooled, carrying the scent of dry grass and distant water, and for a moment the whole world seemed suspended in that quiet burnish, neither day nor night, but a threshold of smoldering color.",
+  "response": "The day\u2019s last light spills across the horizon like molten amber, bleeding into seams of tangerine and crushed violet. A slow blaze softens the sky\u2014streaks of salmon and apricot smear themselves thin against a deepening canvas of indigo and slate. The sun, no longer a sharp coin but a drowsy ember, sinks through layers of haze, draping the clouds in filaments of rose gold and lavender smoke. Shadows stretch and yawn while the air cools, carrying the faint, metallic tang of evening. High above, a flush of coral deepens into plum, and the whole arc of the world settles into a quiet hush, as if holding its breath before the stars arrive.",
   "score": 5,
-  "cost": 0.0006712049999999999,
+  "cost": 0.0008051849999999999,
   "expected": "",
   "tokens": {
     "input": 19,
-    "output": 381
+    "output": 458
   }
 }

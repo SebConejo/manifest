@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "instruction_following",
   "case": 47,
-  "response": "1. **Make it long.** Aim for at least 12\u201316 characters. Each additional character exponentially increases the time and computing power required to crack it.\n\n2. **Mix character types.** Combine uppercase and lowercase letters, numbers, and special symbols (e.g., `!`, `@`, `#`). This expands the pool of possible combinations a hacker must try.\n\n3. **Avoid predictable information.** Do not use names, birthdays, pet names, keyboard patterns (like `qwerty` or `123456`), or common dictionary words.\n\n4. **Use a passphrase.** Consider stringing together four or more random, unrelated words (e.g., `Correct-Horse-Battery-Staple!`) or a memorable sentence. This creates length and complexity while remaining easier to recall than random gibberish.\n\n5. **Skip simple substitutions.** Replacing letters with look-alike numbers (like `P@ssw0rd`) is a common pattern that modern cracking tools recognize easily.\n\n6. **Make it unique.** Never reuse a password across multiple accounts. If one service is breached, a unique password prevents attackers from accessing your other accounts.\n\n7. **Use a password manager.** Generate and store complex, unique passwords automatically so you are not relying on memory or tempted to reuse credentials.\n\n8. **Enable multi-factor authentication (MFA).** While not part of the password itself, MFA adds a critical second layer of defense that keeps your account secure even if the password is compromised.",
+  "response": "1. **Make it long.** Aim for at least 12\u201316 characters. Length is the single most important factor in making a password difficult to crack.\n2. **Use a mix of character types.** Combine uppercase letters, lowercase letters, numbers, and special symbols (e.g., !, @, #, $) to increase complexity.\n3. **Avoid personal information.** Never use names, birthdays, pet names, addresses, or hobbies that someone could guess or find on social media.\n4. **Don't use common words or predictable patterns.** Avoid dictionary words, keyboard sequences (like \"qwerty\" or \"123456\"), and simple letter-to-number substitutions (like \"P@ssw0rd\").\n5. **Make it unique.** Use a different password for every account. Reusing passwords means one data breach can compromise multiple accounts.\n6. **Consider using a passphrase.** A random string of four or more unrelated words (e.g., \"Dolphin-Brick-Tango-Window\") is often easier to remember and harder to crack than a short, complex password.\n7. **Use a password manager.** Since strong passwords are hard to remember, a reputable password manager can generate, store, and auto-fill unique passwords for all your accounts securely.\n8. **Enable multi-factor authentication (MFA).** Even a strong password can be stolen, so add a second layer of security\u2014such as a code from an app or a hardware key\u2014wherever possible.",
   "score": 5,
-  "cost": 0.0023196,
+  "cost": 0.0021276,
   "expected": "",
   "tokens": {
     "input": 18,
-    "output": 962
+    "output": 882
   }
 }

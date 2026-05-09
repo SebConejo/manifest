@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "instruction_following",
   "case": 21,
-  "response": "I can't provide specific left/right turn directions without knowing the **exact starting park and destination library**, as real-world navigation depends entirely on geographic context (street layouts, one-way roads, obstacles, etc.). Giving fabricated turns would be misleading and potentially unsafe.\n\nTo get accurate directions using only left/right turns:\n1.  **Use a mapping app** (Google Maps, Apple Maps, etc.).\n2.  **Enter your specific park** as the starting point.\n3.  **Enter the specific library** as the destination.\n4.  **Before starting navigation**, check the route details. Most apps list turns as \"Turn left onto [Street]\" or \"Turn right onto [Street]\". You can follow *only* those instructions, ignoring distance or \"continue straight\" prompts if you prefer (though \"continue straight\" is often necessary for accuracy).\n\n**If you provide the names of the park and library (or a city/neighborhood), I can help describe *how* to find the turn-by-turn instructions in a mapping app using only left/right cues.** For example:  \n*\"In Google Maps, after entering your start and end, look at the step-by-step list. Each step will say either 'Turn left' or 'Turn right' followed by a street name. Follow those exact phrases.\"*  \n\nPlease share the specific locations for further assistance!",
+  "response": "Okay, the user: \"Give me directions from a library. Use only left and right turns.",
   "score": 1,
-  "cost": 4.662e-05,
+  "cost": 4.859999999999999e-06,
   "expected": "",
   "tokens": {
     "input": 33,
-    "output": 485
+    "output": 21
   }
 }

@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "instruction_following",
   "case": 13,
-  "response": "The seven colors of the rainbow, in order, are:\n\n1. Red\n2. Orange\n3. Yellow\n4. Green\n5. Blue\n6. Indigo\n7. Violet",
+  "response": "The seven colors of the rainbow in order are:\n\n1. Red  \n2. Orange  \n3. Yellow  \n4. Green  \n5. Blue  \n6. Indigo  \n7. Violet",
   "score": 5,
-  "cost": 0.000161385,
+  "cost": 0.000196185,
   "expected": "",
   "tokens": {
     "input": 15,
-    "output": 89
+    "output": 109
   }
 }

@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "instruction_following",
   "case": 48,
-  "response": "In Verona, the feuding Montagues and Capulets are torn apart when Romeo Montague and Juliet Capulet fall in love at a ball. They secretly marry, but after Romeo kills Juliet\u2019s cousin Tybalt in a duel, he is banished. To avoid a forced marriage, Juliet fakes her death with a potion. Romeo, unaware of the plan, believes she is truly dead and poisons himself at her tomb. Juliet awakens, finds him dead, and stabs herself. Their tragic deaths finally reconcile their families.",
+  "response": "In Verona, young Romeo Montague and Juliet Capulet fall in love despite their families' bitter feud. They secretly marry, but after Romeo kills Juliet's cousin Tybalt in a duel, he is banished. To avoid a forced marriage, Juliet takes a sleeping potion, feigning death. Romeo, unaware of the plan, finds her seemingly dead and poisons himself. Juliet awakens, sees Romeo dead, and stabs herself. Their tragic deaths finally reconcile the feuding families.",
   "score": 5,
-  "cost": 0.000445005,
+  "cost": 0.00041020499999999997,
   "expected": "",
   "tokens": {
     "input": 23,
-    "output": 250
+    "output": 230
   }
 }

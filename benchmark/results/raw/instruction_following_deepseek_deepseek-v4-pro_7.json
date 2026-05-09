@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "instruction_following",
   "case": 7,
-  "response": "Whisk eggs with salt, pepper, and a splash of milk. Melt butter in a nonstick pan over medium-low heat. Pour in eggs, stir gently with a spatula until softly set and creamy. Remove from heat just before fully set. Serve immediately.",
-  "score": 5,
-  "cost": 0.0007917,
+  "response": "Whisk 2 eggs with a pinch of salt. Melt butter in a non-stick pan over medium-low heat. Pour in eggs, stirring gently with a spatula. When soft curds form and eggs are slightly runny, remove from heat. The residual warmth will finish cooking them. Serve immediately.",
+  "score": 3,
+  "cost": 0.00011832,
   "expected": "",
   "tokens": {
     "input": 20,
-    "output": 450
+    "output": 63
   }
 }

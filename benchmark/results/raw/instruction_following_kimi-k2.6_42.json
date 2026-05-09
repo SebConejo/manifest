@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "instruction_following",
   "case": 42,
-  "response": "The storm arrives with a suddenness that makes the air feel charged and heavy. Slate-gray clouds swallow the afternoon sun whole, and the first flash of lightning fractures the sky into jagged, blinding white veins\u2014so bright it imprints itself behind your eyelids. A moment later, the thunder rolls, a deep, guttural growl that starts distant and builds to a bone-shaking crack, vibrating through your chest and rattling the windowpanes. Rain follows, pounding against the roof in a relentless drumbeat, while the wind lashes your face with cool, stinging droplets. Between gusts, you catch the sharp, clean smell of ozone and the fresh, green scent of petrichor rising from the pavement as the storm washes the world clean.",
+  "response": "The storm arrives on a wall of bruise-purple clouds, swallowing the afternoon sun in a single greedy gulp. A jagged vein of lightning fractures the sky, and seconds later the thunder rolls\u2014a deep, bone-shaking growl that builds until it vibrates in your chest like a runaway freight train. The air shifts suddenly, charged with sharp, metallic ozone that prickles at the back of your throat, mixing with the rich, loamy scent of rain striking hot asphalt. Then the sky tears open. Drops fall heavy and cold, stinging exposed skin like thrown gravel, while the wind shoves against the trees in violent gusts, turning leaves silver-side-out in rolling waves. Between deafening claps of thunder, the temperature plummets, leaving gooseflesh on your arms as the rain drums against rooftops in a frenzied percussion that drowns out all thought.",
   "score": 5,
-  "cost": 0.0014208,
+  "cost": 0.0015864,
   "expected": "",
   "tokens": {
     "input": 20,
-    "output": 587
+    "output": 656
   }
 }

@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "instruction_following",
   "case": 27,
-  "response": "### Mammals\n- Human\n- Dog\n- Blue Whale\n\n### Birds\n- House Sparrow\n- Bald Eagle\n- Emperor Penguin\n\n### Fish\n- Atlantic Salmon\n- Ocellaris Clownfish\n- Great White Shark",
+  "response": "Mammals  \n- Human  \n- Dog  \n- Blue Whale  \n\nBirds  \n- Bald Eagle  \n- Emperor Penguin  \n- Ruby-throated Hummingbird  \n\nFish",
   "score": 4,
-  "cost": 6.84e-06,
+  "cost": 4.815e-05,
   "expected": "",
   "tokens": {
-    "input": 26,
-    "output": 50
+    "input": 35,
+    "output": 500
   }
 }

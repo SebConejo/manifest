@@ -2,8 +2,8 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "instruction_following",
   "case": 18,
-  "response": "My favorite book unfolds in a small, slow-paced Southern town during the 1930s, seen through the wide-eyed innocence of a young girl and her brother. Their summers are filled with imaginative games, daring adventures, and a deep fascination with a reclusive neighbor shrouded in local gossip. Yet beneath the childhood wonder lies a profound moral crisis: their father, a principled lawyer, takes on a case defending a Black man falsely accused of a grave crime, exposing the family to the town\u2019s simmering prejudice and hatred.  \n\nWhat moves me most is how the story balances warmth and humor with unflinching honesty about injustice. It captures the fragile transition from childhood naivety to a harder awareness of the world\u2019s complexities\u2014where courage isn\u2019t loud heroism but quiet integrity in the face of overwhelming odds. The narrative lingers in the spaces between words: in the weight of a shared silence, the sting of a whispered",
-  "score": 5,
+  "response": "",
+  "score": 1,
   "cost": 4.7520000000000006e-05,
   "expected": "",
   "tokens": {

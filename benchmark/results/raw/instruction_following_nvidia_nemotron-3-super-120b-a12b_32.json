@@ -1,0 +1,13 @@
+{
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "task": "instruction_following",
+  "case": 32,
+  "response": "## Sakura & Sol: Where Cherry Blossoms Meet the Andean Sun (A Review)\n\nTucked down a lantern-lit alley in the fictional city of Lumina, Sakura & Sol doesn\u2019t just serve food \u2013 it orchestrates a quiet revolution on the plate. Forget sterile fusion concepts; this is a place where the delicate precision of Kyoto kaiseki collides with the fiery, earthy soul of Lima\u2019s *criollo* kitchens, guided by the enigmatic Chef Hana Tanaka-Wong (a third-generation Nikkei Peruvian-Japanese chef whose pedigree is whispered about in foodie circles).\n\nFrom the moment you step inside, the ambiance wraps around you: warm *molle* wood tables contrast with stark white walls adorned with delicate *sumi-e* ink paintings of hummingbirds hovering over *aj\u00ed amarillo",
+  "score": 4,
+  "cost": 4.7969999999999996e-05,
+  "expected": "",
+  "tokens": {
+    "input": 33,
+    "output": 500
+  }
+}

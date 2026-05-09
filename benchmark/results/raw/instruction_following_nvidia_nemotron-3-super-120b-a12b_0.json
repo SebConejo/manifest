@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "instruction_following",
   "case": 0,
-  "response": "- Improves cardiovascular health and reduces risk of heart disease  \n- Enhances muscle strength, flexibility, and joint mobility  \n- Boosts mood and reduces symptoms of anxiety and depression through endorphin release",
+  "response": "- Improves cardiovascular health and reduces risk of heart disease  \n- Enhances muscle strength, flexibility, and joint mobility  \n- Boosts mood and mental well\u2011being by releasing endorphins and reducing stress",
   "score": 5,
-  "cost": 1.0979999999999998e-05,
+  "cost": 5.49e-06,
   "expected": "",
   "tokens": {
-    "input": 28,
-    "output": 94
+    "input": 19,
+    "output": 42
   }
 }

@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "instruction_following",
   "case": 12,
-  "response": "An API is like a helpful messenger that lets two different things talk to each other without them needing to know all the details about how the other works.\n\nImagine you\u2019re at a coffee shop. You don\u2019t go into the kitchen to make your drink yourself; instead, you tell the barista what you want, and they take care of the rest\u2014grinding the beans, steaming the milk, and handing you the finished cup. The barista\u2019s job is to understand your request, do the work behind the scenes, and give you back exactly what you asked for.\n\nIn the same way, an API sits between two programs (or a program and a service). One program says, \u201cI need this piece of information or this action done,\u201d and the API carries that request to the other program, which does the work and then sends back the result. The first program doesn\u2019t have to worry about how the other program stores its data or how it performs its tasks\u2014it just relies on the API to handle the communication smoothly. \n\nSo, an API is simply a set of agreed\u2011upon ways for one thing to ask another thing for help and get a reply, letting them work together while each stays focused on its own job.",
-  "score": 5,
-  "cost": 3.411e-05,
+  "response": "",
+  "score": 1,
+  "cost": 4.779e-05,
   "expected": "",
   "tokens": {
     "input": 31,
-    "output": 348
+    "output": 500
   }
 }

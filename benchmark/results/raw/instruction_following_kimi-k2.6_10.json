@@ -1,0 +1,13 @@
+{
+  "model": "kimi-k2.6",
+  "task": "instruction_following",
+  "case": 10,
+  "response": "There once was a programmer named Dave,\nWho thought himself terribly brave,\nHe pushed straight to main,\nCausing production pain,\nAnd got fired the very next wave.",
+  "score": 5,
+  "cost": 0.0024588,
+  "expected": "",
+  "tokens": {
+    "input": 18,
+    "output": 1020
+  }
+}

@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "instruction_following",
   "case": 12,
-  "response": "Imagine you walk into a restaurant and sit down. You can\u2019t go into the kitchen and cook your own food. Instead, the restaurant gives you a menu showing exactly what you can ask for. When you pick something, you tell the waiter. The waiter carries your request to the kitchen, and when the food is ready, the waiter brings it back to your table.\n\nAn API is like that waiter and menu combined. It is the go-between that lets one thing ask another thing for something specific, and get exactly what it asked for, without either one needing to see how the other works on the inside.\n\nHere is a real example. Say you have a weather app on your phone. That app does not own thermometers or fly balloons into the sky. A weather company does. Your app uses an API\u2014the \u201cwaiter\u201d\u2014to ask that company for today\u2019s forecast. The company sends the information back through the API, and your app shows you the temperature and the little sun icon. Your app never steps into the weather company\u2019s kitchen, and the weather company never touches your phone. They just use the API to pass the information back and forth safely and neatly.",
-  "score": 4,
-  "cost": 0.003708,
+  "response": "Imagine you go to a restaurant. You don\u2019t walk into the kitchen and cook your own food. Instead, you look at a menu and tell the waiter what you want. The waiter carries your order to the kitchen, then brings your meal back to you when it\u2019s ready.\n\nAn API is like that waiter. It is a messenger that carries messages back and forth between two different computer programs.\n\nHere is a real example. When you look at the weather on your phone, your phone does not know if it is raining. It sends a message\u2014through an API\u2014to the weather company that keeps track of temperatures and storms. The API asks, \u201cIs it raining there right now?\u201d Then it carries the answer back to your phone so the screen can show you a little rain cloud.\n\nAnother example: when you book a taxi on your phone, the driver needs to know where you are. Your phone uses an API to ask a map company for the address. The API brings that answer back so the driver knows where to pick you up.\n\nSo, an API is simply a helpful go-between. It lets different phone or computer programs talk to each other and share what they know, without you having to do all the work yourself.",
+  "score": 5,
+  "cost": 0.0028247999999999997,
   "expected": "",
   "tokens": {
     "input": 20,
-    "output": 1540
+    "output": 1172
   }
 }

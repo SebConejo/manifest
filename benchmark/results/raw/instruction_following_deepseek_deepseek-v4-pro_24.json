@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "instruction_following",
   "case": 24,
-  "response": "- **Incident Details:** Date, time, and precise location of the collision, along with weather, road conditions, and visibility at the scene.\n- **Parties & Vehicles Involved:** Names, contact information, driver\u2019s license numbers, insurance details, and vehicle descriptions (make, model, year, license plate) for all drivers, plus any passengers or witnesses.\n- **Narrative & Diagram:** A factual, chronological account of events leading up to the crash, point of impact, damages sustained, injuries reported, and a sketch showing vehicle positions, traffic controls, and relevant landmarks.",
+  "response": "- **Date, Time, and Location:** The collision occurred on March 15, 2025, at approximately 3:45 PM at the intersection of Oak Street and 7th Avenue, under clear weather and dry road conditions.\n- **Vehicles Involved:** Vehicle 1, a blue 2022 Honda Civic (License: ABC-1234), was traveling westbound; Vehicle 2, a white 2019 Ford F-150 (License: XYZ-5678), was making a left turn from eastbound Oak Street onto southbound 7th Avenue.\n- **Accident Summary:** Vehicle 2 failed to yield the right-of-way while turning left, causing Vehicle 1 to strike its passenger-side rear quarter panel; no injuries were reported, but both vehicles sustained moderate damage and were driven from the scene after information exchange.",
   "score": 2,
-  "cost": 0.00036017999999999993,
+  "cost": 0.0004437,
   "expected": "",
   "tokens": {
     "input": 16,
-    "output": 203
+    "output": 251
   }
 }

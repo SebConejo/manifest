@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "instruction_following",
   "case": 35,
-  "response": "The old lighthouse keeper had not seen a ship in twenty years, yet every night he climbed the spiral stairs to light the great lamp. His beard was white, his hands trembled, but the ritual was as steady as the tide. One dawn, a small boat appeared on the horizon, carrying a young woman who claimed the sea had spoken her name in a dream. She handed him a letter, water-stained and yellow, written in his own hand from a youth he barely remembered. It spoke of a promise to guide someone home, and he realized the light had not been for strangers\u2014it had been for her. They sat together on the rocks, watching the waves erase the last trace of her wake, while the keeper finally let the tower go dark.",
+  "response": "The old lighthouse keeper had not spoken a word in forty years, his silence a tribute to the wife who drowned on the jagged rocks below. One storm-thrashed night, a frantic knocking splintered his solitude; a young woman, shipwrecked and shivering, stumbled in with a terrified child clinging to her neck. Without thinking, he guided them to the hearth, wrapped them in dusty blankets, and brewed tea with hands that remembered the rituals of care. As the child\u2019s sobs quieted, the woman whispered her thanks, and her voice unlocked a rusted chamber in his chest. He parted his dry lips and, with a sound like stones grinding, told them the tide would turn by dawn. When the first light gilded the calm sea, he watched them safely row to shore and found the ancient weight on his tongue had softened into salt.",
   "score": 5,
-  "cost": 0.00040803,
+  "cost": 0.00043065,
   "expected": "",
   "tokens": {
     "input": 14,
-    "output": 231
+    "output": 244
   }
 }
