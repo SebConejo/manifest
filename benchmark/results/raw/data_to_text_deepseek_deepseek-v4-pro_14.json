@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "data_to_text",
   "case": 14,
-  "response": "Team Alpha's Sprint #23 ran from January 15 to 26, with a plan of 42 points and a completion of 38 points, slightly above their average velocity of 36. The team delivered 8 stories and fixed 5 bugs, while encountering 2 blockers, and earned a satisfaction score of 4.1 out of 5.",
+  "response": "Team Alpha\u2019s Sprint #23 ran from January 15 to 26, planning 42 points and completing 38\u2014slightly above their 36-point velocity average. The team delivered 8 stories, fixed 5 bugs, and encountered 2 blockers, earning a satisfaction score of 4.1 out of 5.",
   "score": 5,
-  "cost": 0.000423255,
+  "cost": 0.00048415499999999995,
   "expected": "",
   "tokens": {
     "input": 93,
-    "output": 220
+    "output": 255
   }
 }

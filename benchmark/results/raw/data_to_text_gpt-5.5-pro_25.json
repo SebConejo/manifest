@@ -1,0 +1,13 @@
+{
+  "model": "gpt-5.5-pro",
+  "task": "data_to_text",
+  "case": 25,
+  "response": "Japan has a population of 125 million and a GDP of $4.2 trillion, with GDP growth at 1.1%. The country\u2019s unemployment rate is 2.6%, inflation is 3.2%, debt stands at 263% of GDP, life expectancy is 84.6 years, and exports total $756 billion.",
+  "score": 5,
+  "cost": 0.00426,
+  "expected": "",
+  "tokens": {
+    "input": 104,
+    "output": 187
+  }
+}

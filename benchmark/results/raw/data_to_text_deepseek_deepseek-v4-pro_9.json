@@ -1,0 +1,13 @@
+{
+  "model": "deepseek/deepseek-v4-pro",
+  "task": "data_to_text",
+  "case": 9,
+  "response": "Japan, a nation of 125 million people, boasts a GDP of $4.2 trillion with modest economic growth at 1.1%, while maintaining low unemployment at 2.6% and managing 3.2% inflation. The country carries a substantial public debt burden equivalent to 263% of GDP, yet enjoys one of the world's highest life expectancies at 84.6 years and a robust export sector valued at $756 billion.",
+  "score": 5,
+  "cost": 0.000772125,
+  "expected": "",
+  "tokens": {
+    "input": 99,
+    "output": 419
+  }
+}

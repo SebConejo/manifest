@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "data_to_text",
   "case": 42,
-  "response": "This Pad Thai recipe, a medium-difficulty Thai dish, requires 15 minutes of prep and 10 minutes of cooking to yield 4 servings. Each serving contains 380 calories, with 22 grams of protein, 45 grams of carbohydrates, and 12 grams of fat.",
-  "score": 5,
-  "cost": 0.000347565,
+  "response": "This medium-difficulty Pad Thai recipe serves four and comes together in just 25 minutes, with 15 minutes of prep and 10 minutes of cooking. Each serving provides 380 calories, a balanced 22 grams of protein, 45 grams of carbohydrates, and 12 grams of fat, capturing the vibrant flavors of Thai cuisine.",
+  "score": 4,
+  "cost": 0.00036496499999999997,
   "expected": "",
   "tokens": {
     "input": 91,
-    "output": 177
+    "output": 187
   }
 }

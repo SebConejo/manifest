@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "data_to_text",
   "case": 47,
-  "response": "Taylor Swift's tenth studio album, *Midnights*, was released in October 2022 and blends pop and synth-pop across 13 tracks with a total runtime of 44 minutes. The record achieved massive commercial success, moving 1.58 million units in its first week and amassing 3.4 billion Spotify streams, ultimately winning the Grammy Award for Album of the Year.",
+  "response": "Taylor Swift's tenth studio album, *Midnights*, was released in October 2022 and blends pop and synth-pop across 13 tracks with a total runtime of 44 minutes. The record made a massive impact, moving 1.58 million copies in its first week and amassing 3.4 billion Spotify streams, ultimately winning the Grammy Award for Album of the Year.",
   "score": 5,
-  "cost": 0.00049677,
+  "cost": 0.00038714999999999995,
   "expected": "",
   "tokens": {
     "input": 94,
-    "output": 262
+    "output": 199
   }
 }

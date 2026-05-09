@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "data_to_text",
   "case": 33,
-  "response": "In the 2024-25 season, 40-year-old LeBron James earned another All-Star selection while playing 71 games for the Lakers, averaging 28.4 points, 7.2 rebounds, and 8.1 assists per game.",
+  "response": "In the 2024-25 season, 40-year-old LeBron James earned an All-Star selection while playing 71 games for the Lakers and averaging 28.4 points, 7.2 rebounds, and 8.1 assists.",
   "score": 5,
-  "cost": 0.00033451499999999996,
+  "cost": 0.00037627499999999997,
   "expected": "",
   "tokens": {
     "input": 89,
-    "output": 170
+    "output": 194
   }
 }

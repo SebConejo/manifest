@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "data_to_text",
   "case": 34,
-  "response": "Stockholm, the capital of Sweden, was founded in 1252 and today has a population of 1.6 million people spread across 188 square kilometers. Swedish is the official language, and the city enjoys a high GDP per capita of $62,000. Its climate features cold winters with an average January temperature of -3\u00b0C and mild summers averaging 18\u00b0C in July.",
+  "response": "Stockholm, the capital of Sweden, was founded in 1252 and is home to 1.6 million people within its 188 square kilometer area. The city enjoys a GDP per capita of $62,000, with Swedish as the primary language, and experiences a seasonal climate ranging from an average January temperature of -3\u00b0C to a mild 18\u00b0C in July.",
   "score": 5,
-  "cost": 0.000653805,
+  "cost": 0.00017704500000000002,
   "expected": "",
   "tokens": {
     "input": 91,
-    "output": 353
+    "output": 79
   }
 }
