@@ -4,10 +4,10 @@
   "case": 0,
   "response": "```json\n{\n  \"name\": \"John Smith\",\n  \"age\": 32,\n  \"job_title\": \"software engineer\",\n  \"company\": \"Google\",\n  \"location\": {\n    \"city\": \"Mountain View\",\n    \"state\": \"CA\"\n  }\n}\n```",
   "score": 5,
-  "cost": 0.000684,
+  "cost": 0.000708,
   "expected": "",
   "tokens": {
     "input": 80,
-    "output": 265
+    "output": 275
   }
 }

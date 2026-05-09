@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "structured_output",
   "case": 20,
-  "response": "{\n  \"items\": [\n    {\n      \"name\": \"pepperoni\",\n      \"size\": \"large\",\n      \"price\": 18.99\n    },\n    {\n      \"name\": \"margherita\",\n      \"size\": \"medium\",\n      \"price\": 14.99\n    },\n    {\n      \"name\": \"Coke\",\n      \"size\": \"2L\",\n      \"price\": 3.99\n    }\n  ],\n  \"delivery_address\": \"456 Oak Ave.\",\n  \"special_instructions\": \"ring doorbell twice\",\n  \"total\": 37.97\n}",
+  "response": "{\n  \"items\": [\n    {\n      \"name\": \"pepperoni\",\n      \"size\": \"large\",\n      \"price\": 18.99\n    },\n    {\n      \"name\": \"margherita\",\n      \"size\": \"medium\",\n      \"price\": 14.99\n    },\n    {\n      \"name\": \"Coke\",\n      \"size\": \"2L\",\n      \"price\": 3.99\n    }\n  ],\n  \"delivery_address\": \"456 Oak Ave\",\n  \"special_instructions\": \"ring doorbell twice\",\n  \"total\": 37.97\n}",
   "score": 4,
-  "cost": 0.000832155,
+  "cost": 0.0010757549999999999,
   "expected": "",
   "tokens": {
     "input": 113,
-    "output": 450
+    "output": 590
   }
 }

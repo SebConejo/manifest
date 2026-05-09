@@ -4,10 +4,10 @@
   "case": 14,
   "response": "```json\n{\n  \"title\": \"The Great Gatsby\",\n  \"author\": \"F. Scott Fitzgerald\",\n  \"year\": 1925,\n  \"genre\": \"literary fiction\",\n  \"pages\": 180,\n  \"isbn\": \"978-0743273565\",\n  \"rating\": 4.2\n}\n```",
   "score": 5,
-  "cost": 0.001191,
+  "cost": 0.000927,
   "expected": "",
   "tokens": {
     "input": 109,
-    "output": 469
+    "output": 359
   }
 }

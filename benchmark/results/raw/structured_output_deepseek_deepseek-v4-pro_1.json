@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "structured_output",
   "case": 1,
-  "response": "{\"title\": \"Q4 Planning\", \"date\": \"Dec 15 2024\", \"time\": \"2pm\", \"attendees\": [\"Alice\", \"Bob\", \"Charlie\"], \"room\": \"301B\"}",
+  "response": "{\n  \"title\": \"Q4 Planning\",\n  \"date\": \"Dec 15 2024\",\n  \"time\": \"2pm\",\n  \"attendees\": [\n    \"Alice\",\n    \"Bob\",\n    \"Charlie\"\n  ],\n  \"room\": \"301B\"\n}",
   "score": 5,
-  "cost": 0.000522,
+  "cost": 0.00049938,
   "expected": "",
   "tokens": {
     "input": 84,
-    "output": 279
+    "output": 266
   }
 }

@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "structured_output",
   "case": 14,
-  "response": "{\"title\": \"The Great Gatsby\", \"author\": \"F. Scott Fitzgerald\", \"year\": 1925, \"genre\": \"literary fiction\", \"pages\": 180, \"isbn\": \"978-0743273565\", \"rating\": 4.2}",
+  "response": "{\n  \"title\": \"The Great Gatsby\",\n  \"author\": \"F. Scott Fitzgerald\",\n  \"year\": 1925,\n  \"genre\": \"literary fiction\",\n  \"pages\": 180,\n  \"isbn\": \"978-0743273565\",\n  \"rating\": 4.2\n}",
   "score": 5,
-  "cost": 0.00053679,
+  "cost": 0.00056985,
   "expected": "",
   "tokens": {
     "input": 106,
-    "output": 282
+    "output": 301
   }
 }

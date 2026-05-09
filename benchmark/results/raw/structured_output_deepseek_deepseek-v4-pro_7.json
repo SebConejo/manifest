@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "structured_output",
   "case": 7,
-  "response": "{\"symbol\": \"AAPL\", \"price\": 185.5, \"change_percent\": 2.3, \"volume\": \"45M\", \"high_52w\": 198.0, \"low_52w\": 155.0, \"market_cap\": \"2.87T\"}",
+  "response": "{\n  \"symbol\": \"AAPL\",\n  \"price\": 185.50,\n  \"change_percent\": 2.3,\n  \"volume\": \"45M\",\n  \"high_52w\": 198.0,\n  \"low_52w\": 155.0,\n  \"market_cap\": \"$2.87T\"\n}",
   "score": 5,
-  "cost": 0.0006446700000000001,
+  "cost": 0.00052983,
   "expected": "",
   "tokens": {
     "input": 114,
-    "output": 342
+    "output": 276
   }
 }

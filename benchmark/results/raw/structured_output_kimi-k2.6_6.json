@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "structured_output",
   "case": 6,
-  "response": "```json\n{\n  \"type\": \"Bug report\",\n  \"summary\": \"App crashes on login when using Face ID\",\n  \"device\": \"iPhone 14\",\n  \"os_version\": \"iOS 17.2\",\n  \"reproducibility\": \"every time\",\n  \"severity\": \"critical\"\n}\n```",
+  "response": "```json\n{\"type\": \"Bug report\", \"summary\": \"App crashes on login when using Face ID\", \"device\": \"iPhone 14\", \"os_version\": \"iOS 17.2\", \"reproducibility\": \"Reproducible every time\", \"severity\": \"critical\"}\n```",
   "score": 5,
-  "cost": 0.001803,
+  "cost": 0.0026693999999999997,
   "expected": "",
   "tokens": {
     "input": 97,
-    "output": 727
+    "output": 1088
   }
 }

@@ -4,10 +4,10 @@
   "case": 15,
   "response": "```json\n{\n  \"cpu_percent\": 78,\n  \"memory\": {\n    \"used_gb\": 12.4,\n    \"total_gb\": 16\n  },\n  \"disk\": {\n    \"used_gb\": 234,\n    \"total_gb\": 500\n  },\n  \"uptime_days\": 45,\n  \"active_connections\": 127,\n  \"p99_latency_ms\": 145\n}\n```",
   "score": 5,
-  "cost": 0.0011183999999999999,
+  "cost": 0.0013271999999999997,
   "expected": "",
   "tokens": {
     "input": 128,
-    "output": 434
+    "output": 521
   }
 }

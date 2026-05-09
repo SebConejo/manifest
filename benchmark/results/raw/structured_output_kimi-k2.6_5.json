@@ -4,10 +4,10 @@
   "case": 5,
   "response": "```json\n{\n  \"name\": \"Spaghetti Carbonara\",\n  \"servings\": 4,\n  \"prep_time_minutes\": 25,\n  \"ingredients\": [\n    {\"item\": \"spaghetti\", \"amount\": \"400g\"},\n    {\"item\": \"guanciale\", \"amount\": \"200g\"},\n    {\"item\": \"eggs\", \"amount\": \"4\"},\n    {\"item\": \"pecorino\", \"amount\": \"100g\"},\n    {\"item\": \"black pepper\", \"amount\": \"\"}\n  ]\n}\n```",
   "score": 4,
-  "cost": 0.0021552000000000003,
+  "cost": 0.0031848000000000002,
   "expected": "",
   "tokens": {
     "input": 108,
-    "output": 871
+    "output": 1300
   }
 }

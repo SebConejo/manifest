@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "structured_output",
   "case": 3,
-  "response": "```json\n{\n  \"flight_number\": \"AA123\",\n  \"origin\": \"JFK\",\n  \"destination\": \"LAX\",\n  \"departure\": \"3:45pm\",\n  \"arrival\": \"6:30pm\",\n  \"date\": \"March 5\",\n  \"class\": \"Economy\",\n  \"stops\": 1,\n  \"stop_cities\": [\"Dallas\"]\n}\n```",
+  "response": "```json\n{\n  \"flight_number\": \"AA123\",\n  \"origin\": \"JFK\",\n  \"destination\": \"LAX\",\n  \"departure\": \"3:45pm\",\n  \"arrival\": \"6:30pm\",\n  \"date\": \"March 5\",\n  \"class\": \"Economy\",\n  \"stops\": 1,\n  \"stop_cities\": [\n    \"Dallas\"\n  ]\n}\n```",
   "score": 5,
-  "cost": 0.0016391999999999997,
+  "cost": 0.0016248,
   "expected": "",
   "tokens": {
     "input": 116,
-    "output": 654
+    "output": 648
   }
 }

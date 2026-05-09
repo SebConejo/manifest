@@ -4,10 +4,10 @@
   "case": 23,
   "response": "```json\n{\n  \"type\": \"package\",\n  \"tracking_number\": \"TRK-99281\",\n  \"status\": \"delivered\",\n  \"delivery_location\": \"front door\",\n  \"delivery_time\": \"2:15 PM\",\n  \"delivery_date\": \"March 12\",\n  \"signed_by\": \"M. Johnson\",\n  \"carrier\": \"FedEx\"\n}\n```",
   "score": 5,
-  "cost": 0.0016416,
+  "cost": 0.005589599999999999,
   "expected": "",
   "tokens": {
     "input": 112,
-    "output": 656
+    "output": 2301
   }
 }

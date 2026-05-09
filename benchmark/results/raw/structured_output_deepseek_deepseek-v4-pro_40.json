@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "structured_output",
   "case": 40,
-  "response": "{\"ticket_id\": 8472, \"priority\": \"High\", \"created\": \"2h ago\", \"user\": \"premium_user@corp.com\", \"category\": \"billing\", \"subject\": \"Double charged for March subscription\", \"assigned_to\": \"Agent Mike\", \"status\": \"in progress\"}",
+  "response": "{\n  \"ticket_id\": 8472,\n  \"priority\": \"High\",\n  \"created\": \"2h ago\",\n  \"user\": \"premium_user@corp.com\",\n  \"category\": \"billing\",\n  \"subject\": \"Double charged for March subscription\",\n  \"assigned_to\": \"Agent Mike\",\n  \"status\": \"in progress\"\n}",
   "score": 4,
-  "cost": 0.0006738149999999999,
+  "cost": 0.0005815950000000001,
   "expected": "",
   "tokens": {
     "input": 117,
-    "output": 358
+    "output": 305
   }
 }
