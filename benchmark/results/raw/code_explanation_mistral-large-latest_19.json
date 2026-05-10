@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "code_explanation",
+  "case": 19,
+  "response": "This code implements a **sliding window rate limiter** that restricts the number of allowed function calls (`calls`) within a rolling time window (`period` in seconds). It tracks timestamps of recent calls and only permits new calls if fewer than `calls` have occurred in the last `period`, removing expired timestamps before each check.",
+  "score": 5,
+  "cost": 0.000612,
+  "expected": "",
+  "tokens": {
+    "input": 99,
+    "output": 69
+  }
+}

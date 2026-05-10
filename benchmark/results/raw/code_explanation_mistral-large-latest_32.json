@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "code_explanation",
+  "case": 32,
+  "response": "This code implements the **Union-Find (Disjoint Set Union, DSU)** data structure with **path compression** (in the `find` function) and **union by rank** (in the `union` function) optimizations. It efficiently manages and queries partitions of elements into disjoint sets, supporting dynamic merging and connectivity checks.",
+  "score": 5,
+  "cost": 0.000726,
+  "expected": "",
+  "tokens": {
+    "input": 156,
+    "output": 69
+  }
+}
