@@ -4,10 +4,10 @@
   "case": 3,
   "response": "{\"name\": \"create_task\", \"arguments\": {\"title\": \"Review PR 42\", \"priority\": \"high\", \"assignee\": \"alice\", \"due_date\": \"next Friday\"}}",
   "score": 4,
-  "cost": 7.686000000000002e-05,
+  "cost": 0.00010150000000000001,
   "expected": "",
   "tokens": {
     "input": 113,
-    "output": 109
+    "output": 153
   }
 }

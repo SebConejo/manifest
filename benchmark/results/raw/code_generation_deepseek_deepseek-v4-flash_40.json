@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-flash",
   "task": "code_generation",
   "case": 40,
-  "response": "return round(a ** (1/3)) ** 3 == a",
+  "response": "if a == 0:\n    return True\nx = abs(a)\nlow, high = 0, x\nwhile low <= high:\n    mid = (low + high) // 2\n    cube = mid * mid * mid\n    if cube == x:\n        return True\n    elif cube < x:\n        low = mid + 1\n    else:\n        high = mid - 1\nreturn False",
   "score": 4,
-  "cost": 2.786e-05,
+  "cost": 0.0006808200000000001,
   "expected": "",
   "tokens": {
     "input": 139,
-    "output": 15
+    "output": 1181
   }
 }

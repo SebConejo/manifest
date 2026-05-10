@@ -4,10 +4,10 @@
   "case": 36,
   "response": "{\"name\": \"subscribe\", \"arguments\": {\"email\": \"jane@example.com\", \"list_name\": \"monthly newsletter\"}}",
   "score": 5,
-  "cost": 6.202e-05,
+  "cost": 8.274000000000001e-05,
   "expected": "",
   "tokens": {
     "input": 87,
-    "output": 89
+    "output": 126
   }
 }

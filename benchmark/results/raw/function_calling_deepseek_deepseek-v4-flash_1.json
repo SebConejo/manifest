@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-flash",
   "task": "function_calling",
   "case": 1,
-  "response": "{\"name\": \"get_weather\", \"arguments\": {\"city\": \"Paris\"}}",
-  "score": 4,
-  "cost": 0.00010052,
+  "response": "{\"name\": \"get_weather\", \"arguments\": {\"city\": \"Paris\", \"units\": \"celsius\"}}",
+  "score": 5,
+  "cost": 2.7720000000000006e-05,
   "expected": "",
   "tokens": {
     "input": 94,
-    "output": 156
+    "output": 26
   }
 }

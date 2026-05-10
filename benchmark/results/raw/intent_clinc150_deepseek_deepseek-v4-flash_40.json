@@ -4,10 +4,10 @@
   "case": 40,
   "response": "mpg",
   "score": 5,
-  "cost": 0.00010612000000000002,
+  "cost": 9.492000000000002e-05,
   "expected": "mpg",
   "tokens": {
     "input": 570,
-    "output": 47
+    "output": 27
   }
 }

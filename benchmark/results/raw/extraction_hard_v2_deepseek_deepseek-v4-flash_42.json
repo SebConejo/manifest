@@ -3,7 +3,7 @@
   "task": "extraction_hard_v2",
   "case": 42,
   "response": "",
-  "score": 2,
+  "score": 4,
   "cost": 0.0004722200000000001,
   "expected": "",
   "tokens": {

@@ -37,31 +37,30 @@ def load_dotenv():
 load_dotenv()
 
 
-# --- Affected models and tasks (from investigation) ---
-AFFECTED_MODELS = {
-    "deepseek/deepseek-v4-pro",
-    "nvidia/nemotron-3-super-120b-a12b",
-    "bytedance-seed/seed-2.0-mini",
-    "meta-llama/llama-4-maverick",
-    "x-ai/grok-code-fast-1",
-    "qwen/qwen-max",
-    "x-ai/grok-4-fast",
-    "qwen/qwen3.6-plus",
-    "qwen/qwen3-coder",
-}
+# --- Affected tasks (LLM-judged only — exact-match tasks don't use the judge) ---
+# Phase 3: no model filter — any model with score=0 + non-empty response gets re-judged
+AFFECTED_MODELS = None  # None = all models (no filter)
 
 AFFECTED_TASKS = {
     "code_explanation",
     "code_generation",
     "code_review_v2",
+    "code_review",
     "data_to_text",
     "email_summary_v2",
     "instruction_following",
     "json_transform_v2",
     "long_summarization",
     "rag_qa",
+    "reasoning",
     "structured_output",
     "test_generation_v2",
+    # Phase 2: additional LLM-judged tasks with zeros
+    "reasoning_gsm8k",
+    "sql_spider",
+    "extraction_hard_v2",
+    "function_calling",
+    "ner_extraction",
 }
 
 # --- Judge prompts (EXACT copy from run_batch.py TASK_DEFS) ---
@@ -77,6 +76,12 @@ JUDGE_PROMPTS = {
     "rag_qa": "Rate this answer on a 1-5 scale. 5=correct and directly supported by the context. 4=correct but could be more precise. 3=partially correct. 2=wrong answer. 1=hallucinated (not in context) or empty. Respond with ONLY a number 1-5.",
     "structured_output": "Rate this JSON extraction on a 1-5 scale. 5=valid JSON with all fields correctly extracted. 4=valid JSON with 1 minor error. 3=valid JSON but multiple errors. 2=invalid JSON but right idea. 1=not JSON or completely wrong. Respond with ONLY a number 1-5.",
     "test_generation_v2": "Rate these unit tests on a 1-5 scale. 5=comprehensive tests covering happy path, edge cases, and errors with good assertions. 4=good coverage with minor gaps. 3=basic happy path tests only. 2=tests exist but incomplete or incorrect. 1=not valid tests or empty. Respond with ONLY a number 1-5.",
+    # Phase 2 additions
+    "reasoning_gsm8k": "Rate the answer on a 1-5 scale. 5=completely correct final answer with sound reasoning. 4=correct answer with minor reasoning gaps. 3=partially correct. 2=wrong answer but some correct steps. 1=completely wrong. Respond with ONLY a number 1-5.",
+    "sql_spider": "Rate this SQL query on a 1-5 scale for correctness. 5=perfectly correct and would return the right results. 4=correct logic with minor issues. 3=right approach but errors. 2=wrong logic. 1=not valid SQL. Respond with ONLY a number 1-5.",
+    "extraction_hard_v2": "Rate this JSON extraction on a 1-5 scale. 5=valid JSON with all fields correctly extracted from the text. 4=valid JSON with 1 minor error. 3=valid JSON but 2+ errors or missing fields. 2=invalid JSON but right idea. 1=not JSON or completely wrong. Respond with ONLY a number 1-5.",
+    "function_calling": "Rate this function call on a 1-5 scale. 5=correct function with all arguments correct. 4=correct function with minor argument issues. 3=correct function but wrong arguments. 2=wrong function chosen. 1=not valid JSON or completely wrong. Respond with ONLY a number 1-5.",
+    "ner_extraction": "Rate this entity extraction on a 1-5 scale. 5=all entities correctly identified and categorized. 4=most entities correct with 1 minor miss. 3=major entities found but several missed or miscategorized. 2=many errors. 1=wrong format or mostly wrong. Respond with ONLY a number 1-5.",
 }
 
 
@@ -155,33 +160,89 @@ def check_quota():
 
 
 def find_cases_to_rejudge(raw_dir):
-    """Find all JSON files that need re-judging."""
+    """Find all JSON files that need re-judging.
+
+    When AFFECTED_MODELS is None, scans ALL raw JSON files for affected tasks
+    instead of iterating over a fixed model list.
+    """
     cases = []
-    for model in AFFECTED_MODELS:
-        safe_model = model.replace("/", "_")
-        for task in AFFECTED_TASKS:
-            for case_idx in range(60):  # up to 60 cases per task
-                filename = f"{task}_{safe_model}_{case_idx}.json"
-                filepath = os.path.join(raw_dir, filename)
-                if not os.path.exists(filepath):
-                    continue
-                try:
-                    with open(filepath) as f:
-                        data = json.load(f)
-                    # Only re-judge if: score=0, response non-empty, not already rerun
-                    if (data.get("score", 0) == 0
-                            and data.get("response", "").strip()
-                            and not data.get("judge_rerun", False)):
-                        cases.append({
-                            "filepath": filepath,
-                            "model": model,
-                            "task": task,
-                            "case_idx": case_idx,
-                            "response": data["response"],
-                            "data": data,
-                        })
-                except (json.JSONDecodeError, KeyError):
-                    continue
+
+    if AFFECTED_MODELS is not None:
+        # Legacy path: iterate over known models
+        models_to_check = AFFECTED_MODELS
+        for model in models_to_check:
+            safe_model = model.replace("/", "_")
+            for task in AFFECTED_TASKS:
+                for case_idx in range(60):
+                    filename = f"{task}_{safe_model}_{case_idx}.json"
+                    filepath = os.path.join(raw_dir, filename)
+                    if not os.path.exists(filepath):
+                        continue
+                    try:
+                        with open(filepath) as f:
+                            data = json.load(f)
+                        if (data.get("score", 0) == 0
+                                and data.get("response", "").strip()
+                                and not data.get("judge_rerun", False)):
+                            cases.append({
+                                "filepath": filepath,
+                                "model": model,
+                                "task": task,
+                                "case_idx": case_idx,
+                                "response": data["response"],
+                                "data": data,
+                            })
+                    except (json.JSONDecodeError, KeyError):
+                        continue
+    else:
+        # Phase 3: scan all files, filter by task only
+        for filename in os.listdir(raw_dir):
+            if not filename.endswith(".json"):
+                continue
+            # Parse filename: {task}_{safe_model}_{case_idx}.json
+            # Task names may contain underscores, so we split from the right
+            parts = filename[:-5]  # remove .json
+            # case_idx is the last _N
+            last_underscore = parts.rfind("_")
+            if last_underscore == -1:
+                continue
+            try:
+                case_idx = int(parts[last_underscore + 1:])
+            except ValueError:
+                continue
+            remaining = parts[:last_underscore]
+            # Find which task this belongs to (longest match first)
+            matched_task = None
+            for task in sorted(AFFECTED_TASKS, key=len, reverse=True):
+                if remaining.startswith(task + "_"):
+                    matched_task = task
+                    break
+            if not matched_task:
+                continue
+            # Model is what's between task and case_idx
+            safe_model = remaining[len(matched_task) + 1:]
+            model = safe_model.replace("_", "/", safe_model.count("_") - safe_model.replace("/", "").count("/"))
+            # Reconstruct model name: replace first _ back to / for known patterns
+            # Simpler: read model from the JSON data itself
+            filepath = os.path.join(raw_dir, filename)
+            try:
+                with open(filepath) as f:
+                    data = json.load(f)
+                model = data.get("model", safe_model.replace("_", "/"))
+                if (data.get("score", 0) == 0
+                        and data.get("response", "").strip()
+                        and not data.get("judge_rerun", False)):
+                    cases.append({
+                        "filepath": filepath,
+                        "model": model,
+                        "task": matched_task,
+                        "case_idx": case_idx,
+                        "response": data["response"],
+                        "data": data,
+                    })
+            except (json.JSONDecodeError, KeyError):
+                continue
+
     return cases
 
 

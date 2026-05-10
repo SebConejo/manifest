@@ -2,14 +2,12 @@
   "model": "qwen/qwen3.6-plus",
   "task": "code_generation",
   "case": 21,
-  "response": "even_count = 0\n    odd_count = 0\n    for i in range(1, n + 1):\n        if str(i) == str(i)[::-1]:\n            if i % 2 == 0:\n                even_count += 1\n            else:\n                odd_count += 1\n    return even_count, odd_count",
-  "score": 3,
-  "cost": 0.002940275,
+  "response": "```python\n    even_count = 0\n    odd_count = 0\n    for i in range(1, n + 1):\n        s = str(i)\n        if s == s[::-1]:\n            if i % 2 == 0:\n                even_count += 1\n            else:\n                odd_count += 1\n    return (even_count, odd_count)\n```",
+  "score": 5,
+  "cost": 0.106701075,
   "expected": "",
   "tokens": {
     "input": 263,
-    "output": 2196
-  },
-  "judge_rerun": true,
-  "judge_raw": "3"
+    "output": 82012
+  }
 }

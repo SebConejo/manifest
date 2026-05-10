@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-flash",
   "task": "code_explanation",
   "case": 14,
-  "response": "This code implements **Dijkstra's shortest path algorithm** using a **min-heap priority queue** to efficiently find the shortest distances from a `start` node to all other nodes in a weighted graph. It repeatedly pops the node with the smallest known distance, relaxes its outgoing edges by updating distances if a shorter path is found, and pushes the updated distances back into the heap.",
+  "response": "This code implements **Dijkstra's algorithm** to find the shortest distances from a given `start` node to all other nodes in a weighted graph. It uses a min-heap (priority queue) to repeatedly extract the node with the smallest current distance, relax its outgoing edges, and update distances only when a shorter path is found, returning a dictionary of the final shortest distances.",
   "score": 5,
-  "cost": 6.356000000000001e-05,
+  "cost": 0.00010892000000000002,
   "expected": "",
   "tokens": {
     "input": 138,
-    "output": 79
+    "output": 160
   }
 }

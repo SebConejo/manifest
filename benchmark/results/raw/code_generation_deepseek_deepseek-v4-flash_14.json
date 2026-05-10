@@ -2,8 +2,8 @@
   "model": "deepseek/deepseek-v4-flash",
   "task": "code_generation",
   "case": 14,
-  "response": "if n <= 0:\n    return 0\nelif n == 1:\n    return 1\nelse:\n    a, b = 0, 1\n    for _ in range(2, n + 1):\n        a, b = b, a + b\n    return b",
-  "score": 5,
+  "response": "if n <=  renturn 0\n    elif n == 1:\n        return 1\n    else:\n        a, b = 0, 1\n        for _ in range(2, n + 1):\n            a, b = b, a + b\n        return b",
+  "score": 2,
   "cost": 4.6200000000000005e-05,
   "expected": "",
   "tokens": {

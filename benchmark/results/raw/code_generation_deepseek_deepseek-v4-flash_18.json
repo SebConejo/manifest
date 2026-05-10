@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-flash",
   "task": "code_generation",
   "case": 18,
-  "response": "words = sentence.split()\nresult = []\nfor word in words:\n    length = len(word)\n    if length > 1:\n        is_prime = True\n        for i in range(2, int(length**0.5) + 1):\n            if length % i == 0:\n                is_prime = False\n                break\n        if is_prime:\n            result.append(word)\n    elif length == 2:\n        result.append(word)\nreturn \" \".join(result)",
-  "score": 3,
-  "cost": 7.994e-05,
+  "response": "words = sentence.split()\nresult = []\nfor word in words:\n    length = len(word)\n    if length < 2:\n        continue\n    prime = True\n    for i in range(2, int(length**0.5) + 1):\n        if length % i == 0:\n            prime = False\n            break\n    if prime:\n        result.append(word)\nreturn ' '.join(result)",
+  "score": 5,
+  "cost": 0.00022722000000000004,
   "expected": "",
   "tokens": {
     "input": 179,
-    "output": 98
+    "output": 361
   }
 }

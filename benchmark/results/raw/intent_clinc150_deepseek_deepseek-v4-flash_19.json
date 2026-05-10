@@ -4,10 +4,10 @@
   "case": 19,
   "response": "calendar",
   "score": 5,
-  "cost": 0.00013426000000000003,
+  "cost": 9.394000000000001e-05,
   "expected": "calendar",
   "tokens": {
     "input": 567,
-    "output": 98
+    "output": 26
   }
 }

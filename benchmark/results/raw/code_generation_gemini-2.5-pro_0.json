@@ -2,7 +2,7 @@
   "model": "gemini-2.5-pro",
   "task": "code_generation",
   "case": 0,
-  "response": "return ''.join(strings)",
+  "response": "return \"\".join(strings)",
   "score": 5,
   "cost": 0.000175,
   "expected": "",

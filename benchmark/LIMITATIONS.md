@@ -189,25 +189,49 @@ correctly extracted.
 **Should you worry?** Only if you are comparing API compatibility. For cost-quality
 comparisons, the normalization makes results comparable.
 
-## 12. Micro Tier Format Compliance
+## 12. Micro Tier Format Compliance and Legitimate Exact-Match Failures
 
-**The issue:** Some micro/cheap models (Nemotron Super 120B, Llama-3.2-1B) score
-near 0 on exact-match tasks not because they cannot do the task, but because they
-do not follow the instruction to respond with ONLY the label. They wrap answers in
-explanations or use different formatting.
+**The issue:** Small and cheap models genuinely fail on exact-match classification
+tasks. Out of 744 zero-scored rows in the final dataset, 729 (98%) are exact-match
+failures with non-empty responses — the model answered, but answered wrong.
 
-**Impact:** Exact-match scores for some micro models may understate their actual
-capability. The model "knows" the answer but does not comply with the format
-constraint.
+**Distribution of legitimate zero scores:**
 
-**Mitigation:** We apply strip_thinking() and check for label presence in the
-response (not strict equality). But some models still fail format compliance.
-Raw responses are saved for manual inspection.
+| Task | Zeros | Nature |
+|------|------:|--------|
+| intent_clinc150 | 294 | Wrong intent label (150-class classification) |
+| moderation_toxigen | 275 | Wrong toxicity judgment (subtle adversarial cases) |
+| multistep_reasoning | 68 | Wrong multiple-choice answer |
+| sentiment_sst2 | 62 | Wrong sentiment polarity |
+| intent_easy/hard | 26 | Wrong intent label |
 
-**Should you worry?** If you plan to use micro models in production, format
-compliance matters. A model that cannot follow "respond with ONLY X" will cause
-parsing failures in automated pipelines. The low score reflects real-world usability,
-not just benchmark artifact.
+**Most affected models:**
+
+| Model | Zero count | Pattern |
+|-------|----------:|---------|
+| meta-llama/llama-3.2-1b-instruct | 76 | Wrong labels across all classification tasks |
+| nvidia/nemotron-3-super-120b-a12b | 48 | Prompt echoing instead of answering |
+| meta-llama/llama-3.2-3b-instruct | 45 | Wrong labels (better than 1B but still weak) |
+| ministral-3b-latest | 39 | Wrong labels on fine-grained classification |
+| gpt-5.4-nano | 28 | Wrong labels on hard tasks |
+
+**This is a finding, not a bug.** Small models genuinely fail at fine-grained
+classification (150 intents), adversarial toxicity detection (coded language,
+cultural sarcasm), and multi-step reasoning. This is expected: these tasks test
+capabilities that scale with model size.
+
+Nemotron Super 120B (MoE, 12B active) shows a distinct failure mode: it echoes
+the prompt or wraps answers in explanations instead of following "respond with
+ONLY the label." This is a format compliance failure, not a knowledge failure.
+
+**Impact:** The 15 remaining LLM-judged zeros (out of 50,346 rows) are also
+legitimate: models echoing prompts instead of generating code, or wrong numerical
+answers. These represent 0.03% of the dataset.
+
+**Should you worry?** These zeros accurately reflect real-world usability. A model
+that cannot classify 150 intents will fail in production routing. A model that echoes
+prompts instead of answering will break automated pipelines. The benchmark captures
+genuine capability boundaries, not scoring artifacts.
 
 ## 13. Asymmetric Model Coverage Across Providers
 

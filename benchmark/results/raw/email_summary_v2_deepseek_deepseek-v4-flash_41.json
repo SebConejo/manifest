@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-flash",
   "task": "email_summary_v2",
   "case": 41,
-  "response": "The email recommends upgrading to 10Gbps for $45K plus $2K/month due to current 78% peak usage and growth projections, over a cheaper $15K alternative. The action item is to approve the 10Gbps upgrade to avoid revisiting the issue in six months.",
+  "response": "The email proposes upgrading current 1Gbps links to 10Gbps for $45K one-time plus $2K/month, citing 78% peak capacity and growth projections, while noting a cheaper $15K alternative of traffic shaping and CDN optimization. The recommended action is to proceed with the 10Gbps upgrade to avoid needing another upgrade within six months.",
   "score": 5,
-  "cost": 0.00011746,
+  "cost": 9.898000000000002e-05,
   "expected": "",
   "tokens": {
     "input": 107,
-    "output": 183
+    "output": 150
   }
 }

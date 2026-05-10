@@ -158,9 +158,9 @@ truth**. The CSV is a derived artifact. When in doubt, rebuild from raw.
 
 ## 9. Budget
 
-Total spend as of 2026-05-08: **$99.29** (source: spend_tracker.json, 55,460 API calls).
-Hard cap: $250. Remaining budget: **$150.71**.
-*(Previous estimate ~$92.60 was written mid-session before re-run completion.)*
+Total spend as of 2026-05-10: **$122.37** (source: spend_tracker.json, 60,066 API calls).
+Hard cap: $250. Remaining budget: **$127.63**.
+*(Previous: $99.29 pre-rerun, ~$92.60 mid-session estimate.)*
 
 ---
 
@@ -264,12 +264,12 @@ the 3 factual sources before starting new work.
 
 ## 15. Current State (2026-05-08, post-phase 3)
 
-- **50,351 rows** in CSV (rebuilt from 50,490 raw JSON files, 139 empty+score0 skipped)
-- 744 zeros: 729 exact-match (legitimate), 15 LLM-judged (legitimate)
+- **50,978 rows** in CSV (rebuilt from 51,096 raw JSON files, 118 empty+score0 skipped)
+- 759 zeros (all legitimate)
 - 0 judge-crash zeros remaining (all 3 rejudge phases integrated)
 - Rejudge phases: 1 (4,648) + 2 (620) + 3 (902) = 6,170 total entries, 0 errors
-- 57 models total: **35 complete** (21/21 tasks, ≥40 valid cases), 14 partial, 8 Azure doublons
-- 683 empty-response raw files remain across 86 task+model combos
-- Session crashed during empty-response re-run; no data lost
-- Next action: investigate empty-response patterns, selective re-run, then analysis
-*(Previous count 50,346 was off by 5 rows — the partial re-run added a few raw files before crash.)*
+- 57 models total: **41 complete** (21/21 tasks, ≥40 valid cases), 6 partial core, 5 Azure doublons, 5 Azure/legacy partial
+- Total spend: **$122.37** (source: spend_tracker.json, 60,066 API calls)
+- Re-run Category A (7 models, 21 tasks) + Category B (8 models, 21 tasks) completed
+- Next action: analysis and paper
+*(Previous states: 50,351 rows / 35 complete / $99.29 before re-runs. 50,346 before that.)*

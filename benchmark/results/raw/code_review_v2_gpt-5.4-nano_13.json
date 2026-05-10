@@ -1,0 +1,13 @@
+{
+  "model": "gpt-5.4-nano",
+  "task": "code_review_v2",
+  "case": 13,
+  "response": "### What\u2019s wrong / bugs\n- **No validation of `userInput`**: Whatever string is passed in is written directly to the DOM.\n- **Works only with an existing element**: `document.getElementById('output')` may be `null` if the element doesn\u2019t exist. That would throw a runtime error (`Cannot set properties of null`).\n\n### Security issues\n- **XSS vulnerability (cross-site scripting)**: Using `innerHTML` with untrusted input allows an attacker to inject HTML/JS.\n\n  Example attack:\n  ```js\n  renderHTML(`<img src=x onerror=\"alert(document.cookie)\">`)\n  ```\n  This would execute attacker-controlled JavaScript in the page context.\n\n### Improvements / fixes\n1. **Use `textContent` instead of `innerHTML`** if you intend to display text only.\n   ```js\n   function renderHTML(userInput) {\n     const el = document.getElementById('output');\n     if (!el) return; // or throw an error\n     el.textContent = userInput ?? '';\n   }\n   ```\n\n2. **If you truly need to render HTML**, sanitize it first (don\u2019t just use `innerHTML` directly).\n   - Use a well-tested sanitizer such as **DOMPurify**:\n     ```js\n     import DOMPurify from 'dompurify';\n\n     function renderHTML(userInput) {\n       const el = document.getElementById('output');\n       if (!el) return;\n\n       const safeHtml = DOMPurify.sanitize(userInput ?? '', {\n         USE_PROFILES: { html: true }\n       });\n       el.innerHTML = safeHtml;\n     }\n     ```\n\n3. **Handle non-string inputs**:\n   ```js\n   const text = typeof userInput === 'string' ? userInput : String(userInput);\n   ```\n\n4. **Consider explicit error handling** for missing DOM elements rather than silently failing (depending on your app).\n   ```js\n   if (!el) throw new Error(\"Missing #output element\");\n   ```\n\nIf you tell me whether `userInput` is supposed to be *plain text* or *trusted HTML*, I can recommend the safest approach for your exact use case.",
+  "score": 5,
+  "cost": 0.0001911,
+  "expected": "",
+  "tokens": {
+    "input": 59,
+    "output": 463
+  }
+}

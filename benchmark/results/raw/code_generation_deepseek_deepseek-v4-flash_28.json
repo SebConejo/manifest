@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-flash",
   "task": "code_generation",
   "case": 28,
-  "response": "result = []\nfor i, row in enumerate(lst):\n    for j, val in enumerate(row):\n        if val == x:\n            result.append((i, j))\nresult.sort(key=lambda t: (t[0], -t[1]))\nreturn result",
+  "response": "```python\nresult = []\nfor i, row in enumerate(lst):\n    for j, val in enumerate(row):\n        if val == x:\n            result.append((i, j))\nresult.sort(key=lambda t: (t[0], -t[1]))\nreturn result\n```",
   "score": 5,
-  "cost": 0.00023926,
+  "cost": 0.00019614,
   "expected": "",
   "tokens": {
     "input": 289,
-    "output": 355
+    "output": 278
   }
 }

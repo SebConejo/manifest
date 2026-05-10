@@ -1,13 +1,13 @@
 {
   "model": "deepseek/deepseek-v4-flash",
-  "task": "translation_enfr",
-  "case": 49,
+  "task": "json_transform_v2",
+  "case": 26,
   "response": "",
-  "score": 4,
-  "cost": 0.00028574,
+  "score": 1,
+  "cost": 0.00030086,
   "expected": "",
   "tokens": {
-    "input": 41,
+    "input": 149,
     "output": 500
   }
 }

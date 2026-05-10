@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-flash",
   "task": "code_generation",
   "case": 46,
-  "response": "min_even = None\nmin_index = None\nfor i, val in enumerate(arr):\n    if val % 2 == 0:\n        if min_even is None or val < min_even or (val == min_even and i < min_index):\n            min_even = val\n            min_index = i\nif min_even is None:\n    return []\nreturn [min_even, min_index]",
+  "response": "```python\n    smallest_even = None\n    smallest_index = None\n    \n    for i, val in enumerate(arr):\n        if val % 2 == 0:\n            if smallest_even is None or val < smallest_even:\n                smallest_even = val\n                smallest_index = i\n    \n    if smallest_even is None:\n        return []\n    return [smallest_even, smallest_index]\n```",
   "score": 5,
-  "cost": 0.00015638000000000002,
+  "cost": 9.59e-05,
   "expected": "",
   "tokens": {
     "input": 341,
-    "output": 194
+    "output": 86
   }
 }

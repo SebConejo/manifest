@@ -4,10 +4,10 @@
   "case": 21,
   "response": "recipe",
   "score": 0,
-  "cost": 0.00024976,
+  "cost": 9.408000000000001e-05,
   "expected": "ingredient_substitution",
   "tokens": {
     "input": 568,
-    "output": 304
+    "output": 26
   }
 }

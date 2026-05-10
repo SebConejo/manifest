@@ -4,10 +4,10 @@
   "case": 12,
   "response": "{\"name\": \"get_stock_price\", \"arguments\": {\"symbol\": \"AAPL\"}}",
   "score": 5,
-  "cost": 5.978e-05,
+  "cost": 2.3940000000000005e-05,
   "expected": "",
   "tokens": {
     "input": 87,
-    "output": 85
+    "output": 21
   }
 }

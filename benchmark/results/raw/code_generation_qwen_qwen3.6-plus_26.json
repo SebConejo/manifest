@@ -2,14 +2,12 @@
   "model": "qwen/qwen3.6-plus",
   "task": "code_generation",
   "case": 26,
-  "response": "for i in range(len(l)):\n        seen = set()\n        for j in range(i + 1, len(l)):\n            target = -(l[i] + l[j])\n            if target in seen:\n                return True\n            seen.add(l[j])\n    return False",
+  "response": "l.sort()\n    for i in range(len(l) - 2):\n        left, right = i + 1, len(l) - 1\n        while left < right:\n            s = l[i] + l[left] + l[right]\n            if s == 0:\n                return True\n            elif s < 0:\n                left += 1\n            else:\n                right -= 1\n    return False",
   "score": 4,
-  "cost": 0.005002400000000001,
+  "cost": 0.0057928,
   "expected": "",
   "tokens": {
     "input": 204,
-    "output": 3797
-  },
-  "judge_rerun": true,
-  "judge_raw": "4"
+    "output": 4405
+  }
 }

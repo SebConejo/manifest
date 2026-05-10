@@ -4,10 +4,10 @@
   "case": 17,
   "response": "todo_list",
   "score": 0,
-  "cost": 0.00016590000000000002,
+  "cost": 9.478000000000001e-05,
   "expected": "reminder",
   "tokens": {
     "input": 569,
-    "output": 154
+    "output": 27
   }
 }

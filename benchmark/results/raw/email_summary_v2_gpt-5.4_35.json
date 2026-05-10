@@ -2,12 +2,12 @@
   "model": "gpt-5.4",
   "task": "email_summary_v2",
   "case": 35,
-  "response": "Trust & Safety is updating the content moderation policy to address AI-generated content: AI-generated images must be labeled, deepfakes are prohibited, and AI-assisted text is allowed only with disclosure. Enforcement begins June 1, and training materials are being prepared.",
-  "score": 5,
-  "cost": 0.000626,
+  "response": "Trust & Safety is updating the content moderation policy to address AI-generated content: AI-generated images must be labeled, deepfakes are prohibited, and AI-assisted text is allowed only with disclosure. Enforcement begins June 1, and action items are to review the new rules and complete the upcoming training materials when they are available.",
+  "score": 4,
+  "cost": 0.00073,
   "expected": "",
   "tokens": {
     "input": 97,
-    "output": 54
+    "output": 67
   }
 }

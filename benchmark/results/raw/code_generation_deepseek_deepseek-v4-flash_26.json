@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-flash",
   "task": "code_generation",
   "case": 26,
-  "response": "```python\nn = len(l)\nfor i in range(n - 2):\n    for j in range(i + 1, n - 1):\n        for k in range(j + 1, n):\n            if l[i] + l[j] + l[k] == 0:\n                return True\nreturn False\n```",
+  "response": "```python\nn = len(l)\nfor i in range(n):\n    for j in range(i+1, n):\n        for k in range(j+1, n):\n            if l[i] + l[j] + l[k] == 0:\n                return True\nreturn False\n```",
   "score": 5,
-  "cost": 6.65e-05,
+  "cost": 0.00034426000000000004,
   "expected": "",
   "tokens": {
     "input": 195,
-    "output": 70
+    "output": 566
   }
 }

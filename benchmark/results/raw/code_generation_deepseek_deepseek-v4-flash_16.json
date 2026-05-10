@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-flash",
   "task": "code_generation",
   "case": 16,
-  "response": "```python\nN = len(grid)\n# Find the cell with value 1\nstart = None\nfor i in range(N):\n    for j in range(N):\n        if grid[i][j] == 1:\n            start = (i, j)\n            break\n    if start:\n        break\nr, c = start\nres = [1]\nfor _ in range(k - 1):\n    best_val = float('inf')\n    best_r, best_c = -1, -1\n    for dr, dc in [(-1,0),(1,0),(0,-1),(0,1)]:\n        nr, nc = r + dr, c + dc\n        if 0 <= nr < N and 0 <= nc < N:\n            if grid[nr][nc] < best_val:\n                best_val = grid[nr][nc]\n                best_r, best_c = nr, nc\n    r, c = best_r, best_c\n    res.append(best_val)\nreturn res\n```",
-  "score": 3,
-  "cost": 0.0013178200000000001,
+  "response": "We need to find the lexicographically smallest sequence of length k by moving through adjacent cells.  \nA BFS-like approach with priority queue works: start from the smallest value cell, and at each step expand to neighbors, keeping the smallest path lexicographically.  \n\n```python\nimport heapq\n\nN = len(grid)\n# Min-heap: (value, row, col, path)\nheap = []\n# Initialize with all cells\nfor r in range(N):\n    for c in range(N):\n        heapq.heappush(heap, (grid[r][c], r, c, [grid[r][c]]))\n\nvisited = set()\nwhile heap:\n    val, r, c, path = heapq.heappop(heap)\n    if len(path) == k:\n        return path\n    state = (r, c, tuple(path))\n    if state in visited:\n        continue\n    visited.add(state)\n    for dr, dc in [(-1,0),(1,0),(0,-1),(0,1)]:\n        nr, nc = r + dr, c + dc\n        if 0 <= nr < N and 0 <= nc < N:\n            new_path = path + [grid[nr][nc]]\n            heapq.heappush(heap, (grid[nr][nc], nr, nc, new_path))\nreturn []\n```",
+  "score": 4,
+  "cost": 0.00021574000000000002,
   "expected": "",
   "tokens": {
     "input": 425,
-    "output": 2247
+    "output": 279
   }
 }

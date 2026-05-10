@@ -4,10 +4,10 @@
   "case": 0,
   "response": "{\"name\": \"send_email\", \"arguments\": {\"to\": \"john@example.com\", \"subject\": \"Meeting Tomorrow\", \"body\": \"Hi John can we meet at 2pm\"}}",
   "score": 5,
-  "cost": 6.846e-05,
+  "cost": 8.470000000000001e-05,
   "expected": "",
   "tokens": {
     "input": 109,
-    "output": 95
+    "output": 124
   }
 }

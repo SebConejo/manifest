@@ -4,10 +4,10 @@
   "case": 10,
   "response": "{\"name\": \"play_song\", \"arguments\": {\"title\": \"Bohemian Rhapsody\", \"artist\": \"Queen\"}}",
   "score": 5,
-  "cost": 6.818e-05,
+  "cost": 2.8980000000000004e-05,
   "expected": "",
   "tokens": {
     "input": 87,
-    "output": 100
+    "output": 30
   }
 }

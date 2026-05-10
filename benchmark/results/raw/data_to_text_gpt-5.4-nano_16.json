@@ -1,0 +1,13 @@
+{
+  "model": "gpt-5.4-nano",
+  "task": "data_to_text",
+  "case": 16,
+  "response": "Acme Corp reported quarterly revenues of $12.3M in Q1, $14.1M in Q2, $11.8M in Q3, and $16.2M in Q4, for a total of $54.4M. This represents 18% YoY growth, with the company employing 342 people and headquartered in Austin, TX.",
+  "score": 5,
+  "cost": 4.27e-05,
+  "expected": "",
+  "tokens": {
+    "input": 107,
+    "output": 80
+  }
+}

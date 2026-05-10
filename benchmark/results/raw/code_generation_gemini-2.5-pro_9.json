@@ -2,12 +2,12 @@
   "model": "gemini-2.5-pro",
   "task": "code_generation",
   "case": 9,
-  "response": "```python\n    return sum(n**2 for n in lst if isinstance(n, int) and n > 0 and n % 2 != 0)\n```",
+  "response": "return sum(num**2 for num in lst if isinstance(num, int) and num >= 0 and num % 2 != 0)",
   "score": 4,
-  "cost": 0.00060125,
+  "cost": 0.00054125,
   "expected": "",
   "tokens": {
     "input": 185,
-    "output": 37
+    "output": 31
   }
 }

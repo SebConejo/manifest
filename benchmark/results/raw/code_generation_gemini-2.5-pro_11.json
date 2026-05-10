@@ -2,12 +2,12 @@
   "model": "gemini-2.5-pro",
   "task": "code_generation",
   "case": 11,
-  "response": "s = 0\n    p = 1\n    for number in numbers:\n        s += number\n        p *= number\n    return s, p",
-  "score": 3,
-  "cost": 0.00052125,
+  "response": "```python\n    s = sum(numbers)\n    p = 1\n    for number in numbers:\n        p *= number\n    return (s, p)\n```",
+  "score": 4,
+  "cost": 0.00057125,
   "expected": "",
   "tokens": {
     "input": 153,
-    "output": 33
+    "output": 38
   }
 }

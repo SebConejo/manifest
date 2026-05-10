@@ -1,0 +1,13 @@
+{
+  "model": "gpt-5.4-mini",
+  "task": "code_review_v2",
+  "case": 39,
+  "response": "There are several problems with this query:\n\n## 1) SQL injection vulnerability\nYou are concatenating untrusted input directly into SQL:\n\n```sql\n... WHERE id = \" + request.params.id + \"\n```\n\nIf `request.params.id` comes from a user, an attacker can inject SQL, for example:\n\n- `1 OR 1=1`\n- `1; DROP TABLE users; --`\n\n### Fix\nUse a parameterized query / prepared statement instead of string concatenation.\n\nExample:\n\n```sql\nSELECT * FROM users WHERE id = ? LIMIT 1\n```\n\nand bind `request.params.id` as a parameter through your database driver.\n\n---\n\n## 2) Wrong quoting for `id`\nThe query uses double quotes around the value:\n\n```sql\nWHERE id = \" + request.params.id + \"\n```\n\nIn SQL, string literals should typically use single quotes, but more importantly, **you should not manually quote values at all** when using parameters. If `id` is numeric, it should be passed as a numeric parameter.\n\n### Fix\nBind it as an integer if `id` is supposed to be numeric.\n\n---\n\n## 3) `SELECT *` is too broad\nFetching all columns can expose data you don\u2019t need, including sensitive fields like password hashes, tokens, or internal metadata.\n\n### Fix\nSelect only the columns you actually need:\n\n```sql\nSELECT id, username, email FROM users WHERE id = ? LIMIT 1\n```\n\n---\n\n## 4) Input validation is missing\nEven with parameterized queries, you should validate that `request.params.id` is a valid user ID.\n\n### Fix\n- Ensure it is present\n- Ensure it is an integer\n- Ensure it is within expected bounds\n\nExample logic:\n- reject non-numeric input\n- reject negative values if invalid\n- optionally enforce max length / range\n\n---\n\n## 5) `LIMIT 1` is fine, but may hide logic issues\n`LIMIT 1` prevents returning multiple rows, but if `id` is truly unique, your schema should enforce that with a primary key or unique constraint.\n\n### Fix\nMake `id` the primary key or a unique indexed column.\n\n---\n\n## Safer version\nExample using a parameterized query:\n\n```sql\nSELECT id, username, email\nFROM users\nWHERE id = ?\nLIMIT 1\n```\n\nThen pass `request.params.id` as a bound parameter, not via string concatenation.\n\n---\n\n## Summary\n### Problems:\n- SQL injection risk\n- Incorrect manual string building\n- Overly broad column selection\n- Missing validation\n- Possible schema design issue if `id` isn\u2019t unique\n\n### Best fix:\nUse prepared statements, validate the input, and fetch only needed columns.",
+  "score": 5,
+  "cost": 0.000693,
+  "expected": "",
+  "tokens": {
+    "input": 54,
+    "output": 564
+  }
+}

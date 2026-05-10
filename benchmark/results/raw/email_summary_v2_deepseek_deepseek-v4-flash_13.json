@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-flash",
   "task": "email_summary_v2",
   "case": 13,
-  "response": "The Q1 customer success report shows improvements in NPS (62) and churn rate (1.2%), with three enterprise expansions worth $800K in the pipeline. Action items include prioritizing top feature requests for SSO, custom dashboards, and API rate limit increases.",
+  "response": "The Q1 report shows improved customer metrics (NPS up to 62, churn down to 1.2%) and three enterprise expansions worth $800K in the pipeline. Key action items include prioritizing top feature requests (SSO, custom dashboards, API rate limit increase) and advancing the expansion opportunities.",
   "score": 5,
-  "cost": 4.788e-05,
+  "cost": 0.00013188000000000002,
   "expected": "",
   "tokens": {
     "input": 114,
-    "output": 57
+    "output": 207
   }
 }

@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-flash",
   "task": "code_generation",
   "case": 23,
-  "response": "Here\u2019s the function body you can use:  \n\n```python\n    min_sum = float('inf')\n    current_sum = 0\n    for num in nums:\n        current_sum += num\n        if current_sum < min_sum:\n            min_sum = current_sum\n        if current_sum > 0:\n            current_sum = 0\n    return min_sum\n```",
-  "score": 4,
-  "cost": 6.034e-05,
+  "response": "current_min = nums[0]\nglobal_min = nums[0]\nfor num in nums[1:]:\n    current_min = min(num, current_min + num)\n    global_min = min(global_min, current_min)\nreturn global_min",
+  "score": 5,
+  "cost": 0.00022050000000000002,
   "expected": "",
   "tokens": {
     "input": 119,
-    "output": 78
+    "output": 364
   }
 }

@@ -2,12 +2,12 @@
   "model": "gpt-5.5",
   "task": "structured_output",
   "case": 2,
-  "response": "{\n  \"product\": \"iPhone 15 Pro\",\n  \"price\": 999.0,\n  \"colors\": [\n    \"black titanium\",\n    \"white titanium\",\n    \"blue titanium\"\n  ],\n  \"storage_options\": [\n    \"128GB\",\n    \"256GB\",\n    \"512GB\",\n    \"1TB\"\n  ]\n}",
+  "response": "{\"product\":\"iPhone 15 Pro\",\"price\":999.0,\"colors\":[\"black titanium\",\"white titanium\",\"blue titanium\"],\"storage_options\":[\"128GB\",\"256GB\",\"512GB\",\"1TB\"]}",
   "score": 5,
-  "cost": 0.001452,
+  "cost": 0.001092,
   "expected": "",
   "tokens": {
     "input": 92,
-    "output": 98
+    "output": 68
   }
 }

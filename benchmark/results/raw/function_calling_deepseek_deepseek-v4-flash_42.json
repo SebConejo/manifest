@@ -4,10 +4,10 @@
   "case": 42,
   "response": "{\"name\": \"create_bucket\", \"arguments\": {\"name\": \"data-lake-prod\", \"region\": \"us-east-1\"}}",
   "score": 5,
-  "cost": 0.00010108,
+  "cost": 3.108000000000001e-05,
   "expected": "",
   "tokens": {
     "input": 94,
-    "output": 157
+    "output": 32
   }
 }

@@ -1,0 +1,13 @@
+{
+  "model": "gpt-5.4-nano",
+  "task": "data_to_text",
+  "case": 22,
+  "response": "The server **prod-web-01** in **us-east-1** is running with **78% CPU** utilization and **12.4/16 GB** memory usage. It has **234/500 GB** disk space available, **45 days** of uptime, and **127** active connections, with **P99 latency of 145 ms**, **3 errors per hour**, indicating generally stable performance.",
+  "score": 5,
+  "cost": 4.43e-05,
+  "expected": "",
+  "tokens": {
+    "input": 99,
+    "output": 86
+  }
+}

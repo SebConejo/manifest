@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-flash",
   "task": "code_explanation",
   "case": 25,
-  "response": "This code implements the **Observer pattern** as an event-driven system, where `on()` registers callback functions to listen for specific events, `emit()` triggers all registered callbacks for a given event with provided arguments, and `off()` removes a specific callback from an event's listener list.",
+  "response": "",
   "score": 5,
-  "cost": 4.97e-05,
+  "cost": 0.00012866000000000003,
   "expected": "",
   "tokens": {
     "input": 119,
-    "output": 59
+    "output": 200
   }
 }

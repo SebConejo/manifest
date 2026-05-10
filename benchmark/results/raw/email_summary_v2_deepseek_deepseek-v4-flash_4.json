@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-flash",
   "task": "email_summary_v2",
   "case": 4,
-  "response": "Maria Chen proposes a revenue-share partnership where DataSync handles infrastructure and the recipient integrates their SDK, promising a 60% latency reduction and $2M additional annual revenue each. She asks if the recipient is available for a technical discussion next week.",
+  "response": "Maria Chen proposes a revenue-share partnership where DataSync handles infrastructure and the recipient integrates their SDK, potentially reducing latency by 60% and generating $2M in additional annual revenue for each party. She requests a technical discussion next week.",
   "score": 5,
-  "cost": 0.00010752000000000001,
+  "cost": 3.9760000000000006e-05,
   "expected": "",
   "tokens": {
     "input": 88,
-    "output": 170
+    "output": 49
   }
 }

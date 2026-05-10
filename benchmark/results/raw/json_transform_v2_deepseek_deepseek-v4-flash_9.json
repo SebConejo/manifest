@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-flash",
   "task": "json_transform_v2",
   "case": 9,
-  "response": "{\n  \"summary\": {\n    \"total\": 5,\n    \"by_level\": {\n      \"ERROR\": 3,\n      \"WARN\": 1,\n      \"INFO\": 1\n    }\n  },\n  \"errors\": [\n    {\"msg\": \"timeout\", \"count\": 2, \"first_seen\": \"10:00\"},\n    {\"msg\": \"disk full\", \"count\": 1, \"first_seen\": \"10:05\"}\n  ]\n}",
+  "response": "{\"summary\":{\"total\":5,\"by_level\":{\"ERROR\":3,\"WARN\":1,\"INFO\":1}},\"errors\":[{\"msg\":\"timeout\",\"count\":2,\"first_seen\":\"10:00\"},{\"msg\":\"disk full\",\"count\":1,\"first_seen\":\"10:05\"}]}",
   "score": 5,
-  "cost": 0.00032956000000000006,
+  "cost": 6.412e-05,
   "expected": "",
   "tokens": {
     "input": 198,
-    "output": 539
+    "output": 65
   }
 }

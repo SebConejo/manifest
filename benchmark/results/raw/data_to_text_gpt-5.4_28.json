@@ -2,14 +2,12 @@
   "model": "gpt-5.4",
   "task": "data_to_text",
   "case": 28,
-  "response": "The Massachusetts Institute of Technology (MIT), founded in 1861, is ranked #1 and enrolls about 11,500 students. It has an exceptionally selective 3.9% acceptance rate, employs 1,069 faculty members, and charges tuition of $57,590 per year. MIT also has a massive $24.6 billion endowment and is associated with 98 Nobel laureates.",
+  "response": "MIT, founded in 1861, is ranked #1 and enrolls about 11,500 students. It has 1,069 faculty members, an exceptionally selective 3.9% acceptance rate, annual tuition of $57,590, and a $24.6 billion endowment. The university is also associated with 98 Nobel laureates.",
   "score": 5,
-  "cost": 0.000876,
+  "cost": 0.000796,
   "expected": "",
   "tokens": {
     "input": 98,
-    "output": 85
-  },
-  "judge_rerun": true,
-  "judge_raw": "5"
+    "output": 75
+  }
 }

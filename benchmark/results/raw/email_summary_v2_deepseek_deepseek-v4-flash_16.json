@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-flash",
   "task": "email_summary_v2",
   "case": 16,
-  "response": "The April marketing campaign generated 45K impressions, 2.3K clicks, and 187 signups at a cost of $12K ($64 CAC), with a higher CTR but lower conversion than March. The action item is to A/B test the landing page call-to-action.",
+  "response": "The April marketing campaign generated 45K impressions, 2.3K clicks, and 187 signups at a cost of $12K ($64 CAC), with CTR up 1.2 percentage points but conversion down 0.8 points versus March. The team recommends A/B testing the landing page call-to-action to improve conversion.",
   "score": 5,
-  "cost": 4.9000000000000005e-05,
+  "cost": 0.00012404,
   "expected": "",
   "tokens": {
     "input": 114,
-    "output": 59
+    "output": 193
   }
 }

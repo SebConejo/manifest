@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-flash",
   "task": "email_summary_v2",
   "case": 35,
-  "response": "The email announces a policy update requiring AI-generated images to be labeled, deepfakes to be prohibited, and AI-assisted text to be disclosed, with enforcement beginning June 1. Action items include reviewing the new rules and preparing for upcoming training materials.",
-  "score": 4,
-  "cost": 4.186e-05,
+  "response": "The email announces updated content moderation rules requiring labeling for AI-generated images, prohibiting deepfakes, and mandating disclosure for AI-assisted text, with enforcement beginning June 1. Teams should prepare for compliance and review upcoming training materials.",
+  "score": 5,
+  "cost": 9.394000000000001e-05,
   "expected": "",
   "tokens": {
     "input": 95,
-    "output": 51
+    "output": 144
   }
 }

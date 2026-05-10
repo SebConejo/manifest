@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-flash",
   "task": "code_explanation",
   "case": 5,
-  "response": "This code implements the Singleton design pattern by overriding the `__new__` method to ensure only one instance of the class is ever created: on the first instantiation, it stores the instance in a class variable `_instance`, and on all subsequent calls, it returns that stored instance.",
+  "response": "This code implements the Singleton design pattern by overriding the `__new__` method to ensure only one instance of the class is ever created. It checks if the class variable `_instance` is `None`; if so, it creates a new instance via `super().__new__(cls)` and stores it, then always returns that single stored instance.",
   "score": 5,
-  "cost": 0.00011368000000000001,
+  "cost": 8.904e-05,
   "expected": "",
   "tokens": {
     "input": 72,
-    "output": 185
+    "output": 141
   }
 }

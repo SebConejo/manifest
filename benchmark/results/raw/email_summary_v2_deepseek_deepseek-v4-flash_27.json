@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-flash",
   "task": "email_summary_v2",
   "case": 27,
-  "response": "The sprint retrospective highlighted successful on-time delivery of the auth redesign and strong cross-team collaboration, while identifying excessive context switches and lengthy standups as areas for improvement. Action items include limiting work-in-progress to two items per developer and implementing timeboxed standups with a parking lot for extended discussions.",
+  "response": "The sprint retrospective highlighted successful on-time delivery of the auth redesign and strong cross-team collaboration, but noted excessive context switches and overly long standups. Action items include limiting work-in-progress to two items per developer and implementing timeboxed standups with a parking lot.",
   "score": 5,
-  "cost": 4.8440000000000004e-05,
+  "cost": 9.604000000000001e-05,
   "expected": "",
   "tokens": {
     "input": 102,
-    "output": 61
+    "output": 146
   }
 }

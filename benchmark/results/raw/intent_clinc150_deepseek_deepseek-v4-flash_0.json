@@ -4,10 +4,10 @@
   "case": 0,
   "response": "rollover_401k",
   "score": 5,
-  "cost": 0.00013566,
+  "cost": 8.358000000000001e-05,
   "expected": "rollover_401k",
   "tokens": {
     "input": 573,
-    "output": 99
+    "output": 6
   }
 }

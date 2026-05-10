@@ -4,12 +4,10 @@
   "case": 16,
   "response": "{\"by_date\":{\"2024-01-15\":{\"total\":165.5,\"categories\":{\"food\":120.5,\"transport\":45}},\"2024-01-16\":{\"total\":230,\"categories\":{\"food\":200,\"transport\":30}}}}",
   "score": 5,
-  "cost": 0.002147275,
+  "cost": 0.0026685750000000003,
   "expected": "",
   "tokens": {
     "input": 195,
-    "output": 1603
-  },
-  "judge_rerun": true,
-  "judge_raw": "5"
+    "output": 2004
+  }
 }

@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-flash",
   "task": "code_generation",
   "case": 20,
-  "response": "val_to_roman = [\n        (1000, 'M'),\n        (900, 'CM'),\n        (500, 'D'),\n        (400, 'CD'),\n        (100, 'C'),\n        (90, 'XC'),\n        (50, 'L'),\n        (40, 'XL'),\n        (10, 'X'),\n        (9, 'IX'),\n        (5, 'V'),\n        (4, 'IV'),\n        (1, 'I')\n    ]\n    result = []\n    for value, symbol in val_to_roman:\n        while number >= value:\n            result.append(symbol)\n            number -= value\n    return ''.join(result).lower()",
+  "response": "```python\n    roman_map = [\n        (1000, 'm'), (900, 'cm'), (500, 'd'), (400, 'cd'),\n        (100, 'c'), (90, 'xc'), (50, 'l'), (40, 'xl'),\n        (10, 'x'), (9, 'ix'), (5, 'v'), (4, 'iv'), (1, 'i')\n    ]\n    result = ''\n    for value, symbol in roman_map:\n        while number >= value:\n            result += symbol\n            number -= value\n    return result\n```",
   "score": 5,
-  "cost": 0.00030604000000000004,
+  "cost": 0.00017164,
   "expected": "",
   "tokens": {
     "input": 134,
-    "output": 513
+    "output": 273
   }
 }

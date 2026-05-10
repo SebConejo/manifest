@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-flash",
   "task": "email_summary_v2",
   "case": 46,
-  "response": "A critical SQL injection vulnerability (CVSS 9.8) exists in /api/v2/auth/login affecting versions v3.2.0-v3.4.1, with a patch ready for review. The action item is to approve and deploy the hotfix within 24 hours.",
+  "response": "A critical SQL injection vulnerability (CVSS 9.8) has been identified in the login endpoint, affecting versions v3.2.0 through v3.4.1. The patch is ready for review, and a hotfix is recommended within 24 hours.",
   "score": 5,
-  "cost": 8.498e-05,
+  "cost": 4.466e-05,
   "expected": "",
   "tokens": {
     "input": 95,
-    "output": 128
+    "output": 56
   }
 }

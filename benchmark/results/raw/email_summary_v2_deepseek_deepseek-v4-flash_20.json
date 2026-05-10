@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-flash",
   "task": "email_summary_v2",
   "case": 20,
-  "response": "",
+  "response": "A disk space alert on prod-db-01 was resolved by manual intervention after automated cleanup failed to resize, with no customer impact. The root cause was a misconfigured log rotation after a migration, which needs to be fixed to prevent recurrence.",
   "score": 5,
-  "cost": 0.00012516,
+  "cost": 0.00015428,
   "expected": "",
   "tokens": {
     "input": 94,
-    "output": 200
+    "output": 252
   }
 }

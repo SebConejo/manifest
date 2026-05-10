@@ -1,0 +1,13 @@
+{
+  "model": "gpt-5.4-nano",
+  "task": "data_to_text",
+  "case": 25,
+  "response": "Japan has a population of about 125 million and a GDP of roughly $4.2 trillion, growing by 1.1%. Key economic indicators include an unemployment rate of 2.6%, inflation of 3.2%, and public debt equal to about 263% of GDP, while life expectancy is 84.6 years and exports total around $756 billion.",
+  "score": 5,
+  "cost": 4.1800000000000006e-05,
+  "expected": "",
+  "tokens": {
+    "input": 102,
+    "output": 79
+  }
+}

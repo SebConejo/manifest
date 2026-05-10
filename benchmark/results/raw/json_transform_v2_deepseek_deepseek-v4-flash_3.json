@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-flash",
   "task": "json_transform_v2",
   "case": 3,
-  "response": "{\"product\": \"Widget Pro\", \"avg_rating\": 3.8, \"review_count\": 5, \"rating_distribution\": {\"1\": 0, \"2\": 1, \"3\": 1, \"4\": 1, \"5\": 2}}",
+  "response": "{\n  \"product\": \"Widget Pro\",\n  \"avg_rating\": 3.8,\n  \"review_count\": 5,\n  \"rating_distribution\": {\n    \"1\": 0,\n    \"2\": 1,\n    \"3\": 1,\n    \"4\": 1,\n    \"5\": 2\n  }\n}",
   "score": 5,
-  "cost": 0.00016408000000000001,
+  "cost": 6.384e-05,
   "expected": "",
   "tokens": {
     "input": 160,
-    "output": 253
+    "output": 74
   }
 }

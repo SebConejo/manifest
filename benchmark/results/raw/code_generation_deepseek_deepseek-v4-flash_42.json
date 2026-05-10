@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-flash",
   "task": "code_generation",
   "case": 42,
-  "response": "",
-  "score": 1,
-  "cost": 0.00030436,
+  "response": "if n > m:\n    return -1\ntotal = sum(range(n, m+1))\ncount = m - n + 1\navg = total / count\nrounded = round(avg)\nreturn bin(rounded)",
+  "score": 5,
+  "cost": 5.068000000000001e-05,
   "expected": "",
   "tokens": {
     "input": 174,
-    "output": 500
+    "output": 47
   }
 }

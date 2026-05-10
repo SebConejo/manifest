@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-flash",
   "task": "code_generation",
   "case": 32,
-  "response": "",
-  "score": 0,
-  "cost": 0.00030282,
+  "response": "```python\nresult = []\nword_chars = []\nfor ch in s:\n    if ch == ' ':\n        if word_chars:\n            result.append(''.join(sorted(word_chars)))\n            word_chars = []\n        result.append(' ')\n    else:\n        word_chars.append(ch)\nif word_chars:\n    result.append(''.join(sorted(word_chars)))\nreturn ''.join(result)\n```",
+  "score": 4,
+  "cost": 0.0009216200000000002,
   "expected": "",
   "tokens": {
     "input": 163,
-    "output": 500
+    "output": 1605
   }
 }

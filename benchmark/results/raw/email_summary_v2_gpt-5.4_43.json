@@ -1,0 +1,13 @@
+{
+  "model": "gpt-5.4",
+  "task": "email_summary_v2",
+  "case": 43,
+  "response": "The open source dependency audit scanned 234 packages and found two licensing issues: a charting library using AGPL, which is incompatible with the company\u2019s SaaS model, and one package with no license. Before the next release, Legal/Engineering recommends removing both packages and replacing the AGPL charting library with the Apache-licensed Chart.js.",
+  "score": 5,
+  "cost": 0.000788,
+  "expected": "",
+  "tokens": {
+    "input": 106,
+    "output": 72
+  }
+}

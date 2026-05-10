@@ -2,12 +2,12 @@
   "model": "gemini-2.5-pro",
   "task": "data_to_text",
   "case": 9,
-  "response": "Japan is a nation of 125 million people with a $4.2 trillion economy and exports totaling $756 billion. The country's key economic indicators show a GDP growth of 1.1%, a low unemployment rate of 2.6%, and an inflation rate of 3.2%, though it carries a high debt-to-GDP ratio of 263%. Additionally, Japan's population enjoys a very high life expectancy of 84.6 years.",
+  "response": "Japan, a nation of 125 million people, has a $4.2 trillion economy experiencing 1.1% GDP growth, 3.2% inflation, and a low unemployment rate of 2.6%. The country's exports total $756 billion, but it contends with a high debt-to-GDP ratio of 263%, even as its populace enjoys an impressive life expectancy of 84.6 years.",
   "score": 5,
-  "cost": 0.00114875,
+  "cost": 0.00106875,
   "expected": "",
   "tokens": {
     "input": 103,
-    "output": 102
+    "output": 94
   }
 }

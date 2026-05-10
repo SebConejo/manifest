@@ -2,12 +2,12 @@
   "model": "gpt-5.4",
   "task": "email_summary_v2",
   "case": 48,
-  "response": "Maria Chen, CEO of DataSync, is proposing a revenue-share partnership in which DataSync would handle the data sync infrastructure and your team would integrate their SDK, with projected benefits of a 60% reduction in customer latency and about $2M in additional annual revenue for each company. The action item is to decide whether to pursue the proposal and, if interested, schedule a technical discussion with her next week.",
+  "response": "Maria Chen, CEO of DataSync, is proposing a revenue-share partnership in which DataSync would handle the data synchronization infrastructure and the recipient would integrate DataSync\u2019s SDK, potentially reducing customer latency by 60% and generating an estimated $2M in additional annual revenue for each company. The action item is to consider the proposal and respond about availability for a technical discussion next week.",
   "score": 5,
-  "cost": 0.00086,
+  "cost": 0.000812,
   "expected": "",
   "tokens": {
     "input": 90,
-    "output": 85
+    "output": 79
   }
 }

@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-flash",
   "task": "code_explanation",
   "case": 2,
-  "response": "This code implements the **Quicksort** algorithm using a **divide-and-conquer** approach: it selects the middle element as the pivot, partitions the array into three lists (elements less than, equal to, and greater than the pivot), then recursively sorts the left and right partitions before concatenating them with the middle.",
+  "response": "This code implements the quicksort algorithm using a three-way partitioning scheme (similar to the Dutch national flag problem), where the middle element is chosen as the pivot, and the array is split into elements less than, equal to, and greater than the pivot before recursively sorting the left and right partitions.",
   "score": 5,
-  "cost": 5.3060000000000004e-05,
+  "cost": 0.00011578,
   "expected": "",
   "tokens": {
     "input": 115,
-    "output": 66
+    "output": 178
   }
 }

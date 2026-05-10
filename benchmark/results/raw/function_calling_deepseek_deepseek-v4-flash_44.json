@@ -4,10 +4,10 @@
   "case": 44,
   "response": "{\"name\": \"set_log_level\", \"arguments\": {\"service\": \"payment\", \"level\": \"debug\"}}",
   "score": 5,
-  "cost": 6.0620000000000006e-05,
+  "cost": 2.7580000000000007e-05,
   "expected": "",
   "tokens": {
     "input": 97,
-    "output": 84
+    "output": 25
   }
 }

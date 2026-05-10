@@ -4,10 +4,10 @@
   "case": 1,
   "response": "groups = paren_string.split()\nresult = []\nfor group in groups:\n    depth = 0\n    max_depth = 0\n    for ch in group:\n        if ch == '(':\n            depth += 1\n            if depth > max_depth:\n                max_depth = depth\n        elif ch == ')':\n            depth -= 1\n    result.append(max_depth)\nreturn result",
   "score": 5,
-  "cost": 0.00010822,
+  "cost": 0.00014014000000000002,
   "expected": "",
   "tokens": {
     "input": 145,
-    "output": 157
+    "output": 214
   }
 }

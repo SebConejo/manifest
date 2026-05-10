@@ -2,12 +2,12 @@
   "model": "gpt-5.4",
   "task": "email_summary_v2",
   "case": 42,
-  "response": "Sales reports that after hosting 15 enterprise customers, the main feedback was a strong need for better bulk import, SSO being a blocker for several accounts, and positive reactions to the new analytics dashboard. Action items are to review the attached follow-up report, prioritize improvements to bulk import and SSO, and evaluate interest in offering the internal tool as a standalone product.",
+  "response": "Sales reported that in yesterday\u2019s workshop with 15 enterprise customers, the main feedback was demand for better bulk import, SSO blockers for 5 accounts, strong positive reactions to the new analytics dashboard, and unexpected interest from 3 customers in the internal tool as a standalone product. Action items are to review the attached follow-up report and prioritize improvements to bulk import and SSO while evaluating standalone product potential for the internal tool.",
   "score": 5,
-  "cost": 0.000824,
+  "cost": 0.00092,
   "expected": "",
   "tokens": {
     "input": 108,
-    "output": 76
+    "output": 88
   }
 }

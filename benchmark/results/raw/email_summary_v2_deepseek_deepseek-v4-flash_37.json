@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-flash",
   "task": "email_summary_v2",
   "case": 37,
-  "response": "BigCo offered $15M to acqui-hire the ML team, but the CEO considers it too low and recommends countering or declining. The team must discuss the response and inform the board before proceeding.",
+  "response": "The CEO believes BigCo's $15M offer for the ML team is too low and recommends countering or declining politely. The action items are to discuss the response internally and inform the board before replying.",
   "score": 5,
-  "cost": 9.828e-05,
+  "cost": 3.7800000000000004e-05,
   "expected": "",
   "tokens": {
     "input": 98,
-    "output": 151
+    "output": 43
   }
 }

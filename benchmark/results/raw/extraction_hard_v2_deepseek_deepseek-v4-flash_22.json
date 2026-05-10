@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-flash",
   "task": "extraction_hard_v2",
   "case": 22,
-  "response": "{\n  \"meeting_title\": \"Product sync\",\n  \"date\": \"2026-04-10\",\n  \"attendees\": [\"Jamie\", \"Priya\", \"Marcus\", \"Lin\"],\n  \"decisions\": [\n    \"Push the recommendation engine to Q3 because data pipeline won't be ready until June.\",\n    \"Allocate 20% of sprint capacity to tech debt.\"\n  ],\n  \"action_items\": [\n    {\n      \"owner\": \"Marcus\",\n      \"task\": \"Have onboarding mockups\",\n      \"deadline\": \"2026-04-18\"\n    },\n    {\n      \"owner\": \"Jamie\",\n      \"task\": \"Send updated roadmap\",\n      \"deadline\": \"2026-04-13\"\n    },\n    {\n      \"owner\": \"Lin\",\n      \"task\": \"Analytics dashboard\",\n      \"deadline\": \"2026-05-01\"\n    }\n  ]\n}",
+  "response": "",
   "score": 4,
-  "cost": 0.0009689400000000002,
+  "cost": 0.00047278000000000006,
   "expected": "",
   "tokens": {
     "input": 173,
-    "output": 1687
+    "output": 801
   }
 }

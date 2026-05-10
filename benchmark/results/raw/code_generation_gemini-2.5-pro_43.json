@@ -3,7 +3,7 @@
   "task": "code_generation",
   "case": 43,
   "response": "```python\n    if not numbers:\n        return []\n\n    result = [numbers[0]]\n    for x in numbers[1:]:\n        result.append(delimeter)\n        result.append(x)\n    return result\n```",
-  "score": 5,
+  "score": 4,
   "cost": 0.000695,
   "expected": "",
   "tokens": {

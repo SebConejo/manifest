@@ -2,14 +2,12 @@
   "model": "qwen/qwen3.6-plus",
   "task": "code_generation",
   "case": 20,
-  "response": "roman_map = [(1000, 'm'), (900, 'cm'), (500, 'd'), (400, 'cd'), (100, 'c'), (90, 'xc'), (50, 'l'), (40, 'xl'), (10, 'x'), (9, 'ix'), (5, 'v'), (4, 'iv'), (1, 'i')]\n    result = []\n    for value, numeral in roman_map:\n        while number >= value:\n            result.append(numeral)\n            number -= value\n    return ''.join(result)",
-  "score": 3,
-  "cost": 0.0029627000000000004,
+  "response": "val_map = [(1000, 'm'), (900, 'cm'), (500, 'd'), (400, 'cd'), (100, 'c'), (90, 'xc'), (50, 'l'), (40, 'xl'), (10, 'x'), (9, 'ix'), (5, 'v'), (4, 'iv'), (1, 'i')]\n    res = ''\n    for val, sym in val_map:\n        while number >= val:\n            res += sym\n            number -= val\n    return res",
+  "score": 5,
+  "cost": 0.002912,
   "expected": "",
   "tokens": {
     "input": 152,
-    "output": 2241
-  },
-  "judge_rerun": true,
-  "judge_raw": "3"
+    "output": 2202
+  }
 }

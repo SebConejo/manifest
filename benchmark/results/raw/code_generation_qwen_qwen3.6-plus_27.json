@@ -2,14 +2,12 @@
   "model": "qwen/qwen3.6-plus",
   "task": "code_generation",
   "case": 27,
-  "response": "```python\n    best_ext = extensions[0]\n    max_strength = -float('inf')\n    for ext in extensions:\n        strength = sum(1 for c in ext if c.isupper()) - sum(1 for c in ext if c.islower())\n        if strength > max_strength:\n            max_strength = strength\n            best_ext = ext\n    return f\"{class_name}.{best_ext}\"\n```",
+  "response": "strongest = max(extensions, key=lambda ext: sum(1 for c in ext if c.isupper()) - sum(1 for c in ext if c.islower()))\n    return f\"{class_name}.{strongest}\"",
   "score": 4,
-  "cost": 0.005525,
+  "cost": 0.0057889000000000005,
   "expected": "",
   "tokens": {
     "input": 320,
-    "output": 4170
-  },
-  "judge_rerun": true,
-  "judge_raw": "4"
+    "output": 4373
+  }
 }

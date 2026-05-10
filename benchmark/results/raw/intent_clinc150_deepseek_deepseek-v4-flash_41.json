@@ -4,10 +4,10 @@
   "case": 41,
   "response": "bill_due",
   "score": 5,
-  "cost": 0.00011298000000000002,
+  "cost": 9.506000000000001e-05,
   "expected": "bill_due",
   "tokens": {
     "input": 567,
-    "output": 60
+    "output": 28
   }
 }

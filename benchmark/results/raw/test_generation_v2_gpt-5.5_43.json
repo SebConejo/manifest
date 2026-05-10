@@ -2,12 +2,12 @@
   "model": "gpt-5.5",
   "task": "test_generation_v2",
   "case": 43,
-  "response": "",
-  "score": 3,
-  "cost": 0.024246,
+  "response": "```python\n# test_partial.py\nimport pytest\n\nfrom your_module import partial  # replace \"your_module\" with the module containing partial\n\n\ndef test_partial_binds_positional_arguments():\n    def collect(*args, **kwargs):\n        return args, kwargs\n\n    wrapped = partial(collect, 1, 2)\n\n    assert wrapped(3, 4) == ((1, 2, 3, 4), {})\n\n\ndef test_partial_binds_keyword_arguments():\n    def greet(greeting, name, punctuation=\"!\"):\n        return f\"{greeting}, {name}{punctuation}\"\n\n    wrapped = partial(greet, greeting=\"Hello\", punctuation=\".\")\n\n    assert wrapped(name=\"Ada\") == \"Hello, Ada.\"\n\n\ndef test_partial_mixes_bound_and_call_time_arguments():\n    def func(a, b, c=0, *, d=0):\n        return a, b, c, d\n\n    wrapped = partial(func, 1, c=3, d=4)\n\n    assert wrapped(2) == (1, 2, 3, 4)\n\n\ndef test_call_time_kwargs_override_bound_kwargs():\n    def collect(*args, **kwargs):\n        return args, kwargs\n\n    wrapped = partial(collect, color=\"red\", size=\"M\")\n\n    assert wrapped(color=\"blue\") == (\n        (),\n        {\n            \"color\": \"blue\",\n            \"size\": \"M\",\n        },\n    )\n\n\ndef test_call_time_kwarg_override_does_not_mutate_bound_kwargs():\n    def collect(*args, **kwargs):\n        return kwargs\n\n    wrapped = partial(collect, color=\"red\")\n\n    assert wrapped(color=\"blue\") == {\"color\": \"blue\"}\n    assert wrapped() == {\"color\": \"red\"}\n\n\ndef test_partial_with_no_bound_arguments_behaves_like_original_function():\n    def collect(*args, **kwargs):\n        return args, kwargs\n\n    wrapped = partial(collect)\n\n    assert wrapped(1, 2, key=\"value\") == ((1, 2), {\"key\": \"value\"})\n\n\ndef test_partial_supports_keyword_only_arguments():\n    def func(a, *, required_kw):\n        return a, required_kw\n\n    wrapped = partial(func, required_kw=\"bound\")\n\n    assert wrapped(10) == (10, \"bound\")\n\n\ndef test_missing_required_argument_raises_type_error():\n    def func(a, b):\n        return a + b\n\n    wrapped = partial(func, 1)\n\n    with pytest.raises(TypeError):\n        wrapped()\n\n\ndef test_unexpected_keyword_argument_raises_type_error():\n    def func(a):\n        return a\n\n    wrapped = partial(func)\n\n    with pytest.raises(TypeError):\n        wrapped(1, unexpected=True)\n\n\ndef test_duplicate_argument_value_raises_type_error():\n    def func(a):\n        return a\n\n    wrapped = partial(func, 1)\n\n    with pytest.raises(TypeError):\n        wrapped(a=2)\n\n\ndef test_exception_from_wrapped_function_is_propagated():\n    class CustomError(Exception):\n        pass\n\n    def func():\n        raise CustomError(\"boom\")\n\n    wrapped = partial(func)\n\n    with pytest.raises(CustomError, match=\"boom\"):\n        wrapped()\n```",
+  "score": 4,
+  "cost": 0.017862,
   "expected": "",
   "tokens": {
     "input": 82,
-    "output": 2000
+    "output": 1468
   }
 }

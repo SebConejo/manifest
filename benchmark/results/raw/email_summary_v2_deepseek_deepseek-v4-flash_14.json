@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-flash",
   "task": "email_summary_v2",
   "case": 14,
-  "response": "The AWS bill has increased 40% month-over-month due to new ML training jobs using p4d instances, costing an estimated $45K per month. A decision is needed by Friday between using spot instances (70% savings with interruption risk) or reserved instances (30% savings with commitment).",
+  "response": "The AWS bill has risen 40% month-over-month due to new ML training jobs using p4d instances, costing an estimated $45K per month. The team must decide by Friday between using spot instances (70% savings with interruption risk) or reserved instances (30% savings with commitment).",
   "score": 5,
-  "cost": 9.898e-05,
+  "cost": 8.946000000000001e-05,
   "expected": "",
   "tokens": {
     "input": 103,
-    "output": 151
+    "output": 134
   }
 }

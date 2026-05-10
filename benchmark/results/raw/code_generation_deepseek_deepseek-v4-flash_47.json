@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-flash",
   "task": "code_generation",
   "case": 47,
-  "response": "' '.join(str(i) for i in range(n + 1))",
+  "response": "' '.join(str(i) for i in range(n+1))",
   "score": 5,
-  "cost": 6.0060000000000004e-05,
+  "cost": 5.2220000000000005e-05,
   "expected": "",
   "tokens": {
     "input": 101,
-    "output": 82
+    "output": 68
   }
 }

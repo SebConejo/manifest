@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-flash",
   "task": "code_generation",
   "case": 24,
-  "response": "if a + b > c and a + c > b and b + c > a:\n        s = (a + b + c) / 2\n        area = (s * (s - a) * (s - b) * (s - c)) ** 0.5\n        return round(area, 2)\n    else:\n        return -1",
+  "response": "if a + b > c and a + c > b and b + c > a:\n    s = (a + b + c) / 2\n    area = (s * (s - a) * (s - b) * (s - c)) ** 0.5\n    return round(area, 2)\nelse:\n    return -1",
   "score": 5,
-  "cost": 0.00034692,
+  "cost": 6.468000000000001e-05,
   "expected": "",
   "tokens": {
     "input": 150,
-    "output": 582
+    "output": 78
   }
 }

@@ -4,10 +4,10 @@
   "case": 22,
   "response": "transfer",
   "score": 5,
-  "cost": 0.00010878000000000001,
+  "cost": 9.478000000000001e-05,
   "expected": "transfer",
   "tokens": {
     "input": 573,
-    "output": 51
+    "output": 26
   }
 }

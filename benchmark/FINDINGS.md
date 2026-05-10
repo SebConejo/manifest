@@ -9,18 +9,15 @@ Findings marked [PRELIMINARY] are based on partial data and may shift.**
 
 ## Data Snapshot
 
-- 50,351 valid data points (rebuilt from 50,490 raw JSON files, 139 empty-response rows excluded)
-- 35 models at 21/21 tasks with ≥40 valid cases each (57 total, 8 Azure doublons, 14 partial)
+- 50,978 valid data points (rebuilt from 51,096 raw JSON files, 118 empty-response rows excluded)
+- **41 models at 21/21 tasks** with ≥40 valid cases each (57 total, 5 Azure doublons, 11 partial)
 - 9 API providers (Anthropic, OpenAI, Google, Mistral, MiniMax, Moonshot, BytePlus, OpenRouter, Azure)
 - 21 v2 tasks (50 cases each), 13 v1 tasks (5-10 cases, exploratory only)
-- $99.29 spent of $250 budget (40%) — source: spend_tracker.json
-- 744 zeros remaining, all legitimate (729 exact-match + 15 LLM-judged)
-- 6,170 cases rejudged across 3 phases (4,648 + 620 + 902), 0 errors
-- 683 empty-response raw files remain across 86 task+model combos
+- $122.37 spent of $250 budget (49%) — source: spend_tracker.json, 60,066 calls
+- 759 zeros remaining, all legitimate
+- 6,170 cases rejudged across 3 phases, 0 errors
 
-*Previous snapshot (2026-05-07): 50,949 rows, 49 models "at 21/21", $98 spent.
-Those numbers predated the rebuild from raw files (which excluded empties) and
-used a looser definition of "complete" that counted empty-response rows as data.*
+*Previous snapshots: 50,351 rows / 35 complete / $99.29 (pre-rerun). 50,949 / 49 / $98 (pre-rebuild).*
 
 ---
 

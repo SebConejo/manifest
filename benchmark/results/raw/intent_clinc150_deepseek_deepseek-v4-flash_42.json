@@ -4,10 +4,10 @@
   "case": 42,
   "response": "next_song",
   "score": 5,
-  "cost": 0.00010388000000000002,
+  "cost": 9.492000000000002e-05,
   "expected": "next_song",
   "tokens": {
     "input": 566,
-    "output": 44
+    "output": 28
   }
 }

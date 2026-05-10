@@ -1,0 +1,13 @@
+{
+  "model": "gpt-5.4-mini",
+  "task": "data_to_text",
+  "case": 6,
+  "response": "The server **prod-web-01** in **us-east-1** is running with **78% CPU usage** and **12.4 out of 16 GB of memory** in use. It has **234 out of 500 GB of disk space** used, has been up for **45 days**, and is handling **127 connections** with a **P99 latency of 145 ms** and **3 errors per hour**.",
+  "score": 5,
+  "cost": 0.0001401,
+  "expected": "",
+  "tokens": {
+    "input": 99,
+    "output": 92
+  }
+}

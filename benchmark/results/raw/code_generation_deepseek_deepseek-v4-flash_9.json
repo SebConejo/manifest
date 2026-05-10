@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-flash",
   "task": "code_generation",
   "case": 9,
-  "response": "return sum(x*x for x in lst if isinstance(x, int) and not isinstance(x, bool) and x >= 0 and x % 2 == 1)",
+  "response": "total = 0\nfor num in lst:\n    if isinstance(num, int) and not isinstance(num, bool) and num >= 0 and num % 2 == 1:\n        total += num * num\nreturn total",
   "score": 4,
-  "cost": 0.00010038000000000001,
+  "cost": 0.00015974,
   "expected": "",
   "tokens": {
     "input": 173,
-    "output": 136
+    "output": 242
   }
 }

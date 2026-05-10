@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-flash",
   "task": "function_calling",
   "case": 46,
-  "response": "",
-  "score": 1,
-  "cost": 0.00018004000000000002,
+  "response": "{\"name\": \"restart_service\", \"arguments\": {\"name\": \"Redis cache server\"}}",
+  "score": 4,
+  "cost": 2.3800000000000006e-05,
   "expected": "",
   "tokens": {
     "input": 86,
-    "output": 300
+    "output": 21
   }
 }

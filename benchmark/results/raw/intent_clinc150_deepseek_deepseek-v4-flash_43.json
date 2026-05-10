@@ -4,10 +4,10 @@
   "case": 43,
   "response": "book_flight",
   "score": 5,
-  "cost": 0.0001232,
+  "cost": 9.688000000000001e-05,
   "expected": "book_flight",
   "tokens": {
     "input": 580,
-    "output": 75
+    "output": 28
   }
 }

@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-flash",
   "task": "code_generation",
   "case": 31,
-  "response": "return sorted([w for w in lst if len(w) % 2 == 0], key=lambda x: (len(x), x))",
+  "response": "filtered = [s for s in lst if len(s) % 2 == 0]\n    filtered.sort(key=lambda x: (len(x), x))\n    return filtered",
   "score": 4,
-  "cost": 0.00024206,
+  "cost": 0.00029190000000000005,
   "expected": "",
   "tokens": {
     "input": 217,
-    "output": 378
+    "output": 467
   }
 }
