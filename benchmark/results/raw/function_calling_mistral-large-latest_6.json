@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "function_calling",
+  "case": 6,
+  "response": "```json\n{\"name\": \"translate\", \"arguments\": {\"text\": \"The meeting has been rescheduled to Monday\", \"target_language\": \"es\"}}\n```",
+  "score": 4,
+  "cost": 0.000414,
+  "expected": "",
+  "tokens": {
+    "input": 102,
+    "output": 35
+  }
+}

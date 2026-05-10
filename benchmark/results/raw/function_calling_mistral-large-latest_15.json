@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "function_calling",
+  "case": 15,
+  "response": "```json\n{\"name\": \"compress_video\", \"arguments\": {\"path\": \"downloads/presentation.mp4\", \"target_reduction\": 0.5}}\n```",
+  "score": 5,
+  "cost": 0.000424,
+  "expected": "",
+  "tokens": {
+    "input": 101,
+    "output": 37
+  }
+}

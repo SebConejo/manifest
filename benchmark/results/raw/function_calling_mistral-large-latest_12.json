@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "function_calling",
+  "case": 12,
+  "response": "```json\n{\n    \"name\": \"get_stock_price\",\n    \"arguments\": {\n        \"symbol\": \"AAPL\"\n    }\n}\n```",
+  "score": 5,
+  "cost": 0.000358,
+  "expected": "",
+  "tokens": {
+    "input": 83,
+    "output": 32
+  }
+}

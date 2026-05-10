@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "function_calling",
+  "case": 29,
+  "response": "```json\n{\n    \"name\": \"ocr_document\",\n    \"arguments\": {\n        \"path\": \"uploads/contract.pdf\"\n    }\n}\n```",
+  "score": 5,
+  "cost": 0.000358,
+  "expected": "",
+  "tokens": {
+    "input": 83,
+    "output": 32
+  }
+}

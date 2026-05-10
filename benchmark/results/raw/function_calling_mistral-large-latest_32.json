@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "function_calling",
+  "case": 32,
+  "response": "```json\n{\"name\": \"run_security_scan\", \"arguments\": {\"target\": \"10.0.0.1\", \"scan_type\": \"full\"}}\n```",
+  "score": 5,
+  "cost": 0.000422,
+  "expected": "",
+  "tokens": {
+    "input": 100,
+    "output": 37
+  }
+}
