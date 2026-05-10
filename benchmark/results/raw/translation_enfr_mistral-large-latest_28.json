@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "translation_enfr",
+  "case": 28,
+  "response": "Here\u2019s the French translation while preserving the tone and meaning:\n\n**\"Nous sommes capables... de d\u00e9ployer plus de puissance de feu... qu\u2019il n\u2019en a jamais \u00e9t\u00e9 lib\u00e9r\u00e9 dans l\u2019histoire de la guerre.\"**\n\nAlternatively, for a slightly more natural flow in French, you could also say:\n**\"Nous avons la capacit\u00e9... de d\u00e9clencher une puissance de feu... sup\u00e9rieure \u00e0 tout ce qui a jamais \u00e9t\u00e9 d\u00e9cha\u00een\u00e9 dans l\u2019histoire des guerres.\"**\n\nBoth versions maintain the dramatic and impactful tone of the original.",
+  "score": 4,
+  "cost": 0.000716,
+  "expected": "",
+  "tokens": {
+    "input": 43,
+    "output": 105
+  }
+}

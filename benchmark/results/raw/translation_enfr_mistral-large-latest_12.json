@@ -2,12 +2,12 @@
   "model": "mistral-large-latest",
   "task": "translation_enfr",
   "case": 12,
-  "response": "Voici la traduction en fran\u00e7ais, en conservant le ton et le sens du texte original :\n\n**\"Ce premier r\u00e9sultat, jug\u00e9 exceptionnel, a permis d\u2019identifier 80 signaux acoustiques distincts \u00e0 proximit\u00e9 des Rocas Consag. Ces r\u00e9sultats confirment les \u00e9tudes ant\u00e9rieures sur la r\u00e9partition de la vaquita dans la r\u00e9gion.\"**\n\n*(Note : \"Rocas Consag\" est g\u00e9n\u00e9ralement laiss\u00e9 tel quel en fran\u00e7ais, car il s'agit d'un nom propre g\u00e9ographique.)*",
+  "response": "Voici la traduction en fran\u00e7ais, en conservant le ton et le sens du texte original :\n\n**\"Ce premier r\u00e9sultat, jug\u00e9 exceptionnel, a permis d\u2019identifier 80 signaux acoustiques distincts \u00e0 proximit\u00e9 des Rocas Consag. Ces r\u00e9sultats confirment les \u00e9tudes ant\u00e9rieures sur la r\u00e9partition du marsouin du Pacifique (vaquita) dans la r\u00e9gion.\"**\n\n*Remarque :*\n- *\"Vaquita\"* est le nom commun en fran\u00e7ais pour cette esp\u00e8ce (comme en anglais), mais j\u2019ai ajout\u00e9 *\"marsouin du Pacifique\"* pour plus de clart\u00e9, car le terme peut \u00eatre moins connu.\n- *\"Rocas Consag\"* est conserv\u00e9 tel quel, car c\u2019est un nom propre g\u00e9ographique.",
   "score": 5,
-  "cost": 0.000722,
+  "cost": 0.001004,
   "expected": "",
   "tokens": {
     "input": 64,
-    "output": 99
+    "output": 146
   }
 }

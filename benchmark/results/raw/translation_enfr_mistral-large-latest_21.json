@@ -2,12 +2,12 @@
   "model": "mistral-large-latest",
   "task": "translation_enfr",
   "case": 21,
-  "response": "Here\u2019s a natural and polite French translation that maintains the tone and meaning:\n\n**\"Pourriez-vous lire ceci, s\u2019il vous pla\u00eet ?\"**\n\nAlternatively, if you want a slightly more casual tone (while still being polite):\n**\"Pourriez-vous jeter un coup d\u2019\u0153il \u00e0 ceci, s\u2019il vous pla\u00eet ?\"** *(Could you take a look at this, please?)*\n\nBoth versions work well depending on the context.",
+  "response": "Here\u2019s a natural and polite French translation that maintains the tone and meaning:\n\n**\"Pourriez-vous lire ceci, s\u2019il vous pla\u00eet ?\"**\n\nAlternatively, if you want a slightly more casual tone (while still being polite):\n**\"Pourriez-vous jeter un coup d\u2019\u0153il \u00e0 ceci, s\u2019il vous pla\u00eet ?\"** *(Could you take a look at this, please?)*\n\nBoth versions work well\u2014choose based on the context!",
   "score": 5,
-  "cost": 0.000578,
+  "cost": 0.00059,
   "expected": "",
   "tokens": {
     "input": 34,
-    "output": 85
+    "output": 87
   }
 }

@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "translation_enfr",
+  "case": 40,
+  "response": "Here\u2019s the French translation while maintaining the tone and meaning:\n\n**\"Nous avons juste besoin d\u2019obtenir plus d\u2019informations.\"**\n\nAlternatively, for a slightly more natural or conversational tone, you could also say:\n- **\"Il nous faut juste plus d\u2019informations.\"** (We just need more information.)\n- **\"On a juste besoin de plus d\u2019informations.\"** (More casual, using \"on\" instead of \"nous\")",
+  "score": 5,
+  "cost": 0.0006,
+  "expected": "",
+  "tokens": {
+    "input": 30,
+    "output": 90
+  }
+}

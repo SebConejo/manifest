@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "translation_enfr",
+  "case": 43,
+  "response": "Voici la traduction en fran\u00e7ais, en conservant le ton et le sens de l'original :\n\n**\"L'unit\u00e9 se fixe simplement \u00e0 l'appui-t\u00eate du si\u00e8ge conducteur \u00e0 l'aide d'une sangle \u00e9lastique r\u00e9sistante.\"**\n\n*Variante alternative (selon le contexte) :*\n**\"L'appareil se fixe facilement \u00e0 l'appui-t\u00eate du si\u00e8ge du conducteur gr\u00e2ce \u00e0 une sangle \u00e9lastique solide.\"**\n\nN'h\u00e9sitez pas \u00e0 pr\u00e9ciser si vous souhaitez une nuance particuli\u00e8re (technique, plus formel, etc.).",
+  "score": 5,
+  "cost": 0.00078,
+  "expected": "",
+  "tokens": {
+    "input": 45,
+    "output": 115
+  }
+}

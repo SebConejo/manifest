@@ -2,12 +2,12 @@
   "model": "mistral-large-latest",
   "task": "translation_enfr",
   "case": 45,
-  "response": "Voici la traduction en fran\u00e7ais, en conservant le ton et le sens du texte original :\n\n**Fran\u00e7ais :**\n*\u00ab La fraude fiscale s\u2019est accentu\u00e9e en Tunisie, entra\u00eenant un manque important en termes de ressources publiques \u00bb, a d\u00e9clar\u00e9 l\u2019ancien chef du gouvernement de transition Ali Larayedh en juin 2013, cit\u00e9 par le journal Business Flood.*\n\n**Explications des choix :**\n- *\"Tax evasion\"* \u2192 *\"fraude fiscale\"* (terme juridique pr\u00e9cis en fran\u00e7ais).\n- *\"Grown\"* \u2192 *\"s\u2019est accentu\u00e9e\"* (pour \u00e9viter une traduction litt\u00e9rale comme *\"a augment\u00e9\"* et garder un ton formel).\n- *\"Significant shortfall\"* \u2192 *\"manque important\"* (plus naturel que *\"d\u00e9ficit significatif\"* dans ce contexte).\n- *\"Public resources\"* \u2192 *\"ressources publiques\"* (terme standard en \u00e9conomie).\n- *\"Quoted by\"* \u2192 *\"cit\u00e9 par\"* (formulation journalistique courante).\n\nSi vous souhaitez une version plus concise ou plus technique, je peux l\u2019adapter !",
+  "response": "Voici la traduction en fran\u00e7ais, en conservant le ton et le sens du texte original :\n\n**Fran\u00e7ais :**\n*\u00ab La fraude fiscale s\u2019est accentu\u00e9e en Tunisie, entra\u00eenant un manque important en termes de ressources publiques, a d\u00e9clar\u00e9 l\u2019ancien chef du gouvernement de transition Ali Larayedh en juin 2013, cit\u00e9 par le journal Business Flood. \u00bb*\n\n**Variante alternative (plus fluide) :**\n*\u00ab Selon Ali Larayedh, ancien chef du gouvernement de transition, la fraude fiscale a pris de l\u2019ampleur en Tunisie, provoquant un d\u00e9ficit consid\u00e9rable des ressources publiques. Ces propos, rapport\u00e9s par le journal Business Flood, datent de juin 2013. \u00bb*\n\nSelon le contexte souhait\u00e9, vous pouvez choisir entre une formulation plus directe (1\u00e8re version) ou l\u00e9g\u00e8rement plus d\u00e9velopp\u00e9e (2\u00e8me version). Les deux respectent le sens et le ton informatif de l'original.",
   "score": 5,
-  "cost": 0.001454,
+  "cost": 0.001316,
   "expected": "",
   "tokens": {
     "input": 67,
-    "output": 220
+    "output": 197
   }
 }

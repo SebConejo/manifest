@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "translation_enfr",
+  "case": 41,
+  "response": "Here\u2019s a French translation that maintains the tone and meaning while adapting it naturally to French slang and cultural context:\n\n**\"T\u2019es pas \u00e0 la DGA. Zoome et ferme ta gueule.\"**\n\n### Notes on the translation:\n- **\"You ain't\"** \u2192 **\"T\u2019es pas\"** (colloquial for *\"Tu n\u2019es pas\"*).\n- **\"DGA\"** (likely referring to the *Direction G\u00e9n\u00e9rale de l'Armement*, France\u2019s defense procurement agency) is kept as is, assuming the context is understood.\n- **\"Zoom in\"** \u2192 **\"Zoome\"** (imperative form, informal).\n- **\"Shut the fuck up\"** \u2192 **\"Ferme ta gueule\"** (strong, vulgar French equivalent; alternatives like *\"tais-toi\"* would soften the tone).\n\nIf the original text is from a specific context (e.g., gaming, military, or workplace), slight adjustments could be made for precision.",
+  "score": 5,
+  "cost": 0.001218,
+  "expected": "",
+  "tokens": {
+    "input": 39,
+    "output": 190
+  }
+}

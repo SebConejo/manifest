@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "translation_enfr",
+  "case": 25,
+  "response": "Voici la traduction en fran\u00e7ais, en conservant le ton et le sens du texte original :\n\n**2. Le 21 f\u00e9vrier, le sous-secr\u00e9taire \u00e0 la Guerre, Jos\u00e9 Asenio, fut limog\u00e9, puis rapidement arr\u00eat\u00e9 en m\u00eame temps que le colonel Villalba, pour la trahison de Malaga.**\n\n*(Note : \"Limog\u00e9\" est plus naturel en fran\u00e7ais que \"d\u00e9mis\" dans ce contexte, et \"trahison de Malaga\" conserve la formulation concise de l'original.)*",
+  "score": 5,
+  "cost": 0.000786,
+  "expected": "",
+  "tokens": {
+    "input": 63,
+    "output": 110
+  }
+}

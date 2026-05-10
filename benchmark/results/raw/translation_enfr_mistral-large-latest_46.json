@@ -2,12 +2,12 @@
   "model": "mistral-large-latest",
   "task": "translation_enfr",
   "case": 46,
-  "response": "Here is the French translation while maintaining the formal tone and meaning:\n\n**\"J\u2019ai re\u00e7u sept motions de r\u00e9solution conform\u00e9ment \u00e0 l\u2019article 37 du R\u00e8glement int\u00e9rieur.\"**\n\nAlternatively, if you prefer a slightly more precise phrasing (common in parliamentary or procedural contexts), you could also say:\n**\"J\u2019ai re\u00e7u sept propositions de r\u00e9solution en vertu de l\u2019article 37 du R\u00e8glement.\"**",
+  "response": "Here is the French translation while maintaining the formal tone and meaning:\n\n**\"J\u2019ai re\u00e7u sept motions de r\u00e9solution conform\u00e9ment \u00e0 l\u2019article 37 du R\u00e8glement.\"**\n\nAlternatively, if you prefer a slightly more formal or legalistic phrasing (common in parliamentary or procedural contexts), you could also say:\n\n**\"J\u2019ai \u00e9t\u00e9 saisi(e) de sept motions de r\u00e9solution en application de l\u2019article 37 du R\u00e8glement.\"**",
   "score": 5,
-  "cost": 0.000594,
+  "cost": 0.000636,
   "expected": "",
   "tokens": {
     "input": 42,
-    "output": 85
+    "output": 92
   }
 }

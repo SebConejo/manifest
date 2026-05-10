@@ -2,12 +2,12 @@
   "model": "mistral-large-latest",
   "task": "translation_enfr",
   "case": 1,
-  "response": "Voici la traduction en fran\u00e7ais, en conservant le ton et le sens du texte original :\n\n**\"Hommejeunechh, 49 ans, Pays de la Loire (Angers)\"**\n\n*Remarque :*\n- *\"Hommejeunechh\"* semble \u00eatre un pseudonyme ou un nom d'utilisateur (peut-\u00eatre une contraction de *\"homme jeune\"* + une touche personnelle). Si c'est un surnom, je l'ai laiss\u00e9 tel quel.\n- *\"Pays-de-la-Loire\"* est invariable en fran\u00e7ais (avec des traits d'union et sans article).\n- *\"Angers\"* est une ville, donc pas de traduction n\u00e9cessaire.\n\nSi vous souhaitez une formulation plus naturelle (par exemple pour une annonce), vous pourriez dire :\n*\"Homme de 49 ans, originaire des Pays de la Loire (Angers)\"* ou *\"Homme, 49 ans, habitant pr\u00e8s d'Angers (Pays de la Loire)\"*. \ud83d\ude0a",
+  "response": "Voici la traduction en fran\u00e7ais, en conservant le ton et le sens du texte original :\n\n**\"Hommejeunechh, 49 ans, Pays de la Loire (Angers)\"**\n\n*Remarque :*\n- *\"Hommejeunechh\"* semble \u00eatre un pseudonyme ou un nom d'utilisateur (peut-\u00eatre une contraction de *\"homme jeune\"* + une terminaison fantaisiste). Si c'est un nom propre, il est pr\u00e9f\u00e9rable de le laisser tel quel.\n- *\"Pays-de-la-Loire\"* s'\u00e9crit sans traits d'union en fran\u00e7ais standard (sauf dans un contexte administratif pr\u00e9cis). J'ai corrig\u00e9 la majuscule \u00e0 *\"Pays de la Loire\"* pour respecter les r\u00e8gles typographiques.",
   "score": 5,
-  "cost": 0.001298,
+  "cost": 0.001016,
   "expected": "",
   "tokens": {
     "input": 43,
-    "output": 202
+    "output": 155
   }
 }

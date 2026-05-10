@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "translation_enfr",
+  "case": 32,
+  "response": "Voici la traduction en fran\u00e7ais, en conservant le ton formel et le sens original :\n\n**\"Les \u00c9tats membres, les institutions de l'Union et le SEAE peuvent proposer la mise \u00e0 disposition de personnel aupr\u00e8s du REUE.\"**\n\n*Explications des termes :*\n- **EEAS** (European External Action Service) \u2192 **SEAE** (Service europ\u00e9en pour l'action ext\u00e9rieure)\n- **EUSR** (European Union Special Representative) \u2192 **REUE** (Repr\u00e9sentant sp\u00e9cial de l'Union europ\u00e9enne)\n- **Secondment** \u2192 **Mise \u00e0 disposition** (terme juridique/administratif courant dans ce contexte)\n\nSi vous souhaitez une variante plus litt\u00e9rale (ex. *\"d\u00e9tachement\"* au lieu de *\"mise \u00e0 disposition\"*), je peux l'adapter. \ud83d\ude0a",
+  "score": 5,
+  "cost": 0.001096,
+  "expected": "",
+  "tokens": {
+    "input": 47,
+    "output": 167
+  }
+}

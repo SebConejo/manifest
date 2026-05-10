@@ -2,12 +2,12 @@
   "model": "mistral-large-latest",
   "task": "translation_enfr",
   "case": 6,
-  "response": "Voici la traduction en fran\u00e7ais, en conservant le ton et le sens de la phrase originale :\n\n**\"L\u00e0, en ce moment, sur la Wangan, c'est ce d\u00e9mon qui roule.\"**\n\n*Variantes possibles selon le contexte ou le style souhait\u00e9 :*\n- *\"En ce moment m\u00eame, ce d\u00e9mon fonce sur la Wangan.\"* (plus dynamique)\n- *\"Ce d\u00e9mon est en train de rouler sur la Wangan en ce moment.\"* (plus neutre)\n\nSi *\"Wangan\"* fait r\u00e9f\u00e9rence \u00e0 une route sp\u00e9cifique (comme la *Wangan Line* au Japon), vous pouvez aussi garder le nom tel quel ou pr\u00e9ciser *\"l'autoroute Wangan\"* selon le public cible. \ud83d\ude0a",
+  "response": "Voici la traduction en fran\u00e7ais, en conservant le ton et le sens de la phrase originale :\n\n**\"L\u00e0, en ce moment, sur la Wangan, c'est ce d\u00e9mon qui roule.\"**\n\n*Variantes possibles selon le contexte ou le style :*\n- *\"En ce moment m\u00eame, ce d\u00e9mon fonce sur la Wangan.\"* (plus dynamique)\n- *\"Ce d\u00e9mon est en train de rouler sur la Wangan en ce moment.\"* (plus neutre)\n\nSi vous souhaitez une nuance particuli\u00e8re (po\u00e9tique, famili\u00e8re, etc.), n'h\u00e9sitez pas \u00e0 pr\u00e9ciser !",
   "score": 4,
-  "cost": 0.000946,
+  "cost": 0.000808,
   "expected": "",
   "tokens": {
     "input": 32,
-    "output": 147
+    "output": 124
   }
 }

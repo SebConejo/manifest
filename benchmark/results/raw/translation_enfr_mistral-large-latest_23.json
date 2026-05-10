@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "translation_enfr",
+  "case": 23,
+  "response": "Voici la traduction en fran\u00e7ais, en conservant le ton technique et pr\u00e9cis de l'original :\n\n**\"Des d\u00e9versoirs capables de g\u00e9rer les crues postul\u00e9es sont int\u00e9gr\u00e9s soit dans les structures du barrage, soit construits comme des ouvrages ind\u00e9pendants.\"**\n\n*Variante alternative (selon le contexte) :*\n**\"Les d\u00e9versoirs, con\u00e7us pour \u00e9vacuer les crues de projet, sont soit int\u00e9gr\u00e9s aux ouvrages du barrage, soit r\u00e9alis\u00e9s sous forme de structures distinctes.\"**\n\nSelon le public cible (experts en g\u00e9nie civil vs. grand public), on peut ajuster le vocabulaire :\n- *\"Crues postul\u00e9es\"* \u2192 *\"Crues de dimensionnement\"* (terme plus courant en ing\u00e9nierie)\n- *\"Ouvrages ind\u00e9pendants\"* \u2192 *\"Structures s\u00e9par\u00e9es\"* (plus simple).",
+  "score": 5,
+  "cost": 0.001132,
+  "expected": "",
+  "tokens": {
+    "input": 47,
+    "output": 173
+  }
+}

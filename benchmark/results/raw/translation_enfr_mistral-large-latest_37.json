@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "translation_enfr",
+  "case": 37,
+  "response": "Voici la traduction en fran\u00e7ais, en conservant le ton juridique et le sens original :\n\n**Le paragraphe 104(1.1) est modifi\u00e9 afin de pr\u00e9ciser qu\u2019il s\u2019applique nonobstant le paragraphe 248(25) de la Loi. Le paragraphe 248(25) de la Loi d\u00e9finit, aux fins des autres dispositions de la Loi, les circonstances dans lesquelles une personne ou une soci\u00e9t\u00e9 de personnes est consid\u00e9r\u00e9e comme ayant un \u00ab int\u00e9r\u00eat b\u00e9n\u00e9ficiaire \u00bb dans une fiducie.**\n\n*Remarques :*\n- *\"Nonobstant\"* est le terme juridique \u00e9quivalent \u00e0 *\"notwithstanding\"*.\n- *\"Aux fins des autres dispositions de la Loi\"* rend *\"for other purposes of the Act\"* tout en restant naturel en fran\u00e7ais.\n- *\"Int\u00e9r\u00eat b\u00e9n\u00e9ficiaire\"* est la traduction standard de *\"beneficially interested\"* dans un contexte de fiducie.",
+  "score": 5,
+  "cost": 0.00137,
+  "expected": "",
+  "tokens": {
+    "input": 97,
+    "output": 196
+  }
+}
