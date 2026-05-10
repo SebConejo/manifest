@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "email_summary_v2",
+  "case": 41,
+  "response": "The email proposes upgrading network links from 1Gbps to 10Gbps for $45K (one-time) plus $2K/month to address 78% peak capacity, with traffic shaping as a cheaper alternative. **Action item:** Network Ops recommends the 10Gbps upgrade to prevent future bottlenecks.",
+  "score": 5,
+  "cost": 0.000682,
+  "expected": "",
+  "tokens": {
+    "input": 119,
+    "output": 74
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "email_summary_v2",
+  "case": 34,
+  "response": "The Database Team outlined a migration plan from MySQL 5.7 to PostgreSQL 16, spanning May (schema conversion/testing) through July (cutover), with a dual-write phase in June. Action items include rewriting three stored procedures, and no downtime is expected due to a blue-green deployment, with the testing environment already prepared.",
+  "score": 5,
+  "cost": 0.000628,
+  "expected": "",
+  "tokens": {
+    "input": 98,
+    "output": 72
+  }
+}

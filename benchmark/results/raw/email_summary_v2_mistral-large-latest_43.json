@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "email_summary_v2",
+  "case": 43,
+  "response": "The open-source license audit identified two issues: an AGPL-licensed charting library incompatible with the SaaS model (suggesting a switch to Chart.js) and an unlicensed package, both of which should be removed before the next release. Legal and Engineering recommend addressing these findings promptly.",
+  "score": 5,
+  "cost": 0.000598,
+  "expected": "",
+  "tokens": {
+    "input": 110,
+    "output": 63
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "email_summary_v2",
+  "case": 39,
+  "response": "The year-end audit begins January 15, requiring completion of key tasks like finalizing Q4 revenue, reconciling bank accounts, verifying stock options, and preparing disclosures. A controller meeting is scheduled next Tuesday to assign responsibilities for these action items.",
+  "score": 5,
+  "cost": 0.000508,
+  "expected": "",
+  "tokens": {
+    "input": 95,
+    "output": 53
+  }
+}

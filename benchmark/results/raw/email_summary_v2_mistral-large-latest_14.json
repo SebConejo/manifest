@@ -2,7 +2,7 @@
   "model": "mistral-large-latest",
   "task": "email_summary_v2",
   "case": 14,
-  "response": "The AWS bill surged 40% due to expensive ML training jobs, costing an estimated $45K monthly, and the team proposes using spot or reserved instances for savings. A decision on the cost-saving approach must be made by Friday.",
+  "response": "The AWS bill surged 40% due to costly ML training jobs, with an estimated $45K monthly impact, and DevOps proposes using spot or reserved instances for savings. A decision on the cost-saving option must be made by Friday.",
   "score": 5,
   "cost": 0.000534,
   "expected": "",

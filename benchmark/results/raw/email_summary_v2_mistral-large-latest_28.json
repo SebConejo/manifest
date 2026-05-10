@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "email_summary_v2",
+  "case": 28,
+  "response": "The annual disaster recovery test met the 4-hour RTO target with a 6-hour 23-minute result, primarily due to an extended database restore. The SRE team recommends increasing backup frequency and pre-provisioning a standby database before the next test in October.",
+  "score": 5,
+  "cost": 0.000548,
+  "expected": "",
+  "tokens": {
+    "input": 106,
+    "output": 56
+  }
+}

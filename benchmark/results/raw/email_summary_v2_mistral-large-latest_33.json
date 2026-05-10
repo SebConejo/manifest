@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "email_summary_v2",
+  "case": 33,
+  "response": "The Q1 employee engagement survey showed a 7.8/10 overall score, with strong collaboration but low clarity on career growth, prompting proposed actions like quarterly career talks, an internal mobility program, and mentorship matching. A town hall will be held this Friday to discuss the results and next steps.",
+  "score": 5,
+  "cost": 0.000624,
+  "expected": "",
+  "tokens": {
+    "input": 120,
+    "output": 64
+  }
+}

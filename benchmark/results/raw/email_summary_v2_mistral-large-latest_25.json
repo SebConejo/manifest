@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "email_summary_v2",
+  "case": 25,
+  "response": "The company achieved key milestones in April, including surpassing 10K monthly active users, finalizing an $8M Series A round, and hiring a VP of Sales, with MRR growing 12% month-over-month. The fundraising round closes on **May 10**, and the team must monitor the $120K/month burn rate to maintain an 11-month runway.",
+  "score": 4,
+  "cost": 0.000736,
+  "expected": "",
+  "tokens": {
+    "input": 113,
+    "output": 85
+  }
+}

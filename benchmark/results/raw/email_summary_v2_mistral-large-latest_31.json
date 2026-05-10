@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "email_summary_v2",
+  "case": 31,
+  "response": "The email proposes a new \"Starter\" pricing tier at $29/month to reduce churn by addressing price concerns, with features like 5 users, 10K API calls, and email support. The expected outcome is recovering 15% of price-churned users, adding $180K in annual recurring revenue (ARR).",
+  "score": 5,
+  "cost": 0.000682,
+  "expected": "",
+  "tokens": {
+    "input": 119,
+    "output": 74
+  }
+}

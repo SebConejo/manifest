@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "email_summary_v2",
+  "case": 22,
+  "response": "The email outlines a proposed timeline for launching in Japan, with key milestones from May to August, and a $200K budget breakdown. **Action required:** CEO approval is needed to move forward with the expansion plan.",
+  "score": 5,
+  "cost": 0.000478,
+  "expected": "",
+  "tokens": {
+    "input": 98,
+    "output": 47
+  }
+}

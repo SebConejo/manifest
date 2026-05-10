@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "email_summary_v2",
+  "case": 20,
+  "response": "The on-call team resolved a disk space alert on **prod-db-01** after a log rotation misconfiguration caused an issue, requiring manual intervention to restore service with no customer impact. **Action item:** Review and correct the log rotation settings post-migration to prevent recurrence.",
+  "score": 5,
+  "cost": 0.000534,
+  "expected": "",
+  "tokens": {
+    "input": 96,
+    "output": 57
+  }
+}

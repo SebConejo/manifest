@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "email_summary_v2",
+  "case": 30,
+  "response": "Competitor X released AI features with auto-categorization but at double the price, receiving a neutral market response, while our stronger API and integrations remain an advantage. The team recommends accelerating our AI roadmap to stay competitive.",
+  "score": 5,
+  "cost": 0.000478,
+  "expected": "",
+  "tokens": {
+    "input": 95,
+    "output": 48
+  }
+}

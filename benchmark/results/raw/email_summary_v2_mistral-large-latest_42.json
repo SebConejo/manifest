@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "email_summary_v2",
+  "case": 42,
+  "response": "The workshop with 15 enterprise customers highlighted key feedback, including demand for improved bulk import and SSO solutions, while praising the new analytics dashboard; three customers also expressed interest in the internal tool as a standalone product. A follow-up report is attached for review.",
+  "score": 5,
+  "cost": 0.000542,
+  "expected": "",
+  "tokens": {
+    "input": 109,
+    "output": 54
+  }
+}
