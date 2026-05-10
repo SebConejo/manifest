@@ -1,0 +1,13 @@
+{
+  "model": "deepseek/deepseek-v4-pro",
+  "task": "test_generation_v2",
+  "case": 29,
+  "response": "```python\nimport pytest\n\ndef test_moving_average_happy_path_integers():\n    \"\"\"Test moving average with integer data and typical window.\"\"\"\n    data = [1, 2, 3, 4, 5]\n    window = 3\n    expected = [2.0, 3.0, 4.0]\n    assert moving_average(data, window) == pytest.approx(expected)\n\ndef test_moving_average_happy_path_floats():\n    \"\"\"Test moving average with float data.\"\"\"\n    data = [1.5, 2.5, 3.5, 4.5]\n    window = 2\n    expected = [2.0, 3.0, 4.0]\n    assert moving_average(data, window) == pytest.approx(expected)\n\ndef test_moving_average_window_one():\n    \"\"\"Edge case: window = 1 returns the original data as averages.\"\"\"\n    data = [10, 20, 30]\n    window = 1\n    expected = [10.0, 20.0, 30.0]\n    assert moving_average(data, window) == pytest.approx(expected)\n\ndef test_moving_average_window_equals_length():\n    \"\"\"Edge case: window equals length of data returns a single average.\"\"\"\n    data = [1, 2, 3]\n    window = 3\n    expected = [2.0]\n    assert moving_average(data, window) == pytest.approx(expected)\n\ndef test_moving_average_empty_data():\n    \"\"\"Edge case: empty data list returns empty list.\"\"\"\n    assert moving_average([], 1) == []\n    assert moving_average([], 0) == []\n\ndef test_moving_average_window_zero():\n    \"\"\"Error/edge case: window = 0 returns empty list.\"\"\"\n    assert moving_average([1, 2, 3], 0) == []\n\ndef test_moving_average_window_negative():\n    \"\"\"Error/edge case: negative window returns empty list.\"\"\"\n    assert moving_average([1, 2, 3], -1) == []\n\ndef test_moving_average_window_larger_than_data():\n    \"\"\"Error/edge case: window > len(data) returns empty list.\"\"\"\n    assert moving_average([1, 2, 3], 4) == []\n\ndef test_moving_average_single_element():\n    \"\"\"Edge case: single element data with valid and invalid windows.\"\"\"\n    assert moving_average([5], 1) == pytest.approx([5.0])\n    assert moving_average([5], 2) == []\n\ndef test_moving_average_non_numeric_data_raises_type_error():\n    \"\"\"Error case: non-numeric data should raise TypeError.\"\"\"\n    data = [\"a\", \"b\", \"c\"]\n    with pytest.raises(TypeError):\n        moving_average(data, 2)\n```",
+  "score": 4,
+  "cost": 0.00260478,
+  "expected": "",
+  "tokens": {
+    "input": 96,
+    "output": 1473
+  }
+}

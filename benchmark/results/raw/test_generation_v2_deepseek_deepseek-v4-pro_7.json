@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "test_generation_v2",
   "case": 7,
-  "response": "```python\nimport pytest\n\n# Assuming the function is defined in a module named `module`\n# from module import remove_duplicates\n\n#",
-  "score": 1,
-  "cost": 0.001776105,
+  "response": "```python\nimport pytest\n\n# Assume the function is imported from the module under test\n# from your_module import remove_duplicates\n\n# ---------------------------\n# Happy Path Tests\n# ---------------------------\ndef test_empty_list():\n    \"\"\"Empty list should return an empty list.\"\"\"\n    assert remove_duplicates([]) == []\n\n\ndef test_single_element():\n    \"\"\"List with a single element remains unchanged.\"\"\"\n    assert remove_duplicates([42]) == [42]\n\n\ndef test_no_duplicates():\n    \"\"\"List without duplicates remains unchanged and preserves order.\"\"\"\n    assert remove_duplicates([1, 2, 3]) == [1, 2, 3]\n\n\ndef test_with_duplicates():\n    \"\"\"Duplicates are removed, keeping the first occurrence of each element.\"\"\"\n    assert remove_duplicates([1, 2, 2, 3, 1, 4]) == [1, 2, 3, 4]\n\n\ndef test_all_same():\n    \"\"\"List with all identical elements returns a list with a single element.\"\"\"\n    assert remove_duplicates([7, 7, 7, 7]) == [7]\n\n\ndef test_mixed_types():\n    \"\"\"Works correctly with lists containing mixed hashable types.\"\"\"\n    assert remove_duplicates([1, \"a\", 1, \"a\", 3.0]) == [1, \"a\", 3.0]\n\n\ndef test_preserves_order():\n    \"\"\"The relative order of first occurrences is maintained.\"\"\"\n    assert remove_duplicates([3, 1, 2, 1, 3]) == [3, 1, 2]\n\n\n# ---------------------------\n# Edge Cases\n# ---------------------------\ndef test_original_list_not_mutated():\n    \"\"\"The input list should not be modified.\"\"\"\n    original = [1, 2, 2, 3]\n    copy = original[:]\n    remove_duplicates(original)\n    assert original == copy\n\n\ndef test_large_input():\n    \"\"\"Handles a large list without performance issues (basic sanity check).\"\"\"\n    large_list = list(range(1000)) * 2\n    expected = list(range(1000))\n    assert remove_duplicates(large_list) == expected\n\n\n# ---------------------------\n# Error Cases\n# ---------------------------\ndef test_unhashable_items():\n    \"\"\"List of unhashable items should raise TypeError.\"\"\"\n    with pytest.raises(TypeError):\n        remove_duplicates([[1, 2], [3, 4]])\n\n\ndef test_non_iterable_input():\n    \"\"\"Non-iterable argument (e.g., int) should raise TypeError.\"\"\"\n    with pytest.raises(TypeError):\n        remove_duplicates(12345)\n\n\ndef test_none_input():\n    \"\"\"None argument is not iterable and should raise TypeError.\"\"\"\n    with pytest.raises(TypeError):\n        remove_duplicates(None)\n```",
+  "score": 5,
+  "cost": 0.0027331049999999996,
   "expected": "",
   "tokens": {
     "input": 79,
-    "output": 1001
+    "output": 1551
   }
 }

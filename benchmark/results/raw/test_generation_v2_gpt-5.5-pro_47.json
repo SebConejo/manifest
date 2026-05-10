@@ -1,0 +1,13 @@
+{
+  "model": "gpt-5.5-pro",
+  "task": "test_generation_v2",
+  "case": 47,
+  "response": "```python\n# test_run_length_encode.py\nimport pytest\n\nfrom your_module import run_length_encode  # replace with the actual module name\n\n\n@pytest.mark.parametrize(\n    (\"s\", \"expected\"),\n    [\n        pytest.param(\"\", [], id=\"empty-string\"),\n        pytest.param(\"a\", [(\"a\", 1)], id=\"single-character\"),\n        pytest.param(\"aaaa\", [(\"a\", 4)], id=\"all-same-character\"),\n        pytest.param(\"abc\", [(\"a\", 1), (\"b\", 1), (\"c\", 1)], id=\"all-unique\"),\n        pytest.param(\n            \"aabcccccaaa\",\n            [(\"a\", 2), (\"b\", 1), (\"c\", 5), (\"a\", 3)],\n            id=\"mixed-runs\",\n        ),\n        pytest.param(\n            \"aba\",\n            [(\"a\", 1), (\"b\", 1), (\"a\", 1)],\n            id=\"same-character-non-adjacent-not-merged\",\n        ),\n        pytest.param(\n            \"aaAAaa\",\n            [(\"a\", 2), (\"A\", 2), (\"a\", 2)],\n            id=\"case-sensitive\",\n        ),\n        pytest.param(\n            \"  \\t\\t\\n\",\n            [(\" \", 2), (\"\\t\", 2), (\"\\n\", 1)],\n            id=\"whitespace\",\n        ),\n        pytest.param(\n            \"\u00e9\u00e9\u00e8\ud83d\ude00\ud83d\ude00\",\n            [(\"\u00e9\", 2), (\"\u00e8\", 1), (\"\ud83d\ude00\", 2)],\n            id=\"unicode\",\n        ),\n        pytest.param(\n            \"\\0\\0a\",\n            [(\"\\0\", 2), (\"a\", 1)],\n            id=\"null-character\",\n        ),\n    ],\n)\ndef test_run_length_encode_returns_expected_runs(s, expected):\n    assert run_length_encode(s) == expected\n\n\n@pytest.mark.parametrize(\n    \"bad_input\",\n    [\n        pytest.param(123, id=\"int\"),\n        pytest.param(3.14, id=\"float\"),\n        pytest.param(True, id=\"truthy-bool\"),\n        pytest.param(object(), id=\"plain-object\"),\n    ],\n)\ndef test_run_length_encode_raises_type_error_for_truthy_non_sequence_inputs(bad_input):\n    with pytest.raises(TypeError):\n        run_length_encode(bad_input)  # type: ignore[arg-type]\n```\n\nNote: the current implementation does not explicitly validate that `s` is a string. For example, `None`, `False`, or `0` currently return `[]` because they are falsy. If you want those to raise `TypeError`, add runtime type validation to the function and then add tests for those cases.",
+  "score": 5,
+  "cost": 0.10333,
+  "expected": "",
+  "tokens": {
+    "input": 126,
+    "output": 5135
+  }
+}

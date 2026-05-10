@@ -1,0 +1,13 @@
+{
+  "model": "gpt-5.5-pro",
+  "task": "test_generation_v2",
+  "case": 31,
+  "response": "```python\n# test_camel_to_snake.py\n\nimport pytest\n\nfrom your_module import camel_to_snake  # Replace with the actual module name\n\n\n@pytest.mark.parametrize(\n    (\"input_value\", \"expected\"),\n    [\n        (\"camelCase\", \"camel_case\"),\n        (\"CamelCase\", \"camel_case\"),\n        (\"simpleTestCase\", \"simple_test_case\"),\n        (\"twoWords\", \"two_words\"),\n        (\"already_snake_case\", \"already_snake_case\"),\n        (\"lowercase\", \"lowercase\"),\n    ],\n)\ndef test_camel_to_snake_happy_path(input_value: str, expected: str) -> None:\n    assert camel_to_snake(input_value) == expected\n\n\n@pytest.mark.parametrize(\n    (\"input_value\", \"expected\"),\n    [\n        (\"\", \"\"),\n        (\"a\", \"a\"),\n        (\"A\", \"a\"),\n        (\"UPPERCASE\", \"uppercase\"),\n        (\"HTTPServerError\", \"httpserver_error\"),\n        (\"parseHTTPResponse\", \"parse_httpresponse\"),\n        (\"XMLHttpRequest\", \"xmlhttp_request\"),\n        (\"version2Test\", \"version2test\"),\n        (\"versionTest2\", \"version_test2\"),\n        (\"already_SnakeCase\", \"already_snake_case\"),\n        (\"foo-BarBaz\", \"foo-bar_baz\"),\n        (\"caf\u00e9Test\", \"caf\u00e9test\"),\n    ],\n)\ndef test_camel_to_snake_edge_cases(input_value: str, expected: str) -> None:\n    assert camel_to_snake(input_value) == expected\n\n\n@pytest.mark.parametrize(\n    \"bad_input\",\n    [\n        None,\n        123,\n        3.14,\n        [],\n        {},\n        b\"CamelCase\",\n    ],\n)\ndef test_camel_to_snake_invalid_inputs_raise_type_error(bad_input: object) -> None:\n    with pytest.raises(TypeError):\n        camel_to_snake(bad_input)  # type: ignore[arg-type]\n```\n\nNote: the acronym-related expectations match the current implementation, which only inserts underscores between a lowercase letter followed by an uppercase letter.",
+  "score": 5,
+  "cost": 0.089595,
+  "expected": "",
+  "tokens": {
+    "input": 75,
+    "output": 4461
+  }
+}

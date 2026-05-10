@@ -1,0 +1,13 @@
+{
+  "model": "gpt-5.5-pro",
+  "task": "test_generation_v2",
+  "case": 37,
+  "response": "Replace `your_module` with the module where `parse_csv_line` is defined.\n\n```python\n# tests/test_parse_csv_line.py\n\nimport pytest\n\nfrom your_module import parse_csv_line\n\n\n@pytest.mark.parametrize(\n    (\"line\", \"expected\"),\n    [\n        (\"a,b,c\", [\"a\", \"b\", \"c\"]),\n        (\"one,two,three\", [\"one\", \"two\", \"three\"]),\n        ('\"a,b\",c', [\"a,b\", \"c\"]),\n        ('a,\"b,c\",d', [\"a\", \"b,c\", \"d\"]),\n        ('\"a\",\"b\",\"c\"', [\"a\", \"b\", \"c\"]),\n        ('name,\"Doe, Jane\",42', [\"name\", \"Doe, Jane\", \"42\"]),\n        ('caf\u00e9,\u6771\u4eac,\"x,y\"', [\"caf\u00e9\", \"\u6771\u4eac\", \"x,y\"]),\n    ],\n)\ndef test_parse_csv_line_happy_paths(line: str, expected: list[str]) -> None:\n    assert parse_csv_line(line) == expected\n\n\n@pytest.mark.parametrize(\n    (\"line\", \"expected\"),\n    [\n        (\"\", [\"\"]),\n        (\",\", [\"\", \"\"]),\n        (\",,\", [\"\", \"\", \"\"]),\n        (\"a,,c\", [\"a\", \"\", \"c\"]),\n        (\",a,b\", [\"\", \"a\", \"b\"]),\n        (\"a,b,\", [\"a\", \"b\", \"\"]),\n        ('\"\"', [\"\"]),\n        ('a,\"\",c', [\"a\", \"\", \"c\"]),\n        (\"  a  ,  b  \", [\"  a  \", \"  b  \"]),\n        ('\" spaced value \"', [\" spaced value \"]),\n        ('a,\"b\\nc\",d', [\"a\", \"b\\nc\", \"d\"]),\n    ],\n)\ndef test_parse_csv_line_edge_cases(line: str, expected: list[str]) -> None:\n    assert parse_csv_line(line) == expected\n\n\n@pytest.mark.parametrize(\n    (\"line\", \"expected\"),\n    [\n        ('\"unterminated', [\"unterminated\"]),\n        ('a,\"b,c', [\"a\", \"b,c\"]),\n        ('a\"b,c', [\"ab,c\"]),\n        ('a,\"b\"c,d', [\"a\", \"bc\", \"d\"]),\n        ('a,\"b\"\"c\",d', [\"a\", \"bc\", \"d\"]),\n    ],\n)\ndef test_parse_csv_line_unusual_quotes_document_current_behavior(\n    line: str,\n    expected: list[str],\n) -> None:\n    # The current implementation toggles quote state on every double quote\n    # and does not validate unbalanced/malformed quotes.\n    assert parse_csv_line(line) == expected\n\n\n@pytest.mark.parametrize(\"bad_line\", [None, 123, 12.3, b\"a,b,c\"])\ndef test_parse_csv_line_invalid_input_types_raise_type_error(bad_line: object) -> None:\n    with pytest.raises(TypeError):\n        parse_csv_line(bad_line)  # type: ignore[arg-type]\n```\n\nNote: malformed quote cases currently do **not** raise errors because the function has no quote-balance validation.",
+  "score": 4,
+  "cost": 0.1563,
+  "expected": "",
+  "tokens": {
+    "input": 116,
+    "output": 7786
+  }
+}

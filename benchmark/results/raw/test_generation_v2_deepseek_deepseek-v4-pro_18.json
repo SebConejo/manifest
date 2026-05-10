@@ -1,0 +1,13 @@
+{
+  "model": "deepseek/deepseek-v4-pro",
+  "task": "test_generation_v2",
+  "case": 18,
+  "response": "```python\nimport pytest\nfrom your_module import title_case  # Replace `your_module` with the actual module name.\n\n\nclass TestTitleCase:\n    # --- Happy path and edge cases ---\n    @pytest.mark.parametrize(\n        \"input_str, expected\",\n        [\n            # Happy path\n            (\"hello world\", \"Hello World\"),\n            (\"HELLO WORLD\", \"Hello World\"),\n            (\"python\", \"Python\"),\n            (\"a\", \"A\"),\n            (\"A\", \"A\"),\n            (\"caf\u00e9 au lait\", \"Caf\u00e9 Au Lait\"),\n            (\"123 abc\", \"123 Abc\"),\n            (\"hello, world!\", \"Hello, World!\"),\n            # Edge cases\n            (\"\", \"\"),                          # empty string\n            (\"   \", \"\"),                       # only whitespace\n            (\"  hello   world  \", \"Hello World\"),  # leading/trailing/extra spaces\n            (\"hello\\tworld\", \"Hello World\"),   # tabs\n            (\"new\\nline\", \"New Line\"),         # newlines\n            (\"multiple   spaces\", \"Multiple Spaces\"),\n        ],\n    )\n    def test_title_case(self, input_str: str, expected: str) -> None:\n        assert title_case(input_str) == expected\n\n    # --- Error cases ---\n    def test_title_case_type_error_none(self) -> None:\n        with pytest.raises(AttributeError):\n            title_case(None)  # type: ignore[arg-type]\n\n    def test_title_case_type_error_int(self) -> None:\n        with pytest.raises(AttributeError):\n            title_case(123)  # type: ignore[arg-type]\n\n    def test_title_case_type_error_list(self) -> None:\n        with pytest.raises(AttributeError):\n            title_case([\"hello\", \"world\"])  # type: ignore[arg-type]\n```",
+  "score": 5,
+  "cost": 0.0022415549999999997,
+  "expected": "",
+  "tokens": {
+    "input": 57,
+    "output": 1274
+  }
+}

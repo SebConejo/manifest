@@ -1,0 +1,13 @@
+{
+  "model": "gpt-5.5-pro",
+  "task": "test_generation_v2",
+  "case": 8,
+  "response": "```python\n# test_binary_search.py\n\nimport pytest\n\n# Replace \"your_module\" with the module where binary_search is defined.\nfrom your_module import binary_search\n\n\n@pytest.mark.parametrize(\n    \"arr,target,expected\",\n    [\n        ([1, 3, 5, 7, 9], 5, 2),          # middle element\n        ([1, 3, 5, 7, 9], 1, 0),          # first element\n        ([1, 3, 5, 7, 9], 9, 4),          # last element\n        ([2, 4, 6, 8], 8, 3),             # even-length list\n        ([-10, -3, 0, 4, 12], -3, 1),     # negative numbers\n    ],\n)\ndef test_binary_search_finds_existing_values(arr, target, expected):\n    assert binary_search(arr, target) == expected\n\n\n@pytest.mark.parametrize(\n    \"arr,target\",\n    [\n        ([1, 3, 5, 7, 9], 4),    # between values\n        ([1, 3, 5, 7, 9], 0),    # smaller than all values\n        ([1, 3, 5, 7, 9], 10),   # larger than all values\n    ],\n)\ndef test_binary_search_returns_minus_one_when_target_not_found(arr, target):\n    assert binary_search(arr, target) == -1\n\n\n@pytest.mark.parametrize(\n    \"arr,target,expected\",\n    [\n        ([], 1, -1),        # empty list\n        ([10], 10, 0),      # single element found\n        ([10], 5, -1),      # single element not found\n    ],\n)\ndef test_binary_search_edge_cases(arr, target, expected):\n    assert binary_search(arr, target) == expected\n\n\ndef test_binary_search_with_duplicates_returns_valid_matching_index():\n    arr = [1, 2, 2, 2, 3]\n\n    result = binary_search(arr, 2)\n\n    assert result in {1, 2, 3}\n    assert arr[result] == 2\n\n\ndef test_binary_search_does_not_modify_input_list():\n    arr = [1, 2, 3, 4, 5]\n    original = arr.copy()\n\n    binary_search(arr, 3)\n\n    assert arr == original\n\n\n@pytest.mark.parametrize(\n    \"arr,target\",\n    [\n        (None, 1),              # arr must be list-like\n        ([1, 2, 3], None),      # target must be comparable\n        ([1, 2, 3], \"2\"),       # incompatible target type\n        ([1, \"two\", 3], 2),     # incompatible element type\n    ],\n)\ndef test_binary_search_raises_type_error_for_invalid_inputs(arr, target):\n    with pytest.raises(TypeError):\n        binary_search(arr, target)\n```\n\nNote: these tests assume the input list is sorted in ascending order. The current implementation does not validate that precondition, so unsorted input is not treated as an error.",
+  "score": 4,
+  "cost": 0.05273,
+  "expected": "",
+  "tokens": {
+    "input": 126,
+    "output": 2605
+  }
+}

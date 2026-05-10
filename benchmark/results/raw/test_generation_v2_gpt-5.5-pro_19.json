@@ -1,0 +1,13 @@
+{
+  "model": "gpt-5.5-pro",
+  "task": "test_generation_v2",
+  "case": 19,
+  "response": "Replace `your_module` with the module where `clamp` is defined.\n\n```python\n# test_clamp.py\nimport math\n\nimport pytest\n\nfrom your_module import clamp\n\n\n@pytest.mark.parametrize(\n    \"value,min_val,max_val,expected\",\n    [\n        (5.0, 0.0, 10.0, 5.0),        # inside range\n        (-1.0, 0.0, 10.0, 0.0),       # below min\n        (11.0, 0.0, 10.0, 10.0),      # above max\n        (0.0, 0.0, 10.0, 0.0),        # exactly min\n        (10.0, 0.0, 10.0, 10.0),      # exactly max\n        (-5.0, -10.0, -1.0, -5.0),    # negative range, inside\n        (-11.0, -10.0, -1.0, -10.0),  # negative range, below\n        (0.0, -10.0, -1.0, -1.0),     # negative range, above\n        (5, 0, 10, 5),                # ints are orderable too\n    ],\n)\ndef test_clamp_common_cases(value, min_val, max_val, expected):\n    assert clamp(value, min_val, max_val) == expected\n\n\n@pytest.mark.parametrize(\"value\", [-100.0, 0.0, 100.0])\ndef test_clamp_when_min_equals_max(value):\n    assert clamp(value, 7.5, 7.5) == 7.5\n\n\n@pytest.mark.parametrize(\n    \"value,min_val,max_val,expected\",\n    [\n        (math.inf, 0.0, 10.0, 10.0),\n        (-math.inf, 0.0, 10.0, 0.0),\n        (1.25, -math.inf, math.inf, 1.25),\n    ],\n)\ndef test_clamp_with_infinity(value, min_val, max_val, expected):\n    assert clamp(value, min_val, max_val) == expected\n\n\ndef test_clamp_with_reversed_bounds_documents_current_behavior():\n    # The current implementation does not validate min_val <= max_val.\n    # For normal numeric values, it returns min_val when bounds are reversed.\n    assert clamp(-100.0, 10.0, 0.0) == 10.0\n    assert clamp(5.0, 10.0, 0.0) == 10.0\n    assert clamp(100.0, 10.0, 0.0) == 10.0\n\n\ndef test_clamp_with_nan_documents_current_behavior():\n    assert clamp(math.nan, 0.0, 10.0) == 0.0\n    assert math.isnan(clamp(5.0, math.nan, 10.0))\n    assert clamp(5.0, 0.0, math.nan) == 5.0\n\n\n@pytest.mark.parametrize(\n    \"args\",\n    [\n        (\"5\", 0.0, 10.0),\n        (5.0, \"0\", 10.0),\n        (5.0, 0.0, \"10\"),\n        (None, 0.0, 10.0),\n        (5.0, None, 10.0),\n        (5.0, 0.0, None),\n        (1 + 2j, 0.0, 10.0),\n        (5.0, 1 + 2j, 10.0),\n        (5.0, 0.0, 1 + 2j),\n    ],\n)\ndef test_clamp_raises_type_error_for_non_orderable_or_mixed_inputs(args):\n    with pytest.raises(TypeError):\n        clamp(*args)\n```\n\nIf reversed bounds should be considered an error, update `clamp` to validate `min_val <= max_val` and replace the reversed-bounds test with a `pytest.raises(ValueError)` test.",
+  "score": 4,
+  "cost": 0.13695,
+  "expected": "",
+  "tokens": {
+    "input": 66,
+    "output": 6831
+  }
+}

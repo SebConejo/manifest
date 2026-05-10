@@ -1,0 +1,13 @@
+{
+  "model": "gpt-5.5-pro",
+  "task": "test_generation_v2",
+  "case": 17,
+  "response": "```python\n# test_is_balanced_parens.py\nimport pytest\n\nfrom your_module import is_balanced_parens  # replace with the actual module name\n\n\n@pytest.mark.parametrize(\n    \"s\",\n    [\n        \"\",\n        \"()\",\n        \"[]\",\n        \"{}\",\n        \"()[]{}\",\n        \"{[()]}\",\n        \"({[]})\",\n        \"{[()()]()}\",\n        \"text with no brackets\",\n        \"a(b[c]{d}e)f\",\n        \"fn(a[0]) { return b; }\",\n        \"{ [ ( ) ] }\",\n    ],\n)\ndef test_balanced_inputs_return_true(s):\n    assert is_balanced_parens(s) is True\n\n\n@pytest.mark.parametrize(\n    \"s\",\n    [\n        \"(\",\n        \"[\",\n        \"{\",\n        \")\",\n        \"]\",\n        \"}\",\n        \"(]\",\n        \"[)\",\n        \"{]\",\n        \"([)]\",\n        \"{[(])}\",\n        \"((())\",\n        \"())\",\n        \"}{\",\n        \"abc(def\",\n        \"abc)def\",\n        \"([{}]))\",\n    ],\n)\ndef test_unbalanced_inputs_return_false(s):\n    assert is_balanced_parens(s) is False\n\n\n@pytest.mark.parametrize(\n    \"bad_input\",\n    [\n        None,\n        123,\n        3.14,\n        object(),\n    ],\n)\ndef test_non_iterable_inputs_raise_type_error(bad_input):\n    with pytest.raises(TypeError):\n        is_balanced_parens(bad_input)\n```\n\nNote: malformed bracket strings are treated as \u201cerror cases\u201d returning `False`. The current implementation only raises `TypeError` for non-iterable inputs like `None` or `123`.",
+  "score": 5,
+  "cost": 0.04637,
+  "expected": "",
+  "tokens": {
+    "input": 118,
+    "output": 2289
+  }
+}

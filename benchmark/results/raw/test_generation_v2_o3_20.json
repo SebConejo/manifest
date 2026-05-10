@@ -1,0 +1,13 @@
+{
+  "model": "o3",
+  "task": "test_generation_v2",
+  "case": 20,
+  "response": "```python\nimport pytest\n\nfrom your_module import zip_dicts   # replace `your_module` with the real module name\n\n\n# ---------------------------------------------------------------------------\n# Happy-path scenarios\n# ---------------------------------------------------------------------------\n\ndef test_two_dicts_basic_overlap():\n    d1 = {\"a\": 1, \"b\": 2}\n    d2 = {\"b\": 3, \"c\": 4}\n\n    expected = {\n        \"a\": [1, None],\n        \"b\": [2, 3],\n        \"c\": [None, 4],\n    }\n\n    assert zip_dicts(d1, d2) == expected\n\n\ndef test_three_dicts_mixed_keys():\n    d1 = {\"a\": 1, \"b\": 2}\n    d2 = {\"b\": 3, \"c\": 4}\n    d3 = {\"c\": 5, \"a\": 6}\n\n    expected = {\n        \"a\": [1, None, 6],\n        \"b\": [2, 3, None],\n        \"c\": [None, 4, 5],\n    }\n\n    assert zip_dicts(d1, d2, d3) == expected\n\n\n# ---------------------------------------------------------------------------\n# Edge-case scenarios\n# ---------------------------------------------------------------------------\n\ndef test_no_dicts_returns_empty():\n    assert zip_dicts() == {}\n\n\ndef test_none_vs_missing_values():\n    d1 = {\"a\": None}   # key present with value None\n    d2 = {}            # key absent\n    expected = {\"a\": [None, None]}  # both resolve to None via dict.get\n    assert zip_dicts(d1, d2) == expected\n\n\ndef test_with_empty_dict_among_others():\n    d1 = {}\n    d2 = {\"x\": 10}\n    d3 = {}\n    expected = {\"x\": [None, 10, None]}\n    assert zip_dicts(d1, d2, d3) == expected\n\n\n# ---------------------------------------------------------------------------\n# Error scenarios\n# ---------------------------------------------------------------------------\n\ndef test_non_dict_argument_raises_attribute_error():\n    \"\"\"Passing an object that lacks a `.get` method should explode.\"\"\"\n    with pytest.raises(AttributeError):\n        zip_dicts({\"a\": 1}, 42)      # int has no `.get`\n```",
+  "score": 5,
+  "cost": 0.009686,
+  "expected": "",
+  "tokens": {
+    "input": 75,
+    "output": 1192
+  }
+}

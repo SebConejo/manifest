@@ -2,12 +2,12 @@
   "model": "gpt-5.5-pro",
   "task": "test_generation_v2",
   "case": 2,
-  "response": "```python\n# test_factorial.py\n\nimport math\nimport pytest\n\nfrom your_module import factorial  # Replace with the actual module name\n\n\n@pytest.mark.parametrize(\n    (\"n\", \"expected\"),\n    [\n        (0, 1),          # edge case\n        (1, 1),          # edge case\n        (2, 2),\n        (3, 6),\n        (5, 120),\n        (10, 3628800),\n    ],\n)\ndef test_factorial_returns_expected_values(n, expected):\n    assert factorial(n) == expected\n\n\n@pytest.mark.parametrize(\"n\", [20, 50])\ndef test_factorial_matches_math_factorial_for_larger_inputs(n):\n    assert factorial(n) == math.factorial(n)\n\n\n@pytest.mark.parametrize(\"n\", [-1, -2, -10])\ndef test_factorial_raises_value_error_for_negative_numbers(n):\n    with pytest.raises(ValueError, match=\"n must be non-negative\"):\n        factorial(n)\n\n\n@pytest.mark.parametrize(\n    \"bad_input\",\n    [\n        None,\n        \"5\",\n        [5],\n        {\"n\": 5},\n        object(),\n    ],\n)\ndef test_factorial_raises_type_error_for_unsupported_input_types(bad_input):\n    with pytest.raises(TypeError):\n        factorial(bad_input)\n```",
+  "response": "```python\n# test_factorial.py\nimport pytest\n\nfrom your_module import factorial  # replace with the actual module name\n\n\n@pytest.mark.parametrize(\n    (\"n\", \"expected\"),\n    [\n        (0, 1),   # edge case: 0!\n        (1, 1),   # edge case: 1!\n        (2, 2),\n        (3, 6),\n        (5, 120),\n        (10, 3628800),\n    ],\n)\ndef test_factorial_known_values(n, expected):\n    assert factorial(n) == expected\n\n\ndef test_factorial_larger_value():\n    assert factorial(20) == 2432902008176640000\n\n\n@pytest.mark.parametrize(\"n\", [-1, -2, -100])\ndef test_factorial_negative_input_raises_value_error(n):\n    with pytest.raises(ValueError, match=\"n must be non-negative\"):\n        factorial(n)\n\n\n@pytest.mark.parametrize(\"bad_input\", [None, \"5\", [], {}, object()])\ndef test_factorial_unsupported_input_types_raise_type_error(bad_input):\n    with pytest.raises(TypeError):\n        factorial(bad_input)\n```\n\nRun with:\n\n```bash\npytest\n```\n\nNote: I did not include floats as invalid inputs because the current implementation accepts some positive floats instead of raising. If you want strict `int`-only behavior, add runtime type validation to the function and then test that floats raise `TypeError`.",
   "score": 5,
-  "cost": 0.05926,
+  "cost": 0.08158,
   "expected": "",
   "tokens": {
     "input": 84,
-    "output": 2942
+    "output": 4058
   }
 }

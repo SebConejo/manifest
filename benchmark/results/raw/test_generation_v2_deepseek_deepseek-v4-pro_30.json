@@ -1,0 +1,13 @@
+{
+  "model": "deepseek/deepseek-v4-pro",
+  "task": "test_generation_v2",
+  "case": 30,
+  "response": "```python\nimport pytest\nfrom your_module import snake_to_camel  # Replace with actual module name\n\nclass TestSnakeToCamel:\n    \"\"\"Unit tests for snake_to_camel function.\"\"\"\n\n    # --- Happy Path ---\n    @pytest.mark.parametrize(\n        \"input_str, expected\",\n        [\n            (\"hello_world\", \"helloWorld\"),\n            (\"snake_to_camel\", \"snakeToCamel\"),\n            (\"a_b_c\", \"aBC\"),\n            (\"hello_world_foo\", \"helloWorldFoo\"),\n            (\"hello_123_world\", \"hello123World\"),\n            (\"hello_world_123\", \"helloWorld123\"),\n            (\"alreadyCamel\", \"alreadyCamel\"),\n            (\"Hello_World\", \"HelloWorld\"),\n            (\"_hello\", \"Hello\"),          # leading underscore\n            (\"hello_\", \"hello\"),          # trailing underscore\n            (\"hello__world\", \"helloWorld\"), # double underscore\n            (\"__hello\", \"Hello\"),         # multiple leading underscores\n            (\"hello__\", \"hello\"),         # multiple trailing underscores\n            (\"___\", \"\"),                  # only underscores\n            (\"\", \"\"),                     # empty string\n            (\"single\", \"single\"),         # single word\n        ],\n    )\n    def test_snake_to_camel(self, input_str, expected):\n        \"\"\"Test typical and edge-case conversions.\"\"\"\n        assert snake_to_camel(input_str) == expected\n\n    # --- Error Cases ---\n    def test_snake_to_camel_none_input(self):\n        \"\"\"Test that passing None raises AttributeError.\"\"\"\n        with pytest.raises(AttributeError):\n            snake_to_camel(None)\n\n    def test_snake_to_camel_int_input(self):\n        \"\"\"Test that passing an integer raises AttributeError.\"\"\"\n        with pytest.raises(AttributeError):\n            snake_to_camel(123)\n\n    def test_snake_to_camel_list_input(self):\n        \"\"\"Test that passing a list raises AttributeError.\"\"\"\n        with pytest.raises(AttributeError):\n            snake_to_camel([\"hello\", \"world\"])\n```",
+  "score": 5,
+  "cost": 0.0021545550000000003,
+  "expected": "",
+  "tokens": {
+    "input": 73,
+    "output": 1220
+  }
+}

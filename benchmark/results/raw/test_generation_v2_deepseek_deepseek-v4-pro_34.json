@@ -1,0 +1,13 @@
+{
+  "model": "deepseek/deepseek-v4-pro",
+  "task": "test_generation_v2",
+  "case": 34,
+  "response": "```python\nimport pytest\n\n# Assuming the function is defined in a module named `distance` or similar.\n# from your_module import levenshtein\n\n# For completeness, include the function definition in tests if needed,\n# but typically you'd import. Here we just assume it's imported.\n# We'll write the tests referencing it directly.\n\ndef test_both_empty():\n    assert levenshtein(\"\", \"\") == 0\n\ndef test_one_empty():\n    assert levenshtein(\"\", \"abc\") == 3\n    assert levenshtein(\"abc\", \"\") == 3\n\ndef test_equal_strings():\n    assert levenshtein(\"hello\", \"hello\") == 0\n\ndef test_case_sensitivity():\n    assert levenshtein(\"Hello\", \"hello\") == 1\n\ndef test_insertions():\n    assert levenshtein(\"cat\", \"cats\") == 1\n    assert levenshtein(\"dog\", \"dogs\") == 1\n\ndef test_deletions():\n    assert levenshtein(\"cats\", \"cat\") == 1\n    assert levenshtein(\"dogs\", \"dog\") == 1\n\ndef test_substitutions():\n    assert levenshtein(\"cat\", \"bat\") == 1\n    assert levenshtein(\"kitten\", \"kittens\") == 1\n\ndef test_mixed_operations():\n    assert levenshtein(\"kitten\", \"sitting\") == 3\n    assert levenshtein(\"sunday\", \"saturday\") == 3\n    assert levenshtein(\"flaw\", \"lawn\") == 2\n    assert levenshtein(\"gumbo\", \"gambol\") == 2\n\ndef test_swaps_not_considered_single_operation():\n    # Standard Levenshtein distance for a swap is 2\n    assert levenshtein(\"ab\", \"ba\") == 2\n    assert levenshtein(\"abc\", \"acb\") == 2\n\ndef test_unicode_and_special_characters():\n    assert levenshtein(\"caf\u00e9\", \"cafe\") == 1  # \u00e9 vs e\n    assert levenshtein(\"na\u00efve\", \"naive\") == 1\n    assert levenshtein(\"h\u00e9llo\", \"hello\") == 1\n    assert levenshtein(\"hello, world!\", \"hello world\") == 2  # comma, exclamation\n\ndef test_long_strings():\n    s1 = \"a\" * 1000\n    s2 = \"b\" * 1000\n    assert levenshtein(s1, s2) == 1000  # all substitutions\n\ndef test_type_error_non_string_first_arg():\n    with pytest.raises(TypeError):\n        levenshtein(123, \"abc\")\n\ndef test_type_error_non_string_second_arg():\n    with pytest.raises(TypeError):\n        levenshtein(\"abc\", None)\n\ndef test_type_error_both_non_string():\n    with pytest.raises(TypeError):\n        levenshtein([], {})\n\ndef test_swapped_arguments_give_same_result():\n    # The function internally swaps, but result should be symmetric\n    assert levenshtein(\"a\", \"bcd\") == levenshtein(\"bcd\", \"a\")\n    assert levenshtein(\"x\", \"y\") == levenshtein(\"y\", \"x\")\n```",
+  "score": 4,
+  "cost": 0.002766165,
+  "expected": "",
+  "tokens": {
+    "input": 167,
+    "output": 1548
+  }
+}

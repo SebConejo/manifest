@@ -1,0 +1,13 @@
+{
+  "model": "kimi-k2.6",
+  "task": "test_generation_v2",
+  "case": 12,
+  "response": "Here are comprehensive `pytest` unit tests for `chunk_list`, covering the happy path, edge cases, and error cases.\n\n```python\nimport pytest\nfrom my_module import chunk_list  # adjust the import path as needed\n\n\n@pytest.mark.parametrize(\n    \"lst, size, expected\",\n    [\n        # Happy path: even division\n        ([1, 2, 3, 4], 2, [[1, 2], [3, 4]]),\n        # Happy path: uneven division (last chunk is smaller)\n        ([1, 2, 3, 4, 5], 2, [[1, 2], [3, 4], [5]]),\n        # Happy path: different element types\n        ([\"a\", \"b\", \"c\", \"d\"], 2, [[\"a\", \"b\"], [\"c\", \"d\"]]),\n        ([1, \"two\", 3.0, None], 2, [[1, \"two\"], [3.0, None]]),\n        \n        # Edge case: empty list\n        ([], 3, []),\n        # Edge case: chunk size of 1\n        ([1, 2, 3], 1, [[1], [2], [3]]),\n        # Edge case: size exactly equals list length\n        ([1, 2, 3], 3, [[1, 2, 3]]),\n        # Edge case: size greater than list length\n        ([1, 2], 5, [[1, 2]]),\n        # Edge case: nested lists as elements\n        ([[1, 2], [3, 4], [5, 6]], 2, [[[1, 2], [3, 4]], [[5, 6]]]),\n    ],\n)\ndef test_chunk_list_success(lst, size, expected):\n    \"\"\"Test that valid inputs produce the expected chunks.\"\"\"\n    assert chunk_list(lst, size) == expected\n\n\ndef test_chunk_list_zero_size_raises():\n    \"\"\"Test that a size of 0 raises ValueError.\"\"\"\n    with pytest.raises(ValueError, match=\"size must be positive\"):\n        chunk_list([1, 2, 3], 0)\n\n\ndef test_chunk_list_negative_size_raises():\n    \"\"\"Test that a negative size raises ValueError.\"\"\"\n    with pytest.raises(ValueError, match=\"size must be positive\"):\n        chunk_list([1, 2, 3], -1)\n\n\ndef test_chunk_list_does_not_mutate_original():\n    \"\"\"Test that the original list is left unchanged.\"\"\"\n    original = [1, 2, 3, 4]\n    result = chunk_list(original, 2)\n    \n    assert original == [1, 2, 3, 4]\n    assert result == [[1, 2], [3, 4]]\n```\n\n### What these tests cover\n\n| Category | Cases |\n|----------|-------|\n| **Happy path** | Even chunks, uneven chunks (remainder), various data types (strings, mixed types, nested lists) |\n| **Edge cases** | Empty list, `size=1`, `size == len(lst)`, `size > len(lst)` |\n| **Error cases** | `size=0`, negative `size` (both asserting the exact error message) |\n| **Side effects** | Verifies the input list is not mutated |",
+  "score": 5,
+  "cost": 0.006846,
+  "expected": "",
+  "tokens": {
+    "input": 86,
+    "output": 2831
+  }
+}

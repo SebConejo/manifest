@@ -1,0 +1,13 @@
+{
+  "model": "kimi-k2.6",
+  "task": "test_generation_v2",
+  "case": 16,
+  "response": "Here is a comprehensive pytest suite covering the happy path, edge cases (zero, negatives, large numbers), and error cases (invalid types). It also verifies that the function is commutative and returns an `int`.\n\n```python\nimport pytest\n\n# ------------------------------------------------------------------\n# Function under test (include this or import from your module)\n# ------------------------------------------------------------------\ndef gcd(a: int, b: int) -> int:\n    while b:\n        a, b = b, a % b\n    return abs(a)\n\n\n# ------------------------------------------------------------------\n# Tests\n# ------------------------------------------------------------------\nclass TestGCD:\n    @pytest.mark.parametrize(\n        \"a, b, expected\",\n        [\n            # --- Happy path: typical positive integers ---\n            (48, 18, 6),\n            (54, 24, 6),\n            (1071, 462, 21),\n            # Coprime numbers\n            (17, 13, 1),\n            (100, 49, 1),\n            # One number is a multiple of the other\n            (12, 4, 4),\n            (100, 10, 10),\n            # Equal inputs\n            (7, 7, 7),\n            (1, 1, 1),\n\n            # --- Edge cases: zero ---\n            (0, 5, 5),\n            (5, 0, 5),\n            (0, 0, 0),\n            (0, -5, 5),\n\n            # --- Edge cases: negative numbers ---\n            (-48, 18, 6),\n            (48, -18, 6),\n            (-48, -18, 6),\n            (-7, -7, 7),\n\n            # --- Edge cases: large numbers ---\n            (2**100, 2**50, 2**50),\n            (123456789, 987654321, 9),\n\n            # --- Edge cases: inputs of 1 ---\n            (1, 5, 1),\n            (5, 1, 1),\n        ],\n    )\n    def test_gcd_valid_inputs(self, a, b, expected):\n        \"\"\"GCD should compute correctly and be independent of argument order.\"\"\"\n        assert gcd(a, b) == expected\n        # Comm",
+  "score": 5,
+  "cost": 0.019701,
+  "expected": "",
+  "tokens": {
+    "input": 67,
+    "output": 8192
+  }
+}
