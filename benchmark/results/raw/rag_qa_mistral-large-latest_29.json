@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "rag_qa",
+  "case": 29,
+  "response": "The capital of the Ottoman Empire was **Istanbul**.",
+  "score": 5,
+  "cost": 0.000418,
+  "expected": "Istanbul",
+  "tokens": {
+    "input": 173,
+    "output": 12
+  }
+}

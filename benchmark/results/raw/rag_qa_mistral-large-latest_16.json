@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "rag_qa",
+  "case": 16,
+  "response": "Based on the provided context, Harvard owns **approximately fifty percent more land in Allston than in Cambridge**.",
+  "score": 5,
+  "cost": 0.00056,
+  "expected": "approximately fifty percent",
+  "tokens": {
+    "input": 214,
+    "output": 22
+  }
+}

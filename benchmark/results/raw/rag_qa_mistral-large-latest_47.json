@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "rag_qa",
+  "case": 47,
+  "response": "Based on the provided context, another group struggling in the Amazon is the **Urarina**.",
+  "score": 5,
+  "cost": 0.000426,
+  "expected": "Urarina",
+  "tokens": {
+    "input": 153,
+    "output": 20
+  }
+}

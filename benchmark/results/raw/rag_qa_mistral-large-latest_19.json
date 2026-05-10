@@ -1,13 +1,13 @@
 {
   "model": "mistral-large-latest",
   "task": "rag_qa",
-  "case": 8,
+  "case": 19,
   "response": "Not found in context.",
-  "score": 1,
-  "cost": 0.000392,
-  "expected": "36%",
+  "score": 5,
+  "cost": 0.000352,
+  "expected": "communication",
   "tokens": {
-    "input": 178,
+    "input": 158,
     "output": 6
   }
 }

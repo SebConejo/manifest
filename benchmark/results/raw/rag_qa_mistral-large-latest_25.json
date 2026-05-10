@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "rag_qa",
+  "case": 25,
+  "response": "Based on the provided context, **Warsaw's infrastructure suffered considerably during its time as an Eastern Bloc economy**.",
+  "score": 5,
+  "cost": 0.000464,
+  "expected": "infrastructure",
+  "tokens": {
+    "input": 160,
+    "output": 24
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "rag_qa",
+  "case": 42,
+  "response": "Not found in context. The context lists tributaries like the Neckar, Main, and Moselle but does not specify which one contributes the most.",
+  "score": 5,
+  "cost": 0.00061,
+  "expected": "Moselle",
+  "tokens": {
+    "input": 212,
+    "output": 31
+  }
+}

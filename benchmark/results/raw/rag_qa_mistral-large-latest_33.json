@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "rag_qa",
+  "case": 33,
+  "response": "OPEC raised the price of oil to **$5.11 a barrel** in response to **American aid to Israel**, specifically as a reaction to the U.S. providing military and financial support during the 1973 Arab-Israeli War (Yom Kippur War). The context states that the price increase was a direct retaliation to U.S. actions, including the emergency aid package requested by President Nixon.",
+  "score": 5,
+  "cost": 0.001086,
+  "expected": "In response to American aid to Israel",
+  "tokens": {
+    "input": 279,
+    "output": 88
+  }
+}

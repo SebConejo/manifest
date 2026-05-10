@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "rag_qa",
+  "case": 22,
+  "response": "The South African Schools Act of 1996.",
+  "score": 5,
+  "cost": 0.000362,
+  "expected": "South African Schools Act",
+  "tokens": {
+    "input": 142,
+    "output": 13
+  }
+}

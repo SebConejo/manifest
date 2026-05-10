@@ -2,7 +2,7 @@
   "model": "mistral-large-latest",
   "task": "rag_qa",
   "case": 14,
-  "response": "Based on the provided context, ctenophora live in **marine waters worldwide**.",
+  "response": "Based on the provided context, **ctenophora live in marine waters worldwide**.",
   "score": 5,
   "cost": 0.000726,
   "expected": "marine waters",

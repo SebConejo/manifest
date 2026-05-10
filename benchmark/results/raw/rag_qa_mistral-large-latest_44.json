@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "rag_qa",
+  "case": 44,
+  "response": "The British government gave land to the **Ohio Company of Virginia** for the development of the Ohio Country.",
+  "score": 5,
+  "cost": 0.000672,
+  "expected": "Ohio Company of Virginia",
+  "tokens": {
+    "input": 267,
+    "output": 23
+  }
+}

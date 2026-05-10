@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "rag_qa",
+  "case": 15,
+  "response": "Based on the provided context, the central European country with a Calvinist ruler was **Prussia**, whose Calvinist Great Elector **Frederick William** welcomed the Huguenots.",
+  "score": 5,
+  "cost": 0.000668,
+  "expected": "Prussia",
+  "tokens": {
+    "input": 220,
+    "output": 38
+  }
+}

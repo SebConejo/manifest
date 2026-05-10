@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "rag_qa",
+  "case": 32,
+  "response": "Based on the provided context, the **world's economy** grew significantly and became much more interconnected as a result of imperialism.",
+  "score": 5,
+  "cost": 0.000628,
+  "expected": "the world's economy",
+  "tokens": {
+    "input": 233,
+    "output": 27
+  }
+}

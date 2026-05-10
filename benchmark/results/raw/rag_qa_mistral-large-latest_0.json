@@ -3,7 +3,7 @@
   "task": "rag_qa",
   "case": 0,
   "response": "A small fraction of the cold water flow from Lake Constance goes to **Lake \u00dcberlingen**.",
-  "score": 2,
+  "score": 5,
   "cost": 0.000578,
   "expected": "Lake \u00dcberlingen",
   "tokens": {

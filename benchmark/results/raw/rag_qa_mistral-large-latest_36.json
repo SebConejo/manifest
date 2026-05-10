@@ -1,13 +1,13 @@
 {
   "model": "mistral-large-latest",
   "task": "rag_qa",
-  "case": 8,
+  "case": 36,
   "response": "Not found in context.",
-  "score": 1,
-  "cost": 0.000392,
-  "expected": "36%",
+  "score": 2,
+  "cost": 0.000354,
+  "expected": "gaseous oxygen.",
   "tokens": {
-    "input": 178,
+    "input": 159,
     "output": 6
   }
 }

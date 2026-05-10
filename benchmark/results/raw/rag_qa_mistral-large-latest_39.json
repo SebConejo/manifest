@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "rag_qa",
+  "case": 39,
+  "response": "Packet switching contrasts with **circuit switching**.",
+  "score": 5,
+  "cost": 0.000344,
+  "expected": "circuit switching",
+  "tokens": {
+    "input": 142,
+    "output": 10
+  }
+}
