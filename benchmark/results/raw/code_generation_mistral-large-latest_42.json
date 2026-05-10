@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "code_generation",
+  "case": 42,
+  "response": "```python\n    if n > m:\n        return -1\n    total = sum(range(n, m + 1))\n    count = m - n + 1\n    average = round(total / count)\n    return bin(average)\n```",
+  "score": 5,
+  "cost": 0.00067,
+  "expected": "",
+  "tokens": {
+    "input": 179,
+    "output": 52
+  }
+}

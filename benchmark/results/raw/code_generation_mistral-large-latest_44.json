@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "code_generation",
+  "case": 44,
+  "response": "```python\n    vowels = {'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'}\n    vowel_map = {'a': 'c', 'e': 'g', 'i': 'k', 'o': 'q', 'u': 'w',\n                 'A': 'C', 'E': 'G', 'I': 'K', 'O': 'Q', 'U': 'W'}\n    encoded = []\n    for char in message:\n        if char in vowels:\n            new_char = vowel_map[char]\n        else:\n            new_char = char.swapcase()\n        encoded.append(new_char)\n    return ''.join(encoded)\n```",
+  "score": 4,
+  "cost": 0.001212,
+  "expected": "",
+  "tokens": {
+    "input": 144,
+    "output": 154
+  }
+}

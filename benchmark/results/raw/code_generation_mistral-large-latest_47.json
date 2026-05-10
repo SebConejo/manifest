@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "code_generation",
+  "case": 47,
+  "response": "```python\n    return ' '.join(str(i) for i in range(n + 1))\n```",
+  "score": 5,
+  "cost": 0.000328,
+  "expected": "",
+  "tokens": {
+    "input": 98,
+    "output": 22
+  }
+}

@@ -3,7 +3,7 @@
   "task": "code_generation",
   "case": 12,
   "response": "```python\n    return [s for s in strings if substring in s]\n```",
-  "score": 4,
+  "score": 5,
   "cost": 0.000358,
   "expected": "",
   "tokens": {

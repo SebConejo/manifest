@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "code_generation",
+  "case": 29,
+  "response": "```python\n    def digit_sum(n):\n        return sum(int(d) for d in str(abs(n)))\n\n    return sorted(nums, key=lambda x: (digit_sum(x), nums.index(x)))\n```",
+  "score": 5,
+  "cost": 0.00055,
+  "expected": "",
+  "tokens": {
+    "input": 149,
+    "output": 42
+  }
+}

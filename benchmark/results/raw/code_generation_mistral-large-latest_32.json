@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "code_generation",
+  "case": 32,
+  "response": "```python\n    words = s.split(' ')\n    ordered_words = []\n    for word in words:\n        ordered_word = ''.join(sorted(word))\n        ordered_words.append(ordered_word)\n    return ' '.join(ordered_words)\n```",
+  "score": 4,
+  "cost": 0.000632,
+  "expected": "",
+  "tokens": {
+    "input": 163,
+    "output": 51
+  }
+}

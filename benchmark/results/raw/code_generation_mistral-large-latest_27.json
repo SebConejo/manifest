@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "code_generation",
+  "case": 27,
+  "response": "```python\n    max_strength = -float('inf')\n    strongest_extension = None\n\n    for extension in extensions:\n        cap = sum(1 for c in extension if c.isupper())\n        sm = sum(1 for c in extension if c.islower())\n        strength = cap - sm\n\n        if strength > max_strength:\n            max_strength = strength\n            strongest_extension = extension\n\n    return f\"{class_name}.{strongest_extension}\"\n```",
+  "score": 5,
+  "cost": 0.001196,
+  "expected": "",
+  "tokens": {
+    "input": 307,
+    "output": 97
+  }
+}
