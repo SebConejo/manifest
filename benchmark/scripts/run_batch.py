@@ -87,7 +87,8 @@ MODELS = {
         "provider": "openai", "input_price": 3.00, "output_price": 12.00,
     },
     "gpt-5.5-pro": {
-        "provider": "openai_responses", "input_price": 5.00, "output_price": 20.00,
+        "provider": "openai_responses", "input_price": 15.00, "output_price": 75.00,
+        # FROZEN: do NOT re-run this model. Real cost is $2-5/call with reasoning tokens.
     },
     "o3": {
         "provider": "openai", "input_price": 2.00, "output_price": 8.00,
