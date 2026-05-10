@@ -1,7 +1,7 @@
 {
   "model": "mistral-large-latest",
   "task": "data_to_text",
-  "case": 6,
+  "case": 38,
   "response": "The **prod-web-01** server in the **us-east-1** region is currently operating with **78% CPU usage** and **12.4 GB of memory** utilized out of its **16 GB** capacity, while disk space stands at **234 GB used of 500 GB**. With an uptime of **45 days**, the system is handling **127 active connections**, maintaining a **P99 latency of 145ms**, though it has recorded **3 errors per hour**. Overall, the server appears stable but may require monitoring for potential resource constraints.",
   "score": 5,
   "cost": 0.000998,

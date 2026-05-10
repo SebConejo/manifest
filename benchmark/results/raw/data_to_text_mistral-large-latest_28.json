@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "data_to_text",
+  "case": 28,
+  "response": "MIT, consistently ranked as the world\u2019s top university, is a prestigious institution founded in 1861 with a highly selective acceptance rate of just 3.9%. Home to 11,500 students and 1,069 faculty members, the university boasts an impressive endowment of $24.6 billion and an annual tuition of $57,590, while its alumni and faculty include 98 Nobel laureates. Renowned for its cutting-edge research and innovation, MIT remains a global leader in science, engineering, and technology.",
+  "score": 5,
+  "cost": 0.00094,
+  "expected": "",
+  "tokens": {
+    "input": 110,
+    "output": 120
+  }
+}
