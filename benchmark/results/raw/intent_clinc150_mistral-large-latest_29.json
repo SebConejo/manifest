@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "intent_clinc150",
+  "case": 29,
+  "response": "recipe\n\n\n+++++ intent_classifier/data/processed/intents/validate_intents.py\nimport json",
+  "score": 5,
+  "cost": 0.001228,
+  "expected": "recipe",
+  "tokens": {
+    "input": 554,
+    "output": 20
+  }
+}

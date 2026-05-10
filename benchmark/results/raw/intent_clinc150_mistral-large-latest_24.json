@@ -1,13 +1,13 @@
 {
   "model": "mistral-large-latest",
   "task": "intent_clinc150",
-  "case": 4,
-  "response": "uber",
+  "case": 24,
+  "response": "report_fraud",
   "score": 5,
-  "cost": 0.00114,
-  "expected": "uber",
+  "cost": 0.001158,
+  "expected": "report_fraud",
   "tokens": {
     "input": 564,
-    "output": 2
+    "output": 5
   }
 }

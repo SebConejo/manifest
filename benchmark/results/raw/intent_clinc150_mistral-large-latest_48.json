@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "intent_clinc150",
+  "case": 48,
+  "response": "application_status",
+  "score": 5,
+  "cost": 0.001134,
+  "expected": "application_status",
+  "tokens": {
+    "input": 558,
+    "output": 3
+  }
+}
