@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "multistep_reasoning",
+  "case": 27,
+  "response": "D",
+  "score": 0,
+  "cost": 0.000142,
+  "expected": "B",
+  "tokens": {
+    "input": 65,
+    "output": 2
+  }
+}

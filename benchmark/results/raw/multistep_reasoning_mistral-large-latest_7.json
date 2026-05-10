@@ -2,12 +2,12 @@
   "model": "mistral-large-latest",
   "task": "multistep_reasoning",
   "case": 7,
-  "response": "A",
+  "response": "A\n\nStep-by-step reasoning:\n1. An exothermic reaction releases heat to its surroundings.\n2. A car engine burns fuel, producing heat as a by-product (exothermic).\n3. A refrigerator removes heat (endothermic process).\n4. A frying pan simply conducts heat but does not generate it via a reaction.\n5. A glass bottle is inert and does not involve any heat-releasing reaction.\n\nFinal Answer: A",
   "score": 5,
-  "cost": 0.000148,
+  "cost": 0.000694,
   "expected": "A",
   "tokens": {
     "input": 68,
-    "output": 2
+    "output": 93
   }
 }

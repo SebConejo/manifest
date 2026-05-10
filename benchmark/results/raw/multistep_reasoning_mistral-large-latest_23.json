@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "multistep_reasoning",
+  "case": 23,
+  "response": "C\n\nStep-by-step reasoning:\n1. Before any data can be collected or observations made, a system for recording the data must be in place.\n2. Option C (Make a table for recording data) establishes that system first.\n3. Only after the table is ready can you proceed to daily observations (D), then write a report (B), and finally repeat the investigation (A).",
+  "score": 5,
+  "cost": 0.00067,
+  "expected": "C",
+  "tokens": {
+    "input": 95,
+    "output": 80
+  }
+}

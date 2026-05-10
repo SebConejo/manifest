@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "multistep_reasoning",
+  "case": 24,
+  "response": "D\n\nStep-by-step reasoning:\n1. Extrusive igneous rocks form from lava that cools quickly at Earth\u2019s surface.\n2. The term \u201cvolcanic\u201d is a synonym for extrusive igneous, referring to rocks erupted by volcanoes.\n3. The other options (intrusive igneous, clastic sedimentary, metamorphic) do not describe the same mode of formation.",
+  "score": 5,
+  "cost": 0.000686,
+  "expected": "D",
+  "tokens": {
+    "input": 85,
+    "output": 86
+  }
+}
