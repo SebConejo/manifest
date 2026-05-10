@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "sql_spider",
+  "case": 25,
+  "response": "```sql\nSELECT t.title\nFROM tvshows t\nJOIN directors d ON t.id = d.tvshow_id\nJOIN people p ON d.person_id = p.id\nWHERE p.name = 'Ben Jones' AND t.genre = 'Cartoon';\n```",
+  "score": 4,
+  "cost": 0.00047,
+  "expected": "",
+  "tokens": {
+    "input": 64,
+    "output": 57
+  }
+}

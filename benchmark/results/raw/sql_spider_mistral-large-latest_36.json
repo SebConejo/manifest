@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "sql_spider",
+  "case": 36,
+  "response": "```sql\nSELECT s.student_name\nFROM students s\nJOIN likes l ON s.student_id = l.student_id\nGROUP BY s.student_id, s.student_name\nORDER BY COUNT(l.like_id) DESC\nLIMIT 1;\n```",
+  "score": 5,
+  "cost": 0.000446,
+  "expected": "",
+  "tokens": {
+    "input": 67,
+    "output": 52
+  }
+}

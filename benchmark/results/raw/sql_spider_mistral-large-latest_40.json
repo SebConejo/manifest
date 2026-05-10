@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "sql_spider",
+  "case": 40,
+  "response": "```sql\nSELECT m.makeid, m.make_name\nFROM makes m\nJOIN models mo ON m.makeid = mo.makeid\nJOIN cars c ON mo.modelid = c.modelid\nWHERE c.horsepower > (SELECT MIN(horsepower) FROM cars)\n  AND c.cylinders <= 3;\n```",
+  "score": 5,
+  "cost": 0.000592,
+  "expected": "",
+  "tokens": {
+    "input": 86,
+    "output": 70
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "sql_spider",
+  "case": 17,
+  "response": "```sql\nSELECT s.stadium_name\nFROM stadium s\nWHERE s.stadium_id NOT IN (\n    SELECT c.stadium_id\n    FROM concert c\n    JOIN singer_in_concert sc ON c.concert_id = sc.concert_id\n    WHERE EXTRACT(YEAR FROM c.concert_date) = 2014\n);\n```",
+  "score": 5,
+  "cost": 0.000598,
+  "expected": "",
+  "tokens": {
+    "input": 77,
+    "output": 74
+  }
+}

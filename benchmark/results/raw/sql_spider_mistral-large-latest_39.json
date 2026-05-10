@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "sql_spider",
+  "case": 39,
+  "response": "```sql\nSELECT c.name AS conductor_name, o.name AS orchestra_name\nFROM conductors c\nJOIN conductor_orchestra co ON c.conductor_id = co.conductor_id\nJOIN orchestras o ON co.orchestra_id = o.orchestra_id;\n```",
+  "score": 5,
+  "cost": 0.000496,
+  "expected": "",
+  "tokens": {
+    "input": 74,
+    "output": 58
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "sql_spider",
+  "case": 19,
+  "response": "```sql\nSELECT DISTINCT maker_name\nFROM makers\nJOIN car_models ON makers.maker_id = car_models.maker_id\nJOIN cars ON car_models.model_id = cars.model_id\nWHERE cars.production_year = 1970;\n```",
+  "score": 5,
+  "cost": 0.000482,
+  "expected": "",
+  "tokens": {
+    "input": 76,
+    "output": 55
+  }
+}

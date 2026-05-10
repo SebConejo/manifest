@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "sql_spider",
+  "case": 26,
+  "response": "```sql\nSELECT COUNT(*) AS flight_count\nFROM flights\nJOIN airports AS departure_airport ON flights.departure_airport_id = departure_airport.airport_id\nJOIN airports AS arrival_airport ON flights.arrival_airport_id = arrival_airport.airport_id\nWHERE departure_airport.city = 'Aberdeen'\n  AND arrival_airport.city = 'Ashley';\n```",
+  "score": 5,
+  "cost": 0.000702,
+  "expected": "",
+  "tokens": {
+    "input": 75,
+    "output": 92
+  }
+}

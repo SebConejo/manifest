@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "sql_spider",
+  "case": 23,
+  "response": "```sql\nSELECT p.production_code, s.channel\nFROM tvshow.productions p\nJOIN tvshow.shows s ON p.show_id = s.id\nJOIN tvshow.genres g ON s.id = g.show_id\nWHERE g.genre = 'Cartoon'\nORDER BY p.air_date DESC\nLIMIT 1;\n```",
+  "score": 4,
+  "cost": 0.00058,
+  "expected": "",
+  "tokens": {
+    "input": 68,
+    "output": 74
+  }
+}

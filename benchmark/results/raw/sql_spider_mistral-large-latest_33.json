@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "sql_spider",
+  "case": 33,
+  "response": "```sql\nSELECT e.title AS episode_title, e.rating\nFROM episodes e\nJOIN tv_series s ON e.series_id = s.id\nORDER BY e.rating DESC\nLIMIT 3;\n```",
+  "score": 5,
+  "cost": 0.000424,
+  "expected": "",
+  "tokens": {
+    "input": 74,
+    "output": 46
+  }
+}

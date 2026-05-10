@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "sql_spider",
+  "case": 15,
+  "response": "```sql\nSELECT\n    MIN(share) AS minimum_share,\n    MAX(share) AS maximum_share\nFROM tv_series;\n```",
+  "score": 5,
+  "cost": 0.000316,
+  "expected": "",
+  "tokens": {
+    "input": 65,
+    "output": 31
+  }
+}

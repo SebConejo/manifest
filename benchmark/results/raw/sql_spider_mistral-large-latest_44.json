@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "sql_spider",
+  "case": 44,
+  "response": "```sql\nSELECT airport_code\nFROM (\n    SELECT departure_airport AS airport_code, COUNT(*) AS flight_count\n    FROM flights\n    GROUP BY departure_airport\n\n    UNION ALL\n\n    SELECT arrival_airport AS airport_code, COUNT(*) AS flight_count\n    FROM flights\n    GROUP BY arrival_airport\n) AS combined_flights\nGROUP BY airport_code\nORDER BY SUM(flight_count) ASC\nLIMIT 1;\n```",
+  "score": 3,
+  "cost": 0.000716,
+  "expected": "",
+  "tokens": {
+    "input": 67,
+    "output": 97
+  }
+}

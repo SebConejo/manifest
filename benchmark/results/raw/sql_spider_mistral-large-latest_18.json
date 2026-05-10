@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "sql_spider",
+  "case": 18,
+  "response": "```sql\nSELECT DISTINCT c.country\nFROM countries c\nJOIN singers s1 ON c.country_id = s1.country_id\nJOIN singers s2 ON c.country_id = s2.country_id\nWHERE s1.age > 40 AND s2.age < 30;\n```",
+  "score": 4,
+  "cost": 0.000524,
+  "expected": "",
+  "tokens": {
+    "input": 76,
+    "output": 62
+  }
+}
