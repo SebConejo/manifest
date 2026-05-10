@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "instruction_following",
+  "case": 44,
+  "response": "Here\u2019s a list of basic salad ingredients in checkbox format:\n\n### **Base Greens**\n- [ ] Lettuce (e.g., romaine, iceberg, butterhead)\n- [ ] Spinach\n- [ ] Arugula\n- [ ] Mixed greens (spring mix, baby kale)\n\n### **Vegetables**\n- [ ] Cucumber (sliced or diced)\n- [ ] Tomatoes (cherry, grape, or diced)\n- [ ] Bell peppers (red, yellow, or green)\n- [ ] Red onion (thinly sliced)\n- [ ] Carrots (shredded or julienned)\n- [ ] Radishes (sliced)\n- [ ] Avocado (sliced or diced)\n\n### **Protein (Optional)**\n- [ ] Grilled chicken (sliced or shredded)\n- [ ] Hard-boiled eggs\n- [ ] Chickpeas or black beans\n- [ ] Tofu (cubed or baked)\n- [ ] Tuna or salmon (canned or fresh)\n- [ ] Cheese (feta, goat cheese, cheddar, or parmesan)\n\n### **Crunchy Add-Ins**\n- [ ] Croutons\n- [ ] Nuts (almonds, walnuts, pecans)\n- [ ] Seeds (sunflower, pumpkin, sesame)\n- [ ] Bacon bits\n\n### **Dressing (Choose One)**\n- [ ] Olive oil & balsamic vinegar\n- [ ] Ranch\n- [ ] Caesar\n- [ ] Lemon-tahini\n- [ ] Honey mustard\n- [ ] Italian\n\n### **Extras (Optional)**\n- [ ] Dried fruit (cranberries, raisins)\n- [ ] Fresh herbs (parsley, cilantro, basil)\n- [ ] Olives (black or green)\n- [ ] Pickles or pickled onions\n\nWould you like a specific type of salad (e.g., Greek, Cobb, Caesar)? \ud83d\ude0a",
+  "score": 5,
+  "cost": 0.002592,
+  "expected": "",
+  "tokens": {
+    "input": 15,
+    "output": 427
+  }
+}

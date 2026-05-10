@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "instruction_following",
+  "case": 19,
+  "response": "\"AI isn\u2019t just the future\u2014it\u2019s the present. From diagnosing diseases to writing code, it\u2019s reshaping how we live, work, and think. But with great power comes great responsibility. Let\u2019s build it wisely. \ud83d\ude80 #AI #Innovation\"",
+  "score": 5,
+  "cost": 0.000388,
+  "expected": "",
+  "tokens": {
+    "input": 17,
+    "output": 59
+  }
+}

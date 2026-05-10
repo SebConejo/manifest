@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "instruction_following",
+  "case": 49,
+  "response": "Here are three different chatbot greeting styles for you:\n\n### **1. Formal**\n*\"Hello! Thank you for reaching out. How may I assist you today?\"*\n\n### **2. Casual**\n*\"Hey there! \ud83d\udc4b What\u2019s up? How can I help you today?\"*\n\n### **3. Humorous**\n*\"Greetings, Earthling! \ud83d\udef8 Or should I say\u2026 human? Either way, how can I make your day 10% more awesome?\"*",
+  "score": 5,
+  "cost": 0.000664,
+  "expected": "",
+  "tokens": {
+    "input": 23,
+    "output": 103
+  }
+}

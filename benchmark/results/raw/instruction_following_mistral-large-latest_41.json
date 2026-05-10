@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "instruction_following",
+  "case": 41,
+  "response": "Here's a Google-style docstring for a generic `sort` function:\n\n```python\ndef sort(arr, key=None, reverse=False):\n    \"\"\"Sorts a list or array in ascending or descending order.\n\n    Sorts the elements of the input sequence in place and returns the sorted sequence.\n    The sorting is stable, meaning that the relative order of equal elements is preserved.\n\n    Args:\n        arr (list): The list or array to be sorted. The input sequence must be mutable.\n        key (callable, optional): A function that serves as a key for the sort comparison.\n            Defaults to None, which sorts elements based on their natural ordering.\n        reverse (bool, optional): If True, the elements are sorted in descending order.\n            Defaults to False (ascending order).\n\n    Returns:\n        list: The sorted list. Note that the original list is modified in place.\n\n    Raises:\n        TypeError: If the input is not a list or if the key function is not callable.\n        ValueError: If the input list contains elements that are not comparable.\n\n    Examples:\n        >>> sort([3, 1, 2])\n        [1, 2, 3]\n\n        >>> sort([3, 1, 2], reverse=True)\n        [3, 2, 1]\n\n        >>> sort(['apple', 'banana', 'cherry'], key=len)\n        ['apple', 'banana', 'cherry']\n    \"\"\"\n    # Function implementation here\n    pass\n```\n\n### Notes:\n1. **Stability**: The docstring mentions that the sort is stable (like Python's built-in `sorted` or `list.sort`).\n2. **In-place modification**: Clarifies that the original list is modified (if applicable).\n3. **Error cases**: Includes common exceptions (`TypeError`, `ValueError`).\n4. **Examples**: Provides clear usage examples.",
+  "score": 5,
+  "cost": 0.00241,
+  "expected": "",
+  "tokens": {
+    "input": 17,
+    "output": 396
+  }
+}

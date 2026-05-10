@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "instruction_following",
+  "case": 30,
+  "response": "**Golden, crispy crust**\n**Melted, bubbly mozzarella**\n**Stretchy, gooey cheese**\n**Juicy, tangy tomato sauce**\n**Fragrant, herby basil**\n**Savory, spicy pepperoni**\n**Earthy, roasted mushrooms**\n**Sweet, caramelized onions**\n**Salty, briny olives**\n**Smoky, charred edges**\n**Warm, aromatic steam**\n**Rich, buttery aroma**\n**Vibrant, colorful toppings**\n**Thick, chewy dough**\n**Thin, crackly base**\n**Fiery, zesty jalape\u00f1os**\n**Creamy, garlicky ricotta**\n**Nutty, crumbly parmesan**\n**Fresh, crisp greens**\n**Hearty, chunky sausage**\n**Bright, zingy bell peppers**\n**Decadent, drizzled honey**\n**Perfect, mouthwatering slice**",
+  "score": 5,
+  "cost": 0.001282,
+  "expected": "",
+  "tokens": {
+    "input": 17,
+    "output": 208
+  }
+}

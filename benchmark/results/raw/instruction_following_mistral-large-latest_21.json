@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "instruction_following",
+  "case": 21,
+  "response": "Here\u2019s a simple set of directions from a park to a library using only left and right turns:\n\n1. **Start at the park entrance.**\n2. Walk straight ahead until you reach the first intersection.\n3. **Turn right** onto the cross street.\n4. Walk straight until you see a large building on your left (a caf\u00e9 or school, for example).\n5. **Turn left** at the next intersection.\n6. Walk straight for two blocks.\n7. **Turn right** at the traffic light.\n8. Walk straight for one block\u2014the library will be on your left.\n\n*(Adjust the number of blocks or landmarks based on the actual distance between the park and library in your area.)*",
+  "score": 5,
+  "cost": 0.000898,
+  "expected": "",
+  "tokens": {
+    "input": 20,
+    "output": 143
+  }
+}

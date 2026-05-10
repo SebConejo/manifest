@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "instruction_following",
+  "case": 46,
+  "response": "**Subject:** A Fond Farewell\n\nDear Team,\n\nAs my time here comes to an end, I want to thank each of you for your support, collaboration, and kindness\u2014it\u2019s meant more than I can say. I\u2019ll truly miss working alongside such talented and wonderful people. Please stay in touch\u2014I\u2019d love to hear how things continue to grow! Wishing you all success, laughter, and great things ahead. Take care, and goodbye for now.\n\nBest,\n[Your Name]",
+  "score": 5,
+  "cost": 0.000632,
+  "expected": "",
+  "tokens": {
+    "input": 16,
+    "output": 100
+  }
+}

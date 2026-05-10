@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "instruction_following",
+  "case": 18,
+  "response": "Ah, this one is a masterpiece of quiet devastation and luminous prose. It follows a young woman navigating the aftermath of a profound personal loss, set against the backdrop of a small, insular community where everyone knows\u2014or thinks they know\u2014each other\u2019s business. The story unfolds in fragments: memories, letters, and fleeting moments that slowly reveal the depth of her grief and the complexities of the relationships around her.\n\nThe writing is spare but achingly precise, like poetry disguised as a novel. The setting is vivid\u2014a place of harsh beauty, where the land and sea shape the lives of the people who live there. There\u2019s a sense of inevitability to the story, as if the characters are moving toward something they can\u2019t escape, even as they cling to the hope of redemption or connection.\n\nAt its heart, it\u2019s a meditation on love, silence, and the stories we tell ourselves to survive. The ending is ambiguous but haunting, leaving you with a lingering sense of both sorrow and grace. It\u2019s the kind of book that stays with you long after you\u2019ve turned the last page, like a half-remembered dream you can\u2019t quite shake.",
+  "score": 5,
+  "cost": 0.00147,
+  "expected": "",
+  "tokens": {
+    "input": 15,
+    "output": 240
+  }
+}

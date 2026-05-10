@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "instruction_following",
+  "case": 37,
+  "response": "The taste of chocolate is like a slow, velvety sunset melting over your tongue\u2014rich and golden at first, with a warmth that lingers like the last embers of a fire. It begins with a deep, earthy hum, like the bass note of a cello, then unfurls into layers of sweetness and bitterness, as if a poet\u2019s words are dancing between honey and shadow. The finish is a whisper of vanilla and spice, a fleeting caress that leaves you craving just one more bite, like the echo of a perfect melody you can\u2019t quite let go.",
+  "score": 5,
+  "cost": 0.000778,
+  "expected": "",
+  "tokens": {
+    "input": 17,
+    "output": 124
+  }
+}

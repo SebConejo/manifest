@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "instruction_following",
+  "case": 45,
+  "response": "Here\u2019s a clear **comparison table** between **TCP (Transmission Control Protocol)** and **UDP (User Datagram Protocol)**:\n\n| **Feature**               | **TCP (Transmission Control Protocol)**                          | **UDP (User Datagram Protocol)**                          |\n|---------------------------|------------------------------------------------------------------|----------------------------------------------------------|\n| **Connection Type**       | **Connection-oriented** (requires a handshake to establish a connection) | **Connectionless** (no handshake, sends data immediately) |\n| **Reliability**           | **Reliable** (guarantees delivery, order, and error-checking)    | **Unreliable** (no guarantee of delivery, order, or error recovery) |\n| **Error Checking**        | **Yes** (uses checksums, acknowledgments, and retransmissions)  | **Yes** (basic checksum, but no retransmission)          |\n| **Flow Control**          | **Yes** (adjusts data flow to prevent overwhelming the receiver) | **No** (sends data at full speed, no flow control)       |\n| **Congestion Control**    | **Yes** (adjusts transmission rate to avoid network congestion)  | **No** (no congestion control, can flood the network)    |\n| **Ordering of Data**      | **Guaranteed** (packets arrive in the correct order)             | **Not guaranteed** (packets may arrive out of order)     |\n| **Speed**                 | **Slower** (due to overhead from reliability mechanisms)         | **Faster** (minimal overhead, low latency)               |\n| **Header Size**           | **20\u201360 bytes** (larger due to control flags)                    | **8 bytes** (smaller, simpler header)                    |\n| **Use Cases**             | - Web browsing (HTTP/HTTPS) <br> - Email (SMTP) <br> - File transfers (FTP) <br> - Remote access (SSH) | - Live video/audio streaming <br> - Online gaming <br> - VoIP (e.g., Zoom, Skype) <br> - DNS lookups <br> - IoT devices |\n| **Overhead**              | **High** (due to connection setup, acknowledgments, retransmissions) | **Low** (minimal overhead, no",
+  "score": 4,
+  "cost": 0.003028,
+  "expected": "",
+  "tokens": {
+    "input": 14,
+    "output": 500
+  }
+}

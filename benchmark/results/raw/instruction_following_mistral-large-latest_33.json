@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "instruction_following",
+  "case": 33,
+  "response": "Here are three interesting facts about the Moon:\n\n1. **The Moon is Drifting Away** \u2013 The Moon is slowly moving away from Earth at a rate of about **3.8 centimeters (1.5 inches) per year** due to tidal forces. This means that in the distant future, total solar eclipses will no longer be possible because the Moon will appear too small to fully cover the Sun.\n\n2. **It Has Moonquakes** \u2013 Just like earthquakes, the Moon experiences seismic activity called **moonquakes**. These can be caused by tidal forces, meteorite impacts, or thermal expansion. Some deep moonquakes can last up to **10 minutes** (much longer than earthquakes).\n\n3. **The Moon Has a \"Dark Side\" (But It\u2019s Not Always Dark)** \u2013 The Moon is **tidally locked** to Earth, meaning we always see the same side. However, the far side (often called the \"dark side\") gets just as much sunlight as the near side\u2014it\u2019s just never visible from Earth. The first humans to see it were the **Apollo 8 astronauts** in 1968.",
+  "score": 4,
+  "cost": 0.001486,
+  "expected": "",
+  "tokens": {
+    "input": 23,
+    "output": 240
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "instruction_following",
+  "case": 42,
+  "response": "A thunderstorm is a raw and electrifying display of nature\u2019s power, filling the air with tension before it unleashes its fury. The **sky darkens abruptly**, as thick, bruise-colored clouds roll in like an ominous curtain, swallowing the sun and casting the world in an eerie, greenish-gray twilight. The **air grows heavy and damp**, thick with the scent of wet earth and ozone\u2014a sharp, metallic tang that crackles with the promise of lightning.\n\nThen, the storm arrives in a **deafening roar**: the first drops of rain explode against the ground like scattered pebbles, quickly escalating into a relentless downpour that drums against rooftops and windows with a rhythmic, almost hypnotic *thrum*. Gusts of wind howl through the trees, bending branches like bowing supplicants, while jagged bolts of lightning split the sky with blinding, white-hot fury, illuminating the landscape in stark, fleeting flashes. The thunder follows\u2014a deep, bone-rattling boom that vibrates in your chest, rolling and echoing like the growl of some ancient beast. The world outside becomes a blur of silver and shadow, the sound of rushing water and distant crashes blending into a symphony of chaos. Yet, beneath the storm\u2019s fury, there\u2019s a strange, wild beauty\u2014a reminder of nature\u2019s untamed power.",
+  "score": 5,
+  "cost": 0.001744,
+  "expected": "",
+  "tokens": {
+    "input": 17,
+    "output": 285
+  }
+}

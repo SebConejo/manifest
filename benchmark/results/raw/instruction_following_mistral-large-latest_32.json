@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "instruction_following",
+  "case": 32,
+  "response": "**\u2605\u2605\u2605\u2605\u2606 (4.5/5) \u2013 A Hidden Gem with Bold Flavors and Warm Vibes: *The Spice & Hearth***\n\n**Location:** 123 Maplewood Lane, Portland, OR\n**Cuisine:** Modern American with Global Influences\n**Price Range:** $$$ (Mains $18\u2013$32)\n\nTucked away in a cozy corner of Portland\u2019s Hawthorne District, *The Spice & Hearth* is the kind of restaurant that makes you feel like you\u2019ve stumbled upon a well-kept secret. From the moment you step inside, the warm, rustic-chic decor\u2014exposed brick, flickering candlelight, and mismatched vintage plates\u2014sets the tone for an intimate, unpretentious dining experience. The open kitchen hums with energy, and the scent of wood-fired dishes and aromatic spices lingers in the air, making it impossible not to get excited about what\u2019s to come.\n\n### **The Food: A Flavor Adventure**\nThe menu at *The Spice & Hearth* is a love letter to bold, globally inspired flavors, executed with precision and creativity. We started with the **Smoked Trout Dip** ($14), served with house-made sourdough and pickled vegetables. The dip was rich, smoky, and perfectly balanced with a hint of lemon and dill\u2014simple but unforgettable. Next, the **Crispy Pork Belly Bao** ($16) arrived, and it was *chef\u2019s kiss*: tender, fatty pork belly nestled in a pillowy steamed bun, topped with quick-pickled cucumbers and a drizzle of chili-hoisin glaze. The contrast of textures and flavors was divine.\n\nFor mains, my dining partner raved about the **Miso-Glazed Black Cod** ($32), which was buttery, flaky, and caramelized to perfection. I opted for the **Duck Confit Gnocchi** ($28), a dish that somehow managed to be both comforting and sophisticated. The gnocchi were light and pillowy, the duck was fall-off-the-bone tender, and the brown butter-sage sauce tied it all together with a nutty, savory depth. The only minor critique? The portion was generous enough to share, but I selfishly wanted it all to myself.\n\nD",
+  "score": 4,
+  "cost": 0.00304,
+  "expected": "",
+  "tokens": {
+    "input": 20,
+    "output": 500
+  }
+}

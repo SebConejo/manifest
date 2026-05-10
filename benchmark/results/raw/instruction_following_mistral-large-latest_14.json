@@ -2,12 +2,12 @@
   "model": "mistral-large-latest",
   "task": "instruction_following",
   "case": 14,
-  "response": "**Stay Hydrated in Style with Our Premium Water Bottle!**\n\nThis sleek, durable bottle keeps your drinks ice-cold for 24 hours or piping hot for 12, thanks to its double-wall vacuum insulation. Lightweight yet tough, it\u2019s perfect for gym sessions, hikes, or daily commutes\u2014plus, it\u2019s leak-proof and BPA-free for peace of mind. Choose your favorite color and sip smarter all day long!",
+  "response": "**Stay Hydrated in Style with Our Premium Water Bottle!**\n\nThis sleek, durable water bottle keeps your drinks ice-cold for 24 hours or piping hot for 12, thanks to its double-wall vacuum insulation. Made from high-quality stainless steel, it\u2019s leak-proof, eco-friendly, and perfect for workouts, travel, or daily use. With a spill-resistant lid and ergonomic design, hydration has never been this effortless!",
   "score": 3,
-  "cost": 0.000616,
+  "cost": 0.00061,
   "expected": "",
   "tokens": {
     "input": 17,
-    "output": 97
+    "output": 96
   }
 }

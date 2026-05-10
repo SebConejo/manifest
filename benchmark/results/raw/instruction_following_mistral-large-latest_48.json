@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "instruction_following",
+  "case": 48,
+  "response": "*Romeo and Juliet* tells the tragic love story of two teenagers from feuding noble families in Verona\u2014the Montagues and Capulets. Romeo, a Montague, sneaks into a Capulet ball and falls instantly in love with Juliet. They secretly marry, but Romeo is banished after killing Juliet\u2019s cousin, Tybalt, in a duel. Meanwhile, Juliet\u2019s parents force her to marry another man. Desperate, she fakes her death with a potion, but Romeo, unaware of the plan, poisons himself beside her. Juliet awakens, finds him dead, and stabs herself. Their deaths reconcile the warring families.",
+  "score": 5,
+  "cost": 0.000866,
+  "expected": "",
+  "tokens": {
+    "input": 25,
+    "output": 136
+  }
+}

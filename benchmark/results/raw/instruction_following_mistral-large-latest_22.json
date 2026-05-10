@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "instruction_following",
+  "case": 22,
+  "response": "Dogs are known for being incredibly loyal companions, always standing by their owners through thick and thin. Their loyal nature makes them one of the most trusted pets in the world. A loyal dog will greet you with excitement every time you walk through the door. Even in difficult times, a loyal dog remains steadfast and protective. Many people cherish their loyal dogs for the unconditional love they provide. The bond between a person and their loyal dog is often unbreakable. Stories of loyal dogs saving their owners are a testament to their devotion. No matter the circumstances, a loyal dog will always prioritize its family\u2019s well-being. The loyalty of a dog is a quality that inspires deep admiration and respect. Owning a loyal dog means having a friend who will never let you down.",
+  "score": 5,
+  "cost": 0.000998,
+  "expected": "",
+  "tokens": {
+    "input": 19,
+    "output": 160
+  }
+}

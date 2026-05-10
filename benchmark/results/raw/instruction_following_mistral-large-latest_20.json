@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "instruction_following",
+  "case": 20,
+  "response": "Sure! Here\u2019s photosynthesis explained using only words starting with **S** or **P**:\n\n---\n\n**Sun** shines, sending strong **sunlight** straight.\n**Plants** soak **sunlight**, spurring special **processes**.\n**Photosynthesis** proceeds, producing **pure** power.\n\n**Plants** pull **pure** **particles**\u2014**part** **plus** **part**\u2014from **soil**,\n**Plus** **particles** from **sky** (specifically, **pure** **part** called **CO\u2082**).\n\n**Sunlight** splits **particles**, sparking **speedy** steps.\n**Plants** synthesize **sugars**, storing **sweet** sustenance.\n**Pure** **oxygen** spills, spreading **pleasant** **puffs** **skyward**.\n\n**Plants** prosper, **people** plus **pets** partake.\n**Sun**, **soil**, **sky**\u2014**perfect** partners producing **plenty**!\n\n---\n\nHope that **satisfies**! **Simple**, **short**, **sweet**, **spot-on**! \ud83c\udf3f\u2600\ufe0f",
+  "score": 5,
+  "cost": 0.001524,
+  "expected": "",
+  "tokens": {
+    "input": 18,
+    "output": 248
+  }
+}

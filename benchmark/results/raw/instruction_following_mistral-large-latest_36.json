@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "instruction_following",
+  "case": 36,
+  "response": "Here are four programming languages (excluding Python and JavaScript):\n\n1. **Java**\n2. **C++**\n3. **Rust**\n4. **Go (Golang)**",
+  "score": 4,
+  "cost": 0.000268,
+  "expected": "",
+  "tokens": {
+    "input": 17,
+    "output": 39
+  }
+}

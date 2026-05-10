@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "instruction_following",
+  "case": 47,
+  "response": "Here\u2019s a clear, step-by-step guide to creating a **strong, secure password**:\n\n### **1. Length Matters (Minimum 12 Characters)**\n   - Longer passwords are harder to crack. Aim for **at least 12 characters** (16+ is even better).\n   - Example: `CorrectHorseBatteryStaple` (a passphrase) is stronger than `P@ssw0rd`.\n\n### **2. Use a Mix of Character Types**\n   - Combine **uppercase letters (A-Z)**, **lowercase letters (a-z)**, **numbers (0-9)**, and **symbols (!@#$%^&*)**.\n   - Example: `Tr0ub4dour&3` is better than `troubadour`.\n\n### **3. Avoid Common Words & Patterns**\n   - Never use **dictionary words** (e.g., \"password,\" \"qwerty\"), **sequential numbers** (e.g., \"123456\"), or **repeated characters** (e.g., \"aaaaaa\").\n   - Avoid **personal info** (e.g., birthdays, names, pet names).\n\n### **4. Make It Unique (No Reuse!)**\n   - **Never reuse passwords** across different accounts. If one gets hacked, others stay safe.\n   - Use a **password manager** (e.g., Bitwarden, 1Password) to generate and store unique passwords.\n\n### **5. Use a Passphrase for Memorability**\n   - A **random sentence** (with some tweaks) is easier to remember and harder to crack.\n   - Example: `PurpleElephants$Jump2024!` (instead of `Purple123`).\n\n### **6. Avoid Predictable Substitutions**\n   - Hackers know common tricks like:\n     - `a \u2192 @` (e.g., \"p@ssword\")\n     - `o \u2192 0` (e.g., \"h0use\")\n     - `s \u2192 $` (e.g., \"pa$$word\")\n   - Instead, **randomize substitutions** (e.g., `Tr0ub4d0ur&3`).\n\n### **7. Enable Two-Factor Authentication (2FA)**\n   - Even the best password can be compromised. **2FA adds an extra layer** (e.g., SMS code",
+  "score": 5,
+  "cost": 0.00303,
+  "expected": "",
+  "tokens": {
+    "input": 15,
+    "output": 500
+  }
+}
