@@ -1,0 +1,13 @@
+{
+  "model": "mistral-large-latest",
+  "task": "ner_extraction",
+  "case": 25,
+  "response": "```json\n{\n  \"persons\": [\"Mark Zuckerberg\"],\n  \"organizations\": [\"Meta\"],\n  \"locations\": [\"Menlo Park\"]\n}\n```",
+  "score": 5,
+  "cost": 0.000356,
+  "expected": "",
+  "tokens": {
+    "input": 76,
+    "output": 34
+  }
+}
