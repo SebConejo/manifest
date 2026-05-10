@@ -2,8 +2,8 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "email_summary_v2",
   "case": 38,
-  "response": "In the first month of the bug bounty program, 47 reports",
-  "score": 3,
+  "response": "We need to summarize email in exactly 2 sentences, capturing main point and any action items. Main point: bug bounty results: 47 reports, 12 valid, 3 critical, $15K payouts, all patched within 24h, ROI strong, recommend continuing. Action items: continue program. So two sentences: maybe first sentence summarizing results, second sentence stating recommendation/action. Ensure exactly two sentences. No extra punctuation that could be considered sentence? Use periods. Let's craft: \"In the first month of the bug bounty program, 47 reports were received, 12 were validated (including three critical findings \u2014 IDOR on user profiles, SSRF via webhook URL, and JWT secret in the client bundle), resulting in $15K of payouts, all of which were patched within 24 hours.\" That's one sentence. Second: \"Given the strong ROI, the security team recommends continuing the",
+  "score": 4,
   "cost": 2.952e-05,
   "expected": "",
   "tokens": {

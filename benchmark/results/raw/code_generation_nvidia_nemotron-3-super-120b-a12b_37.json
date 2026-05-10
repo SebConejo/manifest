@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "code_generation",
   "case": 37,
-  "response": "\"\"\"Given length of a side and high return area for a triangle.\n    >>> triangle_area(5, 3)\n    7.5\n    \"\"\"\n    return 0.5 * a * h",
-  "score": 5,
-  "cost": 1.098e-05,
+  "response": "\"\"\"Given length of a side and high return area for a triangle.\n    >>> triangle_area(5, 3)\n    7.5\n    \"\"\"\n    return a * h / 2",
+  "score": 4,
+  "cost": 1.0799999999999998e-05,
   "expected": "",
   "tokens": {
     "input": 78,
-    "output": 44
+    "output": 42
   }
 }

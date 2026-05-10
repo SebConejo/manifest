@@ -2,7 +2,7 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "sentiment_sst2",
   "case": 0,
-  "response": "We need to output only the sentiment label? Actually we need to respond with only the sentiment label,",
+  "response": "",
   "score": 0,
   "cost": 8.91e-06,
   "expected": "positive",

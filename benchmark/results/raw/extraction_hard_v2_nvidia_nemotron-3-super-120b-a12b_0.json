@@ -2,13 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "extraction_hard_v2",
   "case": 0,
-  "response": "",
-  "score": 0,
+  "response": "We need to extract data and output JSON matching schema.\n\nFields:\n- invoice_number: string. From text: \"INVOICE #INV-2024-0847\". So invoice_number = \"INV-2024-0847\".\n- date: \"YYYY-MM-DD\". Text: \"Date: March 15th, 2024\". Convert to 2024-03-15.\n- vendor: string. \"From: Johnson & Sons LLC\". So vendor = \"Johnson & Sons LLC\".\n- items: array of objects with description, quantity, unit_price.\nWe have three items:\n1. \"5x USB-C Cables (premium) @ $12.99 each\"\n   description: \"USB-C Cables (premium)\"? Or include \"5x\"? Usually description is item description without quantity. We'll parse description as \"USB-C Cables (premium)\". quantity = 5. unit_price = 12.99.\n2. \"Office Chair, ergonomic mesh -- qty 2 -- $349.99/ea\"\n   description: \"Office Chair, ergonomic mesh\". quantity = 2. unit_price = 349.99.\n3. \"1 box of printer paper (A4) $45.50\"\n   description: \"box of printer paper (A4)\". quantity = 1. unit_price = 45.50.\n\nCheck if any other details: The subtotal is $824.42. Let's verify: 5*12.99 = 64.95. 2*349.99 = 699.98. 1*45.50 = 45.50. Sum = 64.95+699.98+45.50 = 810.43? Wait compute: 64.95+699.98 = 764.93. +45.50 = 810.43. But subtotal given is $824.42. Something off. Possibly unit prices include tax? Or maybe the description includes something else. Let's recalc: maybe the USB-C cables price is $12.99 each, 5x = $64.95 correct. Office chair $349.99 each, 2 = $699.98. Printer paper $45.50 each, 1 = $45.50. Sum = $810.43. Subtotal $824.42 is $13.99 higher. Could be that there is an extra item not listed? Or maybe the unit prices are different: maybe the USB-C cables are $12.99 each but there is also handling? However we must follow the text. The items list is as given. The subtotal may be wrong but we should compute total from items? The schema expects total field. The text gives \"Total Due: $892.43 USD\". So total = 892.43. Currency = \"USD\". We'll trust that.\n\nThus items as described.\n\nNow produce JSON:\n\n{\n  \"invoice_number\": \"INV-2024-0847\",\n  \"date\": \"2024-03-15\",\n  \"vendor\": \"Johnson & Sons LLC\",\n  \"items\": [\n    {\"description\": \"USB-C Cables (premium)\", \"quantity\": 5, \"unit_price\": 12.99},\n    {\"description\": \"Office Chair, ergonomic mesh\",",
+  "score": 4,
   "cost": 9.252e-05,
   "expected": "",
   "tokens": {
     "input": 228,
     "output": 800
-  },
-  "score_before_empty_fix": 2
+  }
 }

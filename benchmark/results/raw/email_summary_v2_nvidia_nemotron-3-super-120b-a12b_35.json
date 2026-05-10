@@ -2,13 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "email_summary_v2",
   "case": 35,
-  "response": "",
-  "score": 0,
+  "response": "We need to produce exactly 2 sentences summarizing email, capturing main point and any action items. The email: updating policy to address AI-generated content. New rules: AI-generated images must be labeled, deepfakes prohibited, AI-assisted text allowed but must disclose. Enforcement starts June 1. Training materials being prepared. - Trust & Safety.\n\nSo summary: The Trust & Safety team is updating the content moderation policy to require labeling of AI-generated images, prohibit deepfakes, and mandate disclosure for AI-assisted text, with enforcement effective June 1. Action items: ensure compliance by labeling images, avoiding deepfakes, disclosing AI-assisted text, and review upcoming training materials.\n\nWe need exactly 2 sentences. Let's craft: Sentence 1: The Trust & Safety team is updating the content moderation policy to require labeling of AI-generated images, ban deepfakes, and mandate disclosure for AI-assisted text, effective June 1. Sentence 2: Teams",
+  "score": 3,
   "cost": 2.772e-05,
   "expected": "",
   "tokens": {
     "input": 108,
     "output": 200
-  },
-  "score_before_empty_fix": 5
+  }
 }

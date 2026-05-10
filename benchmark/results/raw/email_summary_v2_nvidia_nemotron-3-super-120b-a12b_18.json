@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "email_summary_v2",
   "case": 18,
-  "response": "The VP of Engineering proposes splitting the Platform team into separate Infrastructure (networking, compute, storage) and Developer Experience (CI/CD, tooling, onboarding) teams to eliminate the bottleneck where DX work is consistently deprioritized by infra incidents. Please review the attached draft org chart and share any feedback or approval needed to move forward with the restructuring.",
+  "response": "",
   "score": 5,
-  "cost": 2.592e-05,
+  "cost": 2.7269999999999998e-05,
   "expected": "",
   "tokens": {
     "input": 103,
-    "output": 185
+    "output": 200
   }
 }

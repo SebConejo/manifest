@@ -2,8 +2,8 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "email_summary_v2",
   "case": 32,
-  "response": "The SSL certificate for api.company.com expires in seven days (May\u202f4) because auto\u2011renewal failed after the required CNAME record _acme\u2011challenge.api.company.com was removed during the recent DNS migration. DevOps",
-  "score": 4,
+  "response": "",
+  "score": 5,
   "cost": 2.844e-05,
   "expected": "",
   "tokens": {

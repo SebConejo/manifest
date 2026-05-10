@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "multistep_reasoning",
   "case": 40,
-  "response": "We need to answer with only the letter. No extra text. Ensure only letter. So answer: B",
+  "response": "B",
   "score": 5,
-  "cost": 9.990000000000001e-06,
+  "cost": 7.289999999999999e-06,
   "expected": "B",
   "tokens": {
-    "input": 89,
-    "output": 22
+    "input": 79,
+    "output": 2
   }
 }

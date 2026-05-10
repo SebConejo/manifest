@@ -2,7 +2,7 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "sentiment_sst2",
   "case": 47,
-  "response": "We need to classify sentiment of given text: \"there seems to be no clear path as to where",
+  "response": "We need to classify sentiment: The text: \"there seems to be no clear path as to where",
   "score": 0,
   "cost": 8.730000000000001e-06,
   "expected": "negative",

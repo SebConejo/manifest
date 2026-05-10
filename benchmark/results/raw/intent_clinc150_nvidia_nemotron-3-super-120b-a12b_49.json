@@ -2,7 +2,7 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "intent_clinc150",
   "case": 49,
-  "response": "",
+  "response": "We need to see if I follow instructions precisely. Or maybe they're feeling lonely and want a simple",
   "score": 0,
   "cost": 5.327999999999999e-05,
   "expected": "international_visa",

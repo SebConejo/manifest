@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "multistep_reasoning",
   "case": 45,
-  "response": "We need to answer the multiple-choice question. Think step by step by step, we need to output only the letter only letter. So final answer: [\"C\"]",
+  "response": "C",
   "score": 5,
-  "cost": 1.116e-05,
+  "cost": 3.645e-05,
   "expected": "C",
   "tokens": {
     "input": 90,
-    "output": 34
+    "output": 315
   }
 }

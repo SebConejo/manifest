@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "email_summary_v2",
   "case": 6,
-  "response": "We need to summarize in exactly 2 sentences. Need exec sponsor for a call this week. - James, CS Lead\nWe need exactly 2 sentences. Provide exactly 2 sentences. Capture the main point and any action items. We need exactly 2 sentences. Provide exactly 2 sentences. Capture the main point and any action items. Provide exactly 2 sentences. Capture the main point and any action items. Provide exactly 2 sentences. Capture the main point and any action items.",
-  "score": 1,
-  "cost": 1.9439999999999997e-05,
+  "response": "We need to summarize email in exactly 2 sentences, capturing main point and any action items. The email: Acme Corp (ARR $450K) threatening to churn. Their CTO called directly. Issues: API latency spikes last 3 weeks, no response from support for 5 days. I've assigned a dedicated engineer. Need exec sponsor for a call this week. - James, CS Lead\n\nSo main point: Acme Corp at risk of churn due to API latency spikes and lack of support response. Action items: dedicated engineer assigned, need executive sponsor for a call this week.\n\nWe need exactly 2 sentences. Could be: \"Acme Corp, with $450K ARR, is threatening to churn after experiencing API latency spikes for three weeks and receiving no support response for five days.\" Second sentence: \"James has assigned a dedicated engineer to the issue and requests an executive sponsor to join a call this week to address the escalation.\"\n\nThat's",
+  "score": 5,
+  "cost": 2.844e-05,
   "expected": "",
   "tokens": {
     "input": 116,
-    "output": 100
+    "output": 200
   }
 }

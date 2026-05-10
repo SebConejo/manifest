@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "multistep_reasoning",
   "case": 49,
-  "response": "A",
+  "response": "Controlling pollution from cars reduces harmful emissions, which improves air quality and thus helps people by keeping the air cleaner.\n\nA",
   "score": 5,
-  "cost": 9e-06,
+  "cost": 3.2670000000000004e-05,
   "expected": "A",
   "tokens": {
-    "input": 98,
-    "output": 2
+    "input": 108,
+    "output": 255
   }
 }

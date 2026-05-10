@@ -2,13 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "extraction_hard_v2",
   "case": 19,
-  "response": "",
-  "score": 0,
+  "response": "We need to extract structured data matching schema.\n\nFields:\n- date: string (date only? The text: \"Date: March 15, 2024 | 2:00-4:30 PM EST\". Likely date field should be just date: \"March 15, 2024\". Could include time? But schema has separate time field. So date = \"March 15, 2024\".\n- time: string: \"2:00-4:30 PM EST\".\n- location: string: \"Conference Room A + Zoom\".\n- attendees: list of strings: from \"Attendees: J. Smith (Chair), M. Johnson, L. Chen, R. Patel, K. Williams\". Should we include titles? Probably just names: \"J. Smith\", \"M. Johnson\", \"L. Chen\", \"R. Patel\", \"K. Williams\". Could include \"J. Smith (Chair)\"? Usually just name. We'll output names without parentheses.\n- absent: list: \"D. Brown (excused)\" => \"D. Brown\".\n- secretary: string: \"A. Taylor\".\n- agenda_items: list of objects with topic and summary. Need to parse agenda items:\n\n1. Q4 Financial Review - Revenue $12.3M (108% of target). EBITDA margin improved to 18%. Cash: $8.2M.\n   Topic: \"Q4 Financial Review\"\n   Summary: \"Revenue $12.3M (108% of target). EBITDA margin improved to 18%. Cash: $8.2M.\"\n\n2. Series B Update - Term sheet from Sequoia at $80M pre-money. Board voted 4-1 to proceed (Williams dissenting, preferred higher valuation).\n   Topic: \"Series B Update\"\n   Summary: \"Term sheet from Sequoia at $80M pre-money. Board voted 4-1 to proceed (Williams dissenting, preferred higher valuation).\"\n\n3. Hiring Plan - Approved 15 new hires in Q2 (8 eng, 4 sales, 3 ops). Budget: $1.8M.\n   Topic: \"Hiring Plan\"\n   Summary: \"Approved 15 new hires in Q2 (8 eng, 4 sales, 3 ops). Budget: $1.8M.\"\n\n4. Next meeting: June 14, 2024\n   This is not an agenda item? It's listed under agenda but it's \"Next meeting\". Could be considered agenda item. The schema expects agenda_items list; we can include it. Topic: \"Next meeting\". Summary: \"June 14, 2024\". However the next_meeting field also exists. The text includes \"Next meeting: June 14, 2024\" both in agenda and maybe separate. The schema has next_meeting field separate. So we should extract next_meeting from that line: \"June 14, 2024\". And we may not include it as agenda item to avoid duplication. Usually agenda items are the three items before that. So agenda_items list length 3.\n\n- motions: list of objects with description, result, vote.\n\nMotions list:\n- Motion to approve Q4 financials: Passed unanimously\n   description: \"Motion to approve Q4 financials\"\n   result: \"Passed\"\n   vote: \"unanimously\"\n\n- Motion to authorize Series B negotiation: Passed 4-1\n   description: \"Motion to authorize Series B negotiation\"\n   result: \"Passed\"\n   vote: \"4-1\"\n\n- Motion to approve Q2 hiring budget: Passed unanimously\n   description",
+  "score": 4,
   "cost": 0.00010619999999999999,
   "expected": "",
   "tokens": {
     "input": 380,
     "output": 800
-  },
-  "score_before_empty_fix": 4
+  }
 }

@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "email_summary_v2",
   "case": 15,
-  "response": "We need to output exactly the summary. Ensure no extra punctuation.",
+  "response": "",
   "score": 5,
-  "cost": 1.17e-05,
+  "cost": 2.835e-05,
   "expected": "",
   "tokens": {
     "input": 115,
-    "output": 15
+    "output": 200
   }
 }

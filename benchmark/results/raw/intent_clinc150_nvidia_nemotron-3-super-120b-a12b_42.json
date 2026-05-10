@@ -2,7 +2,7 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "intent_clinc150",
   "case": 42,
-  "response": "",
+  "response": "We need to classify the message \"start the next song\". Look at intents list: there is",
   "score": 0,
   "cost": 5.273999999999999e-05,
   "expected": "next_song",

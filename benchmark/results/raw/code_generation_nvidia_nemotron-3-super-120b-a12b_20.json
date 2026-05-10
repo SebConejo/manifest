@@ -2,13 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "code_generation",
   "case": 20,
-  "response": "",
-  "score": 0,
+  "response": "roman_numerals = [\n        (1000, 'M'), (900, 'CM'), (500, 'D'), (400, 'CD'),\n        (100, 'C'), (90, 'XC'), (50, 'L'), (40, 'XL'),\n        (10, 'X'), (9, 'IX'), (5, 'V'), (4, 'IV'), (1, 'I')\n    ]\n    result",
+  "score": 2,
   "cost": 5.886e-05,
   "expected": "",
   "tokens": {
     "input": 154,
     "output": 500
-  },
-  "score_before_empty_fix": 1
+  }
 }

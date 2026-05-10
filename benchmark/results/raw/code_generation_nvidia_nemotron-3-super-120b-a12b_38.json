@@ -2,7 +2,7 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "code_generation",
   "case": 38,
-  "response": "max_neg = None\n    min_pos = None\n    for num in lst:\n        if num < 0:\n            if max_neg is None or num > max_neg:\n                max_neg = num\n        elif num > 0:\n            if min_pos is None or num < min_pos:\n                min_pos = num\n    return (",
+  "response": "max_neg = None\n    min_pos = None\n    for x in lst:\n        if x < 0:\n            if max_neg is None or x > max_neg:\n                max_neg = x\n        elif x > 0:\n            if min_pos is None or x < min_pos:\n                min_pos = x\n    return",
   "score": 4,
   "cost": 6.156e-05,
   "expected": "",

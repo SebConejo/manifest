@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "extraction_hard_v2",
   "case": 23,
-  "response": "We need to extract structured data matching schema.\n\nFields:\n- severity: one of critical|high|medium|low. Based on description: checkout page completely broken, spinner then white screen, no error, CORS error, undefined is not a function. Likely high or critical. Since it blocks checkout, maybe critical. We'll choose \"critical\".\n- component: string. Likely \"checkout page\".\n- summary: string. Summarize issue.\n- steps_to_reproduce: array of strings.\n- expected_behavior: string.\n- actual_behavior: string.\n- environment: object with os and browser.\n\nFrom text: \"hey so the checkout page is completely broken. im on chrome 121 on windows 11. i add stuff to cart, go to checkout, enter card info and hit pay. spinner for 30 seconds then white screen. no error message. console shows CORS error and undefined is not a function in checkout.bundle.js:847. happened 3 times. works fine on firefox btw\"\n\nThus:\ncomponent: \"checkout page\"\nsummary: \"Checkout page fails with spinner then white screen after payment, showing CORS error and undefined is not a function.\"\nsteps_to_reproduce:\n1. Add items to cart.\n2. Navigate to checkout page.\n3. Enter card information.\n4. Click Pay.\nExpected behavior: Payment processes successfully and user sees order confirmation page.\nActual behavior: Spinner shows for ~30 seconds then white screen, no error message, console shows CORS error and undefined is not a function.\nEnvironment: os: \"Windows 11, component: \"checkout page\", \"summary\": \"Checkout page fails with spinner then white screen after payment, showing CORS error and undefined is not a function.\", \"steps_to_reproduce: true",
-  "score": 1,
-  "cost": 5.067e-05,
+  "response": "{\n  \"severity\": \"critical\",\n  \"component\": \"checkout\",\n  \"summary\": \"Checkout page shows spinner then white screen after payment, with CORS error and undefined is not a function.\",\n  \"steps_to_reproduce\": [\n    \"Add items to cart\",\n    \"Go to checkout\",\n    \"Enter card information\",\n    \"Click Pay\",\n    \"Observe spinner for ~30 seconds then white screen\"\n  ],\n  \"expected_behavior\": \"Payment should process successfully and display order confirmation page.\",\n  \"actual_behavior\": \"Spinner appears for ~30 seconds then white screen; no error message; console shows CORS error and undefined is not a function.\",\n  \"environment\": {\n    \"os\": \"Windows 11\",\n    \"browser\": \"Chrome 121\"\n  }\n}",
+  "score": 5,
+  "cost": 2.916e-05,
   "expected": "",
   "tokens": {
-    "input": 186,
-    "output": 377
+    "input": 163,
+    "output": 161
   }
 }

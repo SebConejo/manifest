@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "multistep_reasoning",
   "case": 39,
-  "response": "We need to answer the multiple-choice question. Think step by step by step, we need to respond with only the letter only. No extra text.",
+  "response": "D",
   "score": 5,
-  "cost": 1.017e-05,
+  "cost": 6.749999999999999e-06,
   "expected": "D",
   "tokens": {
-    "input": 82,
-    "output": 31
+    "input": 73,
+    "output": 2
   }
 }

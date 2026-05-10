@@ -1,0 +1,13 @@
+{
+  "model": "qwen/qwen3.6-plus",
+  "task": "multistep_reasoning",
+  "case": 6,
+  "response": "When a wooden log burns, it undergoes a chemical reaction called combustion. According to the law of conservation of mass, matter cannot be created or destroyed, so the log is not completely destroyed (eliminating A). Combustion is a chemical process, not a nuclear one, so the matter is not entirely converted into energy (eliminating B). Burning is a chemical change rather than a simple physical phase change, and it produces both gases (like carbon dioxide and water vapor) and solid residue (ash), meaning it doesn't just turn into a gas (eliminating D). Instead, the wood reacts with oxygen to form new substances (matter) while releasing heat and light (energy), which accurately describes option C.\n\nC",
+  "score": 5,
+  "cost": 0.001483625,
+  "expected": "C",
+  "tokens": {
+    "input": 101,
+    "output": 1116
+  }
+}

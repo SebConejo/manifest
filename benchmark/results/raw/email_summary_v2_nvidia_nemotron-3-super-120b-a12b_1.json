@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "email_summary_v2",
   "case": 1,
-  "response": "We need to produce exactly 2 sentences summarizing the email, capturing main point and any action items. Must be exactly 2 sentences. Let's craft: \"The outage was caused by the user wants exactly 2 sentences. Need exactly 2 sentences. The user wants exactly 2 sentences. Need exactly 2 sentences. Need exactly 2 sentences.",
-  "score": 1,
-  "cost": 1.7369999999999998e-05,
+  "response": "The server outage was caused by a misconfigured load balancer at 2:14\u202fPM, resulting in 47 minutes of degraded service affecting 12\u202fK users. The post\u2011mortem recommends adding LB config validation to CI, updating the runbook, and implementing traffic distribution alerts.",
+  "score": 5,
+  "cost": 1.512e-05,
   "expected": "",
   "tokens": {
-    "input": 119,
-    "output": 74
+    "input": 106,
+    "output": 62
   }
 }

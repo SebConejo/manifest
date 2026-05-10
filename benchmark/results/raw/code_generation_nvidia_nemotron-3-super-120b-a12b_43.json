@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "code_generation",
   "case": 43,
-  "response": "if not numbers:\n        return []\n    result = []\n    for i, n in enumerate(numbers):\n        result.append(n)\n        if i < len(numbers) - 1:\n            result.append(delimeter)\n    return result",
+  "response": "if not numbers:\n        return []\n    result = []\n    for i, num in enumerate(numbers):\n        result.append(num)\n        if i < len(numbers) - 1:\n            result.append(delimeter)\n    return result",
   "score": 5,
-  "cost": 4.319999999999999e-05,
+  "cost": 1.539e-05,
   "expected": "",
   "tokens": {
-    "input": 141,
-    "output": 339
+    "input": 124,
+    "output": 47
   }
 }

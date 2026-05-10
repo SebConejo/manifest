@@ -2,8 +2,8 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "email_summary_v2",
   "case": 37,
-  "response": "The CEO reports that BigCo offered $15\u202fM to acqui\u2011hire the five\u2011person ML team, which he believes is too low and recommends either countering or politely declining. He asks to discuss the",
-  "score": 4,
+  "response": "",
+  "score": 5,
   "cost": 2.8259999999999997e-05,
   "expected": "",
   "tokens": {

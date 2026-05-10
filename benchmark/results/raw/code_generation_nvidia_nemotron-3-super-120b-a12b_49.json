@@ -9,6 +9,5 @@
   "tokens": {
     "input": 192,
     "output": 500
-  },
-  "score_before_empty_fix": 5
+  }
 }

@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "code_generation",
   "case": 23,
-  "response": "if not nums:\n        return 0\n    min_ending_here = min_so_far = nums[0]\n    for x in nums[1:]:\n        min_ending_here = min(x, min_ending_here + x)\n        min_so_far = min(min_so_far, min_ending_here)\n    return min_so_far",
-  "score": 4,
-  "cost": 1.7009999999999998e-05,
+  "response": "if not nums:\n        return 0\n    current_min = global_min = nums[0]\n    for num in nums[1:]:\n        current_min = min(num, current_min + num)\n        global_min = min(global_min, current_min)\n    return global_min",
+  "score": 5,
+  "cost": 1.5929999999999998e-05,
   "expected": "",
   "tokens": {
     "input": 120,
-    "output": 69
+    "output": 57
   }
 }

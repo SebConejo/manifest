@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "extraction_hard_v2",
   "case": 44,
-  "response": "{\n  \"title\": \"Senior Backend Engineer\",\n  \"company\": \"CloudMatrix\",\n  \"location\": {\n    \"city\": \"Austin TX\",\n    \"remote\": true\n  },\n  \"salary\": {\n    \"min\": 165000,\n    \"max\": 195000\n  },\n  \"requirements\": {\n    \"min_years\": 5,\n    \"skills\": [\n      \"distributed systems\",\n      \"Go\",\n      \"Rust\",\n      \"Kubernetes\",\n      \"event-driven architectures\"\n    ]\n  },\n  \"benefits\": [\n    \"unlimited PTO\",\n    \"health/dental/vision\",\n    \"401k match\",\n    \"$3K learning budget\"\n  ]\n}",
-  "score": 4,
-  "cost": 8.253e-05,
+  "response": "We need to extract structured data matching schema.\n\nFields:\n- title: string (job title)\n- company: string\n- location: {city: string, remote: boolean}\n- salary: {min: number, max: number}\n- requirements: {min_years: number, skills: [string]}\n- benefits: [string]\n\nFrom text:\n\nTitle: Senior Backend Engineer\n\nCompany: CloudMatrix (Series B) -> likely just \"CloudMatrix\". Could include \"(Series B)\"? Probably just company name. We'll output \"CloudMatrix\".\n\nLocation: \"Austin TX, open to remote US.\" So city: \"Austin\". Remote: true (open to remote US). Could also be remote boolean true.\n\nSalary: \"$165-195K + equity\". So min: 165000, max: 195000. Should be numbers (presumably in USD). We'll output numbers.\n\nRequirements: \"5+ years distributed systems. Must know Go or Rust, Kubernetes, event-driven architectures.\"\n\nmin_years: 5 (since 5+ years). skills: list: \"Go\", \"Rust\", \"Kubernetes\", \"event-driven architectures\". Also maybe \"distributed systems\"? The phrase \"5+ years distributed systems.\" Could be considered a skill? But likely they want skills list from \"Must know Go or Rust, Kubernetes, event-driven architectures.\" We'll include those four.\n\nBenefits: \"Perks: unlimited PTO, health/dental/vision, 401k match, $3K learning budget.\"\n\nList: \"unlimited PTO\", \"health/dental/vision\", \"401k match\", \"$3K learning budget\". We'll keep as strings.\n\nReturn JSON only.\n\nCheck schema: title string, company string, location object with city string, remote boolean, salary object with min number, max number, requirements object with min_years number, skills array of strings, benefits array of strings.\n\nLet's craft JSON:\n\n{\n  \"title\": \"Senior Backend Engineer\",\n  \"company\": \"CloudMatrix\",\n  \"location\": {\n    \"city\": \"Austin\",\n    \"remote\": true\n  },\n  \"salary\": {\n    \"min\": 165000,\n    \"max\": 500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "score": 1,
+  "cost": 8.847e-05,
   "expected": "",
   "tokens": {
     "input": 183,
-    "output": 734
+    "output": 800
   }
 }

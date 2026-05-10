@@ -2,7 +2,7 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "sentiment_sst2",
   "case": 21,
-  "response": "",
+  "response": "We need to classify sentiment of the given text. The text: \"the fly-on-the-wall",
   "score": 0,
   "cost": 9.539999999999998e-06,
   "expected": "positive",

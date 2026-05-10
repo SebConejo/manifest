@@ -3,12 +3,11 @@
   "task": "extraction_hard_v2",
   "case": 29,
   "response": "",
-  "score": 0,
+  "score": 3,
   "cost": 9.981000000000001e-05,
   "expected": "",
   "tokens": {
     "input": 309,
     "output": 800
-  },
-  "score_before_empty_fix": 4
+  }
 }

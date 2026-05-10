@@ -2,8 +2,8 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "sentiment_sst2",
   "case": 17,
-  "response": "",
-  "score": 0,
+  "response": "We need to output either \"positive\" or \"negative\". The text: \"as the two leads",
+  "score": 5,
   "cost": 8.01e-06,
   "expected": "positive",
   "tokens": {

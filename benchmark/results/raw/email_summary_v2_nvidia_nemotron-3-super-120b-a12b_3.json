@@ -2,13 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "email_summary_v2",
   "case": 3,
-  "response": "",
-  "score": 0,
+  "response": "March cohort satisfaction fell to 7.2/10, with strong scores for the buddy system (9.1/10) and timely IT setup, but respondents reported confusion about the benefits deadline, tools access taking 3\u20115 days (against a 1\u2011day target), and no receipt of the culture handbook. Lisa\u2019s priority is to resolve the tools\u2011access delay as the",
+  "score": 5,
   "cost": 2.925e-05,
   "expected": "",
   "tokens": {
     "input": 125,
     "output": 200
-  },
-  "score_before_empty_fix": 4
+  }
 }

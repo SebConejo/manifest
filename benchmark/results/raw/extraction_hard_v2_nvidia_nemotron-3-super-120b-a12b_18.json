@@ -2,8 +2,8 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "extraction_hard_v2",
   "case": 18,
-  "response": "{\n  \"date\": \"March 15, 2024\",\n  \"athlete\": \"Mike Torres\",\n  \"bodyweight_lbs\": 185,\n  \"sleep_hours\": 7,\n  \"exercises\": [\n    {\n      \"name\": \"Back Squat\",\n      \"sets\": [\n        {\"weight\": 225, \"reps\": 5},\n        {\"weight\": 245, \"reps\": 5},\n        {\"weight\": 265, \"reps\": 3},\n        {\"weight\": 275, \"reps\": 2}\n      ],\n      \"note\": \"PR!\"\n    },\n    {\n      \"",
-  "score": 4,
+  "response": "",
+  "score": 1,
   "cost": 0.00010467,
   "expected": "",
   "tokens": {

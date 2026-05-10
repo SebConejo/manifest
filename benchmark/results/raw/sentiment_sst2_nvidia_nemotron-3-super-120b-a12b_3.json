@@ -2,7 +2,7 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "sentiment_sst2",
   "case": 3,
-  "response": "We need to classify sentiment: The text: \"it 's great escapist fun that recreates",
+  "response": "We need to classify sentiment. The text: \"it 's great escapist fun that recreates",
   "score": 0,
   "cost": 7.92e-06,
   "expected": "positive",

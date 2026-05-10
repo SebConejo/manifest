@@ -2,13 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "email_summary_v2",
   "case": 26,
-  "response": "",
-  "score": 0,
+  "response": "We need to summarize in exactly 2 sentences, capturing main point and any action items. The email: Received GDPR data export request from user ID 45892. Deadline: 30 days (May 25). Need: (1) all personal data across services, (2) processing purposes documentation, (3) third-party data sharing log. Legal says we must include analytics data too. - Privacy Team\n\nSo main point: Received GDPR request, need to gather data, documentation, sharing log, include analytics. Action items: compile personal data across services, processing purposes doc, third-party sharing log, include analytics, deliver by May 25.\n\nTwo sentences: maybe: \"We have received a GDPR data export request from user ID 45892, requiring all personal data across services, processing purposes documentation, and a third\u2011party data sharing log, with legal instruction to also include analytics data.\" Second sentence: \"The privacy",
+  "score": 4,
   "cost": 2.8619999999999997e-05,
   "expected": "",
   "tokens": {
     "input": 118,
     "output": 200
-  },
-  "score_before_empty_fix": 5
+  }
 }

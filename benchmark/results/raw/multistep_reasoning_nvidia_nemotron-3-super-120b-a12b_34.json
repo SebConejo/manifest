@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "multistep_reasoning",
   "case": 34,
-  "response": "We need to answer the user request: \"Sickle cell anemia? No, just output only the letter. The user wants only the letter? No, just the instruction: The user wants only the letter. No, just the letter. No, just the letter. No, just the letter. No, just the letter. No extra text.",
+  "response": "",
   "score": 0,
-  "cost": 1.791e-05,
+  "cost": 5.6519999999999994e-05,
   "expected": "B",
   "tokens": {
     "input": 128,
-    "output": 71
+    "output": 500
   }
 }

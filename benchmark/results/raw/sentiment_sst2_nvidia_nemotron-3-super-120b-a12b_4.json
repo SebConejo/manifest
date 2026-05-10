@@ -2,7 +2,7 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "sentiment_sst2",
   "case": 4,
-  "response": "We need to output only the label\nWe need to respond with only sentiment? No text provided.",
+  "response": "We need to classify sentiment of the text: \"all that 's missing is the spontaneity",
   "score": 0,
   "cost": 7.56e-06,
   "expected": "negative",

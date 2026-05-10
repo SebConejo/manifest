@@ -2,7 +2,7 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "sentiment_sst2",
   "case": 13,
-  "response": "",
+  "response": "We need to classify sentiment of the text: \"slick piece of cross-promotion .\"\n\nInter",
   "score": 0,
   "cost": 6.84e-06,
   "expected": "positive",

@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "intent_clinc150",
   "case": 17,
-  "response": "We need to output only intent label.",
+  "response": "",
   "score": 0,
-  "cost": 5.202e-05,
+  "cost": 5.3009999999999996e-05,
   "expected": "reminder",
   "tokens": {
     "input": 569,
-    "output": 9
+    "output": 20
   }
 }

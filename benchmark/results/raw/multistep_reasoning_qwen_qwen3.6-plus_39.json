@@ -1,0 +1,13 @@
+{
+  "model": "qwen/qwen3.6-plus",
+  "task": "multistep_reasoning",
+  "case": 39,
+  "response": "To determine which particle loss results in the least amount of mass lost, we need to compare the masses of the subatomic particles involved:\n\n1.  **Protons** and **neutrons** are located in the nucleus and have approximately the same mass, which is defined as roughly 1 atomic mass unit (amu).\n2.  The **nucleus** is composed of protons and neutrons. Losing the nucleus would mean losing almost the entire mass of the atom.\n3.  **Electrons** orbit the nucleus and have a significantly smaller mass compared to protons and neutrons. An electron's mass is approximately $1/1836$ the mass of a proton.\n\nSince the electron is much lighter than a proton, a neutron, or the entire nucleus, removing an electron results in the smallest decrease in the atom's total mass.\n\nD",
+  "score": 5,
+  "cost": 0.001254825,
+  "expected": "D",
+  "tokens": {
+    "input": 81,
+    "output": 945
+  }
+}
