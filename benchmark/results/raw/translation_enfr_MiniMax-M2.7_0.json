@@ -2,12 +2,12 @@
   "model": "MiniMax-M2.7",
   "task": "translation_enfr",
   "case": 0,
-  "response": "Je sais comment aider, et je le veux.",
+  "response": "Je sais comment aider, et je veux le faire.",
   "score": 5,
-  "cost": 0.0020757,
+  "cost": 0.0023925,
   "expected": "",
   "tokens": {
     "input": 67,
-    "output": 455
+    "output": 527
   }
 }

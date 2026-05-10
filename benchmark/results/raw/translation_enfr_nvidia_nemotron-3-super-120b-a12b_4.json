@@ -1,0 +1,13 @@
+{
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "task": "translation_enfr",
+  "case": 4,
+  "response": "Votre mari avait-il invit\u00e9 le lieutenant Gilbert chez vous\u202f?",
+  "score": 5,
+  "cost": 4.5e-06,
+  "expected": "",
+  "tokens": {
+    "input": 35,
+    "output": 15
+  }
+}

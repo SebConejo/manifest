@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "translation_enfr",
   "case": 2,
-  "response": "J\u00e9sus vint et parla distinctement et avec bienveillance, \u00ab\u202fC\u2019est moi.\u202f\u00bb Cette expression devint le fondement de la foi des ap\u00f4tres.",
+  "response": "J\u00e9sus s\u2019approcha et parla distinctement et doucement\u202f: \u00ab\u202fC\u2019est moi.\u202f\u00bb Cette expression devint le fondement de la foi des ap\u00f4tres.",
   "score": 5,
-  "cost": 8.19e-06,
+  "cost": 2.817e-05,
   "expected": "",
   "tokens": {
-    "input": 50,
-    "output": 41
+    "input": 60,
+    "output": 253
   }
 }

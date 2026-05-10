@@ -52961,3 +52961,203 @@ timestamp,task,case_idx,model,provider,input_price_per_m,output_price_per_m,inpu
 20260509_204122,test_generation_v2,47,o3,openai,2.0,8.0,124,830,0.006888,5,llm_judge,```python # test_run_length_encode.py import pytest  from your_module import run_length_encode   # r
 20260509_204122,test_generation_v2,48,o3,openai,2.0,8.0,120,1386,0.011328,4,llm_judge,```python # test_trie_insert_search.py import pytest  # Import the function under test. # If the fun
 20260509_204122,test_generation_v2,49,o3,openai,2.0,8.0,98,1517,0.012332,4,llm_judge,```python # test_intersection.py import pytest  from <module_under_test> import intersection   # rep
+20260510_025817,translation_enfr,0,kimi-k2.6,moonshot,0.6,2.4,36,910,0.002206,5,llm_judge,"Je sais comment aider, et je veux le faire."
+20260510_025817,translation_enfr,1,kimi-k2.6,moonshot,0.6,2.4,47,640,0.001564,5,llm_judge,"Hommejeunechh, 49 ans, Pays-de-la-Loire (Angers)"
+20260510_025817,translation_enfr,2,kimi-k2.6,moonshot,0.6,2.4,49,1097,0.002662,5,llm_judge,Jésus vint et parla distinctement et avec bonté : « C'est moi. » Cette expression devint le fondemen
+20260510_025817,translation_enfr,3,kimi-k2.6,moonshot,0.6,2.4,76,2547,0.006158,5,llm_judge,"Il n'y a pas d'autre explication à cet octroi parcimonieux de 10 ou 12 millions d'ECU, qui, comme no"
+20260510_025817,translation_enfr,4,kimi-k2.6,moonshot,0.6,2.4,35,940,0.002277,5,llm_judge,Votre mari avait-il invité le lieutenant Gilbert chez vous ?
+20260510_025817,translation_enfr,5,kimi-k2.6,moonshot,0.6,2.4,51,2970,0.007159,5,llm_judge,Les flocs provenant de SRT plus élevés se sont avérés moins hydratés et dotés d'une couche d'EPS den
+20260510_025817,translation_enfr,6,kimi-k2.6,moonshot,0.6,2.4,35,1244,0.003007,4,llm_judge,"En ce moment, c'est ce diable qui roule sur le Wangan."
+20260510_025817,translation_enfr,7,kimi-k2.6,moonshot,0.6,2.4,31,460,0.001123,5,llm_judge,Services de placement. C'est généreux.
+20260510_025817,translation_enfr,8,kimi-k2.6,moonshot,0.6,2.4,46,765,0.001864,5,llm_judge,"Et il a dit : « Bien sûr. » Et j'ai dit : « Eh bien, je me demande où ça va être. »"
+20260510_025817,translation_enfr,9,kimi-k2.6,moonshot,0.6,2.4,66,4571,0.011010,4,llm_judge,"Pour sa part, le deuxième atelier a porté sur la mise en œuvre des recommandations formulées par les"
+20260510_025817,translation_enfr,10,kimi-k2.6,moonshot,0.6,2.4,40,2240,0.005400,4,llm_judge,"Peut-être qu'on pourrait générer quelques indices, nous rapprocher de l'animal qui a fait ça."
+20260510_025817,translation_enfr,11,kimi-k2.6,moonshot,0.6,2.4,80,5888,0.014179,5,llm_judge,"Un grand nombre d'attractions et de produits touristiques (thé, routes culturelles, stations de sant"
+20260510_025817,translation_enfr,12,kimi-k2.6,moonshot,0.6,2.4,67,930,0.002272,5,llm_judge,"Ce premier résultat, jugé exceptionnel, a permis l'identification de 80 signaux acoustiques différen"
+20260510_025817,translation_enfr,13,kimi-k2.6,moonshot,0.6,2.4,37,1274,0.003080,5,llm_judge,Dites juste à Kumagaya que le détective est là.
+20260510_025817,translation_enfr,14,kimi-k2.6,moonshot,0.6,2.4,56,1319,0.003199,5,llm_judge,Le Comité se félicite de la présentation du rapport initial de l'État partie et se réjouit du dialog
+20260510_025817,translation_enfr,15,kimi-k2.6,moonshot,0.6,2.4,44,1849,0.004464,4,llm_judge,Sector Source est un site Web de ressources dédié à aider les dirigeants d’organismes de bienfaisanc
+20260510_025817,translation_enfr,16,kimi-k2.6,moonshot,0.6,2.4,36,714,0.001735,5,llm_judge,J'ai l'impression que ma bite n'est pas assez grosse pour toi.
+20260510_025817,translation_enfr,17,kimi-k2.6,moonshot,0.6,2.4,33,324,0.000797,5,llm_judge,Source : examplereferenceletter.com
+20260510_025817,translation_enfr,18,kimi-k2.6,moonshot,0.6,2.4,39,694,0.001689,5,llm_judge,"La plage la plus proche est facilement accessible en voiture, située à environ 6..."
+20260510_025817,translation_enfr,19,kimi-k2.6,moonshot,0.6,2.4,33,275,0.000680,5,llm_judge,FTI — Privilèges et conditions
+20260510_025817,translation_enfr,20,kimi-k2.6,moonshot,0.6,2.4,34,1017,0.002461,5,llm_judge,"Je dirais que c'est de faible valeur, au mieux."
+20260510_025817,translation_enfr,21,kimi-k2.6,moonshot,0.6,2.4,37,1763,0.004253,4,llm_judge,"Maintenant, voudriez-vous lire ceci, s'il vous plaît ?"
+20260510_025817,translation_enfr,22,kimi-k2.6,moonshot,0.6,2.4,54,938,0.002284,5,llm_judge,"Si les revenus et/ou la situation professionnelle d'une personne changent, il peut y avoir un transf"
+20260510_025817,translation_enfr,23,kimi-k2.6,moonshot,0.6,2.4,51,1677,0.004055,5,llm_judge,Des évacuateurs de crues capables de faire face aux événements de crue postulés sont intégrés soit a
+20260510_025817,translation_enfr,24,kimi-k2.6,moonshot,0.6,2.4,49,1374,0.003327,5,llm_judge,Le programme de nutrition urbain de l'UNICEF à Nairobi est dirigé par une femme et favorise l'octroi
+20260510_025817,translation_enfr,25,kimi-k2.6,moonshot,0.6,2.4,65,2115,0.005115,5,llm_judge,"2. Le 21 février, le sous-secrétaire à la Guerre, José Asenio, fut destitué et, peu après, arrêté av"
+20260510_025817,translation_enfr,26,kimi-k2.6,moonshot,0.6,2.4,45,2380,0.005739,5,llm_judge,"Il suggérait, plutôt, que l'armée joue un rôle secondaire dans les opérations antiterroristes."
+20260510_025817,translation_enfr,27,kimi-k2.6,moonshot,0.6,2.4,77,2925,0.007066,5,llm_judge,"Les critères du DSM-IV pour l'intoxication alcoolique sont similaires, avec l'ajout d'un ou plusieur"
+20260510_025817,translation_enfr,28,kimi-k2.6,moonshot,0.6,2.4,45,3238,0.007798,4,llm_judge,Nous sommes capables... de lancer plus de puissance de feu... que ce qui n'a jamais été déployé dans
+20260510_025817,translation_enfr,29,kimi-k2.6,moonshot,0.6,2.4,36,1079,0.002611,4,llm_judge,Et je t'aime bien... même si je ne sais pas pourquoi.
+20260510_025817,translation_enfr,30,kimi-k2.6,moonshot,0.6,2.4,44,1266,0.003065,5,llm_judge,"Première ligne de crédit en Italie pour l'apprentissage des jeunes dans les PME, les ETI et les coll"
+20260510_025817,translation_enfr,31,kimi-k2.6,moonshot,0.6,2.4,32,1636,0.003946,2,llm_judge,On pourrait vous arrêter pour racolage.
+20260510_025817,translation_enfr,32,kimi-k2.6,moonshot,0.6,2.4,49,970,0.002357,5,llm_judge,"Les États membres, les institutions de l'Union et le SEAE peuvent proposer le détachement de personn"
+20260510_025817,translation_enfr,33,kimi-k2.6,moonshot,0.6,2.4,55,852,0.002078,5,llm_judge,CV33 (1) (1.3) Remplacer « le conducteur et les autres membres de l'équipage » par « les membres de 
+20260510_025817,translation_enfr,34,kimi-k2.6,moonshot,0.6,2.4,34,392,0.000961,5,llm_judge,"Sydney, Esther sera dans mon bureau."
+20260510_025817,translation_enfr,35,kimi-k2.6,moonshot,0.6,2.4,44,774,0.001884,5,llm_judge,[journaliste masculin n° 1 à la télé] l'accident s'est produit juste après 10 h.
+20260510_025817,translation_enfr,36,kimi-k2.6,moonshot,0.6,2.4,40,1136,0.002750,5,llm_judge,"Plus tu te débats, plus ça va être gênant pour tout le monde."
+20260510_025817,translation_enfr,37,kimi-k2.6,moonshot,0.6,2.4,92,5255,0.012667,5,llm_judge,Le paragraphe 104(1.1) est modifié afin de préciser qu'il s'applique malgré le paragraphe 248(25) de
+20260510_025817,translation_enfr,38,kimi-k2.6,moonshot,0.6,2.4,34,1215,0.002936,5,llm_judge,Cela ne peut que mener au chaos et à la terreur.
+20260510_025817,translation_enfr,39,kimi-k2.6,moonshot,0.6,2.4,34,665,0.001616,5,llm_judge,"Tu sais d'où vient l'argent ?  *(Or, formal: Savez-vous d'où vient l'argent ?)*"
+20260510_025817,translation_enfr,40,kimi-k2.6,moonshot,0.6,2.4,33,568,0.001383,5,llm_judge,Nous avons juste besoin d'obtenir plus d'informations.
+20260510_025817,translation_enfr,41,kimi-k2.6,moonshot,0.6,2.4,42,2563,0.006176,4,llm_judge,T'es pas à la DGA. Zoome et ferme ta putain de gueule.
+20260510_025817,translation_enfr,42,kimi-k2.6,moonshot,0.6,2.4,109,2810,0.006809,5,llm_judge,Ce premier recensement eut lieu pendant que Quirinus était gouverneur de Syrie. Tout le monde devait
+20260510_025817,translation_enfr,43,kimi-k2.6,moonshot,0.6,2.4,48,1586,0.003835,4,llm_judge,L’unité se fixe simplement à l’appuie-tête du siège du conducteur à l’aide d’une sangle élastique ro
+20260510_025817,translation_enfr,44,kimi-k2.6,moonshot,0.6,2.4,55,2498,0.006028,4,llm_judge,Les analyses de sensibilité indiquent que l’ampleur de la longueur non soutenue développée suite à l
+20260510_025817,translation_enfr,45,kimi-k2.6,moonshot,0.6,2.4,67,1809,0.004382,5,llm_judge,"L'évasion fiscale s'est accrue en Tunisie, provoquant un manque à gagner significatif en termes de r"
+20260510_025817,translation_enfr,46,kimi-k2.6,moonshot,0.6,2.4,43,1259,0.003047,5,llm_judge,J'ai reçu sept motions de résolution conformément à l'article 37 du Règlement intérieur.
+20260510_025817,translation_enfr,47,kimi-k2.6,moonshot,0.6,2.4,66,2463,0.005951,5,llm_judge,"Une répression de ce type, de même que les arrestations au cours des dernières semaines de représent"
+20260510_025817,translation_enfr,48,kimi-k2.6,moonshot,0.6,2.4,97,3122,0.007551,5,llm_judge,"Choisissez l'une de ces Renault à louer à Galați ou dans d'autres villes comme : Arad, Timișoara, Si"
+20260510_025817,translation_enfr,49,kimi-k2.6,moonshot,0.6,2.4,42,1484,0.003587,5,llm_judge,"J'ai des gâteaux à la crème, des friandises, des harengs marinés et des dattes cristallisées."
+20260510_025817,translation_enfr,0,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,33,209,0.000378,5,llm_judge,"Je sais comment aider, et je le veux."
+20260510_025817,translation_enfr,1,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,43,524,0.000930,5,llm_judge,"Hommejeunechh, 49 ans, Pays de la Loire (Angers)"
+20260510_025817,translation_enfr,2,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,46,838,0.001478,5,llm_judge,Jésus vint et parla distinctement et avec bonté : « C’est moi. » Cette parole devint le fondement de
+20260510_025817,translation_enfr,3,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,73,964,0.001709,4,llm_judge,"Il n'y a pas d'autre explication à la subvention parcimonieuse de 10 ou 12 millions d'ECU, qui, comm"
+20260510_025817,translation_enfr,4,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,32,181,0.000329,5,llm_judge,Votre mari avait-il invité le lieutenant Gilbert chez vous ?
+20260510_025817,translation_enfr,5,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,48,831,0.001467,5,llm_judge,Les flocs issus de SRT plus élevés étaient moins hydratés et présentaient une couche dense d'EPS rec
+20260510_025817,translation_enfr,6,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,32,543,0.000959,4,llm_judge,"En ce moment, ce diable roule sur Wangan."
+20260510_025817,translation_enfr,7,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,29,364,0.000646,5,llm_judge,Services de placement. C'est généreux.
+20260510_025817,translation_enfr,8,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,44,802,0.001415,4,llm_judge,"Et il a dit : « Bien sûr. » Et j’ai dit : « Ben, je me demande où ça va être. »"
+20260510_025817,translation_enfr,9,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,63,1032,0.001823,4,llm_judge,"Pour sa part, le deuxième atelier a porté sur la mise en œuvre des recommandations adressées à l’Éta"
+20260510_025817,translation_enfr,10,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,37,669,0.001180,4,llm_judge,"Peut-être génère des indices, rapproche-nous de l'animal qui a fait ça."
+20260510_025817,translation_enfr,11,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,77,1712,0.003012,4,llm_judge,"Un grand nombre d'attractions et de produits touristiques (thé, routes culturelles, stations thermal"
+20260510_025817,translation_enfr,12,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,64,562,0.001006,5,llm_judge,"Ce premier résultat, jugé exceptionnel, a permis l'identification de 80 signaux acoustiques différen"
+20260510_025817,translation_enfr,13,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,34,318,0.000568,5,llm_judge,Dis juste à Kumagaya que le détective est là.
+20260510_025817,translation_enfr,14,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,53,269,0.000491,5,llm_judge,Le Comité accueille avec satisfaction la présentation du rapport initial de l'État partie et se féli
+20260510_025817,translation_enfr,15,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,41,480,0.000853,5,llm_judge,Sector Source est un site Web de ressources dédié à aider les dirigeants d'organismes de bienfaisanc
+20260510_025817,translation_enfr,16,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,34,251,0.000452,4,llm_judge,J'ai l'impression que ma bite n'est pas assez grosse pour toi.
+20260510_025817,translation_enfr,17,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,31,138,0.000254,1,llm_judge,Source : examplereferenceletter.com
+20260510_025817,translation_enfr,18,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,36,324,0.000579,5,llm_judge,"La plage la plus proche est facilement accessible en voiture, située à environ 6..."
+20260510_025817,translation_enfr,19,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,30,122,0.000225,5,llm_judge,FTI — Privilèges et conditions
+20260510_025817,translation_enfr,20,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,33,265,0.000475,4,llm_judge,"Je dirais que c'est de faible valeur, au mieux."
+20260510_025817,translation_enfr,21,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,34,610,0.001076,5,llm_judge,"Alors, pourriez-vous lire ceci, s'il vous plaît ?"
+20260510_025817,translation_enfr,22,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,52,535,0.000954,5,llm_judge,"Si le revenu et/ou le statut d'emploi d'une personne change, il peut y avoir un transfert de respons"
+20260510_025817,translation_enfr,23,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,47,533,0.000948,4,llm_judge,Des évacuateurs de crue capables d'évacuer les crues postulées sont soit incorporés dans les ouvrage
+20260510_025817,translation_enfr,24,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,46,401,0.000718,5,llm_judge,Le programme de nutrition urbaine de l'UNICEF à Nairobi est dirigé par une femme et promeut le crédi
+20260510_025817,translation_enfr,25,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,61,653,0.001163,5,llm_judge,"2. Le 21 février, le sous-secrétaire à la Guerre, José Asenio, fut limogé, et peu après arrêté avec "
+20260510_025817,translation_enfr,26,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,42,487,0.000866,4,llm_judge,"Il a suggéré, au contraire, que l'armée joue un rôle secondaire dans les opérations antiterroristes."
+20260510_025817,translation_enfr,27,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,73,71,0.000155,5,llm_judge,"Les critères du DSM-IV pour l'intoxication alcoolique sont similaires, avec l'ajout d'un ou plusieur"
+20260510_025817,translation_enfr,28,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,43,423,0.000755,4,llm_judge,Nous sommes capables... de libérer plus de puissance de feu... qu'il n'en a jamais été libéré dans l
+20260510_025817,translation_enfr,29,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,34,416,0.000739,4,llm_judge,Et je t'aime bien... bien que je ne sache pas pourquoi.
+20260510_025817,translation_enfr,30,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,41,441,0.000785,5,llm_judge,"Première ligne de crédit en Italie pour l'apprentissage des jeunes dans les PME, les ETI et les coll"
+20260510_025817,translation_enfr,31,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,30,451,0.000798,2,llm_judge,On pourrait vous arrêter pour racolage.
+20260510_025817,translation_enfr,32,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,47,459,0.000819,5,llm_judge,"Les États membres, les institutions de l'Union et le SEAE peuvent proposer le détachement de personn"
+20260510_025817,translation_enfr,33,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,52,749,0.001326,4,llm_judge,CV33 (1) (1.3) Remplacer « the driver and the other members of the crew » par « members of the vehic
+20260510_025817,translation_enfr,34,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,31,9,0.000029,5,llm_judge,"Sydney, Esther sera dans mon bureau."
+20260510_025817,translation_enfr,35,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,41,485,0.000862,5,llm_judge,[journaliste masculin n°1 à la télévision] Un accident s'est produit juste après 10 heures.
+20260510_025817,translation_enfr,36,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,37,482,0.000855,5,llm_judge,"Plus tu te débats, plus ça va être gênant pour tout le monde."
+20260510_025817,translation_enfr,37,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,88,1083,0.001923,5,llm_judge,Le paragraphe 104(1.1) est modifié afin de préciser qu’il s’applique nonobstant le paragraphe 248(25
+20260510_025817,translation_enfr,38,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,31,131,0.000241,5,llm_judge,Cela ne peut que mener au chaos et à la terreur.
+20260510_025817,translation_enfr,39,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,31,12,0.000034,5,llm_judge,Savez-vous d'où vient l'argent ?
+20260510_025817,translation_enfr,40,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,30,13,0.000036,5,llm_judge,Nous avons juste besoin d'obtenir plus d'informations.
+20260510_025817,translation_enfr,41,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,39,586,0.001037,4,llm_judge,T’es pas dans la DGA. Contente-toi de zoomer et ferme ta gueule.
+20260510_025817,translation_enfr,42,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,104,997,0.001780,5,llm_judge,Ce premier recensement eut lieu pendant que Quirinius était gouverneur de Syrie. Chacun devait se fa
+20260510_025817,translation_enfr,43,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,46,386,0.000692,4,llm_judge,L'unité est simplement fixée à l'appuie-tête du siège conducteur à l'aide d'une sangle élastique sol
+20260510_025817,translation_enfr,44,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,52,767,0.001357,4,llm_judge,Les analyses de sensibilité indiquent que l'étendue de la longueur non soutenue résultant de l'affou
+20260510_025817,translation_enfr,45,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,63,516,0.000925,5,llm_judge,"L'évasion fiscale a augmenté en Tunisie, entraînant un manque à gagner important en termes de ressou"
+20260510_025817,translation_enfr,46,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,40,245,0.000444,5,llm_judge,J'ai reçu sept propositions de résolution conformément à l'article 37 du règlement.
+20260510_025817,translation_enfr,47,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,62,1746,0.003065,5,llm_judge,"La répression de ce type, ainsi que l'arrestation, ces dernières semaines, de représentants d'instit"
+20260510_025817,translation_enfr,48,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,94,759,0.001362,5,llm_judge,"- Choisissez une de ces Renault à louer à Galati ou dans d’autres villes telles que : Arad, Timisoar"
+20260510_025817,translation_enfr,49,deepseek/deepseek-v4-pro,openrouter,0.435,1.74,41,779,0.001373,4,llm_judge,"J'ai des gâteaux à la crème, des fruits confits, des harengs marinés et des dattes confites."
+20260510_025817,translation_enfr,0,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,36,13,0.000004,5,llm_judge,"Je sais comment aider, et je veux le faire."
+20260510_025817,translation_enfr,1,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,47,21,0.000006,5,llm_judge,"Hommejeunechh, 49 ans, Pays de la Loire (Angers)"
+20260510_025817,translation_enfr,2,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,60,253,0.000028,5,llm_judge,Jésus s’approcha et parla distinctement et doucement : « C’est moi. » Cette expression devint le fon
+20260510_025817,translation_enfr,3,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,89,6,0.000009,1,llm_judge,We need to French.
+20260510_025817,translation_enfr,4,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,35,15,0.000005,5,llm_judge,Votre mari avait-il invité le lieutenant Gilbert chez vous ?
+20260510_025817,translation_enfr,5,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,51,46,0.000009,4,llm_judge,Les flocs provenant de SRT plus élevés étaient moins hydratés et ont été trouvés pour posséder une c
+20260510_025817,translation_enfr,6,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,45,439,0.000044,5,llm_judge,"En ce moment, ce diable? Actually: A, B, C, D, E, F, G, H, I, J, K, N, O, P, S, V, Y, B, E, H, K, N,"
+20260510_025817,translation_enfr,7,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,43,99,0.000013,5,llm_judge,Services de placement. C'est généreux.
+20260510_025817,translation_enfr,8,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,57,8,0.000006,1,llm_judge,"Okay, the user's request."
+20260510_025817,translation_enfr,9,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,67,71,0.000012,4,llm_judge,"Pour sa part, le deuxième atelier s’est concentré sur la mise en œuvre des recommandations formulées"
+20260510_025817,translation_enfr,10,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,50,500,0.000049,4,llm_judge,"Okay, the user wants me to translate an English sentence into French while maintaining the tone and "
+20260510_025817,translation_enfr,11,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,81,90,0.000015,4,llm_judge,"Un large éventail d’attractions et de produits touristiques (thé, itinéraires culturels, stations de"
+20260510_025817,translation_enfr,12,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,77,127,0.000018,5,llm_judge,"Ce premier résultat, jugé exceptionnel, a permis l’identification de 80 signaux acoustiques différen"
+20260510_025817,translation_enfr,13,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,37,14,0.000005,5,llm_judge,Dis simplement à Kumagaya que le détective est ici.
+20260510_025817,translation_enfr,14,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,67,57,0.000011,1,llm_judge,"We need to output: A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z"
+20260510_025817,translation_enfr,15,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,57,69,0.000011,1,llm_judge,"Okay, the user wants translation to French? No, just list letters. Provide as A, B, C, D, E, F, G, H"
+20260510_025817,translation_enfr,16,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,47,19,0.000006,1,llm_judge,"We need to translate: ""I feel like my cock isn't big enough for you."
+20260510_025817,translation_enfr,17,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,45,91,0.000012,1,llm_judge,"A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z"
+20260510_025817,translation_enfr,18,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,39,24,0.000006,4,llm_judge,"La plage la plus proche se trouve à une distance de conduite facile, située à environ 6…"
+20260510_025817,translation_enfr,19,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,33,10,0.000004,5,llm_judge,FTI — Privilèges et conditions
+20260510_025817,translation_enfr,20,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,46,500,0.000049,3,llm_judge,
+20260510_025817,translation_enfr,21,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,47,66,0.000010,1,llm_judge,"Okay, the user asked to translate English text to French, maintain tone and meaning. The English tex"
+20260510_025817,translation_enfr,22,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,55,44,0.000009,5,llm_judge,"Si le revenu et/ou le statut d'emploi d'une personne change, il peut y avoir un transfert de respons"
+20260510_025817,translation_enfr,23,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,60,78,0.000012,1,llm_judge,"We need to translate: ""Spillways? Actually just list letters A-Z. Provide as simple list. Ensure ton"
+20260510_025817,translation_enfr,24,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,60,196,0.000023,5,llm_judge,Le programme de nutrition urbaine de l'UNICEF à Nairobi est dirigé par une femme et promeut l’accès 
+20260510_025817,translation_enfr,25,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,76,460,0.000048,5,llm_judge,"2. Le 21 février, le sous‑secrétaire d’État à la Guerre, José Asenio, fut limogé et peu après arrêté"
+20260510_025817,translation_enfr,26,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,45,34,0.000007,4,llm_judge,"Il a suggéré, à la place, que l'armée devrait jouer un rôle secondaire dans les opérations antiterro"
+20260510_025817,translation_enfr,27,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,78,80,0.000014,5,llm_judge,"Les critères du DSM‑IV pour l’intoxication à l’alcool sont similaires, avec l’ajout d’un ou plusieur"
+20260510_025817,translation_enfr,28,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,45,35,0.000007,4,llm_judge,Nous sommes capables... de déployer plus de puissance de feu... que n'en a jamais été déployée dans 
+20260510_025817,translation_enfr,29,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,37,15,0.000005,4,llm_judge,Et je t'aime… même si je ne sais pas pourquoi.
+20260510_025817,translation_enfr,30,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,45,33,0.000007,5,llm_judge,"Première ligne de crédit en Italie pour l’apprentissage des jeunes dans les PME, les ETI et les coll"
+20260510_025817,translation_enfr,31,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,43,15,0.000005,1,llm_judge,"We need to French? No, just a? Actually just answer."
+20260510_025817,translation_enfr,32,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,60,6,0.000006,1,llm_judge,We need to French.
+20260510_025817,translation_enfr,33,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,66,58,0.000011,1,llm_judge,"We need to French: A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z."
+20260510_025817,translation_enfr,34,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,34,10,0.000004,5,llm_judge,"Sydney, Esther sera dans mon bureau."
+20260510_025817,translation_enfr,35,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,56,214,0.000024,5,llm_judge,[reporter #1 à la télévision] l'accident s'est produit juste après 10 h00.
+20260510_025817,translation_enfr,36,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,50,337,0.000035,1,llm_judge,"Okay, the user wants me to translate an English sentence to French while maintaining the tone and me"
+20260510_025817,translation_enfr,37,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,110,377,0.000044,4,llm_judge,"We need to translate the English sentence to French, maintaining tone and meaning. Provide translati"
+20260510_025817,translation_enfr,38,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,34,16,0.000005,5,llm_judge,Cela ne peut que mener au chaos et à la terreur.
+20260510_025817,translation_enfr,39,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,44,500,0.000049,5,llm_judge,"Okay, the user wants me to translate an English sentence to French while maintaining the tone and me"
+20260510_025817,translation_enfr,40,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,33,18,0.000005,4,llm_judge,Nous n'avons besoin que d'obtenir plus d'informations.
+20260510_025817,translation_enfr,41,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,52,53,0.000009,1,llm_judge,"We need to translate: ""You ain't in the DGA? Actually they want translation? The user says: ""You ain"
+20260510_025817,translation_enfr,42,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,120,43,0.000015,1,llm_judge,"We need to translate: ""Translate the following: ""Translate the following text: A B C D E F G H I J K"
+20260510_025817,translation_enfr,43,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,48,38,0.000008,4,llm_judge,L'unité se fixe simplement à l'appui-tête du siège du conducteur à l'aide d'une sangle élastique rés
+20260510_025817,translation_enfr,44,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,55,51,0.000010,4,llm_judge,Les analyses de sensibilité indiquent que l'ampleur de la longueur non soutenue développée à la suit
+20260510_025817,translation_enfr,45,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,80,135,0.000019,5,llm_judge,"L'évasion fiscale a augmenté en Tunisie, provoquant un déficit significatif en termes de ressources "
+20260510_025817,translation_enfr,46,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,43,23,0.000006,5,llm_judge,J'ai reçu sept motions de résolution conformément à l'article 37 du règlement.
+20260510_025817,translation_enfr,47,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,65,73,0.000012,5,llm_judge,"La répression de ce type, ainsi que l'arrestation ces dernières semaines de représentants d'institut"
+20260510_025817,translation_enfr,48,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,106,274,0.000034,5,llm_judge,"- Choisissez l’une de ces Renault à louer à Galati ou dans d’autres villes telles que : Arad, Timișo"
+20260510_025817,translation_enfr,49,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,55,29,0.000008,2,llm_judge,"We need to translate the sentence: ""I've got cream cakes, sweet meats, pickled herring, and crystall"
+20260510_025817,translation_enfr,0,MiniMax-M2.7,minimax,1.1,4.4,67,527,0.002393,5,llm_judge,"Je sais comment aider, et je veux le faire."
+20260510_025817,translation_enfr,1,MiniMax-M2.7,minimax,1.1,4.4,58,355,0.001626,5,llm_judge,"Hommejeunechh, 49 ans, Pays-de-la-Loire (Angers)"
+20260510_025817,translation_enfr,2,MiniMax-M2.7,minimax,1.1,4.4,80,651,0.002952,5,llm_judge,Jésus vint et parla clairement et avec bonté : « C'est moi. » Cette expression devint le fondement d
+20260510_025817,translation_enfr,3,MiniMax-M2.7,minimax,1.1,4.4,107,1397,0.006265,5,llm_judge,"Il n'existe aucune autre explication à cette allocation parcimonieuse de 10 ou 12 millions d'écus, q"
+20260510_025817,translation_enfr,4,MiniMax-M2.7,minimax,1.1,4.4,66,219,0.001036,5,llm_judge,Votre mari avait-il invité le lieutenant Gilbert chez vous ?
+20260510_025817,translation_enfr,5,MiniMax-M2.7,minimax,1.1,4.4,65,459,0.002091,5,llm_judge,Les flocs provenant de SRT plus élevés étaient moins hydratés et présentaient une couche dense d'EPS
+20260510_025817,translation_enfr,6,MiniMax-M2.7,minimax,1.1,4.4,66,936,0.004191,4,llm_judge,"En ce moment, c’est ce diable qui roule sur Wangan."
+20260510_025817,translation_enfr,7,MiniMax-M2.7,minimax,1.1,4.4,62,342,0.001573,5,llm_judge,Services de placement. C'est généreux.
+20260510_025817,translation_enfr,8,MiniMax-M2.7,minimax,1.1,4.4,77,276,0.001299,5,llm_judge,"Et il a dit : « Bien sûr. » Et j'ai dit : « Eh bien, je me demande où ça va être. »"
+20260510_025817,translation_enfr,9,MiniMax-M2.7,minimax,1.1,4.4,97,310,0.001471,5,llm_judge,"De son côté, le deuxième atelier portait sur la mise en œuvre des recommandations formulées par les "
+20260510_025817,translation_enfr,10,MiniMax-M2.7,minimax,1.1,4.4,71,185,0.000892,5,llm_judge,"Peut-être qu'on pourrait générer quelques indices, histoire de nous rapprocher de l'animal qui a fai"
+20260510_025817,translation_enfr,11,MiniMax-M2.7,minimax,1.1,4.4,92,450,0.002081,5,llm_judge,"Un grand nombre d'attractions et de produits touristiques (thé, itinéraires culturels, centres de sa"
+20260510_025817,translation_enfr,12,MiniMax-M2.7,minimax,1.1,4.4,97,347,0.001634,5,llm_judge,"French: Ce premier résultat, jugé exceptionnel, a permis l'identification de 80 signaux acoustiques "
+20260510_025817,translation_enfr,13,MiniMax-M2.7,minimax,1.1,4.4,51,257,0.001187,5,llm_judge,Dis juste à Kumagaya que le détective est là.
+20260510_025817,translation_enfr,14,MiniMax-M2.7,minimax,1.1,4.4,87,826,0.003730,5,llm_judge,Le Comité se félicite de la soumission du rapport initial de l'État partie et se déclare satisfait d
+20260510_025817,translation_enfr,15,MiniMax-M2.7,minimax,1.1,4.4,75,494,0.002256,4,llm_judge,Sector Source est un site web de ressources dédié à aider les responsables d'organisations caritativ
+20260510_025817,translation_enfr,16,MiniMax-M2.7,minimax,1.1,4.4,67,441,0.002014,4,llm_judge,J’ai l feeling que ma bite n’est pas assez grande pour toi.
+20260510_025817,translation_enfr,17,MiniMax-M2.7,minimax,1.1,4.4,50,226,0.001049,1,llm_judge,Source:examplereferenceletter.com
+20260510_025817,translation_enfr,18,MiniMax-M2.7,minimax,1.1,4.4,70,688,0.003104,4,llm_judge,"La plage la plus proche est à une courte distance en voiture, à environ 6…"
+20260510_025817,translation_enfr,19,MiniMax-M2.7,minimax,1.1,4.4,47,209,0.000971,5,llm_judge,FTI — Privilèges et conditions
+20260510_025817,translation_enfr,20,MiniMax-M2.7,minimax,1.1,4.4,48,140,0.000669,4,llm_judge,"Je dirais que c'est de faible valeur, au mieux."
+20260510_025817,translation_enfr,21,MiniMax-M2.7,minimax,1.1,4.4,68,788,0.003542,5,llm_judge,"Maintenant, pourriez‑vous lire ceci, s’il vous plaît ?"
+20260510_025817,translation_enfr,22,MiniMax-M2.7,minimax,1.1,4.4,85,1188,0.005321,5,llm_judge,"Si le revenu et/ou la situation professionnelle d'une personne change, il peut y avoir un transfert "
+20260510_025817,translation_enfr,23,MiniMax-M2.7,minimax,1.1,4.4,81,493,0.002258,5,llm_judge,Les déversoirs capables de gérer les événements d’inondation postulés sont incorporés soit dans les 
+20260510_025817,translation_enfr,24,MiniMax-M2.7,minimax,1.1,4.4,79,385,0.001781,5,llm_judge,Le programme de nutrition urbaine de l’UNICEF à Nairobi est dirigé par une femme et encourage le cré
+20260510_025817,translation_enfr,25,MiniMax-M2.7,minimax,1.1,4.4,93,554,0.002540,5,llm_judge,"2. Le 21 février, le sous‑secrétaire à la Guerre, José Asenio, a été démis de ses fonctions et arrêt"
+20260510_025817,translation_enfr,26,MiniMax-M2.7,minimax,1.1,4.4,75,226,0.001077,5,llm_judge,"Elle a suggéré, au contraire, que l'armée devrait jouer un rôle secondaire dans les opérations anti-"
+20260510_025817,translation_enfr,27,MiniMax-M2.7,minimax,1.1,4.4,89,448,0.002069,5,llm_judge,"Les critères du DSM-IV pour l'intoxication alcoolique sont similaires, avec l'ajout d'un ou plusieur"
+20260510_025817,translation_enfr,28,MiniMax-M2.7,minimax,1.1,4.4,76,1175,0.005254,4,llm_judge,Nous sommes capables… de lâcher plus de puissance de feu… que ce qui n’a jamais été libéré dans l’hi
+20260510_025817,translation_enfr,29,MiniMax-M2.7,minimax,1.1,4.4,50,232,0.001076,4,llm_judge,Et je t'aime bien... même si je ne sais pas pourquoi.
+20260510_025817,translation_enfr,30,MiniMax-M2.7,minimax,1.1,4.4,57,728,0.003266,5,llm_judge,"Première ligne de crédit en Italie pour l'apprentissage des jeunes dans les PME, les midcaps et les "
+20260510_025817,translation_enfr,31,MiniMax-M2.7,minimax,1.1,4.4,46,507,0.002281,3,llm_judge,Nous pourrions vous interpeller pour sollicitation.
+20260510_025817,translation_enfr,32,MiniMax-M2.7,minimax,1.1,4.4,81,658,0.002984,5,llm_judge,"Les États membres, les institutions de l'Union et le SEAE peuvent proposer le détachement de personn"
+20260510_025817,translation_enfr,33,MiniMax-M2.7,minimax,1.1,4.4,69,407,0.001867,4,llm_judge,CV33 (1) (1.3) Remplacer « the driver and the other members of the crew » par « members of the vehic
+20260510_025817,translation_enfr,34,MiniMax-M2.7,minimax,1.1,4.4,65,245,0.001149,5,llm_judge,"Sydney, Esther sera dans mon bureau."
+20260510_025817,translation_enfr,35,MiniMax-M2.7,minimax,1.1,4.4,58,232,0.001085,5,llm_judge,French: Un accident s'est produit peu après 10 heures du matin.
+20260510_025817,translation_enfr,36,MiniMax-M2.7,minimax,1.1,4.4,71,1410,0.006282,4,llm_judge,"Plus tu te bats, plus ça va être gênant pour tout le monde."
+20260510_025817,translation_enfr,37,MiniMax-M2.7,minimax,1.1,4.4,119,1061,0.004799,5,llm_judge,Le paragraphe 104(1.1) est modifié pour clarifier qu’il s'applique nonobstant le paragraphe 248(25) 
+20260510_025817,translation_enfr,38,MiniMax-M2.7,minimax,1.1,4.4,48,167,0.000788,5,llm_judge,Cela ne peut que mener au chaos et à la terreur.
+20260510_025817,translation_enfr,39,MiniMax-M2.7,minimax,1.1,4.4,65,206,0.000978,5,llm_judge,Tu sais d'où vient l'argent ?
+20260510_025817,translation_enfr,40,MiniMax-M2.7,minimax,1.1,4.4,47,147,0.000699,4,llm_judge,Nous avons juste besoin d'obtenir plus d'informations.
+20260510_025817,translation_enfr,41,MiniMax-M2.7,minimax,1.1,4.4,72,1661,0.007388,4,llm_judge,Tu n'es pas au DGA. Zoome et ferme‑ta‑gueule bordel.
+20260510_025817,translation_enfr,42,MiniMax-M2.7,minimax,1.1,4.4,135,7074,0.031274,4,llm_judge,Ce premier dénombrement fut réalisé alors que Quirinius était gouverneur de la province de la Syr. C
+20260510_025817,translation_enfr,43,MiniMax-M2.7,minimax,1.1,4.4,79,369,0.001711,4,llm_judge,L'unité est simplement fixée à l'appui‑tête du siège du conducteur à l'aide d'une sangle élastique r
+20260510_025817,translation_enfr,44,MiniMax-M2.7,minimax,1.1,4.4,68,172,0.000832,4,llm_judge,French: Les analyses de sensibilité indiquent que l'étendue de la longueur non supportée développée 
+20260510_025817,translation_enfr,45,MiniMax-M2.7,minimax,1.1,4.4,96,665,0.003032,5,llm_judge,"L'évasion fiscale a augmenté en Tunisie, causant un déficit significatif en matière de ressources pu"
+20260510_025817,translation_enfr,46,MiniMax-M2.7,minimax,1.1,4.4,74,541,0.002462,2,llm_judge,J’ai reçu sept motions de résolution conformément à l статье 37 du Règlement de procédure.
+20260510_025817,translation_enfr,47,MiniMax-M2.7,minimax,1.1,4.4,99,1433,0.006414,5,llm_judge,"La répression de ce type, jointe aux arrestations ces dernières semaines de représentants d’institut"
+20260510_025817,translation_enfr,48,MiniMax-M2.7,minimax,1.1,4.4,127,699,0.003215,5,llm_judge,"- Choisissez l'une de ces Renault à louer à Galati ou dans d'autres villes comme : Arad, Timișoara, "
+20260510_025817,translation_enfr,49,MiniMax-M2.7,minimax,1.1,4.4,55,396,0.001803,4,llm_judge,"J'ai des gâteaux à la crème, des viandes sucrées, des harengs marinés et des dattes cristallisées."

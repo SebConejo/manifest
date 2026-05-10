@@ -4,10 +4,10 @@
   "case": 39,
   "response": "Tu sais d'o\u00f9 vient l'argent ?",
   "score": 5,
-  "cost": 0.0013728,
+  "cost": 0.0009779,
   "expected": "",
   "tokens": {
-    "input": 68,
-    "output": 295
+    "input": 65,
+    "output": 206
   }
 }

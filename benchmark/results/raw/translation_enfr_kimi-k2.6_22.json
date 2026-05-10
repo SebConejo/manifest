@@ -1,0 +1,13 @@
+{
+  "model": "kimi-k2.6",
+  "task": "translation_enfr",
+  "case": 22,
+  "response": "Si les revenus et/ou la situation professionnelle d'une personne changent, il peut y avoir un transfert de responsabilit\u00e9 institutionnelle, auquel cas une nouvelle \u00e9valuation sera effectu\u00e9e.",
+  "score": 5,
+  "cost": 0.0022835999999999998,
+  "expected": "",
+  "tokens": {
+    "input": 54,
+    "output": 938
+  }
+}

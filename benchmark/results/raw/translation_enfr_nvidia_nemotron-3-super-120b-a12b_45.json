@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "translation_enfr",
   "case": 45,
-  "response": "L'\u00e9vasion fiscale a augment\u00e9 en Tunisie, entra\u00eenant un manque \u00e0 gagner significatif en termes de ressources publiques, a d\u00e9clar\u00e9 l'ancien chef du gouvernement int\u00e9rimaire Ali Larayedh en juin 2013, cit\u00e9 par le journal Business Flood.",
+  "response": "L'\u00e9vasion fiscale a augment\u00e9 en Tunisie, provoquant un d\u00e9ficit significatif en termes de ressources publiques, a d\u00e9clar\u00e9 l'ancien chef du gouvernement int\u00e9rimaire Ali Larayedh en juin 2013, cit\u00e9 par le journal Business Flood.",
   "score": 5,
-  "cost": 1.422e-05,
+  "cost": 1.9350000000000003e-05,
   "expected": "",
   "tokens": {
     "input": 80,
-    "output": 78
+    "output": 135
   }
 }

@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "translation_enfr",
   "case": 29,
-  "response": "Et je t'aime bien... m\u00eame si je ne sais pas pourquoi.",
+  "response": "Et je t'aime bien... bien que je ne sache pas pourquoi.",
   "score": 4,
-  "cost": 0.0006290099999999999,
+  "cost": 0.00073863,
   "expected": "",
   "tokens": {
     "input": 34,
-    "output": 353
+    "output": 416
   }
 }

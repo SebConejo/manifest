@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "translation_enfr",
   "case": 49,
-  "response": "J'ai des g\u00e2teaux \u00e0 la cr\u00e8me, des viandes sucr\u00e9es, du hareng marin\u00e9 et des dattes cristallis\u00e9es.",
-  "score": 5,
-  "cost": 6.93e-06,
+  "response": "We need to translate the sentence: \"I've got cream cakes, sweet meats, pickled herring, and crystallized dates.",
+  "score": 2,
+  "cost": 7.5600000000000005e-06,
   "expected": "",
   "tokens": {
-    "input": 44,
-    "output": 33
+    "input": 55,
+    "output": 29
   }
 }

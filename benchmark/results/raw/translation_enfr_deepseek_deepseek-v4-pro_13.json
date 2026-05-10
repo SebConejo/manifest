@@ -4,10 +4,10 @@
   "case": 13,
   "response": "Dis juste \u00e0 Kumagaya que le d\u00e9tective est l\u00e0.",
   "score": 5,
-  "cost": 0.00078387,
+  "cost": 0.00056811,
   "expected": "",
   "tokens": {
     "input": 34,
-    "output": 442
+    "output": 318
   }
 }

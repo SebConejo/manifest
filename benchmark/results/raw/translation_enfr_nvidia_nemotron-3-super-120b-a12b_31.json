@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "translation_enfr",
   "case": 31,
-  "response": "Nous pourrions vous poursuivre pour sollicitation.",
-  "score": 2,
-  "cost": 4.229999999999999e-06,
+  "response": "We need to French? No, just a? Actually just answer.",
+  "score": 1,
+  "cost": 5.22e-06,
   "expected": "",
   "tokens": {
-    "input": 33,
-    "output": 14
+    "input": 43,
+    "output": 15
   }
 }

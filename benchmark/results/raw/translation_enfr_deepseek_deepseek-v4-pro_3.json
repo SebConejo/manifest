@@ -1,0 +1,13 @@
+{
+  "model": "deepseek/deepseek-v4-pro",
+  "task": "translation_enfr",
+  "case": 3,
+  "response": "Il n'y a pas d'autre explication \u00e0 la subvention parcimonieuse de 10 ou 12 millions d'ECU, qui, comme nous le savons tous, ne suffit m\u00eame pas \u00e0 construire un seul navire \u00e9quip\u00e9 de moyens modernes pour exercer une fonction de surveillance dans le secteur de la p\u00eache.",
+  "score": 4,
+  "cost": 0.001709115,
+  "expected": "",
+  "tokens": {
+    "input": 73,
+    "output": 964
+  }
+}

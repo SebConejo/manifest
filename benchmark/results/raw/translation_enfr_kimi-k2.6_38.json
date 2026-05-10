@@ -2,12 +2,12 @@
   "model": "kimi-k2.6",
   "task": "translation_enfr",
   "case": 38,
-  "response": "Cela ne peut que conduire au chaos et \u00e0 la terreur.",
+  "response": "Cela ne peut que mener au chaos et \u00e0 la terreur.",
   "score": 5,
-  "cost": 0.0021371999999999997,
+  "cost": 0.0029364,
   "expected": "",
   "tokens": {
     "input": 34,
-    "output": 882
+    "output": 1215
   }
 }

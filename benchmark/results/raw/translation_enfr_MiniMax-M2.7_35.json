@@ -2,12 +2,12 @@
   "model": "MiniMax-M2.7",
   "task": "translation_enfr",
   "case": 35,
-  "response": "[reporter masculin #1 \u00e0 la t\u00e9l\u00e9vision] un accident s'est produit juste apr\u00e8s 10 h du matin.",
-  "score": 4,
-  "cost": 0.0009438000000000001,
+  "response": "French: Un accident s'est produit peu apr\u00e8s 10 heures du matin.",
+  "score": 5,
+  "cost": 0.0010846000000000002,
   "expected": "",
   "tokens": {
     "input": 58,
-    "output": 200
+    "output": 232
   }
 }

@@ -2,12 +2,12 @@
   "model": "MiniMax-M2.7",
   "task": "translation_enfr",
   "case": 6,
-  "response": "En ce moment m\u00eame, ce d\u00e9mon roule sur Wangan.",
+  "response": "En ce moment, c\u2019est ce diable qui roule sur\u202fWangan.",
   "score": 4,
-  "cost": 0.0021703,
+  "cost": 0.004191000000000001,
   "expected": "",
   "tokens": {
-    "input": 49,
-    "output": 481
+    "input": 66,
+    "output": 936
   }
 }

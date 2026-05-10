@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "translation_enfr",
   "case": 6,
-  "response": "En ce moment, ce diable conduit sur Wangan.",
-  "score": 4,
-  "cost": 4.32e-06,
+  "response": "En ce moment, ce diable? Actually: A, B, C, D, E, F, G, H, I, J, K, N, O, P, S, V, Y, B, E, H, K, N, Q, T, W, Z, C, F, I, L, O, R, U, X, D, G, J, M, P, S, V, Y, A, E, I, O, U, B, C, D, F, G, H, J, K, L, M, N, P, Q, R, S, T, V, W, X, Y, Z\n\nBut that's messy. Better to list alphabet: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z. The phrase \"Right now driving down Wangan is that devil.\" Might be a specific phrase? Actually maybe it's a lyric? \"Right now driving down Wangan is that devil.\" Could be a line from a song? Not sure. But translation: \"En ce moment, ce diable roule sur Wangan.\" In French: \"En ce moment, ce diable descend Wangan.\" I'd give a proper translation: \"En ce moment, ce diable roule sur Wangan.\" Maintain tone: maybe informal. Provide translation.\n\n\n\nEn ce moment, ce diable roule sur Wangan.",
+  "score": 5,
+  "cost": 4.3559999999999996e-05,
   "expected": "",
   "tokens": {
-    "input": 35,
-    "output": 13
+    "input": 45,
+    "output": 439
   }
 }

@@ -4,10 +4,10 @@
   "case": 7,
   "response": "Services de placement. C'est g\u00e9n\u00e9reux.",
   "score": 5,
-  "cost": 0.002409,
+  "cost": 0.0015730000000000002,
   "expected": "",
   "tokens": {
     "input": 62,
-    "output": 532
+    "output": 342
   }
 }

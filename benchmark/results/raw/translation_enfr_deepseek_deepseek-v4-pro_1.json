@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "translation_enfr",
   "case": 1,
-  "response": "Hommejeunechh, 49 ans, Pays-de-la-Loire (Angers)",
+  "response": "Hommejeunechh, 49 ans, Pays de la Loire (Angers)",
   "score": 5,
-  "cost": 0.000469365,
+  "cost": 0.000930465,
   "expected": "",
   "tokens": {
     "input": 43,
-    "output": 259
+    "output": 524
   }
 }

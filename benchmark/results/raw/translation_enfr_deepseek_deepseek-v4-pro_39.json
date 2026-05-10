@@ -2,12 +2,12 @@
   "model": "deepseek/deepseek-v4-pro",
   "task": "translation_enfr",
   "case": 39,
-  "response": "Sais-tu d'o\u00f9 vient l'argent ?",
+  "response": "Savez-vous d'o\u00f9 vient l'argent ?",
   "score": 5,
-  "cost": 0.00038410500000000004,
+  "cost": 3.4364999999999994e-05,
   "expected": "",
   "tokens": {
     "input": 31,
-    "output": 213
+    "output": 12
   }
 }

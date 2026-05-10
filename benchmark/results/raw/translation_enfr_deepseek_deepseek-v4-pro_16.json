@@ -3,11 +3,11 @@
   "task": "translation_enfr",
   "case": 16,
   "response": "J'ai l'impression que ma bite n'est pas assez grosse pour toi.",
-  "score": 5,
-  "cost": 0.00043587,
+  "score": 4,
+  "cost": 0.00045153,
   "expected": "",
   "tokens": {
     "input": 34,
-    "output": 242
+    "output": 251
   }
 }

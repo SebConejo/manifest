@@ -1,0 +1,13 @@
+{
+  "model": "deepseek/deepseek-v4-pro",
+  "task": "translation_enfr",
+  "case": 6,
+  "response": "En ce moment, ce diable roule sur Wangan.",
+  "score": 4,
+  "cost": 0.00095874,
+  "expected": "",
+  "tokens": {
+    "input": 32,
+    "output": 543
+  }
+}

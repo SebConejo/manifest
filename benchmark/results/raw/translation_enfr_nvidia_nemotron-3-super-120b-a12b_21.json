@@ -1,0 +1,13 @@
+{
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "task": "translation_enfr",
+  "case": 21,
+  "response": "Okay, the user asked to translate English text to French, maintain tone and meaning. The English text: \"Now, would you have a read of this, please?\" So we need to translate that to French? No, just the translation. Provide answer. Ensure we just the user asked to translate English text to French.",
+  "score": 1,
+  "cost": 1.0169999999999997e-05,
+  "expected": "",
+  "tokens": {
+    "input": 47,
+    "output": 66
+  }
+}
