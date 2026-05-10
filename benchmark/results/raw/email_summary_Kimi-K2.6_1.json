@@ -3,10 +3,11 @@
   "task": "email_summary",
   "case": 1,
   "response": "",
-  "score": 4,
+  "score": 0,
   "cost": 0.0005928,
   "tokens": {
     "input": 188,
     "output": 200
-  }
+  },
+  "score_before_empty_fix": 4
 }

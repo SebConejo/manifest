@@ -3,11 +3,12 @@
   "task": "code_generation",
   "case": 40,
   "response": "",
-  "score": 1,
+  "score": 0,
   "cost": 6.012e-05,
   "expected": "",
   "tokens": {
     "input": 168,
     "output": 500
-  }
+  },
+  "score_before_empty_fix": 1
 }

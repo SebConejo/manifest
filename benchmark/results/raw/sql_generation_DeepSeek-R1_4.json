@@ -3,10 +3,11 @@
   "task": "sql_generation",
   "case": 4,
   "response": "",
-  "score": 1,
+  "score": 0,
   "cost": 0.0006894500000000001,
   "tokens": {
     "input": 59,
     "output": 300
-  }
+  },
+  "score_before_empty_fix": 1
 }

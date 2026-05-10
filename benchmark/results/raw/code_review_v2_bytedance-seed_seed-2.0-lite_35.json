@@ -3,11 +3,12 @@
   "task": "code_review_v2",
   "case": 35,
   "response": "",
-  "score": 2,
+  "score": 0,
   "cost": 0.001425,
   "expected": "",
   "tokens": {
     "input": 148,
     "output": 1388
-  }
+  },
+  "score_before_empty_fix": 2
 }

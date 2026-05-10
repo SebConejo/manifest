@@ -3,10 +3,11 @@
   "task": "code_review",
   "case": 4,
   "response": "",
-  "score": 2,
+  "score": 0,
   "cost": 0.00442125,
   "tokens": {
     "input": 75,
     "output": 2000
-  }
+  },
+  "score_before_empty_fix": 2
 }

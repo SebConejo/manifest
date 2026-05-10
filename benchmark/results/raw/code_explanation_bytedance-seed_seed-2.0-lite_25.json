@@ -3,11 +3,12 @@
   "task": "code_explanation",
   "case": 25,
   "response": "",
-  "score": 5,
+  "score": 0,
   "cost": 0.000123,
   "expected": "",
   "tokens": {
     "input": 172,
     "output": 80
-  }
+  },
+  "score_before_empty_fix": 5
 }

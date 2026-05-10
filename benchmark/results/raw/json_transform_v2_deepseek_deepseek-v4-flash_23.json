@@ -3,11 +3,13 @@
   "task": "json_transform_v2",
   "case": 23,
   "response": "",
-  "score": 8,
+  "score": 0,
   "cost": 0.00029736000000000004,
   "expected": "",
   "tokens": {
     "input": 124,
     "output": 500
-  }
+  },
+  "score_clamped_from": 5,
+  "score_before_empty_fix": 5
 }

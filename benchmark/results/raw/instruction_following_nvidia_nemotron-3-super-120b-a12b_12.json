@@ -3,11 +3,12 @@
   "task": "instruction_following",
   "case": 12,
   "response": "",
-  "score": 1,
+  "score": 0,
   "cost": 4.779e-05,
   "expected": "",
   "tokens": {
     "input": 31,
     "output": 500
-  }
+  },
+  "score_before_empty_fix": 1
 }

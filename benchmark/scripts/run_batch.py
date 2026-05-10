@@ -508,13 +508,33 @@ def call_minimax(model, messages, max_tokens):
 
 
 def call_mistral(model, messages, max_tokens):
-    """Call Mistral API (OpenAI-compatible)."""
+    """Call Mistral API (OpenAI-compatible). Retries on 429 with exponential backoff."""
     import requests as req
     url = "https://api.mistral.ai/v1/chat/completions"
     headers = {"Authorization": f"Bearer {os.environ['MISTRAL_API_KEY']}", "Content-Type": "application/json"}
     body = {"model": model, "messages": messages, "max_tokens": max_tokens, "temperature": 0}
-    resp = req.post(url, json=body, headers=headers, timeout=180)
-    return resp.json()
+    backoff = [5, 10, 20, 40, 80]
+    for attempt in range(len(backoff) + 1):
+        resp = req.post(url, json=body, headers=headers, timeout=180)
+        if resp.status_code == 429:
+            if attempt < len(backoff):
+                wait = backoff[attempt]
+                print(f"    RATE_LIMIT {model} (429), retry {attempt+1}/5 in {wait}s", flush=True)
+                time.sleep(wait)
+                continue
+            else:
+                return {"error": "rate_limit_exhausted (429, 5 retries failed)"}
+        data = resp.json()
+        if data.get("object") == "error":
+            msg = data.get("message", str(data))
+            if "rate" in msg.lower() and attempt < len(backoff):
+                wait = backoff[attempt]
+                print(f"    RATE_LIMIT {model} (object=error), retry {attempt+1}/5 in {wait}s", flush=True)
+                time.sleep(wait)
+                continue
+            return {"error": msg}
+        return data
+    return {"error": "call_mistral: unexpected fallthrough"}
 
 
 def call_moonshot(model, messages, max_tokens):

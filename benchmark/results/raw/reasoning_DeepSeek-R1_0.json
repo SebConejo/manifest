@@ -3,10 +3,11 @@
   "task": "reasoning",
   "case": 0,
   "response": "",
-  "score": 1,
+  "score": 0,
   "cost": 0.0018004000000000002,
   "tokens": {
     "input": 88,
     "output": 800
-  }
+  },
+  "score_before_empty_fix": 1
 }
