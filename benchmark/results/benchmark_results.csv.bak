@@ -51548,3 +51548,103 @@ timestamp,task,case_idx,model,provider,input_price_per_m,output_price_per_m,inpu
 20260502_212234,translation_enfr,47,x-ai/grok-code-fast-1,openrouter,0.2,0.8,262,418,0.0003868000000000001,5,llm_judge,"La répression de ce type, ainsi que les arrestations récentes de représentants d'institutions humani"
 20260502_212241,translation_enfr,48,x-ai/grok-code-fast-1,openrouter,0.2,0.8,292,512,0.000468,5,llm_judge,"- Choisissez l'une de ces Renault à louer à Galați ou dans d'autres villes telles que : Arad, Timișo"
 20260502_212253,translation_enfr,49,x-ai/grok-code-fast-1,openrouter,0.2,0.8,237,1096,0.0009242,5,llm_judge,"J'ai des gâteaux à la crème, des sucreries, du hareng mariné et des dattes cristallisées."
+20260511_103824,code_review_v2,0,o4-mini,azure,1.1,4.4,96,1880,0.008378,5,llm_judge,"Here’s a breakdown of what’s wrong, why it’s a problem, and how you can address each issue:  1. SQL "
+20260511_103824,code_review_v2,1,o4-mini,azure,1.1,4.4,95,1481,0.006621,5,llm_judge,"Here are the main problems with that handler, grouped by type, plus concrete suggestions for fixing "
+20260511_103824,code_review_v2,2,o4-mini,azure,1.1,4.4,92,1921,0.008554,5,llm_judge,Here’s a laundry-list of everything that’s wrong (or at least very fragile) about this “transfer_mon
+20260511_103824,code_review_v2,3,o4-mini,azure,1.1,4.4,105,2009,0.008955,5,llm_judge,"Here are the main problems in your snippet, why they matter, and how you can fix or improve them:  1"
+20260511_103824,code_review_v2,4,o4-mini,azure,1.1,4.4,77,1913,0.008502,5,llm_judge,"Here’s a breakdown of what’s wrong with the code, why it is dangerous, and concrete steps you can ta"
+20260511_103824,code_review_v2,5,o4-mini,azure,1.1,4.4,65,2092,0.009276,4,llm_judge,"Here’s a breakdown of what can go wrong in your one‐liner loop and how to make it safer, faster and "
+20260511_103824,code_review_v2,6,o4-mini,azure,1.1,4.4,86,1768,0.007874,5,llm_judge,Here’s a breakdown of what’s going wrong and how you can fix it:  1. No error‐handling / asynchrono
+20260511_103824,code_review_v2,7,o4-mini,azure,1.1,4.4,64,1341,0.005971,4,llm_judge,Here’s a breakdown of what’s wrong (or sub-optimal) with the snippet and how you can improve it:  1)
+20260511_103824,code_review_v2,8,o4-mini,azure,1.1,4.4,71,2252,0.009987,5,llm_judge,Here are the main problems with that handler and concrete suggestions for how to fix or improve each
+20260511_103824,code_review_v2,9,o4-mini,azure,1.1,4.4,90,2957,0.013110,5,llm_judge,"Here are the things that jumped out at me in your cache_user function, grouped by “bugs,” “security "
+20260511_103824,code_review_v2,10,o4-mini,azure,1.1,4.4,80,2191,0.009728,5,llm_judge,"Here are the main problems in the snippet you gave, plus concrete suggestions (and a revised example"
+20260511_103824,code_review_v2,11,o4-mini,azure,1.1,4.4,100,1661,0.007418,5,llm_judge,"Here are the main things that jump out in your “delete_account” function, together with concrete sug"
+20260511_103824,code_review_v2,12,o4-mini,azure,1.1,4.4,80,1923,0.008549,5,llm_judge,Here are the main problems in this snippet and some concrete ways to fix or improve it:  1. SQL Inje
+20260511_103824,code_review_v2,13,o4-mini,azure,1.1,4.4,59,1474,0.006550,5,llm_judge,Here are the main issues with the snippet and concrete ways to fix them:  1. DOM-based XSS      • Wh
+20260511_103824,code_review_v2,14,o4-mini,azure,1.1,4.4,53,928,0.004142,5,llm_judge,Here are the main issues and some concrete suggestions:  1. Security risk: arbitrary code execution 
+20260511_103824,code_review_v2,15,o4-mini,azure,1.1,4.4,82,1808,0.008045,5,llm_judge,"Here are the main problems with the snippet as written, together with concrete recommendations to fi"
+20260511_103824,code_review_v2,16,o4-mini,azure,1.1,4.4,56,1519,0.006745,5,llm_judge,Here are the things that are wrong with this function and concrete suggestions for how to fix them: 
+20260511_103824,code_review_v2,17,o4-mini,azure,1.1,4.4,56,1736,0.007700,5,llm_judge,Here are the main problems with those two lines and concrete suggestions for how to fix them.  1. Un
+20260511_103824,code_review_v2,18,o4-mini,azure,1.1,4.4,84,2607,0.011563,5,llm_judge,Here are the main problems with the snippet and concrete suggestions for fixing them:  1. You’re rol
+20260511_103824,code_review_v2,19,o4-mini,azure,1.1,4.4,109,2387,0.010623,5,llm_judge,"Below is a list of the most important issues in your snippet, followed by a revised version and comm"
+20260511_103824,code_review_v2,20,o4-mini,azure,1.1,4.4,73,1678,0.007464,4,llm_judge,Here are a few things to watch out for in your one-liner and some suggestions on how you could harde
+20260511_103824,code_review_v2,21,o4-mini,azure,1.1,4.4,61,2178,0.009650,5,llm_judge,"Here’s a quick audit of your two-line loader, the security hole it opens, and a few concrete ways to"
+20260511_103824,code_review_v2,22,o4-mini,azure,1.1,4.4,103,1939,0.008645,5,llm_judge,"Here are the main problems in your snippet, grouped by category, and some concrete suggestions for h"
+20260511_103824,code_review_v2,23,o4-mini,azure,1.1,4.4,85,1838,0.008181,5,llm_judge,Here are the things that are wrong or dangerous about this tiny middleware and a series of specific 
+20260511_103824,code_review_v2,24,o4-mini,azure,1.1,4.4,67,1972,0.008751,5,llm_judge,Here are the main problems with your one‐liner and a more robust pattern you can adopt:  1. No error
+20260511_103824,code_review_v2,25,o4-mini,azure,1.1,4.4,65,1070,0.004779,5,llm_judge,Here are the main issues in your snippet and concrete recommendations to fix them:  1. Hard-coded se
+20260511_103824,code_review_v2,26,o4-mini,azure,1.1,4.4,63,1996,0.008852,5,llm_judge,"Here’s a breakdown of what’s wrong, why it’s dangerous, and how you can improve it.  1) Path‐travers"
+20260511_103824,code_review_v2,27,o4-mini,azure,1.1,4.4,76,1771,0.007876,5,llm_judge,"Here are a number of issues (bugs and security-related) in the little snippet you provided, together"
+20260511_103824,code_review_v2,28,o4-mini,azure,1.1,4.4,81,1408,0.006284,5,llm_judge,Here are the main problems with the snippet and how to address them:  1. Missing imports      - You 
+20260511_103824,code_review_v2,29,o4-mini,azure,1.1,4.4,84,1785,0.007946,5,llm_judge,"Here are the main issues with this snippet, and concrete recommendations on how to fix them:  1. SQL"
+20260511_103824,code_review_v2,30,o4-mini,azure,1.1,4.4,99,1766,0.007879,5,llm_judge,Here’s a line-by-line critique of your decorator and a suggested “production-quality” replacement.  
+20260511_103824,code_review_v2,31,o4-mini,azure,1.1,4.4,51,2068,0.009155,5,llm_judge,Here are the main reasons you’ll eventually run into trouble with a naïve   “deepClone” based on JSO
+20260511_103824,code_review_v2,32,o4-mini,azure,1.1,4.4,47,1380,0.006124,5,llm_judge,"Here’s a quick critique of the one‐liner and some concrete ways you can harden, bullet‐proof and imp"
+20260511_103824,code_review_v2,33,o4-mini,azure,1.1,4.4,80,2931,0.012984,5,llm_judge,"Here are the main issues I see in the original routine, and some suggestions on how to clean them up"
+20260511_103824,code_review_v2,34,o4-mini,azure,1.1,4.4,51,1104,0.004914,5,llm_judge,"Here are the main problems with the one-liner you posted, plus concrete suggestions for how to fix t"
+20260511_103824,code_review_v2,35,o4-mini,azure,1.1,4.4,96,2099,0.009341,4,llm_judge,Here’s a line-by-line review of what’s wrong or missing in your `FileWatcher` + concrete suggestions
+20260511_103824,code_review_v2,36,o4-mini,azure,1.1,4.4,84,1276,0.005707,5,llm_judge,"Here are the main issues, risks and possible improvements in your `calculate_discount` function:  1."
+20260511_103824,code_review_v2,37,o4-mini,azure,1.1,4.4,104,1911,0.008523,5,llm_judge,Here’s a non-exhaustive summary of what’s going on and how I would improve it:  1. No user existence
+20260511_103824,code_review_v2,38,o4-mini,azure,1.1,4.4,53,1581,0.007015,5,llm_judge,Here are the main problems with that one-liner and some concrete suggestions for fixing and hardenin
+20260511_103824,code_review_v2,39,o4-mini,azure,1.1,4.4,54,1264,0.005621,5,llm_judge,Here are the things that are wrong with the snippet:   1. SQL Injection       • You are concatenatin
+20260511_103824,code_review_v2,40,o4-mini,azure,1.1,4.4,66,1802,0.008001,5,llm_judge,"Here’s a list of the things that are wrong or dangerous in the snippet you posted, and concrete sugg"
+20260511_103824,code_review_v2,41,o4-mini,azure,1.1,4.4,68,2418,0.010714,5,llm_judge,Here’s a list of what’s wrong in the snippet and concrete ways to fix or improve it:  1. Bug—wrong e
+20260511_103824,code_review_v2,42,o4-mini,azure,1.1,4.4,79,2498,0.011078,5,llm_judge,"Here are the main issues I see in the snippet, plus concrete suggestions on how to fix them and hard"
+20260511_103824,code_review_v2,43,o4-mini,azure,1.1,4.4,61,1944,0.008621,4,llm_judge,Here are the main problems and suggestions for improvement:  1. No input validation or URL‐encoding 
+20260511_103824,code_review_v2,44,o4-mini,azure,1.1,4.4,93,2668,0.011841,4,llm_judge,"Here are the main issues I see in your snippet, along with concrete suggestions for how to fix them:"
+20260511_103824,code_review_v2,45,o4-mini,azure,1.1,4.4,77,1536,0.006843,4,llm_judge,"Here’s a more detailed review of your “Singleton” implementation, the things that can go wrong in re"
+20260511_103824,code_review_v2,46,o4-mini,azure,1.1,4.4,48,1002,0.004462,5,llm_judge,"Here is a quick review of this tiny helper and some suggestions for making it more correct, robust, "
+20260511_103824,code_review_v2,47,o4-mini,azure,1.1,4.4,85,1703,0.007587,4,llm_judge,"Here are the main problems with this code, and some concrete suggestions on how to fix them:  1. Hea"
+20260511_103824,code_review_v2,48,o4-mini,azure,1.1,4.4,66,1774,0.007878,5,llm_judge,Here are the main problems with your one‐liner and concrete suggestions for fixing them:  1. Missing
+20260511_103824,code_review_v2,49,o4-mini,azure,1.1,4.4,76,2193,0.009733,5,llm_judge,Here are the things that jumped out to me:  1. Rejecting with a string      Right now you do        
+20260511_105030,test_generation_v2,0,o4-mini,azure,1.1,4.4,52,1500,0.006657,5,llm_judge,Here’s an example pytest‐style test module (e.g. save as `test_add.py`). It covers:  - Happy‐path wi
+20260511_105030,test_generation_v2,1,o4-mini,azure,1.1,4.4,62,1134,0.005058,5,llm_judge,"Here’s a complete pytest-style test module covering  • Happy paths   • Edge cases (empty string, sin"
+20260511_105030,test_generation_v2,2,o4-mini,azure,1.1,4.4,82,1531,0.006827,5,llm_judge,"Here’s an example pytest module `test_factorial.py` covering:  • happy‐path cases (including 0, 1, s"
+20260511_105030,test_generation_v2,3,o4-mini,azure,1.1,4.4,78,2095,0.009304,5,llm_judge,"Here’s a `pytest`‐style test module that covers  - a basic (happy‐path) flatten, - more deeply neste"
+20260511_105030,test_generation_v2,4,o4-mini,azure,1.1,4.4,58,1480,0.006576,5,llm_judge,Here’s an example pytest‐style test module. You will need to adjust the import line at the top to ma
+20260511_105030,test_generation_v2,5,o4-mini,azure,1.1,4.4,62,1444,0.006422,5,llm_judge,Here’s an example pytest‐style test module that you could name `test_count_vowels.py`. It covers:  -
+20260511_105030,test_generation_v2,6,o4-mini,azure,1.1,4.4,54,1417,0.006294,4,llm_judge,"Here’s a pytest‐style test module that exercises normal (“happy‐path”) inputs, various edge‐cases (e"
+20260511_105030,test_generation_v2,7,o4-mini,azure,1.1,4.4,79,1870,0.008315,5,llm_judge,"Below is an example pytest module that exercises `remove_duplicates` for the happy path, several edg"
+20260511_105030,test_generation_v2,8,o4-mini,azure,1.1,4.4,124,2406,0.010723,4,llm_judge,Here’s a `pytest`‐style test module covering:  - Happy‐path searches (found in lists of odd and even
+20260511_105030,test_generation_v2,9,o4-mini,azure,1.1,4.4,99,1730,0.007721,5,llm_judge,"Here’s an example pytest suite covering typical (“happy‐path”) inputs, edge cases (empty array, all "
+20260511_105030,test_generation_v2,10,o4-mini,azure,1.1,4.4,94,2939,0.013035,5,llm_judge,Here’s an example `pytest`-style test module that covers  • A variety of known-good (“happy path”) e
+20260511_105030,test_generation_v2,11,o4-mini,azure,1.1,4.4,124,1860,0.008320,5,llm_judge,"Here’s an example pytest module `test_merge_sorted.py` that covers normal “happy‐path” merges, vario"
+20260511_105030,test_generation_v2,12,o4-mini,azure,1.1,4.4,85,1548,0.006905,5,llm_judge,"Here’s a complete pytest‐style test module covering normal use, boundaries and error conditions. Sav"
+20260511_105030,test_generation_v2,13,o4-mini,azure,1.1,4.4,94,1853,0.008257,5,llm_judge,"Here’s a self-contained pytest module that exercises the `fizzbuzz` function over normal inputs, edg"
+20260511_105030,test_generation_v2,14,o4-mini,azure,1.1,4.4,93,1475,0.006592,4,llm_judge,"Below is a `pytest`‐style test module that exercises `deep_get` on happy paths, edge cases, and erro"
+20260511_105030,test_generation_v2,15,o4-mini,azure,1.1,4.4,75,3211,0.014211,5,llm_judge,"Here’s an example `pytest`‐style test module that exercises happy paths, edge cases, and error cases"
+20260511_105030,test_generation_v2,16,o4-mini,azure,1.1,4.4,66,1659,0.007372,5,llm_judge,"Here’s a single pytest test file that covers  - a variety of “happy‐path” inputs, including commutat"
+20260511_105030,test_generation_v2,17,o4-mini,azure,1.1,4.4,116,1394,0.006261,5,llm_judge,Below is an example pytest‐style test module covering  - Happy paths (various correctly balanced str
+20260511_105030,test_generation_v2,18,o4-mini,azure,1.1,4.4,57,2396,0.010605,4,llm_judge,Here is an example test‐suite using pytest.  You’ll need to change the import at the top to point at
+20260511_105030,test_generation_v2,19,o4-mini,azure,1.1,4.4,64,3653,0.016144,5,llm_judge,"Below is an example pytest‐style test module that covers normal (“happy‐path”) scenarios, boundary/e"
+20260511_105030,test_generation_v2,20,o4-mini,azure,1.1,4.4,75,2887,0.012785,4,llm_judge,Below is an example `pytest`‐style test module covering  - the happy paths - a variety of edge cases
+20260511_105030,test_generation_v2,21,o4-mini,azure,1.1,4.4,81,2160,0.009593,5,llm_judge,"Here’s a comprehensive pytest suite for your `truncate` function. It covers normal (“happy”) paths, "
+20260511_105030,test_generation_v2,22,o4-mini,azure,1.1,4.4,76,1734,0.007713,4,llm_judge,"Below is an example pytest-style test module covering normal (“happy”) paths, edge cases and error c"
+20260511_105030,test_generation_v2,23,o4-mini,azure,1.1,4.4,73,3461,0.015309,4,llm_judge,Below is an example pytest-style test module for `matrix_transpose`.  It covers:    * Happy paths (s
+20260511_105030,test_generation_v2,24,o4-mini,azure,1.1,4.4,80,2736,0.012126,4,llm_judge,Here is a comprehensive pytest‐style test suite for `retry`. It covers  • the simple success case (n
+20260511_105030,test_generation_v2,25,o4-mini,azure,1.1,4.4,86,2533,0.011240,5,llm_judge,Here is an example pytest‐style test suite.  You’ll need to change the import to point at whatever m
+20260511_105030,test_generation_v2,26,o4-mini,azure,1.1,4.4,76,1991,0.008844,4,llm_judge,"Here’s a `pytest`‐style test module that exercises `safe_divide` on normal inputs, edge‐cases (zero "
+20260511_105030,test_generation_v2,27,o4-mini,azure,1.1,4.4,88,1955,0.008699,4,llm_judge,```python import pytest from interleave import interleave  def test_equal_length_lists():     a = [1
+20260511_105030,test_generation_v2,28,o4-mini,azure,1.1,4.4,75,2693,0.011932,4,llm_judge,"Below is an example pytest‐style test module covering normal use, zero‐argument functions, caching b"
+20260511_105030,test_generation_v2,29,o4-mini,azure,1.1,4.4,97,1882,0.008388,5,llm_judge,"Here’s a pytest‐style test module that exercises the “happy path,” various edge conditions (window ="
+20260511_105030,test_generation_v2,30,o4-mini,azure,1.1,4.4,71,1467,0.006533,5,llm_judge,Here’s a self‐contained `pytest` test module that exercises the `snake_to_camel` function across nor
+20260511_105030,test_generation_v2,31,o4-mini,azure,1.1,4.4,73,2512,0.011133,5,llm_judge,"Below is an example pytest module covering normal conversions, edge‐cases (empty, all‐upper, already"
+20260511_105030,test_generation_v2,32,o4-mini,azure,1.1,4.4,79,2387,0.010590,5,llm_judge,"Here’s an example pytest module that exercises the `find_missing` function on normal, boundary, and "
+20260511_105030,test_generation_v2,33,o4-mini,azure,1.1,4.4,125,1730,0.007750,4,llm_judge,Below is an example `pytest`-style test module for your `flatten_dict` function. It covers  - simple
+20260511_105030,test_generation_v2,34,o4-mini,azure,1.1,4.4,168,2181,0.009781,5,llm_judge,Below is an example pytest‐style test module for your `levenshtein` function.  It covers  - Happy pa
+20260511_105030,test_generation_v2,35,o4-mini,azure,1.1,4.4,131,2243,0.010013,4,llm_judge,Below is an example pytest test module for your LRU‐cache.  We assume your implementation lives in a
+20260511_105030,test_generation_v2,36,o4-mini,azure,1.1,4.4,111,1710,0.007646,4,llm_judge,"Here is an example pytest‐style test module covering normal (“happy”) paths, various edge cases, and"
+20260511_105030,test_generation_v2,37,o4-mini,azure,1.1,4.4,114,3154,0.014003,5,llm_judge,"Here is an example pytest module that exercises the different “happy‐path” scenarios, boundary/edge "
+20260511_105030,test_generation_v2,38,o4-mini,azure,1.1,4.4,110,4463,0.019758,4,llm_judge,Below is an example pytest‐style test module. It uses pytest’s built‐in monkeypatch fixture to fake 
+20260511_105030,test_generation_v2,39,o4-mini,azure,1.1,4.4,108,3770,0.016707,4,llm_judge,"Here is a self‐contained `pytest` test module covering  - happy paths (simple chains, more complex D"
+20260511_105030,test_generation_v2,40,o4-mini,azure,1.1,4.4,107,2149,0.009573,4,llm_judge,"Here’s an example pytest‐style test module that exercises the happy path, various edge cases, and th"
+20260511_105030,test_generation_v2,41,o4-mini,azure,1.1,4.4,77,1122,0.005021,5,llm_judge,Here’s a pytest‐style test module that exercises the small `hex_to_rgb` function across normal (“hap
+20260511_105030,test_generation_v2,42,o4-mini,azure,1.1,4.4,107,3981,0.017634,4,llm_judge,Here is a pytest‐style test module that exercises the `debounce` function under a variety of conditi
+20260511_105030,test_generation_v2,43,o4-mini,azure,1.1,4.4,82,3138,0.013897,4,llm_judge,Here is a fairly comprehensive pytest test‐suite for your `partial` function.  You may need to adjus
+20260511_105030,test_generation_v2,44,o4-mini,azure,1.1,4.4,66,2084,0.009242,4,llm_judge,"Here is an example pytest‐style test file that exercises the `compose` function on happy paths, edge"
+20260511_105030,test_generation_v2,45,o4-mini,azure,1.1,4.4,98,3535,0.015662,4,llm_judge,Here is a comprehensive pytest‐style test module that you can drop next to your implementation (assu
+20260511_105030,test_generation_v2,46,o4-mini,azure,1.1,4.4,123,2319,0.010339,4,llm_judge,"Here’s an example pytest test‐module that covers the happy paths, edge cases and a couple of error c"
+20260511_105030,test_generation_v2,47,o4-mini,azure,1.1,4.4,124,2017,0.009011,5,llm_judge,Here is a `pytest`‐style test module that covers  - the “happy path” (normal strings of various kind
+20260511_105030,test_generation_v2,48,o4-mini,azure,1.1,4.4,120,2251,0.010036,4,llm_judge,Below is an example pytest‐style test suite for your `trie_insert_search` function.  It assumes you 
+20260511_105030,test_generation_v2,49,o4-mini,azure,1.1,4.4,98,1707,0.007619,5,llm_judge,Below is an example `pytest`‐style test module. You will need to adjust the import (`from my_module 

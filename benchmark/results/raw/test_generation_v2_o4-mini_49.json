@@ -1,0 +1,13 @@
+{
+  "model": "o4-mini",
+  "task": "test_generation_v2",
+  "case": 49,
+  "response": "Below is an example `pytest`\u2010style test module. You will need to adjust the import (`from my_module import intersection`) to point at whatever module your function actually lives in.\n\n```python\nimport pytest\n\nfrom my_module import intersection\n\n\ndef test_intersection_happy_path_simple():\n    # basic overlap\n    result = intersection([1, 2, 3, 4], [3, 4, 5, 6])\n    assert result == [3, 4]\n\n\n@pytest.mark.parametrize(\n    \"lst1, lst2, expected\",\n    [\n        # duplicates in both; result must be unique and in order of lst1\n        ([1, 2, 2, 3, 4], [2, 2, 3, 5], [2, 3]),\n        # strings also work\n        ([\"a\", \"b\", \"c\", \"a\"], [\"a\", \"d\", \"c\"], [\"a\", \"c\"]),\n        # no overlap \u2192 empty\n        ([10, 20], [30, 40], []),\n        # first list empty\n        ([], [1, 2, 3], []),\n        # second list empty\n        ([1, 2, 3], [], []),\n        # both empty\n        ([], [], []),\n    ],\n)\ndef test_intersection_various_combinations(lst1, lst2, expected):\n    assert intersection(lst1, lst2) == expected\n\n\ndef test_intersection_preserves_order_and_uniqueness():\n    # although 5 appears twice in lst2, we only see it once in result\n    lst1 = [5, 1, 5, 2, 3]\n    lst2 = [9, 5, 9, 2, 5, 3]\n    assert intersection(lst1, lst2) == [5, 2, 3]\n\n\ndef test_intersection_mixed_types():\n    # mixing ints and str that look alike must not collide\n    lst1 = [1, \"1\", 2, (3, 4), (3, 4)]\n    lst2 = [\"1\", 2, (3, 4)]\n    assert intersection(lst1, lst2) == [\"1\", 2, (3, 4)]\n\n\ndef test_intersection_with_unhashable_items_raises_type_error():\n    # lists inside lists are unhashable, so set(lst2) should fail\n    with pytest.raises(TypeError):\n        intersection([[1], [2]], [[1]])\n\n\ndef test_intersection_with_none_inputs_raises_type_error():\n    with pytest.raises(TypeError):\n        intersection(None, [1, 2, 3])\n    with pytest.raises(TypeError):\n        intersection([1, 2, 3], None)\n```\n\nExplanation of what\u2019s covered:\n\n- Happy paths: simple overlaps, strings, mixed types.  \n- Parametrized tests for a variety of inputs (duplicates, empties, no overlap).  \n- Ordering & uniqueness enforcement.  \n- Edge cases: empty lists.  \n- Error cases: unhashable elements in the input (lists inside lists) and completely invalid inputs (`None`).",
+  "score": 5,
+  "cost": 0.0076186000000000005,
+  "expected": "",
+  "tokens": {
+    "input": 98,
+    "output": 1707
+  }
+}

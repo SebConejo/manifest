@@ -1,0 +1,13 @@
+{
+  "model": "o4-mini",
+  "task": "test_generation_v2",
+  "case": 25,
+  "response": "Here is an example pytest\u2010style test suite.  You\u2019ll need to change the import to point at whatever module you\u2019ve placed `deduplicate_sorted` in (here it\u2019s `your_module`):\n\n```python\nimport pytest\nfrom your_module import deduplicate_sorted\n\n\n@pytest.mark.parametrize(\"input_list, expected\", [\n    # empty & trivial cases\n    ([], []),\n    ([42], [42]),\n    ([None], [None]),\n    # no duplicates\n    ([1, 2, 3], [1, 2, 3]),\n    ([\"a\", \"b\", \"c\"], [\"a\", \"b\", \"c\"]),\n    # consecutive duplicates\n    ([1, 1, 2, 2, 2, 3, 3], [1, 2, 3]),\n    ([\"x\", \"x\", \"x\", \"y\", \"y\", \"x\"], [\"x\", \"y\", \"x\"]),\n    # all identical\n    ([5, 5, 5, 5], [5]),\n    # mixed types \u2013 ints vs strings are never equal\n    ([1, 1, \"1\", \"1\", 2, 2], [1, \"1\", 2]),\n])\ndef test_various_lists(input_list, expected):\n    assert deduplicate_sorted(input_list) == expected\n\n\ndef test_empty_tuple_works_like_empty_list():\n    # even though the function signature says list, a tuple will also work\n    assert deduplicate_sorted(()) == []\n\n\ndef test_tuple_input_is_deduplicated_and_returned_as_list():\n    # non-list iterable\n    assert deduplicate_sorted((1, 1, 2, 3, 3)) == [1, 2, 3]\n\n\ndef test_non_sorted_input_only_strips_consecutive_dupes():\n    # deduplicate_sorted only removes consecutive duplicates; it does not sort\n    data = [3, 1, 1, 2, 3, 3, 2]\n    # drop only the runs of identical neighbors\n    assert deduplicate_sorted(data) == [3, 1, 2, 3, 2]\n\n\ndef test_none_is_treated_as_empty():\n    # because `if not lst:` will catch None and return []\n    assert deduplicate_sorted(None) == []\n\n\ndef test_non_iterable_input_raises_type_error():\n    with pytest.raises(TypeError):\n        # int is truthy, so the code skips \"if not lst\" and then lst[0] blows up\n        deduplicate_sorted(12345)\n```\n\nExplanation of the coverage:\n\n- Parametrized tests cover\n  - empty and singleton lists\n  - lists with no duplicates\n  - lists with consecutive duplicates in various positions\n  - lists of mixed types\n  - lists that only drop runs of duplicates (even if the overall list isn\u2019t sorted)\n- Separate tests for non\u2010list iterables (tuple) and for passing `None` (returns `[]`)\n- An error\u2010case test ensuring that a truly non\u2010iterable (an `int`) raises `TypeError` when you try to index into it.",
+  "score": 5,
+  "cost": 0.011239800000000001,
+  "expected": "",
+  "tokens": {
+    "input": 86,
+    "output": 2533
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "model": "o4-mini",
+  "task": "test_generation_v2",
+  "case": 37,
+  "response": "Here is an example pytest module that exercises the different \u201chappy\u2010path\u201d scenarios, boundary/edge cases, and a couple of invalid inputs.  You will have to adjust the import at the top to point to wherever you\u2019ve put your `parse_csv_line` function.\n\nFile name: `test_parse_csv_line.py`\n\n```python\nimport pytest\n\n# adjust this import to wherever you defined parse_csv_line\nfrom parse_csv import parse_csv_line\n\n\n@pytest.mark.parametrize(\"line, expected\", [\n    # simple, no quotes\n    (\"a,b,c\", [\"a\", \"b\", \"c\"]),\n\n    # empty input\n    (\"\", [\"\"]),\n\n    # only commas\n    (\",\", [\"\", \"\"]),\n    (\",,\", [\"\", \"\", \"\"]),\n\n    # leading / trailing commas\n    (\",a,b\", [\"\", \"a\", \"b\"]),\n    (\"a,b,\", [\"a\", \"b\", \"\"]),\n\n    # quoted fields\n    ('\"hello\",\"world\"', [\"hello\", \"world\"]),\n    ('1,\"two,too\",3', [\"1\", \"two,too\", \"3\"]),\n\n    # empty quoted field\n    ('a,\"\",b', [\"a\", \"\", \"b\"]),\n\n    # spaces are not stripped\n    (\" a , b \", [\" a \", \" b \"]),\n\n    # mismatched quote: treated as one big quoted field\n    ('\"a,b,c', [\"a,b,c\"]),\n\n    # double-quote inside a quoted field toggles quoting twice => both quotes are dropped\n    ('\"a\"\"b\",c', [\"ab\", \"c\"]),\n])\ndef test_various_csv_lines(line, expected):\n    assert parse_csv_line(line) == expected\n\n\ndef test_only_quotes_becomes_empty_field():\n    # a line of two double-quotes with nothing between => one empty field\n    assert parse_csv_line('\"\"') == [\"\"]\n\n\ndef test_malformed_not_a_string_raises_type_error():\n    with pytest.raises(TypeError):\n        parse_csv_line(None)\n\n    with pytest.raises(TypeError):\n        parse_csv_line(123)\n```\n\nExplanation of coverage:\n\n- Happy paths: simple comma splitting, quoted fields (including commas inside).\n- Edge cases: empty line, only delimiters, leading/trailing commas, empty quoted field, spaces preserved, unmatched quotes, double quotes inside.\n- Error cases: passing in a non\u2010string (e.g. `None` or an integer`) to get a `TypeError`.",
+  "score": 5,
+  "cost": 0.014003,
+  "expected": "",
+  "tokens": {
+    "input": 114,
+    "output": 3154
+  }
+}

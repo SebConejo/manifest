@@ -1,0 +1,13 @@
+{
+  "model": "o4-mini",
+  "task": "test_generation_v2",
+  "case": 0,
+  "response": "Here\u2019s an example pytest\u2010style test module (e.g. save as `test_add.py`). It covers:\n\n- Happy\u2010path with positive, zero, negative and boolean (since `bool` is a subclass of `int`)  \n- Edge\u2010cases with very large integers  \n- Error\u2010cases when you pass non\u2010int types that Python cannot add  \n\n```python\nimport pytest\n\n# assuming your add function is in add.py:\nfrom add import add\n\n@pytest.mark.parametrize(\n    \"a, b, expected\",\n    [\n        # happy\u2010path\n        (2, 3, 5),\n        (10, 15, 25),\n        # zero\n        (0, 0, 0),\n        (0, 5, 5),\n        (5, 0, 5),\n        # negatives\n        (-1, -1, -2),\n        (-5, 3, -2),\n        (3, -5, -2),\n        # bools (subclass of int)\n        (True, False, 1),\n        (True, True, 2),\n        # large ints\n        (10**50, 10**50, 2 * 10**50),\n    ],\n)\ndef test_add_various_integers(a, b, expected):\n    assert add(a, b) == expected\n\n\n@pytest.mark.parametrize(\n    \"a, b\",\n    [\n        (None, 1),\n        (1, None),\n        (\"foo\", \"bar\"),\n        (\"foo\", 1),\n        ([1, 2], 3),\n        ({\"x\": 1}, {\"y\": 2}),\n    ],\n)\ndef test_add_invalid_types_raises_type_error(a, b):\n    with pytest.raises(TypeError):\n        add(a, b)\n```\n\nExplanation of the sections:\n\n1. `test_add_various_integers`  \n   - Uses `pytest.mark.parametrize` to cover multiple \u201chappy\u201d and \u201cedge\u201d cases in one go.  \n2. `test_add_invalid_types_raises_type_error`  \n   - Ensures that if you pass in types which cannot be added by Python\u2019s `+`, a `TypeError` is raised.",
+  "score": 5,
+  "cost": 0.006657200000000001,
+  "expected": "",
+  "tokens": {
+    "input": 52,
+    "output": 1500
+  }
+}

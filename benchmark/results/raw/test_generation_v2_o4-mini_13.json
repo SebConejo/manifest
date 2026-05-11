@@ -1,0 +1,13 @@
+{
+  "model": "o4-mini",
+  "task": "test_generation_v2",
+  "case": 13,
+  "response": "Here\u2019s a self-contained pytest module that exercises the `fizzbuzz` function over normal inputs, edge cases (zero, negatives, large values), and invalid types. Adjust the import at the top to match wherever your `fizzbuzz` function lives.\n\n```python\n# tests/test_fizzbuzz.py\n\nimport pytest\nfrom fizzbuzz import fizzbuzz\n\n\n@pytest.mark.parametrize(\"n,expected\", [\n    # Multiples of 15\n    (15, \"FizzBuzz\"),\n    (30, \"FizzBuzz\"),\n    (-15, \"FizzBuzz\"),\n    (0,  \"FizzBuzz\"),   # 0 % 15 == 0\n\n    # Multiples of 3 only\n    (3,  \"Fizz\"),\n    (9,  \"Fizz\"),\n    (-3, \"Fizz\"),\n\n    # Multiples of 5 only\n    (5,  \"Buzz\"),\n    (20, \"Buzz\"),\n    (-5, \"Buzz\"),\n\n    # Neither multiple of 3 nor 5\n    (1,  \"1\"),\n    (2,  \"2\"),\n    (7,  \"7\"),\n    (14, \"14\"),\n\n    # Large numbers\n    (10**6 * 3,    \"Fizz\"),\n    (10**6 * 5,    \"Buzz\"),\n    (10**6 * 15,   \"FizzBuzz\"),\n    (10**18 + 1,   str(10**18 + 1)),\n])\ndef test_fizzbuzz_valid_inputs(n, expected):\n    assert fizzbuzz(n) == expected\n\n\ndef test_fizzbuzz_with_floats_that_are_whole_numbers():\n    # The function doesn't enforce int, so floats that are whole still work via modulo\n    assert fizzbuzz(3.0)  == \"Fizz\"\n    assert fizzbuzz(5.0)  == \"Buzz\"\n    assert fizzbuzz(15.0) == \"FizzBuzz\"\n    # Non-divisible floats just get cast to str\n    assert fizzbuzz(2.0)  == \"2.0\"\n\n\n@pytest.mark.parametrize(\"bad\", [\n    None,\n    \"15\",\n    [3],\n    {\"n\": 5},\n    object(),\n])\ndef test_fizzbuzz_invalid_type_raises(bad):\n    with pytest.raises(TypeError):\n        fizzbuzz(bad)\n```\n\nExplanation of what\u2019s covered:\n\n- Happy-path checks for multiples of 3, 5, and 15.\n- Edge cases: zero, negatives, very large ints.\n- Behavior with floats (the code doesn\u2019t forbid them\u2014this documents what actually happens).\n- Error cases: passing non-numeric types should raise `TypeError`.",
+  "score": 5,
+  "cost": 0.008256600000000001,
+  "expected": "",
+  "tokens": {
+    "input": 94,
+    "output": 1853
+  }
+}

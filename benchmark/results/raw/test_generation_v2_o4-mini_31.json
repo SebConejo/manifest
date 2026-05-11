@@ -1,0 +1,13 @@
+{
+  "model": "o4-mini",
+  "task": "test_generation_v2",
+  "case": 31,
+  "response": "Below is an example pytest module covering normal conversions, edge\u2010cases (empty, all\u2010upper, already snake, numbers), and error\u2010cases (non\u2010str input). Just put this in e.g. `test_camel_to_snake.py` next to the implementation and adjust the import as needed.\n\n-----------------------------  \nimport pytest  \nfrom your_module import camel_to_snake   # change this to wherever your function lives\n\ndef test_simple_camel():\n    # basic one\u2013word transition\n    assert camel_to_snake(\"camelCase\") == \"camel_case\"\n\ndef test_multiple_transitions():\n    # several lower->Upper transitions\n    assert camel_to_snake(\"CamelCaseWord\") == \"camel_case_word\"\n\ndef test_leading_upper():\n    # leading uppercase should not get a leading underscore\n    assert camel_to_snake(\"HTTPResponse\") == \"http_response\"\n\ndef test_all_upper():\n    # no lower->Upper boundary, just lowercase whole string\n    assert camel_to_snake(\"NASA\") == \"nasa\"\n\ndef test_all_lower():\n    # nothing to split, string returned lowercased\n    assert camel_to_snake(\"already\") == \"already\"\n\ndef test_already_snake():\n    # underscores are untouched, but result is lowercased\n    assert camel_to_snake(\"already_snake\") == \"already_snake\"\n\ndef test_empty_string():\n    # edge case\n    assert camel_to_snake(\"\") == \"\"\n\ndef test_numbers_and_letters():\n    # digits are not letters, so only split where lowercase->Upper\n    assert camel_to_snake(\"version1Number2\") == \"version1_number2\"\n\ndef test_back_to_back_uppers():\n    # only the transition from a lowercase into the first upper inserts an underscore\n    assert camel_to_snake(\"mixedUPCase\") == \"mixed_upcase\"\n\n@pytest.mark.parametrize(\"bad_input\", [None, 123, 5.4, [\"aList\"], {\"a\": 1}])\ndef test_non_string_inputs_raise(bad_input):\n    with pytest.raises(TypeError):\n        camel_to_snake(bad_input)\n  \n-----------------------------  \n\nExplanation of what is covered:  \n- happy-path simple and multiple word splits  \n- edge-cases: empty string, all upper, all lower, already snake, numbers mixed  \n- subtle behavior when multiple uppers follow each other  \n- error cases: inputs that are not str should raise a TypeError (as `re.sub` expects a string)",
+  "score": 5,
+  "cost": 0.0111331,
+  "expected": "",
+  "tokens": {
+    "input": 73,
+    "output": 2512
+  }
+}

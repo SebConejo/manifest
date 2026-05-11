@@ -1,0 +1,13 @@
+{
+  "model": "o4-mini",
+  "task": "test_generation_v2",
+  "case": 32,
+  "response": "Here\u2019s an example pytest module that exercises the `find_missing` function on normal, boundary, and invalid inputs. Put this in e.g. `test_find_missing.py` alongside your implementation file (here assumed to be `find_missing.py`).\n\n```python\nimport random\nimport pytest\n\nfrom find_missing import find_missing\n\n@pytest.mark.parametrize(\"nums, expected\", [\n    # typical cases\n    ([0, 1, 2, 4, 5], 3),\n    ([1, 2, 3, 4, 5], 0),     # missing 0\n    ([0, 2, 3, 4, 5], 1),     # missing in the middle\n    ([0, 1, 2, 3, 4], 5),     # missing the largest element\n    # edge cases\n    ([], 0),                  # sequence [0..0], missing 0\n    ([0], 1),                 # sequence [0..1], missing 1\n    ([1], 0),                 # sequence [0..1], missing 0\n])\ndef test_find_missing_basic(nums, expected):\n    assert find_missing(nums) == expected\n\n\ndef test_find_missing_with_shuffled_large_lists():\n    random.seed(0)\n    for n in [10, 100, 1000]:\n        # test missing first, middle, last\n        for missing in (0, n // 2, n):\n            full = list(range(n + 1))\n            full.remove(missing)\n            random.shuffle(full)\n            assert find_missing(full) == missing\n\n\n@pytest.mark.parametrize(\"bad_input\", [\n    None,                # not a list\n    123,                 # not a list\n    \"not a list\",        # wrong type\n    [0, 1, None],        # non\u2010numeric element\n    [0, 1, \"2\"],         # non\u2010numeric element\n])\ndef test_find_missing_raises_type_error_on_bad_inputs(bad_input):\n    with pytest.raises(TypeError):\n        find_missing(bad_input)\n```\n\nExplanation of the coverage:\n\n\u00b7 Happy paths: sequences of various lengths and missing positions.  \n\u00b7 Edge cases: empty list, single\u2010element lists.  \n\u00b7 Large shuffled lists to ensure it works for arbitrary order and size.  \n\u00b7 Error cases: non\u2010list or lists containing non-numeric items, which should raise a `TypeError`.",
+  "score": 5,
+  "cost": 0.0105897,
+  "expected": "",
+  "tokens": {
+    "input": 79,
+    "output": 2387
+  }
+}
