@@ -49,6 +49,7 @@ REASONING_MODELS = {
     "gpt-5.5", "gpt-5.5-pro", "o3", "gpt-5.4", "gpt-5.4-mini", "gpt-5.4-nano",
     "seed-2-0-pro-260328",
     "deepseek/deepseek-v4-pro",
+    "nvidia/nemotron-3-super-120b-a12b",
 }
 
 # Models that don't support temperature parameter

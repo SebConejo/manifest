@@ -3987,44 +3987,50 @@ timestamp,task,case_idx,model,provider,input_price_per_m,output_price_per_m,inpu
 20260430_021227,code_generation,47,mistral-small-latest,mistral,0.1,0.3,110,22,1.76e-05,5,llm_judge,```python     return ' '.join(str(i) for i in range(n + 1)) ```
 20260430_021229,code_generation,48,mistral-small-latest,mistral,0.1,0.3,117,15,1.6200000000000004e-05,5,llm_judge,```python     return text == text[::-1] ```
 20260430_021230,code_generation,49,mistral-small-latest,mistral,0.1,0.3,191,62,3.77e-05,4,llm_judge,```python     if not string:         return string      for i in range(len(string)):         substri
-20260509_010412,code_generation,0,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,89,7,8.64e-06,5,llm_judge,return ''.join(strings)
-20260509_010424,code_generation,1,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,158,18,1.5839999999999997e-05,0,llm_judge,We need to output only the function body only the function body. No extra text.
-20260509_010434,code_generation,3,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,152,13,1.485e-05,1,llm_judge,We need to output only function body. No extra explanation.
-20260509_010446,code_generation,4,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,131,13,1.296e-05,1,llm_judge,We need to output only function body. No extra text.
-20260509_010450,code_generation,5,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,114,24,1.242e-05,5,llm_judge,"if not l:         raise ValueError(""max_element() arg is an empty sequence"")     return max(l)"
-20260509_010456,code_generation,6,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,116,29,1.3049999999999999e-05,4,llm_judge,from collections import Counter     counts = Counter(numbers)     return [num for num in numbers if 
-20260509_010457,code_generation,7,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,141,14,1.3949999999999999e-05,1,llm_judge,We need to complete the function body only. No extra text.
-20260509_010500,code_generation,8,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,137,283,3.78e-05,5,llm_judge,return [x for x in values if type(x) is int]
-20260509_010507,code_generation,10,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,175,26,1.809e-05,1,llm_judge,"Okay, the user wants only the function body only. No extra text."
-20260509_010514,code_generation,11,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,142,31,1.5570000000000002e-05,4,llm_judge,"s = sum(numbers)     p = 1     for n in numbers:         p *= n     return (s, p)"
-20260509_010517,code_generation,12,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,138,348,4.3740000000000005e-05,5,llm_judge,return [s for s in strings if substring in s]
-20260509_010529,code_generation,13,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,75,6,7.29e-06,5,llm_judge,return len(string)
-20260509_010541,code_generation,15,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,95,81,1.584e-05,4,llm_judge,i = 2     last_factor = None     while i * i <= n:         if n % i == 0:             last_factor = 
-20260509_010543,code_generation,16,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,438,18,4.104e-05,0,llm_judge,We need to output only function body. No extra explanation. Ensure no extra text.
-20260509_010546,code_generation,17,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,108,28,1.2239999999999998e-05,4,llm_judge,import hashlib     if not text:         return None     return hashlib.md5(text.encode('utf-8')).hex
-20260509_010553,code_generation,18,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,196,500,6.264e-05,1,llm_judge,words = sentence
-20260509_010555,code_generation,19,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,133,241,3.366e-05,3,llm_judge,"return """".join([chr(((ord(ch) - ord('a') - 5) % 26) + ord('a')) for ch in s])"
-20260509_010607,code_generation,21,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,243,68,2.7989999999999998e-05,5,llm_judge,"even = odd = 0     for i in range(1, n + 1):         s = str(i)         if s == s[::-1]:            "
-20260509_010625,code_generation,23,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,120,69,1.7009999999999998e-05,4,llm_judge,if not nums:         return 0     min_ending_here = min_so_far = nums[0]     for x in nums[1:]:     
-20260509_010636,code_generation,24,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,153,77,2.07e-05,5,llm_judge,if a + b <= c or a + c <= b or b + c <= a:         return -1     s = (a + b + c) / 2     area = (s *
-20260509_010648,code_generation,26,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,207,500,6.363e-05,3,llm_judge,"n = len(l)     for i in range(n):         seen = set()         for j in range(i + 1, n"
-20260509_010649,code_generation,27,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,320,14,3.006e-05,1,llm_judge,Спасибо
-20260509_010652,code_generation,28,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,303,303,5.4539999999999996e-05,5,llm_judge,"result = []     for i, row in enumerate(lst):         for j, val in enumerate(row):             if v"
-20260509_010708,code_generation,31,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,230,213,3.9869999999999996e-05,0,llm_judge,We need to write the function body for sorted_list_sum(lst). The description: accept list of strings
-20260509_010721,code_generation,33,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,140,31,1.539e-05,5,llm_judge,"sides = sorted([a, b, c])     return sides[0]**2 + sides[1]**2 == sides[2]**2"
-20260509_010723,code_generation,34,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,134,33,1.5029999999999998e-05,1,llm_judge,We need to output only function body. No extra text. No explanation. Just the code after the functio
-20260509_010727,code_generation,35,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,130,20,1.35e-05,5,llm_judge,return (abs(a) % 10) * (abs(b) % 10)
-20260509_010739,code_generation,37,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,78,44,1.098e-05,5,llm_judge,"""""""Given length of a side and high return area for a triangle.     >>> triangle_area(5, 3)     7.5  "
-20260509_010745,code_generation,38,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,184,500,6.156e-05,4,llm_judge,max_neg = None     min_pos = None     for num in lst:         if num < 0:             if max_neg is 
-20260509_010748,code_generation,39,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,138,500,5.742e-05,1,llm_judge,"{""track {""track"": ""Change numerical base of assistant  Change numerical base of input  Change numeri"
-20260509_010756,code_generation,41,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,194,16,1.8900000000000002e-05,0,llm_judge,We need to output only function body. No extra explanation. No explanation.
-20260509_010757,code_generation,42,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,192,13,1.845e-05,1,llm_judge,We need to output only function body. No extra text.
-20260509_010800,code_generation,43,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,141,339,4.319999999999999e-05,5,llm_judge,"if not numbers:         return []     result = []     for i, n in enumerate(numbers):         result"
-20260509_010804,code_generation,44,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,157,500,5.913e-05,4,llm_judge,"We need to write the function body only, after the signature. The function encode(message) returns e"
-20260509_010806,code_generation,45,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,146,13,1.4309999999999999e-05,5,llm_judge,return sorted(set(l1) & set(l2))
-20260509_010812,code_generation,46,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,344,75,3.7709999999999996e-05,4,llm_judge,"min_even = None     min_index = None     for i, val in enumerate(arr):         if val % 2 == 0:     "
-20260509_010815,code_generation,47,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,111,143,2.2859999999999998e-05,5,llm_judge,return ' '.join(str(i) for i in range(n + 1))
-20260509_010821,code_generation,48,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,103,9,1.008e-05,5,llm_judge,return text == text[::-1]
+20260511_004749,code_generation,0,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,89,7,8.64e-06,5,llm_judge,return ''.join(strings)
+20260511_004755,code_generation,1,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,158,500,5.922e-05,1,llm_judge,result = []     for
+20260511_004759,code_generation,2,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,166,500,5.994e-05,2,llm_judge,"sorted_lst = sorted(lst)     res = []     i, j ="
+20260511_004809,code_generation,3,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,140,19,1.4309999999999999e-05,4,llm_judge,"return [i * xs[i] for i in range(1, len(xs))]"
+20260511_004814,code_generation,4,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,119,59,1.602e-05,5,llm_judge,if not l:         return True     inc = all(l[i] <= l[i+1] for i in range(len(l)-1))     dec = all(l
+20260511_004817,code_generation,5,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,128,302,3.8700000000000006e-05,5,llm_judge,"if not l:         raise ValueError(""max_element() arg is an empty sequence"")     max_val = l[0]     "
+20260511_004819,code_generation,6,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,130,173,2.7269999999999998e-05,4,llm_judge,from collections import Counter     counts = Counter(numbers)     return [x for x in numbers if coun
+20260511_004821,code_generation,7,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,141,259,3.6e-05,4,llm_judge,"result = 1     fact = 1     for i in range(1, n + 1):         fact *= i         result *= fact     r"
+20260511_004823,code_generation,8,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,137,247,3.456e-05,5,llm_judge,"return [x for x in values if isinstance(x, int) and not isinstance(x, bool)]"
+20260511_004837,code_generation,10,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,175,500,6.075e-05,3,llm_judge,We need to implement count_nums(arr) that returns number of elements which have sum of digits > 0. F
+20260511_004839,code_generation,11,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,154,225,3.411e-05,4,llm_judge,"total = sum(numbers)     prod = 1     for n in numbers:         prod *= n     return total, prod"
+20260511_004841,code_generation,12,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,138,262,3.6e-05,5,llm_judge,return [s for s in strings if substring in s]
+20260511_004844,code_generation,13,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,75,6,7.29e-06,5,llm_judge,return len(string)
+20260511_004847,code_generation,14,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,97,436,4.7969999999999996e-05,5,llm_judge,"if n <= 0:         return 0     a, b = 0, 1     for _ in range(n):         a, b = b, a + b     retur"
+20260511_004900,code_generation,15,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,95,88,1.647e-05,5,llm_judge,last_factor = 1     while n % 2 == 0:         last_factor = 2         n //= 2     i = 3     while i 
+20260511_004903,code_generation,16,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,438,500,8.442000000000001e-05,1,llm_judge,"We need to implement minPath(grid, k). The problem: find lexicographically smallest sequence of leng"
+20260511_004905,code_generation,17,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,129,170,2.6909999999999998e-05,4,llm_judge,import hashlib     if not text:         return None     return hashlib.md5(text.encode('utf-8')).hex
+20260511_004918,code_generation,18,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,196,500,6.264e-05,2,llm_judge,"def is_prime(n):         if n < 2:             return False         for i in range(2, int(n**0.5) + "
+20260511_004921,code_generation,19,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,133,486,5.5709999999999993e-05,3,llm_judge,"return """".join([chr(((ord(ch) - 5 - ord(""a"")) % 26) + ord(""a"")) for ch in s])"
+20260511_004928,code_generation,20,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,154,500,5.886e-05,2,llm_judge,"roman_numerals = [         (1000, 'M'), (900, 'CM'), (500, 'D'), (400, 'CD'),         (100, 'C'), (9"
+20260511_004930,code_generation,21,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,259,412,6.039e-05,5,llm_judge,"even = odd = 0     for i in range(1, n + 1):         s = str(i)         if s == s[::-1]:            "
+20260511_004947,code_generation,23,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,120,57,1.5929999999999998e-05,5,llm_judge,if not nums:         return 0     current_min = global_min = nums[0]     for num in nums[1:]:       
+20260511_004949,code_generation,24,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,166,350,4.6439999999999996e-05,5,llm_judge,if a + b <= c or a + c <= b or b + c <= a:     return -1 s = (a + b + c) / 2 area = (s * (s - a) * (
+20260511_004955,code_generation,25,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,165,500,5.9850000000000005e-05,5,llm_judge,
+20260511_004958,code_generation,26,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,207,500,6.363e-05,1,llm_judge,n =
+20260511_005002,code_generation,27,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,320,418,6.641999999999999e-05,5,llm_judge,best_strength = float('-inf')     best_ext = ''     for ext in extensions:         cap = sum(1 for c
+20260511_005004,code_generation,28,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,303,357,5.9399999999999994e-05,5,llm_judge,"result = []     for i, row in enumerate(lst):         for j, val in enumerate(row):             if v"
+20260511_005025,code_generation,30,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,141,500,5.769e-05,2,llm_judge,
+20260511_005028,code_generation,31,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,230,479,6.381e-05,4,llm_judge,"filtered = [s for s in lst if len(s) % 2 == 0]     return sorted(filtered, key=lambda x: (len(x), x)"
+20260511_005039,code_generation,33,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,154,395,4.9409999999999996e-05,5,llm_judge,"sides = sorted([a, b, c])     return sides[0]**2 + sides[1]**2 == sides[2]**2"
+20260511_005043,code_generation,34,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,118,47,1.4849999999999998e-05,5,llm_judge,"if n < 2:         return y     for i in range(2, int(n**0.5) + 1):         if n % i == 0:           "
+20260511_005048,code_generation,35,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,130,20,1.35e-05,5,llm_judge,return (abs(a) % 10) * (abs(b) % 10)
+20260511_005050,code_generation,36,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,96,283,3.411e-05,5,llm_judge,"for i in range(n // 2, 0, -1):         if n % i == 0:             return i     return 0"
+20260511_005058,code_generation,37,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,78,42,1.0799999999999998e-05,4,llm_judge,"""""""Given length of a side and high return area for a triangle.     >>> triangle_area(5, 3)     7.5  "
+20260511_005100,code_generation,38,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,184,500,6.156e-05,4,llm_judge,max_neg = None     min_pos = None     for x in lst:         if x < 0:             if max_neg is None
+20260511_005102,code_generation,39,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,138,225,3.2670000000000004e-05,5,llm_judge,"if x == 0:         return ""0""     digits = []     while x > 0:         digits.append(str(x % base)) "
+20260511_005117,code_generation,40,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,168,500,6.012e-05,1,llm_judge,
+20260511_005120,code_generation,41,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,194,363,5.013e-05,1,llm_judge,"Hello! How about a simple greeting. Or maybe they're new to this is working, or they want to see if "
+20260511_005125,code_generation,42,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,192,500,6.228000000000001e-05,1,llm_judge,
+20260511_005131,code_generation,43,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,124,47,1.539e-05,5,llm_judge,"if not numbers:         return []     result = []     for i, num in enumerate(numbers):         resu"
+20260511_005153,code_generation,45,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,146,13,1.4309999999999999e-05,5,llm_judge,return sorted(set(l1) & set(l2))
+20260511_005200,code_generation,46,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,344,75,3.7709999999999996e-05,4,llm_judge,"min_even = None     min_index = None     for i, val in enumerate(arr):         if val % 2 == 0:     "
+20260511_005204,code_generation,47,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,100,17,1.0529999999999999e-05,5,llm_judge,return ' '.join(str(i) for i in range(n+1))
+20260511_005206,code_generation,48,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,118,166,2.556e-05,5,llm_judge,return text == text[::-1]
 20260509_012507,code_generation,0,o3,openai,2.0,8.0,88,88,0.00088,5,llm_judge,return ''.join(strings)
 20260509_012511,code_generation,1,o3,openai,2.0,8.0,141,496,0.00425,5,llm_judge,paren_string = paren_string.strip()     if not paren_string:         return []     depths = []     f
 20260509_012514,code_generation,2,o3,openai,2.0,8.0,155,350,0.00311,5,llm_judge,"if not lst:         return []     sorted_lst = sorted(lst)     i, j = 0, len(sorted_lst) - 1     res"
@@ -11384,40 +11390,56 @@ timestamp,task,case_idx,model,provider,input_price_per_m,output_price_per_m,inpu
 20260429_205949,email_summary_v2,47,mistral-small-latest,mistral,0.1,0.3,124,65,3.1899999999999996e-05,5,llm_judge,"The March cohort's onboarding satisfaction dropped to 7.2/10, with key issues including delayed tool"
 20260429_205950,email_summary_v2,48,mistral-small-latest,mistral,0.1,0.3,102,62,2.88e-05,5,llm_judge,DataSync proposes a revenue-sharing partnership where they handle data sync infrastructure while the
 20260429_205952,email_summary_v2,49,mistral-small-latest,mistral,0.1,0.3,111,65,3.06e-05,5,llm_judge,"The product launch is delayed due to PCI compliance issues with the payment integration, requiring t"
-20260509_075817,email_summary_v2,0,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,107,200,2.7629999999999998e-05,3,llm_judge,"Marketing exceeded its Q3 budget by 15% due to the August campaign, while"
-20260509_075819,email_summary_v2,1,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,119,74,1.7369999999999998e-05,1,llm_judge,"We need to produce exactly 2 sentences summarizing the email, capturing main point and any action it"
-20260509_075825,email_summary_v2,2,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,113,200,2.8170000000000003e-05,4,llm_judge,A critical SQL injection vulnerability (CVSS 9
-20260509_075831,email_summary_v2,4,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,103,16,1.0709999999999999e-05,4,llm_judge,We need to output exactly 2 sentences. Need exactly 2 sentences.
-20260509_075841,email_summary_v2,6,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,116,100,1.9439999999999997e-05,1,llm_judge,"We need to summarize in exactly 2 sentences. Need exec sponsor for a call this week. - James, CS Lea"
-20260509_075851,email_summary_v2,8,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,105,18,1.1069999999999999e-05,1,llm_judge,We need to summarize email in exactly 2 sentences. Need exactly 2 sentences.
-20260509_075859,email_summary_v2,10,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,103,200,2.7269999999999998e-05,4,llm_judge,The Q1 board deck draft indicates the company exceeded its revenue target at 127% and achieved an NR
-20260509_075905,email_summary_v2,11,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,99,52,1.359e-05,5,llm_judge,"The SOC 2 Type II audit is complete with no critical findings, though three observations were noted "
-20260509_075911,email_summary_v2,13,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,131,200,2.9789999999999998e-05,3,llm_judge,"We need to summarize email in exactly 2 sentences, capturing main point and any action items. Email:"
-20260509_075913,email_summary_v2,14,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,124,183,2.7629999999999998e-05,5,llm_judge,"The AWS bill rose 40% month‑over‑month due to new ML training jobs on p4d instances, adding roughly "
-20260509_075914,email_summary_v2,15,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,115,15,1.17e-05,5,llm_judge,We need to output exactly the summary. Ensure no extra punctuation.
-20260509_075916,email_summary_v2,16,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,134,152,2.5739999999999998e-05,2,llm_judge,"Спасибо за отчёт по результатам апрельской кампании.   Пожалуйста, подготовьте предложение по A/B те"
-20260509_075919,email_summary_v2,17,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,112,173,2.565e-05,5,llm_judge,The release v4.2 is being rolled back due to a data‑corruption bug in the new sync engine that affec
-20260509_075921,email_summary_v2,18,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,103,185,2.592e-05,5,llm_judge,"The VP of Engineering proposes splitting the Platform team into separate Infrastructure (networking,"
-20260509_075927,email_summary_v2,20,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,109,41,1.35e-05,1,llm_judge,We need to output exactly 2 sentences. Need exactly 2 sentences. Capture the main point and any acti
-20260509_075929,email_summary_v2,21,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,116,22,1.242e-05,1,llm_judge,We need to produce exactly 2 sentences. Provide exactly 2 sentences. Need exactly 2 sentences.
-20260509_075944,email_summary_v2,24,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,96,200,2.664e-05,4,llm_judge,"We need to summarize in exactly 2 sentences, capturing main point and any action items. The email: D"
-20260509_075957,email_summary_v2,27,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,119,200,2.871e-05,5,llm_judge,"The team successfully shipped the auth redesign on schedule and praised cross‑team collaboration, bu"
-20260509_075959,email_summary_v2,28,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,119,194,2.8170000000000003e-05,5,llm_judge,"The annual disaster recovery test missed the 4‑hour RTO, taking 6 hours 23 minutes, primarily becaus"
-20260509_080001,email_summary_v2,29,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,108,200,2.772e-05,5,llm_judge,We need to summarize in exactly 2 sentences. Capture main point and any action items. The email: cra
-20260509_080003,email_summary_v2,30,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,108,200,2.772e-05,1,llm_judge,We need to summarize in exactly 2 sentences. Need exactly 2 sentences. Need exactly 2 sentences. Pro
-20260509_080005,email_summary_v2,31,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,132,200,2.988e-05,2,llm_judge,Предлагается ввести тариф «Starter» за $29/мес между Free и
-20260509_080007,email_summary_v2,32,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,116,200,2.844e-05,4,llm_judge,The SSL certificate for api.company.com expires in seven days (May 4) because auto‑renewal failed af
-20260509_080010,email_summary_v2,33,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,133,200,2.997e-05,4,llm_judge,"The Q1 employee engagement survey shows an overall score of 7.8/10, above the industry average, with"
-20260509_080021,email_summary_v2,36,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,111,200,2.799e-05,3,llm_judge,The P99 latency for /api/v2/search rose from 200ms to 800
-20260509_080022,email_summary_v2,37,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,114,200,2.8259999999999997e-05,4,llm_judge,"The CEO reports that BigCo offered $15 M to acqui‑hire the five‑person ML team, which he believes is"
-20260509_080030,email_summary_v2,38,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,128,200,2.952e-05,3,llm_judge,"In the first month of the bug bounty program, 47 reports"
-20260509_080032,email_summary_v2,39,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,108,200,2.772e-05,4,llm_judge,The year‑end audit begins January 15 and requires completing a pre‑audit checklist that includes fin
-20260509_080110,email_summary_v2,44,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,107,200,2.7629999999999998e-05,2,llm_judge,Marketing exceeded its Q3 budget by 15%
-20260509_080112,email_summary_v2,45,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,119,182,2.7089999999999996e-05,5,llm_judge,The post‑mortem identified a misconfigured load balancer at 2:14 PM that caused 47 minutes of degrad
-20260509_080124,email_summary_v2,46,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,113,200,2.8170000000000003e-05,4,llm_judge,"We need to summarize in exactly 2 sentences, capturing main point and any action items. The email: C"
-20260509_080126,email_summary_v2,47,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,125,200,2.925e-05,4,llm_judge,"We need to summarize in exactly 2 sentences, capturing main point and any action items. The email: M"
-20260509_080128,email_summary_v2,48,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,103,200,2.7269999999999998e-05,4,llm_judge,Maria Chen proposes a revenue‑share partnership in which DataSync provides the data‑sync infrastruct
-20260509_080130,email_summary_v2,49,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,112,200,2.808e-05,5,llm_judge,"We need to summarize in exactly 2 sentences, capturing main point and any action items. The email: p"
+20260511_005219,email_summary_v2,0,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,107,200,2.7629999999999998e-05,5,llm_judge,"Marketing exceeded its Q3 budget by 15% due to the August campaign, while engineering is 8% under bu"
+20260511_005223,email_summary_v2,1,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,106,62,1.512e-05,5,llm_judge,"The server outage was caused by a misconfigured load balancer at 2:14 PM, resulting in 47 minutes of"
+20260511_005224,email_summary_v2,2,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,113,200,2.8170000000000003e-05,4,llm_judge,"We need to summarize in exactly 2 sentences, capturing main point and any action items. The email: C"
+20260511_005226,email_summary_v2,3,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,125,200,2.925e-05,5,llm_judge,"March cohort satisfaction fell to 7.2/10, with strong scores for the buddy system (9.1/10) and timel"
+20260511_005231,email_summary_v2,4,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,103,200,2.7269999999999998e-05,5,llm_judge,
+20260511_005236,email_summary_v2,5,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,112,200,2.808e-05,4,llm_judge,"The payment integration failed PCI compliance, requiring an additional two weeks and presenting two "
+20260511_005238,email_summary_v2,6,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,116,200,2.844e-05,5,llm_judge,"We need to summarize email in exactly 2 sentences, capturing main point and any action items. The em"
+20260511_005243,email_summary_v2,7,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,104,200,2.736e-05,5,llm_judge,
+20260511_005247,email_summary_v2,8,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,105,200,2.745e-05,5,llm_judge,
+20260511_005249,email_summary_v2,9,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,105,200,2.745e-05,3,llm_judge,The nightly ETL job failed at 3 AM due to a Sales
+20260511_005252,email_summary_v2,10,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,103,200,2.7269999999999998e-05,4,llm_judge,"We need to summarize in exactly 2 sentences, capturing main point and any action items. The email: a"
+20260511_005255,email_summary_v2,11,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,112,200,2.808e-05,1,llm_judge,The SOC 2 Type II
+20260511_005257,email_summary_v2,12,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,111,200,2.799e-05,4,llm_judge,"We need to summarize in exactly 2 sentences, capturing main point and any action items. The email: S"
+20260511_005302,email_summary_v2,13,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,131,200,2.9789999999999998e-05,5,llm_judge,
+20260511_005305,email_summary_v2,14,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,124,200,2.916e-05,1,llm_judge,"We need to see if I follow simple instructions, or maybe they're in a hurry? Or testing if I can fol"
+20260511_005316,email_summary_v2,15,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,115,200,2.835e-05,5,llm_judge,
+20260511_005325,email_summary_v2,16,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,134,200,3.006e-05,5,llm_judge,
+20260511_005330,email_summary_v2,17,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,112,200,2.808e-05,5,llm_judge,
+20260511_005334,email_summary_v2,18,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,103,200,2.7269999999999998e-05,5,llm_judge,
+20260511_005336,email_summary_v2,19,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,123,200,2.907e-05,4,llm_judge,"We need to produce exactly 2 sentences summarizing email, capturing main point and any action items."
+20260511_005341,email_summary_v2,20,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,109,200,2.7810000000000003e-05,5,llm_judge,
+20260511_005343,email_summary_v2,21,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,116,160,2.4839999999999996e-05,5,llm_judge,"The Platform Team reports 47 active feature flags, with 23 older than six months, and proposes a cle"
+20260511_005352,email_summary_v2,22,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,111,200,2.799e-05,2,llm_judge,The proposed Japan launch follows a May‑
+20260511_005357,email_summary_v2,23,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,113,200,2.8170000000000003e-05,4,llm_judge,"The v1 API will be deprecated on June 30 and removed on September 30, with 3"
+20260511_005404,email_summary_v2,24,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,96,200,2.664e-05,5,llm_judge,"Design System v3 is ready for adoption, featuring new dark‑mode color tokens, a 4px‑based spacing sc"
+20260511_005405,email_summary_v2,25,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,126,200,2.934e-05,1,llm_judge,"We need to summarize in exactly 2 sentences, capturing main point and any action items. The email: h"
+20260511_005407,email_summary_v2,26,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,118,200,2.8619999999999997e-05,4,llm_judge,"We need to summarize in exactly 2 sentences, capturing main point and any action items. The email: R"
+20260511_005411,email_summary_v2,27,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,119,200,2.871e-05,5,llm_judge,The sprint retrospective highlighted that the auth redesign was shipped on time with strong cross‑te
+20260511_005422,email_summary_v2,28,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,119,200,2.871e-05,4,llm_judge,"The annual disaster recovery test missed the 4‑hour RTO, taking 6 hours 23 minutes due to a database"
+20260511_005428,email_summary_v2,29,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,108,200,2.772e-05,5,llm_judge,
+20260511_005431,email_summary_v2,30,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,108,200,2.772e-05,4,llm_judge,"We need to summarize in exactly 2 sentences, capturing main point and any action items. The email: C"
+20260511_005435,email_summary_v2,31,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,132,200,2.988e-05,5,llm_judge,
+20260511_005439,email_summary_v2,32,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,116,200,2.844e-05,5,llm_judge,
+20260511_005450,email_summary_v2,33,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,133,200,2.997e-05,5,llm_judge,
+20260511_005455,email_summary_v2,34,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,111,200,2.799e-05,5,llm_judge,
+20260511_005457,email_summary_v2,35,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,108,200,2.772e-05,3,llm_judge,"We need to produce exactly 2 sentences summarizing email, capturing main point and any action items."
+20260511_005504,email_summary_v2,36,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,95,66,1.4489999999999998e-05,5,llm_judge,The P99 latency for /api/v2/search rose from 200 ms to 800 ms after Thursday's deploy because the ne
+20260511_005507,email_summary_v2,37,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,114,200,2.8259999999999997e-05,5,llm_judge,
+20260511_005509,email_summary_v2,38,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,128,200,2.952e-05,4,llm_judge,"We need to summarize email in exactly 2 sentences, capturing main point and any action items. Main p"
+20260511_005519,email_summary_v2,39,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,108,200,2.772e-05,5,llm_judge,The year‑end audit begins January 15 and requires completing a pre‑audit checklist that includes fin
+20260511_005523,email_summary_v2,40,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,133,200,2.997e-05,4,llm_judge,
+20260511_005525,email_summary_v2,41,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,132,200,2.988e-05,4,llm_judge,"We need to summarize in exactly 2 sentences, capturing main point and any action items. The email: S"
+20260511_005529,email_summary_v2,42,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,122,200,2.898e-05,4,llm_judge,
+20260511_005531,email_summary_v2,43,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,123,200,2.907e-05,4,llm_judge,"We need to summarize in exactly 2 sentences, capturing main point and any action items. The email: O"
+20260511_005533,email_summary_v2,44,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,107,200,2.7629999999999998e-05,5,llm_judge,"Marketing exceeded its Q3 budget by 15% due to the August campaign, while engineering is 8% under bu"
+20260511_005535,email_summary_v2,45,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,119,182,2.7089999999999996e-05,5,llm_judge,The post‑mortem identified a misconfigured load balancer at 2:14 PM that caused 47 minutes of degrad
+20260511_005537,email_summary_v2,46,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,113,198,2.799e-05,5,llm_judge,"A critical SQL injection vulnerability (CVSS 9.8) was identified in the /api/v2/auth/login endpoint,"
+20260511_005539,email_summary_v2,47,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,125,200,2.925e-05,4,llm_judge,"March cohort satisfaction fell to 7.2/10, with strong scores for the buddy system (9.1/10) and timel"
+20260511_005542,email_summary_v2,48,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,103,200,2.7269999999999998e-05,4,llm_judge,Maria Chen proposes a revenue‑share partnership in which DataSync supplies the data‑sync infrastruct
+20260511_005544,email_summary_v2,49,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,112,200,2.808e-05,5,llm_judge,"We need to summarize in exactly 2 sentences, capturing main point and any action items. The email: p"
 20260507_003712,email_summary_v2,0,o3,openai,2.0,8.0,94,197,0.001764,5,llm_judge,"Sarah notes that marketing exceeded its Q3 budget by 15% while engineering is 8% under, and proposes"
 20260507_003716,email_summary_v2,1,o3,openai,2.0,8.0,105,270,0.00237,5,llm_judge,A misconfigured load balancer at 2:14 PM caused a 47-minute service degradation that impacted roughl
 20260507_003720,email_summary_v2,2,o3,openai,2.0,8.0,98,213,0.0019,5,llm_judge,David reports a critical CVSS 9.8 SQL injection vulnerability in /api/v2/auth/login affecting versio
@@ -13958,43 +13980,56 @@ timestamp,task,case_idx,model,provider,input_price_per_m,output_price_per_m,inpu
 20260502_011125,extraction_hard_v2,47,mistral-small-latest,mistral,0.1,0.3,310,250,0.000106,4,llm_judge,"```json {   ""mls_number"": ""24-08847"",   ""property"": {     ""bedrooms"": 3,     ""bathrooms"": 2.5,     """
 20260502_011127,extraction_hard_v2,48,mistral-small-latest,mistral,0.1,0.3,308,301,0.00012109999999999999,5,llm_judge,"```json {   ""date"": ""2024-03-12"",   ""time"": ""16:45"",   ""location"": ""I-95 NB at Exit 42, Stamford CT"""
 20260502_011129,extraction_hard_v2,49,mistral-small-latest,mistral,0.1,0.3,308,196,8.96e-05,4,llm_judge,"```json {   ""restaurant"": ""Chez Marcel"",   ""reviewer"": ""foodie_jane"",   ""date"": ""March 2024"",   ""wai"
-20260509_101351,extraction_hard_v2,1,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,198,627,7.425e-05,5,llm_judge,"{   ""name"": ""SARAH CHEN"",   ""email"": ""sarah.c@gmail.com"",   ""current_role"": {     ""title"": ""Lead ML "
-20260509_101356,extraction_hard_v2,2,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,193,800,8.937e-05,3,llm_judge,"We need to extract meeting title, date, attendees, decisions, action_items.  Text: ""Product sync - A"
-20260509_101409,extraction_hard_v2,3,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,186,530,6.444e-05,5,llm_judge,"{   ""severity"": ""critical"",   ""component"": ""checkout page"",   ""summary"": ""Checkout page fails with s"
-20260509_101414,extraction_hard_v2,4,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,183,800,8.847e-05,4,llm_judge,"{   ""title"": ""Senior Backend Engineer"",   ""company"": ""CloudMatrix"",   ""location"": {     ""city"": ""Aus"
-20260509_101419,extraction_hard_v2,5,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,257,800,9.512999999999999e-05,3,llm_judge,"{   ""passenger"": {     ""name"": ""Maria Gonzalez"",     ""title"": ""Dr.""   },   ""booking_ref"": ""XKJP42"", "
-20260509_101436,extraction_hard_v2,7,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,311,714,9.224999999999998e-05,4,llm_judge,"{   ""mls_number"": ""24-08847"",   ""property"": {     ""bedrooms"": 3,     ""bathrooms"": 2.5,     ""type"": """
-20260509_101441,extraction_hard_v2,8,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,309,800,9.981000000000001e-05,4,llm_judge,"{   ""date"": ""2024-03-12"",   ""time"": ""16:45"",   ""location"": ""I-95 NB at Exit 42, Stamford CT"",   ""wea"
-20260509_101456,extraction_hard_v2,9,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,309,800,9.981000000000001e-05,4,llm_judge,"{   ""restaurant"": ""Chez Marcel"",   ""reviewer"": ""foodie_jane"",   ""date"": ""March 202"
-20260509_101502,extraction_hard_v2,10,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,338,800,0.00010242,4,llm_judge,"{   ""incident_id"": ""SI-2024-0089"",   ""detected"": ""2024-03-15 02:14 UTC"",   ""severity"": ""P1 Critical"""
-20260509_101517,extraction_hard_v2,11,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,314,800,0.00010025999999999999,1,llm_judge,"{   ""tenant"
-20260509_101521,extraction_hard_v2,12,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,336,800,0.00010224,4,llm_judge,"We need to extract data matching schema.  Fields:  - tracking_number: string from ""Tracking: 1Z999AA"
-20260509_101526,extraction_hard_v2,13,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,387,800,0.00010682999999999999,4,llm_judge,"{   ""trial_id"": ""NCT04982562"",   ""phase"": ""III"",   ""sponsor"": ""NovaPharma Inc."",   ""drug"": ""NP-401"","
-20260509_101530,extraction_hard_v2,14,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,343,800,0.00010287000000000001,4,llm_judge,We need to extract data and produce JSON matching schema.  Fields:  - event_id: string. From USGS Ev
-20260509_101541,extraction_hard_v2,15,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,316,800,0.00010044,4,llm_judge,"{   ""show"": ""The Changelog"",   ""episode_number"": 587,   ""title"": ""Why SQLite is taking over the worl"
-20260509_101601,extraction_hard_v2,17,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,291,800,9.819e-05,4,llm_judge,"We need to extract data matching schema.  Fields: - requester: name, email, team, manager - date: st"
-20260509_101613,extraction_hard_v2,18,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,363,800,0.00010467,4,llm_judge,"{   ""date"": ""March 15, 2024"",   ""athlete"": ""Mike Torres"",   ""bodyweight_lbs"": 185,   ""sleep_hours"": "
-20260509_101715,extraction_hard_v2,20,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,190,161,3.1589999999999994e-05,4,llm_judge,"{   ""invoice_number"": ""INV-2024-0847"",   ""date"": ""2024-03-15"",   ""vendor"": ""Johnson & Sons LLC"",   """
-20260509_101719,extraction_hard_v2,21,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,198,664,7.758e-05,5,llm_judge,"{   ""name"": ""SARAH CHEN"",   ""email"": ""sarah.c@gmail.com"",   ""current_role"": {     ""title"": ""Lead ML "
-20260509_101724,extraction_hard_v2,22,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,193,800,8.937e-05,3,llm_judge,"We need to extract meeting title, date, attendees, decisions, action_items.  Text: ""Product sync - A"
-20260509_101728,extraction_hard_v2,23,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,186,377,5.067e-05,1,llm_judge,We need to extract structured data matching schema.  Fields: - severity: one of critical|high|medium
-20260509_101754,extraction_hard_v2,24,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,164,147,2.7989999999999998e-05,4,llm_judge,"{   ""title"": ""Senior Backend Engineer"",   ""company"": ""CloudMatrix"",   ""location"": {     ""city"": ""Aus"
-20260509_101756,extraction_hard_v2,25,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,257,11,2.4119999999999996e-05,0,llm_judge,"We need to output JSON only, no explanation."
-20260509_101757,extraction_hard_v2,26,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,316,12,2.9519999999999995e-05,2,llm_judge,We need to produce JSON only. No extra text.
-20260509_101811,extraction_hard_v2,27,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,311,657,8.711999999999999e-05,4,llm_judge,"{   ""mls_number"": ""24-08847"",   ""property"": {     ""bedrooms"": 3,     ""bathrooms"": 2.5,     ""type"": """
-20260509_101829,extraction_hard_v2,28,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,309,800,9.981000000000001e-05,3,llm_judge,"{   ""date"": ""2024-03-12"",   ""time"": ""16:45 EST"",   ""location"": ""I-95 NB at Exit 42, Stamford CT"",   "
-20260509_101851,extraction_hard_v2,30,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,338,165,4.527e-05,3,llm_judge,"We need to extract fields.  incident_id: from ""SECURITY INCIDENT #SI-2024-0089"" => ""SI-2024-0089""  d"
+20260511_005549,extraction_hard_v2,0,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,228,800,9.252e-05,4,llm_judge,We need to extract data and output JSON matching schema.  Fields: - invoice_number: string. From tex
+20260511_005552,extraction_hard_v2,1,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,198,646,7.596000000000001e-05,5,llm_judge,"{   ""name"": ""SARAH CHEN"",   ""email"": ""sarah.c@gmail.com"",   ""current_role"": {     ""title"": ""Lead ML "
+20260511_005603,extraction_hard_v2,2,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,193,800,8.937e-05,4,llm_judge,
+20260511_005610,extraction_hard_v2,3,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,163,162,2.925e-05,5,llm_judge,"{   ""severity"": ""critical"",   ""component"": ""checkout"",   ""summary"": ""Checkout page shows spinner the"
+20260511_005617,extraction_hard_v2,4,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,164,146,2.7899999999999997e-05,4,llm_judge,"{   ""title"": ""Senior Backend Engineer"",   ""company"": ""CloudMatrix"",   ""location"": {     ""city"": ""Aus"
+20260511_005621,extraction_hard_v2,5,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,257,681,8.442000000000001e-05,5,llm_judge,"{   ""passenger"": {     ""name"": ""Maria Gonzalez"",     ""title"": ""Dr.""   },   ""booking_ref"": ""XKJP42"", "
+20260511_005625,extraction_hard_v2,6,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,316,800,0.00010044,4,llm_judge,"We need to extract structured data matching schema: patient_id string, collected string, physician s"
+20260511_005641,extraction_hard_v2,7,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,271,214,4.365e-05,4,llm_judge,"{   ""mls_number"": ""24-08847"",   ""property"": {     ""bedrooms"": 3,     ""bathrooms"": 2.5,     ""type"": """
+20260511_005652,extraction_hard_v2,8,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,309,800,9.981000000000001e-05,3,llm_judge,"{   ""date"": ""2024-03-12"",   ""time"": ""16:45 EST"",   ""location"": ""I-95 NB at Exit 42"
+20260511_005707,extraction_hard_v2,9,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,309,800,9.981000000000001e-05,5,llm_judge,"We need to extract data matching schema.  Fields:  - restaurant: string. From text: ""Chez Marcel dow"
+20260511_005716,extraction_hard_v2,10,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,279,302,5.229e-05,5,llm_judge,"{   ""incident_id"": ""SI-2024-0089"",   ""detected"": ""2024-03-15 02:14 UTC"",   ""severity"": ""P1 Critical"""
+20260511_005721,extraction_hard_v2,11,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,314,800,0.00010025999999999999,3,llm_judge,"{   ""tenant"": {     ""company"": ""TechStart Inc."",     ""ceo"": ""Alex Rivera""   },   ""landlord"": ""Downto"
+20260511_005724,extraction_hard_v2,12,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,336,800,0.00010224,1,llm_judge,"{   ""tracking_number"": ""1Z999AA1012345678"
+20260511_005730,extraction_hard_v2,13,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,387,800,0.00010682999999999999,3,llm_judge,"{   ""trial_id"": ""NCT04982562"",   ""phase"": ""III"",   ""sponsor"": ""NovaPharma Inc."",   ""drug"": ""NP-401"","
+20260511_005743,extraction_hard_v2,14,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,343,800,0.00010287000000000001,3,llm_judge,
+20260511_005802,extraction_hard_v2,15,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,316,800,0.00010044,5,llm_judge,
+20260511_005826,extraction_hard_v2,16,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,292,800,9.828e-05,4,llm_judge,"{   ""product"": ""TaskFlow Pro"",   ""price_per_user"": 29,   ""competitors"": [     {       ""name"": ""WorkS"
+20260511_005836,extraction_hard_v2,17,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,291,800,9.819e-05,3,llm_judge,
+20260511_005848,extraction_hard_v2,18,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,363,800,0.00010467,1,llm_judge,
+20260511_005853,extraction_hard_v2,19,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,380,800,0.00010619999999999999,4,llm_judge,"We need to extract structured data matching schema.  Fields: - date: string (date only? The text: ""D"
+20260511_005910,extraction_hard_v2,20,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,228,800,9.252e-05,2,llm_judge,
+20260511_005925,extraction_hard_v2,21,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,174,149,2.907e-05,5,llm_judge,"{   ""name"": ""SARAH CHEN"",   ""email"": ""sarah.c@gmail.com"",   ""current_role"": {     ""title"": ""Lead ML "
+20260511_005930,extraction_hard_v2,22,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,193,800,8.937e-05,3,llm_judge,"{   ""meeting_title"": ""Product sync"",   ""date"": ""2026-04-10"",   ""attendees"": [     ""Jamie"",     ""Priy"
+20260511_005937,extraction_hard_v2,23,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,163,161,2.916e-05,5,llm_judge,"{   ""severity"": ""critical"",   ""component"": ""checkout"",   ""summary"": ""Checkout page shows spinner the"
+20260511_005946,extraction_hard_v2,24,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,183,800,8.847e-05,4,llm_judge,"{   ""title"": ""Senior Backend Engineer"",   ""company"": ""CloudMatrix (Series B)"",   ""location"": {     """
+20260511_005958,extraction_hard_v2,25,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,257,800,9.512999999999999e-05,3,llm_judge,"{   ""passenger"": {     ""name"": ""Maria Gonzalez"",     ""title"": ""Dr.""   },   ""booking_ref"": ""XKJP42"", "
+20260511_010002,extraction_hard_v2,26,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,316,800,0.00010044,4,llm_judge,"We need to extract structured data matching schema: patient_id string, collected string, physician s"
+20260511_010006,extraction_hard_v2,27,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,311,726,9.333e-05,4,llm_judge,"{   ""mls_number"": ""24-08847"",   ""property"": {     ""bedrooms"": 3,     ""bathrooms"": 2.5,     ""type"": """
+20260511_010031,extraction_hard_v2,28,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,309,800,9.981000000000001e-05,2,llm_judge,
+20260511_010053,extraction_hard_v2,29,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,309,800,9.981000000000001e-05,3,llm_judge,
+20260511_010108,extraction_hard_v2,30,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,279,302,5.229e-05,5,llm_judge,"{   ""incident_id"": ""SI-2024-0089"",   ""detected"": ""2024-03-15 02:14 UTC"",   ""severity"": ""P1 Critical"""
 20260509_101855,extraction_hard_v2,31,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,314,800,0.00010025999999999999,3,llm_judge,"{   ""tenant"": {     ""company"": ""TechStart Inc."",     ""ceo"": ""Alex Rivera"""
-20260509_101919,extraction_hard_v2,32,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,336,800,0.00010224,3,llm_judge,"{   ""tracking_number"": ""1Z999AA10123456784"","
-20260509_101936,extraction_hard_v2,33,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,387,800,0.00010682999999999999,1,llm_judge,"{   ""trial_id"":"
-20260509_102006,extraction_hard_v2,36,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,292,800,9.828e-05,4,llm_judge,"{   ""product"": ""TaskFlow Pro"",   ""price_per_user"": 29,   ""competitors"": [     {       ""name"": ""WorkS"
-20260509_102114,extraction_hard_v2,41,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,198,668,7.794e-05,5,llm_judge,"{   ""name"": ""SARAH CHEN"",   ""email"": ""sarah.c@gmail.com"",   ""current_role"": {     ""title"": ""Lead ML "
-20260509_102141,extraction_hard_v2,43,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,163,163,2.934e-05,5,llm_judge,"{   ""severity"": ""critical"",   ""component"": ""checkout"",   ""summary"": ""Checkout page shows spinner the"
-20260509_102145,extraction_hard_v2,44,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,183,734,8.253e-05,4,llm_judge,"{   ""title"": ""Senior Backend Engineer"",   ""company"": ""CloudMatrix"",   ""location"": {     ""city"": ""Aus"
-20260509_102204,extraction_hard_v2,45,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,257,800,9.512999999999999e-05,4,llm_judge,"{   ""passenger"": {     ""name"": ""Maria Gonzalez"",     ""title"":"
-20260509_102229,extraction_hard_v2,47,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,271,214,4.365e-05,4,llm_judge,"{   ""mls_number"": ""24-08847"",   ""property"": {     ""bedrooms"": 3,     ""bathrooms"": 2.5,     ""type"": """
-20260509_102231,extraction_hard_v2,48,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,309,23,2.988e-05,2,llm_judge,We need to output JSON only JSON. No extra text. We need to output JSON only. No explanation.
-20260509_102243,extraction_hard_v2,49,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,309,800,9.981000000000001e-05,1,llm_judge,"{   ""restaurant"": ""Chez Marcel"",   ""reviewer"": ""foodie"
+20260511_010150,extraction_hard_v2,32,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,336,800,0.00010224,1,llm_judge,
+20260511_010213,extraction_hard_v2,33,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,387,800,0.00010682999999999999,3,llm_judge,"{   ""trial_id"": ""NCT04982562"",   ""phase"": ""III"",   ""sponsor"": ""NovaPharma Inc."",   ""drug"": ""NP-401"","
+20260511_010231,extraction_hard_v2,34,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,343,800,0.00010287000000000001,4,llm_judge,
+20260511_010245,extraction_hard_v2,35,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,316,800,0.00010044,5,llm_judge,
+20260511_010254,extraction_hard_v2,36,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,292,800,9.828e-05,3,llm_judge,"{   ""product"": ""TaskFlow Pro"",   ""price_per_user"": 29,   ""competitors"": [     {       ""name"": ""WorkS"
+20260511_010258,extraction_hard_v2,37,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,291,584,7.875e-05,1,llm_judge,Hi there!
+20260511_010315,extraction_hard_v2,38,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,363,800,0.00010467,1,llm_judge,
+20260511_010328,extraction_hard_v2,39,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,380,800,0.00010619999999999999,4,llm_judge,
+20260511_010338,extraction_hard_v2,40,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,190,159,3.141e-05,5,llm_judge,"{   ""invoice_number"": ""INV-2024-0847"",   ""date"": ""2024-03-15"",   ""vendor"": ""Johnson & Sons LLC"",   """
+20260511_010348,extraction_hard_v2,41,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,174,149,2.907e-05,5,llm_judge,"{   ""name"": ""SARAH CHEN"",   ""email"": ""sarah.c@gmail.com"",   ""current_role"": {     ""title"": ""Lead ML "
+20260511_010402,extraction_hard_v2,42,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,193,800,8.937e-05,4,llm_judge,
+20260511_010416,extraction_hard_v2,43,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,163,166,2.961e-05,5,llm_judge,"{   ""severity"": ""critical"",   ""component"": ""checkout"",   ""summary"": ""Checkout page fails with spinne"
+20260511_010420,extraction_hard_v2,44,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,183,800,8.847e-05,1,llm_judge,We need to extract structured data matching schema.  Fields: - title: string (job title) - company: 
+20260511_010425,extraction_hard_v2,45,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,257,800,9.512999999999999e-05,4,llm_judge,"We need to extract data and output JSON matching schema.  Schema: {   ""passenger"": {""name"": string, "
+20260511_010445,extraction_hard_v2,46,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,316,800,0.00010044,2,llm_judge,
+20260511_010448,extraction_hard_v2,47,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,311,668,8.811e-05,4,llm_judge,"{   ""mls_number"": ""24-08847"",   ""property"": {     ""bedrooms"": 3,     ""bathrooms"": 2.5,     ""type"": """
+20260511_010504,extraction_hard_v2,48,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,309,800,9.981000000000001e-05,2,llm_judge,
+20260511_010510,extraction_hard_v2,49,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,309,800,9.981000000000001e-05,4,llm_judge,"{   ""restaurant"": ""Chez Marcel"",   ""reviewer"": ""foodie_jane"",   ""date"": ""March 2024"",   ""wait_time_m"
 20260507_011052,extraction_hard_v2,0,o3,openai,2.0,8.0,188,506,0.004424,5,llm_judge,"{""invoice_number"":""INV-2024-0847"",""date"":""2024-03-15"",""vendor"":""Johnson & Sons LLC"",""items"":[{""descr"
 20260507_011056,extraction_hard_v2,1,o3,openai,2.0,8.0,172,256,0.002392,5,llm_judge,"{""name"": ""SARAH CHEN"", ""email"": ""sarah.c@gmail.com"", ""current_role"": {""title"": ""Lead ML Engineer"", """
 20260507_011104,extraction_hard_v2,2,o3,openai,2.0,8.0,169,465,0.004058,4,llm_judge,"{""meeting_title"":""Product sync"",""date"":""2026-04-10"",""attendees"":[""Jamie"",""Priya"",""Marcus"",""Lin""],""de"
@@ -21227,26 +21262,28 @@ timestamp,task,case_idx,model,provider,input_price_per_m,output_price_per_m,inpu
 20260428_011340,intent_clinc150,47,mistral-small-latest,mistral,0.1,0.3,574,4,5.860000000000001e-05,5,exact,cook_time
 20260428_011340,intent_clinc150,48,mistral-small-latest,mistral,0.1,0.3,570,3,5.79e-05,5,exact,application_status
 20260428_011341,intent_clinc150,49,mistral-small-latest,mistral,0.1,0.3,571,3,5.8e-05,0,exact,exchange_rate
-20260509_121546,intent_clinc150,1,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,572,20,5.327999999999999e-05,0,exact,"We need to classify the user message into exactly one intent from the list. The message: ""can"
-20260509_121547,intent_clinc150,2,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,572,20,5.327999999999999e-05,0,exact,"We need to map the user message to one of the intents. The message: ""what is"
-20260509_121600,intent_clinc150,5,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,573,20,5.337e-05,0,exact,"We need to classify the user message into exactly one intent from the list. The message: ""what"
-20260509_121600,intent_clinc150,6,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,575,20,5.3549999999999994e-05,0,exact,"We need to classify the user message into exactly one intent from the list.  Message: ""i'll"
-20260509_121602,intent_clinc150,8,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,566,20,5.273999999999999e-05,0,exact,"We need to classify the message ""i am not sure"" into one of the intents. The"
-20260509_121615,intent_clinc150,11,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,569,7,5.1840000000000005e-05,0,exact,We need to output JSON?
-20260509_121620,intent_clinc150,16,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,575,20,5.3549999999999994e-05,0,exact,We need to output only the intent label We need to respond with only the intent label only the
-20260509_121620,intent_clinc150,17,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,569,9,5.202e-05,0,exact,We need to output only intent label.
-20260509_121622,intent_clinc150,19,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,567,9,5.1840000000000005e-05,0,exact,We need to output only intent label.
-20260509_121623,intent_clinc150,21,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,568,20,5.2919999999999995e-05,0,exact,"We need to classify the message: ""can i substitute butter for oil"" is a neutral statement;"
-20260509_121626,intent_clinc150,24,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,577,20,5.3729999999999995e-05,0,exact,"We need to classify the user message into exactly one intent from the list. The message: ""my"
-20260509_121629,intent_clinc150,27,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,578,20,5.3819999999999996e-05,5,exact,"We need to classify the user message: ""i need to know what the current apr is for my"
-20260509_121630,intent_clinc150,29,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,567,20,5.283e-05,0,exact,"We need to classify the user message ""how do you make pasta"" into one of the intents"
-20260509_121631,intent_clinc150,30,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,568,20,5.2919999999999995e-05,0,exact,"We need to map the user message to one of the intents. The message: ""what area"
-20260509_121631,intent_clinc150,31,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,571,20,5.319e-05,0,exact,"We need to classify the user message into exactly one intent from the list. The message: ""would"
-20260509_121633,intent_clinc150,34,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,579,20,5.391e-05,0,exact,"We need to classify the user message into exactly one intent from the list.  Message: ""what is"
-20260509_121634,intent_clinc150,35,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,574,20,5.345999999999999e-05,0,exact,"We need to classify the user message into exactly one intent from the list. The message: ""can"
-20260509_121634,intent_clinc150,36,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,571,20,5.319e-05,0,exact,"We need to classify the user message into exactly one intent from the list. The message: ""t"
-20260509_121635,intent_clinc150,37,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,572,20,5.327999999999999e-05,0,exact,"We need to classify the user message into exactly one intent from the list. The message: ""find"
-20260509_121650,intent_clinc150,47,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,575,20,5.3549999999999994e-05,0,exact,"We need to classify the user message into exactly one intent from the list. The message: ""t"
+20260511_010514,intent_clinc150,1,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,572,20,5.327999999999999e-05,0,exact,"We need to classify the user message into exactly one intent from the list. The message: ""can"
+20260511_010514,intent_clinc150,2,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,572,20,5.327999999999999e-05,0,exact,"We need to map the user message to one of the intents. The message: ""what is"
+20260511_010515,intent_clinc150,3,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,568,20,5.2919999999999995e-05,0,exact,"We need to classify the user message ""should i call a car maintenance"" into one of the int"
+20260511_010517,intent_clinc150,5,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,573,20,5.337e-05,0,exact,"We need to classify the user message into exactly one intent from the list. The message: ""what"
+20260511_010526,intent_clinc150,8,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,566,20,5.273999999999999e-05,0,exact,"We need to classify the message ""i am not sure"". The list includes intents like ""no"
+20260511_010526,intent_clinc150,9,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,570,20,5.3099999999999996e-05,5,exact,"We need to classify the user message: ""what is the weather doing in austin"". The int"
+20260511_010527,intent_clinc150,11,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,569,20,5.3009999999999996e-05,0,exact,"We need to classify the user message: ""is there a travel alert for france"". The intents"
+20260511_010528,intent_clinc150,12,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,569,20,5.3009999999999996e-05,0,exact,"We need to map the user message ""how do i do an oil change"" to one of the"
+20260511_010537,intent_clinc150,16,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,575,20,5.3549999999999994e-05,0,exact,"We need to classify the user message: ""i am in need of new checks i'm completely out"
+20260511_010543,intent_clinc150,21,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,568,20,5.2919999999999995e-05,0,exact,"We need to classify the user message into exactly one intent from the list. The message: ""can"
+20260511_010547,intent_clinc150,27,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,578,20,5.3819999999999996e-05,5,exact,"We need to classify the user message: ""i need to know what the current apr is for my"
+20260511_010554,intent_clinc150,29,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,567,20,5.283e-05,0,exact,"We need to classify the user message ""how do you make pasta"" into one of the intents"
+20260511_010555,intent_clinc150,30,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,568,20,5.2919999999999995e-05,0,exact,"We need to classify the user message into exactly one intent from the list. The message: ""what"
+20260511_010555,intent_clinc150,31,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,571,20,5.319e-05,0,exact,"We need to classify the user message into exactly one intent from the list. The message: ""would"
+20260511_010557,intent_clinc150,33,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,573,20,5.337e-05,0,exact,"We need to classify the user message into exactly one intent from the list. The message: ""how"
+20260511_010557,intent_clinc150,34,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,579,20,5.391e-05,0,exact,"We need to classify the user message into exactly one intent from the list.  Message: ""what is"
+20260511_010600,intent_clinc150,37,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,572,20,5.327999999999999e-05,5,exact,"We need to classify the user message: ""find out when my next upcoming payday will be""."
+20260511_010602,intent_clinc150,40,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,570,20,5.3099999999999996e-05,5,exact,"We need to classify the user message: ""i need to know my cars mpg"". The intent"
+20260511_010605,intent_clinc150,42,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,566,20,5.273999999999999e-05,0,exact,"We need to classify the message ""start the next song"". Look at intents list: there is"
+20260511_010622,intent_clinc150,45,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,572,20,5.327999999999999e-05,0,exact,"We need to classify the user message into exactly one intent from the list. The message: ""can"
+20260511_010628,intent_clinc150,48,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,571,20,5.319e-05,0,exact,We need to see if I follow simple instructions. Or maybe they're testing if I'll follow instructions
+20260511_010629,intent_clinc150,49,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,572,20,5.327999999999999e-05,0,exact,We need to see if I follow instructions precisely. Or maybe they're feeling lonely and want a simple
 20260504_083053,intent_clinc150,0,o3,openai,2.0,8.0,514,23,0.001212,5,exact,rollover_401k
 20260504_083054,intent_clinc150,1,o3,openai,2.0,8.0,512,20,0.001184,5,exact,find_phone
 20260504_083057,intent_clinc150,2,o3,openai,2.0,8.0,513,22,0.001202,5,exact,report_lost_card
@@ -28824,27 +28861,24 @@ timestamp,task,case_idx,model,provider,input_price_per_m,output_price_per_m,inpu
 20260428_173336,moderation_toxigen,47,mistral-small-latest,mistral,0.1,0.3,55,2,6.1e-06,0,exact,safe
 20260428_173337,moderation_toxigen,48,mistral-small-latest,mistral,0.1,0.3,64,3,7.3e-06,5,exact,toxic
 20260428_173338,moderation_toxigen,49,mistral-small-latest,mistral,0.1,0.3,73,3,8.200000000000001e-06,5,exact,toxic
-20260509_153906,moderation_toxigen,3,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,126,12,1.242e-05,5,exact,"We need to output only one of: toxic, safe"
-20260509_153912,moderation_toxigen,5,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,62,20,7.38e-06,0,exact,"We need to decide if the text is toxic/hateful/harmful. The text: """
-20260509_153921,moderation_toxigen,9,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,68,20,7.92e-06,5,exact,"We need to decide if the text contains toxic, hateful, or harmful content. The text:"
-20260509_153923,moderation_toxigen,11,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,62,20,7.38e-06,5,exact,"We need to classify if text contains toxic, hateful, or harmful content. The text: """
-20260509_153924,moderation_toxigen,12,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,78,20,8.82e-06,0,exact,"We need to decide if the text is toxic/hateful/harmful. The text: """
-20260509_153932,moderation_toxigen,15,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,63,20,7.47e-06,0,exact,"We need to decide if the text is toxic/hateful/harmful. The text: """
-20260509_153933,moderation_toxigen,16,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,65,20,7.65e-06,0,exact,"We need to classify if the text contains toxic, hateful, or harmful content. The text:"
-20260509_153940,moderation_toxigen,23,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,75,20,8.550000000000001e-06,0,exact,"We need to decide if text is toxic/hateful/harmful. The text: ""there"
-20260509_153943,moderation_toxigen,25,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,69,20,8.01e-06,0,exact,"We need to classify if text contains toxic, hateful, or harmful content. The text: """
-20260509_153944,moderation_toxigen,26,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,73,20,8.37e-06,0,exact,"We need to decide if the text is toxic/hateful/harmful. The text: """
-20260509_153953,moderation_toxigen,29,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,66,20,7.739999999999999e-06,5,exact,"We need to decide if the text is toxic/hateful/harmful. The text: """
-20260509_153955,moderation_toxigen,31,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,65,20,7.65e-06,5,exact,"We need to decide if the text is toxic/hateful/harmful. The text: """
-20260509_153957,moderation_toxigen,32,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,69,20,8.01e-06,0,exact,"We need to decide if the text is toxic/hateful/harmful. The text: """
-20260509_154000,moderation_toxigen,35,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,52,20,6.48e-06,0,exact,"We need to decide if the text ""my daughter can't speak!"" is toxic, hateful,"
-20260509_154002,moderation_toxigen,36,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,57,20,6.93e-06,0,exact,"We need to decide if the text contains toxic, hateful, or harmful content. The text:"
-20260509_154005,moderation_toxigen,39,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,78,20,8.82e-06,5,exact,"We need to decide if text is toxic/hateful/harmful. The text: ""Look"
-20260509_154010,moderation_toxigen,41,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,68,20,7.92e-06,0,exact,"We need to decide if the text contains toxic, hateful, or harmful content. The text:"
-20260509_154012,moderation_toxigen,43,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,77,20,8.730000000000001e-06,0,exact,"We need to classify if text contains toxic, hateful, or harmful content. The text: """
-20260509_154014,moderation_toxigen,46,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,76,20,8.64e-06,0,exact,"We need to decide if the text is toxic/hateful/harmful. The text: """
-20260509_154016,moderation_toxigen,47,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,56,20,6.84e-06,5,exact,"We need to decide if the text is toxic/hateful/harmful. The statement: """
-20260509_154017,moderation_toxigen,48,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,65,20,7.65e-06,5,exact,"We need to classify if text contains toxic, hateful, or harmful content. The text: """
+20260511_010632,moderation_toxigen,2,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,63,20,7.47e-06,5,exact,"We need to decide if the text is toxic/hateful/harmful. The text: """
+20260511_010635,moderation_toxigen,5,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,62,20,7.38e-06,0,exact,"We need to classify if the text contains toxic, hateful, or harmful content. The text:"
+20260511_010637,moderation_toxigen,7,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,73,20,8.37e-06,5,exact,"We need to classify if text contains toxic, hateful, or harmful content. The text: """
+20260511_010639,moderation_toxigen,9,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,68,20,7.92e-06,5,exact,"We need to decide if the text contains toxic, hateful, or harmful content. The text:"
+20260511_010640,moderation_toxigen,11,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,62,20,7.38e-06,5,exact,"We need to decide if the text is toxic/hateful/harmful. The text: """
+20260511_010643,moderation_toxigen,14,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,64,20,7.56e-06,5,exact,"We need to decide if the text is toxic/hateful/harmful. The statement: """
+20260511_010657,moderation_toxigen,19,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,61,20,7.29e-06,0,exact,"We need to classify if text contains toxic, hateful, or harmful content. The text: """
+20260511_010658,moderation_toxigen,20,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,71,20,8.19e-06,0,exact,"We need to decide if the text is toxic/hateful/harmful. The text: """
+20260511_010700,moderation_toxigen,23,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,75,20,8.550000000000001e-06,0,exact,"We need to classify if text contains toxic, hateful, or harmful content. The text: """
+20260511_010707,moderation_toxigen,26,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,73,20,8.37e-06,0,exact,"We need to decide if the text is toxic/hateful/harmful. The text: """
+20260511_010707,moderation_toxigen,27,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,63,20,7.47e-06,5,exact,"We need to decide if the text is toxic/hateful/harmful. The text: """
+20260511_010730,moderation_toxigen,31,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,65,20,7.65e-06,5,exact,"We need to decide if the text is toxic/hateful/harmful. The text: """
+20260511_010743,moderation_toxigen,35,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,52,20,6.48e-06,0,exact,"We need to decide if the text ""my daughter can't speak!"" is toxic, hateful,"
+20260511_010745,moderation_toxigen,37,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,87,20,9.63e-06,5,exact,"We need to decide if the text is toxic/hateful/harmful. The text: """
+20260511_010747,moderation_toxigen,39,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,78,20,8.82e-06,5,exact,"We need to classify if text contains toxic, hateful, or harmful content. The text: """
+20260511_010748,moderation_toxigen,40,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,61,20,7.29e-06,5,exact,"We need to decide if the text is toxic/hateful/harmful. The text: """
+20260511_010750,moderation_toxigen,43,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,77,20,8.730000000000001e-06,0,exact,"We need to classify if text contains toxic, hateful, or harmful content. The text: """
+20260511_010753,moderation_toxigen,47,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,56,20,6.84e-06,5,exact,"We need to decide if the text is toxic/hateful/harmful. The statement: """
 20260504_121834,moderation_toxigen,0,o3,openai,2.0,8.0,51,83,0.000766,5,exact,safe
 20260504_121836,moderation_toxigen,1,o3,openai,2.0,8.0,51,19,0.000254,5,exact,safe
 20260504_121840,moderation_toxigen,2,o3,openai,2.0,8.0,50,339,0.002812,0,exact,safe
@@ -31546,49 +31580,47 @@ timestamp,task,case_idx,model,provider,input_price_per_m,output_price_per_m,inpu
 20260501_023723,multistep_reasoning,47,mistral-small-latest,mistral,0.1,0.3,165,275,9.9e-05,5,exact,Let's analyze each option step by step to determine the best way for the students to ensure their pa
 20260501_023724,multistep_reasoning,48,mistral-small-latest,mistral,0.1,0.3,138,225,8.13e-05,5,exact,Let's analyze the question step by step:  1. The scenario involves a scientist digging for dinosaur 
 20260501_023726,multistep_reasoning,49,mistral-small-latest,mistral,0.1,0.3,107,161,5.9e-05,5,exact,Let's analyze the question step by step:  1. The question is about how cities controlling the amount
-20260509_160756,multistep_reasoning,0,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,105,271,3.384e-05,5,exact,B
-20260509_160757,multistep_reasoning,1,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,113,248,3.249e-05,5,exact,C
-20260509_160802,multistep_reasoning,2,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,145,353,4.482e-05,5,exact,A
-20260509_160804,multistep_reasoning,3,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,155,324,4.311e-05,5,exact,B
-20260509_160806,multistep_reasoning,4,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,78,16,8.459999999999999e-06,5,exact,We need to answer with just the letter. So final answer: B)
-20260509_160816,multistep_reasoning,6,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,92,2,8.459999999999999e-06,5,exact,C
-20260509_160837,multistep_reasoning,10,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,89,2,8.19e-06,5,exact,A
-20260509_160839,multistep_reasoning,11,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,91,163,2.2859999999999998e-05,5,exact,B
-20260509_160841,multistep_reasoning,12,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,82,2,7.56e-06,5,exact,A
-20260509_160845,multistep_reasoning,13,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,116,2,1.062e-05,5,exact,B
-20260509_160849,multistep_reasoning,14,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,97,2,8.91e-06,5,exact,C
-20260509_160852,multistep_reasoning,15,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,106,273,3.411e-05,5,exact,B
-20260509_160859,multistep_reasoning,16,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,101,67,1.512e-05,5,exact,The distinctive cracks and ridges on Europa’s icy surface are caused by tidal stresses from Jupiter’
-20260509_160913,multistep_reasoning,19,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,98,57,1.3949999999999999e-05,5,exact,"The planets orbit the Sun due to the Sun's gravitational pull, which is the dominant gravitational f"
-20260509_160916,multistep_reasoning,20,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,142,398,4.86e-05,5,exact,A
-20260509_160919,multistep_reasoning,21,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,217,500,6.453000000000001e-05,5,exact,We need to answer a multiple-choice question. The scenario: scientist investigated how well plants n
-20260509_160920,multistep_reasoning,22,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,90,177,2.4030000000000002e-05,5,exact,B
-20260509_160926,multistep_reasoning,23,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,98,2,9e-06,5,exact,C
-20260509_160927,multistep_reasoning,24,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,98,19,1.053e-05,5,exact,"We need to the instruction: ""Answer the user wants only the letter format: D)"
-20260509_160927,multistep_reasoning,25,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,96,22,1.0620000000000002e-05,5,exact,We need to answer with only the letter. No extra text. Provide only the letter. Answer: D
-20260509_160932,multistep_reasoning,26,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,70,2,6.48e-06,5,exact,C
-20260509_160935,multistep_reasoning,27,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,78,500,5.201999999999999e-05,5,exact,"We need to answer a multiple-choice question: ""Which substance will retain the largest amount of ene"
-20260509_160940,multistep_reasoning,28,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,109,2,9.990000000000001e-06,5,exact,A
-20260509_160942,multistep_reasoning,29,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,159,207,3.294e-05,5,exact,A) A) A) ... We'll output just the letter. Let's output only letter. We'll output just the letter. L
-20260509_160947,multistep_reasoning,30,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,92,2,8.459999999999999e-06,0,exact,D
-20260509_160947,multistep_reasoning,31,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,87,10,8.730000000000001e-06,0,exact,We need to answer with only the letter.
-20260509_160955,multistep_reasoning,32,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,99,500,5.391e-05,5,exact,"We need to answer a multiple-choice question: ""Which statement best describes a property of water?"" "
-20260509_160959,multistep_reasoning,33,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,89,2,8.19e-06,5,exact,D
-20260509_161000,multistep_reasoning,34,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,128,71,1.791e-05,0,exact,"We need to answer the user request: ""Sickle cell anemia? No, just output only the letter. The user w"
-20260509_161008,multistep_reasoning,36,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,136,30,1.494e-05,5,exact,"We need to answer the multiple-choice question. Think step by step by step, answer only the letter o"
-20260509_161014,multistep_reasoning,37,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,97,2,8.91e-06,5,exact,A
-20260509_161017,multistep_reasoning,38,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,107,2,9.81e-06,5,exact,B
-20260509_161018,multistep_reasoning,39,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,82,31,1.017e-05,5,exact,"We need to answer the multiple-choice question. Think step by step by step, we need to respond with "
-20260509_161018,multistep_reasoning,40,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,89,22,9.990000000000001e-06,5,exact,We need to answer with only the letter. No extra text. Ensure only letter. So answer: B
-20260509_161022,multistep_reasoning,41,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,146,2,1.3319999999999998e-05,5,exact,A
-20260509_161026,multistep_reasoning,42,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,133,2,1.2149999999999999e-05,5,exact,C
-20260509_161028,multistep_reasoning,43,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,87,21,9.72e-06,5,exact,We need to answer multiple-choice? Actually we need to output only the letter. No extra text.
-20260509_161029,multistep_reasoning,44,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,118,39,1.4129999999999999e-05,5,exact,"We need to answer the multiple-choice question. Think step by step by step, we need to output only t"
-20260509_161029,multistep_reasoning,45,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,90,34,1.116e-05,5,exact,"We need to answer the multiple-choice question. Think step by step by step, we need to output only t"
-20260509_161030,multistep_reasoning,46,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,123,23,1.3140000000000001e-05,5,exact,"We need to answer the question: ""Two chemicals react in beaker water droplets freeze. Answer: A)"
-20260509_161034,multistep_reasoning,47,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,153,2,1.3949999999999999e-05,5,exact,A
-20260509_161035,multistep_reasoning,48,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,139,94,2.0969999999999997e-05,5,exact,We need to answer a multiple-choice question. The scenario: A scientist was digging for dinosaur bon
-20260509_161038,multistep_reasoning,49,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,98,2,9e-06,5,exact,A
+20260511_010855,multistep_reasoning,0,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,96,2,8.82e-06,5,exact,B
+20260511_010859,multistep_reasoning,1,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,104,2,9.539999999999998e-06,5,exact,C
+20260511_010901,multistep_reasoning,2,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,145,326,4.239e-05,5,exact,A
+20260511_010912,multistep_reasoning,3,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,145,2,1.3229999999999999e-05,5,exact,B
+20260511_010922,multistep_reasoning,5,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,109,400,4.5810000000000004e-05,5,exact,C
+20260511_010926,multistep_reasoning,6,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,92,2,8.459999999999999e-06,5,exact,C
+20260511_010940,multistep_reasoning,8,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,75,500,5.175e-05,5,exact,"We need to answer a multiple-choice question: ""Leopard's opening chant suggests that he is"" with opt"
+20260511_010950,multistep_reasoning,10,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,99,500,5.391e-05,5,exact,"We need to answer a multiple-choice question: ""Why does sexual reproduction result in more genetic d"
+20260511_010952,multistep_reasoning,11,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,91,315,3.654e-05,5,exact,B
+20260511_011000,multistep_reasoning,12,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,82,84,1.494e-05,5,exact,"The hydrosphere, comprising Earth's water, interacts with the lithosphere primarily through processe"
+20260511_011003,multistep_reasoning,13,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,126,288,3.726e-05,5,exact,B
+20260511_011005,multistep_reasoning,14,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,106,259,3.284999999999999e-05,5,exact,C
+20260511_011010,multistep_reasoning,15,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,99,2,9.09e-06,5,exact,B
+20260511_011014,multistep_reasoning,16,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,101,2,9.27e-06,0,exact,B
+20260511_011023,multistep_reasoning,17,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,93,2,8.55e-06,5,exact,A
+20260511_011043,multistep_reasoning,19,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,107,288,3.555e-05,5,exact,D
+20260511_011049,multistep_reasoning,20,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,132,2,1.2059999999999998e-05,5,exact,A
+20260511_011110,multistep_reasoning,23,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,108,276,3.456e-05,5,exact,Hello! How can I assist you today?
+20260511_011112,multistep_reasoning,24,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,98,319,3.753e-05,5,exact,D
+20260511_011114,multistep_reasoning,25,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,96,321,3.753e-05,5,exact,D
+20260511_011117,multistep_reasoning,26,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,77,444,4.689e-05,5,exact,C
+20260511_011127,multistep_reasoning,28,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,118,500,5.562e-05,5,exact,"We need to answer a multiple-choice question about solutions. The question: ""Mr. Fernandez's class i"
+20260511_011136,multistep_reasoning,29,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,151,2,1.377e-05,5,exact,A
+20260511_011140,multistep_reasoning,30,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,101,488,5.301e-05,0,exact,Hello!
+20260511_011143,multistep_reasoning,31,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,78,2,7.2e-06,5,exact,B
+20260511_011146,multistep_reasoning,32,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,99,500,5.391e-05,5,exact,"We need to answer a multiple-choice question: ""Which statement best describes a property of water?"" "
+20260511_011148,multistep_reasoning,33,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,98,325,3.807e-05,5,exact,D
+20260511_011156,multistep_reasoning,35,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,201,500,6.309000000000001e-05,5,exact,"We need to answer a multiple-choice question about the universal systems model. The question: ""A col"
+20260511_011201,multistep_reasoning,36,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,118,2,1.0799999999999998e-05,5,exact,C
+20260511_011206,multistep_reasoning,37,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,97,2,8.91e-06,5,exact,A
+20260511_011216,multistep_reasoning,38,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,107,2,9.81e-06,5,exact,B
+20260511_011225,multistep_reasoning,39,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,73,2,6.749999999999999e-06,5,exact,D
+20260511_011232,multistep_reasoning,40,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,79,2,7.289999999999999e-06,5,exact,B
+20260511_011238,multistep_reasoning,41,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,146,2,1.3319999999999998e-05,5,exact,A
+20260511_011242,multistep_reasoning,42,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,133,2,1.2149999999999999e-05,5,exact,C
+20260511_011246,multistep_reasoning,43,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,79,2,7.289999999999999e-06,5,exact,D
+20260511_011248,multistep_reasoning,44,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,118,500,5.562e-05,5,exact,"We need to answer a multiple-choice question: ""Some non-native plants can adapt to their environment"
+20260511_011250,multistep_reasoning,45,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,90,315,3.645e-05,5,exact,C
+20260511_011303,multistep_reasoning,47,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,153,2,1.3949999999999999e-05,5,exact,A
+20260511_011304,multistep_reasoning,48,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,139,256,3.555e-05,5,exact,C
+20260511_011306,multistep_reasoning,49,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,108,255,3.2670000000000004e-05,5,exact,"Controlling pollution from cars reduces harmful emissions, which improves air quality and thus helps"
 20260507_010839,multistep_reasoning,0,o3,openai,2.0,8.0,95,83,0.000854,5,exact,B
 20260507_010841,multistep_reasoning,1,o3,openai,2.0,8.0,103,83,0.00087,5,exact,C
 20260507_010843,multistep_reasoning,2,o3,openai,2.0,8.0,132,83,0.000928,5,exact,A
@@ -31989,28 +32021,52 @@ timestamp,task,case_idx,model,provider,input_price_per_m,output_price_per_m,inpu
 20260501_040021,multistep_reasoning,47,qwen/qwen3.6-max-preview,openrouter,1.3,5.2,159,637,0.0035191,5,exact,A
 20260501_040035,multistep_reasoning,48,qwen/qwen3.6-max-preview,openrouter,1.3,5.2,138,402,0.0022698,5,exact,C
 20260501_040053,multistep_reasoning,49,qwen/qwen3.6-max-preview,openrouter,1.3,5.2,107,594,0.0032279,5,exact,Step-by-step reasoning: 1. The question asks about the direct benefit of controlling pollution from 
-20260506_193142,multistep_reasoning,1,qwen/qwen3.6-plus,openrouter,0.325,1.3,109,499,0.000684125,5,exact,C
-20260506_193156,multistep_reasoning,2,qwen/qwen3.6-plus,openrouter,0.325,1.3,143,714,0.000974675,5,exact,"The presence of fossilized warm-water marine life, such as coral reefs, in current mountainous regio"
-20260506_193220,multistep_reasoning,3,qwen/qwen3.6-plus,openrouter,0.325,1.3,150,1264,0.00169195,5,exact,The investigation involves comparing electricity usage between two months while implementing specifi
-20260506_193237,multistep_reasoning,4,qwen/qwen3.6-plus,openrouter,0.325,1.3,73,865,0.001148225,5,exact,Gravity is a force that attracts objects with mass towards one another. Magnetism is a force that at
+20260511_011318,multistep_reasoning,0,qwen/qwen3.6-plus,openrouter,0.325,1.3,104,554,0.000754,5,exact,The shelves are installed in a small room where floor space is limited. By placing them above the wa
+20260511_011327,multistep_reasoning,1,qwen/qwen3.6-plus,openrouter,0.325,1.3,109,456,0.000628225,5,exact,C
+20260511_011339,multistep_reasoning,2,qwen/qwen3.6-plus,openrouter,0.325,1.3,143,614,0.000844675,5,exact,A
+20260511_011354,multistep_reasoning,3,qwen/qwen3.6-plus,openrouter,0.325,1.3,150,782,0.0010653499999999998,5,exact,B
+20260511_011408,multistep_reasoning,4,qwen/qwen3.6-plus,openrouter,0.325,1.3,73,683,0.000911625,5,exact,Gravity is a force that attracts objects with mass towards each other. Magnetism is a force that att
+20260511_011422,multistep_reasoning,5,qwen/qwen3.6-plus,openrouter,0.325,1.3,107,725,0.0009772749999999999,5,exact,C
+20260511_011443,multistep_reasoning,6,qwen/qwen3.6-plus,openrouter,0.325,1.3,101,1116,0.001483625,5,exact,"When a wooden log burns, it undergoes a chemical reaction called combustion. According to the law of"
+20260511_011511,multistep_reasoning,7,qwen/qwen3.6-plus,openrouter,0.325,1.3,79,1462,0.001926275,5,exact,"An exothermic reaction is a chemical process that releases energy, typically in the form of heat or "
 20260506_193312,multistep_reasoning,8,qwen/qwen3.6-plus,openrouter,0.325,1.3,74,1575,0.00207155,5,exact,"Step-by-step reasoning: 1. **Context Analysis**: The question refers to a character's ""opening chant"
-20260506_193335,multistep_reasoning,9,qwen/qwen3.6-plus,openrouter,0.325,1.3,149,1137,0.0015265250000000001,5,exact,"To determine the correct statement, we need to analyze the concepts of **work** and **power** based "
-20260506_193345,multistep_reasoning,10,qwen/qwen3.6-plus,openrouter,0.325,1.3,98,487,0.0006649500000000001,5,exact,A
-20260506_193407,multistep_reasoning,11,qwen/qwen3.6-plus,openrouter,0.325,1.3,87,1166,0.001544075,5,exact,"Leaves are the primary organs for photosynthesis, the process trees use to convert light energy into"
-20260506_193423,multistep_reasoning,12,qwen/qwen3.6-plus,openrouter,0.325,1.3,86,823,0.00109785,5,exact,"The hydrosphere consists of all the water on Earth, while the lithosphere consists of the Earth's cr"
-20260506_193440,multistep_reasoning,13,qwen/qwen3.6-plus,openrouter,0.325,1.3,125,864,0.001163825,5,exact,"To determine the best way for Jake and Molly to compare their results, let's analyze the options:  *"
-20260506_193459,multistep_reasoning,14,qwen/qwen3.6-plus,openrouter,0.325,1.3,105,953,0.0012730250000000001,5,exact,The correct answer is **C**.  **Step-by-step reasoning:** 1.  **Understand Validity:** In the contex
-20260506_193531,multistep_reasoning,15,qwen/qwen3.6-plus,openrouter,0.325,1.3,108,1350,0.0017901,5,exact,Let's evaluate each option step by step:  - **A) Plants provide humans with CO_2 for respiration.** 
-20260506_193555,multistep_reasoning,16,qwen/qwen3.6-plus,openrouter,0.325,1.3,106,1257,0.0016685500000000002,5,exact,"The surface of Europa is characterized by a network of long, dark streaks known as *lineae*. These f"
-20260506_193609,multistep_reasoning,17,qwen/qwen3.6-plus,openrouter,0.325,1.3,101,727,0.0009779250000000001,5,exact,A
-20260506_193632,multistep_reasoning,18,qwen/qwen3.6-plus,openrouter,0.325,1.3,121,1179,0.0015720250000000001,5,exact,The correct answer is **B**.  **Step-by-step reasoning:**  1.  **Understand the biological context:*
-20260506_193655,multistep_reasoning,19,qwen/qwen3.6-plus,openrouter,0.325,1.3,106,1075,0.00143195,5,exact,The revolution of planets around the Sun is governed by the force of gravity. Gravity is an attracti
-20260506_193712,multistep_reasoning,20,qwen/qwen3.6-plus,openrouter,0.325,1.3,141,737,0.0010039250000000001,5,exact,A trade-off involves balancing two competing factors where improving one aspect results in the reduc
-20260506_193731,multistep_reasoning,21,qwen/qwen3.6-plus,openrouter,0.325,1.3,217,991,0.0013588250000000001,5,exact,B
-20260506_193746,multistep_reasoning,22,qwen/qwen3.6-plus,openrouter,0.325,1.3,85,691,0.0009259250000000001,5,exact,Ferns are non-flowering plants that reproduce via spores and require moisture for their reproductive
-20260506_193819,multistep_reasoning,23,qwen/qwen3.6-plus,openrouter,0.325,1.3,107,1792,0.002364375,5,exact,"To determine the correct order, let's follow the logical sequence of a scientific investigation: 1. "
-20260506_193838,multistep_reasoning,24,qwen/qwen3.6-plus,openrouter,0.325,1.3,94,943,0.00125645,5,exact,Here is the step-by-step reasoning:  1.  **Analyze the initial categorization:** The rock is identif
-20260506_193902,multistep_reasoning,25,qwen/qwen3.6-plus,openrouter,0.325,1.3,96,1215,0.0016107,5,exact,Let's evaluate each option based on the biological life cycle of an apple tree: - A) Plants reproduc
+20260511_011552,multistep_reasoning,9,qwen/qwen3.6-plus,openrouter,0.325,1.3,149,550,0.000763425,5,exact,D
+20260511_011602,multistep_reasoning,10,qwen/qwen3.6-plus,openrouter,0.325,1.3,98,525,0.00071435,5,exact,A
+20260511_011612,multistep_reasoning,11,qwen/qwen3.6-plus,openrouter,0.325,1.3,87,450,0.0006132749999999999,5,exact,B
+20260511_011623,multistep_reasoning,12,qwen/qwen3.6-plus,openrouter,0.325,1.3,86,576,0.0007767500000000001,5,exact,A
+20260511_011638,multistep_reasoning,13,qwen/qwen3.6-plus,openrouter,0.325,1.3,125,773,0.001045525,5,exact,"To determine the best way for Jake and Molly to compare their results, let's analyze the options:  *"
+20260511_011656,multistep_reasoning,14,qwen/qwen3.6-plus,openrouter,0.325,1.3,105,960,0.001282125,5,exact,"To determine which factor makes a design activity more valid, let's analyze the options based on sci"
+20260511_011713,multistep_reasoning,15,qwen/qwen3.6-plus,openrouter,0.325,1.3,108,870,0.0011661,5,exact,The correct answer is **B**.  Here is the step-by-step breakdown: 1.  **Analyze Option A:** Plants p
+20260511_011731,multistep_reasoning,16,qwen/qwen3.6-plus,openrouter,0.325,1.3,106,942,0.0012590500000000003,5,exact,The surface of Europa is covered with a network of dark streaks and ridges known as *lineae*. These 
+20260511_011745,multistep_reasoning,17,qwen/qwen3.6-plus,openrouter,0.325,1.3,101,697,0.0009389250000000001,5,exact,A
+20260511_011809,multistep_reasoning,18,qwen/qwen3.6-plus,openrouter,0.325,1.3,121,1316,0.001750125,5,exact,Tadpoles are aquatic larvae that require water to survive. Metamorphosis is the developmental proces
+20260511_011816,multistep_reasoning,19,qwen/qwen3.6-plus,openrouter,0.325,1.3,106,346,0.00048425,5,exact,D
+20260511_011842,multistep_reasoning,20,qwen/qwen3.6-plus,openrouter,0.325,1.3,141,1367,0.0018229250000000002,5,exact,Step 1: Understand the definition of a trade-off in the design process: it occurs when improving or 
+20260511_011905,multistep_reasoning,21,qwen/qwen3.6-plus,openrouter,0.325,1.3,217,1221,0.0016578250000000001,5,exact,The correct answer is **B**.  **Step-by-step reasoning:** 1.  **Analyze the Experiment:** The scient
+20260511_011926,multistep_reasoning,22,qwen/qwen3.6-plus,openrouter,0.325,1.3,85,1150,0.001522625,5,exact,Ferns are non-flowering vascular plants that reproduce via spores. A key requirement for their life 
+20260511_011953,multistep_reasoning,23,qwen/qwen3.6-plus,openrouter,0.325,1.3,107,1400,0.0018547750000000001,5,exact,"To determine the correct order, consider the standard steps of the scientific method: 1. **Preparati"
+20260511_012012,multistep_reasoning,24,qwen/qwen3.6-plus,openrouter,0.325,1.3,94,1001,0.0013318499999999999,5,exact,Here is the step-by-step reasoning:  1.  **Analyze the initial categorization:** The rock is identif
+20260511_012034,multistep_reasoning,25,qwen/qwen3.6-plus,openrouter,0.325,1.3,96,1185,0.0015717,5,exact,Let's evaluate each option based on the biological life cycle of an apple tree:  1. **A) Eggs grow f
+20260511_012039,multistep_reasoning,26,qwen/qwen3.6-plus,openrouter,0.325,1.3,75,211,0.00029867500000000004,5,exact,C
+20260511_012125,multistep_reasoning,28,qwen/qwen3.6-plus,openrouter,0.325,1.3,118,822,0.00110695,5,exact,"A solution is defined scientifically as a homogeneous mixture composed of two or more substances. ""H"
+20260511_012140,multistep_reasoning,29,qwen/qwen3.6-plus,openrouter,0.325,1.3,160,808,0.0011024000000000001,5,exact,The process of cellular respiration can be summarized by the chemical equation: $$C_6H_{12}O_6 (\tex
+20260511_012208,multistep_reasoning,30,qwen/qwen3.6-plus,openrouter,0.325,1.3,97,1512,0.001997125,5,exact,"To determine the best graph, we must analyze the type of data and the specific goal of the visualiza"
+20260511_012227,multistep_reasoning,31,qwen/qwen3.6-plus,openrouter,0.325,1.3,83,964,0.001280175,5,exact,"To determine the correct answer, we must distinguish between inherited (genetic) traits and learned "
+20260511_012237,multistep_reasoning,32,qwen/qwen3.6-plus,openrouter,0.325,1.3,97,487,0.000664625,5,exact,B
+20260511_012257,multistep_reasoning,33,qwen/qwen3.6-plus,openrouter,0.325,1.3,98,1046,0.00139165,5,exact,"To determine the composition of an unknown substance, a student needs to investigate its characteris"
+20260511_012426,multistep_reasoning,36,qwen/qwen3.6-plus,openrouter,0.325,1.3,131,1551,0.002058875,5,exact,"To find the momentum of the baseball, we use the formula for linear momentum:  $$p = m \times v$$  w"
+20260511_012452,multistep_reasoning,37,qwen/qwen3.6-plus,openrouter,0.325,1.3,102,1418,0.0018765500000000003,5,exact,"To determine the best material, we need to evaluate the physical properties of each option, specific"
+20260511_012508,multistep_reasoning,38,qwen/qwen3.6-plus,openrouter,0.325,1.3,113,839,0.001127425,5,exact,"Newton's second law of motion is expressed by the formula $F = ma$, where $F$ is the net force, $m$ "
+20260511_012528,multistep_reasoning,39,qwen/qwen3.6-plus,openrouter,0.325,1.3,81,945,0.001254825,5,exact,"To determine which particle loss results in the least amount of mass lost, we need to compare the ma"
+20260511_012547,multistep_reasoning,40,qwen/qwen3.6-plus,openrouter,0.325,1.3,84,1002,0.0013299000000000002,5,exact,"To determine the correct piece of equipment, we need to identify which tool is designed to measure t"
+20260511_012617,multistep_reasoning,41,qwen/qwen3.6-plus,openrouter,0.325,1.3,155,1616,0.0021511750000000004,5,exact,Step 1: Identify the initial ecological relationship. The insects served as a primary food source fo
+20260511_012641,multistep_reasoning,42,qwen/qwen3.6-plus,openrouter,0.325,1.3,142,1307,0.0017452500000000003,5,exact,Step 1: Identify the key property of ocean water relevant to agriculture. Ocean water has a very hig
+20260511_012650,multistep_reasoning,43,qwen/qwen3.6-plus,openrouter,0.325,1.3,87,447,0.000609375,5,exact,D
+20260511_012703,multistep_reasoning,44,qwen/qwen3.6-plus,openrouter,0.325,1.3,114,690,0.00093405,5,exact,"To determine which adaptation would decrease a plant's ability to survive, let's analyze each option"
+20260511_012730,multistep_reasoning,45,qwen/qwen3.6-plus,openrouter,0.325,1.3,89,1446,0.001908725,5,exact,"Fertilizers are rich in essential plant nutrients, particularly nitrogen and phosphorus. When agricu"
+20260511_012755,multistep_reasoning,46,qwen/qwen3.6-plus,openrouter,0.325,1.3,125,1303,0.001734525,5,exact,Here is the step-by-step analysis to determine the correct answer:  1.  **Analyze the Observation:**
+20260511_012834,multistep_reasoning,48,qwen/qwen3.6-plus,openrouter,0.325,1.3,138,451,0.0006311500000000001,5,exact,C
+20260511_012842,multistep_reasoning,49,qwen/qwen3.6-plus,openrouter,0.325,1.3,107,422,0.000583375,5,exact,A
 20260507_144625,multistep_reasoning,0,seed-2-0-code-preview-260328,byteplus,0.3,1.2,124,507,0.0006456,5,exact,"First, analyze each option against the scenario (shelves above a washing machine in a small laundry "
 20260507_144637,multistep_reasoning,1,seed-2-0-code-preview-260328,byteplus,0.3,1.2,129,589,0.0007455,5,exact,Let’s analyze each option to determine which demonstrates that air takes up space: 1.  **Option A**:
 20260507_144652,multistep_reasoning,2,seed-2-0-code-preview-260328,byteplus,0.3,1.2,163,917,0.0011493,5,exact,### Step 1: Analyze the core observation The question describes finding **warm-water marine fossils 
@@ -41366,26 +41422,32 @@ timestamp,task,case_idx,model,provider,input_price_per_m,output_price_per_m,inpu
 20260428_005204,sentiment_sst2,47,mistral-small-latest,mistral,0.1,0.3,76,2,8.200000000000001e-06,5,exact,negative
 20260428_005204,sentiment_sst2,48,mistral-small-latest,mistral,0.1,0.3,84,2,9e-06,5,exact,negative
 20260428_005205,sentiment_sst2,49,mistral-small-latest,mistral,0.1,0.3,85,2,9.1e-06,5,exact,positive
-20260509_181306,sentiment_sst2,0,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,79,20,8.91e-06,0,exact,We need to output only the sentiment label? Actually we need to respond with only the sentiment labe
-20260509_181312,sentiment_sst2,3,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,68,20,7.92e-06,0,exact,"We need to classify sentiment: The text: ""it 's great escapist fun that recreates"
-20260509_181312,sentiment_sst2,4,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,64,20,7.56e-06,0,exact,We need to output only the label We need to respond with only sentiment? No text provided.
-20260509_181325,sentiment_sst2,6,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,60,20,7.2e-06,0,exact,"We need to output only sentiment label? Actually the instruction: ""Classify the sentiment of the fol"
-20260509_181325,sentiment_sst2,7,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,67,20,7.83e-06,0,exact,"We need to classify sentiment? No further instructions: ""Classify the sentiment of the following tex"
-20260509_181327,sentiment_sst2,9,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,81,20,9.09e-06,0,exact,"We need to classify sentiment of the given text. The text: ""you really have to wonder how"
-20260509_181328,sentiment_sst2,10,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,66,20,7.739999999999999e-06,0,exact,"We need to classify sentiment: The text: ""this is a shameless sham , calculated to cash"
-20260509_181331,sentiment_sst2,14,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,75,13,7.92e-06,0,exact,We need to output only the label. No extra text.
-20260509_181349,sentiment_sst2,23,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,94,20,1.0259999999999998e-05,5,exact,"We need to classify sentiment of the given text as positive or negative. The text: ""the so"
-20260509_181351,sentiment_sst2,26,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,82,20,9.18e-06,5,exact,"We need to classify sentiment as positive or negative. The text: ""what 's surprising about full"
-20260509_181352,sentiment_sst2,27,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,82,20,9.18e-06,5,exact,negative
-20260509_181353,sentiment_sst2,28,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,79,20,8.91e-06,0,exact,"We need to classify sentiment: The text: ""uncommonly stylish but equally silly ... the"
-20260509_181357,sentiment_sst2,29,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,76,2,7.02e-06,5,exact,negative
-20260509_181404,sentiment_sst2,33,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,66,20,7.739999999999999e-06,0,exact,"We need to classify sentiment of the given text: ""instead of hiding pinocchio from critics , mir"
-20260509_181405,sentiment_sst2,34,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,76,20,8.64e-06,5,exact,"We need to output either ""positive"" or ""negative"". The text: ""it just may inspire"
-20260509_181405,sentiment_sst2,35,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,70,20,8.1e-06,0,exact,"We need to classify sentiment of the given text: ""jaglom ... put ( s ) the"
-20260509_181409,sentiment_sst2,38,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,71,20,8.19e-06,0,exact,We need to classify sentiment? Actually we need to respond with only the label. No extra text.
-20260509_181415,sentiment_sst2,41,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,81,20,9.09e-06,5,exact,"We need to classify sentiment as positive or negative. The text: ""that dogged good will of"
-20260509_181419,sentiment_sst2,45,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,74,20,8.46e-06,5,exact,"We need to classify sentiment as positive or negative. The text: ""it 's an offbeat"
-20260509_181420,sentiment_sst2,47,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,77,20,8.730000000000001e-06,0,exact,"We need to classify sentiment of given text: ""there seems to be no clear path as to where"
+20260511_010805,sentiment_sst2,1,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,80,20,9e-06,0,exact,"We need to classify sentiment. The text: ""... a story we have n't seen on the big"
+20260511_010806,sentiment_sst2,3,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,68,20,7.92e-06,0,exact,"We need to classify sentiment. The text: ""it 's great escapist fun that recreates"
+20260511_010807,sentiment_sst2,4,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,64,20,7.56e-06,0,exact,"We need to classify sentiment of the text: ""all that 's missing is the spontaneity"
+20260511_010810,sentiment_sst2,8,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,74,20,8.46e-06,0,exact,"We need to classify sentiment of the given text: ""it can not be enjoyed , even on the"
+20260511_010813,sentiment_sst2,12,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,74,20,8.46e-06,5,exact,"We need to classify sentiment as positive or negative. The text: ""as surreal as a dream and"
+20260511_010814,sentiment_sst2,13,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,56,20,6.84e-06,0,exact,"We need to classify sentiment of the text: ""slick piece of cross-promotion .""  Inter"
+20260511_010814,sentiment_sst2,14,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,75,20,8.550000000000001e-06,0,exact,"We need to classify sentiment: The sentence: ""neither parker nor donovan is a typical"
+20260511_010815,sentiment_sst2,15,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,62,20,7.38e-06,5,exact,"We need to classify sentiment as positive or negative. The text: ""of course , by more objective"
+20260511_010816,sentiment_sst2,16,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,61,20,7.29e-06,5,exact,"We need to classify sentiment as positive or negative. The text: ""the humor is forced and heavy"
+20260511_010816,sentiment_sst2,17,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,69,20,8.01e-06,5,exact,"We need to output either ""positive"" or ""negative"". The text: ""as the two leads"
+20260511_010818,sentiment_sst2,19,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,62,20,7.38e-06,0,exact,"We need to classify sentiment of the given text: ""puts a human face on a land most western"
+20260511_010821,sentiment_sst2,21,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,86,20,9.539999999999998e-06,0,exact,"We need to classify sentiment of the given text. The text: ""the fly-on-the-wall"
+20260511_010822,sentiment_sst2,22,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,78,20,8.82e-06,0,exact,"We need to classify sentiment of the given text: ""a literate presentation that wonderfully weaves"
+20260511_010825,sentiment_sst2,26,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,82,20,9.18e-06,5,exact,"We need to classify sentiment as positive or negative. The text: ""what 's surprising about full"
+20260511_010826,sentiment_sst2,27,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,82,20,9.18e-06,5,exact,negative
+20260511_010827,sentiment_sst2,29,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,85,20,9.45e-06,5,exact,negative
+20260511_010829,sentiment_sst2,31,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,58,20,7.02e-06,0,exact,"We need to classify sentiment of the text: ""why make a documentary about these marginal historical f"
+20260511_010829,sentiment_sst2,32,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,73,20,8.37e-06,0,exact,"We need to classify sentiment of the given text. The text: ""uses sharp humor and insight into"
+20260511_010830,sentiment_sst2,33,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,66,20,7.739999999999999e-06,0,exact,"We need to classify sentiment of the given text: ""instead of hiding pinocchio from critics , mir"
+20260511_010831,sentiment_sst2,35,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,70,20,8.1e-06,0,exact,"We need to classify sentiment of the given text: ""jaglom ... put ( s ) the"
+20260511_010842,sentiment_sst2,41,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,81,20,9.09e-06,5,exact,"We need to classify sentiment of the given text as either positive or negative. The text: ""that"
+20260511_010843,sentiment_sst2,42,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,66,20,7.739999999999999e-06,0,exact,"We need to classify sentiment of the given text: ""what better message than ` love thyself"
+20260511_010847,sentiment_sst2,46,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,79,20,8.91e-06,5,exact,"We need to classify sentiment of the given text as positive or negative. The text: ""the weight"
+20260511_010848,sentiment_sst2,47,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,77,20,8.730000000000001e-06,0,exact,"We need to classify sentiment: The text: ""there seems to be no clear path as to where"
+20260511_010848,sentiment_sst2,48,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,85,20,9.45e-06,0,exact,"We need to classify sentiment of the given text. The text: ""combining quick-cut editing and"
+20260511_010849,sentiment_sst2,49,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,86,20,9.539999999999998e-06,5,exact,"We need to classify sentiment as positive or negative. The text: ""thanks to scott 's"
 20260504_082349,sentiment_sst2,0,o3,openai,2.0,8.0,66,19,0.000284,5,exact,positive
 20260504_082351,sentiment_sst2,1,o3,openai,2.0,8.0,67,19,0.000286,5,exact,positive
 20260504_082353,sentiment_sst2,2,o3,openai,2.0,8.0,53,19,0.000258,5,exact,negative
@@ -51402,397 +51464,3 @@ timestamp,task,case_idx,model,provider,input_price_per_m,output_price_per_m,inpu
 20260502_212234,translation_enfr,47,x-ai/grok-code-fast-1,openrouter,0.2,0.8,262,418,0.0003868000000000001,5,llm_judge,"La répression de ce type, ainsi que les arrestations récentes de représentants d'institutions humani"
 20260502_212241,translation_enfr,48,x-ai/grok-code-fast-1,openrouter,0.2,0.8,292,512,0.000468,5,llm_judge,"- Choisissez l'une de ces Renault à louer à Galați ou dans d'autres villes telles que : Arad, Timișo"
 20260502_212253,translation_enfr,49,x-ai/grok-code-fast-1,openrouter,0.2,0.8,237,1096,0.0009242,5,llm_judge,"J'ai des gâteaux à la crème, des sucreries, du hareng mariné et des dattes cristallisées."
-20260511_004743,code_generation,0,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,89,7,0.000009,5,llm_judge,return ''.join(strings)
-20260511_004743,code_generation,1,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,158,500,0.000059,1,llm_judge,result = []     for
-20260511_004743,code_generation,2,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,166,500,0.000060,2,llm_judge,"sorted_lst = sorted(lst)     res = []     i, j ="
-20260511_004743,code_generation,3,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,140,19,0.000014,4,llm_judge,"return [i * xs[i] for i in range(1, len(xs))]"
-20260511_004743,code_generation,4,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,119,59,0.000016,5,llm_judge,if not l:         return True     inc = all(l[i] <= l[i+1] for i in range(len(l)-1))     dec = all(l
-20260511_004743,code_generation,5,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,128,302,0.000039,5,llm_judge,"if not l:         raise ValueError(""max_element() arg is an empty sequence"")     max_val = l[0]     "
-20260511_004743,code_generation,6,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,130,173,0.000027,4,llm_judge,from collections import Counter     counts = Counter(numbers)     return [x for x in numbers if coun
-20260511_004743,code_generation,7,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,141,259,0.000036,4,llm_judge,"result = 1     fact = 1     for i in range(1, n + 1):         fact *= i         result *= fact     r"
-20260511_004743,code_generation,8,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,137,247,0.000035,5,llm_judge,"return [x for x in values if isinstance(x, int) and not isinstance(x, bool)]"
-20260511_004743,code_generation,9,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,191,500,0.000062,0,llm_judge,
-20260511_004743,code_generation,10,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,175,500,0.000061,3,llm_judge,We need to implement count_nums(arr) that returns number of elements which have sum of digits > 0. F
-20260511_004743,code_generation,11,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,154,225,0.000034,4,llm_judge,"total = sum(numbers)     prod = 1     for n in numbers:         prod *= n     return total, prod"
-20260511_004743,code_generation,12,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,138,262,0.000036,5,llm_judge,return [s for s in strings if substring in s]
-20260511_004743,code_generation,13,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,75,6,0.000007,5,llm_judge,return len(string)
-20260511_004743,code_generation,14,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,97,436,0.000048,5,llm_judge,"if n <= 0:         return 0     a, b = 0, 1     for _ in range(n):         a, b = b, a + b     retur"
-20260511_004743,code_generation,15,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,95,88,0.000016,5,llm_judge,last_factor = 1     while n % 2 == 0:         last_factor = 2         n //= 2     i = 3     while i 
-20260511_004743,code_generation,16,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,438,500,0.000084,1,llm_judge,"We need to implement minPath(grid, k). The problem: find lexicographically smallest sequence of leng"
-20260511_004743,code_generation,17,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,129,170,0.000027,4,llm_judge,import hashlib     if not text:         return None     return hashlib.md5(text.encode('utf-8')).hex
-20260511_004743,code_generation,18,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,196,500,0.000063,2,llm_judge,"def is_prime(n):         if n < 2:             return False         for i in range(2, int(n**0.5) + "
-20260511_004743,code_generation,19,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,133,486,0.000056,3,llm_judge,"return """".join([chr(((ord(ch) - 5 - ord(""a"")) % 26) + ord(""a"")) for ch in s])"
-20260511_004743,code_generation,20,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,154,500,0.000059,2,llm_judge,"roman_numerals = [         (1000, 'M'), (900, 'CM'), (500, 'D'), (400, 'CD'),         (100, 'C'), (9"
-20260511_004743,code_generation,21,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,259,412,0.000060,5,llm_judge,"even = odd = 0     for i in range(1, n + 1):         s = str(i)         if s == s[::-1]:            "
-20260511_004743,code_generation,22,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,135,500,0.000057,0,llm_judge,
-20260511_004743,code_generation,23,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,120,57,0.000016,5,llm_judge,if not nums:         return 0     current_min = global_min = nums[0]     for num in nums[1:]:       
-20260511_004743,code_generation,24,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,166,350,0.000046,5,llm_judge,if a + b <= c or a + c <= b or b + c <= a:     return -1 s = (a + b + c) / 2 area = (s * (s - a) * (
-20260511_004743,code_generation,25,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,165,500,0.000060,5,llm_judge,
-20260511_004743,code_generation,26,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,207,500,0.000064,1,llm_judge,n =
-20260511_004743,code_generation,27,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,320,418,0.000066,5,llm_judge,best_strength = float('-inf')     best_ext = ''     for ext in extensions:         cap = sum(1 for c
-20260511_004743,code_generation,28,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,303,357,0.000059,5,llm_judge,"result = []     for i, row in enumerate(lst):         for j, val in enumerate(row):             if v"
-20260511_004743,code_generation,29,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,162,500,0.000060,0,llm_judge,
-20260511_004743,code_generation,30,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,141,500,0.000058,2,llm_judge,
-20260511_004743,code_generation,31,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,230,479,0.000064,4,llm_judge,"filtered = [s for s in lst if len(s) % 2 == 0]     return sorted(filtered, key=lambda x: (len(x), x)"
-20260511_004743,code_generation,32,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,176,500,0.000061,0,llm_judge,
-20260511_004743,code_generation,33,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,154,395,0.000049,5,llm_judge,"sides = sorted([a, b, c])     return sides[0]**2 + sides[1]**2 == sides[2]**2"
-20260511_004743,code_generation,34,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,118,47,0.000015,5,llm_judge,"if n < 2:         return y     for i in range(2, int(n**0.5) + 1):         if n % i == 0:           "
-20260511_004743,code_generation,35,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,130,20,0.000013,5,llm_judge,return (abs(a) % 10) * (abs(b) % 10)
-20260511_004743,code_generation,36,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,96,283,0.000034,5,llm_judge,"for i in range(n // 2, 0, -1):         if n % i == 0:             return i     return 0"
-20260511_004743,code_generation,37,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,78,42,0.000011,4,llm_judge,"""""""Given length of a side and high return area for a triangle.     >>> triangle_area(5, 3)     7.5  "
-20260511_004743,code_generation,38,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,184,500,0.000062,4,llm_judge,max_neg = None     min_pos = None     for x in lst:         if x < 0:             if max_neg is None
-20260511_004743,code_generation,39,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,138,225,0.000033,5,llm_judge,"if x == 0:         return ""0""     digits = []     while x > 0:         digits.append(str(x % base)) "
-20260511_004743,code_generation,40,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,168,500,0.000060,1,llm_judge,
-20260511_004743,code_generation,41,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,194,363,0.000050,1,llm_judge,"Hello! How about a simple greeting. Or maybe they're new to this is working, or they want to see if "
-20260511_004743,code_generation,42,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,192,500,0.000062,1,llm_judge,
-20260511_004743,code_generation,43,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,124,47,0.000015,5,llm_judge,"if not numbers:         return []     result = []     for i, num in enumerate(numbers):         resu"
-20260511_004743,code_generation,44,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,157,500,0.000059,0,llm_judge,
-20260511_004743,code_generation,45,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,146,13,0.000014,5,llm_judge,return sorted(set(l1) & set(l2))
-20260511_004743,code_generation,46,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,344,75,0.000038,4,llm_judge,"min_even = None     min_index = None     for i, val in enumerate(arr):         if val % 2 == 0:     "
-20260511_004743,code_generation,47,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,100,17,0.000011,5,llm_judge,return ' '.join(str(i) for i in range(n+1))
-20260511_004743,code_generation,48,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,118,166,0.000026,5,llm_judge,return text == text[::-1]
-20260511_004743,code_generation,49,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,192,500,0.000062,0,llm_judge,
-20260511_005217,email_summary_v2,0,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,107,200,0.000028,5,llm_judge,"Marketing exceeded its Q3 budget by 15% due to the August campaign, while engineering is 8% under bu"
-20260511_005217,email_summary_v2,1,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,106,62,0.000015,5,llm_judge,"The server outage was caused by a misconfigured load balancer at 2:14 PM, resulting in 47 minutes of"
-20260511_005217,email_summary_v2,2,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,113,200,0.000028,4,llm_judge,"We need to summarize in exactly 2 sentences, capturing main point and any action items. The email: C"
-20260511_005217,email_summary_v2,3,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,125,200,0.000029,5,llm_judge,"March cohort satisfaction fell to 7.2/10, with strong scores for the buddy system (9.1/10) and timel"
-20260511_005217,email_summary_v2,4,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,103,200,0.000027,5,llm_judge,
-20260511_005217,email_summary_v2,5,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,112,200,0.000028,4,llm_judge,"The payment integration failed PCI compliance, requiring an additional two weeks and presenting two "
-20260511_005217,email_summary_v2,6,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,116,200,0.000028,5,llm_judge,"We need to summarize email in exactly 2 sentences, capturing main point and any action items. The em"
-20260511_005217,email_summary_v2,7,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,104,200,0.000027,5,llm_judge,
-20260511_005217,email_summary_v2,8,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,105,200,0.000027,5,llm_judge,
-20260511_005217,email_summary_v2,9,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,105,200,0.000027,3,llm_judge,The nightly ETL job failed at 3 AM due to a Sales
-20260511_005217,email_summary_v2,10,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,103,200,0.000027,4,llm_judge,"We need to summarize in exactly 2 sentences, capturing main point and any action items. The email: a"
-20260511_005217,email_summary_v2,11,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,112,200,0.000028,1,llm_judge,The SOC 2 Type II
-20260511_005217,email_summary_v2,12,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,111,200,0.000028,4,llm_judge,"We need to summarize in exactly 2 sentences, capturing main point and any action items. The email: S"
-20260511_005217,email_summary_v2,13,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,131,200,0.000030,5,llm_judge,
-20260511_005217,email_summary_v2,14,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,124,200,0.000029,1,llm_judge,"We need to see if I follow simple instructions, or maybe they're in a hurry? Or testing if I can fol"
-20260511_005217,email_summary_v2,15,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,115,200,0.000028,5,llm_judge,
-20260511_005217,email_summary_v2,16,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,134,200,0.000030,5,llm_judge,
-20260511_005217,email_summary_v2,17,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,112,200,0.000028,5,llm_judge,
-20260511_005217,email_summary_v2,18,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,103,200,0.000027,5,llm_judge,
-20260511_005217,email_summary_v2,19,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,123,200,0.000029,4,llm_judge,"We need to produce exactly 2 sentences summarizing email, capturing main point and any action items."
-20260511_005217,email_summary_v2,20,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,109,200,0.000028,5,llm_judge,
-20260511_005217,email_summary_v2,21,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,116,160,0.000025,5,llm_judge,"The Platform Team reports 47 active feature flags, with 23 older than six months, and proposes a cle"
-20260511_005217,email_summary_v2,22,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,111,200,0.000028,2,llm_judge,The proposed Japan launch follows a May‑
-20260511_005217,email_summary_v2,23,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,113,200,0.000028,4,llm_judge,"The v1 API will be deprecated on June 30 and removed on September 30, with 3"
-20260511_005217,email_summary_v2,24,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,96,200,0.000027,5,llm_judge,"Design System v3 is ready for adoption, featuring new dark‑mode color tokens, a 4px‑based spacing sc"
-20260511_005217,email_summary_v2,25,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,126,200,0.000029,1,llm_judge,"We need to summarize in exactly 2 sentences, capturing main point and any action items. The email: h"
-20260511_005217,email_summary_v2,26,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,118,200,0.000029,4,llm_judge,"We need to summarize in exactly 2 sentences, capturing main point and any action items. The email: R"
-20260511_005217,email_summary_v2,27,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,119,200,0.000029,5,llm_judge,The sprint retrospective highlighted that the auth redesign was shipped on time with strong cross‑te
-20260511_005217,email_summary_v2,28,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,119,200,0.000029,4,llm_judge,"The annual disaster recovery test missed the 4‑hour RTO, taking 6 hours 23 minutes due to a database"
-20260511_005217,email_summary_v2,29,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,108,200,0.000028,5,llm_judge,
-20260511_005217,email_summary_v2,30,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,108,200,0.000028,4,llm_judge,"We need to summarize in exactly 2 sentences, capturing main point and any action items. The email: C"
-20260511_005217,email_summary_v2,31,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,132,200,0.000030,5,llm_judge,
-20260511_005217,email_summary_v2,32,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,116,200,0.000028,5,llm_judge,
-20260511_005217,email_summary_v2,33,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,133,200,0.000030,5,llm_judge,
-20260511_005217,email_summary_v2,34,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,111,200,0.000028,5,llm_judge,
-20260511_005217,email_summary_v2,35,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,108,200,0.000028,3,llm_judge,"We need to produce exactly 2 sentences summarizing email, capturing main point and any action items."
-20260511_005217,email_summary_v2,36,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,95,66,0.000014,5,llm_judge,The P99 latency for /api/v2/search rose from 200 ms to 800 ms after Thursday's deploy because the ne
-20260511_005217,email_summary_v2,37,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,114,200,0.000028,5,llm_judge,
-20260511_005217,email_summary_v2,38,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,128,200,0.000030,4,llm_judge,"We need to summarize email in exactly 2 sentences, capturing main point and any action items. Main p"
-20260511_005217,email_summary_v2,39,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,108,200,0.000028,5,llm_judge,The year‑end audit begins January 15 and requires completing a pre‑audit checklist that includes fin
-20260511_005217,email_summary_v2,40,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,133,200,0.000030,4,llm_judge,
-20260511_005217,email_summary_v2,41,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,132,200,0.000030,4,llm_judge,"We need to summarize in exactly 2 sentences, capturing main point and any action items. The email: S"
-20260511_005217,email_summary_v2,42,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,122,200,0.000029,4,llm_judge,
-20260511_005217,email_summary_v2,43,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,123,200,0.000029,4,llm_judge,"We need to summarize in exactly 2 sentences, capturing main point and any action items. The email: O"
-20260511_005217,email_summary_v2,44,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,107,200,0.000028,5,llm_judge,"Marketing exceeded its Q3 budget by 15% due to the August campaign, while engineering is 8% under bu"
-20260511_005217,email_summary_v2,45,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,119,182,0.000027,5,llm_judge,The post‑mortem identified a misconfigured load balancer at 2:14 PM that caused 47 minutes of degrad
-20260511_005217,email_summary_v2,46,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,113,198,0.000028,5,llm_judge,"A critical SQL injection vulnerability (CVSS 9.8) was identified in the /api/v2/auth/login endpoint,"
-20260511_005217,email_summary_v2,47,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,125,200,0.000029,4,llm_judge,"March cohort satisfaction fell to 7.2/10, with strong scores for the buddy system (9.1/10) and timel"
-20260511_005217,email_summary_v2,48,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,103,200,0.000027,4,llm_judge,Maria Chen proposes a revenue‑share partnership in which DataSync supplies the data‑sync infrastruct
-20260511_005217,email_summary_v2,49,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,112,200,0.000028,5,llm_judge,"We need to summarize in exactly 2 sentences, capturing main point and any action items. The email: p"
-20260511_005545,extraction_hard_v2,0,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,228,800,0.000093,4,llm_judge,We need to extract data and output JSON matching schema.  Fields: - invoice_number: string. From tex
-20260511_005545,extraction_hard_v2,1,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,198,646,0.000076,5,llm_judge,"{   ""name"": ""SARAH CHEN"",   ""email"": ""sarah.c@gmail.com"",   ""current_role"": {     ""title"": ""Lead ML "
-20260511_005545,extraction_hard_v2,2,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,193,800,0.000089,4,llm_judge,
-20260511_005545,extraction_hard_v2,3,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,163,162,0.000029,5,llm_judge,"{   ""severity"": ""critical"",   ""component"": ""checkout"",   ""summary"": ""Checkout page shows spinner the"
-20260511_005545,extraction_hard_v2,4,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,164,146,0.000028,4,llm_judge,"{   ""title"": ""Senior Backend Engineer"",   ""company"": ""CloudMatrix"",   ""location"": {     ""city"": ""Aus"
-20260511_005545,extraction_hard_v2,5,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,257,681,0.000084,5,llm_judge,"{   ""passenger"": {     ""name"": ""Maria Gonzalez"",     ""title"": ""Dr.""   },   ""booking_ref"": ""XKJP42"", "
-20260511_005545,extraction_hard_v2,6,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,316,800,0.000100,4,llm_judge,"We need to extract structured data matching schema: patient_id string, collected string, physician s"
-20260511_005545,extraction_hard_v2,7,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,271,214,0.000044,4,llm_judge,"{   ""mls_number"": ""24-08847"",   ""property"": {     ""bedrooms"": 3,     ""bathrooms"": 2.5,     ""type"": """
-20260511_005545,extraction_hard_v2,8,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,309,800,0.000100,3,llm_judge,"{   ""date"": ""2024-03-12"",   ""time"": ""16:45 EST"",   ""location"": ""I-95 NB at Exit 42"
-20260511_005545,extraction_hard_v2,9,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,309,800,0.000100,5,llm_judge,"We need to extract data matching schema.  Fields:  - restaurant: string. From text: ""Chez Marcel dow"
-20260511_005545,extraction_hard_v2,10,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,279,302,0.000052,5,llm_judge,"{   ""incident_id"": ""SI-2024-0089"",   ""detected"": ""2024-03-15 02:14 UTC"",   ""severity"": ""P1 Critical"""
-20260511_005545,extraction_hard_v2,11,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,314,800,0.000100,3,llm_judge,"{   ""tenant"": {     ""company"": ""TechStart Inc."",     ""ceo"": ""Alex Rivera""   },   ""landlord"": ""Downto"
-20260511_005545,extraction_hard_v2,12,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,336,800,0.000102,1,llm_judge,"{   ""tracking_number"": ""1Z999AA1012345678"
-20260511_005545,extraction_hard_v2,13,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,387,800,0.000107,3,llm_judge,"{   ""trial_id"": ""NCT04982562"",   ""phase"": ""III"",   ""sponsor"": ""NovaPharma Inc."",   ""drug"": ""NP-401"","
-20260511_005545,extraction_hard_v2,14,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,343,800,0.000103,3,llm_judge,
-20260511_005545,extraction_hard_v2,15,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,316,800,0.000100,5,llm_judge,
-20260511_005545,extraction_hard_v2,16,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,292,800,0.000098,4,llm_judge,"{   ""product"": ""TaskFlow Pro"",   ""price_per_user"": 29,   ""competitors"": [     {       ""name"": ""WorkS"
-20260511_005545,extraction_hard_v2,17,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,291,800,0.000098,3,llm_judge,
-20260511_005545,extraction_hard_v2,18,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,363,800,0.000105,1,llm_judge,
-20260511_005545,extraction_hard_v2,19,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,380,800,0.000106,4,llm_judge,"We need to extract structured data matching schema.  Fields: - date: string (date only? The text: ""D"
-20260511_005545,extraction_hard_v2,20,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,228,800,0.000093,2,llm_judge,
-20260511_005545,extraction_hard_v2,21,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,174,149,0.000029,5,llm_judge,"{   ""name"": ""SARAH CHEN"",   ""email"": ""sarah.c@gmail.com"",   ""current_role"": {     ""title"": ""Lead ML "
-20260511_005545,extraction_hard_v2,22,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,193,800,0.000089,3,llm_judge,"{   ""meeting_title"": ""Product sync"",   ""date"": ""2026-04-10"",   ""attendees"": [     ""Jamie"",     ""Priy"
-20260511_005545,extraction_hard_v2,23,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,163,161,0.000029,5,llm_judge,"{   ""severity"": ""critical"",   ""component"": ""checkout"",   ""summary"": ""Checkout page shows spinner the"
-20260511_005545,extraction_hard_v2,24,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,183,800,0.000088,4,llm_judge,"{   ""title"": ""Senior Backend Engineer"",   ""company"": ""CloudMatrix (Series B)"",   ""location"": {     """
-20260511_005545,extraction_hard_v2,25,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,257,800,0.000095,3,llm_judge,"{   ""passenger"": {     ""name"": ""Maria Gonzalez"",     ""title"": ""Dr.""   },   ""booking_ref"": ""XKJP42"", "
-20260511_005545,extraction_hard_v2,26,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,316,800,0.000100,4,llm_judge,"We need to extract structured data matching schema: patient_id string, collected string, physician s"
-20260511_005545,extraction_hard_v2,27,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,311,726,0.000093,4,llm_judge,"{   ""mls_number"": ""24-08847"",   ""property"": {     ""bedrooms"": 3,     ""bathrooms"": 2.5,     ""type"": """
-20260511_005545,extraction_hard_v2,28,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,309,800,0.000100,2,llm_judge,
-20260511_005545,extraction_hard_v2,29,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,309,800,0.000100,3,llm_judge,
-20260511_005545,extraction_hard_v2,30,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,279,302,0.000052,5,llm_judge,"{   ""incident_id"": ""SI-2024-0089"",   ""detected"": ""2024-03-15 02:14 UTC"",   ""severity"": ""P1 Critical"""
-20260511_005545,extraction_hard_v2,32,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,336,800,0.000102,1,llm_judge,
-20260511_005545,extraction_hard_v2,33,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,387,800,0.000107,3,llm_judge,"{   ""trial_id"": ""NCT04982562"",   ""phase"": ""III"",   ""sponsor"": ""NovaPharma Inc."",   ""drug"": ""NP-401"","
-20260511_005545,extraction_hard_v2,34,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,343,800,0.000103,4,llm_judge,
-20260511_005545,extraction_hard_v2,35,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,316,800,0.000100,5,llm_judge,
-20260511_005545,extraction_hard_v2,36,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,292,800,0.000098,3,llm_judge,"{   ""product"": ""TaskFlow Pro"",   ""price_per_user"": 29,   ""competitors"": [     {       ""name"": ""WorkS"
-20260511_005545,extraction_hard_v2,37,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,291,584,0.000079,1,llm_judge,Hi there!
-20260511_005545,extraction_hard_v2,38,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,363,800,0.000105,1,llm_judge,
-20260511_005545,extraction_hard_v2,39,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,380,800,0.000106,4,llm_judge,
-20260511_005545,extraction_hard_v2,40,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,190,159,0.000031,5,llm_judge,"{   ""invoice_number"": ""INV-2024-0847"",   ""date"": ""2024-03-15"",   ""vendor"": ""Johnson & Sons LLC"",   """
-20260511_005545,extraction_hard_v2,41,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,174,149,0.000029,5,llm_judge,"{   ""name"": ""SARAH CHEN"",   ""email"": ""sarah.c@gmail.com"",   ""current_role"": {     ""title"": ""Lead ML "
-20260511_005545,extraction_hard_v2,42,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,193,800,0.000089,4,llm_judge,
-20260511_005545,extraction_hard_v2,43,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,163,166,0.000030,5,llm_judge,"{   ""severity"": ""critical"",   ""component"": ""checkout"",   ""summary"": ""Checkout page fails with spinne"
-20260511_005545,extraction_hard_v2,44,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,183,800,0.000088,1,llm_judge,We need to extract structured data matching schema.  Fields: - title: string (job title) - company: 
-20260511_005545,extraction_hard_v2,45,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,257,800,0.000095,4,llm_judge,"We need to extract data and output JSON matching schema.  Schema: {   ""passenger"": {""name"": string, "
-20260511_005545,extraction_hard_v2,46,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,316,800,0.000100,2,llm_judge,
-20260511_005545,extraction_hard_v2,47,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,311,668,0.000088,4,llm_judge,"{   ""mls_number"": ""24-08847"",   ""property"": {     ""bedrooms"": 3,     ""bathrooms"": 2.5,     ""type"": """
-20260511_005545,extraction_hard_v2,48,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,309,800,0.000100,2,llm_judge,
-20260511_005545,extraction_hard_v2,49,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,309,800,0.000100,4,llm_judge,"{   ""restaurant"": ""Chez Marcel"",   ""reviewer"": ""foodie_jane"",   ""date"": ""March 2024"",   ""wait_time_m"
-20260511_010511,intent_clinc150,0,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,575,20,0.000054,0,exact,
-20260511_010511,intent_clinc150,1,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,572,20,0.000053,0,exact,"We need to classify the user message into exactly one intent from the list. The message: ""can"
-20260511_010511,intent_clinc150,2,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,572,20,0.000053,0,exact,"We need to map the user message to one of the intents. The message: ""what is"
-20260511_010511,intent_clinc150,3,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,568,20,0.000053,0,exact,"We need to classify the user message ""should i call a car maintenance"" into one of the int"
-20260511_010511,intent_clinc150,4,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,577,20,0.000054,0,exact,
-20260511_010511,intent_clinc150,5,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,573,20,0.000053,0,exact,"We need to classify the user message into exactly one intent from the list. The message: ""what"
-20260511_010511,intent_clinc150,6,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,575,20,0.000054,0,exact,
-20260511_010511,intent_clinc150,7,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,571,20,0.000053,0,exact,
-20260511_010511,intent_clinc150,8,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,566,20,0.000053,0,exact,"We need to classify the message ""i am not sure"". The list includes intents like ""no"
-20260511_010511,intent_clinc150,9,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,570,20,0.000053,5,exact,"We need to classify the user message: ""what is the weather doing in austin"". The int"
-20260511_010511,intent_clinc150,10,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,568,20,0.000053,0,exact,
-20260511_010511,intent_clinc150,11,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,569,20,0.000053,0,exact,"We need to classify the user message: ""is there a travel alert for france"". The intents"
-20260511_010511,intent_clinc150,12,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,569,20,0.000053,0,exact,"We need to map the user message ""how do i do an oil change"" to one of the"
-20260511_010511,intent_clinc150,13,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,570,20,0.000053,0,exact,
-20260511_010511,intent_clinc150,14,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,567,20,0.000053,0,exact,
-20260511_010511,intent_clinc150,15,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,572,20,0.000053,0,exact,
-20260511_010511,intent_clinc150,16,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,575,20,0.000054,0,exact,"We need to classify the user message: ""i am in need of new checks i'm completely out"
-20260511_010511,intent_clinc150,17,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,569,20,0.000053,0,exact,
-20260511_010511,intent_clinc150,18,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,567,20,0.000053,0,exact,
-20260511_010511,intent_clinc150,19,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,567,20,0.000053,0,exact,
-20260511_010511,intent_clinc150,20,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,573,20,0.000053,0,exact,
-20260511_010511,intent_clinc150,21,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,568,20,0.000053,0,exact,"We need to classify the user message into exactly one intent from the list. The message: ""can"
-20260511_010511,intent_clinc150,22,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,573,20,0.000053,0,exact,
-20260511_010511,intent_clinc150,23,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,571,20,0.000053,0,exact,
-20260511_010511,intent_clinc150,24,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,577,20,0.000054,0,exact,
-20260511_010511,intent_clinc150,25,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,569,20,0.000053,0,exact,
-20260511_010511,intent_clinc150,26,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,567,20,0.000053,0,exact,
-20260511_010511,intent_clinc150,27,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,578,20,0.000054,5,exact,"We need to classify the user message: ""i need to know what the current apr is for my"
-20260511_010511,intent_clinc150,28,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,566,20,0.000053,0,exact,
-20260511_010511,intent_clinc150,29,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,567,20,0.000053,0,exact,"We need to classify the user message ""how do you make pasta"" into one of the intents"
-20260511_010511,intent_clinc150,30,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,568,20,0.000053,0,exact,"We need to classify the user message into exactly one intent from the list. The message: ""what"
-20260511_010511,intent_clinc150,31,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,571,20,0.000053,0,exact,"We need to classify the user message into exactly one intent from the list. The message: ""would"
-20260511_010511,intent_clinc150,32,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,572,20,0.000053,0,exact,
-20260511_010511,intent_clinc150,33,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,573,20,0.000053,0,exact,"We need to classify the user message into exactly one intent from the list. The message: ""how"
-20260511_010511,intent_clinc150,34,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,579,20,0.000054,0,exact,"We need to classify the user message into exactly one intent from the list.  Message: ""what is"
-20260511_010511,intent_clinc150,35,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,574,20,0.000053,0,exact,
-20260511_010511,intent_clinc150,36,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,571,20,0.000053,0,exact,
-20260511_010511,intent_clinc150,37,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,572,20,0.000053,5,exact,"We need to classify the user message: ""find out when my next upcoming payday will be""."
-20260511_010511,intent_clinc150,38,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,570,20,0.000053,0,exact,
-20260511_010511,intent_clinc150,39,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,569,20,0.000053,0,exact,
-20260511_010511,intent_clinc150,40,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,570,20,0.000053,5,exact,"We need to classify the user message: ""i need to know my cars mpg"". The intent"
-20260511_010511,intent_clinc150,41,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,567,20,0.000053,0,exact,
-20260511_010511,intent_clinc150,42,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,566,20,0.000053,0,exact,"We need to classify the message ""start the next song"". Look at intents list: there is"
-20260511_010511,intent_clinc150,43,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,581,20,0.000054,0,exact,
-20260511_010511,intent_clinc150,44,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,573,20,0.000053,0,exact,
-20260511_010511,intent_clinc150,45,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,572,20,0.000053,0,exact,"We need to classify the user message into exactly one intent from the list. The message: ""can"
-20260511_010511,intent_clinc150,46,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,576,20,0.000054,0,exact,
-20260511_010511,intent_clinc150,47,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,575,20,0.000054,0,exact,
-20260511_010511,intent_clinc150,48,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,571,20,0.000053,0,exact,We need to see if I follow simple instructions. Or maybe they're testing if I'll follow instructions
-20260511_010511,intent_clinc150,49,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,572,20,0.000053,0,exact,We need to see if I follow instructions precisely. Or maybe they're feeling lonely and want a simple
-20260511_010630,moderation_toxigen,0,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,66,20,0.000008,0,exact,
-20260511_010630,moderation_toxigen,1,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,63,20,0.000007,0,exact,
-20260511_010630,moderation_toxigen,2,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,63,20,0.000007,5,exact,"We need to decide if the text is toxic/hateful/harmful. The text: """
-20260511_010630,moderation_toxigen,3,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,126,20,0.000013,0,exact,
-20260511_010630,moderation_toxigen,4,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,68,20,0.000008,0,exact,
-20260511_010630,moderation_toxigen,5,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,62,20,0.000007,0,exact,"We need to classify if the text contains toxic, hateful, or harmful content. The text:"
-20260511_010630,moderation_toxigen,6,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,61,20,0.000007,0,exact,
-20260511_010630,moderation_toxigen,7,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,73,20,0.000008,5,exact,"We need to classify if text contains toxic, hateful, or harmful content. The text: """
-20260511_010630,moderation_toxigen,8,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,75,20,0.000009,0,exact,
-20260511_010630,moderation_toxigen,9,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,68,20,0.000008,5,exact,"We need to decide if the text contains toxic, hateful, or harmful content. The text:"
-20260511_010630,moderation_toxigen,10,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,54,20,0.000007,0,exact,
-20260511_010630,moderation_toxigen,11,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,62,20,0.000007,5,exact,"We need to decide if the text is toxic/hateful/harmful. The text: """
-20260511_010630,moderation_toxigen,12,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,78,20,0.000009,0,exact,
-20260511_010630,moderation_toxigen,13,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,65,20,0.000008,0,exact,
-20260511_010630,moderation_toxigen,14,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,64,20,0.000008,5,exact,"We need to decide if the text is toxic/hateful/harmful. The statement: """
-20260511_010630,moderation_toxigen,15,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,63,20,0.000007,0,exact,
-20260511_010630,moderation_toxigen,16,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,65,20,0.000008,0,exact,
-20260511_010630,moderation_toxigen,17,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,63,20,0.000007,0,exact,
-20260511_010630,moderation_toxigen,18,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,77,20,0.000009,0,exact,
-20260511_010630,moderation_toxigen,19,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,61,20,0.000007,0,exact,"We need to classify if text contains toxic, hateful, or harmful content. The text: """
-20260511_010630,moderation_toxigen,20,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,71,20,0.000008,0,exact,"We need to decide if the text is toxic/hateful/harmful. The text: """
-20260511_010630,moderation_toxigen,21,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,63,20,0.000007,0,exact,
-20260511_010630,moderation_toxigen,22,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,76,20,0.000009,0,exact,
-20260511_010630,moderation_toxigen,23,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,75,20,0.000009,0,exact,"We need to classify if text contains toxic, hateful, or harmful content. The text: """
-20260511_010630,moderation_toxigen,24,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,73,20,0.000008,0,exact,
-20260511_010630,moderation_toxigen,25,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,69,20,0.000008,0,exact,
-20260511_010630,moderation_toxigen,26,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,73,20,0.000008,0,exact,"We need to decide if the text is toxic/hateful/harmful. The text: """
-20260511_010630,moderation_toxigen,27,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,63,20,0.000007,5,exact,"We need to decide if the text is toxic/hateful/harmful. The text: """
-20260511_010630,moderation_toxigen,28,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,75,20,0.000009,0,exact,
-20260511_010630,moderation_toxigen,29,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,66,20,0.000008,0,exact,
-20260511_010630,moderation_toxigen,30,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,66,20,0.000008,0,exact,
-20260511_010630,moderation_toxigen,31,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,65,20,0.000008,5,exact,"We need to decide if the text is toxic/hateful/harmful. The text: """
-20260511_010630,moderation_toxigen,32,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,69,20,0.000008,0,exact,
-20260511_010630,moderation_toxigen,33,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,60,20,0.000007,0,exact,
-20260511_010630,moderation_toxigen,34,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,62,20,0.000007,0,exact,
-20260511_010630,moderation_toxigen,35,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,52,20,0.000006,0,exact,"We need to decide if the text ""my daughter can't speak!"" is toxic, hateful,"
-20260511_010630,moderation_toxigen,36,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,57,20,0.000007,0,exact,
-20260511_010630,moderation_toxigen,37,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,87,20,0.000010,5,exact,"We need to decide if the text is toxic/hateful/harmful. The text: """
-20260511_010630,moderation_toxigen,38,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,76,20,0.000009,0,exact,
-20260511_010630,moderation_toxigen,39,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,78,20,0.000009,5,exact,"We need to classify if text contains toxic, hateful, or harmful content. The text: """
-20260511_010630,moderation_toxigen,40,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,61,20,0.000007,5,exact,"We need to decide if the text is toxic/hateful/harmful. The text: """
-20260511_010630,moderation_toxigen,41,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,68,20,0.000008,0,exact,
-20260511_010630,moderation_toxigen,42,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,60,20,0.000007,0,exact,
-20260511_010630,moderation_toxigen,43,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,77,20,0.000009,0,exact,"We need to classify if text contains toxic, hateful, or harmful content. The text: """
-20260511_010630,moderation_toxigen,44,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,69,20,0.000008,0,exact,
-20260511_010630,moderation_toxigen,45,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,60,20,0.000007,0,exact,
-20260511_010630,moderation_toxigen,46,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,76,20,0.000009,0,exact,
-20260511_010630,moderation_toxigen,47,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,56,20,0.000007,5,exact,"We need to decide if the text is toxic/hateful/harmful. The statement: """
-20260511_010630,moderation_toxigen,48,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,65,20,0.000008,0,exact,
-20260511_010630,moderation_toxigen,49,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,74,20,0.000008,0,exact,
-20260511_010803,sentiment_sst2,0,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,79,20,0.000009,0,exact,
-20260511_010803,sentiment_sst2,1,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,80,20,0.000009,0,exact,"We need to classify sentiment. The text: ""... a story we have n't seen on the big"
-20260511_010803,sentiment_sst2,2,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,64,20,0.000008,0,exact,
-20260511_010803,sentiment_sst2,3,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,68,20,0.000008,0,exact,"We need to classify sentiment. The text: ""it 's great escapist fun that recreates"
-20260511_010803,sentiment_sst2,4,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,64,20,0.000008,0,exact,"We need to classify sentiment of the text: ""all that 's missing is the spontaneity"
-20260511_010803,sentiment_sst2,5,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,66,20,0.000008,0,exact,
-20260511_010803,sentiment_sst2,6,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,60,20,0.000007,0,exact,
-20260511_010803,sentiment_sst2,7,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,67,20,0.000008,0,exact,
-20260511_010803,sentiment_sst2,8,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,74,20,0.000008,0,exact,"We need to classify sentiment of the given text: ""it can not be enjoyed , even on the"
-20260511_010803,sentiment_sst2,9,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,81,20,0.000009,0,exact,
-20260511_010803,sentiment_sst2,10,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,66,20,0.000008,0,exact,
-20260511_010803,sentiment_sst2,11,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,61,20,0.000007,0,exact,
-20260511_010803,sentiment_sst2,12,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,74,20,0.000008,5,exact,"We need to classify sentiment as positive or negative. The text: ""as surreal as a dream and"
-20260511_010803,sentiment_sst2,13,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,56,20,0.000007,0,exact,"We need to classify sentiment of the text: ""slick piece of cross-promotion .""  Inter"
-20260511_010803,sentiment_sst2,14,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,75,20,0.000009,0,exact,"We need to classify sentiment: The sentence: ""neither parker nor donovan is a typical"
-20260511_010803,sentiment_sst2,15,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,62,20,0.000007,5,exact,"We need to classify sentiment as positive or negative. The text: ""of course , by more objective"
-20260511_010803,sentiment_sst2,16,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,61,20,0.000007,5,exact,"We need to classify sentiment as positive or negative. The text: ""the humor is forced and heavy"
-20260511_010803,sentiment_sst2,17,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,69,20,0.000008,5,exact,"We need to output either ""positive"" or ""negative"". The text: ""as the two leads"
-20260511_010803,sentiment_sst2,18,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,84,20,0.000009,0,exact,
-20260511_010803,sentiment_sst2,19,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,62,20,0.000007,0,exact,"We need to classify sentiment of the given text: ""puts a human face on a land most western"
-20260511_010803,sentiment_sst2,20,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,80,20,0.000009,0,exact,
-20260511_010803,sentiment_sst2,21,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,86,20,0.000010,0,exact,"We need to classify sentiment of the given text. The text: ""the fly-on-the-wall"
-20260511_010803,sentiment_sst2,22,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,78,20,0.000009,0,exact,"We need to classify sentiment of the given text: ""a literate presentation that wonderfully weaves"
-20260511_010803,sentiment_sst2,23,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,94,20,0.000010,0,exact,
-20260511_010803,sentiment_sst2,24,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,53,20,0.000007,0,exact,
-20260511_010803,sentiment_sst2,25,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,62,20,0.000007,0,exact,
-20260511_010803,sentiment_sst2,26,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,82,20,0.000009,5,exact,"We need to classify sentiment as positive or negative. The text: ""what 's surprising about full"
-20260511_010803,sentiment_sst2,27,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,82,20,0.000009,5,exact,negative
-20260511_010803,sentiment_sst2,28,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,79,20,0.000009,0,exact,
-20260511_010803,sentiment_sst2,29,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,85,20,0.000009,5,exact,negative
-20260511_010803,sentiment_sst2,30,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,82,20,0.000009,0,exact,
-20260511_010803,sentiment_sst2,31,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,58,20,0.000007,0,exact,"We need to classify sentiment of the text: ""why make a documentary about these marginal historical f"
-20260511_010803,sentiment_sst2,32,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,73,20,0.000008,0,exact,"We need to classify sentiment of the given text. The text: ""uses sharp humor and insight into"
-20260511_010803,sentiment_sst2,33,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,66,20,0.000008,0,exact,"We need to classify sentiment of the given text: ""instead of hiding pinocchio from critics , mir"
-20260511_010803,sentiment_sst2,34,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,76,20,0.000009,0,exact,
-20260511_010803,sentiment_sst2,35,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,70,20,0.000008,0,exact,"We need to classify sentiment of the given text: ""jaglom ... put ( s ) the"
-20260511_010803,sentiment_sst2,36,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,55,20,0.000007,0,exact,
-20260511_010803,sentiment_sst2,37,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,76,20,0.000009,0,exact,
-20260511_010803,sentiment_sst2,38,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,71,20,0.000008,0,exact,
-20260511_010803,sentiment_sst2,39,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,61,20,0.000007,0,exact,
-20260511_010803,sentiment_sst2,40,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,76,20,0.000009,0,exact,
-20260511_010803,sentiment_sst2,41,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,81,20,0.000009,5,exact,"We need to classify sentiment of the given text as either positive or negative. The text: ""that"
-20260511_010803,sentiment_sst2,42,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,66,20,0.000008,0,exact,"We need to classify sentiment of the given text: ""what better message than ` love thyself"
-20260511_010803,sentiment_sst2,43,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,63,20,0.000007,0,exact,
-20260511_010803,sentiment_sst2,44,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,85,20,0.000009,0,exact,
-20260511_010803,sentiment_sst2,45,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,74,20,0.000008,0,exact,
-20260511_010803,sentiment_sst2,46,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,79,20,0.000009,5,exact,"We need to classify sentiment of the given text as positive or negative. The text: ""the weight"
-20260511_010803,sentiment_sst2,47,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,77,20,0.000009,0,exact,"We need to classify sentiment: The text: ""there seems to be no clear path as to where"
-20260511_010803,sentiment_sst2,48,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,85,20,0.000009,0,exact,"We need to classify sentiment of the given text. The text: ""combining quick-cut editing and"
-20260511_010803,sentiment_sst2,49,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,86,20,0.000010,5,exact,"We need to classify sentiment as positive or negative. The text: ""thanks to scott 's"
-20260511_010850,multistep_reasoning,0,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,96,2,0.000009,5,exact,B
-20260511_010850,multistep_reasoning,1,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,104,2,0.000010,5,exact,C
-20260511_010850,multistep_reasoning,2,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,145,326,0.000042,5,exact,A
-20260511_010850,multistep_reasoning,3,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,145,2,0.000013,5,exact,B
-20260511_010850,multistep_reasoning,4,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,78,500,0.000052,0,exact,
-20260511_010850,multistep_reasoning,5,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,109,400,0.000046,5,exact,C
-20260511_010850,multistep_reasoning,6,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,92,2,0.000008,5,exact,C
-20260511_010850,multistep_reasoning,7,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,81,500,0.000052,0,exact,
-20260511_010850,multistep_reasoning,8,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,75,500,0.000052,5,exact,"We need to answer a multiple-choice question: ""Leopard's opening chant suggests that he is"" with opt"
-20260511_010850,multistep_reasoning,9,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,149,500,0.000058,0,exact,
-20260511_010850,multistep_reasoning,10,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,99,500,0.000054,5,exact,"We need to answer a multiple-choice question: ""Why does sexual reproduction result in more genetic d"
-20260511_010850,multistep_reasoning,11,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,91,315,0.000037,5,exact,B
-20260511_010850,multistep_reasoning,12,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,82,84,0.000015,5,exact,"The hydrosphere, comprising Earth's water, interacts with the lithosphere primarily through processe"
-20260511_010850,multistep_reasoning,13,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,126,288,0.000037,5,exact,B
-20260511_010850,multistep_reasoning,14,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,106,259,0.000033,5,exact,C
-20260511_010850,multistep_reasoning,15,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,99,2,0.000009,5,exact,B
-20260511_010850,multistep_reasoning,16,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,101,2,0.000009,0,exact,B
-20260511_010850,multistep_reasoning,17,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,93,2,0.000009,5,exact,A
-20260511_010850,multistep_reasoning,18,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,124,500,0.000056,0,exact,
-20260511_010850,multistep_reasoning,19,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,107,288,0.000036,5,exact,D
-20260511_010850,multistep_reasoning,20,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,132,2,0.000012,5,exact,A
-20260511_010850,multistep_reasoning,21,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,217,500,0.000065,0,exact,
-20260511_010850,multistep_reasoning,22,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,90,500,0.000053,0,exact,
-20260511_010850,multistep_reasoning,23,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,108,276,0.000035,5,exact,Hello! How can I assist you today?
-20260511_010850,multistep_reasoning,24,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,98,319,0.000038,5,exact,D
-20260511_010850,multistep_reasoning,25,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,96,321,0.000038,5,exact,D
-20260511_010850,multistep_reasoning,26,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,77,444,0.000047,5,exact,C
-20260511_010850,multistep_reasoning,27,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,78,500,0.000052,0,exact,
-20260511_010850,multistep_reasoning,28,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,118,500,0.000056,5,exact,"We need to answer a multiple-choice question about solutions. The question: ""Mr. Fernandez's class i"
-20260511_010850,multistep_reasoning,29,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,151,2,0.000014,5,exact,A
-20260511_010850,multistep_reasoning,30,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,101,488,0.000053,0,exact,Hello!
-20260511_010850,multistep_reasoning,31,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,78,2,0.000007,5,exact,B
-20260511_010850,multistep_reasoning,32,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,99,500,0.000054,5,exact,"We need to answer a multiple-choice question: ""Which statement best describes a property of water?"" "
-20260511_010850,multistep_reasoning,33,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,98,325,0.000038,5,exact,D
-20260511_010850,multistep_reasoning,34,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,128,500,0.000057,0,exact,
-20260511_010850,multistep_reasoning,35,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,201,500,0.000063,5,exact,"We need to answer a multiple-choice question about the universal systems model. The question: ""A col"
-20260511_010850,multistep_reasoning,36,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,118,2,0.000011,5,exact,C
-20260511_010850,multistep_reasoning,37,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,97,2,0.000009,5,exact,A
-20260511_010850,multistep_reasoning,38,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,107,2,0.000010,5,exact,B
-20260511_010850,multistep_reasoning,39,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,73,2,0.000007,5,exact,D
-20260511_010850,multistep_reasoning,40,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,79,2,0.000007,5,exact,B
-20260511_010850,multistep_reasoning,41,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,146,2,0.000013,5,exact,A
-20260511_010850,multistep_reasoning,42,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,133,2,0.000012,5,exact,C
-20260511_010850,multistep_reasoning,43,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,79,2,0.000007,5,exact,D
-20260511_010850,multistep_reasoning,44,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,118,500,0.000056,5,exact,"We need to answer a multiple-choice question: ""Some non-native plants can adapt to their environment"
-20260511_010850,multistep_reasoning,45,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,90,315,0.000036,5,exact,C
-20260511_010850,multistep_reasoning,46,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,123,500,0.000056,0,exact,
-20260511_010850,multistep_reasoning,47,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,153,2,0.000014,5,exact,A
-20260511_010850,multistep_reasoning,48,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,139,256,0.000036,5,exact,C
-20260511_010850,multistep_reasoning,49,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,108,255,0.000033,5,exact,"Controlling pollution from cars reduces harmful emissions, which improves air quality and thus helps"
-20260511_010850,multistep_reasoning,0,qwen/qwen3.6-plus,openrouter,0.325,1.3,104,554,0.000754,5,exact,The shelves are installed in a small room where floor space is limited. By placing them above the wa
-20260511_010850,multistep_reasoning,1,qwen/qwen3.6-plus,openrouter,0.325,1.3,109,456,0.000628,5,exact,C
-20260511_010850,multistep_reasoning,2,qwen/qwen3.6-plus,openrouter,0.325,1.3,143,614,0.000845,5,exact,A
-20260511_010850,multistep_reasoning,3,qwen/qwen3.6-plus,openrouter,0.325,1.3,150,782,0.001065,5,exact,B
-20260511_010850,multistep_reasoning,4,qwen/qwen3.6-plus,openrouter,0.325,1.3,73,683,0.000912,5,exact,Gravity is a force that attracts objects with mass towards each other. Magnetism is a force that att
-20260511_010850,multistep_reasoning,5,qwen/qwen3.6-plus,openrouter,0.325,1.3,107,725,0.000977,5,exact,C
-20260511_010850,multistep_reasoning,6,qwen/qwen3.6-plus,openrouter,0.325,1.3,101,1116,0.001484,5,exact,"When a wooden log burns, it undergoes a chemical reaction called combustion. According to the law of"
-20260511_010850,multistep_reasoning,7,qwen/qwen3.6-plus,openrouter,0.325,1.3,79,1462,0.001926,5,exact,"An exothermic reaction is a chemical process that releases energy, typically in the form of heat or "
-20260511_010850,multistep_reasoning,9,qwen/qwen3.6-plus,openrouter,0.325,1.3,149,550,0.000763,5,exact,D
-20260511_010850,multistep_reasoning,10,qwen/qwen3.6-plus,openrouter,0.325,1.3,98,525,0.000714,5,exact,A
-20260511_010850,multistep_reasoning,11,qwen/qwen3.6-plus,openrouter,0.325,1.3,87,450,0.000613,5,exact,B
-20260511_010850,multistep_reasoning,12,qwen/qwen3.6-plus,openrouter,0.325,1.3,86,576,0.000777,5,exact,A
-20260511_010850,multistep_reasoning,13,qwen/qwen3.6-plus,openrouter,0.325,1.3,125,773,0.001046,5,exact,"To determine the best way for Jake and Molly to compare their results, let's analyze the options:  *"
-20260511_010850,multistep_reasoning,14,qwen/qwen3.6-plus,openrouter,0.325,1.3,105,960,0.001282,5,exact,"To determine which factor makes a design activity more valid, let's analyze the options based on sci"
-20260511_010850,multistep_reasoning,15,qwen/qwen3.6-plus,openrouter,0.325,1.3,108,870,0.001166,5,exact,The correct answer is **B**.  Here is the step-by-step breakdown: 1.  **Analyze Option A:** Plants p
-20260511_010850,multistep_reasoning,16,qwen/qwen3.6-plus,openrouter,0.325,1.3,106,942,0.001259,5,exact,The surface of Europa is covered with a network of dark streaks and ridges known as *lineae*. These 
-20260511_010850,multistep_reasoning,17,qwen/qwen3.6-plus,openrouter,0.325,1.3,101,697,0.000939,5,exact,A
-20260511_010850,multistep_reasoning,18,qwen/qwen3.6-plus,openrouter,0.325,1.3,121,1316,0.001750,5,exact,Tadpoles are aquatic larvae that require water to survive. Metamorphosis is the developmental proces
-20260511_010850,multistep_reasoning,19,qwen/qwen3.6-plus,openrouter,0.325,1.3,106,346,0.000484,5,exact,D
-20260511_010850,multistep_reasoning,20,qwen/qwen3.6-plus,openrouter,0.325,1.3,141,1367,0.001823,5,exact,Step 1: Understand the definition of a trade-off in the design process: it occurs when improving or 
-20260511_010850,multistep_reasoning,21,qwen/qwen3.6-plus,openrouter,0.325,1.3,217,1221,0.001658,5,exact,The correct answer is **B**.  **Step-by-step reasoning:** 1.  **Analyze the Experiment:** The scient
-20260511_010850,multistep_reasoning,22,qwen/qwen3.6-plus,openrouter,0.325,1.3,85,1150,0.001523,5,exact,Ferns are non-flowering vascular plants that reproduce via spores. A key requirement for their life 
-20260511_010850,multistep_reasoning,23,qwen/qwen3.6-plus,openrouter,0.325,1.3,107,1400,0.001855,5,exact,"To determine the correct order, consider the standard steps of the scientific method: 1. **Preparati"
-20260511_010850,multistep_reasoning,24,qwen/qwen3.6-plus,openrouter,0.325,1.3,94,1001,0.001332,5,exact,Here is the step-by-step reasoning:  1.  **Analyze the initial categorization:** The rock is identif
-20260511_010850,multistep_reasoning,25,qwen/qwen3.6-plus,openrouter,0.325,1.3,96,1185,0.001572,5,exact,Let's evaluate each option based on the biological life cycle of an apple tree:  1. **A) Eggs grow f
-20260511_010850,multistep_reasoning,26,qwen/qwen3.6-plus,openrouter,0.325,1.3,75,211,0.000299,5,exact,C
-20260511_010850,multistep_reasoning,28,qwen/qwen3.6-plus,openrouter,0.325,1.3,118,822,0.001107,5,exact,"A solution is defined scientifically as a homogeneous mixture composed of two or more substances. ""H"
-20260511_010850,multistep_reasoning,29,qwen/qwen3.6-plus,openrouter,0.325,1.3,160,808,0.001102,5,exact,The process of cellular respiration can be summarized by the chemical equation: $$C_6H_{12}O_6 (\tex
-20260511_010850,multistep_reasoning,30,qwen/qwen3.6-plus,openrouter,0.325,1.3,97,1512,0.001997,5,exact,"To determine the best graph, we must analyze the type of data and the specific goal of the visualiza"
-20260511_010850,multistep_reasoning,31,qwen/qwen3.6-plus,openrouter,0.325,1.3,83,964,0.001280,5,exact,"To determine the correct answer, we must distinguish between inherited (genetic) traits and learned "
-20260511_010850,multistep_reasoning,32,qwen/qwen3.6-plus,openrouter,0.325,1.3,97,487,0.000665,5,exact,B
-20260511_010850,multistep_reasoning,33,qwen/qwen3.6-plus,openrouter,0.325,1.3,98,1046,0.001392,5,exact,"To determine the composition of an unknown substance, a student needs to investigate its characteris"
-20260511_010850,multistep_reasoning,36,qwen/qwen3.6-plus,openrouter,0.325,1.3,131,1551,0.002059,5,exact,"To find the momentum of the baseball, we use the formula for linear momentum:  $$p = m \times v$$  w"
-20260511_010850,multistep_reasoning,37,qwen/qwen3.6-plus,openrouter,0.325,1.3,102,1418,0.001877,5,exact,"To determine the best material, we need to evaluate the physical properties of each option, specific"
-20260511_010850,multistep_reasoning,38,qwen/qwen3.6-plus,openrouter,0.325,1.3,113,839,0.001127,5,exact,"Newton's second law of motion is expressed by the formula $F = ma$, where $F$ is the net force, $m$ "
-20260511_010850,multistep_reasoning,39,qwen/qwen3.6-plus,openrouter,0.325,1.3,81,945,0.001255,5,exact,"To determine which particle loss results in the least amount of mass lost, we need to compare the ma"
-20260511_010850,multistep_reasoning,40,qwen/qwen3.6-plus,openrouter,0.325,1.3,84,1002,0.001330,5,exact,"To determine the correct piece of equipment, we need to identify which tool is designed to measure t"
-20260511_010850,multistep_reasoning,41,qwen/qwen3.6-plus,openrouter,0.325,1.3,155,1616,0.002151,5,exact,Step 1: Identify the initial ecological relationship. The insects served as a primary food source fo
-20260511_010850,multistep_reasoning,42,qwen/qwen3.6-plus,openrouter,0.325,1.3,142,1307,0.001745,5,exact,Step 1: Identify the key property of ocean water relevant to agriculture. Ocean water has a very hig
-20260511_010850,multistep_reasoning,43,qwen/qwen3.6-plus,openrouter,0.325,1.3,87,447,0.000609,5,exact,D
-20260511_010850,multistep_reasoning,44,qwen/qwen3.6-plus,openrouter,0.325,1.3,114,690,0.000934,5,exact,"To determine which adaptation would decrease a plant's ability to survive, let's analyze each option"
-20260511_010850,multistep_reasoning,45,qwen/qwen3.6-plus,openrouter,0.325,1.3,89,1446,0.001909,5,exact,"Fertilizers are rich in essential plant nutrients, particularly nitrogen and phosphorus. When agricu"
-20260511_010850,multistep_reasoning,46,qwen/qwen3.6-plus,openrouter,0.325,1.3,125,1303,0.001735,5,exact,Here is the step-by-step analysis to determine the correct answer:  1.  **Analyze the Observation:**
-20260511_010850,multistep_reasoning,48,qwen/qwen3.6-plus,openrouter,0.325,1.3,138,451,0.000631,5,exact,C
-20260511_010850,multistep_reasoning,49,qwen/qwen3.6-plus,openrouter,0.325,1.3,107,422,0.000583,5,exact,A
