@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "sentiment_sst2",
   "case": 32,
-  "response": "We need to classify sentiment of the given text. The text: \"uses sharp humor and insight into",
-  "score": 0,
-  "cost": 8.37e-06,
+  "response": "positive",
+  "score": 5,
+  "cost": 1.2869999999999999e-05,
   "expected": "positive",
   "tokens": {
     "input": 73,
-    "output": 20
+    "output": 70
   }
 }

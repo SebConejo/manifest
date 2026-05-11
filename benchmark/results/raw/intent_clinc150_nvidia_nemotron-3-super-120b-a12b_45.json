@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "intent_clinc150",
   "case": 45,
-  "response": "We need to classify the user message into exactly one intent from the list. The message: \"can",
-  "score": 0,
-  "cost": 5.327999999999999e-05,
+  "response": "accept_reservations",
+  "score": 5,
+  "cost": 4.5719999999999996e-05,
   "expected": "accept_reservations",
   "tokens": {
-    "input": 572,
-    "output": 20
+    "input": 504,
+    "output": 4
   }
 }

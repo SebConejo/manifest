@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "sentiment_sst2",
   "case": 33,
-  "response": "We need to classify sentiment of the given text: \"instead of hiding pinocchio from critics , mir",
-  "score": 0,
-  "cost": 7.739999999999999e-06,
+  "response": "negative",
+  "score": 5,
+  "cost": 5.22e-06,
   "expected": "negative",
   "tokens": {
-    "input": 66,
-    "output": 20
+    "input": 56,
+    "output": 2
   }
 }

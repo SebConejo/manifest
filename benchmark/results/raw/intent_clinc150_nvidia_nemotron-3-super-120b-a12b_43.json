@@ -1,0 +1,13 @@
+{
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "task": "intent_clinc150",
+  "case": 43,
+  "response": "book_flight",
+  "score": 5,
+  "cost": 7.775999999999999e-05,
+  "expected": "book_flight",
+  "tokens": {
+    "input": 581,
+    "output": 283
+  }
+}

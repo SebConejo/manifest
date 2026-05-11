@@ -1,0 +1,13 @@
+{
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "task": "moderation_toxigen",
+  "case": 4,
+  "response": "toxic",
+  "score": 5,
+  "cost": 5.310000000000001e-06,
+  "expected": "toxic",
+  "tokens": {
+    "input": 56,
+    "output": 3
+  }
+}

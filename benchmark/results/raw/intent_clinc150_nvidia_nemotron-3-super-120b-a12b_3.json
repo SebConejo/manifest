@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "intent_clinc150",
   "case": 3,
-  "response": "We need to classify the user message \"should i call a car maintenance\" into one of the int",
-  "score": 0,
-  "cost": 5.2919999999999995e-05,
+  "response": "schedule_maintenance",
+  "score": 5,
+  "cost": 4.5449999999999993e-05,
   "expected": "schedule_maintenance",
   "tokens": {
-    "input": 568,
-    "output": 20
+    "input": 501,
+    "output": 4
   }
 }

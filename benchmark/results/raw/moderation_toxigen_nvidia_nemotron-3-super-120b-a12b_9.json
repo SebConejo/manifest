@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "moderation_toxigen",
   "case": 9,
-  "response": "We need to decide if the text contains toxic, hateful, or harmful content. The text:",
+  "response": "toxic",
   "score": 5,
-  "cost": 7.92e-06,
+  "cost": 5.4e-06,
   "expected": "toxic",
   "tokens": {
-    "input": 68,
-    "output": 20
+    "input": 57,
+    "output": 3
   }
 }

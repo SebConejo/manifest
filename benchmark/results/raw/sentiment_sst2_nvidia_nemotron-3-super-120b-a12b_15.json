@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "sentiment_sst2",
   "case": 15,
-  "response": "We need to classify sentiment as positive or negative. The text: \"of course , by more objective",
+  "response": "negative? The text: \"of course , by more? The user wants exactly one of: positive or negative? The text: \"of course , by more objective measurements it 's still quite bad .\"\n\nWe need to decide if sentiment is positive or negative. The phrase \"still quite bad\" indicates negative sentiment. So answer: negative.\n\nWe must output only the label.\n\n\n\nnegative",
   "score": 5,
-  "cost": 7.38e-06,
+  "cost": 1.782e-05,
   "expected": "negative",
   "tokens": {
     "input": 62,
-    "output": 20
+    "output": 136
   }
 }

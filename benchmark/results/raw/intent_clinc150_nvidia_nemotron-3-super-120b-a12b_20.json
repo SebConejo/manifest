@@ -1,0 +1,13 @@
+{
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "task": "intent_clinc150",
+  "case": 20,
+  "response": "vaccines",
+  "score": 5,
+  "cost": 5.823e-05,
+  "expected": "vaccines",
+  "tokens": {
+    "input": 573,
+    "output": 74
+  }
+}

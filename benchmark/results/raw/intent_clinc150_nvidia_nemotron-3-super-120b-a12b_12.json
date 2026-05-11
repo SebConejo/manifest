@@ -2,12 +2,12 @@
   "model": "nvidia/nemotron-3-super-120b-a12b",
   "task": "intent_clinc150",
   "case": 12,
-  "response": "We need to map the user message \"how do i do an oil change\" to one of the",
-  "score": 0,
-  "cost": 5.3009999999999996e-05,
+  "response": "oil_change_how",
+  "score": 5,
+  "cost": 4.563e-05,
   "expected": "oil_change_how",
   "tokens": {
-    "input": 569,
-    "output": 20
+    "input": 502,
+    "output": 5
   }
 }

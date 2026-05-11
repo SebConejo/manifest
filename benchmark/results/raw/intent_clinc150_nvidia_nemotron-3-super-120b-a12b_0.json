@@ -1,0 +1,13 @@
+{
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "task": "intent_clinc150",
+  "case": 0,
+  "response": "rollover_401k",
+  "score": 5,
+  "cost": 6.174e-05,
+  "expected": "rollover_401k",
+  "tokens": {
+    "input": 575,
+    "output": 111
+  }
+}

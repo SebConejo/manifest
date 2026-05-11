@@ -1,0 +1,13 @@
+{
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "task": "intent_clinc150",
+  "case": 17,
+  "response": "remind",
+  "score": 0,
+  "cost": 7.371000000000001e-05,
+  "expected": "reminder",
+  "tokens": {
+    "input": 569,
+    "output": 250
+  }
+}

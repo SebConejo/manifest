@@ -21262,28 +21262,56 @@ timestamp,task,case_idx,model,provider,input_price_per_m,output_price_per_m,inpu
 20260428_011340,intent_clinc150,47,mistral-small-latest,mistral,0.1,0.3,574,4,5.860000000000001e-05,5,exact,cook_time
 20260428_011340,intent_clinc150,48,mistral-small-latest,mistral,0.1,0.3,570,3,5.79e-05,5,exact,application_status
 20260428_011341,intent_clinc150,49,mistral-small-latest,mistral,0.1,0.3,571,3,5.8e-05,0,exact,exchange_rate
-20260511_010514,intent_clinc150,1,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,572,20,5.327999999999999e-05,0,exact,"We need to classify the user message into exactly one intent from the list. The message: ""can"
-20260511_010514,intent_clinc150,2,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,572,20,5.327999999999999e-05,0,exact,"We need to map the user message to one of the intents. The message: ""what is"
-20260511_010515,intent_clinc150,3,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,568,20,5.2919999999999995e-05,0,exact,"We need to classify the user message ""should i call a car maintenance"" into one of the int"
-20260511_010517,intent_clinc150,5,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,573,20,5.337e-05,0,exact,"We need to classify the user message into exactly one intent from the list. The message: ""what"
+20260511_081850,intent_clinc150,0,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,575,111,6.174e-05,5,exact,rollover_401k
+20260511_081852,intent_clinc150,1,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,504,3,4.563e-05,5,exact,find_phone
+20260511_081856,intent_clinc150,2,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,572,72,5.7959999999999994e-05,5,exact,report_lost_card
+20260511_081858,intent_clinc150,3,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,501,4,4.5449999999999993e-05,5,exact,schedule_maintenance
+20260511_081900,intent_clinc150,4,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,508,2,4.59e-05,5,exact,uber
+20260511_081905,intent_clinc150,5,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,573,97,6.0299999999999995e-05,5,exact,restaurant_suggestion
+20260511_081908,intent_clinc150,6,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,575,44,5.571e-05,5,exact,confirm_reservation
+20260511_081910,intent_clinc150,7,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,504,4,4.5719999999999996e-05,5,exact,change_ai_name
 20260511_010526,intent_clinc150,8,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,566,20,5.273999999999999e-05,0,exact,"We need to classify the message ""i am not sure"". The list includes intents like ""no"
-20260511_010526,intent_clinc150,9,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,570,20,5.3099999999999996e-05,5,exact,"We need to classify the user message: ""what is the weather doing in austin"". The int"
-20260511_010527,intent_clinc150,11,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,569,20,5.3009999999999996e-05,0,exact,"We need to classify the user message: ""is there a travel alert for france"". The intents"
-20260511_010528,intent_clinc150,12,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,569,20,5.3009999999999996e-05,0,exact,"We need to map the user message ""how do i do an oil change"" to one of the"
-20260511_010537,intent_clinc150,16,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,575,20,5.3549999999999994e-05,0,exact,"We need to classify the user message: ""i am in need of new checks i'm completely out"
-20260511_010543,intent_clinc150,21,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,568,20,5.2919999999999995e-05,0,exact,"We need to classify the user message into exactly one intent from the list. The message: ""can"
-20260511_010547,intent_clinc150,27,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,578,20,5.3819999999999996e-05,5,exact,"We need to classify the user message: ""i need to know what the current apr is for my"
-20260511_010554,intent_clinc150,29,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,567,20,5.283e-05,0,exact,"We need to classify the user message ""how do you make pasta"" into one of the intents"
-20260511_010555,intent_clinc150,30,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,568,20,5.2919999999999995e-05,0,exact,"We need to classify the user message into exactly one intent from the list. The message: ""what"
-20260511_010555,intent_clinc150,31,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,571,20,5.319e-05,0,exact,"We need to classify the user message into exactly one intent from the list. The message: ""would"
-20260511_010557,intent_clinc150,33,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,573,20,5.337e-05,0,exact,"We need to classify the user message into exactly one intent from the list. The message: ""how"
-20260511_010557,intent_clinc150,34,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,579,20,5.391e-05,0,exact,"We need to classify the user message into exactly one intent from the list.  Message: ""what is"
-20260511_010600,intent_clinc150,37,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,572,20,5.327999999999999e-05,5,exact,"We need to classify the user message: ""find out when my next upcoming payday will be""."
-20260511_010602,intent_clinc150,40,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,570,20,5.3099999999999996e-05,5,exact,"We need to classify the user message: ""i need to know my cars mpg"". The intent"
-20260511_010605,intent_clinc150,42,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,566,20,5.273999999999999e-05,0,exact,"We need to classify the message ""start the next song"". Look at intents list: there is"
-20260511_010622,intent_clinc150,45,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,572,20,5.327999999999999e-05,0,exact,"We need to classify the user message into exactly one intent from the list. The message: ""can"
-20260511_010628,intent_clinc150,48,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,571,20,5.319e-05,0,exact,We need to see if I follow simple instructions. Or maybe they're testing if I'll follow instructions
-20260511_010629,intent_clinc150,49,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,572,20,5.327999999999999e-05,0,exact,We need to see if I follow instructions precisely. Or maybe they're feeling lonely and want a simple
+20260511_081943,intent_clinc150,9,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,570,54,5.616e-05,5,exact,weather
+20260511_081946,intent_clinc150,10,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,501,3,4.536e-05,5,exact,pto_request
+20260511_081947,intent_clinc150,11,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,502,3,4.545e-05,5,exact,travel_alert
+20260511_081949,intent_clinc150,12,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,502,5,4.563e-05,5,exact,oil_change_how
+20260511_081951,intent_clinc150,13,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,501,3,4.536e-05,5,exact,nutrition_info
+20260511_081954,intent_clinc150,14,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,567,54,5.589e-05,5,exact,date
+20260511_081956,intent_clinc150,15,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,505,3,4.5719999999999996e-05,5,exact,share_location
+20260511_081959,intent_clinc150,16,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,575,64,5.7509999999999997e-05,5,exact,order_checks
+20260511_082001,intent_clinc150,17,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,569,250,7.371000000000001e-05,0,exact,remind
+20260511_082002,intent_clinc150,18,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,500,3,4.5270000000000005e-05,5,exact,current_location
+20260511_082004,intent_clinc150,19,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,500,2,4.518e-05,5,exact,calendar
+20260511_082009,intent_clinc150,20,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,573,74,5.823e-05,5,exact,vaccines
+20260511_082019,intent_clinc150,21,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,501,3,4.536e-05,0,exact,ingredients_list
+20260511_082023,intent_clinc150,22,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,573,67,5.7600000000000004e-05,5,exact,transfer
+20260511_082025,intent_clinc150,23,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,504,3,4.563e-05,0,exact,freeze_account
+20260511_082033,intent_clinc150,24,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,577,163,6.659999999999999e-05,5,exact,report_fraud
+20260511_082035,intent_clinc150,25,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,569,117,6.174e-05,5,exact,shopping_list_update
+20260511_082040,intent_clinc150,26,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,499,3,4.518e-05,5,exact,change_volume
+20260511_082052,intent_clinc150,27,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,511,2,4.616999999999999e-05,5,exact,apr
+20260511_082053,intent_clinc150,28,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,566,33,5.391e-05,5,exact,repeat
+20260511_082054,intent_clinc150,29,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,567,78,5.8049999999999995e-05,5,exact,recipe
+20260511_082058,intent_clinc150,30,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,501,5,4.554e-05,5,exact,where_are_you_from
+20260511_082059,intent_clinc150,31,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,571,62,5.697e-05,5,exact,freeze_account
+20260511_082101,intent_clinc150,32,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,572,138,6.39e-05,5,exact,shopping_list
+20260511_082102,intent_clinc150,33,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,573,72,5.8049999999999995e-05,5,exact,direct_deposit
+20260511_082104,intent_clinc150,34,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,512,4,4.6439999999999996e-05,5,exact,replacement_card_duration
+20260511_082106,intent_clinc150,35,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,574,70,5.7959999999999994e-05,5,exact,change_language
+20260511_082108,intent_clinc150,36,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,503,2,4.5449999999999993e-05,5,exact,insurance
+20260511_082109,intent_clinc150,37,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,572,39,5.4989999999999994e-05,5,exact,payday
+20260511_082111,intent_clinc150,38,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,570,168,6.642e-05,5,exact,oil_change_when
+20260511_082112,intent_clinc150,39,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,569,61,5.67e-05,5,exact,how_old_are_you
+20260511_082113,intent_clinc150,40,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,502,3,4.545e-05,5,exact,mpg
+20260511_082120,intent_clinc150,41,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,567,922,0.00013401,0,exact,Hello! How can I assist you today?
+20260511_082121,intent_clinc150,42,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,566,68,5.705999999999999e-05,5,exact,next_song
+20260511_082124,intent_clinc150,43,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,581,283,7.775999999999999e-05,5,exact,book_flight
+20260511_082125,intent_clinc150,44,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,573,87,5.94e-05,5,exact,insurance_change
+20260511_082138,intent_clinc150,45,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,504,4,4.5719999999999996e-05,5,exact,accept_reservations
+20260511_082140,intent_clinc150,46,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,576,278,7.686e-05,0,exact,Hello! How can I assist you today?
+20260511_082142,intent_clinc150,47,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,575,188,6.867e-05,0,exact,greeting
+20260511_082143,intent_clinc150,48,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,571,64,5.715e-05,5,exact,application_status
+20260511_082147,intent_clinc150,49,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,504,4,4.5719999999999996e-05,5,exact,international_visa
 20260504_083053,intent_clinc150,0,o3,openai,2.0,8.0,514,23,0.001212,5,exact,rollover_401k
 20260504_083054,intent_clinc150,1,o3,openai,2.0,8.0,512,20,0.001184,5,exact,find_phone
 20260504_083057,intent_clinc150,2,o3,openai,2.0,8.0,513,22,0.001202,5,exact,report_lost_card
@@ -28861,24 +28889,56 @@ timestamp,task,case_idx,model,provider,input_price_per_m,output_price_per_m,inpu
 20260428_173336,moderation_toxigen,47,mistral-small-latest,mistral,0.1,0.3,55,2,6.1e-06,0,exact,safe
 20260428_173337,moderation_toxigen,48,mistral-small-latest,mistral,0.1,0.3,64,3,7.3e-06,5,exact,toxic
 20260428_173338,moderation_toxigen,49,mistral-small-latest,mistral,0.1,0.3,73,3,8.200000000000001e-06,5,exact,toxic
-20260511_010632,moderation_toxigen,2,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,63,20,7.47e-06,5,exact,"We need to decide if the text is toxic/hateful/harmful. The text: """
-20260511_010635,moderation_toxigen,5,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,62,20,7.38e-06,0,exact,"We need to classify if the text contains toxic, hateful, or harmful content. The text:"
-20260511_010637,moderation_toxigen,7,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,73,20,8.37e-06,5,exact,"We need to classify if text contains toxic, hateful, or harmful content. The text: """
-20260511_010639,moderation_toxigen,9,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,68,20,7.92e-06,5,exact,"We need to decide if the text contains toxic, hateful, or harmful content. The text:"
-20260511_010640,moderation_toxigen,11,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,62,20,7.38e-06,5,exact,"We need to decide if the text is toxic/hateful/harmful. The text: """
-20260511_010643,moderation_toxigen,14,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,64,20,7.56e-06,5,exact,"We need to decide if the text is toxic/hateful/harmful. The statement: """
-20260511_010657,moderation_toxigen,19,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,61,20,7.29e-06,0,exact,"We need to classify if text contains toxic, hateful, or harmful content. The text: """
-20260511_010658,moderation_toxigen,20,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,71,20,8.19e-06,0,exact,"We need to decide if the text is toxic/hateful/harmful. The text: """
-20260511_010700,moderation_toxigen,23,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,75,20,8.550000000000001e-06,0,exact,"We need to classify if text contains toxic, hateful, or harmful content. The text: """
-20260511_010707,moderation_toxigen,26,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,73,20,8.37e-06,0,exact,"We need to decide if the text is toxic/hateful/harmful. The text: """
-20260511_010707,moderation_toxigen,27,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,63,20,7.47e-06,5,exact,"We need to decide if the text is toxic/hateful/harmful. The text: """
-20260511_010730,moderation_toxigen,31,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,65,20,7.65e-06,5,exact,"We need to decide if the text is toxic/hateful/harmful. The text: """
-20260511_010743,moderation_toxigen,35,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,52,20,6.48e-06,0,exact,"We need to decide if the text ""my daughter can't speak!"" is toxic, hateful,"
-20260511_010745,moderation_toxigen,37,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,87,20,9.63e-06,5,exact,"We need to decide if the text is toxic/hateful/harmful. The text: """
-20260511_010747,moderation_toxigen,39,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,78,20,8.82e-06,5,exact,"We need to classify if text contains toxic, hateful, or harmful content. The text: """
-20260511_010748,moderation_toxigen,40,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,61,20,7.29e-06,5,exact,"We need to decide if the text is toxic/hateful/harmful. The text: """
-20260511_010750,moderation_toxigen,43,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,77,20,8.730000000000001e-06,0,exact,"We need to classify if text contains toxic, hateful, or harmful content. The text: """
-20260511_010753,moderation_toxigen,47,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,56,20,6.84e-06,5,exact,"We need to decide if the text is toxic/hateful/harmful. The statement: """
+20260511_082148,moderation_toxigen,0,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,66,68,1.2059999999999998e-05,5,exact,safe
+20260511_082149,moderation_toxigen,1,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,63,65,1.152e-05,5,exact,safe
+20260511_082205,moderation_toxigen,2,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,63,518,5.229e-05,0,exact,safe
+20260511_082208,moderation_toxigen,3,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,113,3,1.044e-05,5,exact,toxic
+20260511_082209,moderation_toxigen,4,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,56,3,5.310000000000001e-06,5,exact,toxic
+20260511_082211,moderation_toxigen,5,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,51,2,4.769999999999999e-06,5,exact,safe
+20260511_082213,moderation_toxigen,6,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,49,3,4.68e-06,5,exact,toxic
+20260511_082216,moderation_toxigen,7,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,73,482,4.9949999999999994e-05,5,exact,toxic
+20260511_082218,moderation_toxigen,8,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,75,221,2.664e-05,0,exact,safe
+20260511_082220,moderation_toxigen,9,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,57,3,5.4e-06,5,exact,toxic
+20260511_082221,moderation_toxigen,10,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,42,3,4.05e-06,5,exact,toxic
+20260511_082223,moderation_toxigen,11,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,51,3,4.859999999999999e-06,5,exact,toxic
+20260511_082226,moderation_toxigen,12,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,78,359,3.933e-05,5,exact,safe
+20260511_082227,moderation_toxigen,13,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,54,2,5.039999999999999e-06,5,exact,safe
+20260511_082238,moderation_toxigen,14,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,64,97,1.449e-05,5,exact,toxic
+20260511_082240,moderation_toxigen,15,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,52,2,4.859999999999999e-06,5,exact,safe
+20260511_082241,moderation_toxigen,16,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,65,76,1.2689999999999999e-05,5,exact,safe
+20260511_082242,moderation_toxigen,17,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,52,2,4.859999999999999e-06,5,exact,safe
+20260511_082243,moderation_toxigen,18,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,77,92,1.5209999999999998e-05,5,exact,safe
+20260511_082244,moderation_toxigen,19,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,61,48,9.810000000000001e-06,5,exact,safe
+20260511_082247,moderation_toxigen,20,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,60,2,5.579999999999999e-06,5,exact,safe
+20260511_082249,moderation_toxigen,21,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,51,3,4.859999999999999e-06,5,exact,toxic
+20260511_082253,moderation_toxigen,22,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,65,3,6.119999999999999e-06,5,exact,toxic
+20260511_082254,moderation_toxigen,23,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,64,2,5.94e-06,5,exact,safe
+20260511_082256,moderation_toxigen,24,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,73,88,1.4489999999999998e-05,5,exact,safe
+20260511_082259,moderation_toxigen,25,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,58,2,5.399999999999999e-06,5,exact,safe
+20260511_082301,moderation_toxigen,26,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,73,411,4.356e-05,5,exact,safe
+20260511_082303,moderation_toxigen,27,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,63,218,2.529e-05,5,exact,toxic
+20260511_082306,moderation_toxigen,28,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,75,89,1.476e-05,5,exact,safe
+20260511_082309,moderation_toxigen,29,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,66,402,4.2119999999999997e-05,0,exact,safe
+20260511_082320,moderation_toxigen,30,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,66,72,1.2419999999999998e-05,5,exact,safe
+20260511_082322,moderation_toxigen,31,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,54,3,5.129999999999999e-06,5,exact,toxic
+20260511_082324,moderation_toxigen,32,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,57,2,5.31e-06,5,exact,safe
+20260511_082325,moderation_toxigen,33,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,49,3,4.68e-06,5,exact,toxic
+20260511_082327,moderation_toxigen,34,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,51,2,4.769999999999999e-06,5,exact,safe
+20260511_082327,moderation_toxigen,35,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,52,61,1.017e-05,5,exact,safe
+20260511_082328,moderation_toxigen,36,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,57,59,1.044e-05,5,exact,safe
+20260511_082330,moderation_toxigen,37,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,87,129,1.9439999999999997e-05,5,exact,toxic
+20260511_082331,moderation_toxigen,38,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,76,97,1.5570000000000002e-05,5,exact,toxic
+20260511_082333,moderation_toxigen,39,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,78,110,1.692e-05,5,exact,toxic
+20260511_082335,moderation_toxigen,40,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,50,3,4.769999999999999e-06,5,exact,toxic
+20260511_082337,moderation_toxigen,41,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,58,2,5.399999999999999e-06,5,exact,safe
+20260511_082339,moderation_toxigen,42,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,49,3,4.68e-06,5,exact,toxic
+20260511_082340,moderation_toxigen,43,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,65,2,6.029999999999999e-06,5,exact,safe
+20260511_082341,moderation_toxigen,44,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,57,2,5.31e-06,5,exact,safe
+20260511_082343,moderation_toxigen,45,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,60,269,2.961e-05,5,exact,toxic
+20260511_082346,moderation_toxigen,46,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,76,326,3.618e-05,5,exact,safe
+20260511_082358,moderation_toxigen,47,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,56,105,1.4489999999999998e-05,5,exact,toxic
+20260511_082358,moderation_toxigen,48,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,65,72,1.2329999999999999e-05,5,exact,toxic
+20260511_082400,moderation_toxigen,49,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,59,3,5.58e-06,5,exact,toxic
 20260504_121834,moderation_toxigen,0,o3,openai,2.0,8.0,51,83,0.000766,5,exact,safe
 20260504_121836,moderation_toxigen,1,o3,openai,2.0,8.0,51,19,0.000254,5,exact,safe
 20260504_121840,moderation_toxigen,2,o3,openai,2.0,8.0,50,339,0.002812,0,exact,safe
@@ -41422,32 +41482,56 @@ timestamp,task,case_idx,model,provider,input_price_per_m,output_price_per_m,inpu
 20260428_005204,sentiment_sst2,47,mistral-small-latest,mistral,0.1,0.3,76,2,8.200000000000001e-06,5,exact,negative
 20260428_005204,sentiment_sst2,48,mistral-small-latest,mistral,0.1,0.3,84,2,9e-06,5,exact,negative
 20260428_005205,sentiment_sst2,49,mistral-small-latest,mistral,0.1,0.3,85,2,9.1e-06,5,exact,positive
-20260511_010805,sentiment_sst2,1,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,80,20,9e-06,0,exact,"We need to classify sentiment. The text: ""... a story we have n't seen on the big"
-20260511_010806,sentiment_sst2,3,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,68,20,7.92e-06,0,exact,"We need to classify sentiment. The text: ""it 's great escapist fun that recreates"
-20260511_010807,sentiment_sst2,4,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,64,20,7.56e-06,0,exact,"We need to classify sentiment of the text: ""all that 's missing is the spontaneity"
-20260511_010810,sentiment_sst2,8,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,74,20,8.46e-06,0,exact,"We need to classify sentiment of the given text: ""it can not be enjoyed , even on the"
-20260511_010813,sentiment_sst2,12,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,74,20,8.46e-06,5,exact,"We need to classify sentiment as positive or negative. The text: ""as surreal as a dream and"
-20260511_010814,sentiment_sst2,13,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,56,20,6.84e-06,0,exact,"We need to classify sentiment of the text: ""slick piece of cross-promotion .""  Inter"
-20260511_010814,sentiment_sst2,14,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,75,20,8.550000000000001e-06,0,exact,"We need to classify sentiment: The sentence: ""neither parker nor donovan is a typical"
-20260511_010815,sentiment_sst2,15,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,62,20,7.38e-06,5,exact,"We need to classify sentiment as positive or negative. The text: ""of course , by more objective"
-20260511_010816,sentiment_sst2,16,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,61,20,7.29e-06,5,exact,"We need to classify sentiment as positive or negative. The text: ""the humor is forced and heavy"
-20260511_010816,sentiment_sst2,17,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,69,20,8.01e-06,5,exact,"We need to output either ""positive"" or ""negative"". The text: ""as the two leads"
-20260511_010818,sentiment_sst2,19,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,62,20,7.38e-06,0,exact,"We need to classify sentiment of the given text: ""puts a human face on a land most western"
-20260511_010821,sentiment_sst2,21,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,86,20,9.539999999999998e-06,0,exact,"We need to classify sentiment of the given text. The text: ""the fly-on-the-wall"
-20260511_010822,sentiment_sst2,22,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,78,20,8.82e-06,0,exact,"We need to classify sentiment of the given text: ""a literate presentation that wonderfully weaves"
-20260511_010825,sentiment_sst2,26,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,82,20,9.18e-06,5,exact,"We need to classify sentiment as positive or negative. The text: ""what 's surprising about full"
-20260511_010826,sentiment_sst2,27,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,82,20,9.18e-06,5,exact,negative
-20260511_010827,sentiment_sst2,29,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,85,20,9.45e-06,5,exact,negative
-20260511_010829,sentiment_sst2,31,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,58,20,7.02e-06,0,exact,"We need to classify sentiment of the text: ""why make a documentary about these marginal historical f"
-20260511_010829,sentiment_sst2,32,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,73,20,8.37e-06,0,exact,"We need to classify sentiment of the given text. The text: ""uses sharp humor and insight into"
-20260511_010830,sentiment_sst2,33,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,66,20,7.739999999999999e-06,0,exact,"We need to classify sentiment of the given text: ""instead of hiding pinocchio from critics , mir"
-20260511_010831,sentiment_sst2,35,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,70,20,8.1e-06,0,exact,"We need to classify sentiment of the given text: ""jaglom ... put ( s ) the"
-20260511_010842,sentiment_sst2,41,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,81,20,9.09e-06,5,exact,"We need to classify sentiment of the given text as either positive or negative. The text: ""that"
-20260511_010843,sentiment_sst2,42,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,66,20,7.739999999999999e-06,0,exact,"We need to classify sentiment of the given text: ""what better message than ` love thyself"
-20260511_010847,sentiment_sst2,46,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,79,20,8.91e-06,5,exact,"We need to classify sentiment of the given text as positive or negative. The text: ""the weight"
-20260511_010848,sentiment_sst2,47,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,77,20,8.730000000000001e-06,0,exact,"We need to classify sentiment: The text: ""there seems to be no clear path as to where"
-20260511_010848,sentiment_sst2,48,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,85,20,9.45e-06,0,exact,"We need to classify sentiment of the given text. The text: ""combining quick-cut editing and"
-20260511_010849,sentiment_sst2,49,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,86,20,9.539999999999998e-06,5,exact,"We need to classify sentiment as positive or negative. The text: ""thanks to scott 's"
+20260511_082402,sentiment_sst2,0,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,79,72,1.359e-05,5,exact,positive
+20260511_082403,sentiment_sst2,1,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,80,129,1.8809999999999998e-05,5,exact,positive
+20260511_082404,sentiment_sst2,2,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,64,51,1.035e-05,5,exact,negative
+20260511_082405,sentiment_sst2,3,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,58,2,5.399999999999999e-06,5,exact,positive
+20260511_082406,sentiment_sst2,4,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,54,2,5.039999999999999e-06,5,exact,negative
+20260511_082409,sentiment_sst2,5,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,54,2,5.039999999999999e-06,5,exact,negative
+20260511_082410,sentiment_sst2,6,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,60,39,8.91e-06,5,exact,negative
+20260511_082411,sentiment_sst2,7,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,58,2,5.399999999999999e-06,5,exact,positive
+20260511_082415,sentiment_sst2,8,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,63,2,5.85e-06,5,exact,negative
+20260511_082417,sentiment_sst2,9,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,71,2,6.57e-06,5,exact,negative
+20260511_082418,sentiment_sst2,10,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,56,2,5.22e-06,5,exact,negative
+20260511_082430,sentiment_sst2,11,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,61,145,1.854e-05,5,exact,negative
+20260511_082431,sentiment_sst2,12,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,64,2,5.94e-06,5,exact,positive
+20260511_082433,sentiment_sst2,13,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,56,70,1.134e-05,5,exact,positive
+20260511_082435,sentiment_sst2,14,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,75,192,2.4030000000000002e-05,5,exact,positive
+20260511_082436,sentiment_sst2,15,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,62,136,1.782e-05,5,exact,"negative? The text: ""of course , by more? The user wants exactly one of: positive or negative? The t"
+20260511_082439,sentiment_sst2,16,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,61,251,2.808e-05,5,exact,negative
+20260511_082440,sentiment_sst2,17,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,59,2,5.489999999999999e-06,5,exact,positive
+20260511_082442,sentiment_sst2,18,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,84,245,2.961e-05,5,exact,positive
+20260511_082443,sentiment_sst2,19,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,62,83,1.305e-05,5,exact,positive
+20260511_082445,sentiment_sst2,20,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,66,2,6.119999999999999e-06,5,exact,negative
+20260511_082446,sentiment_sst2,21,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,86,94,1.62e-05,5,exact,positive
+20260511_082448,sentiment_sst2,22,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,61,2,5.67e-06,5,exact,positive
+20260511_082450,sentiment_sst2,23,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,82,2,7.56e-06,5,exact,negative
+20260511_082450,sentiment_sst2,24,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,53,55,9.719999999999998e-06,5,exact,positive
+20260511_082452,sentiment_sst2,25,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,52,2,4.859999999999999e-06,5,exact,negative
+20260511_082454,sentiment_sst2,26,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,71,2,6.57e-06,5,exact,positive
+20260511_082456,sentiment_sst2,27,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,72,2,6.659999999999999e-06,5,exact,negative
+20260511_082457,sentiment_sst2,28,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,67,2,6.209999999999999e-06,5,exact,negative
+20260511_082458,sentiment_sst2,29,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,85,20,9.45e-06,5,exact,negative
+20260511_082500,sentiment_sst2,30,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,82,221,2.7269999999999998e-05,5,exact,negative
+20260511_082507,sentiment_sst2,31,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,48,2,4.5e-06,5,exact,negative
+20260511_082508,sentiment_sst2,32,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,73,70,1.2869999999999999e-05,5,exact,positive
+20260511_082510,sentiment_sst2,33,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,56,2,5.22e-06,5,exact,negative
+20260511_082511,sentiment_sst2,34,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,66,2,6.119999999999999e-06,5,exact,positive
+20260511_082512,sentiment_sst2,35,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,70,89,1.4309999999999999e-05,5,exact,positive
+20260511_082514,sentiment_sst2,36,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,44,2,4.139999999999999e-06,5,exact,negative
+20260511_082515,sentiment_sst2,37,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,76,117,1.7369999999999998e-05,5,exact,positive
+20260511_082516,sentiment_sst2,38,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,61,2,5.67e-06,5,exact,positive
+20260511_082518,sentiment_sst2,39,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,50,2,4.68e-06,5,exact,negative
+20260511_082519,sentiment_sst2,40,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,66,2,6.119999999999999e-06,5,exact,positive
+20260511_082520,sentiment_sst2,41,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,81,117,1.782e-05,5,exact,positive
+20260511_082523,sentiment_sst2,42,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,55,2,5.13e-06,5,exact,positive
+20260511_082524,sentiment_sst2,43,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,63,115,1.602e-05,5,exact,negative
+20260511_082525,sentiment_sst2,44,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,74,2,6.84e-06,5,exact,negative
+20260511_082527,sentiment_sst2,45,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,64,2,5.94e-06,5,exact,positive
+20260511_082529,sentiment_sst2,46,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,66,2,6.119999999999999e-06,5,exact,positive
+20260511_082531,sentiment_sst2,47,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,67,2,6.209999999999999e-06,5,exact,negative
+20260511_082532,sentiment_sst2,48,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,85,142,2.043e-05,5,exact,negative
+20260511_082533,sentiment_sst2,49,nvidia/nemotron-3-super-120b-a12b,openrouter,0.09,0.09,86,104,1.71e-05,5,exact,positive
 20260504_082349,sentiment_sst2,0,o3,openai,2.0,8.0,66,19,0.000284,5,exact,positive
 20260504_082351,sentiment_sst2,1,o3,openai,2.0,8.0,67,19,0.000286,5,exact,positive
 20260504_082353,sentiment_sst2,2,o3,openai,2.0,8.0,53,19,0.000258,5,exact,negative
