@@ -3,6 +3,23 @@
 **Date:** 2026-05-08
 **Status:** All .md files updated, reconciliation complete, investigations done.
 
+## Execution Complete (2026-05-12)
+
+All planned re-runs from sections 3-4 below have been executed:
+
+- **Category A (7 models):** All complete. Bug fixes (call_openai_responses error
+  handling, effective_max_tokens boost to 8192, REASONING_MODELS additions) applied
+  and all 7 models re-run to 21/21.
+- **Category B (7 models):** All complete. Gap filling for gpt-5.4 family,
+  deepseek-v4-flash, qwen3.6-plus, mistral-medium, gemini-2.5-pro.
+- **Mistral Large:** Completed 21/21 after 429 retry fix (exponential backoff).
+- **Nemotron:** Completed 21/21 after adding to REASONING_MODELS.
+- **o4-mini:** Completed 21/21 after token budget fix.
+- **gpt-5.5-pro:** Completed 21/21 after call_openai_responses error handling fix.
+
+**Final result:** 47 models complete (up from 35 at plan creation), 51,617 CSV rows,
+$143.81 tracked spend. Next action: analysis and paper.
+
 ---
 
 ## 1. Documentation Updates (DONE)

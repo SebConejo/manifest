@@ -2,7 +2,7 @@
 
 Persistent knowledge for future sessions. Read this file first.
 
-Last updated: 2026-05-08
+Last updated: 2026-05-12
 
 ---
 
@@ -158,9 +158,12 @@ truth**. The CSV is a derived artifact. When in doubt, rebuild from raw.
 
 ## 9. Budget
 
-Total spend as of 2026-05-10: **$123.01** (source: spend_tracker.json, 60,905 API calls).
-Hard cap: $250. Remaining budget: **$126.99**.
-*(Previous: $122.37 pre-mistral-fix, $99.29 pre-rerun, ~$92.60 mid-session estimate.)*
+Total spend as of 2026-05-12: **$143.81** (source: spend_tracker.json, 61,594 API calls).
+Hard cap: $250. Remaining budget: **$106.19**.
+Note: the spend tracker significantly underestimates real cost for reasoning models.
+Real OpenAI billing was ~$180+ due to reasoning tokens and wrong hardcoded prices
+(see section 16).
+*(Previous: $123.01/60,905 calls, $122.37 pre-mistral-fix, $99.29 pre-rerun, ~$92.60 mid-session estimate.)*
 
 ---
 
@@ -262,13 +265,64 @@ the 3 factual sources before starting new work.
 
 ---
 
-## 15. Current State (2026-05-08, post-phase 3)
+## 15. Current State (2026-05-12, final)
 
-- **51,403 rows** in CSV (rebuilt from raw JSON, empty+score0 excluded)
-- 0 judge-crash zeros remaining, 0 scores > 5 remaining, 0 empty-but-scored remaining
-- Rejudge phases: 1 (4,648) + 2 (620) + 3 (902) = 6,170 total entries, 0 errors
-- 57 models total: **43 complete** (21/21 tasks, ≥40 valid cases)
-- Total spend: **$123.01** (source: spend_tracker.json, 60,905 API calls)
-- All re-runs complete (Cat A + Cat B + mistral-large + anomaly fixes)
+- **51,617 rows** in CSV, 51,705 raw files
+- **47 models complete** (21/21 v2 tasks, ≥40 valid cases each)
+- 9 partial models (deepseek-v4-flash 20/21, gemini-2.0-flash 4/21, 7 Azure legacy doublons at 1/21)
+- 56 total models with data
+- 728 zeros in CSV, all legitimate
+- 0 judge-crash zeros remaining, 0 scores > 5, 0 empty-but-scored
+- Total spend: **$143.81** (source: spend_tracker.json, 61,594 API calls)
+- Real OpenAI spend: ~$180+ (reasoning tokens not tracked, see section 16)
+- All re-runs complete (Cat A + Cat B + mistral-large + nemotron + o4-mini + gpt-5.5-pro)
 - Next action: analysis and paper
-*(Previous states: 50,978/42 complete/$122.37, 50,351/35/$99.29, 50,346 initial.)*
+*(Previous states: 51,403/43/$123.01, 50,978/42/$122.37, 50,351/35/$99.29, 50,346 initial.)*
+
+---
+
+## 16. Reasoning Token Cost Blind Spot (critical)
+
+**What happened:** The spend_tracker uses hardcoded prices to compute cost_usd per
+API call. For gpt-5.5-pro, the hardcoded output price was $20/M tokens. The real
+OpenAI price is $75/M output tokens. Combined with invisible reasoning tokens
+(charged by OpenAI but not counted in our completion_tokens), the real cost was
+3-10x what we tracked.
+
+**Scope:** gpt-5.5-pro alone cost ~$130+ real (OpenAI billing) vs $14.61 tracked.
+The total for all OpenAI models: $28.76 tracked vs ~$180+ real. The discrepancy
+comes from: (a) wrong hardcoded price ($20 vs $75/M output), (b) reasoning/thinking
+tokens charged by OpenAI but invisible in our completion_tokens count, (c) o3 and
+o4-mini also consume reasoning tokens not reflected in the tracker.
+
+**Lesson:** Never trust hardcoded price trackers for reasoning models. Always verify
+against provider billing dashboards. The spend_tracker is reliable for non-reasoning
+models but fundamentally broken for models that consume invisible thinking tokens.
+
+**Impact on the paper:** The cost_usd column in the CSV is 3-10x underestimated for
+reasoning models (gpt-5.5-pro, o3, o4-mini, gpt-5.5). The paper should use provider
+billing data for reasoning model costs, not the CSV cost_usd column.
+
+---
+
+## 17. Mistral 429 Silent Drop (critical, fixed)
+
+**What happened:** `call_mistral` in `run_batch.py` did not check the HTTP status
+code. Mistral returns 429 with `{"object": "error", "message": "Rate limit exceeded"}`
+which has NO `"error"` key at the top level. The runner's `if "error" in response`
+check (line 799) missed it entirely. The subsequent `response.get("choices", [])`
+returned an empty list, and the case was silently lost with no error logged, no raw
+file written.
+
+**Scope:** Affected mistral-large-latest on 16 of 21 tasks. Cases were silently
+dropped, making the model appear to have only 5/21 tasks complete when in reality
+the API was returning 429 on every call beyond the 15 req/min rate limit.
+
+**Fix:** Added explicit `resp.status_code == 429` check and `data.get("object") == "error"`
+check in `call_mistral`. Added exponential backoff retry: 5s, 10s, 20s, 40s, 80s,
+max 5 retries. After the fix, mistral-large-latest completed all 21/21 tasks in ~50
+minutes at ~$0.60.
+
+**Lesson:** Every provider caller must check HTTP status codes, not just the JSON body.
+Different providers use different error response formats. The `if "error" in response`
+pattern only works for OpenAI-style errors.

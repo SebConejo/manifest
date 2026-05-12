@@ -3,7 +3,7 @@
 Notes that don't fit in formal documentation but matter for continuity.
 Read this file at the start of any new session to avoid repeating mistakes.
 
-Last updated: 2026-05-07
+Last updated: 2026-05-12
 
 ## Working with the user
 
@@ -134,14 +134,46 @@ extra credits ($5-6) to finish. The most expensive model to benchmark per task.
 listed in --models when --skip-azure is active. Caused confusion when trying
 to complete gpt-5.1-chat and o4-mini.
 
-**Data collection is COMPLETE.** 35 models at 21/21 (≥40 valid cases), 14 partial, 8 Azure doublons. 50,351 valid rows, $99.29 spent. *(Previous count: 50,949 rows / 49 "complete" — included empty-response rows.)*
+**Data collection status at end of session 3:** 35 models at 21/21 (≥40 valid cases), 14 partial, 8 Azure doublons. 50,351 valid rows, $99.29 spent. *(Previous count: 50,949 rows / 49 "complete" — included empty-response rows. Final state: see Session 4 notes.)*
+
+## Session 4 notes (2026-05-08 to 2026-05-12)
+
+**VS Code crash during empty-response re-run.** No data lost (tmux + nohup saved it).
+
+**State reconciliation revealed all .md files had stale numbers.** Every doc file
+had different row counts, spend amounts, and model counts. Full reconciliation pass
+updated all files against the 3 factual sources (CSV, rejudge_log, spend_tracker).
+
+**Found 4 bugs in the runner:**
+1. `call_openai_responses()` silently swallowed API errors (no `"error"` check)
+2. `effective_max_tokens` boost of 2000 too low for reasoning models (changed to 8192)
+3. `deepseek/deepseek-v4-pro` and `nvidia/nemotron-3-super-120b-a12b` missing from REASONING_MODELS
+4. `call_moonshot` and `call_byteplus` had hardcoded `max()` overriding the boost from `effective_max_tokens`
+
+**Found Mistral 429 silent drop bug.** `call_mistral` did not check HTTP status code.
+Mistral returns 429 with `{"object": "error", "message": "..."}` which has no `"error"`
+key. Cases were silently lost. Fixed with `resp.status_code == 429` check + exponential
+backoff retry (5/10/20/40/80s, max 5).
+
+**gpt-5.5-pro pricing was wrong.** Hardcoded $20/M output vs real $75/M. Combined with
+invisible reasoning tokens, real cost ~$130+ vs $14.61 tracked. Major cost overrun
+discovered via OpenAI billing dashboard.
+
+**Re-run summary:**
+- Category A re-run (7 models, bug fixes): 21 tasks, ~26h, $18 tracked
+- Category B re-run (7 models, gap filling): 21 tasks, ~8h, $5 tracked
+- Mistral Large completion: 17 tasks, 50 min, $0.60
+- Nemotron completion: 3 tasks, 7 min, $0.001
+- o4-mini completion: 2 tasks, 32 min, $0.92
+- gpt-5.5-pro completion: 2 tasks, ~2h, $14 tracked (~$50+ real)
+
+**Final state:** 47 models complete (21/21, ≥40 cases), 51,617 CSV rows, $143.81 tracked.
 
 ## What the next session should do first
 
 1. Run `/taskbench` to load full context
 2. Read this file and QUESTIONS.md (scope guard)
-3. Rescore GPT-5.5 Pro and Nemotron on tasks where they score 0 (format bug)
-4. Regenerate analysis (Pareto plots, heatmaps) on v2 data only, filtering out v1
-5. Generate top 5 cost-quality ratio tables per use case
-6. Update FINDINGS.md with final numbers from all 49 models
-7. Write the paper
+3. Regenerate analysis (Pareto plots, heatmaps) on v2 data only, filtering out v1
+4. Generate top 5 cost-quality ratio tables per use case
+5. Update FINDINGS.md with final analysis from all 47 models
+6. Write the paper

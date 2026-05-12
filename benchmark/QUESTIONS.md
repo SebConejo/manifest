@@ -1,6 +1,6 @@
 # TaskBench: Scope Guard
 
-Last updated: 2026-05-07
+Last updated: 2026-05-12
 
 Before adding a model, a task, a graph, or any work to this benchmark, check
 this list. If the work does not help answer one of these questions, it is out
@@ -9,7 +9,7 @@ of scope. This document prevents drift and keeps the project focused.
 ## Core Questions (cost vs quality)
 
 **Q1. For a given production task, which model delivers acceptable quality at the lowest cost?**
-Status: ANSWERABLE. 49 models x 21 tasks (57 total including Azure legacy). This is the main output of the benchmark.
+Status: ANSWERABLE. 47 models x 21 tasks (56 total including partial). This is the main output of the benchmark.
 Graph: Per-task Pareto frontier (cost on X, quality on Y, one dot per model).
 
 **Q2. Do economy models ($0.10-0.15/M) match premium models ($5-15/M) on simple tasks?**
@@ -17,7 +17,7 @@ Status: ANSWERABLE. Finding #1 confirmed across 21 tasks.
 Graph: Tier comparison bar chart (avg quality by price tier per task).
 
 **Q3. Do reasoning models justify their extra cost on complex tasks?**
-Status: PARTIALLY ANSWERABLE. GPT-5.5 Pro has format scoring bug. Opus diverges on judge vs accuracy. Data exists but needs rescoring on 2-3 models.
+Status: ANSWERABLE. GPT-5.5 Pro now complete (21/21), format scoring bug fixed by rejudge. Opus diverges on judge vs accuracy (documented as Finding 6). Full data available for all reasoning models.
 Graph: Reasoning tier cost-per-correct-answer vs other tiers on GSM8K, ARC, RAG QA.
 
 **Q4. Within a single provider, what is the quality gradient from cheap to expensive?**

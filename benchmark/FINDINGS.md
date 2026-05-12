@@ -1,7 +1,7 @@
 # TaskBench Findings
 
-Last updated: 2026-05-08
-Status: DATA COLLECTION + REJUDGE COMPLETE. Cleanup in progress.
+Last updated: 2026-05-12
+Status: DATA COLLECTION COMPLETE. All models finalized.
 
 **Rule: every finding below must be revalidated against final data before
 publication. Findings marked [STABLE] survived multiple lots without changing.
@@ -9,13 +9,14 @@ Findings marked [PRELIMINARY] are based on partial data and may shift.**
 
 ## Data Snapshot
 
-- 51,403 valid data points
-- **43 models at 21/21 tasks** with ≥40 valid cases each (57 total incl. Azure doublons)
+- 51,617 valid data points (51,705 raw files)
+- **47 models at 21/21 tasks** with ≥40 valid cases each (56 total incl. partial)
 - 9 API providers (Anthropic, OpenAI, Google, Mistral, MiniMax, Moonshot, BytePlus, OpenRouter, Azure)
 - 21 v2 tasks (50 cases each), 13 v1 tasks (5-10 cases, exploratory only)
-- $123.01 spent of $250 budget (49%) — source: spend_tracker.json, 60,905 calls
+- $143.81 tracked spend of $250 budget (58%) — source: spend_tracker.json, 61,594 calls
+- Real OpenAI spend ~$180+ due to reasoning tokens not tracked
 
-*Previous snapshots: 50,978/42/$122.37 (pre-mistral). 50,351/35/$99.29 (pre-rerun).*
+*Previous snapshots: 51,403/43/$123.01 (pre-final). 50,978/42/$122.37 (pre-mistral). 50,351/35/$99.29 (pre-rerun).*
 
 ---
 

@@ -2,9 +2,24 @@
 
 Date: 2026-05-07
 **⚠️ PARTIALLY SUPERSEDED** — This file predates rejudge phases 2-3 and the
-rebuild from raw JSON. Authoritative numbers are in STATE_RECONCILIATION.md.
-Key corrections: rows=50,351 (not 50,801), complete models=35 (not 37),
-spend=$99.29, zeros=744 (not 950+).
+rebuild from raw JSON. The sections below reflect the state at 2026-05-07.
+See the "Current State" section immediately below for final numbers.
+
+## Current State (2026-05-12)
+
+| Metric | Value |
+|--------|-------|
+| CSV rows | 51,617 |
+| Raw files | 51,705 |
+| Complete models (21/21, ≥40 cases) | 47 |
+| Partial models | 9 |
+| Total models with data | 56 |
+| Zeros in CSV | 728 (all legitimate) |
+| Anomalies remaining | 0 |
+| Spend (tracker) | $143.81 |
+
+All judge-crash zeros fixed. All scores > 5 clamped. All empty-but-scored
+responses zeroed. All 3 anomalies from FINAL_VERIFICATION.md resolved.
 
 ## 1. Total Rows and Coherence
 

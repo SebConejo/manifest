@@ -1,6 +1,9 @@
 # Suspect Models Investigation
 
 Date: 2026-05-07
+**RESOLVED (2026-05-12)** — All 9 suspect models have been fixed. The judge crash
+bug was resolved by 3 rejudge phases (6,170 entries total). All 9 models now have
+correct scores. 8 of the 9 are among the 47 complete models at 21/21 tasks.
 
 ## Summary
 

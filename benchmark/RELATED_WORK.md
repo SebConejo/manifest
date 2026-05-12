@@ -1,6 +1,6 @@
 # TaskBench: Related Work and Positioning
 
-Last updated: 2026-05-07
+Last updated: 2026-05-12
 
 This document positions TaskBench relative to existing LLM benchmarks. Written
 to prepare for reviewer comments, paper introduction, and audience questions
@@ -25,11 +25,11 @@ quality at the lowest cost?"** That is what TaskBench measures.
 | **HELM** (Stanford) | Comprehensive capabilities | 42 scenarios | ~30 | No | Yes | We add cost as a primary axis, they only measure quality |
 | **RouterArena** | Router quality | Delegates to benchmarks | Routers, not models | Indirectly | No | We benchmark models directly, they benchmark routers |
 | **RouterBench** | Router efficiency | Similar to RouterArena | Routers | Yes (routing cost) | No | Same distinction: we rank models, they rank routers |
-| **FrugalGPT** (2023) | Cost reduction via cascading | 1-2 datasets | 3-5 | Yes | No (single task) | We test 21 tasks and 49 models, not cascading |
+| **FrugalGPT** (2023) | Cost reduction via cascading | 1-2 datasets | 3-5 | Yes | No (single task) | We test 21 tasks and 47 models, not cascading |
 | **Cost-Aware Model Selection** (2025) | Cost-quality for classification | 1 classification task | ~10 | Yes | Single task only | We extend this idea to 21 production tasks |
 | **CEBench** | Infrastructure efficiency | Throughput, latency | ~10 | Infra cost | No | We measure API cost per query, not infrastructure |
 | **Artificial Analysis** | Speed + price comparison | Aggregate quality | ~50 | Yes | No (aggregate) | We provide per-task granularity they do not |
-| **TaskBench (ours)** | Cost-quality per production task | 21 production tasks | 49 models, 9 API providers | Yes (primary axis) | Yes (per-task Pareto) | First systematic multi-task cost-quality benchmark |
+| **TaskBench (ours)** | Cost-quality per production task | 21 production tasks | 47 models, 9 API providers | Yes (primary axis) | Yes (per-task Pareto) | First systematic multi-task cost-quality benchmark |
 
 ## Detailed Comparisons
 
@@ -62,7 +62,7 @@ on different tasks, confirming that a router adds value.
 
 FrugalGPT (Chen et al., 2023) pioneered cost-aware LLM usage but tested on a
 single dataset with 3-5 models and focused on cascading (try cheap first, fall
-back to expensive). TaskBench is broader: 21 tasks, 49 models, direct
+back to expensive). TaskBench is broader: 21 tasks, 47 models, direct
 comparison without cascading. The FrugalGPT cascading approach and TaskBench
 findings are complementary: TaskBench tells you which model to pick per task,
 FrugalGPT tells you how to cascade within a task.
@@ -110,6 +110,6 @@ model should I use for THIS specific API call, considering cost."
 
 "TaskBench is the first benchmark that systematically answers: for each
 production LLM task, which model delivers acceptable quality at the lowest
-cost? We test 49 models across 9 API providers on 21 production tasks and find
+cost? We test 47 models across 9 API providers on 21 production tasks and find
 that economy models ($0.10-0.15/M tokens) match premium models ($5-15/M) on
 12 of 16 tasks."

@@ -187,3 +187,25 @@ ZEROS_INVESTIGATION.md's 1,675 was the count before phase 3. Phase 3 rejudged 90
 | Budget spent | $99.29 | spend_tracker.json |
 | Budget remaining | $150.71 | arithmetic |
 | Empty-response raw files (need re-run or documentation) | 683 across 86 task+model combos | earlier analysis |
+
+---
+
+## Final State (2026-05-12)
+
+All reconciliation issues identified above have been resolved.
+
+| Metric | Value |
+|--------|-------|
+| CSV rows | 51,617 |
+| Raw files | 51,705 |
+| Complete models (21/21, ≥40 cases) | 47 |
+| Partial models | 9 |
+| Total models with data | 56 |
+| Zeros in CSV | 728 (all legitimate) |
+| Spend (tracker) | $143.81 (61,594 API calls) |
+| Real OpenAI spend | ~$180+ (reasoning tokens not tracked) |
+| Budget remaining | $106.19 of $250 |
+
+All stale documentation numbers from sections 1-7 above are now corrected
+in their respective files. The 3 factual sources (CSV, rejudge_log,
+spend_tracker) remain the authoritative references.

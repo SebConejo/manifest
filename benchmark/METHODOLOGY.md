@@ -1,6 +1,6 @@
 # TaskBench Methodology
 
-Last updated: 2026-05-07
+Last updated: 2026-05-12
 
 This document records every methodological decision made during the TaskBench benchmark.
 It serves three purposes: (1) reproducibility for the arXiv paper, (2) continuity
@@ -266,12 +266,14 @@ Models identified as "reasoning models" (those that consume thinking tokens inte
 ```
 DeepSeek-R1, o4-mini, grok-4-20-reasoning, gpt-5.1-chat,
 Kimi-K2.6, kimi-k2.6, gemini-2.5-pro, MiniMax-M2.7,
-claude-opus-4-7, Phi-4-reasoning, qwen3-32b
+claude-opus-4-7, Phi-4-reasoning, qwen3-32b,
+deepseek/deepseek-v4-pro, nvidia/nemotron-3-super-120b-a12b
 ```
 
 Special handling:
-1. **Token budget**: `effective_max_tokens()` bumps requested max to at least 2000
-   (reasoning models need headroom for invisible thinking tokens)
+1. **Token budget**: `effective_max_tokens()` bumps requested max to at least 8192
+   (reasoning models need headroom for invisible thinking tokens; originally 2000,
+   increased to 8192 after discovering it was insufficient for complex generative tasks)
 2. **Temperature**: Omitted for models that reject `temperature=0`
 3. **Think tag stripping**: `strip_thinking()` removes `<think>...</think>` from
    visible output before evaluation
@@ -394,7 +396,7 @@ limitation: reasoning model outputs are non-deterministic.
 - 0.5s delay between models (not between cases)
 - OpenRouter and Gemini free tier hit rate limits frequently
 - Mistral free tier limits mistral-large to ~4-8 cases per run
-- No retry logic (failed cases are logged as errors and skipped)
+- Limited retry logic (Mistral has exponential backoff; other providers skip failed cases)
 
 ## 8. Data Storage
 
@@ -434,8 +436,8 @@ For the complete limitations analysis, see LIMITATIONS.md. Summary below:
 4. **Price snapshot**: Prices recorded at benchmark time (April 2026). Model pricing
    changes frequently. Structural findings (tier-level) are more durable than
    model-specific price comparisons.
-5. **No retry logic**: Rate-limited cases are lost, not retried. Some models have
-   fewer than 50 cases on some tasks.
+5. **Limited retry logic**: Mistral has exponential backoff retry; other providers
+   skip failed cases. Some models have fewer than 50 cases on some tasks.
 6. **Reasoning model non-determinism**: temperature cannot be set to 0 for some
    reasoning models, introducing run-to-run variance.
 
@@ -498,7 +500,13 @@ Changes made during the benchmark execution:
    Code (coding specialist) via BytePlus ARK API at
    `ark.ap-southeast.bytepluses.com/api/v3`. OpenAI-compatible format. $500 free credits.
 
-9. **Final scale: 57 models (35 complete at ≥40 cases/task, 14 partial, 8 Azure doublons), 13 providers** (2026-05-08). 50,351 valid rows (rebuilt from raw JSON, empty-response rows excluded). $99.29 spent of $250 budget. *(Previous count 2026-05-07: 50,949 rows / 49 "complete" — included empty-response rows as data.)*
+9. **Final scale: 56 models (47 complete at ≥40 cases/task, 9 partial), 9 providers** (2026-05-12). 51,617 valid rows (51,705 raw files). $143.81 tracked spend of $250 budget (61,594 API calls). Real OpenAI spend ~$180+ due to reasoning tokens not tracked. *(Previous counts: 51,403/43/$123.01, 50,978/42/$122.37, 50,351/35/$99.29, 50,949/49 initial.)*
+
+10. **Mistral retry with exponential backoff** (2026-05-10). `call_mistral` was silently dropping cases when Mistral returned 429. The error format `{"object": "error", "message": "Rate limit exceeded"}` has no `"error"` key at top level, so the runner's `if "error" in response` check missed it. Fix: check `resp.status_code == 429` and `data.get("object") == "error"`, retry with exponential backoff (5/10/20/40/80s, max 5 retries). Result: mistral-large-latest went from 5/21 to 21/21 in ~50 minutes.
+
+11. **Nemotron added to REASONING_MODELS** (2026-05-11). `nvidia/nemotron-3-super-120b-a12b` consumes reasoning tokens invisibly. With `max_tokens=20` on classification tasks, all 20 tokens were consumed by reasoning, leaving 0 for visible output. Adding to REASONING_MODELS triggered the `effective_max_tokens` boost to 8192, fixing all 3 failed classification tasks.
+
+12. **gpt-5.5-pro price correction** (2026-05-12). Hardcoded input price was $5/M (correct is $15/M), output price was $20/M (correct is $75/M). The wrong prices caused the spend tracker to underestimate gpt-5.5-pro cost by ~9x. Real cost ~$130+ vs $14.61 tracked. Corrected in the runner but historical CSV cost_usd values for gpt-5.5-pro remain underestimated.
 
 ## 12. Decisions We Made and Why (FAQ)
 

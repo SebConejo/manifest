@@ -175,3 +175,26 @@ All sampled zeros are real classification errors, not parsing bugs.
 3. **1 zero-cost deepseek row:** Set score=0 in raw file (empty response), rebuild will exclude it.
 
 Total impact: ~60 rows affected out of 50,978 (0.12%). None affect the 42 complete models or the structural findings.
+
+---
+
+## Post-Fix State (2026-05-12)
+
+All 3 anomalies identified above have been fixed:
+
+1. **7 scores > 5:** Clamped to 5 in raw JSON files, CSV rebuilt.
+2. **115 empty-but-scored responses:** Score set to 0, excluded from CSV by rebuild.
+3. **1 zero-cost deepseek row:** Score set to 0 in raw file, excluded by rebuild.
+
+**Current state:**
+- 51,617 CSV rows (from 51,705 raw files)
+- **47 models complete** (21/21 v2 tasks, ≥40 valid cases each)
+- 728 zeros in CSV, all legitimate
+- 0 scores > 5
+- 0 empty-but-scored responses
+- 0 anomalies remaining
+
+The 47 complete models (up from 42 at the time of this verification) reflect
+the Category A re-run (bug fixes), Category B re-run (gap filling), Mistral
+Large completion (429 retry fix), Nemotron completion (REASONING_MODELS fix),
+o4-mini completion, and gpt-5.5-pro completion.

@@ -1,6 +1,9 @@
 # Exact-Match Zeros Investigation
 
 Date: 2026-05-07
+**RESOLVED (2026-05-12)** — All empty-response cases identified here have been re-run.
+DeepSeek V4 Pro and Nemotron are now complete at 21/21 tasks. Final CSV has 728 zeros,
+all legitimate classification failures.
 
 ## Summary
 

@@ -1,6 +1,9 @@
 # Nemotron Investigation
 
 **Date:** 2026-05-11
+**RESOLVED (2026-05-12)** — Fix applied: added `nvidia/nemotron-3-super-120b-a12b`
+to REASONING_MODELS. Re-ran 3 classification tasks (~84 cases). Nemotron now
+complete at 21/21 tasks, among the 47 complete models.
 
 ---
 

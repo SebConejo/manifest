@@ -1,6 +1,6 @@
 # TaskBench Limitations
 
-Last updated: 2026-05-07
+Last updated: 2026-05-12
 
 This document lists every known limitation of the benchmark, with honest
 assessments of impact and mitigations. Written to prepare for reviewer
@@ -78,12 +78,16 @@ performance distribution, reducing the impact of per-case variance.
 should be read as "approximately 4.5" not "exactly 4.5." For deterministic
 models (temperature=0), results are fully reproducible.
 
-## 5. No Retry Logic
+## 5. Limited Retry Logic
 
-**The issue:** When an API call fails (rate limit, timeout, network error),
-the case is skipped, not retried. Some models have fewer than 50 cases on
-some tasks (e.g., Mistral Large often completes only 4-8 of 50 cases due
-to free-tier rate limits).
+**The issue:** Most provider callers have no retry logic. When an API call
+fails (rate limit, timeout, network error), the case is skipped, not retried.
+Some models have fewer than 50 cases on some tasks.
+
+**Exception:** `call_mistral` now has exponential backoff retry (5/10/20/40/80s,
+max 5 retries) after discovering that Mistral 429 responses were silently
+dropped (see LEARNINGS.md section 17). This fix brought mistral-large-latest
+from 5/21 to 21/21 tasks. Other providers still lack retry logic.
 
 **Impact:** Models with partial data have less reliable scores. A model
 with 4 cases could be misleadingly high or low.
@@ -192,8 +196,8 @@ comparisons, the normalization makes results comparable.
 ## 12. Micro Tier Format Compliance and Legitimate Exact-Match Failures
 
 **The issue:** Small and cheap models genuinely fail on exact-match classification
-tasks. Out of 744 zero-scored rows in the final dataset, 729 (98%) are exact-match
-failures with non-empty responses — the model answered, but answered wrong.
+tasks. Out of 728 zero-scored rows in the final dataset, the vast majority are
+exact-match failures with non-empty responses — the model answered, but answered wrong.
 
 **Distribution of legitimate zero scores:**
 
@@ -224,9 +228,9 @@ Nemotron Super 120B (MoE, 12B active) shows a distinct failure mode: it echoes
 the prompt or wraps answers in explanations instead of following "respond with
 ONLY the label." This is a format compliance failure, not a knowledge failure.
 
-**Impact:** The 15 remaining LLM-judged zeros (out of 50,346 rows) are also
+**Impact:** The remaining LLM-judged zeros (out of 51,617 rows) are also
 legitimate: models echoing prompts instead of generating code, or wrong numerical
-answers. These represent 0.03% of the dataset.
+answers.
 
 **Should you worry?** These zeros accurately reflect real-world usability. A model
 that cannot classify 150 intents will fail in production routing. A model that echoes
@@ -248,3 +252,28 @@ hypothetical ones.
 
 **Should you worry?** No. The benchmark compares models, not providers. If a
 provider does not have a cheap model, that is data about their strategy.
+
+## 14. Reasoning Token Cost Tracking
+
+**The issue:** The spend_tracker significantly underestimates real cost for
+reasoning models (gpt-5.5-pro, o3, o4-mini, gpt-5.5). The tracker recorded
+$28.76 for all OpenAI models; actual OpenAI billing was ~$180+.
+
+**Cause:** Two compounding errors: (a) the hardcoded price for gpt-5.5-pro
+was $20/M output tokens, but the real OpenAI price is $75/M; (b) reasoning
+and thinking tokens are charged by OpenAI but invisible in our
+completion_tokens count. The spend tracker only sees visible output tokens,
+not the reasoning tokens consumed internally.
+
+**Impact:** The cost_usd column in the CSV is 3-10x underestimated for
+reasoning models. gpt-5.5-pro alone cost ~$130+ real vs $14.61 tracked.
+Cost-per-query data for reasoning models is unreliable.
+
+**Mitigation:** The paper should use provider billing data for reasoning
+model costs, not the CSV cost_usd column. Non-reasoning model costs in
+the CSV remain accurate.
+
+**Should you worry?** Yes, for reasoning model cost comparisons. The
+structural finding (reasoning models cost more than economy models) is
+directionally correct but the magnitude is underestimated. For non-reasoning
+models, the CSV costs are reliable.

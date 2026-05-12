@@ -1,8 +1,8 @@
 # Zero-Score Investigation Report
 
 **Date:** 2026-05-08
-**⚠️ RESOLVED** — The 851 judge-crash zeros identified here were fixed in rejudge
-phase 3 (902 entries). Current CSV has 744 zeros, all legitimate. See STATE_RECONCILIATION.md.
+**RESOLVED (2026-05-12)** — The 851 judge-crash zeros identified here were fixed in rejudge
+phase 3 (902 entries). Final CSV has 728 zeros, all legitimate. 47 models complete at 21/21 tasks.
 
 **Scope:** 1,675 zero-scored rows with non-empty `response_preview` in `benchmark_results.csv` (pre-phase-3)
 

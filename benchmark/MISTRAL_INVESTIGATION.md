@@ -1,6 +1,9 @@
 # Mistral Large Investigation
 
 **Date:** 2026-05-10
+**RESOLVED (2026-05-12)** — Both fixes applied (429 detection + exponential backoff
+retry). mistral-large-latest completed all 21/21 tasks in ~50 minutes at ~$0.60.
+Now among the 47 complete models.
 
 ---
 
