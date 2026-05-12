@@ -2,12 +2,12 @@
   "model": "gpt-5.5-pro",
   "task": "test_generation_v2",
   "case": 2,
-  "response": "```python\n# test_factorial.py\nimport pytest\n\nfrom your_module import factorial  # replace with the actual module name\n\n\n@pytest.mark.parametrize(\n    (\"n\", \"expected\"),\n    [\n        (0, 1),   # edge case: 0!\n        (1, 1),   # edge case: 1!\n        (2, 2),\n        (3, 6),\n        (5, 120),\n        (10, 3628800),\n    ],\n)\ndef test_factorial_known_values(n, expected):\n    assert factorial(n) == expected\n\n\ndef test_factorial_larger_value():\n    assert factorial(20) == 2432902008176640000\n\n\n@pytest.mark.parametrize(\"n\", [-1, -2, -100])\ndef test_factorial_negative_input_raises_value_error(n):\n    with pytest.raises(ValueError, match=\"n must be non-negative\"):\n        factorial(n)\n\n\n@pytest.mark.parametrize(\"bad_input\", [None, \"5\", [], {}, object()])\ndef test_factorial_unsupported_input_types_raise_type_error(bad_input):\n    with pytest.raises(TypeError):\n        factorial(bad_input)\n```\n\nRun with:\n\n```bash\npytest\n```\n\nNote: I did not include floats as invalid inputs because the current implementation accepts some positive floats instead of raising. If you want strict `int`-only behavior, add runtime type validation to the function and then test that floats raise `TypeError`.",
+  "response": "```python\n# tests/test_factorial.py\nimport pytest\n\n# Replace `your_module` with the module where factorial is defined.\nfrom your_module import factorial\n\n\n@pytest.mark.parametrize(\n    \"n, expected\",\n    [\n        pytest.param(0, 1, id=\"zero-edge-case\"),\n        pytest.param(1, 1, id=\"one-edge-case\"),\n        pytest.param(2, 2, id=\"smallest-recursive-case\"),\n        pytest.param(3, 6, id=\"small-happy-path\"),\n        pytest.param(5, 120, id=\"common-happy-path\"),\n        pytest.param(10, 3628800, id=\"larger-happy-path\"),\n    ],\n)\ndef test_factorial_returns_expected_value(n, expected):\n    assert factorial(n) == expected\n\n\n@pytest.mark.parametrize(\"n\", [-1, -2, -10])\ndef test_factorial_negative_input_raises_value_error(n):\n    with pytest.raises(ValueError, match=\"n must be non-negative\"):\n        factorial(n)\n\n\n@pytest.mark.parametrize(\"bad_input\", [None, \"5\", [5], object()])\ndef test_factorial_invalid_non_numeric_inputs_raise_type_error(bad_input):\n    with pytest.raises(TypeError):\n        factorial(bad_input)\n```\n\nNote: the invalid-type tests reflect the current behavior of the function. The function does not explicitly validate `int` inputs; it raises `TypeError` naturally when unsupported types are compared to `0`.",
   "score": 5,
-  "cost": 0.08158,
+  "cost": 0.237285,
   "expected": "",
   "tokens": {
     "input": 84,
-    "output": 4058
+    "output": 3147
   }
 }

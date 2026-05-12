@@ -1,0 +1,13 @@
+{
+  "model": "gpt-5.5-pro",
+  "task": "test_generation_v2",
+  "case": 16,
+  "response": "```python\n# test_gcd.py\n# Replace \"your_module\" with the name of the module containing gcd.\nimport math\n\nimport pytest\n\nfrom your_module import gcd\n\n\n@pytest.mark.parametrize(\n    (\"a\", \"b\", \"expected\"),\n    [\n        (54, 24, 6),\n        (24, 54, 6),\n        (17, 13, 1),\n        (42, 56, 14),\n        (7, 7, 7),\n        (1, 999, 1),\n        (2**40, 2**32, 2**32),\n    ],\n)\ndef test_gcd_positive_integers(a, b, expected):\n    assert gcd(a, b) == expected\n\n\n@pytest.mark.parametrize(\n    (\"a\", \"b\", \"expected\"),\n    [\n        (0, 0, 0),\n        (0, 5, 5),\n        (5, 0, 5),\n        (0, -5, 5),\n        (-5, 0, 5),\n        (-54, 24, 6),\n        (54, -24, 6),\n        (-54, -24, 6),\n    ],\n)\ndef test_gcd_zero_and_negative_inputs(a, b, expected):\n    assert gcd(a, b) == expected\n\n\ndef test_gcd_matches_standard_library_for_representative_range():\n    for a in range(-25, 26):\n        for b in range(-25, 26):\n            assert gcd(a, b) == math.gcd(a, b)\n\n\n@pytest.mark.parametrize(\n    (\"a\", \"b\"),\n    [\n        pytest.param(\"12\", 8, id=\"string-left\"),\n        pytest.param(8, \"12\", id=\"string-right\"),\n        pytest.param(None, 8, id=\"none-left\"),\n        pytest.param([12], 8, id=\"list-left\"),\n        pytest.param(8, [12], id=\"list-right\"),\n        pytest.param(object(), 0, id=\"invalid-left-abs\"),\n    ],\n)\ndef test_gcd_raises_type_error_for_unsupported_inputs(a, b):\n    with pytest.raises(TypeError):\n        gcd(a, b)\n```\n\nRun with:\n\n```bash\npytest test_gcd.py\n```\n\nNote: the function does not explicitly validate type hints at runtime, so these error tests cover unsupported inputs that currently raise `TypeError`.",
+  "score": 5,
+  "cost": 0.36237,
+  "expected": "",
+  "tokens": {
+    "input": 68,
+    "output": 4818
+  }
+}
