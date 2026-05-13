@@ -1,0 +1,1610 @@
+{
+  "sentiment_sst2": [
+    {
+      "model": "qwen/qwen-turbo",
+      "accuracy": 0.92,
+      "total_cost": 0.000112,
+      "cost_per_correct": 2.43e-06,
+      "correct": 46,
+      "total": 50
+    },
+    {
+      "model": "ministral-3b-latest",
+      "accuracy": 0.94,
+      "total_cost": 0.000123,
+      "cost_per_correct": 2.61e-06,
+      "correct": 47,
+      "total": 50
+    },
+    {
+      "model": "meta-llama/llama-3.2-1b-instruct",
+      "accuracy": 0.62,
+      "total_cost": 9.1e-05,
+      "cost_per_correct": 2.94e-06,
+      "correct": 31,
+      "total": 50
+    },
+    {
+      "model": "meta-llama/llama-3.2-3b-instruct",
+      "accuracy": 0.96,
+      "total_cost": 0.000172,
+      "cost_per_correct": 3.59e-06,
+      "correct": 48,
+      "total": 50
+    },
+    {
+      "model": "google/gemma-4-26b-a4b-it",
+      "accuracy": 1.0,
+      "total_cost": 0.000206,
+      "cost_per_correct": 4.12e-06,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "microsoft/phi-4",
+      "accuracy": 0.98,
+      "total_cost": 0.000212,
+      "cost_per_correct": 4.32e-06,
+      "correct": 49,
+      "total": 50
+    },
+    {
+      "model": "devstral-latest",
+      "accuracy": 1.0,
+      "total_cost": 0.000326,
+      "cost_per_correct": 6.53e-06,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "gpt-5.4-nano",
+      "accuracy": 0.98,
+      "total_cost": 0.000381,
+      "cost_per_correct": 7.77e-06,
+      "correct": 49,
+      "total": 50
+    },
+    {
+      "model": "mistral-small-latest",
+      "accuracy": 0.96,
+      "total_cost": 0.000386,
+      "cost_per_correct": 8.05e-06,
+      "correct": 48,
+      "total": 50
+    },
+    {
+      "model": "gemini-2.5-flash",
+      "accuracy": 0.98,
+      "total_cost": 0.000451,
+      "cost_per_correct": 9.21e-06,
+      "correct": 49,
+      "total": 50
+    },
+    {
+      "model": "gpt-4o-mini",
+      "accuracy": 1.0,
+      "total_cost": 0.000489,
+      "cost_per_correct": 9.78e-06,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "accuracy": 1.0,
+      "total_cost": 0.000533,
+      "cost_per_correct": 1.066e-05,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "meta-llama/llama-4-maverick",
+      "accuracy": 0.98,
+      "total_cost": 0.000649,
+      "cost_per_correct": 1.324e-05,
+      "correct": 49,
+      "total": 50
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "accuracy": 1.0,
+      "total_cost": 0.000722,
+      "cost_per_correct": 1.444e-05,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "qwen/qwen3-coder",
+      "accuracy": 1.0,
+      "total_cost": 0.000748,
+      "cost_per_correct": 1.496e-05,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "deepseek/deepseek-v3.2",
+      "accuracy": 1.0,
+      "total_cost": 0.000848,
+      "cost_per_correct": 1.696e-05,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "gpt-5.4-mini",
+      "accuracy": 0.98,
+      "total_cost": 0.001143,
+      "cost_per_correct": 2.332e-05,
+      "correct": 49,
+      "total": 50
+    },
+    {
+      "model": "deepseek/deepseek-v4-flash",
+      "accuracy": 1.0,
+      "total_cost": 0.000985,
+      "cost_per_correct": 2.464e-05,
+      "correct": 40,
+      "total": 40
+    },
+    {
+      "model": "mistral-medium-latest",
+      "accuracy": 1.0,
+      "total_cost": 0.001386,
+      "cost_per_correct": 2.771e-05,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "qwen/qwen-max",
+      "accuracy": 1.0,
+      "total_cost": 0.003465,
+      "cost_per_correct": 6.931e-05,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "accuracy": 0.98,
+      "total_cost": 0.003436,
+      "cost_per_correct": 7.012e-05,
+      "correct": 49,
+      "total": 50
+    },
+    {
+      "model": "gemini-2.5-pro",
+      "accuracy": 1.0,
+      "total_cost": 0.004011,
+      "cost_per_correct": 8.023e-05,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "bytedance-seed/seed-2.0-lite",
+      "accuracy": 1.0,
+      "total_cost": 0.005309,
+      "cost_per_correct": 0.00010618,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "bytedance-seed/seed-2.0-mini",
+      "accuracy": 0.96,
+      "total_cost": 0.005175,
+      "cost_per_correct": 0.00010782,
+      "correct": 48,
+      "total": 50
+    },
+    {
+      "model": "mistral-large-latest",
+      "accuracy": 1.0,
+      "total_cost": 0.006528,
+      "cost_per_correct": 0.00013056,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro",
+      "accuracy": 1.0,
+      "total_cost": 0.007469,
+      "cost_per_correct": 0.00014938,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "gemini-3.1-pro-preview",
+      "accuracy": 1.0,
+      "total_cost": 0.007713,
+      "cost_per_correct": 0.00015425,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "x-ai/grok-4-fast",
+      "accuracy": 1.0,
+      "total_cost": 0.007753,
+      "cost_per_correct": 0.00015505,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "gpt-5.4",
+      "accuracy": 0.98,
+      "total_cost": 0.007618,
+      "cost_per_correct": 0.00015547,
+      "correct": 49,
+      "total": 50
+    },
+    {
+      "model": "gpt-4o",
+      "accuracy": 0.98,
+      "total_cost": 0.008148,
+      "cost_per_correct": 0.00016628,
+      "correct": 49,
+      "total": 50
+    },
+    {
+      "model": "x-ai/grok-code-fast-1",
+      "accuracy": 0.98,
+      "total_cost": 0.010009,
+      "cost_per_correct": 0.00020426,
+      "correct": 49,
+      "total": 50
+    },
+    {
+      "model": "gpt-5.1-chat",
+      "accuracy": 0.98,
+      "total_cost": 0.010418,
+      "cost_per_correct": 0.00021261,
+      "correct": 49,
+      "total": 50
+    },
+    {
+      "model": "bytedance-seed/seed-1.6-flash",
+      "accuracy": 1.0,
+      "total_cost": 0.011059,
+      "cost_per_correct": 0.00022569,
+      "correct": 49,
+      "total": 49
+    },
+    {
+      "model": "claude-sonnet-4-20250514",
+      "accuracy": 0.98,
+      "total_cost": 0.012885,
+      "cost_per_correct": 0.00026296,
+      "correct": 49,
+      "total": 50
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "accuracy": 0.96,
+      "total_cost": 0.012885,
+      "cost_per_correct": 0.00026844,
+      "correct": 48,
+      "total": 50
+    },
+    {
+      "model": "x-ai/grok-4.20",
+      "accuracy": 1.0,
+      "total_cost": 0.017998,
+      "cost_per_correct": 0.00035996,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "seed-2-0-pro-260328",
+      "accuracy": 1.0,
+      "total_cost": 0.020905,
+      "cost_per_correct": 0.00041809,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "qwen/qwen3.6-flash",
+      "accuracy": 1.0,
+      "total_cost": 0.021075,
+      "cost_per_correct": 0.00042149,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "seed-2-0-code-preview-260328",
+      "accuracy": 0.98,
+      "total_cost": 0.020691,
+      "cost_per_correct": 0.00042226,
+      "correct": 49,
+      "total": 50
+    },
+    {
+      "model": "o4-mini",
+      "accuracy": 1.0,
+      "total_cost": 0.02179,
+      "cost_per_correct": 0.0004358,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "qwen/qwen3.6-plus",
+      "accuracy": 1.0,
+      "total_cost": 0.022974,
+      "cost_per_correct": 0.00045949,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "o3",
+      "accuracy": 0.98,
+      "total_cost": 0.022834,
+      "cost_per_correct": 0.000466,
+      "correct": 49,
+      "total": 50
+    },
+    {
+      "model": "kimi-k2.6",
+      "accuracy": 0.98,
+      "total_cost": 0.027283,
+      "cost_per_correct": 0.0005568,
+      "correct": 49,
+      "total": 50
+    },
+    {
+      "model": "gpt-5.5",
+      "accuracy": 1.0,
+      "total_cost": 0.029499,
+      "cost_per_correct": 0.00058998,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "accuracy": 1.0,
+      "total_cost": 0.034124,
+      "cost_per_correct": 0.00068248,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "gpt-5.5-pro",
+      "accuracy": 0.98,
+      "total_cost": 0.062185,
+      "cost_per_correct": 0.00126908,
+      "correct": 49,
+      "total": 50
+    },
+    {
+      "model": "claude-opus-4-7",
+      "accuracy": 0.96,
+      "total_cost": 0.09468,
+      "cost_per_correct": 0.0019725,
+      "correct": 48,
+      "total": 50
+    },
+    {
+      "model": "qwen/qwen3.6-max-preview",
+      "accuracy": 1.0,
+      "total_cost": 0.110248,
+      "cost_per_correct": 0.00220496,
+      "correct": 50,
+      "total": 50
+    }
+  ],
+  "intent_clinc150": [
+    {
+      "model": "qwen/qwen-turbo",
+      "accuracy": 0.82,
+      "total_cost": 0.000847,
+      "cost_per_correct": 2.065e-05,
+      "correct": 41,
+      "total": 50
+    },
+    {
+      "model": "ministral-3b-latest",
+      "accuracy": 0.72,
+      "total_cost": 0.001124,
+      "cost_per_correct": 3.123e-05,
+      "correct": 36,
+      "total": 50
+    },
+    {
+      "model": "meta-llama/llama-3.2-1b-instruct",
+      "accuracy": 0.36,
+      "total_cost": 0.00069,
+      "cost_per_correct": 3.833e-05,
+      "correct": 18,
+      "total": 50
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "accuracy": 0.9,
+      "total_cost": 0.001802,
+      "cost_per_correct": 4.004e-05,
+      "correct": 45,
+      "total": 50
+    },
+    {
+      "model": "google/gemma-4-26b-a4b-it",
+      "accuracy": 0.92,
+      "total_cost": 0.001882,
+      "cost_per_correct": 4.09e-05,
+      "correct": 46,
+      "total": 50
+    },
+    {
+      "model": "microsoft/phi-4",
+      "accuracy": 0.76,
+      "total_cost": 0.00186,
+      "cost_per_correct": 4.896e-05,
+      "correct": 38,
+      "total": 50
+    },
+    {
+      "model": "devstral-latest",
+      "accuracy": 0.92,
+      "total_cost": 0.002849,
+      "cost_per_correct": 6.194e-05,
+      "correct": 46,
+      "total": 50
+    },
+    {
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "accuracy": 0.86,
+      "total_cost": 0.002791,
+      "cost_per_correct": 6.491e-05,
+      "correct": 43,
+      "total": 50
+    },
+    {
+      "model": "gpt-5.4-nano",
+      "accuracy": 0.8,
+      "total_cost": 0.002665,
+      "cost_per_correct": 6.664e-05,
+      "correct": 40,
+      "total": 50
+    },
+    {
+      "model": "mistral-small-latest",
+      "accuracy": 0.8,
+      "total_cost": 0.00291,
+      "cost_per_correct": 7.275e-05,
+      "correct": 40,
+      "total": 50
+    },
+    {
+      "model": "meta-llama/llama-3.2-3b-instruct",
+      "accuracy": 0.3,
+      "total_cost": 0.001303,
+      "cost_per_correct": 8.687e-05,
+      "correct": 15,
+      "total": 50
+    },
+    {
+      "model": "gpt-4o-mini",
+      "accuracy": 0.9,
+      "total_cost": 0.003914,
+      "cost_per_correct": 8.699e-05,
+      "correct": 45,
+      "total": 50
+    },
+    {
+      "model": "meta-llama/llama-4-maverick",
+      "accuracy": 0.92,
+      "total_cost": 0.004572,
+      "cost_per_correct": 9.94e-05,
+      "correct": 46,
+      "total": 50
+    },
+    {
+      "model": "gemini-2.5-flash",
+      "accuracy": 0.94,
+      "total_cost": 0.004731,
+      "cost_per_correct": 0.00010067,
+      "correct": 47,
+      "total": 50
+    },
+    {
+      "model": "deepseek/deepseek-v4-flash",
+      "accuracy": 0.9,
+      "total_cost": 0.004952,
+      "cost_per_correct": 0.00011005,
+      "correct": 45,
+      "total": 50
+    },
+    {
+      "model": "qwen/qwen3-coder",
+      "accuracy": 0.92,
+      "total_cost": 0.005674,
+      "cost_per_correct": 0.00012335,
+      "correct": 46,
+      "total": 50
+    },
+    {
+      "model": "bytedance-seed/seed-1.6-flash",
+      "accuracy": 0.84,
+      "total_cost": 0.005941,
+      "cost_per_correct": 0.00014144,
+      "correct": 42,
+      "total": 50
+    },
+    {
+      "model": "deepseek/deepseek-v3.2",
+      "accuracy": 0.9,
+      "total_cost": 0.007348,
+      "cost_per_correct": 0.00016329,
+      "correct": 45,
+      "total": 50
+    },
+    {
+      "model": "gpt-5.4-mini",
+      "accuracy": 0.94,
+      "total_cost": 0.007993,
+      "cost_per_correct": 0.00017006,
+      "correct": 47,
+      "total": 50
+    },
+    {
+      "model": "mistral-medium-latest",
+      "accuracy": 0.9,
+      "total_cost": 0.011549,
+      "cost_per_correct": 0.00025665,
+      "correct": 45,
+      "total": 50
+    },
+    {
+      "model": "bytedance-seed/seed-2.0-mini",
+      "accuracy": 0.94,
+      "total_cost": 0.012238,
+      "cost_per_correct": 0.00026039,
+      "correct": 47,
+      "total": 50
+    },
+    {
+      "model": "x-ai/grok-4-fast",
+      "accuracy": 0.94,
+      "total_cost": 0.013568,
+      "cost_per_correct": 0.00028869,
+      "correct": 47,
+      "total": 50
+    },
+    {
+      "model": "x-ai/grok-code-fast-1",
+      "accuracy": 0.92,
+      "total_cost": 0.01591,
+      "cost_per_correct": 0.00034587,
+      "correct": 46,
+      "total": 50
+    },
+    {
+      "model": "bytedance-seed/seed-2.0-lite",
+      "accuracy": 0.94,
+      "total_cost": 0.016881,
+      "cost_per_correct": 0.00035916,
+      "correct": 47,
+      "total": 50
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro",
+      "accuracy": 0.92,
+      "total_cost": 0.022408,
+      "cost_per_correct": 0.00048713,
+      "correct": 46,
+      "total": 50
+    },
+    {
+      "model": "qwen/qwen3.6-plus",
+      "accuracy": 0.94,
+      "total_cost": 0.024819,
+      "cost_per_correct": 0.00052807,
+      "correct": 47,
+      "total": 50
+    },
+    {
+      "model": "qwen/qwen-max",
+      "accuracy": 0.94,
+      "total_cost": 0.026827,
+      "cost_per_correct": 0.00057078,
+      "correct": 47,
+      "total": 50
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "accuracy": 0.9,
+      "total_cost": 0.026438,
+      "cost_per_correct": 0.0005875,
+      "correct": 45,
+      "total": 50
+    },
+    {
+      "model": "seed-2-0-pro-260328",
+      "accuracy": 0.9184,
+      "total_cost": 0.027473,
+      "cost_per_correct": 0.00061052,
+      "correct": 45,
+      "total": 49
+    },
+    {
+      "model": "seed-2-0-code-preview-260328",
+      "accuracy": 0.94,
+      "total_cost": 0.029313,
+      "cost_per_correct": 0.00062369,
+      "correct": 47,
+      "total": 50
+    },
+    {
+      "model": "qwen/qwen3.6-flash",
+      "accuracy": 0.94,
+      "total_cost": 0.036019,
+      "cost_per_correct": 0.00076636,
+      "correct": 47,
+      "total": 50
+    },
+    {
+      "model": "gemini-2.5-pro",
+      "accuracy": 0.94,
+      "total_cost": 0.040154,
+      "cost_per_correct": 0.00085434,
+      "correct": 47,
+      "total": 50
+    },
+    {
+      "model": "o4-mini",
+      "accuracy": 0.92,
+      "total_cost": 0.049436,
+      "cost_per_correct": 0.0010747,
+      "correct": 46,
+      "total": 50
+    },
+    {
+      "model": "gpt-5.4",
+      "accuracy": 0.92,
+      "total_cost": 0.053292,
+      "cost_per_correct": 0.00115852,
+      "correct": 46,
+      "total": 50
+    },
+    {
+      "model": "gpt-5.1-chat",
+      "accuracy": 0.94,
+      "total_cost": 0.056308,
+      "cost_per_correct": 0.00119804,
+      "correct": 47,
+      "total": 50
+    },
+    {
+      "model": "kimi-k2.6",
+      "accuracy": 0.94,
+      "total_cost": 0.057221,
+      "cost_per_correct": 0.00121746,
+      "correct": 47,
+      "total": 50
+    },
+    {
+      "model": "mistral-large-latest",
+      "accuracy": 0.88,
+      "total_cost": 0.057098,
+      "cost_per_correct": 0.00129768,
+      "correct": 44,
+      "total": 50
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "accuracy": 0.92,
+      "total_cost": 0.061279,
+      "cost_per_correct": 0.00133215,
+      "correct": 46,
+      "total": 50
+    },
+    {
+      "model": "x-ai/grok-4.20",
+      "accuracy": 0.92,
+      "total_cost": 0.063684,
+      "cost_per_correct": 0.00138443,
+      "correct": 46,
+      "total": 50
+    },
+    {
+      "model": "o3",
+      "accuracy": 0.94,
+      "total_cost": 0.065932,
+      "cost_per_correct": 0.00140281,
+      "correct": 47,
+      "total": 50
+    },
+    {
+      "model": "gpt-4o",
+      "accuracy": 0.88,
+      "total_cost": 0.06523,
+      "cost_per_correct": 0.0014825,
+      "correct": 44,
+      "total": 50
+    },
+    {
+      "model": "gemini-3.1-pro-preview",
+      "accuracy": 0.94,
+      "total_cost": 0.079528,
+      "cost_per_correct": 0.00169207,
+      "correct": 47,
+      "total": 50
+    },
+    {
+      "model": "qwen/qwen3.6-max-preview",
+      "accuracy": 0.94,
+      "total_cost": 0.089283,
+      "cost_per_correct": 0.00189963,
+      "correct": 47,
+      "total": 50
+    },
+    {
+      "model": "claude-sonnet-4-20250514",
+      "accuracy": 0.92,
+      "total_cost": 0.099096,
+      "cost_per_correct": 0.00215426,
+      "correct": 46,
+      "total": 50
+    },
+    {
+      "model": "gpt-5.5",
+      "accuracy": 0.94,
+      "total_cost": 0.103494,
+      "cost_per_correct": 0.002202,
+      "correct": 47,
+      "total": 50
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "accuracy": 0.88,
+      "total_cost": 0.099126,
+      "cost_per_correct": 0.00225286,
+      "correct": 44,
+      "total": 50
+    },
+    {
+      "model": "gpt-5.5-pro",
+      "accuracy": 0.92,
+      "total_cost": 0.23571,
+      "cost_per_correct": 0.00512413,
+      "correct": 46,
+      "total": 50
+    },
+    {
+      "model": "claude-opus-4-7",
+      "accuracy": 0.92,
+      "total_cost": 0.679965,
+      "cost_per_correct": 0.01478185,
+      "correct": 46,
+      "total": 50
+    }
+  ],
+  "moderation_toxigen": [
+    {
+      "model": "qwen/qwen-turbo",
+      "accuracy": 0.84,
+      "total_cost": 0.000105,
+      "cost_per_correct": 2.49e-06,
+      "correct": 42,
+      "total": 50
+    },
+    {
+      "model": "meta-llama/llama-3.2-1b-instruct",
+      "accuracy": 0.5,
+      "total_cost": 8.6e-05,
+      "cost_per_correct": 3.45e-06,
+      "correct": 25,
+      "total": 50
+    },
+    {
+      "model": "ministral-3b-latest",
+      "accuracy": 0.66,
+      "total_cost": 0.000115,
+      "cost_per_correct": 3.49e-06,
+      "correct": 33,
+      "total": 50
+    },
+    {
+      "model": "meta-llama/llama-3.2-3b-instruct",
+      "accuracy": 0.84,
+      "total_cost": 0.000162,
+      "cost_per_correct": 3.85e-06,
+      "correct": 42,
+      "total": 50
+    },
+    {
+      "model": "google/gemma-4-26b-a4b-it",
+      "accuracy": 0.84,
+      "total_cost": 0.000191,
+      "cost_per_correct": 4.54e-06,
+      "correct": 42,
+      "total": 50
+    },
+    {
+      "model": "microsoft/phi-4",
+      "accuracy": 0.9,
+      "total_cost": 0.000238,
+      "cost_per_correct": 5.28e-06,
+      "correct": 45,
+      "total": 50
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "accuracy": 0.88,
+      "total_cost": 0.000294,
+      "cost_per_correct": 6.68e-06,
+      "correct": 44,
+      "total": 50
+    },
+    {
+      "model": "devstral-latest",
+      "accuracy": 0.9,
+      "total_cost": 0.000313,
+      "cost_per_correct": 6.97e-06,
+      "correct": 45,
+      "total": 50
+    },
+    {
+      "model": "gpt-5.4-nano",
+      "accuracy": 0.82,
+      "total_cost": 0.000367,
+      "cost_per_correct": 8.96e-06,
+      "correct": 41,
+      "total": 50
+    },
+    {
+      "model": "gemini-2.5-flash",
+      "accuracy": 0.92,
+      "total_cost": 0.000419,
+      "cost_per_correct": 9.1e-06,
+      "correct": 46,
+      "total": 50
+    },
+    {
+      "model": "mistral-small-latest",
+      "accuracy": 0.78,
+      "total_cost": 0.000371,
+      "cost_per_correct": 9.52e-06,
+      "correct": 39,
+      "total": 50
+    },
+    {
+      "model": "gpt-4o-mini",
+      "accuracy": 0.88,
+      "total_cost": 0.000466,
+      "cost_per_correct": 1.058e-05,
+      "correct": 44,
+      "total": 50
+    },
+    {
+      "model": "meta-llama/llama-4-maverick",
+      "accuracy": 0.92,
+      "total_cost": 0.000551,
+      "cost_per_correct": 1.198e-05,
+      "correct": 46,
+      "total": 50
+    },
+    {
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "accuracy": 0.94,
+      "total_cost": 0.000696,
+      "cost_per_correct": 1.48e-05,
+      "correct": 47,
+      "total": 50
+    },
+    {
+      "model": "qwen/qwen3-coder",
+      "accuracy": 0.88,
+      "total_cost": 0.000719,
+      "cost_per_correct": 1.635e-05,
+      "correct": 44,
+      "total": 50
+    },
+    {
+      "model": "deepseek/deepseek-v3.2",
+      "accuracy": 0.92,
+      "total_cost": 0.000815,
+      "cost_per_correct": 1.772e-05,
+      "correct": 46,
+      "total": 50
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "accuracy": 0.88,
+      "total_cost": 0.00089,
+      "cost_per_correct": 2.023e-05,
+      "correct": 44,
+      "total": 50
+    },
+    {
+      "model": "gpt-5.4-mini",
+      "accuracy": 0.84,
+      "total_cost": 0.001101,
+      "cost_per_correct": 2.621e-05,
+      "correct": 42,
+      "total": 50
+    },
+    {
+      "model": "mistral-medium-latest",
+      "accuracy": 0.92,
+      "total_cost": 0.001354,
+      "cost_per_correct": 2.943e-05,
+      "correct": 46,
+      "total": 50
+    },
+    {
+      "model": "deepseek/deepseek-v4-flash",
+      "accuracy": 0.9302,
+      "total_cost": 0.001346,
+      "cost_per_correct": 3.365e-05,
+      "correct": 40,
+      "total": 43
+    },
+    {
+      "model": "bytedance-seed/seed-2.0-mini",
+      "accuracy": 0.9,
+      "total_cost": 0.002496,
+      "cost_per_correct": 5.547e-05,
+      "correct": 45,
+      "total": 50
+    },
+    {
+      "model": "qwen/qwen-max",
+      "accuracy": 0.94,
+      "total_cost": 0.003322,
+      "cost_per_correct": 7.068e-05,
+      "correct": 47,
+      "total": 50
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "accuracy": 0.88,
+      "total_cost": 0.00327,
+      "cost_per_correct": 7.433e-05,
+      "correct": 44,
+      "total": 50
+    },
+    {
+      "model": "bytedance-seed/seed-1.6-flash",
+      "accuracy": 0.96,
+      "total_cost": 0.00367,
+      "cost_per_correct": 7.647e-05,
+      "correct": 48,
+      "total": 50
+    },
+    {
+      "model": "gemini-2.5-pro",
+      "accuracy": 0.94,
+      "total_cost": 0.003739,
+      "cost_per_correct": 7.955e-05,
+      "correct": 47,
+      "total": 50
+    },
+    {
+      "model": "bytedance-seed/seed-2.0-lite",
+      "accuracy": 0.92,
+      "total_cost": 0.006335,
+      "cost_per_correct": 0.00013772,
+      "correct": 46,
+      "total": 50
+    },
+    {
+      "model": "mistral-large-latest",
+      "accuracy": 0.9,
+      "total_cost": 0.00627,
+      "cost_per_correct": 0.00013933,
+      "correct": 45,
+      "total": 50
+    },
+    {
+      "model": "gpt-5.4",
+      "accuracy": 0.94,
+      "total_cost": 0.007332,
+      "cost_per_correct": 0.000156,
+      "correct": 47,
+      "total": 50
+    },
+    {
+      "model": "gemini-3.1-pro-preview",
+      "accuracy": 0.86,
+      "total_cost": 0.007168,
+      "cost_per_correct": 0.00016669,
+      "correct": 43,
+      "total": 50
+    },
+    {
+      "model": "gpt-4o",
+      "accuracy": 0.86,
+      "total_cost": 0.00775,
+      "cost_per_correct": 0.00018023,
+      "correct": 43,
+      "total": 50
+    },
+    {
+      "model": "x-ai/grok-4-fast",
+      "accuracy": 0.98,
+      "total_cost": 0.008984,
+      "cost_per_correct": 0.00018335,
+      "correct": 49,
+      "total": 50
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro",
+      "accuracy": 0.96,
+      "total_cost": 0.009141,
+      "cost_per_correct": 0.00019044,
+      "correct": 48,
+      "total": 50
+    },
+    {
+      "model": "gpt-5.1-chat",
+      "accuracy": 0.9024,
+      "total_cost": 0.00977,
+      "cost_per_correct": 0.00026405,
+      "correct": 37,
+      "total": 41
+    },
+    {
+      "model": "claude-sonnet-4-20250514",
+      "accuracy": 0.92,
+      "total_cost": 0.012264,
+      "cost_per_correct": 0.00026661,
+      "correct": 46,
+      "total": 50
+    },
+    {
+      "model": "x-ai/grok-code-fast-1",
+      "accuracy": 0.96,
+      "total_cost": 0.012822,
+      "cost_per_correct": 0.00026712,
+      "correct": 48,
+      "total": 50
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "accuracy": 0.92,
+      "total_cost": 0.012354,
+      "cost_per_correct": 0.00026857,
+      "correct": 46,
+      "total": 50
+    },
+    {
+      "model": "seed-2-0-pro-260328",
+      "accuracy": 0.94,
+      "total_cost": 0.014143,
+      "cost_per_correct": 0.00030092,
+      "correct": 47,
+      "total": 50
+    },
+    {
+      "model": "seed-2-0-code-preview-260328",
+      "accuracy": 0.92,
+      "total_cost": 0.015472,
+      "cost_per_correct": 0.00033634,
+      "correct": 46,
+      "total": 50
+    },
+    {
+      "model": "x-ai/grok-4.20",
+      "accuracy": 0.86,
+      "total_cost": 0.017536,
+      "cost_per_correct": 0.00040781,
+      "correct": 43,
+      "total": 50
+    },
+    {
+      "model": "qwen/qwen3.6-flash",
+      "accuracy": 0.9,
+      "total_cost": 0.020499,
+      "cost_per_correct": 0.00045553,
+      "correct": 45,
+      "total": 50
+    },
+    {
+      "model": "qwen/qwen3.6-plus",
+      "accuracy": 0.88,
+      "total_cost": 0.025742,
+      "cost_per_correct": 0.00058505,
+      "correct": 44,
+      "total": 50
+    },
+    {
+      "model": "o4-mini",
+      "accuracy": 0.9512,
+      "total_cost": 0.024474,
+      "cost_per_correct": 0.00062754,
+      "correct": 39,
+      "total": 41
+    },
+    {
+      "model": "o3",
+      "accuracy": 0.94,
+      "total_cost": 0.036372,
+      "cost_per_correct": 0.00077387,
+      "correct": 47,
+      "total": 50
+    },
+    {
+      "model": "gpt-5.5",
+      "accuracy": 0.94,
+      "total_cost": 0.038562,
+      "cost_per_correct": 0.00082047,
+      "correct": 47,
+      "total": 50
+    },
+    {
+      "model": "kimi-k2.6",
+      "accuracy": 0.94,
+      "total_cost": 0.042259,
+      "cost_per_correct": 0.00089913,
+      "correct": 47,
+      "total": 50
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "accuracy": 0.86,
+      "total_cost": 0.043945,
+      "cost_per_correct": 0.00102198,
+      "correct": 43,
+      "total": 50
+    },
+    {
+      "model": "claude-opus-4-7",
+      "accuracy": 0.86,
+      "total_cost": 0.09072,
+      "cost_per_correct": 0.00210977,
+      "correct": 43,
+      "total": 50
+    },
+    {
+      "model": "qwen/qwen3.6-max-preview",
+      "accuracy": 0.88,
+      "total_cost": 0.100915,
+      "cost_per_correct": 0.00229352,
+      "correct": 44,
+      "total": 50
+    },
+    {
+      "model": "gpt-5.5-pro",
+      "accuracy": 0.98,
+      "total_cost": 0.13773,
+      "cost_per_correct": 0.00281082,
+      "correct": 49,
+      "total": 50
+    }
+  ],
+  "multistep_reasoning": [
+    {
+      "model": "ministral-3b-latest",
+      "accuracy": 0.9,
+      "total_cost": 0.000253,
+      "cost_per_correct": 5.61e-06,
+      "correct": 45,
+      "total": 50
+    },
+    {
+      "model": "meta-llama/llama-3.2-1b-instruct",
+      "accuracy": 1.0,
+      "total_cost": 0.00034,
+      "cost_per_correct": 6.8e-06,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "qwen/qwen-turbo",
+      "accuracy": 1.0,
+      "total_cost": 0.000657,
+      "cost_per_correct": 1.314e-05,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "meta-llama/llama-3.2-3b-instruct",
+      "accuracy": 1.0,
+      "total_cost": 0.000695,
+      "cost_per_correct": 1.39e-05,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "gpt-5.4-nano",
+      "accuracy": 0.84,
+      "total_cost": 0.000599,
+      "cost_per_correct": 1.427e-05,
+      "correct": 42,
+      "total": 50
+    },
+    {
+      "model": "microsoft/phi-4",
+      "accuracy": 1.0,
+      "total_cost": 0.001111,
+      "cost_per_correct": 2.221e-05,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "google/gemma-4-26b-a4b-it",
+      "accuracy": 1.0,
+      "total_cost": 0.001294,
+      "cost_per_correct": 2.587e-05,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "gemini-2.5-flash",
+      "accuracy": 0.94,
+      "total_cost": 0.001221,
+      "cost_per_correct": 2.599e-05,
+      "correct": 47,
+      "total": 50
+    },
+    {
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "accuracy": 0.9512,
+      "total_cost": 0.001122,
+      "cost_per_correct": 2.876e-05,
+      "correct": 39,
+      "total": 41
+    },
+    {
+      "model": "gpt-5.4-mini",
+      "accuracy": 0.88,
+      "total_cost": 0.001942,
+      "cost_per_correct": 4.413e-05,
+      "correct": 44,
+      "total": 50
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "accuracy": 1.0,
+      "total_cost": 0.002355,
+      "cost_per_correct": 4.711e-05,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "Llama-4-Scout-17B-16E-Instruct",
+      "accuracy": 1.0,
+      "total_cost": 0.003027,
+      "cost_per_correct": 6.055e-05,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "devstral-latest",
+      "accuracy": 1.0,
+      "total_cost": 0.003408,
+      "cost_per_correct": 6.816e-05,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "mistral-small-latest",
+      "accuracy": 1.0,
+      "total_cost": 0.003606,
+      "cost_per_correct": 7.213e-05,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "deepseek/deepseek-v4-flash",
+      "accuracy": 0.96,
+      "total_cost": 0.005548,
+      "cost_per_correct": 0.00011559,
+      "correct": 48,
+      "total": 50
+    },
+    {
+      "model": "gpt-4o-mini",
+      "accuracy": 1.0,
+      "total_cost": 0.006712,
+      "cost_per_correct": 0.00013424,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "Codestral-2501",
+      "accuracy": 1.0,
+      "total_cost": 0.008644,
+      "cost_per_correct": 0.00017287,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "mistral-medium-latest",
+      "accuracy": 0.96,
+      "total_cost": 0.00876,
+      "cost_per_correct": 0.00018251,
+      "correct": 48,
+      "total": 50
+    },
+    {
+      "model": "DeepSeek-V3.2",
+      "accuracy": 1.0,
+      "total_cost": 0.010223,
+      "cost_per_correct": 0.00020446,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "deepseek/deepseek-v3.2",
+      "accuracy": 1.0,
+      "total_cost": 0.010629,
+      "cost_per_correct": 0.00021258,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "meta-llama/llama-4-maverick",
+      "accuracy": 1.0,
+      "total_cost": 0.011357,
+      "cost_per_correct": 0.00022715,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "bytedance-seed/seed-1.6-flash",
+      "accuracy": 1.0,
+      "total_cost": 0.011457,
+      "cost_per_correct": 0.00022914,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "qwen/qwen3-coder",
+      "accuracy": 1.0,
+      "total_cost": 0.011686,
+      "cost_per_correct": 0.00023371,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "gpt-5.4",
+      "accuracy": 0.92,
+      "total_cost": 0.011984,
+      "cost_per_correct": 0.00026052,
+      "correct": 46,
+      "total": 50
+    },
+    {
+      "model": "bytedance-seed/seed-2.0-mini",
+      "accuracy": 1.0,
+      "total_cost": 0.013385,
+      "cost_per_correct": 0.00026769,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "gemini-3.1-pro-preview",
+      "accuracy": 0.92,
+      "total_cost": 0.015,
+      "cost_per_correct": 0.00032609,
+      "correct": 46,
+      "total": 50
+    },
+    {
+      "model": "x-ai/grok-4-fast",
+      "accuracy": 0.96,
+      "total_cost": 0.015754,
+      "cost_per_correct": 0.00032821,
+      "correct": 48,
+      "total": 50
+    },
+    {
+      "model": "x-ai/grok-code-fast-1",
+      "accuracy": 0.94,
+      "total_cost": 0.015511,
+      "cost_per_correct": 0.00033002,
+      "correct": 47,
+      "total": 50
+    },
+    {
+      "model": "gpt-5.1-chat",
+      "accuracy": 0.92,
+      "total_cost": 0.01564,
+      "cost_per_correct": 0.00034,
+      "correct": 46,
+      "total": 50
+    },
+    {
+      "model": "mistral-large-latest",
+      "accuracy": 0.96,
+      "total_cost": 0.019254,
+      "cost_per_correct": 0.00040113,
+      "correct": 48,
+      "total": 50
+    },
+    {
+      "model": "mistral-medium-2505",
+      "accuracy": 1.0,
+      "total_cost": 0.021052,
+      "cost_per_correct": 0.00042105,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro",
+      "accuracy": 0.94,
+      "total_cost": 0.020717,
+      "cost_per_correct": 0.00044078,
+      "correct": 47,
+      "total": 50
+    },
+    {
+      "model": "bytedance-seed/seed-2.0-lite",
+      "accuracy": 1.0,
+      "total_cost": 0.035147,
+      "cost_per_correct": 0.00071729,
+      "correct": 49,
+      "total": 49
+    },
+    {
+      "model": "qwen/qwen-max",
+      "accuracy": 1.0,
+      "total_cost": 0.043727,
+      "cost_per_correct": 0.00087454,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "o4-mini",
+      "accuracy": 0.92,
+      "total_cost": 0.046455,
+      "cost_per_correct": 0.0010099,
+      "correct": 46,
+      "total": 50
+    },
+    {
+      "model": "gpt-5.5",
+      "accuracy": 0.92,
+      "total_cost": 0.046584,
+      "cost_per_correct": 0.0010127,
+      "correct": 46,
+      "total": 50
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "accuracy": 1.0,
+      "total_cost": 0.052787,
+      "cost_per_correct": 0.00105574,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "seed-2-0-pro-260328",
+      "accuracy": 1.0,
+      "total_cost": 0.061198,
+      "cost_per_correct": 0.00122396,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "qwen/qwen3.6-plus",
+      "accuracy": 1.0,
+      "total_cost": 0.057005,
+      "cost_per_correct": 0.00123924,
+      "correct": 46,
+      "total": 46
+    },
+    {
+      "model": "seed-2-0-code-preview-260328",
+      "accuracy": 1.0,
+      "total_cost": 0.065892,
+      "cost_per_correct": 0.00131785,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "DeepSeek-R1",
+      "accuracy": 1.0,
+      "total_cost": 0.067832,
+      "cost_per_correct": 0.00141317,
+      "correct": 48,
+      "total": 48
+    },
+    {
+      "model": "qwen/qwen3.6-flash",
+      "accuracy": 1.0,
+      "total_cost": 0.075409,
+      "cost_per_correct": 0.00150819,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "grok-4-20-non-reasoning",
+      "accuracy": 1.0,
+      "total_cost": 0.07574,
+      "cost_per_correct": 0.0015148,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "grok-4-20-reasoning",
+      "accuracy": 1.0,
+      "total_cost": 0.077604,
+      "cost_per_correct": 0.00155208,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "o3",
+      "accuracy": 0.92,
+      "total_cost": 0.072256,
+      "cost_per_correct": 0.00157078,
+      "correct": 46,
+      "total": 50
+    },
+    {
+      "model": "x-ai/grok-4.20",
+      "accuracy": 1.0,
+      "total_cost": 0.088708,
+      "cost_per_correct": 0.00177416,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "kimi-k2.6",
+      "accuracy": 0.96,
+      "total_cost": 0.090335,
+      "cost_per_correct": 0.00188199,
+      "correct": 48,
+      "total": 50
+    },
+    {
+      "model": "gemini-2.5-pro",
+      "accuracy": 1.0,
+      "total_cost": 0.116678,
+      "cost_per_correct": 0.00233355,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "accuracy": 0.98,
+      "total_cost": 0.115344,
+      "cost_per_correct": 0.00235396,
+      "correct": 49,
+      "total": 50
+    },
+    {
+      "model": "gpt-5.5-pro",
+      "accuracy": 0.92,
+      "total_cost": 0.11662,
+      "cost_per_correct": 0.00253522,
+      "correct": 46,
+      "total": 50
+    },
+    {
+      "model": "gpt-4o",
+      "accuracy": 1.0,
+      "total_cost": 0.128645,
+      "cost_per_correct": 0.0025729,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "accuracy": 1.0,
+      "total_cost": 0.137487,
+      "cost_per_correct": 0.00274974,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "claude-opus-4-7",
+      "accuracy": 0.94,
+      "total_cost": 0.13701,
+      "cost_per_correct": 0.00291511,
+      "correct": 47,
+      "total": 50
+    },
+    {
+      "model": "claude-sonnet-4-20250514",
+      "accuracy": 1.0,
+      "total_cost": 0.214992,
+      "cost_per_correct": 0.00429984,
+      "correct": 50,
+      "total": 50
+    },
+    {
+      "model": "qwen/qwen3.6-max-preview",
+      "accuracy": 0.98,
+      "total_cost": 0.251312,
+      "cost_per_correct": 0.00512882,
+      "correct": 49,
+      "total": 50
+    }
+  ]
+}

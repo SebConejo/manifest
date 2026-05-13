@@ -1,0 +1,61 @@
+{
+  "single_best": {
+    "model": "devstral-latest",
+    "avg_score": 4.747,
+    "avg_cost_per_query": 6.3e-05
+  },
+  "routed_best_quality": {
+    "picks": {
+      "sentiment_sst2": "google/gemma-4-26b-a4b-it",
+      "intent_clinc150": "gemini-2.5-flash",
+      "moderation_toxigen": "x-ai/grok-4-fast",
+      "multistep_reasoning": "meta-llama/llama-3.2-1b-instruct",
+      "reasoning_gsm8k": "qwen/qwen3-8b",
+      "rag_qa": "qwen/qwen3-8b",
+      "code_generation": "devstral-latest",
+      "code_review_v2": "gpt-5.1-chat",
+      "code_explanation": "microsoft/phi-4",
+      "test_generation_v2": "qwen/qwen-turbo",
+      "function_calling": "qwen/qwen3-coder",
+      "sql_spider": "o4-mini",
+      "translation_enfr": "gemini-3.1-pro-preview",
+      "instruction_following": "qwen/qwen-turbo",
+      "structured_output": "x-ai/grok-4.20",
+      "extraction_hard_v2": "qwen/qwen3-8b",
+      "json_transform_v2": "qwen/qwen3-coder",
+      "email_summary_v2": "gpt-5.4-nano",
+      "long_summarization": "qwen/qwen-turbo",
+      "data_to_text": "qwen/qwen-turbo",
+      "ner_extraction": "gpt-5.5-pro"
+    },
+    "avg_score": 4.87,
+    "avg_cost_per_query": 0.000653
+  },
+  "routed_cheapest_adequate": {
+    "picks": {
+      "sentiment_sst2": "qwen/qwen-turbo",
+      "intent_clinc150": "qwen/qwen-turbo",
+      "moderation_toxigen": "qwen/qwen-turbo",
+      "multistep_reasoning": "ministral-3b-latest",
+      "reasoning_gsm8k": "qwen/qwen-turbo",
+      "rag_qa": "qwen/qwen-turbo",
+      "code_generation": "qwen/qwen-turbo",
+      "code_review_v2": "qwen/qwen-turbo",
+      "code_explanation": "meta-llama/llama-3.2-1b-instruct",
+      "test_generation_v2": "qwen/qwen-turbo",
+      "function_calling": "qwen/qwen-turbo",
+      "sql_spider": "qwen/qwen-turbo",
+      "translation_enfr": "qwen/qwen-turbo",
+      "instruction_following": "qwen/qwen-turbo",
+      "structured_output": "meta-llama/llama-3.2-1b-instruct",
+      "extraction_hard_v2": "qwen/qwen-turbo",
+      "json_transform_v2": "qwen/qwen-turbo",
+      "email_summary_v2": "meta-llama/llama-3.2-1b-instruct",
+      "long_summarization": "meta-llama/llama-3.2-1b-instruct",
+      "data_to_text": "meta-llama/llama-3.2-1b-instruct",
+      "ner_extraction": "qwen/qwen-turbo"
+    },
+    "avg_cost_per_query": 9e-06
+  },
+  "savings_vs_single_best": "86%"
+}

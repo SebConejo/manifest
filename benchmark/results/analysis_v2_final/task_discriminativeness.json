@@ -1,0 +1,149 @@
+{
+  "intent_clinc150": {
+    "min": 1.5,
+    "max": 4.7,
+    "spread": 3.2,
+    "std": 0.624,
+    "n_models": 48
+  },
+  "reasoning_gsm8k": {
+    "min": 1.84,
+    "max": 4.92,
+    "spread": 3.08,
+    "std": 0.486,
+    "n_models": 48
+  },
+  "rag_qa": {
+    "min": 2.5,
+    "max": 4.98,
+    "spread": 2.48,
+    "std": 0.657,
+    "n_models": 48
+  },
+  "moderation_toxigen": {
+    "min": 2.5,
+    "max": 4.9,
+    "spread": 2.4,
+    "std": 0.392,
+    "n_models": 49
+  },
+  "sentiment_sst2": {
+    "min": 3.1,
+    "max": 5.0,
+    "spread": 1.9,
+    "std": 0.276,
+    "n_models": 48
+  },
+  "function_calling": {
+    "min": 2.82,
+    "max": 4.64,
+    "spread": 1.82,
+    "std": 0.266,
+    "n_models": 49
+  },
+  "sql_spider": {
+    "min": 3.0,
+    "max": 4.78,
+    "spread": 1.78,
+    "std": 0.298,
+    "n_models": 48
+  },
+  "json_transform_v2": {
+    "min": 3.4,
+    "max": 4.94,
+    "spread": 1.54,
+    "std": 0.255,
+    "n_models": 48
+  },
+  "translation_enfr": {
+    "min": 3.4,
+    "max": 4.84,
+    "spread": 1.44,
+    "std": 0.282,
+    "n_models": 48
+  },
+  "code_generation": {
+    "min": 3.3,
+    "max": 4.7,
+    "spread": 1.4,
+    "std": 0.379,
+    "n_models": 48
+  },
+  "test_generation_v2": {
+    "min": 3.4,
+    "max": 4.78,
+    "spread": 1.38,
+    "std": 0.281,
+    "n_models": 48
+  },
+  "ner_extraction": {
+    "min": 3.32,
+    "max": 4.7,
+    "spread": 1.38,
+    "std": 0.201,
+    "n_models": 48
+  },
+  "code_review_v2": {
+    "min": 3.58,
+    "max": 4.94,
+    "spread": 1.36,
+    "std": 0.296,
+    "n_models": 48
+  },
+  "extraction_hard_v2": {
+    "min": 3.66,
+    "max": 4.84,
+    "spread": 1.18,
+    "std": 0.159,
+    "n_models": 48
+  },
+  "instruction_following": {
+    "min": 3.84,
+    "max": 4.66,
+    "spread": 0.82,
+    "std": 0.195,
+    "n_models": 48
+  },
+  "code_explanation": {
+    "min": 4.188,
+    "max": 5.0,
+    "spread": 0.812,
+    "std": 0.119,
+    "n_models": 48
+  },
+  "multistep_reasoning": {
+    "min": 4.2,
+    "max": 5.0,
+    "spread": 0.8,
+    "std": 0.192,
+    "n_models": 55
+  },
+  "email_summary_v2": {
+    "min": 4.38,
+    "max": 5.0,
+    "spread": 0.62,
+    "std": 0.097,
+    "n_models": 47
+  },
+  "long_summarization": {
+    "min": 4.5,
+    "max": 5.0,
+    "spread": 0.5,
+    "std": 0.097,
+    "n_models": 48
+  },
+  "data_to_text": {
+    "min": 4.5,
+    "max": 5.0,
+    "spread": 0.5,
+    "std": 0.094,
+    "n_models": 48
+  },
+  "structured_output": {
+    "min": 4.463,
+    "max": 4.951,
+    "spread": 0.488,
+    "std": 0.081,
+    "n_models": 48
+  }
+}

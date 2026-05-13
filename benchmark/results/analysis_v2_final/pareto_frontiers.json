@@ -1,0 +1,566 @@
+{
+  "code_explanation": [
+    {
+      "model": "meta-llama/llama-3.2-1b-instruct",
+      "avg_score": 4.188,
+      "avg_cost": 5e-06,
+      "tier": "Micro"
+    },
+    {
+      "model": "qwen/qwen-turbo",
+      "avg_score": 4.979,
+      "avg_cost": 7e-06,
+      "tier": "Micro"
+    },
+    {
+      "model": "microsoft/phi-4",
+      "avg_score": 5.0,
+      "avg_cost": 1.7e-05,
+      "tier": "Micro"
+    }
+  ],
+  "code_generation": [
+    {
+      "model": "meta-llama/llama-3.2-1b-instruct",
+      "avg_score": 3.32,
+      "avg_cost": 6e-06,
+      "tier": "Micro"
+    },
+    {
+      "model": "qwen/qwen-turbo",
+      "avg_score": 4.04,
+      "avg_cost": 7e-06,
+      "tier": "Micro"
+    },
+    {
+      "model": "ministral-3b-latest",
+      "avg_score": 4.22,
+      "avg_cost": 9e-06,
+      "tier": "Micro"
+    },
+    {
+      "model": "google/gemma-4-26b-a4b-it",
+      "avg_score": 4.46,
+      "avg_cost": 1.4e-05,
+      "tier": "Micro"
+    },
+    {
+      "model": "devstral-latest",
+      "avg_score": 4.7,
+      "avg_cost": 3.5e-05,
+      "tier": "Economy"
+    }
+  ],
+  "code_review_v2": [
+    {
+      "model": "meta-llama/llama-3.2-1b-instruct",
+      "avg_score": 3.58,
+      "avg_cost": 1.9e-05,
+      "tier": "Micro"
+    },
+    {
+      "model": "qwen/qwen-turbo",
+      "avg_score": 4.34,
+      "avg_cost": 2.9e-05,
+      "tier": "Micro"
+    },
+    {
+      "model": "google/gemma-4-26b-a4b-it",
+      "avg_score": 4.38,
+      "avg_cost": 5.3e-05,
+      "tier": "Micro"
+    },
+    {
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "avg_score": 4.54,
+      "avg_cost": 8e-05,
+      "tier": "Economy"
+    },
+    {
+      "model": "devstral-latest",
+      "avg_score": 4.64,
+      "avg_cost": 0.000245,
+      "tier": "Economy"
+    },
+    {
+      "model": "gpt-5.4-nano",
+      "avg_score": 4.84,
+      "avg_cost": 0.000343,
+      "tier": "Micro"
+    },
+    {
+      "model": "gpt-5.1-chat",
+      "avg_score": 4.94,
+      "avg_cost": 0.003963,
+      "tier": "Standard"
+    }
+  ],
+  "data_to_text": [
+    {
+      "model": "meta-llama/llama-3.2-1b-instruct",
+      "avg_score": 4.56,
+      "avg_cost": 5e-06,
+      "tier": "Micro"
+    },
+    {
+      "model": "qwen/qwen-turbo",
+      "avg_score": 5.0,
+      "avg_cost": 7e-06,
+      "tier": "Micro"
+    }
+  ],
+  "email_summary_v2": [
+    {
+      "model": "meta-llama/llama-3.2-1b-instruct",
+      "avg_score": 4.38,
+      "avg_cost": 5e-06,
+      "tier": "Micro"
+    },
+    {
+      "model": "qwen/qwen-turbo",
+      "avg_score": 4.92,
+      "avg_cost": 5e-06,
+      "tier": "Micro"
+    },
+    {
+      "model": "microsoft/phi-4",
+      "avg_score": 4.98,
+      "avg_cost": 1.1e-05,
+      "tier": "Micro"
+    },
+    {
+      "model": "gpt-5.4-nano",
+      "avg_score": 5.0,
+      "avg_cost": 3.8e-05,
+      "tier": "Micro"
+    }
+  ],
+  "extraction_hard_v2": [
+    {
+      "model": "meta-llama/llama-3.2-1b-instruct",
+      "avg_score": 3.66,
+      "avg_cost": 1.3e-05,
+      "tier": "Micro"
+    },
+    {
+      "model": "qwen/qwen-turbo",
+      "avg_score": 4.58,
+      "avg_cost": 1.7e-05,
+      "tier": "Micro"
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "avg_score": 4.84,
+      "avg_cost": 5.3e-05,
+      "tier": "Micro"
+    }
+  ],
+  "function_calling": [
+    {
+      "model": "qwen/qwen-turbo",
+      "avg_score": 4.4,
+      "avg_cost": 4e-06,
+      "tier": "Micro"
+    },
+    {
+      "model": "ministral-3b-latest",
+      "avg_score": 4.5,
+      "avg_cost": 5e-06,
+      "tier": "Micro"
+    },
+    {
+      "model": "google/gemma-4-26b-a4b-it",
+      "avg_score": 4.54,
+      "avg_cost": 9e-06,
+      "tier": "Micro"
+    },
+    {
+      "model": "microsoft/phi-4",
+      "avg_score": 4.58,
+      "avg_cost": 1e-05,
+      "tier": "Micro"
+    },
+    {
+      "model": "devstral-latest",
+      "avg_score": 4.6,
+      "avg_cost": 2.1e-05,
+      "tier": "Economy"
+    },
+    {
+      "model": "qwen/qwen3-coder",
+      "avg_score": 4.64,
+      "avg_cost": 4.6e-05,
+      "tier": "Economy"
+    }
+  ],
+  "instruction_following": [
+    {
+      "model": "qwen/qwen-turbo",
+      "avg_score": 4.66,
+      "avg_cost": 4e-06,
+      "tier": "Micro"
+    }
+  ],
+  "intent_clinc150": [
+    {
+      "model": "meta-llama/llama-3.2-1b-instruct",
+      "avg_score": 1.8,
+      "avg_cost": 1.4e-05,
+      "tier": "Micro"
+    },
+    {
+      "model": "qwen/qwen-turbo",
+      "avg_score": 4.1,
+      "avg_cost": 1.7e-05,
+      "tier": "Micro"
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "avg_score": 4.5,
+      "avg_cost": 3.6e-05,
+      "tier": "Micro"
+    },
+    {
+      "model": "google/gemma-4-26b-a4b-it",
+      "avg_score": 4.6,
+      "avg_cost": 3.8e-05,
+      "tier": "Micro"
+    },
+    {
+      "model": "gemini-2.5-flash",
+      "avg_score": 4.7,
+      "avg_cost": 9.5e-05,
+      "tier": "Economy"
+    }
+  ],
+  "json_transform_v2": [
+    {
+      "model": "meta-llama/llama-3.2-1b-instruct",
+      "avg_score": 3.4,
+      "avg_cost": 6e-06,
+      "tier": "Micro"
+    },
+    {
+      "model": "qwen/qwen-turbo",
+      "avg_score": 4.54,
+      "avg_cost": 7e-06,
+      "tier": "Micro"
+    },
+    {
+      "model": "meta-llama/llama-4-maverick",
+      "avg_score": 4.7,
+      "avg_cost": 7.2e-05,
+      "tier": "Economy"
+    },
+    {
+      "model": "qwen/qwen3-coder",
+      "avg_score": 4.94,
+      "avg_cost": 9.5e-05,
+      "tier": "Economy"
+    }
+  ],
+  "long_summarization": [
+    {
+      "model": "meta-llama/llama-3.2-1b-instruct",
+      "avg_score": 4.5,
+      "avg_cost": 1.1e-05,
+      "tier": "Micro"
+    },
+    {
+      "model": "qwen/qwen-turbo",
+      "avg_score": 5.0,
+      "avg_cost": 1.4e-05,
+      "tier": "Micro"
+    }
+  ],
+  "moderation_toxigen": [
+    {
+      "model": "meta-llama/llama-3.2-1b-instruct",
+      "avg_score": 2.5,
+      "avg_cost": 2e-06,
+      "tier": "Micro"
+    },
+    {
+      "model": "qwen/qwen-turbo",
+      "avg_score": 4.2,
+      "avg_cost": 2e-06,
+      "tier": "Micro"
+    },
+    {
+      "model": "microsoft/phi-4",
+      "avg_score": 4.5,
+      "avg_cost": 5e-06,
+      "tier": "Micro"
+    },
+    {
+      "model": "gemini-2.5-flash",
+      "avg_score": 4.6,
+      "avg_cost": 8e-06,
+      "tier": "Economy"
+    },
+    {
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "avg_score": 4.7,
+      "avg_cost": 1.4e-05,
+      "tier": "Economy"
+    },
+    {
+      "model": "bytedance-seed/seed-1.6-flash",
+      "avg_score": 4.8,
+      "avg_cost": 7.3e-05,
+      "tier": "Micro"
+    },
+    {
+      "model": "x-ai/grok-4-fast",
+      "avg_score": 4.9,
+      "avg_cost": 0.00018,
+      "tier": "Standard"
+    }
+  ],
+  "multistep_reasoning": [
+    {
+      "model": "ministral-3b-latest",
+      "avg_score": 4.5,
+      "avg_cost": 5e-06,
+      "tier": "Micro"
+    },
+    {
+      "model": "meta-llama/llama-3.2-1b-instruct",
+      "avg_score": 5.0,
+      "avg_cost": 7e-06,
+      "tier": "Micro"
+    }
+  ],
+  "ner_extraction": [
+    {
+      "model": "meta-llama/llama-3.2-1b-instruct",
+      "avg_score": 3.32,
+      "avg_cost": 3e-06,
+      "tier": "Micro"
+    },
+    {
+      "model": "qwen/qwen-turbo",
+      "avg_score": 4.3,
+      "avg_cost": 4e-06,
+      "tier": "Micro"
+    },
+    {
+      "model": "ministral-3b-latest",
+      "avg_score": 4.48,
+      "avg_cost": 4e-06,
+      "tier": "Micro"
+    },
+    {
+      "model": "google/gemma-4-26b-a4b-it",
+      "avg_score": 4.6,
+      "avg_cost": 7e-06,
+      "tier": "Micro"
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "avg_score": 4.62,
+      "avg_cost": 2.9e-05,
+      "tier": "Micro"
+    },
+    {
+      "model": "x-ai/grok-4-fast",
+      "avg_score": 4.68,
+      "avg_cost": 0.000247,
+      "tier": "Standard"
+    },
+    {
+      "model": "gpt-5.5-pro",
+      "avg_score": 4.7,
+      "avg_cost": 0.003916,
+      "tier": "Premium"
+    }
+  ],
+  "rag_qa": [
+    {
+      "model": "meta-llama/llama-3.2-1b-instruct",
+      "avg_score": 3.54,
+      "avg_cost": 6e-06,
+      "tier": "Micro"
+    },
+    {
+      "model": "qwen/qwen-turbo",
+      "avg_score": 4.96,
+      "avg_cost": 8e-06,
+      "tier": "Micro"
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "avg_score": 4.98,
+      "avg_cost": 3.1e-05,
+      "tier": "Micro"
+    }
+  ],
+  "reasoning_gsm8k": [
+    {
+      "model": "meta-llama/llama-3.2-1b-instruct",
+      "avg_score": 3.66,
+      "avg_cost": 8e-06,
+      "tier": "Micro"
+    },
+    {
+      "model": "qwen/qwen-turbo",
+      "avg_score": 4.76,
+      "avg_cost": 1e-05,
+      "tier": "Micro"
+    },
+    {
+      "model": "microsoft/phi-4",
+      "avg_score": 4.9,
+      "avg_cost": 2.4e-05,
+      "tier": "Micro"
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "avg_score": 4.92,
+      "avg_cost": 6.9e-05,
+      "tier": "Micro"
+    }
+  ],
+  "sentiment_sst2": [
+    {
+      "model": "meta-llama/llama-3.2-1b-instruct",
+      "avg_score": 3.1,
+      "avg_cost": 2e-06,
+      "tier": "Micro"
+    },
+    {
+      "model": "qwen/qwen-turbo",
+      "avg_score": 4.6,
+      "avg_cost": 2e-06,
+      "tier": "Micro"
+    },
+    {
+      "model": "ministral-3b-latest",
+      "avg_score": 4.7,
+      "avg_cost": 2e-06,
+      "tier": "Micro"
+    },
+    {
+      "model": "meta-llama/llama-3.2-3b-instruct",
+      "avg_score": 4.8,
+      "avg_cost": 3e-06,
+      "tier": "Micro"
+    },
+    {
+      "model": "google/gemma-4-26b-a4b-it",
+      "avg_score": 5.0,
+      "avg_cost": 4e-06,
+      "tier": "Micro"
+    }
+  ],
+  "sql_spider": [
+    {
+      "model": "meta-llama/llama-3.2-1b-instruct",
+      "avg_score": 3.0,
+      "avg_cost": 3e-06,
+      "tier": "Micro"
+    },
+    {
+      "model": "qwen/qwen-turbo",
+      "avg_score": 4.58,
+      "avg_cost": 3e-06,
+      "tier": "Micro"
+    },
+    {
+      "model": "devstral-latest",
+      "avg_score": 4.7,
+      "avg_cost": 1.9e-05,
+      "tier": "Economy"
+    },
+    {
+      "model": "deepseek/deepseek-v3.2",
+      "avg_score": 4.74,
+      "avg_cost": 5.5e-05,
+      "tier": "Economy"
+    },
+    {
+      "model": "o4-mini",
+      "avg_score": 4.78,
+      "avg_cost": 0.002466,
+      "tier": "Standard"
+    }
+  ],
+  "structured_output": [
+    {
+      "model": "meta-llama/llama-3.2-1b-instruct",
+      "avg_score": 4.463,
+      "avg_cost": 7e-06,
+      "tier": "Micro"
+    },
+    {
+      "model": "qwen/qwen-turbo",
+      "avg_score": 4.854,
+      "avg_cost": 7e-06,
+      "tier": "Micro"
+    },
+    {
+      "model": "google/gemma-4-26b-a4b-it",
+      "avg_score": 4.878,
+      "avg_cost": 1.4e-05,
+      "tier": "Micro"
+    },
+    {
+      "model": "devstral-latest",
+      "avg_score": 4.927,
+      "avg_cost": 4.1e-05,
+      "tier": "Economy"
+    },
+    {
+      "model": "x-ai/grok-4.20",
+      "avg_score": 4.951,
+      "avg_cost": 0.001113,
+      "tier": "Standard"
+    }
+  ],
+  "test_generation_v2": [
+    {
+      "model": "meta-llama/llama-3.2-1b-instruct",
+      "avg_score": 3.4,
+      "avg_cost": 1.7e-05,
+      "tier": "Micro"
+    },
+    {
+      "model": "qwen/qwen-turbo",
+      "avg_score": 4.78,
+      "avg_cost": 2.2e-05,
+      "tier": "Micro"
+    }
+  ],
+  "translation_enfr": [
+    {
+      "model": "meta-llama/llama-3.2-1b-instruct",
+      "avg_score": 3.4,
+      "avg_cost": 2e-06,
+      "tier": "Micro"
+    },
+    {
+      "model": "qwen/qwen-turbo",
+      "avg_score": 4.5,
+      "avg_cost": 3e-06,
+      "tier": "Micro"
+    },
+    {
+      "model": "google/gemma-4-26b-a4b-it",
+      "avg_score": 4.8,
+      "avg_cost": 1.2e-05,
+      "tier": "Micro"
+    },
+    {
+      "model": "devstral-latest",
+      "avg_score": 4.82,
+      "avg_cost": 2.6e-05,
+      "tier": "Economy"
+    },
+    {
+      "model": "gemini-3.1-pro-preview",
+      "avg_score": 4.84,
+      "avg_cost": 0.001533,
+      "tier": "Standard"
+    }
+  ]
+}

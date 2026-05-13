@@ -1,0 +1,128 @@
+{
+  "sentiment_sst2": {
+    "Micro": 4.7,
+    "Economy": 4.946666666666667,
+    "Standard": 4.9523809523809526,
+    "Premium": 4.85
+  },
+  "intent_clinc150": {
+    "Micro": 3.6799999999999997,
+    "Economy": 4.5527891156462585,
+    "Standard": 4.609523809523809,
+    "Premium": 4.6
+  },
+  "moderation_toxigen": {
+    "Micro": 4.08,
+    "Economy": 4.506666666666667,
+    "Standard": 4.5599752488011145,
+    "Premium": 4.6
+  },
+  "multistep_reasoning": {
+    "Micro": 4.87,
+    "Economy": 4.89040650406504,
+    "Standard": 4.867857142857142,
+    "Premium": 4.65
+  },
+  "reasoning_gsm8k": {
+    "Micro": 4.672000000000001,
+    "Economy": 4.591646258503402,
+    "Standard": 4.72357628765792,
+    "Premium": 4.05
+  },
+  "rag_qa": {
+    "Micro": 4.465999999999999,
+    "Economy": 4.1952592592592595,
+    "Standard": 4.1265248226950355,
+    "Premium": 4.449999999999999
+  },
+  "code_generation": {
+    "Micro": 4.224,
+    "Economy": 4.197579678679983,
+    "Standard": 4.279404761904762,
+    "Premium": 4.29
+  },
+  "code_review_v2": {
+    "Micro": 4.230916666666667,
+    "Economy": 4.494518518518519,
+    "Standard": 4.5123271634235085,
+    "Premium": 4.65
+  },
+  "code_explanation": {
+    "Micro": 4.866578014184396,
+    "Economy": 4.923611111111112,
+    "Standard": 4.93033988957902,
+    "Premium": 4.90625
+  },
+  "test_generation_v2": {
+    "Micro": 4.189840579710145,
+    "Economy": 4.192619481835288,
+    "Standard": 4.217803692905733,
+    "Premium": 4.214444444444444
+  },
+  "function_calling": {
+    "Micro": 4.274653061224489,
+    "Economy": 4.428241424229267,
+    "Standard": 4.476456400742116,
+    "Premium": 4.48
+  },
+  "sql_spider": {
+    "Micro": 4.252,
+    "Economy": 4.546181818181819,
+    "Standard": 4.545952380952381,
+    "Premium": 4.35
+  },
+  "translation_enfr": {
+    "Micro": 4.324,
+    "Economy": 4.551401360544218,
+    "Standard": 4.663848396501458,
+    "Premium": 4.71
+  },
+  "instruction_following": {
+    "Micro": 4.2379999999999995,
+    "Economy": 4.423183673469388,
+    "Standard": 4.42421768707483,
+    "Premium": 4.4399999999999995
+  },
+  "structured_output": {
+    "Micro": 4.809756097560975,
+    "Economy": 4.85979674796748,
+    "Standard": 4.887253193960511,
+    "Premium": 4.853658536585366
+  },
+  "extraction_hard_v2": {
+    "Micro": 4.362,
+    "Economy": 4.468571428571428,
+    "Standard": 4.470575709329509,
+    "Premium": 4.470000000000001
+  },
+  "json_transform_v2": {
+    "Micro": 4.250857142857143,
+    "Economy": 4.493333333333334,
+    "Standard": 4.487239697462359,
+    "Premium": 4.48
+  },
+  "email_summary_v2": {
+    "Micro": 4.872,
+    "Economy": 4.968571428571429,
+    "Standard": 4.96952380952381,
+    "Premium": 4.99
+  },
+  "long_summarization": {
+    "Micro": 4.919755102040816,
+    "Economy": 4.949333333333334,
+    "Standard": 4.9504761904761905,
+    "Premium": 4.970000000000001
+  },
+  "data_to_text": {
+    "Micro": 4.948,
+    "Economy": 4.957333333333334,
+    "Standard": 4.998095238095239,
+    "Premium": 5.0
+  },
+  "ner_extraction": {
+    "Micro": 4.334,
+    "Economy": 4.502666666666667,
+    "Standard": 4.55904761904762,
+    "Premium": 4.62
+  }
+}
