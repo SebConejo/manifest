@@ -3,11 +3,12 @@
   "task": "email_summary_v2",
   "case": 8,
   "response": "",
-  "score": 5,
+  "score": 0,
   "cost": 2.745e-05,
   "expected": "",
   "tokens": {
     "input": 105,
     "output": 200
-  }
+  },
+  "score_before_empty_fix_v2": 5
 }
