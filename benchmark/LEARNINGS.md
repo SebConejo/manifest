@@ -326,3 +326,36 @@ minutes at ~$0.60.
 **Lesson:** Every provider caller must check HTTP status codes, not just the JSON body.
 Different providers use different error response formats. The `if "error" in response`
 pattern only works for OpenAI-style errors.
+
+---
+
+## 18. Manual Label Placement for Paper Figures (critical)
+
+**What happened:** We iterated 7 times (v2-v8) on Pareto scatter plot labels.
+Every automatic approach failed:
+- `adjustText` library: labels ended up far from their points with long arrows
+  crossing the entire graph, or stacked on top of each other, or placed over
+  the legend.
+- Manual offset with collision detection: still produced overlaps because the
+  collision zones were estimated in data coordinates, not pixel coordinates.
+- Increasing `force_text`, `force_points`, `expand` parameters: pushed labels
+  to the edges of the plot or outside the axes.
+
+**Root cause:** Scatter plots with 48 clustered points in a small area are a
+worst case for auto-placement. The points are too dense and the label bounding
+boxes too large. No amount of parameter tuning fixes this — the layout problem
+is overconstrained.
+
+**Fix:** Fully manual placement with `ax.annotate(xytext=(dx, dy), textcoords='offset points')`.
+Each label position is hardcoded as a pixel offset from its point. Max 3 labels
+per panel. Pick only the models that matter for the story (Pareto winner, worst
+model, Premium outlier). Let the rest be anonymous dots — the reader can look up
+individual models in the data tables.
+
+**The validated style is documented in PARETO_STYLE_GUIDE.md.** Any future session
+generating paper figures MUST read that file first and follow it exactly.
+
+**Lesson:** For publication figures, never use auto-placement libraries. They
+work for dashboards and exploratory charts, not for arXiv. Budget 5-10 minutes
+per figure for manual label positioning. It's faster than 7 iterations of
+auto-placement debugging.
