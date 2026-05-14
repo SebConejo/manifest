@@ -11,5 +11,8 @@
     "output": 1055
   },
   "judge_rerun": true,
-  "judge_raw": "3"
+  "judge_raw": "3",
+  "judge_v2_score": 5,
+  "judge_v2_raw": "5",
+  "judge_v2_model": "gpt-4o"
 }
