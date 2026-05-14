@@ -10,5 +10,8 @@
     "input": 142,
     "output": 12
   },
-  "score_clamped_from": 5
+  "score_clamped_from": 5,
+  "judge_v2_score": 3,
+  "judge_v2_raw": "3",
+  "judge_v2_model": "gpt-4o"
 }
