@@ -4,10 +4,12 @@
   "case": 43,
   "response": "if not numbers:\n    return []\n\nresult = [numbers[0]]\nfor num in numbers[1:]:\n    result.append(delimeter)\n    result.append(num)\nreturn result",
   "score": 5,
-  "cost": 0.000562,
+  "cost": 0.000281,
   "expected": "",
   "tokens": {
     "input": 129,
     "output": 38
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

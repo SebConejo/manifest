@@ -4,10 +4,12 @@
   "case": 44,
   "response": "This code finds all connected components in an undirected graph by running a breadth\u2011first search (BFS) from each unvisited node. For each BFS, it collects all reachable nodes into a component list and returns the list of all such components.",
   "score": 4,
-  "cost": 0.00069,
+  "cost": 0.000276,
   "expected": "",
   "tokens": {
     "input": 129,
     "output": 54
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

@@ -4,10 +4,12 @@
   "case": 40,
   "response": "Full citizenship rights \u2014 \u201cassimilation.\u201d",
   "score": 5,
-  "cost": 0.002535,
+  "cost": 0.008865,
   "expected": "assimilation",
   "tokens": {
     "input": 171,
     "output": 84
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

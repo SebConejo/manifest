@@ -4,9 +4,11 @@
   "case": 4,
   "response": "SELECT\n  DATE_TRUNC('month', created_at) AS month,\n  COUNT(*) AS signups,\n  (COUNT(*) - LAG(COUNT(*)) OVER (ORDER BY DATE_TRUNC('month', created_at)))\n    / NULLIF(LAG(COUNT(*)) OVER (ORDER BY DATE_TRUNC('month', created_at)), 0) AS growth_rate\nFROM users\nGROUP BY DATE_TRUNC('month', created_at)\nORDER BY month;",
   "score": 4,
-  "cost": 0.000952,
+  "cost": 0.0003808,
   "tokens": {
     "input": 60,
     "output": 104
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

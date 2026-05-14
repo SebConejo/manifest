@@ -4,10 +4,12 @@
   "case": 9,
   "response": "The nightly ETL failed at 3 AM due to a Salesforce schema change breaking the connector, leaving dashboards with stale data since yesterday. Data Engineering has deployed a fix and is running a backfill, with full recovery expected by 4 PM today.",
   "score": 5,
-  "cost": 0.003585,
+  "cost": 0.013095,
   "expected": "",
   "tokens": {
     "input": 93,
     "output": 156
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

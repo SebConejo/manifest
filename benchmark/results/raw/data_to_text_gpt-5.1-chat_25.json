@@ -4,10 +4,12 @@
   "case": 25,
   "response": "Japan, with a population of about 125 million, has a GDP of $4.2 trillion and is experiencing 1.1% economic growth. The country reports low unemployment at 2.6% but faces 3.2% inflation and a high debt\u2011to\u2011GDP ratio of 263%. Japan\u2019s life expectancy stands at 84.6 years, and its exports total approximately $756 billion.",
   "score": 5,
-  "cost": 0.000908,
+  "cost": 0.00036320000000000005,
   "expected": "",
   "tokens": {
     "input": 102,
     "output": 88
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

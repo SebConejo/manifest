@@ -4,10 +4,12 @@
   "case": 37,
   "response": "SELECT Song_Name, Song_release_year\nFROM singer\nWHERE Age = (SELECT MIN(Age) FROM singer);",
   "score": 3,
-  "cost": 0.0085,
+  "cost": 0.03159,
   "expected": "",
   "tokens": {
     "input": 76,
     "output": 406
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

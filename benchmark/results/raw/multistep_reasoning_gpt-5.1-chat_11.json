@@ -4,10 +4,12 @@
   "case": 11,
   "response": "Step by step:\n\u2022 Forest floors are shaded, so sunlight is limited.\n\u2022 Trees compete for light by growing leaves where sunlight is strongest.\n\u2022 The top of the tree receives the most direct sunlight.\n\nFinal answer: B",
   "score": 5,
-  "cost": 0.000594,
+  "cost": 0.00023760000000000003,
   "expected": "B",
   "tokens": {
     "input": 81,
     "output": 54
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

@@ -4,10 +4,12 @@
   "case": 18,
   "response": "Eve originally had 20 pomelos.\n\nShe was left with \\( \\frac{1}{4} \\) of them:\n\n\\[\n\\frac{1}{4} \\times 20 = 5\n\\]\n\nSo Eve had 5 pomelos left.\n\nThe number she gave away was:\n\n\\[\n20 - 5 = 15\n\\]\n\nANSWER: 15",
   "score": 5,
-  "cost": 0.00332,
+  "cost": 0.012135,
   "expected": "15",
   "tokens": {
     "input": 84,
     "output": 145
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

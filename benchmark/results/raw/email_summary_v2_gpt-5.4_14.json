@@ -4,10 +4,12 @@
   "case": 14,
   "response": "DevOps reports that the AWS bill increased 40% month-over-month, mainly due to new ML training jobs using p4d instances at $32/hour, with an estimated monthly impact of $45K. Action item: decide by Friday whether to use spot instances for up to 70% savings with interruption risk or reserved instances for about 30% savings with a commitment.",
   "score": 5,
-  "cost": 0.000846,
+  "cost": 0.000423,
   "expected": "",
   "tokens": {
     "input": 107,
     "output": 79
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

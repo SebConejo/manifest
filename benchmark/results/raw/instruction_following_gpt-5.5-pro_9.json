@@ -4,10 +4,12 @@
   "case": 9,
   "response": "April, June, September, November",
   "score": 5,
-  "cost": 0.0011,
+  "cost": 0.004035,
   "expected": "",
   "tokens": {
     "input": 24,
     "output": 49
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

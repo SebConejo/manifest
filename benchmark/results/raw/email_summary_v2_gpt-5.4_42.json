@@ -4,10 +4,12 @@
   "case": 42,
   "response": "Sales reported that in yesterday\u2019s workshop with 15 enterprise customers, the main feedback was demand for better bulk import, SSO blockers for 5 accounts, strong positive reactions to the new analytics dashboard, and unexpected interest from 3 customers in the internal tool as a standalone product. Action items are to review the attached follow-up report and prioritize improvements to bulk import and SSO while evaluating standalone product potential for the internal tool.",
   "score": 5,
-  "cost": 0.00092,
+  "cost": 0.00046,
   "expected": "",
   "tokens": {
     "input": 108,
     "output": 88
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

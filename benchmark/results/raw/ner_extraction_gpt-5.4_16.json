@@ -4,10 +4,12 @@
   "case": 16,
   "response": "{\"persons\":[\"Angela Merkel\"],\"organizations\":[\"White House\"],\"locations\":[\"German\"]}",
   "score": 2,
-  "cost": 0.000306,
+  "cost": 0.000153,
   "expected": "",
   "tokens": {
     "input": 69,
     "output": 21
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

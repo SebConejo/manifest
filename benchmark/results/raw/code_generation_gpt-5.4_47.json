@@ -4,10 +4,12 @@
   "case": 47,
   "response": "return ' '.join(str(i) for i in range(n + 1))",
   "score": 5,
-  "cost": 0.00035,
+  "cost": 0.000175,
   "expected": "",
   "tokens": {
     "input": 99,
     "output": 19
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

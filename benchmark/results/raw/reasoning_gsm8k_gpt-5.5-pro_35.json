@@ -4,10 +4,12 @@
   "case": 35,
   "response": "Peaches: \\(6 \\times 2 = 12\\)\n\nPlums: \\(8 \\times 1 = 8\\)\n\nApricots: \\(6 \\times 3 = 18\\)\n\nTotal spent: \\(12 + 8 + 18 = 38\\)\n\nANSWER: 38",
   "score": 5,
-  "cost": 0.003515,
+  "cost": 0.012735,
   "expected": "38",
   "tokens": {
     "input": 119,
     "output": 146
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

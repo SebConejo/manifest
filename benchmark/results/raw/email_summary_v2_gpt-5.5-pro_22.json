@@ -4,10 +4,12 @@
   "case": 22,
   "response": "International plans to launch in Japan with entity setup in May, localization in June, a 10-customer beta in July, and GA in August, supported by a $200K budget. Action item: obtain CEO approval to proceed.",
   "score": 5,
-  "cost": 0.002425,
+  "cost": 0.00873,
   "expected": "",
   "tokens": {
     "input": 97,
     "output": 97
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

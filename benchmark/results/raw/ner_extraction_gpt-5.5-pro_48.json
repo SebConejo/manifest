@@ -4,10 +4,12 @@
   "case": 48,
   "response": "{\"persons\":[],\"organizations\":[\"TSMC\",\"Department of Commerce\"],\"locations\":[\"Phoenix\",\"Arizona\"]}",
   "score": 5,
-  "cost": 0.00582,
+  "cost": 0.02154,
   "expected": "",
   "tokens": {
     "input": 76,
     "output": 272
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

@@ -4,10 +4,12 @@
   "case": 15,
   "response": "Here are four words that rhyme with cat:\n\n- hat  \n- bat  \n- mat  \n- sat",
   "score": 5,
-  "cost": 0.000276,
+  "cost": 0.0001104,
   "expected": "",
   "tokens": {
     "input": 18,
     "output": 30
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

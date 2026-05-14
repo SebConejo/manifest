@@ -4,10 +4,12 @@
   "case": 22,
   "response": "{\"company\":\"Acme Corp\",\"age_years\":11,\"size\":\"medium\",\"total_funding\":25000000,\"latest_round\":{\"series\":\"B\",\"amount\":20000000}}",
   "score": 4,
-  "cost": 0.000628,
+  "cost": 0.000314,
   "expected": "",
   "tokens": {
     "input": 150,
     "output": 41
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

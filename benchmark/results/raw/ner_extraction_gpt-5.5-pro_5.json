@@ -4,10 +4,12 @@
   "case": 5,
   "response": "{\"persons\":[\"Dr. James Wilson\"],\"organizations\":[\"Stanford University\",\"IEEE\"],\"locations\":[\"Tokyo\"]}",
   "score": 5,
-  "cost": 0.0037,
+  "cost": 0.013605,
   "expected": "",
   "tokens": {
     "input": 72,
     "output": 167
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

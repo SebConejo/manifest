@@ -4,10 +4,12 @@
   "case": 32,
   "response": "return ''.join(\n    ''.join(sorted(part)) if part.strip() else part\n    for part in __import__('re').findall(r'\\S+|\\s+', s)\n)",
   "score": 4,
-  "cost": 0.000646,
+  "cost": 0.000323,
   "expected": "",
   "tokens": {
     "input": 159,
     "output": 41
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

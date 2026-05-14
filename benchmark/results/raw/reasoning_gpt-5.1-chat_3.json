@@ -4,9 +4,11 @@
   "case": 3,
   "response": "ANSWER: 4 days",
   "score": 2,
-  "cost": 0.00192,
+  "cost": 0.0007680000000000001,
   "tokens": {
     "input": 132,
     "output": 207
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

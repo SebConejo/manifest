@@ -4,10 +4,12 @@
   "case": 35,
   "response": "They escape by clapping their lobes, expelling water in a jet that drives them backwards very quickly.",
   "score": 5,
-  "cost": 0.000734,
+  "cost": 0.000367,
   "expected": "by clapping their lobes",
   "tokens": {
     "input": 267,
     "output": 25
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

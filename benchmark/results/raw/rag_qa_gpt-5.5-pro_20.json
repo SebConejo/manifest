@@ -4,10 +4,12 @@
   "case": 20,
   "response": "Erg\u00e4nzungsschulen are funded entirely by charging their students tuition fees.",
   "score": 5,
-  "cost": 0.00175,
+  "cost": 0.00603,
   "expected": "tuition",
   "tokens": {
     "input": 142,
     "output": 52
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

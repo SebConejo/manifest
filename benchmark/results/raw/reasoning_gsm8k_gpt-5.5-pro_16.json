@@ -4,10 +4,12 @@
   "case": 16,
   "response": "Sarah spent $300 total, and each book cost $15.\n\nNumber of books Sarah bought:\n\n$300 \u00f7 $15 = 20 books\n\nShe gave the books equally to her 4 kids:\n\n20 \u00f7 4 = 5\n\nEach child got 5 books.\n\nANSWER: 5",
   "score": 5,
-  "cost": 0.00303,
+  "cost": 0.01104,
   "expected": "5",
   "tokens": {
     "input": 86,
     "output": 130
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

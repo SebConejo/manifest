@@ -4,10 +4,12 @@
   "case": 16,
   "response": "SELECT COUNT(DISTINCT country_code) AS distinct_country_codes\nFROM players;",
   "score": 5,
-  "cost": 0.000294,
+  "cost": 0.000147,
   "expected": "",
   "tokens": {
     "input": 71,
     "output": 19
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

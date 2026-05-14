@@ -4,10 +4,12 @@
   "case": 10,
   "response": "{\"items\": 4, \"subtotal\": 1136, \"discount_code\": \"SAVE20\", \"member_discount\": true, \"estimated_total\": 1136}",
   "score": 4,
-  "cost": 0.001138,
+  "cost": 0.00045520000000000006,
   "expected": "",
   "tokens": {
     "input": 133,
     "output": 109
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

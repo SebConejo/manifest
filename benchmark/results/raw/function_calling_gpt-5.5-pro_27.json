@@ -4,10 +4,12 @@
   "case": 27,
   "response": "{\"name\":\"convert_currency\",\"arguments\":{\"amount\":500.0,\"from_currency\":\"EUR\",\"to_currency\":\"JPY\"}}",
   "score": 5,
-  "cost": 0.00305,
+  "cost": 0.011055,
   "expected": "",
   "tokens": {
     "input": 102,
     "output": 127
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

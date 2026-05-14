@@ -4,10 +4,12 @@
   "case": 46,
   "response": "Los Angeles Kings",
   "score": 5,
-  "cost": 0.001715,
+  "cost": 0.005985,
   "expected": "Los Angeles Kings",
   "tokens": {
     "input": 119,
     "output": 56
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

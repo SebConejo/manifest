@@ -4,10 +4,12 @@
   "case": 2,
   "response": "J\u00e9sus vint et parla distinctement et avec bont\u00e9 : \u00ab C\u2019est moi. \u00bb Cette expression devint le fondement de la foi des ap\u00f4tres.",
   "score": 5,
-  "cost": 0.00801,
+  "cost": 0.02985,
   "expected": "",
   "tokens": {
     "input": 50,
     "output": 388
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

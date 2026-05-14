@@ -4,10 +4,12 @@
   "case": 20,
   "response": "SELECT a.abbreviation, a.country\nFROM airlines a\nJOIN flights f ON a.airline_id = f.airline_id\nGROUP BY a.airline_id, a.abbreviation, a.country\nORDER BY COUNT(f.flight_id) ASC\nFETCH FIRST 1 ROW ONLY;",
   "score": 4,
-  "cost": 0.000678,
+  "cost": 0.00027120000000000003,
   "expected": "",
   "tokens": {
     "input": 75,
     "output": 66
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

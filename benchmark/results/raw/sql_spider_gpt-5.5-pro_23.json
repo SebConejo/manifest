@@ -4,10 +4,12 @@
   "case": 23,
   "response": "SELECT production_code, channel\nFROM cartoon\nWHERE original_air_date = (\n  SELECT MAX(original_air_date)\n  FROM cartoon\n);",
   "score": 4,
-  "cost": 0.045665,
+  "cost": 0.17097,
   "expected": "",
   "tokens": {
     "input": 73,
     "output": 2265
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

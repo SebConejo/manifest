@@ -4,10 +4,12 @@
   "case": 6,
   "response": "Acme Corp, a $450K ARR customer, is threatening to churn after three weeks of API latency spikes and five days without support response. James has assigned a dedicated engineer and needs an executive sponsor for a customer call this week.",
   "score": 5,
-  "cost": 0.003395,
+  "cost": 0.012345,
   "expected": "",
   "tokens": {
     "input": 103,
     "output": 144
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

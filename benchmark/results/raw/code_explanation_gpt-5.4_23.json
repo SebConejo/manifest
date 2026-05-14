@@ -4,10 +4,12 @@
   "case": 23,
   "response": "This function performs a binary search on a sorted list `a` to find the leftmost index where `x` could be inserted while keeping the list sorted. It uses the classic lower-bound / bisection pattern by repeatedly halving the search range until `lo` is the first position where `a[i] >= x`.",
   "score": 5,
-  "cost": 0.000738,
+  "cost": 0.000369,
   "expected": "",
   "tokens": {
     "input": 93,
     "output": 69
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

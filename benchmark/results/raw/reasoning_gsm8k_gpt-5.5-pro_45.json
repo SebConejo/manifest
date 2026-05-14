@@ -4,10 +4,12 @@
   "case": 45,
   "response": "Each car needs 4 wheels:\n\n57 \u00d7 4 = 228 wheels\n\nEach motorcycle needs 2 wheels:\n\n73 \u00d7 2 = 146 wheels\n\nTotal wheels needed:\n\n228 + 146 = 374 wheels\n\nWheels left:\n\n650 \u2212 374 = 276\n\nANSWER: 276",
   "score": 5,
-  "cost": 0.003325,
+  "cost": 0.01209,
   "expected": "276",
   "tokens": {
     "input": 101,
     "output": 141
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

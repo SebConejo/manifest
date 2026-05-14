@@ -4,10 +4,12 @@
   "case": 36,
   "response": "P99 latency for `/api/v2/search` rose from 200ms to 800ms after Thursday\u2019s deploy because the new full-text search query is not using an index. Backend will add a GIN index on the `content` column and deploy the fix during tonight\u2019s maintenance window.",
   "score": 5,
-  "cost": 0.00252,
+  "cost": 0.00909,
   "expected": "",
   "tokens": {
     "input": 96,
     "output": 102
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

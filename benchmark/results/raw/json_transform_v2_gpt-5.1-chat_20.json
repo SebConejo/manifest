@@ -4,10 +4,12 @@
   "case": 20,
   "response": "{\"departments\":{\"eng\":{\"headcount\":2,\"avg_salary\":115000,\"employees\":[\"Alice\",\"Bob\"]},\"sales\":{\"headcount\":2,\"avg_salary\":100000,\"employees\":[\"Carol\",\"Dave\"]}}}",
   "score": 5,
-  "cost": 0.00124,
+  "cost": 0.000496,
   "expected": "",
   "tokens": {
     "input": 144,
     "output": 119
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

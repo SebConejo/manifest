@@ -4,9 +4,11 @@
   "case": 4,
   "response": "ANSWER: 18",
   "score": 1,
-  "cost": 0.001286,
+  "cost": 0.0005144000000000001,
   "tokens": {
     "input": 75,
     "output": 142
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

@@ -4,10 +4,12 @@
   "case": 5,
   "response": "French: Les flocs issus de SRT plus \u00e9lev\u00e9s \u00e9taient moins hydrat\u00e9s et pr\u00e9sentaient une couche dense d\u2019EPS qui recouvrait une grande partie de leur surface.",
   "score": 5,
-  "cost": 0.000428,
+  "cost": 0.00017120000000000001,
   "expected": "",
   "tokens": {
     "input": 50,
     "output": 41
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

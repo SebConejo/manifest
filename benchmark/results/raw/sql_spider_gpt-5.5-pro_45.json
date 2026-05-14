@@ -4,10 +4,12 @@
   "case": 45,
   "response": "SELECT p.first_name, tt.treatment_type_description\nFROM Professionals AS p\nJOIN Treatments AS t\n  ON p.professional_id = t.professional_id\nJOIN Treatment_Types AS tt\n  ON t.treatment_type_code = tt.treatment_type_code;",
   "score": 5,
-  "cost": 0.01587,
+  "cost": 0.05922,
   "expected": "",
   "tokens": {
     "input": 78,
     "output": 774
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

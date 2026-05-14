@@ -4,10 +4,12 @@
   "case": 11,
   "response": "SOC 2 Type II audit is complete with no critical findings, but three observations were noted. Remediate within 30 days by improving access review frequency, testing the incident response plan, and completing vendor risk assessments for two vendors.",
   "score": 5,
-  "cost": 0.0033,
+  "cost": 0.012,
   "expected": "",
   "tokens": {
     "input": 100,
     "output": 140
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

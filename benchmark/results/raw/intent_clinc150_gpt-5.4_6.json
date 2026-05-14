@@ -4,10 +4,12 @@
   "case": 6,
   "response": "confirm_reservation",
   "score": 5,
-  "cost": 0.001078,
+  "cost": 0.000539,
   "expected": "confirm_reservation",
   "tokens": {
     "input": 515,
     "output": 6
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

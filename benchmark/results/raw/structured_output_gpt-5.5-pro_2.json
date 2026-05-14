@@ -4,10 +4,12 @@
   "case": 2,
   "response": "{\"product\":\"iPhone 15 Pro\",\"price\":999.0,\"colors\":[\"black titanium\",\"white titanium\",\"blue titanium\"],\"storage_options\":[\"128GB\",\"256GB\",\"512GB\",\"1TB\"]}",
   "score": 5,
-  "cost": 0.00245,
+  "cost": 0.008835,
   "expected": "",
   "tokens": {
     "input": 94,
     "output": 99
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

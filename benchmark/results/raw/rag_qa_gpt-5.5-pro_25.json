@@ -4,10 +4,12 @@
   "case": 25,
   "response": "Infrastructure.",
   "score": 5,
-  "cost": 0.002005,
+  "cost": 0.006915,
   "expected": "infrastructure",
   "tokens": {
     "input": 161,
     "output": 60
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

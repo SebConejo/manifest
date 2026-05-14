@@ -4,10 +4,12 @@
   "case": 28,
   "response": "{\"podcast\": \"The Daily\", \"publisher\": \"The New York Times\", \"episode_title\": \"The AI Race\", \"duration_minutes\": 28, \"release_date\": \"March 15 2024\", \"rating\": 4.8, \"downloads\": \"2.3M\"}",
   "score": 5,
-  "cost": 0.001316,
+  "cost": 0.0005264000000000001,
   "expected": "",
   "tokens": {
     "input": 114,
     "output": 136
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

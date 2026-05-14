@@ -4,10 +4,12 @@
   "case": 37,
   "response": "{\"persons\":[],\"organizations\":[\"University of Cambridge\",\"AstraZeneca\"],\"locations\":[\"Oxford\"]}",
   "score": 5,
-  "cost": 0.002425,
+  "cost": 0.00882,
   "expected": "",
   "tokens": {
     "input": 73,
     "output": 103
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

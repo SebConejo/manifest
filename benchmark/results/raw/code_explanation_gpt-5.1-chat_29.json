@@ -4,10 +4,12 @@
   "case": 29,
   "response": "This code implements a generic currying helper: it transforms a function into one that can be called with its arguments supplied in multiple stages. It checks how many parameters the original function expects and returns nested functions until all required arguments have been provided, at which point it calls the original function.",
   "score": 5,
-  "cost": 0.000718,
+  "cost": 0.0002872,
   "expected": "",
   "tokens": {
     "input": 91,
     "output": 67
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

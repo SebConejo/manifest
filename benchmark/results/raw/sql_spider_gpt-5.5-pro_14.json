@@ -4,10 +4,12 @@
   "case": 14,
   "response": "SELECT cm.FullName, cm.Id, COUNT(ml.ModelId) AS number\nFROM car_makers AS cm\nLEFT JOIN model_list AS ml ON cm.Id = ml.Maker\nGROUP BY cm.Id, cm.FullName;",
   "score": 5,
-  "cost": 0.01868,
+  "cost": 0.06975,
   "expected": "",
   "tokens": {
     "input": 80,
     "output": 914
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

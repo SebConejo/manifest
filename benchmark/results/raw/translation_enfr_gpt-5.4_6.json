@@ -4,10 +4,12 @@
   "case": 6,
   "response": "En ce moment, ce diable descend Wangan en voiture.",
   "score": 4,
-  "cost": 0.000196,
+  "cost": 9.8e-05,
   "expected": "",
   "tokens": {
     "input": 34,
     "output": 16
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

@@ -4,10 +4,12 @@
   "case": 47,
   "response": "cook_time",
   "score": 5,
-  "cost": 0.003885,
+  "cost": 0.01263,
   "expected": "cook_time",
   "tokens": {
     "input": 517,
     "output": 65
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

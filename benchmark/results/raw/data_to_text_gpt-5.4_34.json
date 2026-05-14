@@ -4,10 +4,12 @@
   "case": 34,
   "response": "Stockholm, the capital of Sweden, was founded in 1252 and today has a population of 1.6 million spread across an area of 188 km\u00b2. Swedish is the primary language, and the city has a GDP per capita of $62,000. Winters are cold, with an average January temperature of -3\u00b0C, while summers are mild, averaging 18\u00b0C in July.",
   "score": 5,
-  "cost": 0.000858,
+  "cost": 0.000429,
   "expected": "",
   "tokens": {
     "input": 93,
     "output": 84
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

@@ -4,10 +4,12 @@
   "case": 23,
   "response": "account_blocked",
   "score": 5,
-  "cost": 0.001128,
+  "cost": 0.00045120000000000007,
   "expected": "account_blocked",
   "tokens": {
     "input": 512,
     "output": 13
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

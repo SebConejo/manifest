@@ -4,10 +4,12 @@
   "case": 0,
   "response": "SELECT pp.Money_Rank\nFROM poker_player AS pp\nJOIN people AS p ON pp.People_ID = p.People_ID\nWHERE p.Height = (\n    SELECT MAX(p2.Height)\n    FROM poker_player AS pp2\n    JOIN people AS p2 ON pp2.People_ID = p2.People_ID\n);",
   "score": 4,
-  "cost": 0.058895,
+  "cost": 0.22059,
   "expected": "",
   "tokens": {
     "input": 71,
     "output": 2927
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

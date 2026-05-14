@@ -4,10 +4,12 @@
   "case": 9,
   "response": "The nightly ETL job failed at 3 AM because an upstream Salesforce schema change broke the connector, causing dashboards to show stale data since yesterday. A fix has been deployed and a backfill is running, with full recovery expected by 4 PM today.",
   "score": 5,
-  "cost": 0.000614,
+  "cost": 0.000307,
   "expected": "",
   "tokens": {
     "input": 91,
     "output": 54
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

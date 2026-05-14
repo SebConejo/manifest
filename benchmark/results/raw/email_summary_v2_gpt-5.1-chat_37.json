@@ -4,10 +4,12 @@
   "case": 37,
   "response": "The email says BigCo wants to acqui\u2011hire the 5\u2011person ML team for $15M, which the CEO believes is too low. The CEO recommends countering or declining, wants to discuss the response first, and says the board should be informed.",
   "score": 5,
-  "cost": 0.00071,
+  "cost": 0.000284,
   "expected": "",
   "tokens": {
     "input": 99,
     "output": 64
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

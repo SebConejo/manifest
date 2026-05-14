@@ -4,10 +4,12 @@
   "case": 5,
   "response": "return max(l)",
   "score": 5,
-  "cost": 0.004295,
+  "cost": 0.015675,
   "expected": "",
   "tokens": {
     "input": 115,
     "output": 186
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

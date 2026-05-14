@@ -4,10 +4,12 @@
   "case": 22,
   "response": "SELECT section_name\nFROM sections\nORDER BY section_name DESC;",
   "score": 5,
-  "cost": 0.000272,
+  "cost": 0.000136,
   "expected": "",
   "tokens": {
     "input": 72,
     "output": 16
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

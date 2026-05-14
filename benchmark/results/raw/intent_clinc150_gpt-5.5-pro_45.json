@@ -4,10 +4,12 @@
   "case": 45,
   "response": "accept_reservations",
   "score": 5,
-  "cost": 0.00523,
+  "cost": 0.017685,
   "expected": "accept_reservations",
   "tokens": {
     "input": 514,
     "output": 133
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

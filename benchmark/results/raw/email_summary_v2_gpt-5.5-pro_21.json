@@ -4,10 +4,12 @@
   "case": 21,
   "response": "Platform Team reports 47 active feature flags, including 23 older than 6 months, and proposes a cleanup sprint. Action items are to remove 15 fully rolled-out flags and archive 8 dead-code flags, reducing config complexity and speeding tests by about 12%.",
   "score": 5,
-  "cost": 0.002705,
+  "cost": 0.009765,
   "expected": "",
   "tokens": {
     "input": 101,
     "output": 110
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

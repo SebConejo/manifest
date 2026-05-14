@@ -4,10 +4,12 @@
   "case": 38,
   "response": "```\nnegatives = [x for x in lst if x < 0]\npositives = [x for x in lst if x > 0]\n\na = max(negatives) if negatives else None\nb = min(positives) if positives else None\n\nreturn (a, b)\n```",
   "score": 5,
-  "cost": 0.00093,
+  "cost": 0.000372,
   "expected": "",
   "tokens": {
     "input": 173,
     "output": 73
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

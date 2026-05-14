@@ -4,10 +4,12 @@
   "case": 36,
   "response": "SELECT s.name\nFROM students s\nJOIN likes l ON s.id = l.student_id\nGROUP BY s.id, s.name\nORDER BY COUNT(l.id) DESC\nFETCH FIRST 1 ROW ONLY;",
   "score": 4,
-  "cost": 0.000556,
+  "cost": 0.0002224,
   "expected": "",
   "tokens": {
     "input": 70,
     "output": 52
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

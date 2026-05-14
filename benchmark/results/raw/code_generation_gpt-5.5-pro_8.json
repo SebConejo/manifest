@@ -4,10 +4,12 @@
   "case": 8,
   "response": "return [value for value in values if type(value) is int]",
   "score": 5,
-  "cost": 0.025955,
+  "cost": 0.096855,
   "expected": "",
   "tokens": {
     "input": 127,
     "output": 1266
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

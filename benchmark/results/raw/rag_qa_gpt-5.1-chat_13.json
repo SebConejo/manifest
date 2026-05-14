@@ -4,10 +4,12 @@
   "case": 13,
   "response": "V/Line is owned by the Victorian Government.",
   "score": 5,
-  "cost": 0.000426,
+  "cost": 0.0001704,
   "expected": "Victorian Government",
   "tokens": {
     "input": 157,
     "output": 14
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

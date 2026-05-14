@@ -4,10 +4,12 @@
   "case": 26,
   "response": "The Privacy Team reports that user ID 45892 has submitted a GDPR data export request due by May 25. The team must gather all personal data across services, documentation of processing purposes, a third\u2011party sharing log, and analytics data as required by Legal.",
   "score": 5,
-  "cost": 0.000704,
+  "cost": 0.0002816,
   "expected": "",
   "tokens": {
     "input": 100,
     "output": 63
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

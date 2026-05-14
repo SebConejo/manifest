@@ -4,10 +4,12 @@
   "case": 31,
   "response": "return sorted([s for s in lst if len(s) % 2 == 0], key=lambda s: (len(s), s))",
   "score": 4,
-  "cost": 0.00968,
+  "cost": 0.035475,
   "expected": "",
   "tokens": {
     "input": 220,
     "output": 429
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

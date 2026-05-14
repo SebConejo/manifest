@@ -4,10 +4,12 @@
   "case": 33,
   "response": "OPEC raised the price of oil to $5.11 in response to American aid to Israel.",
   "score": 5,
-  "cost": 0.00078,
+  "cost": 0.000312,
   "expected": "In response to American aid to Israel",
   "tokens": {
     "input": 270,
     "output": 30
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

@@ -4,10 +4,12 @@
   "case": 16,
   "response": "Sarah spent $300 total, and each book cost $15.\n\nFirst, find how many books she bought:\n\n$300 \\div 15 = 20$\n\nSo Sarah bought 20 books.\n\nThen she gave them equally to her 4 kids:\n\n$20 \\div 4 = 5$\n\nEach child got 5 books.\n\nANSWER: 5",
   "score": 5,
-  "cost": 0.00076,
+  "cost": 0.00038,
   "expected": "5",
   "tokens": {
     "input": 84,
     "output": 74
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

@@ -4,10 +4,12 @@
   "case": 16,
   "response": "It runs many asynchronous coroutines while enforcing a maximum number running at the same time by wrapping each task with a semaphore. The function then launches them all and returns their results using asyncio.gather.",
   "score": 5,
-  "cost": 0.000558,
+  "cost": 0.0002232,
   "expected": "",
   "tokens": {
     "input": 83,
     "output": 49
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

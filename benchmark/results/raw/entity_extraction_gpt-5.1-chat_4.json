@@ -4,9 +4,11 @@
   "case": 4,
   "response": "{\n  \"persons\": [\n    \"Barack Obama\",\n    \"Michelle Obama\",\n    \"Brandon Johnson\",\n    \"JB Pritzker\"\n  ],\n  \"organizations\": [\n    \"Obama Presidential Center\"\n  ],\n  \"locations\": [\n    \"South Side of Chicago\",\n    \"Chicago\",\n    \"Illinois\"\n  ]\n}",
   "score": 4,
-  "cost": 0.000754,
+  "cost": 0.0003016,
   "tokens": {
     "input": 89,
     "output": 72
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

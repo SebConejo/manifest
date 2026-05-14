@@ -4,10 +4,12 @@
   "case": 22,
   "response": "The email outlines the Japan expansion plan: legal entity setup in May, localization in June, beta with 10 customers in July, and general availability in August, with a total budget of $200K. The main action item is to obtain CEO approval to proceed.",
   "score": 5,
-  "cost": 0.000638,
+  "cost": 0.000319,
   "expected": "",
   "tokens": {
     "input": 95,
     "output": 56
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

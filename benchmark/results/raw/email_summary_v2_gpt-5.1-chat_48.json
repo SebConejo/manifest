@@ -4,10 +4,12 @@
   "case": 48,
   "response": "The email proposes a revenue\u2011share partnership in which DataSync provides data\u2011synchronization infrastructure while your team integrates their SDK, with an expected 60% latency reduction and about $2M in additional annual revenue for each company. Maria Chen requests to schedule a technical discussion next week to explore the proposal further.",
   "score": 5,
-  "cost": 0.000716,
+  "cost": 0.00028639999999999997,
   "expected": "",
   "tokens": {
     "input": 90,
     "output": 67
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

@@ -4,10 +4,12 @@
   "case": 21,
   "response": "French: Maintenant, pourriez-vous lire ceci, s\u2019il vous pla\u00eet ?",
   "score": 4,
-  "cost": 0.000208,
+  "cost": 0.000104,
   "expected": "",
   "tokens": {
     "input": 36,
     "output": 17
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

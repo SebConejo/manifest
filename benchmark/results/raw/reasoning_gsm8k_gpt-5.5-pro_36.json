@@ -4,10 +4,12 @@
   "case": 36,
   "response": "Elaine initially had 20 cards.\n\nFirst month:  \n\\(3 \\times 20 = 60\\) cards\n\nSecond month:  \n\\(60 - 20 = 40\\) cards\n\nThird month:  \n\\(2 \\times (60 + 40) = 2 \\times 100 = 200\\) cards\n\nTotal cards now:  \n\\(20 + 60 + 40 + 200 = 320\\)\n\nANSWER: 320",
   "score": 5,
-  "cost": 0.005495,
+  "cost": 0.020175,
   "expected": "320",
   "tokens": {
     "input": 115,
     "output": 246
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

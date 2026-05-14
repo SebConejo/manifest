@@ -4,10 +4,12 @@
   "case": 16,
   "response": "In simple terms, gravity is the natural force that pulls objects toward each other. Anything that has mass creates gravity, and the more massive something is, the stronger its gravitational pull. This is why planets orbit the Sun, why the Moon orbits Earth, and why you stay firmly on the ground instead of floating away. Gravity keeps the universe organized by holding stars, planets, and galaxies together. That is gravity.",
   "score": 5,
-  "cost": 0.000796,
+  "cost": 0.00031840000000000004,
   "expected": "",
   "tokens": {
     "input": 26,
     "output": 93
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

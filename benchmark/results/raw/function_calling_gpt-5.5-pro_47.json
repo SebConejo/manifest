@@ -4,10 +4,12 @@
   "case": 47,
   "response": "{\"name\":\"create_cron\",\"arguments\":{\"schedule\":\"0 0 * * *\",\"command\":\"cleanup.sh\"}}",
   "score": 4,
-  "cost": 0.022415,
+  "cost": 0.083715,
   "expected": "",
   "tokens": {
     "input": 91,
     "output": 1098
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

@@ -4,10 +4,12 @@
   "case": 29,
   "response": "def digit_sum(n):\n        s = str(abs(n))\n        total = sum(int(ch) for ch in s)\n        if n < 0:\n            total -= 2 * int(s[0])\n        return total\n\n    return sorted(nums, key=digit_sum)",
   "score": 3,
-  "cost": 0.0144,
+  "cost": 0.053445,
   "expected": "",
   "tokens": {
     "input": 148,
     "output": 683
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

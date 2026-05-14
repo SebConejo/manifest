@@ -4,10 +4,12 @@
   "case": 40,
   "response": "Nous devons simplement obtenir plus d\u2019informations.",
   "score": 4,
-  "cost": 0.00143,
+  "cost": 0.005235,
   "expected": "",
   "tokens": {
     "input": 34,
     "output": 63
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

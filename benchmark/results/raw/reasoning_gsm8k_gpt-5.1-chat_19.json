@@ -4,10 +4,12 @@
   "case": 19,
   "response": "The adopted kittens are 7.  \nPatchy had three times that number: 21.  \nTrixie had 12.  \nTotal kittens = 7 + 21 + 12 = 40.\n\nANSWER: 40",
   "score": 2,
-  "cost": 0.000698,
+  "cost": 0.00027920000000000006,
   "expected": "40",
   "tokens": {
     "input": 121,
     "output": 57
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

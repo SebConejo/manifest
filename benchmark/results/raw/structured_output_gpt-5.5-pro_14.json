@@ -4,10 +4,12 @@
   "case": 14,
   "response": "{\"title\":\"The Great Gatsby\",\"author\":\"F. Scott Fitzgerald\",\"year\":1925,\"genre\":\"literary fiction\",\"pages\":180,\"isbn\":\"978-0743273565\",\"rating\":4.2}",
   "score": 5,
-  "cost": 0.00288,
+  "cost": 0.010395,
   "expected": "",
   "tokens": {
     "input": 108,
     "output": 117
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

@@ -4,10 +4,12 @@
   "case": 16,
   "response": "J\u2019ai l\u2019impression que ma bite n\u2019est pas assez grande pour toi.",
   "score": 5,
-  "cost": 0.000782,
+  "cost": 0.0003128,
   "expected": "",
   "tokens": {
     "input": 35,
     "output": 89
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

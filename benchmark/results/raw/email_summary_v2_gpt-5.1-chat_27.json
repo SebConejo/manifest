@@ -4,10 +4,12 @@
   "case": 27,
   "response": "The team successfully shipped the auth redesign on schedule and collaborated well with design, but struggled with excessive context switching and overly long standups. Action items are to limit each developer\u2019s work\u2011in\u2011progress to two items and enforce timeboxed standups with a parking-lot follow\u2011up.",
   "score": 5,
-  "cost": 0.000752,
+  "cost": 0.0003008,
   "expected": "",
   "tokens": {
     "input": 104,
     "output": 68
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

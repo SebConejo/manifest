@@ -4,10 +4,12 @@
   "case": 5,
   "response": "This code implements the Singleton pattern by overriding __new__ so that the class creates only one instance. Any subsequent instantiations return the same previously created object stored in the class-level _instance variable.",
   "score": 5,
-  "cost": 0.0005,
+  "cost": 0.0002,
   "expected": "",
   "tokens": {
     "input": 74,
     "output": 44
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

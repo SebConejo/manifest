@@ -4,10 +4,12 @@
   "case": 34,
   "response": "Infinitely many.",
   "score": 2,
-  "cost": 0.000558,
+  "cost": 0.0002232,
   "expected": "infinitely many prime numbers",
   "tokens": {
     "input": 247,
     "output": 8
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

@@ -4,10 +4,12 @@
   "case": 47,
   "response": "The Urarina.",
   "score": 5,
-  "cost": 0.00316,
+  "cost": 0.011265,
   "expected": "Urarina",
   "tokens": {
     "input": 156,
     "output": 119
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

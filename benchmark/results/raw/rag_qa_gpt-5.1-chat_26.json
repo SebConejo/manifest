@@ -4,10 +4,12 @@
   "case": 26,
   "response": "KMJ-TV",
   "score": 5,
-  "cost": 0.000456,
+  "cost": 0.00018240000000000002,
   "expected": "KMJ-TV",
   "tokens": {
     "input": 200,
     "output": 7
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

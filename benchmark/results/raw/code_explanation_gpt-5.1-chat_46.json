@@ -4,10 +4,12 @@
   "case": 46,
   "response": "This function performs the standard red\u2011black tree insertion fix\u2011up procedure: it restores red\u2011black properties after inserting a new red node by repeatedly checking the node\u2019s parent and uncle, recoloring them if necessary, or performing tree rotations to maintain balance. It follows the classic cases for red\u2011black insert fixup (recoloring, left rotation, and right rotation) until the tree is valid again.",
   "score": 4,
-  "cost": 0.001032,
+  "cost": 0.00041279999999999995,
   "expected": "",
   "tokens": {
     "input": 172,
     "output": 86
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

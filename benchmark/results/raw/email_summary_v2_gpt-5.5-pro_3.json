@@ -4,10 +4,12 @@
   "case": 3,
   "response": "March onboarding satisfaction dropped to 7.2/10 from 8.1, though the buddy system and timely IT setup were positives. Action items are to prioritize fixing tools access delays, clarify the benefits deadline, and provide the missing culture handbook.",
   "score": 5,
-  "cost": 0.00351,
+  "cost": 0.012735,
   "expected": "",
   "tokens": {
     "input": 114,
     "output": 147
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

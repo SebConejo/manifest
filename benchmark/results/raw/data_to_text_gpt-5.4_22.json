@@ -4,10 +4,12 @@
   "case": 22,
   "response": "Server **prod-web-01** in **us-east-1** has been up for **45 days** and is currently handling **127 connections**. It is using **78% CPU**, **12.4 of 16 GB memory**, and **234 of 500 GB disk**, with a **P99 latency of 145 ms**. The server is also seeing **3 errors per hour**.",
   "score": 5,
-  "cost": 0.000878,
+  "cost": 0.000439,
   "expected": "",
   "tokens": {
     "input": 99,
     "output": 85
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

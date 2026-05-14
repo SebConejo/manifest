@@ -4,10 +4,12 @@
   "case": 1,
   "response": "A CPU executes instructions, performs calculations, and coordinates the flow of data so a computer can run programs.",
   "score": 4,
-  "cost": 0.00157,
+  "cost": 0.00582,
   "expected": "",
   "tokens": {
     "input": 18,
     "output": 74
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

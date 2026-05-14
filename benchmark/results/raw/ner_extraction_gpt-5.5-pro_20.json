@@ -4,10 +4,12 @@
   "case": 20,
   "response": "{\"persons\":[\"Sundar Pichai\"],\"organizations\":[\"Google\"],\"locations\":[\"Malaysia\"]}",
   "score": 5,
-  "cost": 0.002085,
+  "cost": 0.00753,
   "expected": "",
   "tokens": {
     "input": 77,
     "output": 85
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

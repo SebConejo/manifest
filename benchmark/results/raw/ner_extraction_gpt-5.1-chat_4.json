@@ -4,10 +4,12 @@
   "case": 4,
   "response": "{\"persons\": [], \"organizations\": [\"Bank of England\", \"European Central Bank\"], \"locations\": [\"Frankfurt\"]}",
   "score": 4,
-  "cost": 0.00042,
+  "cost": 0.000168,
   "expected": "",
   "tokens": {
     "input": 70,
     "output": 35
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

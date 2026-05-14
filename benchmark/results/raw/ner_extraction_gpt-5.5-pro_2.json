@@ -4,10 +4,12 @@
   "case": 2,
   "response": "{\"persons\":[],\"organizations\":[\"Google DeepMind\",\"Nature\"],\"locations\":[]}",
   "score": 4,
-  "cost": 0.003525,
+  "cost": 0.01296,
   "expected": "",
   "tokens": {
     "input": 69,
     "output": 159
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

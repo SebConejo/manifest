@@ -4,10 +4,12 @@
   "case": 30,
   "response": "{\"name\":\"batch_process\",\"arguments\":{\"directory\":\"gallery\",\"operation\":\"generate_thumbnail\",\"params\":{\"width\":150,\"height\":150}}}",
   "score": 3,
-  "cost": 0.000512,
+  "cost": 0.00020480000000000002,
   "expected": "",
   "tokens": {
     "input": 104,
     "output": 38
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

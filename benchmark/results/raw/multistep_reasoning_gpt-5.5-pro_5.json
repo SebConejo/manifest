@@ -4,10 +4,12 @@
   "case": 5,
   "response": "C",
   "score": 5,
-  "cost": 0.002075,
+  "cost": 0.00741,
   "expected": "C",
   "tokens": {
     "input": 99,
     "output": 79
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

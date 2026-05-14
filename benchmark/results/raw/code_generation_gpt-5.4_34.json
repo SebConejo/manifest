@@ -4,10 +4,12 @@
   "case": 34,
   "response": "if n < 2:\n    return y\nif n == 2:\n    return x\nif n % 2 == 0:\n    return y\n\ni = 3\nwhile i * i <= n:\n    if n % i == 0:\n        return y\n    i += 2\n\nreturn x",
   "score": 5,
-  "cost": 0.000786,
+  "cost": 0.000393,
   "expected": "",
   "tokens": {
     "input": 117,
     "output": 69
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

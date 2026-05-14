@@ -4,12 +4,14 @@
   "case": 3,
   "response": "Hassan al\u2011Turabi",
   "score": 1,
-  "cost": 0.000376,
+  "cost": 0.0001504,
   "expected": "Hassan al-Turabi",
   "tokens": {
     "input": 148,
     "output": 10
   },
   "judge_rerun": true,
-  "judge_raw": "1"
+  "judge_raw": "1",
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

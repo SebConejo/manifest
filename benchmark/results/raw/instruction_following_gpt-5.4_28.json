@@ -4,10 +4,12 @@
   "case": 28,
   "response": "Keep going\u2014small, steady steps today build the extraordinary future you deserve.",
   "score": 5,
-  "cost": 0.000188,
+  "cost": 9.4e-05,
   "expected": "",
   "tokens": {
     "input": 22,
     "output": 18
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

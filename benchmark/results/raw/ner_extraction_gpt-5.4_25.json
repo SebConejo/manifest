@@ -4,10 +4,12 @@
   "case": 25,
   "response": "{\"persons\":[\"Mark Zuckerberg\"],\"organizations\":[\"Meta\"],\"locations\":[\"Menlo Park\"]}",
   "score": 5,
-  "cost": 0.000322,
+  "cost": 0.000161,
   "expected": "",
   "tokens": {
     "input": 73,
     "output": 22
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

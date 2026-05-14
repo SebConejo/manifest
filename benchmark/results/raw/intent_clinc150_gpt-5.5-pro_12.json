@@ -4,10 +4,12 @@
   "case": 12,
   "response": "oil_change_how",
   "score": 5,
-  "cost": 0.00368,
+  "cost": 0.01188,
   "expected": "oil_change_how",
   "tokens": {
     "input": 512,
     "output": 56
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

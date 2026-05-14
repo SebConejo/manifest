@@ -4,10 +4,12 @@
   "case": 25,
   "response": "{\"name\":\"schedule_meeting\",\"arguments\":{\"title\":\"standup meeting\",\"duration_minutes\":30,\"time\":\"9am\",\"recurrence\":\"every weekday\",\"attendees\":[\"dev team\"]}}",
   "score": 4,
-  "cost": 0.00247,
+  "cost": 0.00882,
   "expected": "",
   "tokens": {
     "input": 118,
     "output": 94
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

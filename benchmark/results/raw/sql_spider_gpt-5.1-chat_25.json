@@ -4,10 +4,12 @@
   "case": 25,
   "response": "SELECT *\nFROM tvshows\nWHERE type = 'cartoon'\n  AND director = 'Ben Jones';",
   "score": 5,
-  "cost": 0.000382,
+  "cost": 0.0001528,
   "expected": "",
   "tokens": {
     "input": 67,
     "output": 31
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

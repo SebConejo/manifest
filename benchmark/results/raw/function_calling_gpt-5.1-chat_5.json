@@ -4,10 +4,12 @@
   "case": 5,
   "response": "{\"name\":\"book_restaurant\",\"arguments\":{\"name\":\"Italian place on Main Street\",\"party_size\":4,\"date\":\"this Saturday\",\"time\":\"7pm\"}}",
   "score": 4,
-  "cost": 0.000554,
+  "cost": 0.00022160000000000002,
   "expected": "",
   "tokens": {
     "input": 109,
     "output": 42
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

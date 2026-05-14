@@ -4,10 +4,12 @@
   "case": 17,
   "response": "if text == \"\":\n    return None\n\nimport hashlib\nreturn hashlib.md5(text.encode()).hexdigest()",
   "score": 5,
-  "cost": 0.000406,
+  "cost": 0.000203,
   "expected": "",
   "tokens": {
     "input": 107,
     "output": 24
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

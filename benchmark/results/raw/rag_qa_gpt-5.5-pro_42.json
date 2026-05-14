@@ -4,10 +4,12 @@
   "case": 42,
   "response": "The Moselle.",
   "score": 4,
-  "cost": 0.003005,
+  "cost": 0.010515,
   "expected": "Moselle",
   "tokens": {
     "input": 201,
     "output": 100
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

@@ -4,10 +4,12 @@
   "case": 22,
   "response": "depth = 0\n    for bracket in brackets:\n        if bracket == \"<\":\n            depth += 1\n        else:\n            depth -= 1\n        if depth < 0:\n            return False\n    return depth == 0",
   "score": 5,
-  "cost": 0.00501,
+  "cost": 0.018315,
   "expected": "",
   "tokens": {
     "input": 126,
     "output": 219
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

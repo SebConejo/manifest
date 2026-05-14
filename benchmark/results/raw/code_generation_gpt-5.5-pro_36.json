@@ -4,10 +4,12 @@
   "case": 36,
   "response": "d = 2\n    while d * d <= n:\n        if n % d == 0:\n            return n // d\n        d += 1\n    return 1",
   "score": 3,
-  "cost": 0.050245,
+  "cost": 0.1881,
   "expected": "",
   "tokens": {
     "input": 85,
     "output": 2491
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

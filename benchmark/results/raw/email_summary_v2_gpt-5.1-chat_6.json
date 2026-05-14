@@ -4,10 +4,12 @@
   "case": 6,
   "response": "Acme Corp is threatening to churn due to ongoing API latency issues and a lack of support response, leading their CTO to escalate directly. A dedicated engineer is now assigned, and an executive sponsor is needed for a call this week.",
   "score": 5,
-  "cost": 0.00065,
+  "cost": 0.00026,
   "expected": "",
   "tokens": {
     "input": 101,
     "output": 56
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

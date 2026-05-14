@@ -4,10 +4,12 @@
   "case": 38,
   "response": "Cela ne peut mener qu\u2019au chaos et \u00e0 la terreur.",
   "score": 5,
-  "cost": 0.002835,
+  "cost": 0.0105,
   "expected": "",
   "tokens": {
     "input": 35,
     "output": 133
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

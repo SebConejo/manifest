@@ -4,9 +4,11 @@
   "case": 2,
   "response": "{\"persons\": [], \"organizations\": [\"United Nations Security Council\"], \"locations\": [\"New York\", \"France\", \"United Kingdom\", \"China\", \"eastern Congo\"]}",
   "score": 4,
-  "cost": 0.001054,
+  "cost": 0.0004216,
   "tokens": {
     "input": 87,
     "output": 110
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

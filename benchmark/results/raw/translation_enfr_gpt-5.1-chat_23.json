@@ -4,10 +4,12 @@
   "case": 23,
   "response": "French: Les \u00e9vacuateurs de crues capables de g\u00e9rer les \u00e9v\u00e9nements d\u2019inondation postul\u00e9s sont soit int\u00e9gr\u00e9s aux structures du barrage, soit construits comme structures distinctes.",
   "score": 5,
-  "cost": 0.000474,
+  "cost": 0.00018960000000000003,
   "expected": "",
   "tokens": {
     "input": 49,
     "output": 47
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

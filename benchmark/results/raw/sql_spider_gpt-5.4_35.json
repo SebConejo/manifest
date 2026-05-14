@@ -4,10 +4,12 @@
   "case": 35,
   "response": "SELECT c.name\nFROM conductors c\nJOIN orchestra_conductors oc ON oc.conductor_id = c.id\nGROUP BY c.id, c.name\nORDER BY COUNT(DISTINCT oc.orchestra_id) DESC\nFETCH FIRST 1 ROW ONLY;",
   "score": 5,
-  "cost": 0.000586,
+  "cost": 0.000293,
   "expected": "",
   "tokens": {
     "input": 73,
     "output": 55
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

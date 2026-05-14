@@ -4,10 +4,12 @@
   "case": 26,
   "response": "n = len(l)\n    for i in range(n - 2):\n        seen = set()\n        target = -l[i]\n        for j in range(i + 1, n):\n            if target - l[j] in seen:\n                return True\n            seen.add(l[j])\n    return False",
   "score": 4,
-  "cost": 0.01156,
+  "cost": 0.04263,
   "expected": "",
   "tokens": {
     "input": 192,
     "output": 530
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

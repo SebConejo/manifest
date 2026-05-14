@@ -4,10 +4,12 @@
   "case": 26,
   "response": "This implements the **0/1 knapsack** problem using **bottom-up dynamic programming** with a 2D table `dp[i][w]`, where each entry stores the maximum value achievable using the first `i` items with capacity `w`. For each item, it chooses between excluding it or including it once if it fits, and returns the best value for the full capacity.",
   "score": 5,
-  "cost": 0.0035,
+  "cost": 0.012555,
   "expected": "",
   "tokens": {
     "input": 152,
     "output": 137
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

@@ -4,10 +4,12 @@
   "case": 4,
   "response": "North America.",
   "score": 2,
-  "cost": 0.000352,
+  "cost": 0.000176,
   "expected": "North America",
   "tokens": {
     "input": 152,
     "output": 6
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

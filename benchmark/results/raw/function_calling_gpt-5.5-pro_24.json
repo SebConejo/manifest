@@ -4,10 +4,12 @@
   "case": 24,
   "response": "{\"name\":\"rotate_api_key\",\"arguments\":{\"service\":\"production service\",\"environment\":\"production\"}}",
   "score": 4,
-  "cost": 0.113785,
+  "cost": 0.426345,
   "expected": "",
   "tokens": {
     "input": 93,
     "output": 5666
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

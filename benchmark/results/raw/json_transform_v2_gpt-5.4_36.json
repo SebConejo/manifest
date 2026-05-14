@@ -4,10 +4,12 @@
   "case": 36,
   "response": "{\"order_id\":\"ORD-001\",\"subtotal\":109.97,\"discount\":11,\"shipping\":5.99,\"total\":104.96,\"item_count\":3}",
   "score": 4,
-  "cost": 0.000578,
+  "cost": 0.000289,
   "expected": "",
   "tokens": {
     "input": 137,
     "output": 38
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

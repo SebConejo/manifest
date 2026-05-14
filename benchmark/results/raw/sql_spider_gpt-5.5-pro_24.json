@@ -4,10 +4,12 @@
   "case": 24,
   "response": "SELECT Year\nFROM concert\nGROUP BY Year\nORDER BY COUNT(*) DESC\nFETCH FIRST 1 ROW ONLY;",
   "score": 4,
-  "cost": 0.043035,
+  "cost": 0.161115,
   "expected": "",
   "tokens": {
     "input": 71,
     "output": 2134
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

@@ -4,10 +4,12 @@
   "case": 31,
   "response": "{\"persons\":[],\"organizations\":[\"Samsung Electronics\"],\"locations\":[\"South Korea\"]}",
   "score": 5,
-  "cost": 0.001595,
+  "cost": 0.005715,
   "expected": "",
   "tokens": {
     "input": 71,
     "output": 62
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

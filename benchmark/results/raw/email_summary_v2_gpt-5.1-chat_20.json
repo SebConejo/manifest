@@ -4,10 +4,12 @@
   "case": 20,
   "response": "A misconfigured log rotation on prod-db-01 triggered a disk space alert early Saturday, requiring manual intervention at 8 AM after automated cleanup failed to fully resolve the issue. No customer impact occurred, but the team should review and fix the log rotation settings following the recent migration.",
   "score": 5,
-  "cost": 0.000716,
+  "cost": 0.0002864,
   "expected": "",
   "tokens": {
     "input": 94,
     "output": 66
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

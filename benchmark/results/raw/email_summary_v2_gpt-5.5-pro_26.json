@@ -4,10 +4,12 @@
   "case": 26,
   "response": "Privacy Team received a GDPR data export request for user ID 45892, due by May 25 within the 30-day deadline. Action items are to compile all personal data across services including analytics data, provide processing purposes documentation, and include the third-party data sharing log.",
   "score": 5,
-  "cost": 0.00219,
+  "cost": 0.00783,
   "expected": "",
   "tokens": {
     "input": 102,
     "output": 84
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

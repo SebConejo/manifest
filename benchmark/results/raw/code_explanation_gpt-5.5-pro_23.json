@@ -4,10 +4,12 @@
   "case": 23,
   "response": "This implements a binary search (\u201clower bound\u201d / `bisect_left`) on a sorted list `a`. It returns the leftmost index where `x` could be inserted while preserving sorted order, i.e. the first index whose value is not less than `x`.",
   "score": 5,
-  "cost": 0.002895,
+  "cost": 0.0105,
   "expected": "",
   "tokens": {
     "input": 95,
     "output": 121
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

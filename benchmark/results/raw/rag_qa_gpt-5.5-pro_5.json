@@ -4,10 +4,12 @@
   "case": 5,
   "response": "The Rhine Bridge is at Arnhem.",
   "score": 4,
-  "cost": 0.002435,
+  "cost": 0.00828,
   "expected": "Arnhem",
   "tokens": {
     "input": 227,
     "output": 65
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

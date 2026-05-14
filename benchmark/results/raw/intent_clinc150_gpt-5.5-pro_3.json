@@ -4,10 +4,12 @@
   "case": 3,
   "response": "schedule_maintenance",
   "score": 5,
-  "cost": 0.006575,
+  "cost": 0.02274,
   "expected": "schedule_maintenance",
   "tokens": {
     "input": 511,
     "output": 201
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

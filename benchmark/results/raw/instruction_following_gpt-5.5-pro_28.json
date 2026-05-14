@@ -4,10 +4,12 @@
   "case": 28,
   "response": "Every small step forward proves your courage is stronger than your fear.",
   "score": 4,
-  "cost": 0.00196,
+  "cost": 0.00726,
   "expected": "",
   "tokens": {
     "input": 24,
     "output": 92
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

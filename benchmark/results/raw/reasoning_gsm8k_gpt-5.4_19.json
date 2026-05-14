@@ -4,10 +4,12 @@
   "case": 19,
   "response": "They adopted 7 kittens from the shelter.\n\nPatchy had thrice that number:\n\\(3 \\times 7 = 21\\)\n\nTrixie had:\n\\(12\\)\n\nTotal kittens now:\n\\(7 + 21 + 12 = 40\\)\n\nANSWER: 40",
   "score": 5,
-  "cost": 0.00073,
+  "cost": 0.000365,
   "expected": "40",
   "tokens": {
     "input": 121,
     "output": 61
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

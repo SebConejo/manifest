@@ -4,10 +4,12 @@
   "case": 19,
   "response": "return \"\".join([chr(((ord(ch) - 5 - ord(\"a\")) % 26) + ord(\"a\")) for ch in s])",
   "score": 3,
-  "cost": 0.00057,
+  "cost": 0.00022800000000000004,
   "expected": "",
   "tokens": {
     "input": 121,
     "output": 41
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

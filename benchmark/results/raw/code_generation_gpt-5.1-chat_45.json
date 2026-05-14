@@ -4,10 +4,12 @@
   "case": 45,
   "response": "s = set(l1).intersection(l2)\nreturn sorted(s)",
   "score": 5,
-  "cost": 0.000482,
+  "cost": 0.00019280000000000002,
   "expected": "",
   "tokens": {
     "input": 145,
     "output": 24
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

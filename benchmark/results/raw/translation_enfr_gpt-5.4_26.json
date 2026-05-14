@@ -4,10 +4,12 @@
   "case": 26,
   "response": "Cela sugg\u00e9rait, au contraire, que l\u2019arm\u00e9e devrait jouer un r\u00f4le secondaire dans les op\u00e9rations antiterroristes.",
   "score": 5,
-  "cost": 0.000304,
+  "cost": 0.000152,
   "expected": "",
   "tokens": {
     "input": 44,
     "output": 27
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

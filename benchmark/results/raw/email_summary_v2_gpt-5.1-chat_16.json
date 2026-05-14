@@ -4,10 +4,12 @@
   "case": 16,
   "response": "The April marketing campaign delivered 45K impressions, 2.3K clicks, and 187 signups at a $64 CAC, with CTR improving but conversion slightly declining versus March. Marketing recommends running an A/B test on the landing page CTA as a next step.",
   "score": 5,
-  "cost": 0.00075,
+  "cost": 0.0003,
   "expected": "",
   "tokens": {
     "input": 115,
     "output": 65
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

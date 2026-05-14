@@ -4,10 +4,12 @@
   "case": 19,
   "response": "{\"persons\":[\"Thierry Breton\"],\"organizations\":[\"European Parliament\"],\"locations\":[\"Brussels\"]}",
   "score": 5,
-  "cost": 0.00032,
+  "cost": 0.00016,
   "expected": "",
   "tokens": {
     "input": 68,
     "output": 23
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

@@ -4,10 +4,12 @@
   "case": 2,
   "response": "{\"meeting_title\":\"Product sync\",\"date\":\"2026-04-10\",\"attendees\":[\"Jamie\",\"Priya\",\"Marcus\",\"Lin\"],\"decisions\":[\"Push the recommendation engine to Q3 since the data pipeline won't be ready until June.\",\"Allocate 20% of sprint capacity to tech debt.\"],\"action_items\":[{\"owner\":\"Marcus\",\"task\":\"Create onboarding mockups\",\"deadline\":\"2026-04-18\"},{\"owner\":\"Jamie\",\"task\":\"Send updated roadmap\",\"deadline\":\"2026-04-13\"},{\"owner\":\"Lin\",\"task\":\"Prepare analytics dashboard\",\"deadline\":\"before May board meeting\"}]}",
   "score": 3,
-  "cost": 0.010295,
+  "cost": 0.037965,
   "expected": "",
   "tokens": {
     "input": 171,
     "output": 472
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

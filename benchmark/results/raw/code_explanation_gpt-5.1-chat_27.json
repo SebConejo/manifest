@@ -4,10 +4,12 @@
   "case": 27,
   "response": "This function computes the maximum value in each sliding window of size k across the list nums using a monotonic decreasing deque. The deque stores indices of elements in decreasing order so the front always represents the current window\u2019s maximum, allowing each element to be processed in amortized O(1) time.",
   "score": 5,
-  "cost": 0.000748,
+  "cost": 0.00029920000000000006,
   "expected": "",
   "tokens": {
     "input": 122,
     "output": 63
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

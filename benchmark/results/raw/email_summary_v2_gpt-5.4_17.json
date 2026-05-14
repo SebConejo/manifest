@@ -4,10 +4,12 @@
   "case": 17,
   "response": "v4.2 is being rolled back because a data corruption bug in the new sync engine affected 23 accounts. Action items are to restore from the pre-release backup, re-run affected transactions, notify impacted customers, and proceed with the hotfix branch that has been created.",
   "score": 5,
-  "cost": 0.000666,
+  "cost": 0.000333,
   "expected": "",
   "tokens": {
     "input": 101,
     "output": 58
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

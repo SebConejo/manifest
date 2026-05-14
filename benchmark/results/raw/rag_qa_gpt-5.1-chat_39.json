@@ -4,10 +4,12 @@
   "case": 39,
   "response": "Packet switching contrasts with circuit switching.",
   "score": 5,
-  "cost": 0.000374,
+  "cost": 0.00014960000000000003,
   "expected": "circuit switching",
   "tokens": {
     "input": 143,
     "output": 11
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

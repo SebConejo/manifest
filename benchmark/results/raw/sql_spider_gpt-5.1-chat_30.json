@@ -4,10 +4,12 @@
   "case": 30,
   "response": "SELECT AVG(p.rank) AS average_winner_rank\nFROM matches m\nJOIN players p ON m.winner_id = p.player_id;",
   "score": 5,
-  "cost": 0.000446,
+  "cost": 0.0001784,
   "expected": "",
   "tokens": {
     "input": 71,
     "output": 38
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

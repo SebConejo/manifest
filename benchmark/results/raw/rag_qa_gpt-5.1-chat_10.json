@@ -4,10 +4,12 @@
   "case": 10,
   "response": "The Saxon Garden was formally a royal garden.",
   "score": 5,
-  "cost": 0.000954,
+  "cost": 0.0003816,
   "expected": "The Saxon Garden",
   "tokens": {
     "input": 421,
     "output": 14
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

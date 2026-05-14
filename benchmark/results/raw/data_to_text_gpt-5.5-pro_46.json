@@ -4,10 +4,12 @@
   "case": 46,
   "response": "During Sprint Team Alpha #23, running Jan 15\u201326, the team completed 38 of 42 planned points, slightly above its average velocity of 36 points. They finished 8 stories, fixed 5 bugs, encountered 2 blockers, and recorded a satisfaction score of 4.1 out of 5.",
   "score": 5,
-  "cost": 0.006525,
+  "cost": 0.024105,
   "expected": "",
   "tokens": {
     "input": 97,
     "output": 302
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

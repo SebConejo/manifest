@@ -4,10 +4,12 @@
   "case": 18,
   "response": "La plage la plus proche est facilement accessible en voiture, situ\u00e9e \u00e0 environ 6...",
   "score": 5,
-  "cost": 0.00448,
+  "cost": 0.01665,
   "expected": "",
   "tokens": {
     "input": 40,
     "output": 214
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

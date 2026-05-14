@@ -4,10 +4,12 @@
   "case": 23,
   "response": "The Platform team announced that the v1 API will be deprecated on June 30 and fully removed on September 30; 340 integrations are still using v1, and a migration guide was published last month. Action items are to personally reach out to the top 20 affected customers and host a webinar for the remaining customers, especially the 12 enterprise customers who have not started migrating.",
   "score": 5,
-  "cost": 0.000828,
+  "cost": 0.000414,
   "expected": "",
   "tokens": {
     "input": 94,
     "output": 80
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

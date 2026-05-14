@@ -4,10 +4,12 @@
   "case": 24,
   "response": "5,500,000 square kilometres",
   "score": 5,
-  "cost": 0.003105,
+  "cost": 0.010545,
   "expected": "5,500,000 square kilometres (2,100,000 sq mi) are covered by the rainforest.",
   "tokens": {
     "input": 293,
     "output": 82
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

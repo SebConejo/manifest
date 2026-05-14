@@ -4,10 +4,12 @@
   "case": 21,
   "response": "Anaerobic bacteria.",
   "score": 5,
-  "cost": 0.000472,
+  "cost": 0.000236,
   "expected": "anaerobic bacteria",
   "tokens": {
     "input": 204,
     "output": 8
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

@@ -4,10 +4,12 @@
   "case": 43,
   "response": "Did you know that a day on Venus is longer than its year? Venus takes about 243 Earth days to rotate once, but only about 225 Earth days to orbit the Sun.",
   "score": 5,
-  "cost": 0.001865,
+  "cost": 0.0069,
   "expected": "",
   "tokens": {
     "input": 25,
     "output": 87
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

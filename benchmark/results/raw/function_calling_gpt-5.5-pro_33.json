@@ -4,10 +4,12 @@
   "case": 33,
   "response": "{\"name\":\"git_create_branch\",\"arguments\":{\"name\":\"feature-payments\",\"from_branch\":\"main\"}}",
   "score": 5,
-  "cost": 0.001525,
+  "cost": 0.005385,
   "expected": "",
   "tokens": {
     "input": 89,
     "output": 54
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

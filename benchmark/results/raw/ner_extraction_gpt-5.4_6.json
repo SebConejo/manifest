@@ -4,10 +4,12 @@
   "case": 6,
   "response": "{\"persons\":[],\"organizations\":[\"Amazon\"],\"locations\":[\"Nashville\",\"Davidson County\"]}",
   "score": 5,
-  "cost": 0.000326,
+  "cost": 0.000163,
   "expected": "",
   "tokens": {
     "input": 71,
     "output": 23
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

@@ -4,10 +4,12 @@
   "case": 41,
   "response": "SELECT Population\nFROM City\nWHERE District = 'Gelderland';",
   "score": 3,
-  "cost": 0.000272,
+  "cost": 0.000136,
   "expected": "",
   "tokens": {
     "input": 68,
     "output": 17
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

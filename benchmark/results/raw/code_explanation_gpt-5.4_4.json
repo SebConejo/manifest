@@ -4,10 +4,12 @@
   "case": 4,
   "response": "This code defines a **memoization decorator**: it wraps a function and stores previously computed results in a dictionary keyed by the function\u2019s arguments. When the wrapped function is called again with the same arguments, it returns the cached result instead of recomputing it, which is a form of **top-down dynamic programming / result caching**.",
   "score": 5,
-  "cost": 0.000718,
+  "cost": 0.000359,
   "expected": "",
   "tokens": {
     "input": 75,
     "output": 71
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

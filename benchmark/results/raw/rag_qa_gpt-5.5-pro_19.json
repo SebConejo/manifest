@@ -4,10 +4,12 @@
   "case": 19,
   "response": "Advancements in communication.",
   "score": 5,
-  "cost": 0.002105,
+  "cost": 0.007305,
   "expected": "communication",
   "tokens": {
     "input": 157,
     "output": 66
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

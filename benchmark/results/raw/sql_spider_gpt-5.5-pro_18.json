@@ -4,10 +4,12 @@
   "case": 18,
   "response": "SELECT Country\nFROM singer\nWHERE Age > 40\nINTERSECT\nSELECT Country\nFROM singer\nWHERE Age < 30;",
   "score": 4,
-  "cost": 0.009855,
+  "cost": 0.03666,
   "expected": "",
   "tokens": {
     "input": 79,
     "output": 473
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

@@ -4,10 +4,12 @@
   "case": 39,
   "response": "Finance announced that the year-end audit begins on January 15 and outlined a pre-audit checklist covering Q4 revenue recognition, bank account reconciliations, stock option record verification, and related-party transaction disclosure preparation. The action item is to attend the controller meeting next Tuesday, where responsibilities for these tasks will be assigned.",
   "score": 5,
-  "cost": 0.000726,
+  "cost": 0.000363,
   "expected": "",
   "tokens": {
     "input": 95,
     "output": 67
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

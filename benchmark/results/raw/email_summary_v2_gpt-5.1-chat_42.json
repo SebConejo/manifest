@@ -4,10 +4,12 @@
   "case": 42,
   "response": "The workshop highlighted strong demand for improved bulk import, SSO support, and appreciation for the new analytics dashboard. Sales also noted unexpected interest in the internal tool as a standalone product and shared a follow\u2011up report for next steps.",
   "score": 5,
-  "cost": 0.000664,
+  "cost": 0.0002656,
   "expected": "",
   "tokens": {
     "input": 108,
     "output": 56
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

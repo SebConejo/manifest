@@ -4,10 +4,12 @@
   "case": 32,
   "response": "SELECT p.first_name, AVG(r.ranking) AS average_ranking\nFROM players AS p\nLEFT JOIN rankings AS r\n  ON p.player_id = r.player_id\nGROUP BY p.player_id, p.first_name;",
   "score": 4,
-  "cost": 0.03094,
+  "cost": 0.11574,
   "expected": "",
   "tokens": {
     "input": 76,
     "output": 1528
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

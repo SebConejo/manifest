@@ -4,10 +4,12 @@
   "case": 30,
   "response": "{\"full_name\": \"Jane Doe\", \"contact\": {\"email\": \"jane.doe@email.com\", \"phone\": \"+1-555-0123\"}, \"metadata\": {\"age\": 32}}",
   "score": 5,
-  "cost": 0.000626,
+  "cost": 0.0002504,
   "expected": "",
   "tokens": {
     "input": 105,
     "output": 52
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

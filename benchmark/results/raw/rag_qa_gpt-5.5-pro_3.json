@@ -4,10 +4,12 @@
   "case": 3,
   "response": "Hassan al-Turabi",
   "score": 5,
-  "cost": 0.00147,
+  "cost": 0.00495,
   "expected": "Hassan al-Turabi",
   "tokens": {
     "input": 150,
     "output": 36
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

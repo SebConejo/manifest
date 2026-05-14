@@ -4,10 +4,12 @@
   "case": 33,
   "response": "{\"persons\":[],\"organizations\":[\"International Monetary Fund\"],\"locations\":[\"Latin America\"]}",
   "score": 5,
-  "cost": 0.0003,
+  "cost": 0.00015,
   "expected": "",
   "tokens": {
     "input": 70,
     "output": 20
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

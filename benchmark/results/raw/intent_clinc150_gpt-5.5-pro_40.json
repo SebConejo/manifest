@@ -4,10 +4,12 @@
   "case": 40,
   "response": "mpg",
   "score": 5,
-  "cost": 0.00336,
+  "cost": 0.01068,
   "expected": "mpg",
   "tokens": {
     "input": 512,
     "output": 40
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

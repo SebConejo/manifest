@@ -4,10 +4,12 @@
   "case": 23,
   "response": "Apple; Banana; Cherry; Date; Elderberry",
   "score": 5,
-  "cost": 0.000144,
+  "cost": 7.2e-05,
   "expected": "",
   "tokens": {
     "input": 20,
     "output": 13
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

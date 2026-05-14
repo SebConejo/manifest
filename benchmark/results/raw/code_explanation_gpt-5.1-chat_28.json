@@ -4,10 +4,12 @@
   "case": 28,
   "response": "This code computes the length of the longest common subsequence between two sequences using a dynamic programming table. It fills a grid bottom\u2011up by comparing characters and building the longest match count from previously solved subproblems.",
   "score": 5,
-  "cost": 0.000692,
+  "cost": 0.0002768,
   "expected": "",
   "tokens": {
     "input": 158,
     "output": 47
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

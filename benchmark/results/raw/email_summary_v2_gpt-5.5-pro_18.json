@@ -4,10 +4,12 @@
   "case": 18,
   "response": "VP Engineering proposes splitting Platform into Infrastructure and Developer Experience so DX work no longer gets deprioritized by infrastructure incidents. Review the attached draft org chart for the proposed restructuring.",
   "score": 5,
-  "cost": 0.002765,
+  "cost": 0.01002,
   "expected": "",
   "tokens": {
     "input": 93,
     "output": 115
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

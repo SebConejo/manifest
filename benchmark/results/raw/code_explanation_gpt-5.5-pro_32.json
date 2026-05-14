@@ -4,10 +4,12 @@
   "case": 32,
   "response": "This implements a Disjoint Set Union (Union-Find) data structure for `n` elements, returning `find` and `union` functions. It uses path compression in `find` and union by rank in `union` to efficiently track and merge connected components.",
   "score": 5,
-  "cost": 0.00338,
+  "cost": 0.012075,
   "expected": "",
   "tokens": {
     "input": 160,
     "output": 129
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

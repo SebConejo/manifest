@@ -4,10 +4,12 @@
   "case": 44,
   "response": "{\"services\":[{\"name\":\"database\",\"host\":\"db.prod.internal\",\"port\":5432},{\"name\":\"cache\",\"host\":\"redis.prod.internal\",\"port\":6379}],\"app_settings\":{\"debug\":false,\"log_level\":\"warn\",\"workers\":4}}",
   "score": 5,
-  "cost": 0.000772,
+  "cost": 0.0003088,
   "expected": "",
   "tokens": {
     "input": 142,
     "output": 61
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

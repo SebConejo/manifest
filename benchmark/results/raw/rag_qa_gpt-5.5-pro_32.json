@@ -4,10 +4,12 @@
   "case": 32,
   "response": "The world's economy grew significantly.",
   "score": 5,
-  "cost": 0.00261,
+  "cost": 0.00894,
   "expected": "the world's economy",
   "tokens": {
     "input": 226,
     "output": 74
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

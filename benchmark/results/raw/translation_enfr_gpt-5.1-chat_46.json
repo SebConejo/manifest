@@ -4,10 +4,12 @@
   "case": 46,
   "response": "French: J\u2019ai re\u00e7u sept propositions de r\u00e9solution conform\u00e9ment \u00e0 l\u2019article 37 du r\u00e8glement int\u00e9rieur.",
   "score": 5,
-  "cost": 0.000316,
+  "cost": 0.0001264,
   "expected": "",
   "tokens": {
     "input": 42,
     "output": 29
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

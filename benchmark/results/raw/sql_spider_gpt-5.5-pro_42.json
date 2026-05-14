@@ -4,10 +4,12 @@
   "case": 42,
   "response": "SELECT t.template_id\nFROM Templates AS t\nJOIN Ref_Template_Types AS r\n  ON t.template_type_code = r.template_type_code\nWHERE r.template_type_description = 'Presentation';",
   "score": 5,
-  "cost": 0.02548,
+  "cost": 0.095265,
   "expected": "",
   "tokens": {
     "input": 76,
     "output": 1255
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

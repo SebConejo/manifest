@@ -4,10 +4,12 @@
   "case": 39,
   "response": "SELECT c.Name, o.Orchestra\nFROM conductor AS c\nJOIN orchestra AS o\n  ON c.Conductor_ID = o.Conductor_ID;",
   "score": 4,
-  "cost": 0.01922,
+  "cost": 0.071775,
   "expected": "",
   "tokens": {
     "input": 80,
     "output": 941
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

@@ -4,10 +4,12 @@
   "case": 29,
   "response": "Red cars = 12  \nGreen cars = 12 \u2212 2 = 10  \nBlue cars = 3 \u00d7 10 = 30  \n\nTotal of non\u2011yellow cars = 12 + 10 + 30 = 52  \nYellow cars = 75 \u2212 52 = 23\n\nANSWER: 23",
   "score": 4,
-  "cost": 0.000808,
+  "cost": 0.0003232,
   "expected": "23",
   "tokens": {
     "input": 104,
     "output": 75
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

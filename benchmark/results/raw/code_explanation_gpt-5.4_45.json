@@ -4,10 +4,12 @@
   "case": 45,
   "response": "This code implements a middleware pipeline using the chain-of-responsibility pattern: functions are registered in `_stack`, then executed in order with a shared `context`. Each middleware receives a `next()` callback that recursively calls the next function in the chain, allowing it to pass control onward or stop the chain early.",
   "score": 5,
-  "cost": 0.000732,
+  "cost": 0.000366,
   "expected": "",
   "tokens": {
     "input": 106,
     "output": 65
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

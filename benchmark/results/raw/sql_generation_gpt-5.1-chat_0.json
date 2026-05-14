@@ -4,9 +4,11 @@
   "case": 0,
   "response": "SELECT *\nFROM customers c\nWHERE c.signup_date >= CURRENT_DATE - INTERVAL '30 days'\n  AND EXISTS (\n    SELECT 1\n    FROM orders o\n    WHERE o.customer_id = c.id\n  );",
   "score": 5,
-  "cost": 0.000604,
+  "cost": 0.00024160000000000002,
   "tokens": {
     "input": 82,
     "output": 55
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

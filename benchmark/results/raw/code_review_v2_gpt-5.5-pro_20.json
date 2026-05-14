@@ -4,10 +4,12 @@
   "case": 20,
   "response": "Key issues:\n\n1. **Unexpected exceptions / inconsistent errors**\n   ```python\n   int(\"abc\")   # raises ValueError with Python's raw message\n   int(None)    # raises TypeError\n   ```\n   If callers expect `ValueError(\"Invalid age\")`, this function does not consistently provide it.\n\n2. **Overly permissive parsing**\n   `int()` accepts formats you may not want:\n   ```python\n   int(\" 42\\n\")   # 42\n   int(\"+42\")     # 42\n   int(\"1_0\")     # 10\n   int(\"\u0660\u0665\")      # 5, Unicode digits\n   ```\n   If this is user/API input, you probably want to explicitly define the accepted format.\n\n3. **Non-string coercion**\n   Despite the parameter name `age_str`, this accepts other types:\n   ```python\n   int(12.9)   # 12\n   int(True)   # 1\n   int(b\"42\")  # 42\n   ```\n   That can hide bugs or allow invalid input through.\n\n4. **Potential denial-of-service with huge input**\n   For untrusted input, converting a very large numeric string can be expensive. Since valid ages are at most 3 digits here, reject long input before calling `int()`.\n\n5. **Hard-coded business rule**\n   `150` may be fine, but it should probably be a named constant or parameter. Also, if this is for legal age validation, storing/checking date of birth is usually better than storing age.\n\nA stricter version:\n\n```python\nimport re\n\nMAX_AGE = 150\nMAX_RAW_LENGTH = 16  # prevents huge untrusted input\nAGE_RE = re.compile(r\"[0-9]{1,3}\")  # ASCII digits only\n\n\ndef validate_age(age_str: str) -> int:\n    \"\"\"Validate and parse an age string as an integer in the range 0..150.\"\"\"\n    if not isinstance(age_str, str):\n        raise ValueError(\"Invalid age\")\n\n    if len(age_str) > MAX_RAW_LENGTH:\n        raise ValueError(\"Invalid age\")\n\n    s = age_str.strip()  # Remove this if whitespace should be invalid.\n\n    if not AGE_RE.fullmatch(s):\n        raise ValueError(\"Invalid age\")\n\n    age = int(s, 10)\n\n    if not 0 <= age <= MAX_AGE:\n        raise ValueError(\"Invalid age\")\n\n    return age\n```\n\nIf you want to reject leading zeroes like `\"007\"`, use this regex instead:\n\n```python\nAGE_RE = re.compile(r\"(?:0|[1-9][0-9]{0,2})\")\n```\n\nYou should also add tests for cases like `\"\"`, `\"abc\"`, `\"-1\"`, `\"151\"`, `\"1_0\"`, `\"+5\"`, `None`, `True`, `12.5`, and a very long string.",
   "score": 5,
-  "cost": 0.087575,
+  "cost": 0.328125,
   "expected": "",
   "tokens": {
     "input": 75,
     "output": 4360
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

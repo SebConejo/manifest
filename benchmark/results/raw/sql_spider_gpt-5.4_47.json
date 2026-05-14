@@ -4,10 +4,12 @@
   "case": 47,
   "response": "SELECT type_code\nFROM template_types\nWHERE description = 'Book';",
   "score": 5,
-  "cost": 0.000288,
+  "cost": 0.000144,
   "expected": "",
   "tokens": {
     "input": 76,
     "output": 17
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

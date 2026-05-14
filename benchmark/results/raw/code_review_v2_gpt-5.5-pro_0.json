@@ -9,5 +9,7 @@
   "tokens": {
     "input": 98,
     "output": 3268
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

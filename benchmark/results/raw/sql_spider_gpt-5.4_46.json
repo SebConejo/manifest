@@ -4,10 +4,12 @@
   "case": 46,
   "response": "SELECT\n  GovernmentForm,\n  SUM(Population) AS total_population\nFROM\n  Country\nGROUP BY\n  GovernmentForm\nHAVING\n  AVG(LifeExpectancy) > 72;",
   "score": 3,
-  "cost": 0.000534,
+  "cost": 0.000267,
   "expected": "",
   "tokens": {
     "input": 87,
     "output": 45
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

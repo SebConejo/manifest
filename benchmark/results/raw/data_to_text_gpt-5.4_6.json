@@ -4,10 +4,12 @@
   "case": 6,
   "response": "Server prod-web-01 in the us-east-1 region has been up for 45 days and is currently handling 127 connections. It is using 78% CPU, 12.4 of 16 GB of memory, and 234 of 500 GB of disk space. Its P99 latency is 145 ms, and it is seeing 3 errors per hour.",
   "score": 5,
-  "cost": 0.00083,
+  "cost": 0.000415,
   "expected": "",
   "tokens": {
     "input": 99,
     "output": 79
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

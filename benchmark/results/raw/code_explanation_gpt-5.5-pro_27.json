@@ -4,10 +4,12 @@
   "case": 27,
   "response": "This computes the maximum value in every contiguous subarray (sliding window) of size `k`. It uses a monotonic decreasing deque of indices, removing out-of-window indices from the front and smaller elements from the back so each window\u2019s maximum is at `dq[0]`, giving an O(n) solution.",
   "score": 5,
-  "cost": 0.00316,
+  "cost": 0.011385,
   "expected": "",
   "tokens": {
     "input": 124,
     "output": 127
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

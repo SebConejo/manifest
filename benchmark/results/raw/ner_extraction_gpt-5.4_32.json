@@ -4,10 +4,12 @@
   "case": 32,
   "response": "{\"persons\":[\"Serena Williams\"],\"organizations\":[\"ESPY\"],\"locations\":[\"Los Angeles\"]}",
   "score": 5,
-  "cost": 0.000324,
+  "cost": 0.000162,
   "expected": "",
   "tokens": {
     "input": 70,
     "output": 23
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

@@ -4,10 +4,12 @@
   "case": 19,
   "response": "FTI \u2014 Privil\u00e8ges et conditions",
   "score": 5,
-  "cost": 0.00016,
+  "cost": 8e-05,
   "expected": "",
   "tokens": {
     "input": 32,
     "output": 12
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

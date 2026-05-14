@@ -4,10 +4,12 @@
   "case": 2,
   "response": "arr = sorted(lst)\nresult = []\nleft, right = 0, len(arr) - 1\n\nwhile left <= right:\n    result.append(arr[left])\n    left += 1\n    if left <= right:\n        result.append(arr[right])\n        right -= 1\n\nreturn result",
   "score": 4,
-  "cost": 0.000806,
+  "cost": 0.000403,
   "expected": "",
   "tokens": {
     "input": 155,
     "output": 62
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

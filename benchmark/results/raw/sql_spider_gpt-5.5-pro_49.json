@@ -4,10 +4,12 @@
   "case": 49,
   "response": "SELECT Hometown\nFROM teacher\nGROUP BY Hometown\nHAVING COUNT(*) >= 2;",
   "score": 5,
-  "cost": 0.00814,
+  "cost": 0.030255,
   "expected": "",
   "tokens": {
     "input": 72,
     "output": 389
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

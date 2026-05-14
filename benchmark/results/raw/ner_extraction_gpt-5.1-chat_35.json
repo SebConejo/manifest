@@ -4,10 +4,12 @@
   "case": 35,
   "response": "{\"persons\": [], \"organizations\": [\"European Space Agency\", \"NASA\"], \"locations\": [\"lunar south pole\"]}",
   "score": 4,
-  "cost": 0.000934,
+  "cost": 0.00037360000000000003,
   "expected": "",
   "tokens": {
     "input": 71,
     "output": 99
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

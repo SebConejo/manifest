@@ -4,10 +4,12 @@
   "case": 0,
   "response": "- Improves cardiovascular health\n- Increases strength and endurance\n- Supports better mood and mental health",
   "score": 5,
-  "cost": 0.00022,
+  "cost": 0.00011,
   "expected": "",
   "tokens": {
     "input": 18,
     "output": 23
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

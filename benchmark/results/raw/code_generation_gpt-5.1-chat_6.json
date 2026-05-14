@@ -4,10 +4,12 @@
   "case": 6,
   "response": "counts = {}\nfor n in numbers:\n    counts[n] = counts.get(n, 0) + 1\n\nresult = []\nfor n in numbers:\n    if counts[n] == 1:\n        result.append(n)\n\nreturn result",
   "score": 5,
-  "cost": 0.000694,
+  "cost": 0.0002776,
   "expected": "",
   "tokens": {
     "input": 115,
     "output": 58
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

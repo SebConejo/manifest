@@ -4,10 +4,12 @@
   "case": 18,
   "response": "{\"plan\": \"Pro Plan\", \"price_monthly\": 29.0, \"price_annual\": 348.0, \"start_date\": \"Jan 1 2024\", \"renewal_date\": \"Jan 1 2025\", \"payment_method\": \"Visa\", \"card_last4\": \"4242\", \"status\": \"active\"}",
   "score": 5,
-  "cost": 0.001424,
+  "cost": 0.0005696000000000001,
   "expected": "",
   "tokens": {
     "input": 120,
     "output": 148
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

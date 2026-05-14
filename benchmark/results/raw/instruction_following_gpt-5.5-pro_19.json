@@ -4,10 +4,12 @@
   "case": 19,
   "response": "AI isn\u2019t magic\u2014it\u2019s a multiplier. The real breakthrough comes when human curiosity, judgment, and creativity guide the tools we build.",
   "score": 5,
-  "cost": 0.0014,
+  "cost": 0.005175,
   "expected": "",
   "tokens": {
     "input": 20,
     "output": 65
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

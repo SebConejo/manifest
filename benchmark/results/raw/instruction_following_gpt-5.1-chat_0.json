@@ -4,10 +4,12 @@
   "case": 0,
   "response": "\u2022 Improves cardiovascular health  \n\u2022 Boosts mood and reduces stress  \n\u2022 Increases strength and overall fitness",
   "score": 5,
-  "cost": 0.000236,
+  "cost": 9.44e-05,
   "expected": "",
   "tokens": {
     "input": 18,
     "output": 25
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

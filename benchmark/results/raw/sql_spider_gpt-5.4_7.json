@@ -4,10 +4,12 @@
   "case": 7,
   "response": "SELECT COUNT(*) AS cars_made_in_1980\nFROM cars_data\nWHERE year = 1980;",
   "score": 5,
-  "cost": 0.000348,
+  "cost": 0.000174,
   "expected": "",
   "tokens": {
     "input": 70,
     "output": 26
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

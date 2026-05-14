@@ -4,10 +4,12 @@
   "case": 42,
   "response": "A thunderstorm rolls in like a heavy, living thing.  \nYou can *hear* the distant rumble of thunder growing louder, each crack splitting the air like tearing fabric.  \nThe sharp *smell* of rain and ozone drifts in on a cool gust of wind.  \nWhen the storm finally breaks, you can *feel* the vibration of each thunderclap through the ground, and cool droplets spatter your skin as rain falls in sudden, drenching sheets.",
   "score": 5,
-  "cost": 0.000894,
+  "cost": 0.0003576,
   "expected": "",
   "tokens": {
     "input": 19,
     "output": 107
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

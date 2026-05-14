@@ -4,10 +4,12 @@
   "case": 41,
   "response": "{\"persons\":[\"LeBron James\"],\"organizations\":[\"Los Angeles Lakers\"],\"locations\":[]}",
   "score": 5,
-  "cost": 0.000312,
+  "cost": 0.000156,
   "expected": "",
   "tokens": {
     "input": 72,
     "output": 21
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

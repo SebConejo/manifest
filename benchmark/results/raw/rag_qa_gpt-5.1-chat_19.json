@@ -4,10 +4,12 @@
   "case": 19,
   "response": "Not found in context.",
   "score": 5,
-  "cost": 0.000382,
+  "cost": 0.0001528,
   "expected": "communication",
   "tokens": {
     "input": 155,
     "output": 9
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

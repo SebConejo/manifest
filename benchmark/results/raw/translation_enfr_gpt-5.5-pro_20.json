@@ -4,10 +4,12 @@
   "case": 20,
   "response": "Je dirais que \u00e7a a peu de valeur, au mieux.",
   "score": 4,
-  "cost": 0.003095,
+  "cost": 0.011475,
   "expected": "",
   "tokens": {
     "input": 35,
     "output": 146
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

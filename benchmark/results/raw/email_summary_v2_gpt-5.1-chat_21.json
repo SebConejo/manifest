@@ -4,10 +4,12 @@
   "case": 21,
   "response": "The platform team proposes a cleanup sprint to remove 15 fully rolled\u2011out feature flags and archive 8 that represent dead code. This effort targets reducing configuration complexity and improving test suite performance by about 12%.",
   "score": 5,
-  "cost": 0.000614,
+  "cost": 0.0002456,
   "expected": "",
   "tokens": {
     "input": 99,
     "output": 52
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

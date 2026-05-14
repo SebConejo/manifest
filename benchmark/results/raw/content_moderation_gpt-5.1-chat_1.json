@@ -4,9 +4,11 @@
   "case": 1,
   "response": "harassment",
   "score": 5,
-  "cost": 0.00022,
+  "cost": 8.8e-05,
   "tokens": {
     "input": 62,
     "output": 12
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

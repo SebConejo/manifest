@@ -4,10 +4,12 @@
   "case": 28,
   "response": "Your potential expands each time you choose courage over fear and keep going.",
   "score": 3,
-  "cost": 0.000748,
+  "cost": 0.00029920000000000006,
   "expected": "",
   "tokens": {
     "input": 22,
     "output": 88
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

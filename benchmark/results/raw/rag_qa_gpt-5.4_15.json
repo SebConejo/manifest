@@ -4,10 +4,12 @@
   "case": 15,
   "response": "Prussia.",
   "score": 5,
-  "cost": 0.000476,
+  "cost": 0.000238,
   "expected": "Prussia",
   "tokens": {
     "input": 214,
     "output": 6
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

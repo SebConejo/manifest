@@ -4,10 +4,12 @@
   "case": 27,
   "response": "SELECT c.Name\nFROM country AS c\nJOIN countrylanguage AS cl ON c.Code = cl.CountryCode\nWHERE cl.Language IN ('English', 'French')\nGROUP BY c.Code, c.Name\nHAVING COUNT(DISTINCT cl.Language) = 2;",
   "score": 5,
-  "cost": 0.008925,
+  "cost": 0.033195,
   "expected": "",
   "tokens": {
     "input": 73,
     "output": 428
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

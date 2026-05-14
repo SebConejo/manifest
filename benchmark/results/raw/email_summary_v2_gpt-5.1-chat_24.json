@@ -4,10 +4,12 @@
   "case": 24,
   "response": "Design System v3 is ready with new color tokens for dark mode, an updated spacing scale, and refreshed Button and Modal components, plus a migration tool to support adoption. The team recommends a phased rollout starting with the Settings page.",
   "score": 5,
-  "cost": 0.000618,
+  "cost": 0.0002472,
   "expected": "",
   "tokens": {
     "input": 85,
     "output": 56
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

@@ -4,10 +4,12 @@
   "case": 11,
   "response": "The SOC 2 Type II audit found no critical issues but noted three observations regarding access review frequency, incident response plan testing, and incomplete vendor risk assessments. Remediation for these items is required within 30 days.",
   "score": 5,
-  "cost": 0.000572,
+  "cost": 0.0002288,
   "expected": "",
   "tokens": {
     "input": 98,
     "output": 47
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

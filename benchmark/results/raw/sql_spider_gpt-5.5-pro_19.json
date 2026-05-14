@@ -4,10 +4,12 @@
   "case": 19,
   "response": "SELECT DISTINCT cm.Maker\nFROM car_makers AS cm\nJOIN model_list AS ml ON cm.Id = ml.Maker\nJOIN car_names AS cn ON ml.Model = cn.Model\nJOIN cars_data AS cd ON cn.MakeId = cd.Id\nWHERE cd.Year = 1970;",
   "score": 4,
-  "cost": 0.078555,
+  "cost": 0.294285,
   "expected": "",
   "tokens": {
     "input": 79,
     "output": 3908
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

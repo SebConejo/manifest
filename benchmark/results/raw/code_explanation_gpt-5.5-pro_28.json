@@ -4,10 +4,12 @@
   "case": 28,
   "response": "This function computes the length of the longest common subsequence between strings/sequences `a` and `b` using bottom-up dynamic programming. It fills a 2D DP table where matching characters extend the subsequence by 1, otherwise it takes the best result from skipping one character from either sequence.",
   "score": 5,
-  "cost": 0.00332,
+  "cost": 0.01185,
   "expected": "",
   "tokens": {
     "input": 160,
     "output": 126
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

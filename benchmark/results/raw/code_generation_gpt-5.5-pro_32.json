@@ -4,10 +4,12 @@
   "case": 32,
   "response": "return \" \".join(\"\".join(sorted(word)) for word in s.split(\" \"))",
   "score": 4,
-  "cost": 0.008565,
+  "cost": 0.031515,
   "expected": "",
   "tokens": {
     "input": 161,
     "output": 388
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

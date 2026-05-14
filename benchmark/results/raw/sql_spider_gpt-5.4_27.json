@@ -4,10 +4,12 @@
   "case": 27,
   "response": "SELECT c.Name\nFROM country AS c\nJOIN countrylanguage AS cl1\n  ON c.Code = cl1.CountryCode\nJOIN countrylanguage AS cl2\n  ON c.Code = cl2.CountryCode\nWHERE cl1.Language = 'English'\n  AND cl2.Language = 'French';",
   "score": 5,
-  "cost": 0.000646,
+  "cost": 0.000323,
   "expected": "",
   "tokens": {
     "input": 71,
     "output": 63
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

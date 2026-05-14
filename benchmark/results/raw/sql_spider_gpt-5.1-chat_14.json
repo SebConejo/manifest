@@ -4,10 +4,12 @@
   "case": 14,
   "response": "SELECT m.id AS maker_id, m.full_name, COUNT(md.id) AS model_count\nFROM makers m\nLEFT JOIN models md ON m.id = md.maker_id\nGROUP BY m.id, m.full_name;",
   "score": 5,
-  "cost": 0.000596,
+  "cost": 0.0002384,
   "expected": "",
   "tokens": {
     "input": 78,
     "output": 55
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

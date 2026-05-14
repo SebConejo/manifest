@@ -4,10 +4,12 @@
   "case": 46,
   "response": "David reports a critical SQL injection vulnerability in /api/v2/auth/login affecting versions v3.2.0\u2013v3.4.1, with a CVSS score of 9.8. The patch to parameterize the query in auth_controller.py:142 is ready for review, and a hotfix should be deployed within 24 hours.",
   "score": 5,
-  "cost": 0.00446,
+  "cost": 0.01635,
   "expected": "",
   "tokens": {
     "input": 100,
     "output": 198
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

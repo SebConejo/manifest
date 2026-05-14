@@ -4,10 +4,12 @@
   "case": 2,
   "response": "Taking physical control of another land or country.",
   "score": 5,
-  "cost": 0.003425,
+  "cost": 0.011655,
   "expected": "taking physical control of another",
   "tokens": {
     "input": 317,
     "output": 92
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

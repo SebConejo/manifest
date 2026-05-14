@@ -4,10 +4,12 @@
   "case": 5,
   "response": "The product launch is at risk because the payment integration failed PCI compliance and will need two more weeks to fix. The team must choose between launching without payments (with updated T&Cs) or delaying to May 15, and this will be discussed in a meeting tomorrow at 10am.",
   "score": 5,
-  "cost": 0.000742,
+  "cost": 0.0002968,
   "expected": "",
   "tokens": {
     "input": 99,
     "output": 68
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

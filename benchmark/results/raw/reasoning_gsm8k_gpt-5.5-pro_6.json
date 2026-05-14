@@ -4,10 +4,12 @@
   "case": 6,
   "response": "Ann is 9 years old.\n\nHer brother is twice her age:\n\n2 \u00d7 9 = 18\n\nSo her brother is 18 years old now.\n\nIn 3 years:\n\n18 + 3 = 21\n\nANSWER: 21",
   "score": 5,
-  "cost": 0.0026,
+  "cost": 0.009495,
   "expected": "21",
   "tokens": {
     "input": 68,
     "output": 113
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

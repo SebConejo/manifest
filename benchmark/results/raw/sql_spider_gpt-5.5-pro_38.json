@@ -4,10 +4,12 @@
   "case": 38,
   "response": "SELECT c.Name, COUNT(DISTINCT cl.Language) AS language_count\nFROM country AS c\nJOIN countrylanguage AS cl\n  ON c.Code = cl.CountryCode\nGROUP BY c.Code, c.Name\nHAVING COUNT(DISTINCT cl.Language) > 2;",
   "score": 5,
-  "cost": 0.00808,
+  "cost": 0.029985,
   "expected": "",
   "tokens": {
     "input": 84,
     "output": 383
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

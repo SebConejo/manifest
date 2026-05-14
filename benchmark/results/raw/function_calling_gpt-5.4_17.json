@@ -4,10 +4,12 @@
   "case": 17,
   "response": "{\"name\":\"generate_qr\",\"arguments\":{\"data\":\"https://example.com/signup\"}}",
   "score": 5,
-  "cost": 0.00035,
+  "cost": 0.000175,
   "expected": "",
   "tokens": {
     "input": 95,
     "output": 20
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

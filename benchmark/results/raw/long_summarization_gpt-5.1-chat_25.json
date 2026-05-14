@@ -4,10 +4,12 @@
   "case": 25,
   "response": "Quantum computing uses qubits that can exist in superposition and become entangled, enabling certain computations to run exponentially faster than on classical computers. Major players like IBM, Google, IonQ, and Rigetti are developing hardware using superconducting circuits, trapped ions, photonics, and other approaches. Although Google claimed quantum supremacy in 2019 with a task said to take 200 seconds on a quantum processor versus 10,000 years on a classical supercomputer, practical use remains limited due to fragile qubits, high error rates, and the need for millions of qubits for fully useful machines. Still, the technology shows strong potential in fields such as drug discovery, materials science, cryptography, and complex optimization.",
   "score": 5,
-  "cost": 0.001736,
+  "cost": 0.0006944000000000001,
   "expected": "",
   "tokens": {
     "input": 276,
     "output": 148
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

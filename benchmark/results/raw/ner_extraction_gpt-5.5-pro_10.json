@@ -4,10 +4,12 @@
   "case": 10,
   "response": "{\"persons\":[\"Jennifer Lopez\",\"Ben Affleck\"],\"organizations\":[],\"locations\":[\"Beverly Hills\"]}",
   "score": 5,
-  "cost": 0.002045,
+  "cost": 0.007395,
   "expected": "",
   "tokens": {
     "input": 73,
     "output": 84
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

@@ -4,10 +4,12 @@
   "case": 0,
   "response": "This function computes the n\u2011th Fibonacci number using a na\u00efve recursive algorithm. It calls itself twice for each non\u2011base case, following the Fibonacci recurrence relation F(n) = F(n\u20111) + F(n\u20112).",
   "score": 5,
-  "cost": 0.00053,
+  "cost": 0.00021200000000000003,
   "expected": "",
   "tokens": {
     "input": 61,
     "output": 51
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

@@ -4,10 +4,12 @@
   "case": 9,
   "response": "{\"title\": \"Introduction to Machine Learning\", \"instructor\": \"Dr. Sarah Chen\", \"duration_weeks\": 12, \"prerequisites\": [\"Linear Algebra\", \"Python\"], \"level\": \"Intermediate\"}",
   "score": 5,
-  "cost": 0.000622,
+  "cost": 0.00024880000000000003,
   "expected": "",
   "tokens": {
     "input": 91,
     "output": 55
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

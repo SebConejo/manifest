@@ -4,10 +4,12 @@
   "case": 34,
   "response": "SELECT *\nFROM hiring;",
   "score": 3,
-  "cost": 0.000202,
+  "cost": 0.000101,
   "expected": "",
   "tokens": {
     "input": 69,
     "output": 8
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

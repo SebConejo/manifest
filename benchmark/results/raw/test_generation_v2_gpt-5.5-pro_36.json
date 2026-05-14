@@ -4,10 +4,12 @@
   "case": 36,
   "response": "```python\n# test_validate_password.py\nimport pytest\n\nfrom your_module import validate_password  # replace with the actual module name\n\n\n@pytest.mark.parametrize(\n    \"pw\",\n    [\n        pytest.param(\"Password1\", id=\"normal_valid_password\"),\n        pytest.param(\"Abcdef12\", id=\"exactly_8_chars\"),\n        pytest.param(\"A1bcdefg\", id=\"digit_near_front\"),\n        pytest.param(\"Abc123!@\", id=\"special_chars_allowed\"),\n        pytest.param(\"Abcdef1 \", id=\"space_allowed_as_filler\"),\n    ],\n)\ndef test_validate_password_returns_true_for_valid_passwords(pw):\n    assert validate_password(pw) is True\n\n\n@pytest.mark.parametrize(\n    \"pw\",\n    [\n        pytest.param(\"\", id=\"empty_string\"),\n        pytest.param(\"A1b\", id=\"very_short\"),\n        pytest.param(\"Abc1234\", id=\"7_chars_with_upper_lower_digit\"),\n    ],\n)\ndef test_validate_password_returns_false_when_too_short(pw):\n    assert validate_password(pw) is False\n\n\n@pytest.mark.parametrize(\n    \"pw\",\n    [\n        pytest.param(\"abcdefg1\", id=\"missing_uppercase\"),\n        pytest.param(\"ABCDEFG1\", id=\"missing_lowercase\"),\n        pytest.param(\"Abcdefgh\", id=\"missing_digit\"),\n        pytest.param(\"12345678\", id=\"digits_only\"),\n        pytest.param(\"abcdefgh\", id=\"lowercase_only\"),\n        pytest.param(\"ABCDEFGH\", id=\"uppercase_only\"),\n        pytest.param(\"!@#$%^&*\", id=\"symbols_only\"),\n        pytest.param(\"        \", id=\"spaces_only\"),\n    ],\n)\ndef test_validate_password_returns_false_when_required_character_class_missing(pw):\n    assert validate_password(pw) is False\n\n\n@pytest.mark.parametrize(\n    \"bad_input\",\n    [\n        pytest.param(None, id=\"none\"),\n        pytest.param(12345678, id=\"int\"),\n        pytest.param(object(), id=\"plain_object\"),\n    ],\n)\ndef test_validate_password_raises_type_error_for_inputs_without_len(bad_input):\n    with pytest.raises(TypeError):\n        validate_password(bad_input)  # type: ignore[arg-type]\n\n\n@pytest.mark.parametrize(\n    \"bad_input\",\n    [\n        pytest.param(b\"Abcdef12\", id=\"bytes_iterate_as_ints\"),\n        pytest.param([1, 2, 3, 4, 5, 6, 7, 8], id=\"list_of_non_strings\"),\n    ],\n)\ndef test_validate_password_raises_attribute_error_for_iterables_with_non_string_items(\n    bad_input,\n):\n    with pytest.raises(AttributeError):\n        validate_password(bad_input)  # type: ignore[arg-type]\n```\n\nThese tests reflect the function as written. If you later add explicit `isinstance(pw, str)` validation, you may want to update the last test to expect `TypeError` instead of `AttributeError`.",
   "score": 4,
-  "cost": 0.097585,
+  "cost": 0.36552,
   "expected": "",
   "tokens": {
     "input": 113,
     "output": 4851
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

@@ -4,9 +4,11 @@
   "case": 6,
   "response": "downgrade_plan",
   "score": 5,
-  "cost": 0.00034,
+  "cost": 0.000136,
   "tokens": {
     "input": 114,
     "output": 14
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

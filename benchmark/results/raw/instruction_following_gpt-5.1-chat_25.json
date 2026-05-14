@@ -4,10 +4,12 @@
   "case": 25,
   "response": "Team Sync Meeting: Project Updates and Next Steps",
   "score": 3,
-  "cost": 0.000706,
+  "cost": 0.00028240000000000003,
   "expected": "",
   "tokens": {
     "input": 21,
     "output": 83
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

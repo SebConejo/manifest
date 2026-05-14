@@ -4,10 +4,12 @@
   "case": 23,
   "response": "if not nums:\n        raise ValueError(\"nums must be non-empty\")\n    current = best = nums[0]\n    for num in nums[1:]:\n        current = min(num, current + num)\n        best = min(best, current)\n    return best",
   "score": 5,
-  "cost": 0.006365,
+  "cost": 0.023415,
   "expected": "",
   "tokens": {
     "input": 121,
     "output": 288
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

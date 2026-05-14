@@ -4,10 +4,12 @@
   "case": 19,
   "response": "communication",
   "score": 4,
-  "cost": 0.000342,
+  "cost": 0.000171,
   "expected": "communication",
   "tokens": {
     "input": 155,
     "output": 4
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

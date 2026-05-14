@@ -4,9 +4,11 @@
   "case": 6,
   "response": "neutral",
   "score": 5,
-  "cost": 0.0002,
+  "cost": 8e-05,
   "tokens": {
     "input": 56,
     "output": 11
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

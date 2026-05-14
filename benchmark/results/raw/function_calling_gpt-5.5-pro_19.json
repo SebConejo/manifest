@@ -4,10 +4,12 @@
   "case": 19,
   "response": "{\"name\":\"run_tests\",\"arguments\":{\"module\":\"backend\",\"verbose\":true}}",
   "score": 5,
-  "cost": 0.002395,
+  "cost": 0.008625,
   "expected": "",
   "tokens": {
     "input": 95,
     "output": 96
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

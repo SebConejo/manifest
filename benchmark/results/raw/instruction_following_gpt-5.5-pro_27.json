@@ -4,10 +4,12 @@
   "case": 27,
   "response": "### Mammals\n- Elephant\n- Dolphin\n- Tiger\n\n### Birds\n- Eagle\n- Penguin\n- Parrot\n\n### Fish\n- Salmon\n- Goldfish\n- Tuna",
   "score": 5,
-  "cost": 0.001375,
+  "cost": 0.005055,
   "expected": "",
   "tokens": {
     "input": 27,
     "output": 62
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

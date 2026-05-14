@@ -4,10 +4,12 @@
   "case": 20,
   "response": "Sunlight strikes plants.  \nSprouting shoots spread \u09aa\u09be\u09a4terns?",
   "score": 3,
-  "cost": 0.000178,
+  "cost": 8.9e-05,
   "expected": "",
   "tokens": {
     "input": 21,
     "output": 17
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

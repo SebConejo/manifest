@@ -4,10 +4,12 @@
   "case": 16,
   "response": "This implements **bounded concurrency** using an `asyncio.Semaphore`: it schedules all wrappers with `asyncio.gather`, but only `limit` coroutines are allowed to run at the same time. It returns the gathered results in the same order as `coros`, using a semaphore-guarded fan-out/fan-in pattern.",
   "score": 5,
-  "cost": 0.005165,
+  "cost": 0.01905,
   "expected": "",
   "tokens": {
     "input": 85,
     "output": 237
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

@@ -4,10 +4,12 @@
   "case": 18,
   "response": "Allan Bloom wrote \"The Closing of the American Mind.\"",
   "score": 5,
-  "cost": 0.00047,
+  "cost": 0.000188,
   "expected": "Allan Bloom",
   "tokens": {
     "input": 171,
     "output": 16
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

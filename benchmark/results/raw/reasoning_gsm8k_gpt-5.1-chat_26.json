@@ -4,10 +4,12 @@
   "case": 26,
   "response": "Mitchell made 21 lemonades at 4 dollars each, for a total of 84 dollars.  \nThe difference between Mitchell\u2019s 84 dollars and Liam\u2019s 63 dollars is 21 dollars.\n\nANSWER: 21",
   "score": 4,
-  "cost": 0.000644,
+  "cost": 0.00025760000000000003,
   "expected": "21",
   "tokens": {
     "input": 102,
     "output": 55
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

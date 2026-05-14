@@ -4,10 +4,12 @@
   "case": 32,
   "response": "This code implements a Union\u2011Find (Disjoint Set Union) data structure using path compression in the find operation and union\u2011by\u2011rank in the union operation. It efficiently tracks and merges disjoint sets so that connectivity queries can be answered in nearly constant time.",
   "score": 5,
-  "cost": 0.000772,
+  "cost": 0.0003088,
   "expected": "",
   "tokens": {
     "input": 158,
     "output": 57
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

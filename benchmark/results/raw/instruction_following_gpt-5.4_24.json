@@ -4,10 +4,12 @@
   "case": 24,
   "response": "- Date, time, and location of the accident, along with weather and road conditions.\n- Names of drivers, vehicles involved, insurance details, and any injuries or property damage.\n- Description of how the accident happened, witness statements, and officer\u2019s findings or diagram.",
   "score": 3,
-  "cost": 0.000492,
+  "cost": 0.000246,
   "expected": "",
   "tokens": {
     "input": 18,
     "output": 57
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

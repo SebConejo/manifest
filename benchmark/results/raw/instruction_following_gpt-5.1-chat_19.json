@@ -4,10 +4,12 @@
   "case": 19,
   "response": "AI isn\u2019t here to replace us \u2014 it\u2019s here to amplify what we can do. The real power comes when human creativity and machine intelligence work together. The future isn\u2019t human vs. AI, it\u2019s human *with* AI. \ud83d\ude80",
   "score": 5,
-  "cost": 0.000468,
+  "cost": 0.00018720000000000002,
   "expected": "",
   "tokens": {
     "input": 18,
     "output": 54
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

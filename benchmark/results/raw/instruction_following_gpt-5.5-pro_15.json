@@ -4,10 +4,12 @@
   "case": 15,
   "response": "bat, hat, mat, rat",
   "score": 5,
-  "cost": 0.00094,
+  "cost": 0.00345,
   "expected": "",
   "tokens": {
     "input": 20,
     "output": 42
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

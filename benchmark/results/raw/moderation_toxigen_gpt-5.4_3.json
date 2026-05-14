@@ -4,10 +4,12 @@
   "case": 3,
   "response": "toxic",
   "score": 5,
-  "cost": 0.000264,
+  "cost": 0.000132,
   "expected": "toxic",
   "tokens": {
     "input": 112,
     "output": 5
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

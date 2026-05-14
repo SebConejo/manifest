@@ -4,10 +4,12 @@
   "case": 14,
   "response": "{\"persons\":[\"Jerome Powell\"],\"organizations\":[\"Federal Reserve\",\"Congress\"],\"locations\":[\"Washington DC\"]}",
   "score": 5,
-  "cost": 0.000336,
+  "cost": 0.000168,
   "expected": "",
   "tokens": {
     "input": 68,
     "output": 25
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

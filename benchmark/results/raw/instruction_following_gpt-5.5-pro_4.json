@@ -4,10 +4,12 @@
   "case": 4,
   "response": "1. French: Bonjour le monde  \n2. Spanish: Hola mundo  \n3. German: Hallo Welt",
   "score": 5,
-  "cost": 0.001195,
+  "cost": 0.00438,
   "expected": "",
   "tokens": {
     "input": 27,
     "output": 53
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

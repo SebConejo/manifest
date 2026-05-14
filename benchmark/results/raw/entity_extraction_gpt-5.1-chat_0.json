@@ -4,9 +4,11 @@
   "case": 0,
   "response": "{\"persons\": [\"Elon Musk\"], \"organizations\": [\"Tesla\"], \"locations\": [\"Austin\", \"Texas\", \"Texas State Capitol\"]}",
   "score": 5,
-  "cost": 0.000498,
+  "cost": 0.00019920000000000002,
   "tokens": {
     "input": 93,
     "output": 39
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

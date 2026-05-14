@@ -4,10 +4,12 @@
   "case": 29,
   "response": "Et je t\u2019aime bien... m\u00eame si je ne sais pas pourquoi.",
   "score": 4,
-  "cost": 0.002805,
+  "cost": 0.01038,
   "expected": "",
   "tokens": {
     "input": 37,
     "output": 131
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

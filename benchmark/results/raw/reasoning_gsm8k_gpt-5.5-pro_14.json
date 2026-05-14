@@ -4,10 +4,12 @@
   "case": 14,
   "response": "Each duck needs 3.5 pounds per week.\n\nFor 10 ducks:\n3.5 \u00d7 10 = 35 pounds per week\n\nThere are 7 days in a week:\n35 \u00f7 7 = 5 pounds per day\n\nANSWER: 5",
   "score": 5,
-  "cost": 0.00437,
+  "cost": 0.016095,
   "expected": "5",
   "tokens": {
     "input": 78,
     "output": 199
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

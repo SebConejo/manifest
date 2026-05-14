@@ -4,10 +4,12 @@
   "case": 3,
   "response": "FRANCE, GERMANY, ITALY, SPAIN, POLAND",
   "score": 5,
-  "cost": 0.00106,
+  "cost": 0.0039,
   "expected": "",
   "tokens": {
     "input": 20,
     "output": 48
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

@@ -4,10 +4,12 @@
   "case": 46,
   "response": "calculator",
   "score": 5,
-  "cost": 0.003215,
+  "cost": 0.010125,
   "expected": "calculator",
   "tokens": {
     "input": 515,
     "output": 32
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

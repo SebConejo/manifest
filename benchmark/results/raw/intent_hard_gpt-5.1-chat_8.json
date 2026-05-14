@@ -4,9 +4,11 @@
   "case": 8,
   "response": "order_tracking",
   "score": 5,
-  "cost": 0.000318,
+  "cost": 0.00012720000000000003,
   "tokens": {
     "input": 111,
     "output": 12
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

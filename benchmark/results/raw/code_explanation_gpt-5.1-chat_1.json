@@ -4,10 +4,12 @@
   "case": 1,
   "response": "This function performs a binary search on a sorted list by repeatedly halving the search interval: it compares the target to the middle element and narrows the range until the target is found or the interval is empty. It returns the index of the target if present, or -1 if not found.",
   "score": 5,
-  "cost": 0.00072,
+  "cost": 0.000288,
   "expected": "",
   "tokens": {
     "input": 108,
     "output": 63
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

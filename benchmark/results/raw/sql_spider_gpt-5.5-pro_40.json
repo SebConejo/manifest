@@ -4,10 +4,12 @@
   "case": 40,
   "response": "SELECT cn.MakeId, cn.Make\nFROM car_names AS cn\nJOIN cars_data AS cd\n  ON cn.MakeId = cd.Id\nWHERE cd.Horsepower > (SELECT MIN(Horsepower) FROM cars_data)\n  AND cd.Cylinders <= 3;",
   "score": 5,
-  "cost": 0.01241,
+  "cost": 0.0462,
   "expected": "",
   "tokens": {
     "input": 90,
     "output": 598
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

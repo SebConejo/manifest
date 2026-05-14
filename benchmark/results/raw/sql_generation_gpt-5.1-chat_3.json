@@ -4,9 +4,11 @@
   "case": 3,
   "response": "SELECT e.*\nFROM employees e\nLEFT JOIN expense_reports r\n  ON e.id = r.employee_id\n  AND EXTRACT(YEAR FROM r.submitted_at) = EXTRACT(YEAR FROM CURRENT_DATE)\nWHERE r.id IS NULL;",
   "score": 5,
-  "cost": 0.00062,
+  "cost": 0.000248,
   "tokens": {
     "input": 74,
     "output": 59
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

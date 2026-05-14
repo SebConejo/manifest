@@ -4,10 +4,12 @@
   "case": 31,
   "response": "Revenue proposes a new $29/month \u201cStarter\u201d tier between Free and Pro, offering 5 users, 10K API calls, and email support to address price-related churn. Action item: evaluate/approve the proposal, which is projected to recover 15% of price-churned users and add about $180K ARR.",
   "score": 5,
-  "cost": 0.003555,
+  "cost": 0.012915,
   "expected": "",
   "tokens": {
     "input": 111,
     "output": 150
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

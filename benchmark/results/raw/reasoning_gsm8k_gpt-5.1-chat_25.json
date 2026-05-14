@@ -4,10 +4,12 @@
   "case": 25,
   "response": "Loan amount is 40% of 250,000 = 100,000  \nHe spends 60% of the loan on debts = 60,000  \nMoney left over = 100,000 \u2212 60,000 = 40,000\n\nANSWER: 40000",
   "score": 5,
-  "cost": 0.000738,
+  "cost": 0.0002952,
   "expected": "40,000",
   "tokens": {
     "input": 101,
     "output": 67
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

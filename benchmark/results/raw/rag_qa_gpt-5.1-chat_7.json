@@ -4,10 +4,12 @@
   "case": 7,
   "response": "Not found in context.",
   "score": 5,
-  "cost": 0.000396,
+  "cost": 0.0001584,
   "expected": "mass of the system",
   "tokens": {
     "input": 162,
     "output": 9
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

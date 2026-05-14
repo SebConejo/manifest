@@ -4,10 +4,12 @@
   "case": 25,
   "response": "SELECT title\nFROM cartoon\nWHERE directed_by = 'Ben Jones';",
   "score": 5,
-  "cost": 0.027965,
+  "cost": 0.10461,
   "expected": "",
   "tokens": {
     "input": 69,
     "output": 1381
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

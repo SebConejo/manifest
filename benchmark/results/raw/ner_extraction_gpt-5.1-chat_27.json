@@ -4,10 +4,12 @@
   "case": 27,
   "response": "{\"persons\":[\"Cristiano Ronaldo\"],\"organizations\":[\"Al Nassr\",\"Manchester United\"],\"locations\":[\"Riyadh\"]}",
   "score": 5,
-  "cost": 0.000428,
+  "cost": 0.0001712,
   "expected": "",
   "tokens": {
     "input": 74,
     "output": 35
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

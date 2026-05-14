@@ -4,10 +4,12 @@
   "case": 33,
   "response": "direct_deposit",
   "score": 5,
-  "cost": 0.0035,
+  "cost": 0.01119,
   "expected": "direct_deposit",
   "tokens": {
     "input": 516,
     "output": 46
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

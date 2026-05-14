@@ -4,10 +4,12 @@
   "case": 32,
   "response": "SELECT\n  first_name,\n  AVG(ranking) AS average_ranking\nFROM players\nGROUP BY first_name;",
   "score": 4,
-  "cost": 0.000364,
+  "cost": 0.000182,
   "expected": "",
   "tokens": {
     "input": 74,
     "output": 27
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

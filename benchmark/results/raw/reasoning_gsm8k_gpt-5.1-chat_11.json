@@ -4,10 +4,12 @@
   "case": 11,
   "response": "Total burritos = 600  \nBurritos eaten by students = 50 \u00d7 10 = 500  \nBurritos eaten by Mr. George = 20  \nTotal eaten = 500 + 20 = 520  \n\nLeftover burritos = 600 \u2212 520 = 80\n\nANSWER: 80",
   "score": 5,
-  "cost": 0.0008,
+  "cost": 0.00032,
   "expected": "80",
   "tokens": {
     "input": 100,
     "output": 75
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

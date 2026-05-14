@@ -4,10 +4,12 @@
   "case": 29,
   "response": "The capital of the Ottoman Empire was Istanbul.",
   "score": 5,
-  "cost": 0.000452,
+  "cost": 0.0001808,
   "expected": "Istanbul",
   "tokens": {
     "input": 174,
     "output": 13
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

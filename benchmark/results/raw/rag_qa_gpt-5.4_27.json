@@ -4,10 +4,12 @@
   "case": 27,
   "response": "Newton's First Law of Motion.",
   "score": 5,
-  "cost": 0.00062,
+  "cost": 0.00031,
   "expected": "Newton's First",
   "tokens": {
     "input": 270,
     "output": 10
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

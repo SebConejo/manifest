@@ -4,9 +4,11 @@
   "case": 5,
   "response": "billing_inquiry",
   "score": 5,
-  "cost": 0.00025,
+  "cost": 0.0001,
   "tokens": {
     "input": 73,
     "output": 13
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

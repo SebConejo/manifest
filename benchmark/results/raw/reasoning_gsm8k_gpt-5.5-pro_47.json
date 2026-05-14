@@ -4,10 +4,12 @@
   "case": 47,
   "response": "Nik has 200 crayons.\n\nEach box holds 8 crayons, so the number of boxes is:\n\n200 \u00f7 8 = 25 boxes\n\nEach crayon weighs 1 ounce:\n\n200 \u00d7 1 = 200 ounces\n\nEach box weighs 8 ounces:\n\n25 \u00d7 8 = 200 ounces\n\nTotal weight:\n\n200 + 200 = 400 ounces\n\nSince 16 ounces = 1 pound:\n\n400 \u00f7 16 = 25 pounds\n\nANSWER: 25",
   "score": 5,
-  "cost": 0.0059,
+  "cost": 0.02169,
   "expected": "25",
   "tokens": {
     "input": 116,
     "output": 266
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

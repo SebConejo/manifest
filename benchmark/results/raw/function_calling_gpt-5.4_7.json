@@ -4,10 +4,12 @@
   "case": 7,
   "response": "{\"name\":\"set_alarm\",\"arguments\":{\"time\":\"tomorrow 6:30 AM\",\"label\":\"Morning Workout\"}}",
   "score": 4,
-  "cost": 0.000404,
+  "cost": 0.000202,
   "expected": "",
   "tokens": {
     "input": 98,
     "output": 26
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

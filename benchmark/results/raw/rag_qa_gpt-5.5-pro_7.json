@@ -4,10 +4,12 @@
   "case": 7,
   "response": "the mass of the system",
   "score": 5,
-  "cost": 0.00218,
+  "cost": 0.00756,
   "expected": "mass of the system",
   "tokens": {
     "input": 164,
     "output": 68
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

@@ -4,10 +4,12 @@
   "case": 13,
   "response": "SELECT MAX(transcript_date) AS last_transcript_release_date\nFROM transcripts;",
   "score": 5,
-  "cost": 0.01919,
+  "cost": 0.0717,
   "expected": "",
   "tokens": {
     "input": 70,
     "output": 942
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

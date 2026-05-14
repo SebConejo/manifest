@@ -4,10 +4,12 @@
   "case": 41,
   "response": "{\"sensors\":[{\"id\":\"temp_1\",\"avg\":22.42,\"min\":22.0,\"max\":23.5,\"anomalies\":1},{\"id\":\"temp_2\",\"avg\":22.56,\"min\":21.0,\"max\":28.5,\"anomalies\":1}]}",
   "score": 3,
-  "cost": 0.04377,
+  "cost": 0.163575,
   "expected": "",
   "tokens": {
     "input": 150,
     "output": 2151
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

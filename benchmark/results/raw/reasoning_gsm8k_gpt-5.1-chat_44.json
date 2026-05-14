@@ -4,10 +4,12 @@
   "case": 44,
   "response": "Each of the 20 stalls gets 2 new cows, so each stall now has 22 cows.  \nEight stalls therefore contain 8 \u00d7 22 = 176 cows.\n\nANSWER: 176",
   "score": 3,
-  "cost": 0.001086,
+  "cost": 0.00043440000000000004,
   "expected": "192",
   "tokens": {
     "input": 87,
     "output": 114
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

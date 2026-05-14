@@ -4,9 +4,11 @@
   "case": 4,
   "response": "Le pipeline d'apprentissage automatique se compose de trois \u00e9tapes : le pr\u00e9traitement des donn\u00e9es avec normalisation des caract\u00e9ristiques, l'entra\u00eenement du mod\u00e8le \u00e0 l'aide d'arbres de gradient boosting, et la mise en service de l'inf\u00e9rence via un endpoint REST avec une latence inf\u00e9rieure \u00e0 100 ms.",
   "score": 5,
-  "cost": 0.001226,
+  "cost": 0.0004904,
   "tokens": {
     "input": 61,
     "output": 138
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

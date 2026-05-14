@@ -4,10 +4,12 @@
   "case": 0,
   "response": "{\"name\":\"John Smith\",\"age\":32,\"job_title\":\"software engineer\",\"company\":\"Google\",\"location\":{\"city\":\"Mountain View\",\"state\":\"CA\"}}",
   "score": 5,
-  "cost": 0.002085,
+  "cost": 0.007515,
   "expected": "",
   "tokens": {
     "input": 81,
     "output": 84
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

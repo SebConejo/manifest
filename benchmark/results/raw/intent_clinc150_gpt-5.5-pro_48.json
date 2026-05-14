@@ -4,10 +4,12 @@
   "case": 48,
   "response": "application_status",
   "score": 5,
-  "cost": 0.00361,
+  "cost": 0.01161,
   "expected": "application_status",
   "tokens": {
     "input": 514,
     "output": 52
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

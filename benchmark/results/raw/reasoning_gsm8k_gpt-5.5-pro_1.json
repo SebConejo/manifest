@@ -4,10 +4,12 @@
   "case": 1,
   "response": "Kalinda adds 4 pieces per minute.\n\nHer mom adds half as many:\n\n4 \u00f7 2 = 2 pieces per minute\n\nTogether, they add:\n\n4 + 2 = 6 pieces per minute\n\nFor a 360-piece puzzle:\n\n360 \u00f7 6 = 60 minutes\n\n60 minutes = 1 hour\n\nANSWER: 1",
   "score": 5,
-  "cost": 0.003815,
+  "cost": 0.01395,
   "expected": "1",
   "tokens": {
     "input": 95,
     "output": 167
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

@@ -4,10 +4,12 @@
   "case": 45,
   "response": "The show globe.",
   "score": 5,
-  "cost": 0.000508,
+  "cost": 0.0002032,
   "expected": "The show globe",
   "tokens": {
     "input": 222,
     "output": 8
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

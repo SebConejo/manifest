@@ -4,10 +4,12 @@
   "case": 6,
   "response": "{\"name\":\"translate\",\"arguments\":{\"text\":\"The meeting has been rescheduled to Monday\",\"target_language\":\"Spanish\"}}",
   "score": 4,
-  "cost": 0.002875,
+  "cost": 0.010395,
   "expected": "",
   "tokens": {
     "input": 103,
     "output": 118
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

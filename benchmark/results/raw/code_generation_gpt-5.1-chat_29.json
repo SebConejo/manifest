@@ -4,10 +4,12 @@
   "case": 29,
   "response": "```python\n    def digit_sum(n):\n        return sum(int(d) for d in str(abs(n)))\n    return sorted(nums, key=digit_sum)\n```",
   "score": 4,
-  "cost": 0.000636,
+  "cost": 0.0002544,
   "expected": "",
   "tokens": {
     "input": 146,
     "output": 43
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

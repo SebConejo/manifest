@@ -4,10 +4,12 @@
   "case": 44,
   "response": "{\"title\":\"Senior Backend Engineer\",\"company\":\"CloudMatrix\",\"location\":{\"city\":\"Austin\",\"remote\":true},\"salary\":{\"min\":165000,\"max\":195000},\"requirements\":{\"min_years\":5,\"skills\":[\"distributed systems\",\"Go\",\"Rust\",\"Kubernetes\",\"event-driven architectures\"]},\"benefits\":[\"equity\",\"unlimited PTO\",\"health/dental/vision\",\"401k match\",\"$3K learning budget\"]}",
   "score": 4,
-  "cost": 0.001036,
+  "cost": 0.000518,
   "expected": "",
   "tokens": {
     "input": 162,
     "output": 89
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

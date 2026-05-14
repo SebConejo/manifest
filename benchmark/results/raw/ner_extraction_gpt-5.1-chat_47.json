@@ -4,10 +4,12 @@
   "case": 47,
   "response": "{\"persons\": [\"Professor Alain Aspect\"], \"organizations\": [\"Universite Paris-Saclay\"], \"locations\": [\"Stockholm\"]}",
   "score": 5,
-  "cost": 0.000956,
+  "cost": 0.0003824,
   "expected": "",
   "tokens": {
     "input": 74,
     "output": 101
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

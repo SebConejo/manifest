@@ -4,9 +4,11 @@
   "case": 1,
   "response": "refund_request",
   "score": 5,
-  "cost": 0.000326,
+  "cost": 0.0001304,
   "tokens": {
     "input": 115,
     "output": 12
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

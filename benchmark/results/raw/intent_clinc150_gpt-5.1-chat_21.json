@@ -4,10 +4,12 @@
   "case": 21,
   "response": "ingredients_list",
   "score": 0,
-  "cost": 0.001626,
+  "cost": 0.0006504000000000001,
   "expected": "ingredient_substitution",
   "tokens": {
     "input": 509,
     "output": 76
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

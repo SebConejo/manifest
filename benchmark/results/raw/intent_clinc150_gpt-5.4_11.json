@@ -4,10 +4,12 @@
   "case": 11,
   "response": "travel_alert",
   "score": 5,
-  "cost": 0.00106,
+  "cost": 0.00053,
   "expected": "travel_alert",
   "tokens": {
     "input": 510,
     "output": 5
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

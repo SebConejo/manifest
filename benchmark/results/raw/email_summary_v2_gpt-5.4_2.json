@@ -4,10 +4,12 @@
   "case": 2,
   "response": "David reports a critical SQL injection vulnerability (CVSS 9.8) in /api/v2/auth/login affecting versions 3.2.0 through 3.4.1. Action items are to review the ready patch, parameterize the query in auth_controller.py:142, and release a hotfix within 24 hours.",
   "score": 5,
-  "cost": 0.000764,
+  "cost": 0.000382,
   "expected": "",
   "tokens": {
     "input": 98,
     "output": 71
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

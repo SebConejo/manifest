@@ -4,10 +4,12 @@
   "case": 34,
   "response": "This implements a \u201cmin stack\u201d using an auxiliary parallel stack: each pushed value is paired with the minimum value seen up to that stack depth. This lets `push`, `pop`, and `get_min` all run in O(1) time.",
   "score": 5,
-  "cost": 0.003105,
+  "cost": 0.01119,
   "expected": "",
   "tokens": {
     "input": 121,
     "output": 125
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

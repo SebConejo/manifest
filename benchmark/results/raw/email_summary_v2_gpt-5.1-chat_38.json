@@ -4,10 +4,12 @@
   "case": 38,
   "response": "The security team reports that in the first month of the bug bounty program, 12 of 47 submissions were valid, including 3 critical issues that were patched within 24 hours, with total payouts of $15K. They note the program shows strong ROI and recommend continuing it.",
   "score": 5,
-  "cost": 0.000756,
+  "cost": 0.0003024,
   "expected": "",
   "tokens": {
     "input": 110,
     "output": 67
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

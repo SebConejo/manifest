@@ -4,10 +4,12 @@
   "case": 24,
   "response": "The Design Team announced that Design System v3 is ready for adoption, featuring new dark mode color tokens, a revised 4px-based spacing scale, and updates to the Button and Modal components. Teams should use the available migration tool and begin a phased rollout, starting with the Settings page.",
   "score": 5,
-  "cost": 0.000658,
+  "cost": 0.000329,
   "expected": "",
   "tokens": {
     "input": 85,
     "output": 61
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

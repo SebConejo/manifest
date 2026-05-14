@@ -4,10 +4,12 @@
   "case": 41,
   "response": "{\"name\":\"add_comment\",\"arguments\":{\"pr_id\":789,\"body\":\"LGTM approved\"}}",
   "score": 5,
-  "cost": 0.00177,
+  "cost": 0.00627,
   "expected": "",
   "tokens": {
     "input": 98,
     "output": 64
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

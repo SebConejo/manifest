@@ -4,10 +4,12 @@
   "case": 23,
   "response": "The presence of the mortgage banker is highly likely even in small projects.",
   "score": 5,
-  "cost": 0.00053,
+  "cost": 0.000265,
   "expected": "the mortgage banker",
   "tokens": {
     "input": 197,
     "output": 17
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

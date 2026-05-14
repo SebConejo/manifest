@@ -4,10 +4,12 @@
   "case": 1,
   "response": "result = []\n    for group in paren_string.split():\n        depth = 0\n        max_depth = 0\n        for ch in group:\n            if ch == \"(\":\n                depth += 1\n                max_depth = max(max_depth, depth)\n            elif ch == \")\":\n                depth -= 1\n        result.append(max_depth)\n    return result",
   "score": 4,
-  "cost": 0.006935,
+  "cost": 0.02547,
   "expected": "",
   "tokens": {
     "input": 143,
     "output": 311
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

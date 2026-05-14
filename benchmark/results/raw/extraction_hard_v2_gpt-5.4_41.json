@@ -4,10 +4,12 @@
   "case": 41,
   "response": "{\"name\":\"Sarah Chen\",\"email\":\"sarah.c@gmail.com\",\"current_role\":{\"title\":\"Lead ML Engineer\",\"company\":\"Anthropic\"},\"education\":[{\"degree\":\"MS Computer Science\",\"institution\":\"Stanford\",\"year\":2016},{\"degree\":\"BS Mathematics + CS\",\"institution\":\"MIT\",\"year\":2014}],\"skills\":[\"PyTorch\",\"JAX\",\"distributed training\",\"transformer architectures\",\"RLHF\"]}",
   "score": 5,
-  "cost": 0.00104,
+  "cost": 0.00052,
   "expected": "",
   "tokens": {
     "input": 172,
     "output": 87
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

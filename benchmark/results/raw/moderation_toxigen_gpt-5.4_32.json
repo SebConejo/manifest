@@ -4,10 +4,12 @@
   "case": 32,
   "response": "safe",
   "score": 5,
-  "cost": 0.000144,
+  "cost": 7.2e-05,
   "expected": "safe",
   "tokens": {
     "input": 56,
     "output": 4
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

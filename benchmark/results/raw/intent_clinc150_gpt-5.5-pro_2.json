@@ -4,10 +4,12 @@
   "case": 2,
   "response": "report_lost_card",
   "score": 5,
-  "cost": 0.003515,
+  "cost": 0.01125,
   "expected": "report_lost_card",
   "tokens": {
     "input": 515,
     "output": 47
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

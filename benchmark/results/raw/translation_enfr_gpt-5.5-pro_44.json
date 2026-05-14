@@ -4,10 +4,12 @@
   "case": 44,
   "response": "Les analyses de sensibilit\u00e9 indiquent que l\u2019\u00e9tendue de la longueur non soutenue r\u00e9sultant de l\u2019affouillement exerce une influence significative sur la r\u00e9ponse en flexion du syst\u00e8me conduite-sol.",
   "score": 4,
-  "cost": 0.00564,
+  "cost": 0.02094,
   "expected": "",
   "tokens": {
     "input": 56,
     "output": 268
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

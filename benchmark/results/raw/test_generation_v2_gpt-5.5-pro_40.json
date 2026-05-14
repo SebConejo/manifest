@@ -4,10 +4,12 @@
   "case": 40,
   "response": "```python\n# test_rgb_to_hex.py\n\nimport pytest\n\nfrom your_module import rgb_to_hex  # Replace \"your_module\" with the actual module name\n\n\n@pytest.mark.parametrize(\n    (\"r\", \"g\", \"b\", \"expected\"),\n    [\n        (255, 0, 0, \"#ff0000\"),\n        (0, 255, 0, \"#00ff00\"),\n        (0, 0, 255, \"#0000ff\"),\n        (12, 34, 56, \"#0c2238\"),\n        (171, 205, 239, \"#abcdef\"),\n    ],\n)\ndef test_rgb_to_hex_happy_path(r, g, b, expected):\n    assert rgb_to_hex(r, g, b) == expected\n\n\n@pytest.mark.parametrize(\n    (\"r\", \"g\", \"b\", \"expected\"),\n    [\n        (0, 0, 0, \"#000000\"),\n        (255, 255, 255, \"#ffffff\"),\n        (0, 15, 16, \"#000f10\"),  # verifies zero-padding\n    ],\n)\ndef test_rgb_to_hex_edge_cases(r, g, b, expected):\n    assert rgb_to_hex(r, g, b) == expected\n\n\n@pytest.mark.parametrize(\n    (\"r\", \"g\", \"b\"),\n    [\n        (-1, 0, 0),\n        (0, -1, 0),\n        (0, 0, -1),\n        (256, 0, 0),\n        (0, 256, 0),\n        (0, 0, 256),\n    ],\n)\ndef test_rgb_to_hex_raises_value_error_for_out_of_range_values(r, g, b):\n    with pytest.raises(ValueError, match=\"RGB values must be 0-255\"):\n        rgb_to_hex(r, g, b)\n\n\n@pytest.mark.parametrize(\n    \"args\",\n    [\n        (\"0\", 0, 0),\n        (0, None, 0),\n        (0, 0, object()),\n        (1.5, 2, 3),\n    ],\n)\ndef test_rgb_to_hex_raises_for_non_integer_values(args):\n    with pytest.raises((TypeError, ValueError)):\n        rgb_to_hex(*args)\n\n\n@pytest.mark.parametrize(\n    \"args\",\n    [\n        (0, 0),\n        (0, 0, 0, 0),\n    ],\n)\ndef test_rgb_to_hex_requires_exactly_three_arguments(args):\n    with pytest.raises(TypeError):\n        rgb_to_hex(*args)\n```",
   "score": 5,
-  "cost": 0.072065,
+  "cost": 0.269835,
   "expected": "",
   "tokens": {
     "input": 109,
     "output": 3576
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

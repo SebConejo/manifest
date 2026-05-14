@@ -4,10 +4,12 @@
   "case": 26,
   "response": "{\"persons\":[],\"organizations\":[\"Supreme Court\",\"ACLU\"],\"locations\":[\"Texas\"]}",
   "score": 4,
-  "cost": 0.000318,
+  "cost": 0.000159,
   "expected": "",
   "tokens": {
     "input": 71,
     "output": 22
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

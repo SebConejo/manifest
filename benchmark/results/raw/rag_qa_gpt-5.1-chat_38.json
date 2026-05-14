@@ -4,10 +4,12 @@
   "case": 38,
   "response": "Along or near the Charles River.",
   "score": 2,
-  "cost": 0.000592,
+  "cost": 0.0002368,
   "expected": "Charles River",
   "tokens": {
     "input": 252,
     "output": 11
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

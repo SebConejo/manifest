@@ -4,10 +4,12 @@
   "case": 37,
   "response": "Candidate A got 20% of 100 votes:\n\n20 votes\n\nCandidate B got 50% more than candidate A:\n\n20 + 50% of 20 = 20 + 10 = 30 votes\n\nVotes for candidate C:\n\n100 - 20 - 30 = 50 votes\n\nANSWER: 50",
   "score": 5,
-  "cost": 0.003885,
+  "cost": 0.014205,
   "expected": "50",
   "tokens": {
     "input": 97,
     "output": 170
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

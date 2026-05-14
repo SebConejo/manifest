@@ -4,10 +4,12 @@
   "case": 24,
   "response": "Each student sold an average of 10 lollipops.\n\nTotal lollipops sold:\n30 \u00d7 10 = 300\n\nProfit per lollipop:\n0.8 \u2212 0.5 = 0.3 dollars\n\nTotal profit:\n300 \u00d7 0.3 = 90\n\nANSWER: 90",
   "score": 5,
-  "cost": 0.00399,
+  "cost": 0.014505,
   "expected": "90",
   "tokens": {
     "input": 122,
     "output": 169
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

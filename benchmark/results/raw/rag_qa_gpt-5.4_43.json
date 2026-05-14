@@ -4,10 +4,12 @@
   "case": 43,
   "response": "Amazonia: Man and Culture in a Counterfeit Paradise",
   "score": 5,
-  "cost": 0.000604,
+  "cost": 0.000302,
   "expected": "Amazonia: Man and Culture in a Counterfeit Paradise",
   "tokens": {
     "input": 246,
     "output": 14
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

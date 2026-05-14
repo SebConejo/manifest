@@ -4,10 +4,12 @@
   "case": 7,
   "response": "Services de placement. C\u2019est g\u00e9n\u00e9reux.",
   "score": 5,
-  "cost": 0.0024,
+  "cost": 0.00888,
   "expected": "",
   "tokens": {
     "input": 32,
     "output": 112
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

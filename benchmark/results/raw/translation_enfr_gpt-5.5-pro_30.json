@@ -4,10 +4,12 @@
   "case": 30,
   "response": "Premi\u00e8re ligne de cr\u00e9dit en Italie en faveur de l\u2019apprentissage des jeunes dans les PME, les ETI et les collectivit\u00e9s locales.",
   "score": 5,
-  "cost": 0.004625,
+  "cost": 0.017175,
   "expected": "",
   "tokens": {
     "input": 45,
     "output": 220
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

@@ -4,10 +4,12 @@
   "case": 29,
   "response": "{\"persons\":[],\"organizations\":[\"Tokyo Stock Exchange\"],\"locations\":[\"Tokyo\"]}",
   "score": 4,
-  "cost": 0.000294,
+  "cost": 0.000147,
   "expected": "",
   "tokens": {
     "input": 71,
     "output": 19
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

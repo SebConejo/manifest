@@ -4,10 +4,12 @@
   "case": 1,
   "response": "SELECT AVG(mpg) AS average_mpg\nFROM cars\nWHERE cylinders = 4;",
   "score": 5,
-  "cost": 0.000326,
+  "cost": 0.000163,
   "expected": "",
   "tokens": {
     "input": 75,
     "output": 22
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

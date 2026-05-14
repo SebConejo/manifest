@@ -4,10 +4,12 @@
   "case": 11,
   "response": "This function computes the Levenshtein edit distance between two strings using dynamic programming. It fills a 2\u2011D DP table to find the minimum number of insertions, deletions, and substitutions required to transform one string into the other.",
   "score": 5,
-  "cost": 0.000788,
+  "cost": 0.00031520000000000007,
   "expected": "",
   "tokens": {
     "input": 182,
     "output": 53
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

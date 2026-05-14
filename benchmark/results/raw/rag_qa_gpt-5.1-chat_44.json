@@ -4,10 +4,12 @@
   "case": 44,
   "response": "The Ohio Company of Virginia.",
   "score": 5,
-  "cost": 0.000598,
+  "cost": 0.00023920000000000001,
   "expected": "Ohio Company of Virginia",
   "tokens": {
     "input": 259,
     "output": 10
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

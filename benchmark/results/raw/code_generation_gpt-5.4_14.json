@@ -4,10 +4,12 @@
   "case": 14,
   "response": "if n <= 0:\n    return 0\nif n == 1:\n    return 1\n\na, b = 0, 1\nfor _ in range(2, n + 1):\n    a, b = b, a + b\nreturn b",
   "score": 5,
-  "cost": 0.000646,
+  "cost": 0.000323,
   "expected": "",
   "tokens": {
     "input": 83,
     "output": 60
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

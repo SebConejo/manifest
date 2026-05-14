@@ -4,10 +4,12 @@
   "case": 46,
   "response": "{\"name\":\"restart_service\",\"arguments\":{\"name\":\"redis\"}}",
   "score": 5,
-  "cost": 0.00029,
+  "cost": 0.000145,
   "expected": "",
   "tokens": {
     "input": 85,
     "output": 15
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

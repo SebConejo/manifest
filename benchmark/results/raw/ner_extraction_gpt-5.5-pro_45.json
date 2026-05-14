@@ -4,10 +4,12 @@
   "case": 45,
   "response": "{\"persons\":[\"Leonardo da Vinci\"],\"organizations\":[\"Louvre Museum\",\"Royal Collection\"],\"locations\":[\"Paris\"]}",
   "score": 5,
-  "cost": 0.00241,
+  "cost": 0.00876,
   "expected": "",
   "tokens": {
     "input": 74,
     "output": 102
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

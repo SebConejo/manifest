@@ -4,10 +4,12 @@
   "case": 8,
   "response": "Et il a dit : \u00ab D\u2019accord. \u00bb Et j\u2019ai dit : \u00ab Eh bien, je me demande o\u00f9 \u00e7a va \u00eatre. \u00bb",
   "score": 5,
-  "cost": 0.003515,
+  "cost": 0.013005,
   "expected": "",
   "tokens": {
     "input": 47,
     "output": 164
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

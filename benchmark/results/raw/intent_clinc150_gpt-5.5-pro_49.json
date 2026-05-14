@@ -4,10 +4,12 @@
   "case": 49,
   "response": "international_visa",
   "score": 5,
-  "cost": 0.00361,
+  "cost": 0.01161,
   "expected": "international_visa",
   "tokens": {
     "input": 514,
     "output": 52
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

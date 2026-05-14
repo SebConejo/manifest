@@ -4,10 +4,12 @@
   "case": 28,
   "response": "result = []\n    for i, row in enumerate(lst):\n        for j in range(len(row) - 1, -1, -1):\n            if row[j] == x:\n                result.append((i, j))\n    return result",
   "score": 4,
-  "cost": 0.0064,
+  "cost": 0.022905,
   "expected": "",
   "tokens": {
     "input": 292,
     "output": 247
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

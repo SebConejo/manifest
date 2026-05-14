@@ -4,10 +4,12 @@
   "case": 24,
   "response": "report_fraud",
   "score": 5,
-  "cost": 0.001082,
+  "cost": 0.000541,
   "expected": "report_fraud",
   "tokens": {
     "input": 517,
     "output": 6
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

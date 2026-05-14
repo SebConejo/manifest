@@ -4,10 +4,12 @@
   "case": 37,
   "response": "payday",
   "score": 5,
-  "cost": 0.001064,
+  "cost": 0.000532,
   "expected": "payday",
   "tokens": {
     "input": 512,
     "output": 5
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

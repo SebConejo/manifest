@@ -4,10 +4,12 @@
   "case": 44,
   "response": "SELECT airport_code\nFROM (\n  SELECT source_airport AS airport_code, COUNT(*) AS flight_count\n  FROM flights\n  GROUP BY source_airport\n  UNION ALL\n  SELECT destination_airport AS airport_code, COUNT(*) AS flight_count\n  FROM flights\n  GROUP BY destination_airport\n) t\nGROUP BY airport_code\nORDER BY SUM(flight_count) ASC\nFETCH FIRST 1 ROW ONLY;",
   "score": 2,
-  "cost": 0.000852,
+  "cost": 0.000426,
   "expected": "",
   "tokens": {
     "input": 70,
     "output": 89
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

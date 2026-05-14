@@ -4,10 +4,12 @@
   "case": 24,
   "response": "{\"restaurant\": \"Chez Marie\", \"rating\": 4.5, \"cuisine\": \"French\", \"price_range\": \"$$$\", \"recommended_dish\": \"duck confit\", \"service_rating\": \"excellent\", \"wait_time_minutes\": 15, \"recommended_for\": \"date night\"}",
   "score": 5,
-  "cost": 0.000812,
+  "cost": 0.00032480000000000003,
   "expected": "",
   "tokens": {
     "input": 118,
     "output": 72
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

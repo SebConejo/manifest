@@ -4,10 +4,12 @@
   "case": 47,
   "response": "This function implements the **Shunting Yard algorithm** to convert a tokenized **infix arithmetic expression** into **postfix (Reverse Polish) notation**. It uses an **operator stack** (`ops`) and an **output list** (`output`) to reorder operators based on **precedence** (`*`/`/` over `+`/`-`) and **parentheses**, popping operators to the output when they should be applied before the current one.",
   "score": 5,
-  "cost": 0.001184,
+  "cost": 0.000592,
   "expected": "",
   "tokens": {
     "input": 200,
     "output": 98
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

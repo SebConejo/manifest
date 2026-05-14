@@ -4,10 +4,12 @@
   "case": 15,
   "response": "Legal approved the updated terms pending two revisions: add an arbitration clause for the enterprise tier and change data retention from 180 to 90 days. These updates must go live before the May 1 EU launch, and Legal will prepare the final version today.",
   "score": 5,
-  "cost": 0.00455,
+  "cost": 0.01668,
   "expected": "",
   "tokens": {
     "input": 102,
     "output": 202
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

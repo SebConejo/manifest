@@ -4,10 +4,12 @@
   "case": 45,
   "response": "A misconfigured load balancer caused a 47\u2011minute service degradation affecting about 12,000 users. The team will add load balancer configuration checks to CI, update the runbook, and implement traffic distribution alerts.",
   "score": 5,
-  "cost": 0.00065,
+  "cost": 0.00026,
   "expected": "",
   "tokens": {
     "input": 105,
     "output": 55
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

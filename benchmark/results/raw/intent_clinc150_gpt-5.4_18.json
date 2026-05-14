@@ -4,10 +4,12 @@
   "case": 18,
   "response": "current_location",
   "score": 5,
-  "cost": 0.001056,
+  "cost": 0.000528,
   "expected": "current_location",
   "tokens": {
     "input": 508,
     "output": 5
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

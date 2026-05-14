@@ -4,10 +4,12 @@
   "case": 46,
   "response": "{\"persons\":[\"Liang Rubo\"],\"organizations\":[\"ByteDance\",\"Senate Commerce Committee\",\"TikTok\"],\"locations\":[\"Washington\"]}",
   "score": 5,
-  "cost": 0.002695,
+  "cost": 0.009825,
   "expected": "",
   "tokens": {
     "input": 75,
     "output": 116
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

@@ -4,10 +4,12 @@
   "case": 31,
   "response": "{\"name\":\"archive_emails\",\"arguments\":{\"folder\":\"inbox\",\"older_than_days\":180}}",
   "score": 5,
-  "cost": 0.000374,
+  "cost": 0.000187,
   "expected": "",
   "tokens": {
     "input": 95,
     "output": 23
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

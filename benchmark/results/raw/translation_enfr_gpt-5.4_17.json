@@ -4,10 +4,12 @@
   "case": 17,
   "response": "Source : examplereferenceletter.com",
   "score": 1,
-  "cost": 0.000154,
+  "cost": 7.7e-05,
   "expected": "",
   "tokens": {
     "input": 33,
     "output": 11
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

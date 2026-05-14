@@ -4,10 +4,12 @@
   "case": 47,
   "response": "Another group is the Urarina.",
   "score": 4,
-  "cost": 0.000396,
+  "cost": 0.0001584,
   "expected": "Urarina",
   "tokens": {
     "input": 154,
     "output": 11
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

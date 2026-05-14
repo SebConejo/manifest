@@ -4,10 +4,12 @@
   "case": 23,
   "response": "{\"severity\":\"critical\",\"component\":\"checkout/payment\",\"summary\":\"Checkout page fails on Chrome during payment, showing a spinner followed by a white screen with console errors.\",\"steps_to_reproduce\":[\"Open the site in Chrome 121 on Windows 11.\",\"Add items to the cart.\",\"Go to the checkout page.\",\"Enter card information.\",\"Click Pay.\"],\"expected_behavior\":\"Payment should process successfully or display a clear error message if it fails.\",\"actual_behavior\":\"A spinner appears for about 30 seconds, then the page turns white with no error message. Console shows a CORS error and 'undefined is not a function' in checkout.bundle.js:847. Issue occurred 3 times on Chrome but works on Firefox.\",\"environment\":{\"os\":\"Windows 11\",\"browser\":\"Chrome 121\"}}",
   "score": 5,
-  "cost": 0.005245,
+  "cost": 0.01905,
   "expected": "",
   "tokens": {
     "input": 165,
     "output": 221
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

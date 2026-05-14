@@ -4,10 +4,12 @@
   "case": 15,
   "response": "Joey\u2019s new score is 214 + 26 = 240.\n\nMarcy\u2019s new score is 225 + 10 = 235.\n\nJoey is winning by 240 - 235 = 5 points.\n\nANSWER: 5",
   "score": 5,
-  "cost": 0.00316,
+  "cost": 0.011535,
   "expected": "5",
   "tokens": {
     "input": 84,
     "output": 137
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

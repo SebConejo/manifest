@@ -4,10 +4,12 @@
   "case": 6,
   "response": "from collections import Counter\n\ncounts = Counter(numbers)\nreturn [x for x in numbers if counts[x] == 1]",
   "score": 5,
-  "cost": 0.000454,
+  "cost": 0.000227,
   "expected": "",
   "tokens": {
     "input": 115,
     "output": 28
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

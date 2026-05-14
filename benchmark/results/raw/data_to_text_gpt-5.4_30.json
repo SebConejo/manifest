@@ -4,10 +4,12 @@
   "case": 30,
   "response": "Team Alpha\u2019s Sprint #23 ran from Jan 15\u201326, with 42 points planned and 38 points completed, which is above the team\u2019s average velocity of 36. During the sprint, the team finished 8 stories and fixed 5 bugs, while encountering 2 blockers. Overall team satisfaction for the sprint was 4.1 out of 5.",
   "score": 5,
-  "cost": 0.000814,
+  "cost": 0.000407,
   "expected": "",
   "tokens": {
     "input": 95,
     "output": 78
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

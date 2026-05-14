@@ -4,10 +4,12 @@
   "case": 4,
   "response": "{\"error_code\":503,\"message\":\"Service Unavailable\",\"timestamp\":\"2024-01-15T14:30:00Z\",\"endpoint\":\"/api/v2/users\",\"server\":\"prod-west-2\",\"retry_after_seconds\":30}",
   "score": 5,
-  "cost": 0.00254,
+  "cost": 0.009135,
   "expected": "",
   "tokens": {
     "input": 104,
     "output": 101
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

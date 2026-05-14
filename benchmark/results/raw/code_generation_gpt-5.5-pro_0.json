@@ -4,10 +4,12 @@
   "case": 0,
   "response": "return ''.join(strings)",
   "score": 5,
-  "cost": 0.00197,
+  "cost": 0.00705,
   "expected": "",
   "tokens": {
     "input": 90,
     "output": 76
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

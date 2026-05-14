@@ -4,10 +4,12 @@
   "case": 26,
   "response": "{\n  \"title\": \"Team standup\",\n  \"recurrence\": \"weekdays\",\n  \"time_start\": \"9:00 AM\",\n  \"time_end\": \"9:15 AM\",\n  \"timezone\": \"PST\",\n  \"meeting_link\": \"meet.google.com/abc-defg-hij\",\n  \"organizer\": \"sarah@company.com\"\n}",
   "score": 4,
-  "cost": 0.005005,
+  "cost": 0.01836,
   "expected": "",
   "tokens": {
     "input": 109,
     "output": 223
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

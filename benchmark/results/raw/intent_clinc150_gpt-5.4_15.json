@@ -4,10 +4,12 @@
   "case": 15,
   "response": "share_location",
   "score": 5,
-  "cost": 0.001066,
+  "cost": 0.000533,
   "expected": "share_location",
   "tokens": {
     "input": 513,
     "output": 5
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

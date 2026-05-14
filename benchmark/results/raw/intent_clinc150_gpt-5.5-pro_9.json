@@ -4,10 +4,12 @@
   "case": 9,
   "response": "weather",
   "score": 5,
-  "cost": 0.003385,
+  "cost": 0.01077,
   "expected": "weather",
   "tokens": {
     "input": 513,
     "output": 41
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

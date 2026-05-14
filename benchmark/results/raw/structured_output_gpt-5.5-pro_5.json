@@ -4,10 +4,12 @@
   "case": 5,
   "response": "{\"name\":\"Spaghetti Carbonara\",\"servings\":4,\"prep_time_minutes\":25,\"ingredients\":[{\"item\":\"spaghetti\",\"amount\":\"400g\"},{\"item\":\"guanciale\",\"amount\":\"200g\"},{\"item\":\"eggs\",\"amount\":\"4\"},{\"item\":\"pecorino\",\"amount\":\"100g\"},{\"item\":\"black pepper\",\"amount\":\"\"}]}",
   "score": 4,
-  "cost": 0.005555,
+  "cost": 0.02043,
   "expected": "",
   "tokens": {
     "input": 107,
     "output": 251
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

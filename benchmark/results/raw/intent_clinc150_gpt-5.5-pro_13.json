@@ -4,10 +4,12 @@
   "case": 13,
   "response": "nutrition_info",
   "score": 5,
-  "cost": 0.003275,
+  "cost": 0.010365,
   "expected": "nutrition_info",
   "tokens": {
     "input": 511,
     "output": 36
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

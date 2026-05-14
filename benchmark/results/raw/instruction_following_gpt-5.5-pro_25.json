@@ -4,10 +4,12 @@
   "case": 25,
   "response": "Meeting Invitation: Project Sync",
   "score": 5,
-  "cost": 0.001555,
+  "cost": 0.005745,
   "expected": "",
   "tokens": {
     "input": 23,
     "output": 72
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

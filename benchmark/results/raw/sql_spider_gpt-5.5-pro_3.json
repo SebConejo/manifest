@@ -4,10 +4,12 @@
   "case": 3,
   "response": "SELECT Name\nFROM country\nWHERE Continent = 'Africa'\n  AND Population < ALL (\n    SELECT Population\n    FROM country\n    WHERE Continent = 'Asia'\n      AND Population IS NOT NULL\n  );",
   "score": 5,
-  "cost": 0.04004,
+  "cost": 0.149865,
   "expected": "",
   "tokens": {
     "input": 76,
     "output": 1983
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

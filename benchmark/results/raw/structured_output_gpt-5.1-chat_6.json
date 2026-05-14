@@ -4,10 +4,12 @@
   "case": 6,
   "response": "{\"type\": \"bug report\", \"summary\": \"App crashes on login when using Face ID\", \"device\": \"iPhone 14\", \"os_version\": \"iOS 17.2\", \"reproducibility\": \"every time\", \"severity\": \"critical\"}",
   "score": 5,
-  "cost": 0.00124,
+  "cost": 0.000496,
   "expected": "",
   "tokens": {
     "input": 96,
     "output": 131
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

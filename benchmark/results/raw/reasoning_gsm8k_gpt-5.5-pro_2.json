@@ -4,10 +4,12 @@
   "case": 2,
   "response": "From 1 PM to 4 PM is 3 hours.\n\nAt 10 miles per hour, Tom travels:\n\n10 \u00d7 3 = 30 miles\n\nOn the way back, he travels 30 miles at 6 miles per hour:\n\n30 \u00f7 6 = 5 hours\n\nANSWER: 5",
   "score": 5,
-  "cost": 0.00351,
+  "cost": 0.012825,
   "expected": "5",
   "tokens": {
     "input": 90,
     "output": 153
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

@@ -4,10 +4,12 @@
   "case": 7,
   "response": "Half a dozen plates = 6 plates.\n\nTotal cost of plates = 6 \u00d7 6000 = 36000.\n\nTwenty dozen cups cost $1200 less:\n\n36000 \u2212 1200 = 34800.\n\nTwenty dozen cups = 20 \u00d7 12 = 240 cups.\n\nCost of each cup = 34800 \u00f7 240 = 145.\n\nANSWER: 145",
   "score": 4,
-  "cost": 0.006595,
+  "cost": 0.02445,
   "expected": "145",
   "tokens": {
     "input": 75,
     "output": 311
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

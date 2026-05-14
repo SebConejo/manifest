@@ -4,10 +4,12 @@
   "case": 38,
   "response": "{\"version\":42,\"name\":\"AddUserPreferences\",\"created\":\"2024-03-15\",\"status\":\"applied\",\"duration_ms\":340,\"sql\":\"ALTER TABLE users ADD COLUMN preferences JSONB DEFAULT '{}'\"}",
   "score": 5,
-  "cost": 0.000562,
+  "cost": 0.000281,
   "expected": "",
   "tokens": {
     "input": 97,
     "output": 46
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

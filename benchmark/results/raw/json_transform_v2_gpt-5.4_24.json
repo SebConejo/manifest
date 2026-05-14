@@ -4,10 +4,12 @@
   "case": 24,
   "response": "{\"summary\":{\"total\":5,\"by_level\":{\"ERROR\":3,\"WARN\":1,\"INFO\":1}},\"errors\":[{\"msg\":\"timeout\",\"count\":2,\"first_seen\":\"10:00\"},{\"msg\":\"disk full\",\"count\":1,\"first_seen\":\"10:05\"}]}",
   "score": 5,
-  "cost": 0.000872,
+  "cost": 0.000436,
   "expected": "",
   "tokens": {
     "input": 192,
     "output": 61
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

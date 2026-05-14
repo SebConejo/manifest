@@ -4,10 +4,12 @@
   "case": 28,
   "response": "{\"persons\": [], \"organizations\": [\"Johns Hopkins University\"], \"locations\": [\"Baltimore\"]}",
   "score": 4,
-  "cost": 0.000388,
+  "cost": 0.00015519999999999998,
   "expected": "",
   "tokens": {
     "input": 70,
     "output": 31
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

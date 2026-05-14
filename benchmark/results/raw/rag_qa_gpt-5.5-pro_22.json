@@ -4,10 +4,12 @@
   "case": 22,
   "response": "The South African Schools Act of 1996.",
   "score": 5,
-  "cost": 0.002105,
+  "cost": 0.00735,
   "expected": "South African Schools Act",
   "tokens": {
     "input": 145,
     "output": 69
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

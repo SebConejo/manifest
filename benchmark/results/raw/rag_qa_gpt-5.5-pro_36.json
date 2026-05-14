@@ -4,10 +4,12 @@
   "case": 36,
   "response": "gaseous oxygen",
   "score": 5,
-  "cost": 0.002415,
+  "cost": 0.008445,
   "expected": "gaseous oxygen.",
   "tokens": {
     "input": 163,
     "output": 80
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

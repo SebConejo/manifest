@@ -4,10 +4,12 @@
   "case": 39,
   "response": "Fran\u00e7ais : **Sais-tu d\u2019o\u00f9 vient l\u2019argent ?**",
   "score": 5,
-  "cost": 0.000202,
+  "cost": 0.000101,
   "expected": "",
   "tokens": {
     "input": 33,
     "output": 17
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

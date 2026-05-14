@@ -4,10 +4,12 @@
   "case": 26,
   "response": "{\"name\": \"upload_file\", \"arguments\": {\"path\": \"report.pdf\", \"destination\": \"shared documents folder\"}}",
   "score": 4,
-  "cost": 0.00045,
+  "cost": 0.00018,
   "expected": "",
   "tokens": {
     "input": 85,
     "output": 35
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

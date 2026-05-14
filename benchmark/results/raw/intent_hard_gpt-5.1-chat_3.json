@@ -4,9 +4,11 @@
   "case": 3,
   "response": "upgrade_plan",
   "score": 5,
-  "cost": 0.000334,
+  "cost": 0.00013360000000000002,
   "tokens": {
     "input": 119,
     "output": 12
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

@@ -4,10 +4,12 @@
   "case": 4,
   "response": "return all(l[i] <= l[i + 1] for i in range(len(l) - 1)) or all(l[i] >= l[i + 1] for i in range(len(l) - 1))",
   "score": 5,
-  "cost": 0.004455,
+  "cost": 0.01626,
   "expected": "",
   "tokens": {
     "input": 119,
     "output": 193
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

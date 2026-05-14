@@ -4,10 +4,12 @@
   "case": 44,
   "response": "- [ ] Lettuce\n- [ ] Tomato\n- [ ] Cucumber\n- [ ] Red onion\n- [ ] Carrot\n- [ ] Olive oil\n- [ ] Vinegar\n- [ ] Salt\n- [ ] Black pepper",
   "score": 5,
-  "cost": 0.000468,
+  "cost": 0.000234,
   "expected": "",
   "tokens": {
     "input": 18,
     "output": 54
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

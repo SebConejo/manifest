@@ -4,10 +4,12 @@
   "case": 15,
   "response": "Joey\u2019s new score is 214 + 26 = 240.  \nMarcy\u2019s new score is 225 + 10 = 235.  \nJoey is ahead by 240 \u2212 235 = 5.\n\nANSWER: 5",
   "score": 5,
-  "cost": 0.000644,
+  "cost": 0.00025760000000000003,
   "expected": "5",
   "tokens": {
     "input": 82,
     "output": 60
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

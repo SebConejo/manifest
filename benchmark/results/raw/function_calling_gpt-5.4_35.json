@@ -4,10 +4,12 @@
   "case": 35,
   "response": "{\"name\":\"get_order\",\"arguments\":{\"order_id\":\"12345\"}}",
   "score": 2,
-  "cost": 0.000314,
+  "cost": 0.000157,
   "expected": "",
   "tokens": {
     "input": 89,
     "output": 17
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

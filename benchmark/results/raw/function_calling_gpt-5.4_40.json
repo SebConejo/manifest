@@ -4,10 +4,12 @@
   "case": 40,
   "response": "{\"name\":\"search_messages\",\"arguments\":{\"channel\":\"announcements\",\"query\":\"release\"}}",
   "score": 2,
-  "cost": 0.000348,
+  "cost": 0.000174,
   "expected": "",
   "tokens": {
     "input": 94,
     "output": 20
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

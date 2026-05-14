@@ -4,10 +4,12 @@
   "case": 11,
   "response": "SELECT Name\nFROM country\nWHERE Continent = 'Africa'\n  AND Population < (\n    SELECT MIN(Population)\n    FROM country\n    WHERE Continent = 'Asia'\n  );",
   "score": 5,
-  "cost": 0.04521,
+  "cost": 0.169245,
   "expected": "",
   "tokens": {
     "input": 78,
     "output": 2241
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

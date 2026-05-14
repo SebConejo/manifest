@@ -4,10 +4,12 @@
   "case": 40,
   "response": "{\"persons\":[],\"organizations\":[\"Reserve Bank of Australia\",\"Goldman Sachs\"],\"locations\":[\"Australia\"]}",
   "score": 4,
-  "cost": 0.01178,
+  "cost": 0.043905,
   "expected": "",
   "tokens": {
     "input": 72,
     "output": 571
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

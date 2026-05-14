@@ -4,10 +4,12 @@
   "case": 10,
   "response": "There once was a coder named Dave,  \nWhose functions were nimble and brave.  \nHe'd debug through the night  \nTill the syntax was right,  \nAnd the bugs all went to their grave.",
   "score": 5,
-  "cost": 0.000402,
+  "cost": 0.0001608,
   "expected": "",
   "tokens": {
     "input": 17,
     "output": 46
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

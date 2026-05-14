@@ -4,10 +4,12 @@
   "case": 32,
   "response": "{\"image\": \"nginx:1.25-alpine\", \"status\": \"running\", \"ports\": \"80:8080\", \"cpu_percent\": 0.5, \"memory\": {\"used_mb\": 24, \"limit_mb\": 128}, \"created\": \"3 days ago\", \"network\": \"bridge\"}",
   "score": 5,
-  "cost": 0.000858,
+  "cost": 0.00034320000000000005,
   "expected": "",
   "tokens": {
     "input": 117,
     "output": 78
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

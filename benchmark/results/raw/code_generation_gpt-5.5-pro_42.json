@@ -4,10 +4,12 @@
   "case": 42,
   "response": "if n > m:\n        return -1\n    total = n + m\n    avg = total // 2\n    if total % 2 and avg % 2:\n        avg += 1\n    return bin(avg)",
   "score": 3,
-  "cost": 0.025905,
+  "cost": 0.096495,
   "expected": "",
   "tokens": {
     "input": 173,
     "output": 1252
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

@@ -4,10 +4,12 @@
   "case": 36,
   "response": "{\"persons\":[\"Warren Buffett\"],\"organizations\":[\"Bank of America\",\"SEC\"],\"locations\":[]}",
   "score": 5,
-  "cost": 0.001725,
+  "cost": 0.006195,
   "expected": "",
   "tokens": {
     "input": 73,
     "output": 68
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

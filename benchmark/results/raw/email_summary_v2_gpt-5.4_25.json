@@ -4,10 +4,12 @@
   "case": 25,
   "response": "The founders shared April\u2019s key updates: the company surpassed 10K MAU, signed a Series A term sheet for $8M at a $40M pre-money valuation, hired a VP of Sales, and reached $85K MRR, up 12% month over month. The main action item is that the fundraising round is scheduled to close on May 10.",
   "score": 5,
-  "cost": 0.000842,
+  "cost": 0.000421,
   "expected": "",
   "tokens": {
     "input": 105,
     "output": 79
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

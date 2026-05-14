@@ -4,10 +4,12 @@
   "case": 29,
   "response": "SELECT COUNT(DISTINCT language) FROM countrylanguage;",
   "score": 5,
-  "cost": 0.000306,
+  "cost": 0.0001224,
   "expected": "",
   "tokens": {
     "input": 69,
     "output": 21
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

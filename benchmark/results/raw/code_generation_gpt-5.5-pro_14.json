@@ -4,10 +4,12 @@
   "case": 14,
   "response": "a, b = 0, 1\n    for _ in range(n):\n        a, b = b, a + b\n    return a",
   "score": 4,
-  "cost": 0.004505,
+  "cost": 0.016575,
   "expected": "",
   "tokens": {
     "input": 85,
     "output": 204
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

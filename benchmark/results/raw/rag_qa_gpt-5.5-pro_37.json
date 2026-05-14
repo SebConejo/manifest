@@ -4,10 +4,12 @@
   "case": 37,
   "response": "The northeast border.",
   "score": 4,
-  "cost": 0.00281,
+  "cost": 0.00972,
   "expected": "northeast",
   "tokens": {
     "input": 218,
     "output": 86
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

@@ -4,10 +4,12 @@
   "case": 37,
   "response": "Not found in context.",
   "score": 5,
-  "cost": 0.000552,
+  "cost": 0.0002208,
   "expected": "northeast",
   "tokens": {
     "input": 216,
     "output": 15
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

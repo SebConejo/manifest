@@ -4,10 +4,12 @@
   "case": 1,
   "response": "Hommejeunechh, 49 ans, Pays de la Loire (Angers)",
   "score": 5,
-  "cost": 0.00441,
+  "cost": 0.016365,
   "expected": "",
   "tokens": {
     "input": 46,
     "output": 209
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

@@ -4,10 +4,12 @@
   "case": 38,
   "response": "Login failed. Please check your username and password, then try again.",
   "score": 3,
-  "cost": 0.000188,
+  "cost": 7.52e-05,
   "expected": "",
   "tokens": {
     "input": 22,
     "output": 18
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

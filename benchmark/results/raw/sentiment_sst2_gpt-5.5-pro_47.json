@@ -4,10 +4,12 @@
   "case": 47,
   "response": "negative",
   "score": 5,
-  "cost": 0.00092,
+  "cost": 0.003195,
   "expected": "negative",
   "tokens": {
     "input": 68,
     "output": 29
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

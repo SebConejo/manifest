@@ -4,10 +4,12 @@
   "case": 26,
   "response": "whisper_mode",
   "score": 0,
-  "cost": 0.027205,
+  "cost": 0.10011,
   "expected": "change_volume",
   "tokens": {
     "input": 509,
     "output": 1233
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

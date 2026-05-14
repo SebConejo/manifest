@@ -4,10 +4,12 @@
   "case": 22,
   "response": "This implements an **LRU (Least Recently Used) cache** using `OrderedDict` to maintain access order. `get` and `put` mark keys as recently used with `move_to_end`, and when capacity is exceeded, `popitem(last=False)` evicts the least recently used item from the front.",
   "score": 5,
-  "cost": 0.003675,
+  "cost": 0.013245,
   "expected": "",
   "tokens": {
     "input": 143,
     "output": 148
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

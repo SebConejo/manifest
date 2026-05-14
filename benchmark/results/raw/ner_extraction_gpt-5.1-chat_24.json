@@ -4,10 +4,12 @@
   "case": 24,
   "response": "{\"persons\": [], \"organizations\": [\"Indian Space Research Organisation\"], \"locations\": [\"Sriharikota\"]}",
   "score": 4,
-  "cost": 0.000922,
+  "cost": 0.0003688000000000001,
   "expected": "",
   "tokens": {
     "input": 73,
     "output": 97
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

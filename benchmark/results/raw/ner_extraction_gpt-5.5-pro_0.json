@@ -4,10 +4,12 @@
   "case": 0,
   "response": "{\"persons\":[\"Tim Cook\"],\"organizations\":[\"Apple\",\"Samsung\"],\"locations\":[\"Las Vegas\"]}",
   "score": 5,
-  "cost": 0.004345,
+  "cost": 0.01602,
   "expected": "",
   "tokens": {
     "input": 73,
     "output": 199
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

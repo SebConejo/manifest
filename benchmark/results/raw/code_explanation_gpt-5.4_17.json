@@ -4,10 +4,12 @@
   "case": 17,
   "response": "This defines a higher-order function that builds a **Chain of Responsibility**: it returns a `handle(request)` function that passes the request through each handler in order until one returns a non-`None` result. If no handler can process the request, it returns `None`, effectively implementing a fallback pipeline.",
   "score": 5,
-  "cost": 0.000674,
+  "cost": 0.000337,
   "expected": "",
   "tokens": {
     "input": 77,
     "output": 65
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

@@ -4,10 +4,12 @@
   "case": 18,
   "response": "It\u2019s a witty, surprisingly moving novel about a jaded middle-aged academic who becomes obsessed with a tiny, almost invisible detail in old artworks. What starts as a niche intellectual curiosity turns into a strange meditation on beauty, mortality, love, and the way people use ideas to avoid their own lives.\n\nWhat I love most about it is the voice: dry, intelligent, self-mocking, but also vulnerable in ways the narrator barely understands. It manages to be both satirical and sincere. Beneath all the art history and philosophy, it\u2019s really about loneliness, late-life desire, and the possibility that paying close attention to small things can become a way of resisting despair.\n\nIt\u2019s one of those books that feels slim and modest, yet somehow keeps opening outward the more you think about it.",
   "score": 5,
-  "cost": 0.00133,
+  "cost": 0.000665,
   "expected": "",
   "tokens": {
     "input": 17,
     "output": 162
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

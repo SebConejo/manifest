@@ -4,9 +4,11 @@
   "case": 5,
   "response": "Q1 margin: 40%  \nQ2 margin: 35%  \nQ3 margin: 30%  \nQ4 margin: 45%\n\nHighest profit margin is in Q4 at 45%.\n\nANSWER: Q4, 45%",
   "score": 5,
-  "cost": 0.001254,
+  "cost": 0.0005016,
   "tokens": {
     "input": 131,
     "output": 124
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

@@ -4,10 +4,12 @@
   "case": 22,
   "response": "transfer",
   "score": 5,
-  "cost": 0.00342,
+  "cost": 0.01089,
   "expected": "transfer",
   "tokens": {
     "input": 516,
     "output": 42
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

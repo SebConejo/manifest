@@ -4,10 +4,12 @@
   "case": 37,
   "response": "{\"name\":\"invalidate_cache\",\"arguments\":{\"pattern\":\"*.{css,js}\"}}",
   "score": 5,
-  "cost": 0.000306,
+  "cost": 0.000153,
   "expected": "",
   "tokens": {
     "input": 73,
     "output": 20
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

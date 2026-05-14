@@ -4,10 +4,12 @@
   "case": 0,
   "response": "SELECT money_rank\nFROM players\nORDER BY height DESC\nLIMIT 1;",
   "score": 3,
-  "cost": 0.00029,
+  "cost": 0.000145,
   "expected": "",
   "tokens": {
     "input": 69,
     "output": 19
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

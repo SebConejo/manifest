@@ -4,10 +4,12 @@
   "case": 25,
   "response": "2. Le 21 f\u00e9vrier, le sous-secr\u00e9taire \u00e0 la Guerre, Jos\u00e9 Asenio, a \u00e9t\u00e9 renvoy\u00e9, puis rapidement arr\u00eat\u00e9 avec le colonel Villalba pour la trahison de Malaga.",
   "score": 4,
-  "cost": 0.000562,
+  "cost": 0.00022480000000000002,
   "expected": "",
   "tokens": {
     "input": 61,
     "output": 55
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

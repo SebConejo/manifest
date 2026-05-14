@@ -4,10 +4,12 @@
   "case": 4,
   "response": "{\"name\":\"resize_image\",\"arguments\":{\"path\":\"uploads photo.jpg\",\"width\":800,\"height\":600}}",
   "score": 4,
-  "cost": 0.040685,
+  "cost": 0.15219,
   "expected": "",
   "tokens": {
     "input": 101,
     "output": 2009
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

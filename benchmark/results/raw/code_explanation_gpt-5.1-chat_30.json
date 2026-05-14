@@ -4,10 +4,12 @@
   "case": 30,
   "response": "This code implements a Bloom filter, a probabilistic set data structure that uses multiple hash functions to mark bit positions in a fixed-size bit array. It supports fast membership checks that may yield false positives but never false negatives.",
   "score": 5,
-  "cost": 0.000698,
+  "cost": 0.00027920000000000006,
   "expected": "",
   "tokens": {
     "input": 157,
     "output": 48
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

@@ -4,10 +4,12 @@
   "case": 43,
   "response": "{\"persons\":[\"Satya Nadella\"],\"organizations\":[\"Microsoft\",\"OpenAI\",\"Office 365\"],\"locations\":[]}",
   "score": 5,
-  "cost": 0.000416,
+  "cost": 0.0001664,
   "expected": "",
   "tokens": {
     "input": 72,
     "output": 34
-  }
+  },
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

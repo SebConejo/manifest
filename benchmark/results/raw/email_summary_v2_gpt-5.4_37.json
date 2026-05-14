@@ -4,10 +4,12 @@
   "case": 37,
   "response": "The CEO says BigCo is interested in acqui-hiring the 5-person ML team for $15M, but believes the offer is too low and that the team is worth more. Action items: discuss internally before responding, decide whether to counter or decline politely, and inform the board.",
   "score": 5,
-  "cost": 0.000694,
+  "cost": 0.000347,
   "expected": "",
   "tokens": {
     "input": 99,
     "output": 62
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

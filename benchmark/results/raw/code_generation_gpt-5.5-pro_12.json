@@ -4,10 +4,12 @@
   "case": 12,
   "response": "return [s for s in strings if substring in s]",
   "score": 5,
-  "cost": 0.00211,
+  "cost": 0.00744,
   "expected": "",
   "tokens": {
     "input": 126,
     "output": 74
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

@@ -4,10 +4,12 @@
   "case": 27,
   "response": "The sprint retrospective noted that the auth redesign shipped on time and cross-team collaboration with design went well. Action items are to reduce context switching by limiting work in progress to 2 items per developer and to keep standups to 15 minutes using a parking lot for off-topic discussion.",
   "score": 5,
-  "cost": 0.00068,
+  "cost": 0.00034,
   "expected": "",
   "tokens": {
     "input": 104,
     "output": 59
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

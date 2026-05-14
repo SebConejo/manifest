@@ -4,12 +4,14 @@
   "case": 1,
   "response": "The Great Plague of London was in 1665.",
   "score": 5,
-  "cost": 0.000664,
+  "cost": 0.0002656,
   "expected": "1665",
   "tokens": {
     "input": 268,
     "output": 16
   },
   "judge_rerun": true,
-  "judge_raw": "5"
+  "judge_raw": "5",
+  "input_price_per_m": 0.8,
+  "output_price_per_m": 3.2
 }

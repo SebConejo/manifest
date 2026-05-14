@@ -4,10 +4,12 @@
   "case": 8,
   "response": "HR announced that the annual performance review cycle begins May 1 and will use a new competency framework this year. Action items and key dates are: managers should attend training on April 30, self-reviews are due May 15, manager reviews are due May 22, calibration is May 28, and review delivery is June 5.",
   "score": 5,
-  "cost": 0.000756,
+  "cost": 0.000378,
   "expected": "",
   "tokens": {
     "input": 90,
     "output": 72
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }

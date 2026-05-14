@@ -4,10 +4,12 @@
   "case": 23,
   "response": "{\"name\":\"send_message\",\"arguments\":{\"channel\":\"engineering\",\"text\":\"Deploy complete\"}}",
   "score": 5,
-  "cost": 0.00157,
+  "cost": 0.005535,
   "expected": "",
   "tokens": {
     "input": 94,
     "output": 55
-  }
+  },
+  "input_price_per_m": 15.0,
+  "output_price_per_m": 75.0
 }

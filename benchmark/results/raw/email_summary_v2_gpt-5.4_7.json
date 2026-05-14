@@ -4,10 +4,12 @@
   "case": 7,
   "response": "Facilities announced the office move to 500 Market St, with the new space ready on June 1, IT network setup scheduled for June 4\u20136, and the physical move planned for June 7\u20138 using approved professional movers. Each team must designate a move coordinator by Friday.",
   "score": 5,
-  "cost": 0.000668,
+  "cost": 0.000334,
   "expected": "",
   "tokens": {
     "input": 90,
     "output": 61
-  }
+  },
+  "input_price_per_m": 1.0,
+  "output_price_per_m": 4.0
 }
