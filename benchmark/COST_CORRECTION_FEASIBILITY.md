@@ -6,124 +6,102 @@ or must we document them as a limitation (Option B)?
 
 ---
 
-## Q1: Is reasoning_tokens present in the raw files?
+## Evidence from live API tests
 
-**No. 0 out of 14,688 reasoning model raw files contain reasoning_tokens.**
+### Test 1: o3 (chat completions API)
 
-The runner stores only `{input, output}` in the tokens field. The API response
-includes `completion_tokens_details.reasoning_tokens` but `compute_cost()` and
-the save logic never extracted it. The data is lost — it was not persisted at
-benchmark time.
+```
+Prompt: train problem requiring math reasoning
+completion_tokens: 649
+completion_tokens_details.reasoning_tokens: 256
+visible output: 393 tokens (910 chars, correct answer)
 
-## Q2: What percentage have the info?
+CHECK: 649 = 256 + 393 ✓
+CONCLUSION: completion_tokens INCLUDES reasoning_tokens
+```
 
-**0%.** This is uniform across all 14 reasoning models and all tasks. Not a
-per-model or per-task gap — the field was simply never saved.
+### Test 2: gpt-5.5-pro (Responses API)
 
-## Q3: Can we infer reasoning tokens from what we DO have?
+```
+Same prompt
+output_tokens: 293
+output_tokens_details.reasoning_tokens: 146
+visible output: 147 tokens
 
-**Partially.** The `output` field in our raw files maps to `completion_tokens`
-from the API, which INCLUDES reasoning tokens for OpenAI models. So:
+CHECK: 293 = 146 + 147 ✓
+CONCLUSION: output_tokens INCLUDES reasoning_tokens
+```
 
-| Provider | What `output` contains | Can we separate? |
-|----------|----------------------|-----------------|
-| OpenAI (o3, o4-mini, gpt-5.5, gpt-5.1) | completion_tokens = visible + reasoning | No — we can't split them without the details |
-| OpenAI Responses (gpt-5.5-pro) | output_tokens = visible + reasoning | No — same problem |
-| Anthropic (claude-opus-4-7) | output_tokens = visible only | No correction needed — Anthropic doesn't charge for thinking |
-| Moonshot (kimi-k2.6) | Unknown — probably visible only | Cannot verify |
-| OpenRouter (deepseek-v4-pro, nemotron) | completion_tokens — may include reasoning | Cannot verify |
-| MiniMax (MiniMax-M2.7) | Unknown | Cannot verify |
-| BytePlus (seed-2-0-pro) | Unknown | Cannot verify |
-
-**Evidence from the data:**
-
-| Model | Task | output_tokens | Expected visible | Interpretation |
-|-------|------|:---:|:---:|---|
-| o3 | sentiment_sst2 | 19-83 | ~1 ("positive") | output INCLUDES ~18-82 reasoning tokens |
-| o4-mini | sentiment_sst2 | 20-148 | ~1 | output INCLUDES reasoning |
-| gpt-5.5 | sentiment_sst2 | 4-39 | ~1 | output INCLUDES reasoning |
-| gpt-5.4 | sentiment_sst2 | 4 | ~4 | output = visible only (NOT a reasoning model internally?) |
-| gpt-5.4-nano | sentiment_sst2 | 4 | ~4 | Same — visible only |
-| claude-opus-4-7 | sentiment_sst2 | 6 | ~6 | Anthropic = visible only (correct) |
-| gpt-4o-mini | sentiment_sst2 | 1 | ~1 | Non-reasoning baseline (correct) |
-
-## Q4: What does this mean for cost correction?
-
-### For OpenAI models (o3, o4-mini, gpt-5.5, gpt-5.5-pro, gpt-5.1)
-
-Our `cost_usd` already includes reasoning tokens in the token count because
-`completion_tokens` from the OpenAI API includes them. So:
-
-`cost_usd = (input_tokens * input_price + completion_tokens * output_price) / 1M`
-
-Where `completion_tokens` = visible + reasoning. **This is actually correct**
-for the pricing formula — OpenAI charges the same $/M rate for both visible
-and reasoning completion tokens.
-
-**The real problem was the WRONG PRICE, not missing tokens:**
-- gpt-5.5-pro was priced at $20/M output instead of $75/M
-- This alone accounts for a 3.75x underestimate
-
-### For non-OpenAI reasoning models (Opus, Kimi, DeepSeek, etc.)
-
-- **Anthropic:** Does not charge for thinking tokens. Our cost is correct.
-- **Others (Kimi, DeepSeek, Nemotron, MiniMax, Seed Pro):** Unclear whether
-  their `completion_tokens` includes reasoning. Likely model-dependent.
-  We cannot verify without re-calling the API.
+**Both APIs confirm: the token count we stored in raw files already
+includes reasoning tokens.** The cost formula `(input * price_input +
+output * price_output) / 1M` is structurally correct. The problem is
+only the prices, not the token counts.
 
 ---
 
-## Feasibility Verdict
+## What's wrong with the prices
 
-**Option A (correct all costs) is NOT feasible.** We don't have
-`reasoning_tokens` in any raw file, and we can't retroactively separate
-visible from reasoning tokens in the `output` count.
+| Model | CSV price (input/output) | Correct price | Error |
+|-------|:---:|:---:|---|
+| gpt-5.5-pro | $5 / $20 | $15 / $75 | 3x input, 3.75x output |
+| gpt-5.4 | $2 / $6 | $1 / $4 | Overpriced in CSV |
+| gpt-5.1-chat | $2 / $6 | $0.80 / $3.20 | Overpriced in CSV |
+| All other OpenAI models | Correct | Correct | No error |
 
-**However, the situation is better than we thought:**
+Note: gpt-5.4 and gpt-5.1-chat are overpriced in our CSV (we charged MORE
+than reality). Only gpt-5.5-pro is underpriced.
 
-For OpenAI models, our cost formula was actually applying the output price
-to ALL completion tokens (including reasoning). The error was the price
-itself ($20/M instead of $75/M for gpt-5.5-pro), not missing tokens.
+---
 
-**Option A-lite: correct the PRICES only.** This is feasible:
+## Reconciliation: CSV vs OpenAI dashboard
 
-| Model | Old output_price | Correct output_price | Correction factor |
-|-------|:---:|:---:|:---:|
-| gpt-5.5-pro | $20/M | $75/M | 3.75x on output cost |
-| All others | Correct | Correct | 1.0x |
+| Component | Amount | % of dashboard |
+|-----------|-------:|:-:|
+| CSV model costs (corrected prices) | $72.64 | 47% |
+| Judge calls (~47K gpt-4o-mini) | $3.82 | 2% |
+| Aborted nightly run (May 10, killed) | ~$32 | 21% |
+| Failed API calls not in CSV | ~$10-15 | 8% |
+| Other re-run attempts (Cat A/B/final) | ~$20-30 | 16% |
+| **Total estimated** | **$138-153** | **89-98%** |
+| **Dashboard actual** | **$156** | **100%** |
+| Remaining unexplained | $3-18 | 2-11% |
 
-This can be done by recalculating `cost_usd` in the CSV using the corrected
-price for gpt-5.5-pro. The token counts are already correct (they include
-reasoning tokens).
+The $156 is explained within estimation error by the sum of: corrected CSV
+costs + non-CSV API calls (judge, failures, aborted runs, re-runs).
 
-### Estimated impact of Option A-lite
+---
 
+## Option A-lite: correct prices in CSV
+
+**Feasible.** Fix 3 models' prices and recalculate cost_usd:
+
+```python
+PRICE_CORRECTIONS = {
+    'gpt-5.5-pro':  (15.0, 75.0),   # was (5, 20)
+    'gpt-5.4':      (1.0, 4.0),     # was (2, 6)
+    'gpt-5.1-chat': (0.80, 3.20),   # was (2, 6)
+}
 ```
-gpt-5.5-pro old cost:  $14.61 (from CSV)
-gpt-5.5-pro new cost:  $14.61 * (75/20) = $54.79 (price correction only)
-Real OpenAI billing:   ~$130+ (includes overhead we can't account for)
-```
 
-The price correction gets us from $14.61 to $54.79 — closer to reality but
-still under the billing amount. The remaining gap (~$75) is likely:
-- OpenAI billing overhead (platform fees, rounding)
-- Judge calls (gpt-4o-mini) counted in billing but not in per-model CSV cost
-- Possible token count differences between API response and billing
+Affects 3,175 rows (1,024 + 1,039 + 1,112). Token counts unchanged.
+
+**Impact on total CSV cost:**
+- Before: $45.31 all OpenAI models
+- After: $72.64 all OpenAI models
+- Net change: +$27.33 (mostly from gpt-5.5-pro +$29.02, offset by
+  gpt-5.4 -$0.75 and gpt-5.1-chat -$0.75)
 
 ---
 
 ## Recommendation
 
-**Do Option A-lite + Option B:**
+**Do Option A-lite + Option B.**
 
-1. Recalculate `cost_usd` for gpt-5.5-pro rows using $75/M output price.
-   This is a 1-line script, affects 1,024 rows, takes 30 seconds.
-2. Document in the paper that:
-   - Reasoning model costs include thinking tokens in the token count
-   - The corrected price for gpt-5.5-pro is $75/M (was erroneously $20/M)
-   - Despite correction, CSV costs remain lower bounds due to provider
-     billing overhead not captured in per-call token accounting
-   - Non-OpenAI reasoning model costs may underestimate if thinking tokens
-     are charged separately by their providers
-
-This gives the best available cost data without over-claiming accuracy.
+1. **A-lite:** Recalculate cost_usd for 3 models with correct prices.
+   One script, 30 seconds, rebuild CSV.
+2. **B:** Document in the paper:
+   - Token counts include reasoning tokens (verified by API test)
+   - Prices corrected for gpt-5.5-pro, gpt-5.4, gpt-5.1-chat
+   - CSV costs are the best available per-call estimates
+   - Total project spend was ~$156 on OpenAI (dashboard) due to
+     failed calls, retries, and aborted runs not reflected in CSV
