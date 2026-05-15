@@ -1,0 +1,123 @@
+{
+  "chinese": {
+    "n": 16,
+    "avg": 4.779,
+    "min": 4.654,
+    "max": 4.836
+  },
+  "western": {
+    "n": 31,
+    "avg": 4.684,
+    "min": 3.394,
+    "max": 4.842
+  },
+  "mann_whitney_p": 0.1816,
+  "significant": "False",
+  "per_task": {
+    "sentiment_sst2": {
+      "chinese": 4.95,
+      "western": 4.861,
+      "delta": 0.089
+    },
+    "intent_clinc150": {
+      "chinese": 4.581,
+      "western": 4.3,
+      "delta": 0.281
+    },
+    "moderation_toxigen": {
+      "chinese": 4.538,
+      "western": 4.396,
+      "delta": 0.142
+    },
+    "multistep_reasoning": {
+      "chinese": 4.956,
+      "western": 4.792,
+      "delta": 0.164
+    },
+    "reasoning_gsm8k": {
+      "chinese": 4.924,
+      "western": 4.795,
+      "delta": 0.129
+    },
+    "rag_qa": {
+      "chinese": 4.516,
+      "western": 4.202,
+      "delta": 0.314
+    },
+    "code_generation": {
+      "chinese": 4.692,
+      "western": 4.616,
+      "delta": 0.076
+    },
+    "code_review_v2": {
+      "chinese": 4.972,
+      "western": 4.851,
+      "delta": 0.122
+    },
+    "code_explanation": {
+      "chinese": 4.962,
+      "western": 4.928,
+      "delta": 0.034
+    },
+    "test_generation_v2": {
+      "chinese": 4.709,
+      "western": 4.703,
+      "delta": 0.006
+    },
+    "function_calling": {
+      "chinese": 4.644,
+      "western": 4.605,
+      "delta": 0.039
+    },
+    "sql_spider": {
+      "chinese": 4.516,
+      "western": 4.337,
+      "delta": 0.179
+    },
+    "translation_enfr": {
+      "chinese": 4.874,
+      "western": 4.785,
+      "delta": 0.089
+    },
+    "instruction_following": {
+      "chinese": 4.795,
+      "western": 4.761,
+      "delta": 0.034
+    },
+    "structured_output": {
+      "chinese": 4.988,
+      "western": 4.966,
+      "delta": 0.022
+    },
+    "extraction_hard_v2": {
+      "chinese": 4.895,
+      "western": 4.857,
+      "delta": 0.038
+    },
+    "json_transform_v2": {
+      "chinese": 4.785,
+      "western": 4.685,
+      "delta": 0.1
+    },
+    "email_summary_v2": {
+      "chinese": 4.881,
+      "western": 4.875,
+      "delta": 0.007
+    },
+    "long_summarization": {
+      "chinese": 4.532,
+      "western": 4.585,
+      "delta": -0.053
+    },
+    "data_to_text": {
+      "chinese": 4.989,
+      "western": 4.914,
+      "delta": 0.075
+    },
+    "ner_extraction": {
+      "chinese": 4.666,
+      "western": 4.57,
+      "delta": 0.097
+    }
+  }
+}
