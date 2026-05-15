@@ -100,3 +100,106 @@ All findings hold. The "paying more doesn't buy quality" pattern is robust:
 
 Only Mistral shows a clear quality gradient. Everywhere else, the cheap
 model matches or exceeds the expensive one.
+
+---
+
+## Check 1 Extended: Per-Task Detail
+
+### Haiku 4.5 vs Opus 4.7 — Full Table
+
+| Task | Category | Haiku | Opus | Delta | Winner |
+|:-----|:---------|:-----:|:----:|:-----:|:-------|
+| Sentiment | Classification | 4.90 | 4.80 | -0.10 | ~Haiku |
+| Intent-150 | Classification | 4.50 | 4.60 | +0.10 | ~Opus |
+| ToxiGen | Classification | 4.40 | 4.30 | -0.10 | ~Haiku |
+| Multistep | Classification | 5.00 | 4.70 | -0.30 | ~Haiku |
+| GSM8K | Reasoning | 4.84 | 4.80 | -0.04 | Tie |
+| RAG QA | Reasoning | 4.68 | 4.56 | -0.12 | ~Haiku |
+| Code Gen | Code | 4.68 | 4.50 | -0.18 | ~Haiku |
+| Code Review | Code | 5.00 | 5.00 | +0.00 | Tie |
+| Code Expl | Code | 4.96 | 4.98 | +0.02 | Tie |
+| Test Gen | Code | 4.54 | 4.84 | +0.30 | ~Opus |
+| Func Call | Structured | 4.72 | 4.66 | -0.06 | ~Haiku |
+| **SQL** | Code | 4.74 | 4.14 | **-0.60** | **Haiku** |
+| Translation | Language | 4.90 | 4.92 | +0.02 | Tie |
+| **Instruct** | Language | 4.56 | 4.88 | **+0.32** | **Opus** |
+| Struct Out | Structured | 5.00 | 5.00 | +0.00 | Tie |
+| Extraction | Structured | 4.94 | 4.82 | -0.12 | ~Haiku |
+| JSON Trans | Structured | 4.70 | 4.84 | +0.14 | ~Opus |
+| Email Sum | Language | 4.94 | 5.00 | +0.06 | ~Opus |
+| Long Sum | Language | 4.64 | 4.80 | +0.16 | ~Opus |
+| Data-Text | Language | 5.00 | 5.00 | +0.00 | Tie |
+| NER | Structured | 4.64 | 4.68 | +0.04 | Tie |
+
+**Significantly better (delta > 0.3):**
+- Opus wins: instruction_following (+0.32) — 1 task
+- Haiku wins: sql_spider (-0.60) — 1 task
+
+**Within noise (delta < 0.2):** 17 out of 21 tasks.
+
+**Pattern by category:**
+
+| Category | n tasks | Avg delta | Favors |
+|:---------|:-------:|:---------:|:-------|
+| Classification | 4 | -0.100 | Haiku |
+| Code | 5 | -0.092 | Haiku |
+| Reasoning | 2 | -0.080 | Haiku |
+| Structured | 5 | +0.000 | Tie |
+| Language | 5 | +0.112 | Opus |
+
+**There IS a pattern:** Haiku wins on classification, code, and reasoning.
+Opus wins on language (instruction following, summarization, email). Structured
+output is a tie. The "Opus overthinks classification" hypothesis from Finding 2
+in FINDINGS_CRITIQUE is confirmed: Opus scores -0.30 on multistep_reasoning and
+-0.10 on sentiment/moderation vs Haiku.
+
+The Opus advantage on language tasks (+0.11) suggests Premium models add value
+for open-ended generation where nuance matters, but not for tasks with a clear
+correct answer.
+
+### Gemini Flash vs Gemini Pro — Full Table
+
+| Task | Category | Flash | Pro | Delta | Winner |
+|:-----|:---------|:-----:|:---:|:-----:|:-------|
+| Sentiment | Classification | 4.90 | 5.00 | +0.10 | ~Pro |
+| Intent-150 | Classification | 4.70 | 4.70 | +0.00 | Tie |
+| ToxiGen | Classification | 4.60 | 4.70 | +0.10 | ~Pro |
+| Multistep | Classification | 4.70 | 5.00 | +0.30 | ~Pro |
+| GSM8K | Reasoning | 4.96 | 4.96 | +0.00 | Tie |
+| RAG QA | Reasoning | 4.38 | 4.54 | +0.16 | ~Pro |
+| Code Gen | Code | 4.76 | 4.76 | -0.00 | Tie |
+| Code Review | Code | 4.98 | 5.00 | +0.02 | Tie |
+| Code Expl | Code | 4.96 | 4.98 | +0.02 | Tie |
+| Test Gen | Code | 4.52 | 4.40 | -0.12 | ~Flash |
+| Func Call | Structured | 4.48 | 4.68 | +0.20 | ~Pro |
+| SQL | Code | 4.60 | 4.36 | -0.24 | ~Flash |
+| Translation | Language | 4.88 | 4.94 | +0.06 | ~Pro |
+| Instruct | Language | 4.78 | 4.72 | -0.06 | ~Flash |
+| Struct Out | Structured | 5.00 | 5.00 | +0.00 | Tie |
+| Extraction | Structured | 4.94 | 4.90 | -0.04 | Tie |
+| JSON Trans | Structured | 4.76 | 4.94 | +0.18 | ~Pro |
+| **Email Sum** | Language | 4.90 | 4.38 | **-0.52** | **Flash** |
+| Long Sum | Language | 4.20 | 4.00 | -0.20 | ~Flash |
+| Data-Text | Language | 5.00 | 5.00 | +0.00 | Tie |
+| NER | Structured | 4.74 | 4.74 | +0.00 | Tie |
+
+**Significantly better (delta > 0.3):**
+- Pro wins: 0 tasks
+- Flash wins: email_summary (-0.52) — 1 task
+
+**Within noise (delta < 0.2):** 17 out of 21 tasks.
+
+**Pattern by category:**
+
+| Category | n tasks | Avg delta | Favors |
+|:---------|:-------:|:---------:|:-------|
+| Classification | 4 | +0.125 | Pro |
+| Reasoning | 2 | +0.080 | Pro |
+| Structured | 5 | +0.068 | Pro |
+| Code | 5 | -0.065 | Flash |
+| Language | 5 | -0.144 | Flash |
+
+**Same pattern as Anthropic:** Pro is marginally better on classification and
+reasoning (structured, clear-answer tasks). Flash is better on language/generation
+(where conciseness helps). But the deltas are all < 0.2 — the pattern is
+suggestive, not conclusive.
