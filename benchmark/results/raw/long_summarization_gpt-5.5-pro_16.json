@@ -11,5 +11,8 @@
     "output": 196
   },
   "input_price_per_m": 15.0,
-  "output_price_per_m": 75.0
+  "output_price_per_m": 75.0,
+  "judge_v2_score": 4,
+  "judge_v2_raw": "4",
+  "judge_v2_model": "gpt-4o"
 }
