@@ -1,0 +1,15 @@
+{
+  "code_generation_fixed": {
+    "r": 0.0971,
+    "p": 0.51155,
+    "n": 48,
+    "metric": "pass@1 (HumanEval, fixed harness v2)",
+    "error_breakdown": {
+      "pass": 1076,
+      "indentation": 1129,
+      "syntax": 47,
+      "assertion": 108,
+      "other": 34
+    }
+  }
+}
