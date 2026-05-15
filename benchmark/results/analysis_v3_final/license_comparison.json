@@ -1,0 +1,68 @@
+{
+  "open": {
+    "n": 18,
+    "avg": 4.603,
+    "models": [
+      "deepseek/deepseek-v3.2",
+      "deepseek/deepseek-v4-pro",
+      "devstral-latest",
+      "google/gemma-4-26b-a4b-it",
+      "meta-llama/llama-3.2-1b-instruct",
+      "meta-llama/llama-3.2-3b-instruct",
+      "meta-llama/llama-4-maverick",
+      "microsoft/phi-4",
+      "ministral-3b-latest",
+      "mistral-small-latest",
+      "nvidia/nemotron-3-super-120b-a12b",
+      "qwen/qwen-max",
+      "qwen/qwen-turbo",
+      "qwen/qwen3-8b",
+      "qwen/qwen3-coder",
+      "qwen/qwen3.6-flash",
+      "qwen/qwen3.6-max-preview",
+      "qwen/qwen3.6-plus"
+    ]
+  },
+  "closed": {
+    "n": 29,
+    "avg": 4.787,
+    "models": [
+      "MiniMax-M2.7",
+      "bytedance-seed/seed-1.6-flash",
+      "bytedance-seed/seed-2.0-lite",
+      "bytedance-seed/seed-2.0-mini",
+      "claude-haiku-4-5-20251001",
+      "claude-opus-4-7",
+      "claude-sonnet-4-20250514",
+      "claude-sonnet-4-6",
+      "gemini-2.5-flash",
+      "gemini-2.5-pro",
+      "gemini-3.1-pro-preview",
+      "gpt-4o",
+      "gpt-4o-mini",
+      "gpt-5.1-chat",
+      "gpt-5.4",
+      "gpt-5.4-mini",
+      "gpt-5.4-nano",
+      "gpt-5.5",
+      "gpt-5.5-pro",
+      "kimi-k2.6",
+      "mistral-large-latest",
+      "mistral-medium-latest",
+      "o3",
+      "o4-mini",
+      "seed-2-0-code-preview-260328",
+      "seed-2-0-pro-260328",
+      "x-ai/grok-4-fast",
+      "x-ai/grok-4.20",
+      "x-ai/grok-code-fast-1"
+    ]
+  },
+  "mann_whitney_p": 0.0003,
+  "significant": true,
+  "debatable_classifications": [
+    "deepseek/deepseek-v4-pro: open weights but proprietary training",
+    "qwen/qwen3.6-max-preview: open weights but some versions restricted",
+    "mistral-small-latest: technically open (Apache 2.0) but accessed via API here"
+  ]
+}
