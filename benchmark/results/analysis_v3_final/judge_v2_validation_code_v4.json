@@ -1,0 +1,12 @@
+{
+  "r": 0.8913,
+  "p": 0.0,
+  "n": 48,
+  "error_breakdown": {
+    "pass": 2188,
+    "assertion": 188,
+    "syntax": 14,
+    "indentation": 4
+  },
+  "total_cases": 2394
+}
