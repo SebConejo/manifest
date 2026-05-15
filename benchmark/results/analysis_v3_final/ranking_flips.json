@@ -1,0 +1,160 @@
+{
+  "global": {
+    "flips": 5195,
+    "total_pairs": 14972,
+    "tied": 4205,
+    "flip_rate_pct": 34.7,
+    "kendall_tau": 0.306
+  },
+  "per_task": {
+    "reasoning_gsm8k": {
+      "flips": 288,
+      "total_pairs": 842,
+      "tied": 286,
+      "flip_rate": 34.2,
+      "kendall_tau": 0.316,
+      "n_models": 48
+    },
+    "rag_qa": {
+      "flips": 545,
+      "total_pairs": 1084,
+      "tied": 44,
+      "flip_rate": 50.3,
+      "kendall_tau": -0.006,
+      "n_models": 48
+    },
+    "code_generation": {
+      "flips": 285,
+      "total_pairs": 1040,
+      "tied": 88,
+      "flip_rate": 27.4,
+      "kendall_tau": 0.452,
+      "n_models": 48
+    },
+    "code_review_v2": {
+      "flips": 136,
+      "total_pairs": 674,
+      "tied": 454,
+      "flip_rate": 20.2,
+      "kendall_tau": 0.596,
+      "n_models": 48
+    },
+    "code_explanation": {
+      "flips": 321,
+      "total_pairs": 820,
+      "tied": 308,
+      "flip_rate": 39.1,
+      "kendall_tau": 0.217,
+      "n_models": 48
+    },
+    "test_generation_v2": {
+      "flips": 363,
+      "total_pairs": 1063,
+      "tied": 65,
+      "flip_rate": 34.1,
+      "kendall_tau": 0.317,
+      "n_models": 48
+    },
+    "function_calling": {
+      "flips": 514,
+      "total_pairs": 1037,
+      "tied": 139,
+      "flip_rate": 49.6,
+      "kendall_tau": 0.009,
+      "n_models": 49
+    },
+    "sql_spider": {
+      "flips": 222,
+      "total_pairs": 1058,
+      "tied": 70,
+      "flip_rate": 21.0,
+      "kendall_tau": 0.58,
+      "n_models": 48
+    },
+    "translation_enfr": {
+      "flips": 300,
+      "total_pairs": 994,
+      "tied": 134,
+      "flip_rate": 30.2,
+      "kendall_tau": 0.396,
+      "n_models": 48
+    },
+    "instruction_following": {
+      "flips": 308,
+      "total_pairs": 1042,
+      "tied": 86,
+      "flip_rate": 29.6,
+      "kendall_tau": 0.409,
+      "n_models": 48
+    },
+    "structured_output": {
+      "flips": 156,
+      "total_pairs": 533,
+      "tied": 595,
+      "flip_rate": 29.3,
+      "kendall_tau": 0.415,
+      "n_models": 48
+    },
+    "extraction_hard_v2": {
+      "flips": 356,
+      "total_pairs": 918,
+      "tied": 210,
+      "flip_rate": 38.8,
+      "kendall_tau": 0.224,
+      "n_models": 48
+    },
+    "json_transform_v2": {
+      "flips": 384,
+      "total_pairs": 1018,
+      "tied": 110,
+      "flip_rate": 37.7,
+      "kendall_tau": 0.246,
+      "n_models": 48
+    },
+    "email_summary_v2": {
+      "flips": 195,
+      "total_pairs": 807,
+      "tied": 274,
+      "flip_rate": 24.2,
+      "kendall_tau": 0.517,
+      "n_models": 47
+    },
+    "long_summarization": {
+      "flips": 353,
+      "total_pairs": 783,
+      "tied": 345,
+      "flip_rate": 45.1,
+      "kendall_tau": 0.098,
+      "n_models": 48
+    },
+    "data_to_text": {
+      "flips": 80,
+      "total_pairs": 264,
+      "tied": 864,
+      "flip_rate": 30.3,
+      "kendall_tau": 0.394,
+      "n_models": 48
+    },
+    "ner_extraction": {
+      "flips": 389,
+      "total_pairs": 995,
+      "tied": 133,
+      "flip_rate": 39.1,
+      "kendall_tau": 0.218,
+      "n_models": 48
+    }
+  },
+  "top_flip_models": {
+    "bytedance-seed/seed-2.0-mini": 302,
+    "devstral-latest": 297,
+    "bytedance-seed/seed-2.0-lite": 289,
+    "bytedance-seed/seed-1.6-flash": 281,
+    "qwen/qwen-turbo": 272,
+    "qwen/qwen3.6-flash": 269,
+    "deepseek/deepseek-v3.2": 262,
+    "gpt-5.4-mini": 259,
+    "qwen/qwen3.6-plus": 254,
+    "o4-mini": 254
+  },
+  "interpretation": "Major instability. V1 rankings are unreliable."
+}
