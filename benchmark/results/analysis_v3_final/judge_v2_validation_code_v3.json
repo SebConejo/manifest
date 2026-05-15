@@ -1,0 +1,14 @@
+{
+  "code_generation_multi_strategy": {
+    "r": 0.1231,
+    "p": 0.404353,
+    "n": 48,
+    "metric": "pass@1 (HumanEval, multi-strategy harness)",
+    "error_breakdown": {
+      "pass": 1125,
+      "indentation": 1104,
+      "assertion": 151,
+      "syntax": 14
+    }
+  }
+}
