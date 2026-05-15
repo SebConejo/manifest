@@ -1,0 +1,157 @@
+{
+  "OpenAI": [
+    {
+      "model": "gpt-5.4-nano",
+      "price": 0.02,
+      "avg_score": 4.694
+    },
+    {
+      "model": "gpt-5.4-mini",
+      "price": 0.1,
+      "avg_score": 4.739
+    },
+    {
+      "model": "gpt-4o-mini",
+      "price": 0.15,
+      "avg_score": 4.728
+    },
+    {
+      "model": "gpt-5.1-chat",
+      "price": 0.8,
+      "avg_score": 4.777
+    },
+    {
+      "model": "gpt-5.4",
+      "price": 1.0,
+      "avg_score": 4.812
+    },
+    {
+      "model": "o4-mini",
+      "price": 1.1,
+      "avg_score": 4.833
+    },
+    {
+      "model": "o3",
+      "price": 2.0,
+      "avg_score": 4.842
+    },
+    {
+      "model": "gpt-4o",
+      "price": 2.5,
+      "avg_score": 4.724
+    },
+    {
+      "model": "gpt-5.5",
+      "price": 3.0,
+      "avg_score": 4.809
+    },
+    {
+      "model": "gpt-5.5-pro",
+      "price": 15.0,
+      "avg_score": 4.828
+    }
+  ],
+  "Anthropic": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "price": 0.8,
+      "avg_score": 4.775
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "price": 3.0,
+      "avg_score": 4.793
+    },
+    {
+      "model": "claude-sonnet-4-20250514",
+      "price": 3.0,
+      "avg_score": 4.79
+    },
+    {
+      "model": "claude-opus-4-7",
+      "price": 15.0,
+      "avg_score": 4.753
+    }
+  ],
+  "Mistral": [
+    {
+      "model": "ministral-3b-latest",
+      "price": 0.04,
+      "avg_score": 4.441
+    },
+    {
+      "model": "mistral-small-latest",
+      "price": 0.1,
+      "avg_score": 4.601
+    },
+    {
+      "model": "devstral-latest",
+      "price": 0.2,
+      "avg_score": 4.802
+    },
+    {
+      "model": "mistral-medium-latest",
+      "price": 0.4,
+      "avg_score": 4.813
+    },
+    {
+      "model": "mistral-large-latest",
+      "price": 2.0,
+      "avg_score": 4.8
+    }
+  ],
+  "Qwen": [
+    {
+      "model": "qwen/qwen-turbo",
+      "price": 0.05,
+      "avg_score": 4.654
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "price": 0.05,
+      "avg_score": 4.767
+    },
+    {
+      "model": "qwen/qwen3-coder",
+      "price": 0.3,
+      "avg_score": 4.794
+    },
+    {
+      "model": "qwen/qwen3.6-flash",
+      "price": 0.3,
+      "avg_score": 4.782
+    },
+    {
+      "model": "qwen/qwen3.6-plus",
+      "price": 0.5,
+      "avg_score": 4.775
+    },
+    {
+      "model": "qwen/qwen3.6-max-preview",
+      "price": 1.5,
+      "avg_score": 4.768
+    },
+    {
+      "model": "qwen/qwen-max",
+      "price": 2.0,
+      "avg_score": 4.746
+    }
+  ],
+  "Google": [
+    {
+      "model": "gemini-2.5-flash",
+      "price": 0.15,
+      "avg_score": 4.749
+    },
+    {
+      "model": "gemini-2.5-pro",
+      "price": 1.25,
+      "avg_score": 4.747
+    },
+    {
+      "model": "gemini-3.1-pro-preview",
+      "price": 1.25,
+      "avg_score": 4.728
+    }
+  ]
+}
