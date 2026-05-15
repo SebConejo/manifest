@@ -1,0 +1,8 @@
+{
+  "translation_enfr": {
+    "r": 0.2903,
+    "p": 0.045343,
+    "n": 48,
+    "metric": "corpus BLEU (sacrebleu)"
+  }
+}
