@@ -1,0 +1,8 @@
+{
+  "code_generation": {
+    "r": 0.4906,
+    "p": 0.0004,
+    "n": 48,
+    "metric": "pass@1 (HumanEval, fixed harness)"
+  }
+}
