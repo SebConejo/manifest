@@ -9,5 +9,8 @@
   "tokens": {
     "input": 138,
     "output": 6098
-  }
+  },
+  "judge_v2_score": 4,
+  "judge_v2_raw": "4",
+  "judge_v2_model": "gpt-4o"
 }
