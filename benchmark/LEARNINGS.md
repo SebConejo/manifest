@@ -359,3 +359,42 @@ generating paper figures MUST read that file first and follow it exactly.
 work for dashboards and exploratory charts, not for arXiv. Budget 5-10 minutes
 per figure for manual label positioning. It's faster than 7 iterations of
 auto-placement debugging.
+
+---
+
+## 19. LLM Judge V2: Format Bias Correction (critical)
+
+**What happened:** The V1 LLM judge (GPT-4o-mini with generic rubrics) had a
+severe format bias. It evaluated presentation quality, not factual correctness.
+Correlation with ground truth: r=0.388 on GSM8K, r=-0.013 on RAG QA.
+
+**Root cause:** V1 rubrics said "rate this on a 1-5 scale for quality" without
+defining what quality means. GPT-4o-mini defaulted to evaluating fluency,
+concision, and formatting. Verbose correct answers scored lower than concise
+wrong answers. Eloquent hallucinations scored higher than terse correct responses.
+
+**Impact on data:** Premium reasoning models (Opus, GPT-5.5 Pro, Nemotron) were
+systematically under-scored (-0.2 to -0.6 points) because they produce verbose
+output. Economy models that format cleanly were over-scored. The V1 finding
+"Economy = Premium" was partially an artifact of this bias.
+
+**Fix applied (V2):**
+- Upgraded judge to GPT-4o (better rubric adherence)
+- Rewrote all 17 rubrics to evaluate CORRECTNESS, not presentation
+- Added explicit anti-bias instruction: "Ignore formatting, verbosity, and style"
+- For tasks with ground truth: injected the expected answer into the judge prompt
+- Added correctness anchors per task (e.g., "5 = numerical answer matches expected")
+
+**Validation:** Re-judged reasoning_gsm8k and rag_qa first (4,788 cases, ~$7.50).
+Results: r jumped to 0.905 (GSM8K) and 0.887 (RAG QA). Then extended to all 15
+remaining generative tasks (35,562 cases, ~$54). Total: 40,350 cases re-judged.
+
+**Result:** Premium avg rose from 4.601 to 4.791 (+0.19). Economy rose from 4.601
+to 4.749 (+0.15). The gap widened from 0.000 to 0.042 — still not significant
+(Mann-Whitney p>0.05 on all 21 tasks). The structural finding holds but the
+numbers are more accurate.
+
+**Lesson:** Never trust a generic LLM judge. Always validate against ground truth
+on at least 2 tasks before accepting scores. The validation cost (~$7.50) is
+trivial compared to the cost of publishing findings based on biased scores.
+Correctness-specific rubrics with explicit anchors are non-negotiable.

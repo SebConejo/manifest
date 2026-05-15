@@ -1,0 +1,128 @@
+{
+  "sentiment_sst2": {
+    "Premium": 4.85,
+    "Standard": 4.952,
+    "Economy": 4.947,
+    "Micro": 4.7
+  },
+  "intent_clinc150": {
+    "Premium": 4.6,
+    "Standard": 4.61,
+    "Economy": 4.553,
+    "Micro": 3.68
+  },
+  "moderation_toxigen": {
+    "Premium": 4.6,
+    "Standard": 4.56,
+    "Economy": 4.507,
+    "Micro": 4.08
+  },
+  "multistep_reasoning": {
+    "Premium": 4.65,
+    "Standard": 4.868,
+    "Economy": 4.89,
+    "Micro": 4.87
+  },
+  "reasoning_gsm8k": {
+    "Premium": 4.86,
+    "Standard": 4.903,
+    "Economy": 4.863,
+    "Micro": 4.674
+  },
+  "rag_qa": {
+    "Premium": 4.64,
+    "Standard": 4.456,
+    "Economy": 4.248,
+    "Micro": 4.016
+  },
+  "code_generation": {
+    "Premium": 4.6,
+    "Standard": 4.723,
+    "Economy": 4.689,
+    "Micro": 4.432
+  },
+  "code_review_v2": {
+    "Premium": 5.0,
+    "Standard": 4.982,
+    "Economy": 4.963,
+    "Micro": 4.586
+  },
+  "code_explanation": {
+    "Premium": 4.969,
+    "Standard": 4.964,
+    "Economy": 4.963,
+    "Micro": 4.846
+  },
+  "test_generation_v2": {
+    "Premium": 4.92,
+    "Standard": 4.785,
+    "Economy": 4.728,
+    "Micro": 4.48
+  },
+  "function_calling": {
+    "Premium": 4.66,
+    "Standard": 4.648,
+    "Economy": 4.645,
+    "Micro": 4.508
+  },
+  "sql_spider": {
+    "Premium": 4.27,
+    "Standard": 4.479,
+    "Economy": 4.485,
+    "Micro": 4.132
+  },
+  "translation_enfr": {
+    "Premium": 4.94,
+    "Standard": 4.933,
+    "Economy": 4.82,
+    "Micro": 4.548
+  },
+  "instruction_following": {
+    "Premium": 4.88,
+    "Standard": 4.835,
+    "Economy": 4.777,
+    "Micro": 4.634
+  },
+  "structured_output": {
+    "Premium": 5.0,
+    "Standard": 4.998,
+    "Economy": 4.972,
+    "Micro": 4.922
+  },
+  "extraction_hard_v2": {
+    "Premium": 4.91,
+    "Standard": 4.906,
+    "Economy": 4.901,
+    "Micro": 4.736
+  },
+  "json_transform_v2": {
+    "Premium": 4.8,
+    "Standard": 4.785,
+    "Economy": 4.745,
+    "Micro": 4.534
+  },
+  "email_summary_v2": {
+    "Premium": 5.0,
+    "Standard": 4.897,
+    "Economy": 4.911,
+    "Micro": 4.762
+  },
+  "long_summarization": {
+    "Premium": 4.83,
+    "Standard": 4.573,
+    "Economy": 4.547,
+    "Micro": 4.512
+  },
+  "data_to_text": {
+    "Premium": 5.0,
+    "Standard": 4.992,
+    "Economy": 4.945,
+    "Micro": 4.81
+  },
+  "ner_extraction": {
+    "Premium": 4.63,
+    "Standard": 4.658,
+    "Economy": 4.641,
+    "Micro": 4.43
+  }
+}

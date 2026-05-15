@@ -1,0 +1,30 @@
+{
+  "bootstrap": {
+    "Premium": {
+      "mean": 4.791,
+      "ci_lo": 4.729,
+      "ci_hi": 4.853,
+      "n": 42
+    },
+    "Standard": {
+      "mean": 4.787,
+      "ci_lo": 4.765,
+      "ci_hi": 4.808,
+      "n": 451
+    },
+    "Economy": {
+      "mean": 4.749,
+      "ci_lo": 4.715,
+      "ci_hi": 4.777,
+      "n": 313
+    },
+    "Micro": {
+      "mean": 4.519,
+      "ci_lo": 4.435,
+      "ci_hi": 4.599,
+      "n": 210
+    }
+  },
+  "mann_whitney_significant": 0,
+  "mann_whitney_total": 21
+}

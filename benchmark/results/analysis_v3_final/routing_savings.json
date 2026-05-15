@@ -1,0 +1,9 @@
+{
+  "single_best": {
+    "model": "o3",
+    "avg_score": 4.842,
+    "avg_cost": 0.003332
+  },
+  "routed_avg_cost": 9e-06,
+  "savings_pct": 99.7
+}

@@ -1,0 +1,128 @@
+{
+  "sentiment_sst2": {
+    "spread": 1.9,
+    "std": 0.276,
+    "min": 3.1,
+    "max": 5.0
+  },
+  "intent_clinc150": {
+    "spread": 3.2,
+    "std": 0.624,
+    "min": 1.5,
+    "max": 4.7
+  },
+  "moderation_toxigen": {
+    "spread": 2.4,
+    "std": 0.392,
+    "min": 2.5,
+    "max": 4.9
+  },
+  "multistep_reasoning": {
+    "spread": 0.8,
+    "std": 0.192,
+    "min": 4.2,
+    "max": 5.0
+  },
+  "reasoning_gsm8k": {
+    "spread": 1.86,
+    "std": 0.286,
+    "min": 3.1,
+    "max": 4.96
+  },
+  "rag_qa": {
+    "spread": 2.84,
+    "std": 0.56,
+    "min": 2.0,
+    "max": 4.84
+  },
+  "code_generation": {
+    "spread": 1.86,
+    "std": 0.284,
+    "min": 3.04,
+    "max": 4.9
+  },
+  "code_review_v2": {
+    "spread": 1.98,
+    "std": 0.33,
+    "min": 3.02,
+    "max": 5.0
+  },
+  "code_explanation": {
+    "spread": 0.812,
+    "std": 0.117,
+    "min": 4.188,
+    "max": 5.0
+  },
+  "test_generation_v2": {
+    "spread": 2.4,
+    "std": 0.37,
+    "min": 2.6,
+    "max": 5.0
+  },
+  "function_calling": {
+    "spread": 1.46,
+    "std": 0.191,
+    "min": 3.42,
+    "max": 4.88
+  },
+  "sql_spider": {
+    "spread": 2.06,
+    "std": 0.376,
+    "min": 2.76,
+    "max": 4.82
+  },
+  "translation_enfr": {
+    "spread": 1.48,
+    "std": 0.29,
+    "min": 3.52,
+    "max": 5.0
+  },
+  "instruction_following": {
+    "spread": 0.82,
+    "std": 0.159,
+    "min": 4.18,
+    "max": 5.0
+  },
+  "structured_output": {
+    "spread": 0.293,
+    "std": 0.061,
+    "min": 4.707,
+    "max": 5.0
+  },
+  "extraction_hard_v2": {
+    "spread": 1.04,
+    "std": 0.152,
+    "min": 3.96,
+    "max": 5.0
+  },
+  "json_transform_v2": {
+    "spread": 1.46,
+    "std": 0.231,
+    "min": 3.48,
+    "max": 4.94
+  },
+  "email_summary_v2": {
+    "spread": 0.92,
+    "std": 0.177,
+    "min": 4.08,
+    "max": 5.0
+  },
+  "long_summarization": {
+    "spread": 1.02,
+    "std": 0.33,
+    "min": 3.98,
+    "max": 5.0
+  },
+  "data_to_text": {
+    "spread": 1.56,
+    "std": 0.243,
+    "min": 3.44,
+    "max": 5.0
+  },
+  "ner_extraction": {
+    "spread": 1.42,
+    "std": 0.205,
+    "min": 3.4,
+    "max": 4.82
+  }
+}

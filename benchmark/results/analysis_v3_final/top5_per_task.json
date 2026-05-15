@@ -1,0 +1,674 @@
+{
+  "sentiment_sst2": [
+    {
+      "rank": 1,
+      "model": "google/gemma-4-26b-a4b-it",
+      "avg_score": 5.0,
+      "avg_cost": 4e-06
+    },
+    {
+      "rank": 2,
+      "model": "devstral-latest",
+      "avg_score": 5.0,
+      "avg_cost": 7e-06
+    },
+    {
+      "rank": 3,
+      "model": "gpt-4o-mini",
+      "avg_score": 5.0,
+      "avg_cost": 1e-05
+    },
+    {
+      "rank": 4,
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "avg_score": 5.0,
+      "avg_cost": 1.1e-05
+    },
+    {
+      "rank": 5,
+      "model": "qwen/qwen3-8b",
+      "avg_score": 5.0,
+      "avg_cost": 1.4e-05
+    }
+  ],
+  "intent_clinc150": [
+    {
+      "rank": 1,
+      "model": "gemini-2.5-flash",
+      "avg_score": 4.7,
+      "avg_cost": 9.5e-05
+    },
+    {
+      "rank": 2,
+      "model": "gpt-5.4-mini",
+      "avg_score": 4.7,
+      "avg_cost": 0.00016
+    },
+    {
+      "rank": 3,
+      "model": "bytedance-seed/seed-2.0-mini",
+      "avg_score": 4.7,
+      "avg_cost": 0.000245
+    },
+    {
+      "rank": 4,
+      "model": "x-ai/grok-4-fast",
+      "avg_score": 4.7,
+      "avg_cost": 0.000271
+    },
+    {
+      "rank": 5,
+      "model": "bytedance-seed/seed-2.0-lite",
+      "avg_score": 4.7,
+      "avg_cost": 0.000338
+    }
+  ],
+  "moderation_toxigen": [
+    {
+      "rank": 1,
+      "model": "x-ai/grok-4-fast",
+      "avg_score": 4.9,
+      "avg_cost": 0.00018
+    },
+    {
+      "rank": 2,
+      "model": "gpt-5.5-pro",
+      "avg_score": 4.9,
+      "avg_cost": 0.010114
+    },
+    {
+      "rank": 3,
+      "model": "bytedance-seed/seed-1.6-flash",
+      "avg_score": 4.8,
+      "avg_cost": 7.3e-05
+    },
+    {
+      "rank": 4,
+      "model": "deepseek/deepseek-v4-pro",
+      "avg_score": 4.8,
+      "avg_cost": 0.000183
+    },
+    {
+      "rank": 5,
+      "model": "x-ai/grok-code-fast-1",
+      "avg_score": 4.8,
+      "avg_cost": 0.000256
+    }
+  ],
+  "multistep_reasoning": [
+    {
+      "rank": 1,
+      "model": "meta-llama/llama-3.2-1b-instruct",
+      "avg_score": 5.0,
+      "avg_cost": 7e-06
+    },
+    {
+      "rank": 2,
+      "model": "qwen/qwen-turbo",
+      "avg_score": 5.0,
+      "avg_cost": 1.3e-05
+    },
+    {
+      "rank": 3,
+      "model": "meta-llama/llama-3.2-3b-instruct",
+      "avg_score": 5.0,
+      "avg_cost": 1.4e-05
+    },
+    {
+      "rank": 4,
+      "model": "microsoft/phi-4",
+      "avg_score": 5.0,
+      "avg_cost": 2.2e-05
+    },
+    {
+      "rank": 5,
+      "model": "google/gemma-4-26b-a4b-it",
+      "avg_score": 5.0,
+      "avg_cost": 2.6e-05
+    }
+  ],
+  "reasoning_gsm8k": [
+    {
+      "rank": 1,
+      "model": "qwen/qwen-turbo",
+      "avg_score": 4.96,
+      "avg_cost": 1e-05
+    },
+    {
+      "rank": 2,
+      "model": "microsoft/phi-4",
+      "avg_score": 4.96,
+      "avg_cost": 2.4e-05
+    },
+    {
+      "rank": 3,
+      "model": "meta-llama/llama-4-maverick",
+      "avg_score": 4.96,
+      "avg_cost": 0.000152
+    },
+    {
+      "rank": 4,
+      "model": "gemini-2.5-flash",
+      "avg_score": 4.96,
+      "avg_cost": 0.000173
+    },
+    {
+      "rank": 5,
+      "model": "qwen/qwen3-coder",
+      "avg_score": 4.96,
+      "avg_cost": 0.000225
+    }
+  ],
+  "rag_qa": [
+    {
+      "rank": 1,
+      "model": "claude-sonnet-4-6",
+      "avg_score": 4.84,
+      "avg_cost": 0.001405
+    },
+    {
+      "rank": 2,
+      "model": "qwen/qwen3.6-plus",
+      "avg_score": 4.78,
+      "avg_cost": 0.001096
+    },
+    {
+      "rank": 3,
+      "model": "gpt-5.4",
+      "avg_score": 4.76,
+      "avg_cost": 0.000251
+    },
+    {
+      "rank": 4,
+      "model": "bytedance-seed/seed-2.0-mini",
+      "avg_score": 4.74,
+      "avg_cost": 0.000172
+    },
+    {
+      "rank": 5,
+      "model": "qwen/qwen3.6-flash",
+      "avg_score": 4.74,
+      "avg_cost": 0.000859
+    }
+  ],
+  "code_generation": [
+    {
+      "rank": 1,
+      "model": "mistral-large-latest",
+      "avg_score": 4.9,
+      "avg_cost": 0.000733
+    },
+    {
+      "rank": 2,
+      "model": "deepseek/deepseek-v4-flash",
+      "avg_score": 4.875,
+      "avg_cost": 0.000163
+    },
+    {
+      "rank": 3,
+      "model": "google/gemma-4-26b-a4b-it",
+      "avg_score": 4.86,
+      "avg_cost": 1.4e-05
+    },
+    {
+      "rank": 4,
+      "model": "bytedance-seed/seed-2.0-lite",
+      "avg_score": 4.86,
+      "avg_cost": 0.001254
+    },
+    {
+      "rank": 5,
+      "model": "o4-mini",
+      "avg_score": 4.833,
+      "avg_cost": 0.003184
+    }
+  ],
+  "code_review_v2": [
+    {
+      "rank": 1,
+      "model": "google/gemma-4-26b-a4b-it",
+      "avg_score": 5.0,
+      "avg_cost": 5.3e-05
+    },
+    {
+      "rank": 2,
+      "model": "qwen/qwen3-8b",
+      "avg_score": 5.0,
+      "avg_cost": 0.000119
+    },
+    {
+      "rank": 3,
+      "model": "gpt-5.4-nano",
+      "avg_score": 5.0,
+      "avg_cost": 0.000343
+    },
+    {
+      "rank": 4,
+      "model": "bytedance-seed/seed-1.6-flash",
+      "avg_score": 5.0,
+      "avg_cost": 0.000858
+    },
+    {
+      "rank": 5,
+      "model": "x-ai/grok-code-fast-1",
+      "avg_score": 5.0,
+      "avg_cost": 0.000945
+    }
+  ],
+  "code_explanation": [
+    {
+      "rank": 1,
+      "model": "deepseek/deepseek-v3.2",
+      "avg_score": 5.0,
+      "avg_cost": 9.4e-05
+    },
+    {
+      "rank": 2,
+      "model": "bytedance-seed/seed-2.0-mini",
+      "avg_score": 5.0,
+      "avg_cost": 0.000337
+    },
+    {
+      "rank": 3,
+      "model": "seed-2-0-pro-260328",
+      "avg_score": 5.0,
+      "avg_cost": 0.001035
+    },
+    {
+      "rank": 4,
+      "model": "gemini-3.1-pro-preview",
+      "avg_score": 5.0,
+      "avg_cost": 0.00138
+    },
+    {
+      "rank": 5,
+      "model": "claude-sonnet-4-20250514",
+      "avg_score": 5.0,
+      "avg_cost": 0.001616
+    }
+  ],
+  "test_generation_v2": [
+    {
+      "rank": 1,
+      "model": "x-ai/grok-code-fast-1",
+      "avg_score": 5.0,
+      "avg_cost": 0.001016
+    },
+    {
+      "rank": 2,
+      "model": "gpt-5.5-pro",
+      "avg_score": 5.0,
+      "avg_cost": 0.420549
+    },
+    {
+      "rank": 3,
+      "model": "gpt-5.4-nano",
+      "avg_score": 4.98,
+      "avg_cost": 0.000252
+    },
+    {
+      "rank": 4,
+      "model": "gpt-5.4-mini",
+      "avg_score": 4.98,
+      "avg_cost": 0.000639
+    },
+    {
+      "rank": 5,
+      "model": "gpt-5.4",
+      "avg_score": 4.98,
+      "avg_cost": 0.002384
+    }
+  ],
+  "function_calling": [
+    {
+      "rank": 1,
+      "model": "claude-sonnet-4-6",
+      "avg_score": 4.88,
+      "avg_cost": 0.000985
+    },
+    {
+      "rank": 2,
+      "model": "mistral-medium-latest",
+      "avg_score": 4.82,
+      "avg_cost": 0.000132
+    },
+    {
+      "rank": 3,
+      "model": "gpt-4o-mini",
+      "avg_score": 4.76,
+      "avg_cost": 3.2e-05
+    },
+    {
+      "rank": 4,
+      "model": "bytedance-seed/seed-2.0-mini",
+      "avg_score": 4.76,
+      "avg_cost": 0.00037
+    },
+    {
+      "rank": 5,
+      "model": "MiniMax-M2.7",
+      "avg_score": 4.76,
+      "avg_cost": 0.001233
+    }
+  ],
+  "sql_spider": [
+    {
+      "rank": 1,
+      "model": "mistral-large-latest",
+      "avg_score": 4.82,
+      "avg_cost": 0.000425
+    },
+    {
+      "rank": 2,
+      "model": "bytedance-seed/seed-2.0-lite",
+      "avg_score": 4.76,
+      "avg_cost": 0.000636
+    },
+    {
+      "rank": 3,
+      "model": "claude-haiku-4-5-20251001",
+      "avg_score": 4.74,
+      "avg_cost": 0.000272
+    },
+    {
+      "rank": 4,
+      "model": "deepseek/deepseek-v4-pro",
+      "avg_score": 4.74,
+      "avg_cost": 0.000646
+    },
+    {
+      "rank": 5,
+      "model": "seed-2-0-code-preview-260328",
+      "avg_score": 4.74,
+      "avg_cost": 0.003697
+    }
+  ],
+  "translation_enfr": [
+    {
+      "rank": 1,
+      "model": "gpt-5.1-chat",
+      "avg_score": 5.0,
+      "avg_cost": 0.000247
+    },
+    {
+      "rank": 2,
+      "model": "gpt-5.5",
+      "avg_score": 5.0,
+      "avg_cost": 0.001591
+    },
+    {
+      "rank": 3,
+      "model": "seed-2-0-pro-260328",
+      "avg_score": 4.98,
+      "avg_cost": 0.001171
+    },
+    {
+      "rank": 4,
+      "model": "qwen/qwen3.6-plus",
+      "avg_score": 4.98,
+      "avg_cost": 0.0029
+    },
+    {
+      "rank": 5,
+      "model": "qwen/qwen3.6-max-preview",
+      "avg_score": 4.98,
+      "avg_cost": 0.011788
+    }
+  ],
+  "instruction_following": [
+    {
+      "rank": 1,
+      "model": "qwen/qwen3.6-max-preview",
+      "avg_score": 5.0,
+      "avg_cost": 0.005576
+    },
+    {
+      "rank": 2,
+      "model": "deepseek/deepseek-v4-flash",
+      "avg_score": 4.96,
+      "avg_cost": 0.000139
+    },
+    {
+      "rank": 3,
+      "model": "gpt-5.5",
+      "avg_score": 4.96,
+      "avg_cost": 0.001378
+    },
+    {
+      "rank": 4,
+      "model": "o3",
+      "avg_score": 4.96,
+      "avg_cost": 0.002247
+    },
+    {
+      "rank": 5,
+      "model": "deepseek/deepseek-v3.2",
+      "avg_score": 4.92,
+      "avg_cost": 0.000132
+    }
+  ],
+  "structured_output": [
+    {
+      "rank": 1,
+      "model": "google/gemma-4-26b-a4b-it",
+      "avg_score": 5.0,
+      "avg_cost": 1.4e-05
+    },
+    {
+      "rank": 2,
+      "model": "mistral-small-latest",
+      "avg_score": 5.0,
+      "avg_cost": 4.2e-05
+    },
+    {
+      "rank": 3,
+      "model": "gpt-4o-mini",
+      "avg_score": 5.0,
+      "avg_cost": 6.9e-05
+    },
+    {
+      "rank": 4,
+      "model": "gemini-2.5-flash",
+      "avg_score": 5.0,
+      "avg_cost": 8.4e-05
+    },
+    {
+      "rank": 5,
+      "model": "qwen/qwen3-coder",
+      "avg_score": 5.0,
+      "avg_cost": 0.00011
+    }
+  ],
+  "extraction_hard_v2": [
+    {
+      "rank": 1,
+      "model": "meta-llama/llama-4-maverick",
+      "avg_score": 5.0,
+      "avg_cost": 0.000182
+    },
+    {
+      "rank": 2,
+      "model": "gpt-5.5-pro",
+      "avg_score": 5.0,
+      "avg_cost": 0.030795
+    },
+    {
+      "rank": 3,
+      "model": "devstral-latest",
+      "avg_score": 4.98,
+      "avg_cost": 0.00011
+    },
+    {
+      "rank": 4,
+      "model": "o4-mini",
+      "avg_score": 4.96,
+      "avg_cost": 0.004289
+    },
+    {
+      "rank": 5,
+      "model": "claude-sonnet-4-20250514",
+      "avg_score": 4.96,
+      "avg_cost": 0.005042
+    }
+  ],
+  "json_transform_v2": [
+    {
+      "rank": 1,
+      "model": "gemini-2.5-pro",
+      "avg_score": 4.94,
+      "avg_cost": 0.001165
+    },
+    {
+      "rank": 2,
+      "model": "qwen/qwen3-coder",
+      "avg_score": 4.88,
+      "avg_cost": 9.5e-05
+    },
+    {
+      "rank": 3,
+      "model": "bytedance-seed/seed-2.0-lite",
+      "avg_score": 4.88,
+      "avg_cost": 0.000644
+    },
+    {
+      "rank": 4,
+      "model": "kimi-k2.6",
+      "avg_score": 4.86,
+      "avg_cost": 0.003816
+    },
+    {
+      "rank": 5,
+      "model": "bytedance-seed/seed-1.6-flash",
+      "avg_score": 4.86,
+      "avg_cost": 0.00028
+    }
+  ],
+  "email_summary_v2": [
+    {
+      "rank": 1,
+      "model": "gpt-5.4-nano",
+      "avg_score": 5.0,
+      "avg_cost": 3.8e-05
+    },
+    {
+      "rank": 2,
+      "model": "gpt-5.4-mini",
+      "avg_score": 5.0,
+      "avg_cost": 0.000112
+    },
+    {
+      "rank": 3,
+      "model": "mistral-medium-latest",
+      "avg_score": 5.0,
+      "avg_cost": 0.000193
+    },
+    {
+      "rank": 4,
+      "model": "x-ai/grok-code-fast-1",
+      "avg_score": 5.0,
+      "avg_cost": 0.000267
+    },
+    {
+      "rank": 5,
+      "model": "x-ai/grok-4.20",
+      "avg_score": 5.0,
+      "avg_cost": 0.000966
+    }
+  ],
+  "long_summarization": [
+    {
+      "rank": 1,
+      "model": "x-ai/grok-code-fast-1",
+      "avg_score": 5.0,
+      "avg_cost": 0.000442
+    },
+    {
+      "rank": 2,
+      "model": "bytedance-seed/seed-2.0-lite",
+      "avg_score": 5.0,
+      "avg_cost": 0.00138
+    },
+    {
+      "rank": 3,
+      "model": "seed-2-0-code-preview-260328",
+      "avg_score": 5.0,
+      "avg_cost": 0.002656
+    },
+    {
+      "rank": 4,
+      "model": "x-ai/grok-4-fast",
+      "avg_score": 4.98,
+      "avg_cost": 0.000453
+    },
+    {
+      "rank": 5,
+      "model": "mistral-medium-latest",
+      "avg_score": 4.98,
+      "avg_cost": 0.000501
+    }
+  ],
+  "data_to_text": [
+    {
+      "rank": 1,
+      "model": "qwen/qwen-turbo",
+      "avg_score": 5.0,
+      "avg_cost": 7e-06
+    },
+    {
+      "rank": 2,
+      "model": "google/gemma-4-26b-a4b-it",
+      "avg_score": 5.0,
+      "avg_cost": 1.2e-05
+    },
+    {
+      "rank": 3,
+      "model": "devstral-latest",
+      "avg_score": 5.0,
+      "avg_cost": 4e-05
+    },
+    {
+      "rank": 4,
+      "model": "mistral-small-latest",
+      "avg_score": 5.0,
+      "avg_cost": 4.1e-05
+    },
+    {
+      "rank": 5,
+      "model": "gemini-2.5-flash",
+      "avg_score": 5.0,
+      "avg_cost": 6.5e-05
+    }
+  ],
+  "ner_extraction": [
+    {
+      "rank": 1,
+      "model": "google/gemma-4-26b-a4b-it",
+      "avg_score": 4.82,
+      "avg_cost": 7e-06
+    },
+    {
+      "rank": 2,
+      "model": "gemini-3.1-pro-preview",
+      "avg_score": 4.8,
+      "avg_cost": 0.000876
+    },
+    {
+      "rank": 3,
+      "model": "devstral-latest",
+      "avg_score": 4.74,
+      "avg_cost": 1.8e-05
+    },
+    {
+      "rank": 4,
+      "model": "gemini-2.5-flash",
+      "avg_score": 4.74,
+      "avg_cost": 4.2e-05
+    },
+    {
+      "rank": 5,
+      "model": "gemini-2.5-pro",
+      "avg_score": 4.74,
+      "avg_cost": 0.000585
+    }
+  ]
+}
