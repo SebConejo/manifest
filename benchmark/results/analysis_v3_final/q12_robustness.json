@@ -4,32 +4,119 @@
     "4.5": 5,
     "4.7": 0
   },
-  "seed_lite_per_task": {
-    "rag_qa": 4.5,
-    "instruction_following": 4.54,
-    "moderation_toxigen": 4.6,
-    "ner_extraction": 4.62,
-    "intent_clinc150": 4.7,
-    "function_calling": 4.755,
-    "sql_spider": 4.76,
-    "test_generation_v2": 4.804,
-    "translation_enfr": 4.84,
-    "code_generation": 4.86,
-    "json_transform_v2": 4.88,
-    "email_summary_v2": 4.88,
-    "reasoning_gsm8k": 4.92,
-    "extraction_hard_v2": 4.94,
-    "structured_output": 4.976,
-    "code_explanation": 4.979,
-    "sentiment_sst2": 5.0,
-    "multistep_reasoning": 5.0,
-    "code_review_v2": 5.0,
-    "long_summarization": 5.0,
-    "data_to_text": 5.0
+  "cheapest_per_task": {
+    "sentiment_sst2": {
+      "model": "gpt-5.4-nano",
+      "score": 4.9,
+      "cost": 8e-06
+    },
+    "intent_clinc150": {
+      "model": "google/gemma-4-26b-a4b-it",
+      "score": 4.6,
+      "cost": 3.8e-05
+    },
+    "moderation_toxigen": {
+      "model": "microsoft/phi-4",
+      "score": 4.5,
+      "cost": 5e-06
+    },
+    "multistep_reasoning": {
+      "model": "microsoft/phi-4",
+      "score": 5.0,
+      "cost": 2.2e-05
+    },
+    "reasoning_gsm8k": {
+      "model": "gpt-5.4-nano",
+      "score": 4.92,
+      "cost": 5.8e-05
+    },
+    "rag_qa": {
+      "model": "qwen/qwen-turbo",
+      "score": 4.6,
+      "cost": 8e-06
+    },
+    "code_generation": {
+      "model": "gpt-5.4-nano",
+      "score": 4.78,
+      "cost": 4.6e-05
+    },
+    "code_review_v2": {
+      "model": "gpt-5.4-nano",
+      "score": 5.0,
+      "cost": 0.000343
+    },
+    "code_explanation": {
+      "model": "gpt-5.4-nano",
+      "score": 4.938,
+      "cost": 4.4e-05
+    },
+    "test_generation_v2": {
+      "model": "gpt-5.4-nano",
+      "score": 4.98,
+      "cost": 0.000252
+    },
+    "function_calling": {
+      "model": "gpt-5.4-nano",
+      "score": 4.62,
+      "cost": 1.9e-05
+    },
+    "sql_spider": {
+      "model": "gpt-5.4-nano",
+      "score": 4.7,
+      "cost": 2.5e-05
+    },
+    "translation_enfr": {
+      "model": "gpt-5.4-nano",
+      "score": 4.92,
+      "cost": 1.9e-05
+    },
+    "instruction_following": {
+      "model": "gpt-5.4-nano",
+      "score": 4.8,
+      "cost": 3.7e-05
+    },
+    "structured_output": {
+      "model": "gpt-5.4-nano",
+      "score": 4.927,
+      "cost": 4.7e-05
+    },
+    "extraction_hard_v2": {
+      "model": "gpt-5.4-nano",
+      "score": 4.88,
+      "cost": 0.000128
+    },
+    "json_transform_v2": {
+      "model": "gpt-5.4-nano",
+      "score": 4.66,
+      "cost": 3.4e-05
+    },
+    "email_summary_v2": {
+      "model": "gpt-5.4-nano",
+      "score": 5.0,
+      "cost": 3.8e-05
+    },
+    "long_summarization": {
+      "model": "gpt-5.4-nano",
+      "score": 4.94,
+      "cost": 0.000102
+    },
+    "data_to_text": {
+      "model": "gpt-5.4-nano",
+      "score": 4.98,
+      "cost": 4e-05
+    },
+    "ner_extraction": {
+      "model": "microsoft/phi-4",
+      "score": 4.52,
+      "cost": 7e-06
+    }
   },
-  "seed_lite_avg_cost": 0.000936,
-  "routed_avg_cost": 1.1e-05,
-  "routing_savings_vs_seed": 98.8,
+  "unique_cheapest": [
+    "google/gemma-4-26b-a4b-it",
+    "gpt-5.4-nano",
+    "microsoft/phi-4",
+    "qwen/qwen-turbo"
+  ],
   "all_covering_4_5": [
     [
       "x-ai/grok-4-fast",

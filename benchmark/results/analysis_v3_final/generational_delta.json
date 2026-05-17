@@ -6,8 +6,8 @@
     "new_price": 1.0,
     "price_change_pct": -60,
     "avg_quality_delta": 0.089,
-    "improved": 7,
-    "same": 11,
+    "improved": 6,
+    "same": 12,
     "worse": 3,
     "n_tasks": 21,
     "per_task": {
@@ -244,9 +244,9 @@
     "new_price": 3.0,
     "price_change_pct": 0,
     "avg_quality_delta": 0.003,
-    "improved": 4,
-    "same": 12,
-    "worse": 5,
+    "improved": 3,
+    "same": 14,
+    "worse": 4,
     "n_tasks": 21,
     "per_task": {
       "sentiment_sst2": {

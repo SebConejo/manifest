@@ -1,8 +1,5 @@
 {
   "r_verbosity_vs_delta": 0.2174,
   "p_verbosity_vs_delta": 0.133428,
-  "r_verbosity_vs_v1": 0.0152,
-  "r_verbosity_vs_v2": 0.1212,
-  "n_models": 49,
-  "interpretation": "Verbose models rose 0.22 more in V2. V1 rewarded verbosity (r=0.015). V2 rewarded verbosity (r=0.121)."
+  "n_models": 49
 }

@@ -24,8 +24,8 @@
     ]
   },
   "closed": {
-    "n": 29,
-    "avg": 4.787,
+    "n": 30,
+    "avg": 4.786,
     "models": [
       "MiniMax-M2.7",
       "bytedance-seed/seed-1.6-flash",
@@ -35,6 +35,7 @@
       "claude-opus-4-7",
       "claude-sonnet-4-20250514",
       "claude-sonnet-4-6",
+      "deepseek/deepseek-v4-flash",
       "gemini-2.5-flash",
       "gemini-2.5-pro",
       "gemini-3.1-pro-preview",
@@ -58,11 +59,6 @@
       "x-ai/grok-code-fast-1"
     ]
   },
-  "mann_whitney_p": 0.0003,
-  "significant": true,
-  "debatable_classifications": [
-    "deepseek/deepseek-v4-pro: open weights but proprietary training",
-    "qwen/qwen3.6-max-preview: open weights but some versions restricted",
-    "mistral-small-latest: technically open (Apache 2.0) but accessed via API here"
-  ]
+  "mann_whitney_p": 0.0004,
+  "significant": true
 }

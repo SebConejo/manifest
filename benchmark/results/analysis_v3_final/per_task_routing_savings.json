@@ -3,147 +3,126 @@
     "o3_cost": 0.000457,
     "cheapest_model": "qwen/qwen-turbo",
     "cheapest_cost": 2e-06,
-    "cheapest_score": 4.6,
     "savings_pct": 99.5
   },
   "intent_clinc150": {
     "o3_cost": 0.001319,
     "cheapest_model": "qwen/qwen-turbo",
     "cheapest_cost": 1.7e-05,
-    "cheapest_score": 4.1,
     "savings_pct": 98.7
   },
   "moderation_toxigen": {
     "o3_cost": 0.000727,
     "cheapest_model": "qwen/qwen-turbo",
     "cheapest_cost": 2e-06,
-    "cheapest_score": 4.2,
     "savings_pct": 99.7
   },
   "multistep_reasoning": {
     "o3_cost": 0.001445,
     "cheapest_model": "ministral-3b-latest",
     "cheapest_cost": 5e-06,
-    "cheapest_score": 4.5,
     "savings_pct": 99.7
   },
   "reasoning_gsm8k": {
     "o3_cost": 0.002525,
     "cheapest_model": "qwen/qwen-turbo",
     "cheapest_cost": 1e-05,
-    "cheapest_score": 4.96,
     "savings_pct": 99.6
   },
   "rag_qa": {
     "o3_cost": 0.001343,
     "cheapest_model": "qwen/qwen-turbo",
     "cheapest_cost": 8e-06,
-    "cheapest_score": 4.6,
     "savings_pct": 99.4
   },
   "code_generation": {
     "o3_cost": 0.004759,
     "cheapest_model": "qwen/qwen-turbo",
     "cheapest_cost": 7e-06,
-    "cheapest_score": 4.38,
     "savings_pct": 99.8
   },
   "code_review_v2": {
     "o3_cost": 0.013066,
     "cheapest_model": "qwen/qwen-turbo",
     "cheapest_cost": 2.9e-05,
-    "cheapest_score": 4.86,
     "savings_pct": 99.8
   },
   "code_explanation": {
     "o3_cost": 0.001555,
     "cheapest_model": "meta-llama/llama-3.2-1b-instruct",
     "cheapest_cost": 5e-06,
-    "cheapest_score": 4.188,
     "savings_pct": 99.6
   },
   "test_generation_v2": {
     "o3_cost": 0.012863,
     "cheapest_model": "qwen/qwen-turbo",
     "cheapest_cost": 2.2e-05,
-    "cheapest_score": 4.78,
     "savings_pct": 99.8
   },
   "function_calling": {
     "o3_cost": 0.001914,
     "cheapest_model": "qwen/qwen-turbo",
     "cheapest_cost": 4e-06,
-    "cheapest_score": 4.7,
     "savings_pct": 99.8
   },
   "sql_spider": {
     "o3_cost": 0.003101,
     "cheapest_model": "qwen/qwen-turbo",
     "cheapest_cost": 3e-06,
-    "cheapest_score": 4.32,
     "savings_pct": 99.9
   },
   "translation_enfr": {
     "o3_cost": 0.001974,
     "cheapest_model": "qwen/qwen-turbo",
     "cheapest_cost": 3e-06,
-    "cheapest_score": 4.7,
     "savings_pct": 99.8
   },
   "instruction_following": {
     "o3_cost": 0.002247,
     "cheapest_model": "qwen/qwen-turbo",
     "cheapest_cost": 4e-06,
-    "cheapest_score": 4.72,
     "savings_pct": 99.8
   },
   "structured_output": {
     "o3_cost": 0.002507,
     "cheapest_model": "meta-llama/llama-3.2-1b-instruct",
     "cheapest_cost": 7e-06,
-    "cheapest_score": 4.707,
     "savings_pct": 99.7
   },
   "extraction_hard_v2": {
     "o3_cost": 0.005361,
     "cheapest_model": "qwen/qwen-turbo",
     "cheapest_cost": 1.7e-05,
-    "cheapest_score": 4.86,
     "savings_pct": 99.7
   },
   "json_transform_v2": {
     "o3_cost": 0.004199,
     "cheapest_model": "qwen/qwen-turbo",
     "cheapest_cost": 7e-06,
-    "cheapest_score": 4.66,
     "savings_pct": 99.8
   },
   "email_summary_v2": {
     "o3_cost": 0.00223,
     "cheapest_model": "meta-llama/llama-3.2-1b-instruct",
     "cheapest_cost": 5e-06,
-    "cheapest_score": 4.08,
     "savings_pct": 99.8
   },
   "long_summarization": {
     "o3_cost": 0.002863,
     "cheapest_model": "qwen/qwen-turbo",
     "cheapest_cost": 1.4e-05,
-    "cheapest_score": 4.16,
     "savings_pct": 99.5
   },
   "data_to_text": {
     "o3_cost": 0.0019,
     "cheapest_model": "qwen/qwen-turbo",
     "cheapest_cost": 7e-06,
-    "cheapest_score": 5.0,
     "savings_pct": 99.6
   },
   "ner_extraction": {
     "o3_cost": 0.001613,
     "cheapest_model": "qwen/qwen-turbo",
     "cheapest_cost": 4e-06,
-    "cheapest_score": 4.54,
     "savings_pct": 99.8
   }
 }

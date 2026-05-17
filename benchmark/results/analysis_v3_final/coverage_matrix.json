@@ -1,36 +1,9 @@
 {
-  "threshold": 4.5,
-  "greedy_set": [
-    {
-      "model": "bytedance-seed/seed-2.0-lite",
-      "price_per_m": 0.075,
-      "avg_cost_per_query": 0.000936,
-      "tasks_covered": [
-        "code_explanation",
-        "code_generation",
-        "code_review_v2",
-        "data_to_text",
-        "email_summary_v2",
-        "extraction_hard_v2",
-        "function_calling",
-        "instruction_following",
-        "intent_clinc150",
-        "json_transform_v2",
-        "long_summarization",
-        "moderation_toxigen",
-        "multistep_reasoning",
-        "ner_extraction",
-        "rag_qa",
-        "reasoning_gsm8k",
-        "sentiment_sst2",
-        "sql_spider",
-        "structured_output",
-        "test_generation_v2",
-        "translation_enfr"
-      ],
-      "cumulative": 21
-    }
-  ],
+  "thresholds": {
+    "4.0": 37,
+    "4.5": 5,
+    "4.7": 0
+  },
   "cheapest_per_task": {
     "sentiment_sst2": {
       "model": "gpt-5.4-nano",
@@ -144,6 +117,31 @@
     "microsoft/phi-4",
     "qwen/qwen-turbo"
   ],
-  "n_models_greedy": 1,
-  "n_models_cheapest": 4
+  "all_covering_4_5": [
+    [
+      "x-ai/grok-4-fast",
+      0.000435,
+      4.841
+    ],
+    [
+      "bytedance-seed/seed-2.0-mini",
+      0.000607,
+      4.834
+    ],
+    [
+      "gpt-5.4",
+      0.000719,
+      4.812
+    ],
+    [
+      "bytedance-seed/seed-2.0-lite",
+      0.000936,
+      4.836
+    ],
+    [
+      "o3",
+      0.003332,
+      4.842
+    ]
+  ]
 }
