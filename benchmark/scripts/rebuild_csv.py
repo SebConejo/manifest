@@ -26,9 +26,9 @@ MODELS = {
     "claude-sonnet-4-6": {"provider": "anthropic", "input_price": 3.00, "output_price": 15.00},
     "claude-haiku-4-5-20251001": {"provider": "anthropic", "input_price": 0.80, "output_price": 4.00},
     "gpt-5.5": {"provider": "openai", "input_price": 3.00, "output_price": 12.00},
-    "gpt-5.5-pro": {"provider": "openai_responses", "input_price": 5.00, "output_price": 20.00},
+    "gpt-5.5-pro": {"provider": "openai_responses", "input_price": 15.00, "output_price": 75.00},
     "o3": {"provider": "openai", "input_price": 2.00, "output_price": 8.00},
-    "gpt-5.4": {"provider": "openai", "input_price": 2.00, "output_price": 8.00},
+    "gpt-5.4": {"provider": "openai", "input_price": 1.00, "output_price": 4.00},
     "gpt-5.4-mini": {"provider": "openai", "input_price": 0.30, "output_price": 1.20},
     "gpt-5.4-nano": {"provider": "openai", "input_price": 0.10, "output_price": 0.40},
     "gpt-4o": {"provider": "openai", "input_price": 2.50, "output_price": 10.00},
@@ -70,7 +70,7 @@ MODELS = {
     "nvidia/nemotron-3-super-120b-a12b": {"provider": "openrouter", "input_price": 0.09, "output_price": 0.09},
     "DeepSeek-V3.2": {"provider": "azure", "input_price": 0.30, "output_price": 1.10},
     "DeepSeek-R1": {"provider": "azure", "input_price": 0.55, "output_price": 2.19},
-    "gpt-5.1-chat": {"provider": "azure", "input_price": 2.00, "output_price": 8.00},
+    "gpt-5.1-chat": {"provider": "azure", "input_price": 0.80, "output_price": 3.20},
     "o4-mini": {"provider": "azure", "input_price": 1.10, "output_price": 4.40},
     "grok-4-20-non-reasoning": {"provider": "azure", "input_price": 2.00, "output_price": 8.00},
     "grok-4-20-reasoning": {"provider": "azure", "input_price": 2.00, "output_price": 8.00},
@@ -150,7 +150,8 @@ def main():
         task = data.get("task", "")
         case_idx = data.get("case", "")
         response = data.get("response", "") or ""
-        score = data.get("score", 0) or 0
+        # Prefer V2 judge score if available, fall back to V1
+        score = data.get("judge_v2_score") or data.get("score", 0) or 0
         cost = data.get("cost", 0) or 0
         tokens = data.get("tokens", {})
 
